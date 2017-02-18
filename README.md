@@ -24,7 +24,7 @@ TODO
 
 ## Лиценз
 
-Книгата се разпространява безплатно под отворен лиценз [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Книгата се разпространява безплатно в електорнен формат под отворен лиценз [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 
 
