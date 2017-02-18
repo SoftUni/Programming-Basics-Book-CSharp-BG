@@ -10,6 +10,7 @@
 * [Чертане на фигурки с цикли](chapter-6-drawing-at-the-console.md)
 * [По-сложни цикли](chapter-7-complex-loops.md)
 * [Подготовка за практически изпит](chapter-8-exam-preparation.md)
+* [Заключение](chapter-9-conclusion.md)
 
 
 
