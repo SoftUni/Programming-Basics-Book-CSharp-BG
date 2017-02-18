@@ -1,3 +1,4 @@
-# My Awesome Book
+# Предговор
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Книгата "**Основи на програмирането**" е официален учебник за **курса "Programming Basics" **в Софтуерния университет \(СофтУни\): [https://softuni.bg/courses/programming-basics](https://softuni.bg/courses/programming-basics). Книгата запознава читателите с писането на **програмен код **на начално ниво \(basic coding skills\), работа със **среда за разработка **\(IDE\), използване на **променливи **и данни, **оператори **и **изрази**, работа с **конзолата **\(четене на входни данни и печатане на резултати\), използване на условни конструкции \(**if**, **if**-**else**, **switch**-**case**\) и цикли \(**for**, **while**, **do**-**while**, **for**-**each**\). Използват се езикът за програмиране C\# и средата за разработка Visual Studio.
+

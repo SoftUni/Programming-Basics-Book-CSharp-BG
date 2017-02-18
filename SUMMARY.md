@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Предговор](README.md)
+* [Първи стъпки в програмирането](chapter1.md)
+* Прости пресмятания
+
