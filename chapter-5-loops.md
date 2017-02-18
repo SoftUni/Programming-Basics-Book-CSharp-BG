@@ -17,25 +17,3 @@ for (var i = 1; i <= 10; i++)
 
 
 
-Let’s start funding some money to the ```powerCoin``` address, ```satoshi```, ```alice``` and ```bob```.  
-
-```cs
-var powerCoin = new Key();
-var alice = new Key();
-var bob = new Key();
-var satoshi = new Key();
-var init = new Transaction()
-{
-    Outputs = 
-    {
-        new TxOut(Money.Coins(1.0m), powerCoin),
-        new TxOut(Money.Coins(1.0m), alice),
-        new TxOut(Money.Coins(1.0m), bob),
-        new TxOut(Money.Coins(1.0m), satoshi),
-    }
-};
-
-var repo = new NoSqlColoredTransactionRepository();
-repo.Transactions.Put(init);
-```  
-
