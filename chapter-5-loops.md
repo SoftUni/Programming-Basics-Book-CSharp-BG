@@ -74,7 +74,29 @@ TODO
 
 | Вход | Изход | Вход | Изход | Вход | Изход |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2<br>10<br>20 | 30 |  |  |  |  |
+| 2<br>10<br>20 | 30 | 3<br>-10<br>-20<br>-30 | -60 | 4<br>45<br>-20<br>7<br>11<br> | 43 |
 
+Можем да решеим задачата по следния начин:
+ - Четем входното число `n`.
+ - Започваме първоначално със сума `sum` = 0.
+ - Въртим цикъл от 1 до `n` и на всяка стъпка от цикъла четем число `num` и го добавяме към сумата `sum`.
+ - Накрая отпечатваме получената сума `sum`.
+ 
+Ето го и сорс кода на решението:
+
+```cs
+Console.Write("n = ");
+var n = int.Parse(Console.ReadLine());
+Console.WriteLine("Enter the numbers:");
+var sum = 0;
+for (var i = 0; i < n; i++)
+{
+   var num = int.Parse(Console.ReadLine());
+   sum = sum + num;
+}
+Console.WriteLine("sum = " + sum);
+
+```
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/154.
 
 
