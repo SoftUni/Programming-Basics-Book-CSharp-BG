@@ -7,13 +7,11 @@
 * [Прости пресмятания](chapter-2-simple-calculations.md)
 * [Прости проверки](chapter-3-simple-conditions.md)
 * [По-сложни проверки](chapter-4-complex-conditions.md)
-* [Повторения \(цикли\)](chapter-5-loops.md)
+* [Повторения (цикли)](chapter-5-loops.md)
 * [Чертане на фигурки с цикли](chapter-6-drawing-at-the-console.md)
 * [По-сложни цикли](chapter-7-complex-loops.md)
 * [Подготовка за практически изпит](chapter-8-exam-preparation.md)
 * [Заключение](chapter-9-conclusion.md)
-
-# 
 
 
 
