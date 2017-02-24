@@ -101,13 +101,11 @@ Console.WriteLine("sum = " + sum);
 ```
 Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/154.
 
-<p style="width:200px; height:100px; border:1px solid green; display:inline-block">
+<div style="width:200px; height:100px; border:1px solid green; display:inline-block">
 first
-</p>
-<p style="width:200px; height:100px; border:1px solid green; display:inline-block">
+</div>
+<div style="width:200px; height:100px; border:1px solid green; display:inline-block">
 second
-</p>
-
-
+</div>
 
 
