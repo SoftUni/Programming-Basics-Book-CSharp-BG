@@ -13,4 +13,6 @@
 * [5.2. Цикли - изпитни задачи](chapter-5-loops-exam-problems.md)
 * [6.1. Чертане на фигурки с цикли](chapter-6-drawing-at-the-console.md)
 * [6.2. Чертане на фигурки с цикли - изпитни задачи](chapter-6-drawing-at-the-console-exam-problems.md)
+* [7.1. По-сложни цикли](chapter-7-complex-loops.md)
+* [7.2. По-сложни цикли - изпитни задачи](chapter-7-complex-loops-exam-problems.md)
 
