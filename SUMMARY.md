@@ -17,4 +17,8 @@
 * [7.2. По-сложни цикли - изпитни задачи](chapter-7-complex-loops-exam-problems.md)
 * [8.1. Подготовка за практически изпит \(задачите от слайдовете\)](chapter-8-exam-preparation.md)
 * [8.2. Подготовка за практически изпит \(изпитни задачи от 18-December-2016\)](chapter-8-exam-preparation-part-2.md)
+* [9.1. Задачи за шампиони - част 1](chapter-9-problems-for-champions.md)
+* [9.2. Задачи за шампиони - част 2](chapter-9-problems-for-champions-part-2.md)
+* [10. Хитрости и хакове](chapter-10-tricks-and-hacks.md)
+* Заключение
 
