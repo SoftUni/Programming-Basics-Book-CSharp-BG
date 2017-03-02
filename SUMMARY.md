@@ -20,5 +20,5 @@
 * [9.1. Задачи за шампиони - част 1](chapter-9-problems-for-champions.md)
 * [9.2. Задачи за шампиони - част 2](chapter-9-problems-for-champions-part-2.md)
 * [10. Хитрости и хакове](chapter-10-tricks-and-hacks.md)
-* Заключение
+* [Заключение](chapter-11-conclusion.md)
 
