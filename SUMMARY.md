@@ -15,4 +15,6 @@
 * [6.2. Чертане на фигурки с цикли - изпитни задачи](chapter-6-drawing-at-the-console-exam-problems.md)
 * [7.1. По-сложни цикли](chapter-7-complex-loops.md)
 * [7.2. По-сложни цикли - изпитни задачи](chapter-7-complex-loops-exam-problems.md)
+* [8.1. Подготовка за практически изпит \(задачите от слайдовете\)](chapter-8-exam-preparation.md)
+* [8.2. Подготовка за практически изпит \(изпитни задачи от 18-December-2016\)](chapter-8-exam-preparation-part-2.md)
 
