@@ -198,7 +198,7 @@ Console.WriteLine("Perimeter = {0}", 2 * (width + height));
 
 TODO: judge link
 
-## Какво научихме от тази тема?
+## Какво научихме от тази глава?
 
 Въвеждане на текст
 
@@ -246,6 +246,3 @@ TODO: да се следва файла "2. Simple-Calculations-Exercises.docx"
 ### *** Графично приложение: хвани бутона!
 
 TODO: да се следва файла "2. Simple-Calculations-Exercises.docx"
-
-
-
