@@ -1,7 +1,7 @@
 # Глава 6. Чертане на фигурки с цикли - изпитни задачи
 
 Testing : Pull from local repo
-
+Testing : Yet another test from local repo
 ## Чертане на крепост
 
 TODO: описание
