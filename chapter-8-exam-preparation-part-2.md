@@ -37,9 +37,9 @@ TODO: картинка
 </thead>
 <tbody>
 <tr>
-<td>90<br>60<br>70<br>80</td>
-<td>330.90</td>
-<td>
+<td valign="top">90<br>60<br>70<br>80</td>
+<td valign="top">330.90</td>
+<td valign="top">
     <strong>Разстояние с първонач.скорост</strong> – 90 км/ч * 1час(60мин) = <strong>90 км</strong>
     <br>
     <strong>След увеличението</strong> – 90 + 10% = 99.00 км/ч * 1.166часа(70 мин) = <strong>115.50 км</strong>
@@ -62,9 +62,9 @@ TODO: картинка
 </thead>
 <tbody>
 <tr>
-<td>140<br>112<br>75<br>190</td>
-<td>917.12</td>
-<td>
+<td valign="top">140<br>112<br>75<br>190</td>
+<td valign="top">917.12</td>
+<td valign="top">
     <strong>Разстояние с първонач.скорост</strong> – 140 км/ч * 1.86часa(112мин) = <strong>261.33 км</strong>
     <br>
     <strong>След увеличението</strong> – 140 + 10% = 154.00 км/ч * 1.25часа(75 мин) = <strong>192.5 км</strong>
@@ -188,9 +188,9 @@ TODO: картинка
 </thead>
 <tbody>
 <tr>
-<td>500<br>3<br>2.5<br>0.5<br>0.7<br>7.80<br>100</td>
-<td>25.60 lv left.</td>
-<td>
+<td valign="top">500<br>3<br>2.5<br>0.5<br>0.7<br>7.80<br>100</td>
+<td valign="top">25.60 lv left.</td>
+<td valign="top">
     <strong>Площ на пода</strong> → 3 * 2.5 = <strong>7.5</strong>
     <br>
     <strong>Площта на плочка</strong> → 0.5 * 0.7 / 2 = <strong>0.175</strong>
@@ -215,16 +215,16 @@ TODO: картинка
 </thead>
 <tbody>
 <tr>
-<td>1000<br>5.55<br>8.95<br>0.90<br>0.85<br>13.99<br>321</td>
-<td>You'll need 1209.65 lv more.</td>
-<td>
+<td valign="top">1000<br>5.55<br>8.95<br>0.90<br>0.85<br>13.99<br>321</td>
+<td valign="top">You'll need 1209.65 lv more.</td>
+<td valign="top">
     <strong>Площ на пода</strong> → 5.55 * 8.95 = <strong>49.67249</strong>
     <br>
     <strong>Площта на плочка</strong> → 0.9 * 0.85 / 2 = <strong>0.3825</strong>
     <br>
     <strong>Необходими плочки</strong> → 49.67249 / 0.3825 = 129.86... = 130 + 5 фира = <strong>135</strong>
     <br>
-    <strong>Обща сума</strong> → 135 * 13.99 + 321(sмайстор) = <strong>2209.65</strong>
+    <strong>Обща сума</strong> → 135 * 13.99 + 321(майстор) = <strong>2209.65</strong>
     <br>
     <strong>2209.65 > 1000 → остават 1209.65 лева</strong>
 </td>
@@ -320,9 +320,9 @@ TODO: картинка
 </thead>
 <tbody>
 <tr>
-<td>2<br>4<br>8<br>Spring<br>Y</td>
-<td>46.14</td>
-<td>
+<td valign="top">2<br>4<br>8<br>Spring<br>Y</td>
+<td valign="top">46.14</td>
+<td valign="top">
     <strong>Цена: 2*2.00 + 4*4.10 + 8*2.50 = 40.40 лв.</strong>
     <br>
     <strong>Празничен ден</strong> 40.40 + <strong>15%</strong> = 46.46 лв.
@@ -347,9 +347,9 @@ TODO: картинка
 </thead>
 <tbody>
 <tr>
-<td>3<br>10<br>9<br>Winter<br>N</td>
-<td>69.39</td>
-<td>
+<td valign="top">3<br>10<br>9<br>Winter<br>N</td>
+<td valign="top">69.39</td>
+<td valign="top">
     <strong>Цена: 3*3.75 + 10*4.50 + 9*4.15 = 93.60 лв.</strong>
     <br>
     Не е празничен ден – <strong>няма увеличение</strong>
@@ -417,7 +417,49 @@ TODO: картинка
 
 ### Примерен вход и изход
 
-TO DO
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Обяснения</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">10<br>3.00<br>2.99<br>5.68<br>3.01<br>4<br>4<br>6.00<br>4.50<br>2.44<br>5</td>
+<td valign="top">Top students: 30.00%<br>Between 4.00 and 4.99: 30.00%<br>Between 3.00 and 3.99: 20.00%<br>Fail: 20.00%<br>Average: 4.06</td>
+<td valign="top">
+    5 и повече – трима = 30% от 10
+    <br>
+    Между 4 и 4.99 – трима = 30% от 10
+    <br>
+    Между 3 и 3.99 – двама = 20% от 10
+    <br>
+    Под 3 – двама = 20% от 10
+    <br>
+    Средният успех: 3 + 2.99 + 5.68 + 3.01 + 4 + 4 + 6 + 4.50 + 2.44 + 5 = 40.62 / 10 = 4.062
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Обяснения</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">6<br>2<br>3<br>4<br>5<br>6<br>2.2</td>
+<td valign="top">Top students: 33.33%<br>Between 4.00 and 4.99: 16.67%<br>Between 3.00 and 3.99: 16.67%<br>Fail: 33.33%<br>Average: 3.70</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
 ### Насоки и подсказки
 
