@@ -262,16 +262,16 @@ TODO: картинка
 </thead>
 <tbody>
 <tr>
-<td>Пролет / Лято</td>
-<td>2.00 лв./бр.</td>
-<td>4.10 лв./бр.</td>
-<td>2.50 лв./бр.</td>
+<td align="center">Пролет / Лято</td>
+<td align="center">2.00 лв./бр.</td>
+<td align="center">4.10 лв./бр.</td>
+<td align="center">2.50 лв./бр.</td>
 </tr>
 <tr>
-<td>Есен / Зима</td>
-<td>3.75 лв./бр.</td>
-<td>4.50 лв./бр.</td>
-<td>4.15 лв./бр.</td>
+<td align="center">Есен / Зима</td>
+<td align="center">3.75 лв./бр.</td>
+<td align="center">4.50 лв./бр.</td>
+<td align="center">4.15 лв./бр.</td>
 </tr>
 </tbody>
 </table>
