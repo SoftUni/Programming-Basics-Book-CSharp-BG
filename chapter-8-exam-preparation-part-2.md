@@ -27,7 +27,55 @@ TODO: картинка
 
 ### Примерен вход и изход
 
-TO DO
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Обяснения</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>90<br>60<br>70<br>80</td>
+<td>330.90</td>
+<td>
+    <strong>Разстояние с първонач.скорост</strong> – 90 км/ч * 1час(60мин) = <strong>90 км</strong>
+    <br>
+    <strong>След увеличението</strong> – 90 + 10% = 99.00 км/ч * 1.166часа(70 мин) = <strong>115.50 км</strong>
+    <br>
+    <strong>След намаляването</strong> – 99 - 5% = 94.05 км/ч * 1.33часа(80мин) = <strong>125.4 км</strong>
+    <br>
+    <strong>Общо изминати – 330.9 км</strong>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Обяснения</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>140<br>112<br>75<br>190</td>
+<td>917.12</td>
+<td>
+    <strong>Разстояние с първонач.скорост</strong> – 140 км/ч * 1.86часa(112мин) = <strong>261.33 км</strong>
+    <br>
+    <strong>След увеличението</strong> – 140 + 10% = 154.00 км/ч * 1.25часа(75 мин) = <strong>192.5 км</strong>
+    <br>
+    <strong>След намаляването</strong> – 154.00 - 5% = 146.29 км/ч * 3.16часа(190мин) = <strong>463.28 км</strong>
+    <br>
+    <strong>Общо изминати – 917.1166 км</strong>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Насоки и подсказки
 
