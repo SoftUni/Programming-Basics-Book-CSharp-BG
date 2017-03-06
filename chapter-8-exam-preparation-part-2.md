@@ -178,7 +178,59 @@ TODO: картинка
 
 ### Примерен вход и изход
 
-TO DO
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Обяснения</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500<br>3<br>2.5<br>0.5<br>0.7<br>7.80<br>100</td>
+<td>25.60 lv left.</td>
+<td>
+    <strong>Площ на пода</strong> → 3 * 2.5 = <strong>7.5</strong>
+    <br>
+    <strong>Площта на плочка</strong> → 0.5 * 0.7 / 2 = <strong>0.175</strong>
+    <br>
+    <strong>Необходими плочки</strong> → 7.5 / 0.175 = 42.857... = 43 + 5 фира = <strong>48</strong>
+    <br>
+    <strong>Обща сума</strong> → 48 * 7.8 + 100(майстор) = <strong>474.4</strong>
+    <br>
+    <strong>474.4 &lt; 500 → остават 25.60 лева</strong>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Обяснения</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1000<br>5.55<br>8.95<br>0.90<br>0.85<br>13.99<br>321</td>
+<td>You'll need 1209.65 lv more.</td>
+<td>
+    <strong>Площ на пода</strong> → 5.55 * 8.95 = <strong>49.67249</strong>
+    <br>
+    <strong>Площта на плочка</strong> → 0.9 * 0.85 / 2 = <strong>0.3825</strong>
+    <br>
+    <strong>Необходими плочки</strong> → 49.67249 / 0.3825 = 129.86... = 130 + 5 фира = <strong>135</strong>
+    <br>
+    <strong>Обща сума</strong> → 135 * 13.99 + 321(sмайстор) = <strong>2209.65</strong>
+    <br>
+    <strong>2209.65 > 1000 → остават 1209.65 лева</strong>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Насоки и подсказки
 
