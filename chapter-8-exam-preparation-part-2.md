@@ -39,7 +39,7 @@ TODO: картинка
 <tr>
 <td valign="top">90<br>60<br>70<br>80</td>
 <td valign="top">330.90</td>
-<td valign="top">
+<td valign="top" width="100%">
     <strong>Разстояние с първонач.скорост</strong> – 90 км/ч * 1час(60мин) = <strong>90 км</strong>
     <br>
     <strong>След увеличението</strong> – 90 + 10% = 99.00 км/ч * 1.166часа(70 мин) = <strong>115.50 км</strong>
@@ -64,7 +64,7 @@ TODO: картинка
 <tr>
 <td valign="top">140<br>112<br>75<br>190</td>
 <td valign="top">917.12</td>
-<td valign="top">
+<td valign="top" width="100%">
     <strong>Разстояние с първонач.скорост</strong> – 140 км/ч * 1.86часa(112мин) = <strong>261.33 км</strong>
     <br>
     <strong>След увеличението</strong> – 140 + 10% = 154.00 км/ч * 1.25часа(75 мин) = <strong>192.5 км</strong>
@@ -100,9 +100,9 @@ TODO: картинка
 
 ![](/assets/exam-prep-2-images/exam-prep-distance-2.png)
 
-За извършване на пресмятанията избираме да използваме тип **decimal**.
+За извършване на пресмятанията избираме да използваме тип <code>decimal</code>.
 
-*Типът данни за реални числа с десетична точност в **C#** е 128-битовият тип **decimal**. Той има точност от 28 до 29 десетични знака. Минималната му стойност е **-7.9×1028**, а максималната е **+7.9×1028**. Стойността му по подразбиране е **0.0м** или **0.0М**. Символът **'m'** накрая указва изрично, че числото е от тип **decimal** (защото по подразбиране всички реални числа са от тип **double**). Най-близките до 0 числа, които могат да бъдат записани в **decimal** са **±1.0 × 10-28**. Видно е, че **decimal** не може да съхранява много големи положителни и отрица­телни числа (например със стотици цифри), нито стойности много близки до 0. За сметка на това този тип почти не прави грешки при финансови пресмятания, защото представя числата като сума от степени на числото 10, при което загубите от закръгляния са много по-малки, отколкото когато се използва двоично представяне. Реалните числа от тип **decimal** са изключително удобни за пресмятания с пари – изчисляване на приходи, задължения, данъци, лихви и т.н.*
+*Типът данни за реални числа с десетична точност в **C#** е 128-битовият тип <code>decimal</code>. Той има точност от 28 до 29 десетични знака. Минималната му стойност е **-7.9×1028**, а максималната е **+7.9×1028**. Стойността му по подразбиране е **0.0м** или **0.0М**. Символът **'m'** накрая указва изрично, че числото е от тип <code>decimal</code> (защото по подразбиране всички реални числа са от тип <code>double</code>). Най близките до 0 числа, които могат да бъдат записани в <code>decimal</code> са **±1.0 × 10-28**. Видно е, че <code>decimal</code> не може да съхранява много големи положителни и отрицателни числа (например със стотици цифри), нито стойности много близки до 0. За сметка на това този тип почти не прави грешки при финансови пресмятания, защото представя числата като сума от степени на числото 10, при което загубите от закръгляния са много по-малки, отколкото когато се използва двоично представяне. Реалните числа от тип <code>decimal</code> са изключително удобни за пресмятания с пари – изчисляване на приходи, задължения, данъци, лихви и т.н.*
 
 Повече за различните типове данни в езика **C#** може да прочетете тук:
 
@@ -189,8 +189,8 @@ TODO: картинка
 <tbody>
 <tr>
 <td valign="top">500<br>3<br>2.5<br>0.5<br>0.7<br>7.80<br>100</td>
-<td valign="top">25.60 lv left.</td>
-<td valign="top">
+<td valign="top" width="20%">25.60 lv left.</td>
+<td valign="top" width="80%">
     <strong>Площ на пода</strong> → 3 * 2.5 = <strong>7.5</strong>
     <br>
     <strong>Площта на плочка</strong> → 0.5 * 0.7 / 2 = <strong>0.175</strong>
@@ -216,8 +216,8 @@ TODO: картинка
 <tbody>
 <tr>
 <td valign="top">1000<br>5.55<br>8.95<br>0.90<br>0.85<br>13.99<br>321</td>
-<td valign="top">You'll need 1209.65 lv more.</td>
-<td valign="top">
+<td valign="top" width="20%">You'll need 1209.65 lv more.</td>
+<td valign="top" width="80%">
     <strong>Площ на пода</strong> → 5.55 * 8.95 = <strong>49.67249</strong>
     <br>
     <strong>Площта на плочка</strong> → 0.9 * 0.85 / 2 = <strong>0.3825</strong>
@@ -322,7 +322,7 @@ TODO: картинка
 <tr>
 <td valign="top">2<br>4<br>8<br>Spring<br>Y</td>
 <td valign="top">46.14</td>
-<td valign="top">
+<td valign="top" width="100%">
     <strong>Цена: 2*2.00 + 4*4.10 + 8*2.50 = 40.40 лв.</strong>
     <br>
     <strong>Празничен ден</strong> 40.40 + <strong>15%</strong> = 46.46 лв.
@@ -349,7 +349,7 @@ TODO: картинка
 <tr>
 <td valign="top">3<br>10<br>9<br>Winter<br>N</td>
 <td valign="top">69.39</td>
-<td valign="top">
+<td valign="top" width="100%">
     <strong>Цена: 3*3.75 + 10*4.50 + 9*4.15 = 93.60 лв.</strong>
     <br>
     Не е празничен ден – <strong>няма увеличение</strong>
@@ -428,8 +428,8 @@ TODO: картинка
 <tbody>
 <tr>
 <td valign="top">10<br>3.00<br>2.99<br>5.68<br>3.01<br>4<br>4<br>6.00<br>4.50<br>2.44<br>5</td>
-<td valign="top">Top students: 30.00%<br>Between 4.00 and 4.99: 30.00%<br>Between 3.00 and 3.99: 20.00%<br>Fail: 20.00%<br>Average: 4.06</td>
-<td valign="top">
+<td valign="top" width="30%">Top students: 30.00%<br>Between 4.00 and 4.99: 30.00%<br>Between 3.00 and 3.99: 20.00%<br>Fail: 20.00%<br>Average: 4.06</td>
+<td valign="top" width="70%">
     5 и повече – трима = 30% от 10
     <br>
     Между 4 и 4.99 – трима = 30% от 10
@@ -449,14 +449,12 @@ TODO: картинка
 <tr>
 <th align="left"><strong>Вход</strong></th>
 <th align="left"><strong>Изход</strong></th>
-<th align="left"><strong>Обяснения</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td valign="top">6<br>2<br>3<br>4<br>5<br>6<br>2.2</td>
-<td valign="top">Top students: 33.33%<br>Between 4.00 and 4.99: 16.67%<br>Between 3.00 and 3.99: 16.67%<br>Fail: 33.33%<br>Average: 3.70</td>
-<td></td>
+<td valign="top" width="100%">Top students: 33.33%<br>Between 4.00 and 4.99: 16.67%<br>Between 3.00 and 3.99: 16.67%<br>Fail: 33.33%<br>Average: 3.70</td>
 </tr>
 </tbody>
 </table>
@@ -636,6 +634,81 @@ TODO: картинка
 Да се отпечатат на **един ред всички комбинации отговарящи на условието плюс броят им разделени с интервал.**
 
 ### Примерен вход и изход
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Обяснения</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">a<br>c<br>b</td>
+<td valign="top" width="50%">aaa aac aca acc caa cac cca ccc 8</td>
+<td valign="top" width="100%">
+Всички възможни комбинации с буквите a, b, и c са:
+<br>
+aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb
+<br>
+bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc
+<br>
+Комбинациите съдържащи b не са валидни.
+<br>
+Остават 8 валидни комбинации
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">f<br>k<br>h</td>
+<td valign="top" width="100%">
+fff ffg ffi ffj ffk fgf fgg fgi fgj fgk fif fig fii fij fik fjf fjg fji fjj
+<br>
+fjk fkf fkg fki fkj fkk gff gfg gfi gfj gfk ggf ggg ggi ggj ggk gif gig gii
+<br>
+gij gik gjf gjg gji gjj gjk gkf gkg gki gkj gkk iff ifg ifi ifj ifk igf igg
+<br>
+igi igj igk iif iig iii iij iik ijf ijg iji ijj ijk ikf ikg iki ikj ikk jff
+<br>
+jfg jfi jfj jfk jgf jgg jgi jgj jgk jif jig jii jij jik jjf jjg jji jjj jjk
+<br>
+jkf jkg jki jkj jkk kff kfg kfi kfj kfk kgf kgg kgi kgj kgk kif kig kii kij
+<br>
+kik kjf kjg kji kjj kjk kkf kkg kki kkj kkk 125
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">a<br>c<br>z</td>
+<td valign="top" width="100%">
+aaa  aab  aac  aba  abb  abc  aca  acb  acc  baa  bab  bac  bba  bbb  bbc  bca  bcb  bcc  caa
+<br>
+cab  cac  cba  cbb  cbc  cca  ccb  ccc  27
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Насоки и подсказки
 
