@@ -44,7 +44,7 @@ TODO: картинка
 
 За извършване на пресмятанията избираме да използваме тип **decimal**.
 
-![](/assets/exam-prep-2/exam-prep-distance-1.png)
+![](/assets/exam-prep-2-images/exam-prep-distance-1.png)
 
 Повече за различните типове данни в езика C\# може да прочетете тук:
 
