@@ -66,7 +66,7 @@ TODO: По добър начин за изобразяване на входно
 
 `Междинна широчина = 2*n - 2*( Math.floor(n/2) + 2 )`
 
-![Image not found](assets/chapter-6-images/roof-4-explanation.png)
+![Image not found](assets/chapter-6-images/roof-4-exlpanation.png)
 
 Ако заместим във формулата, ще забележим, че в примерите за **n<=4** междинната част е **0**.
 
