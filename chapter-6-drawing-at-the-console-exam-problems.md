@@ -32,7 +32,7 @@
     <tr>
     	<td>3</td>
         <td>
-        	<img src="assets/chapter-6-images/fort/fort-output-4.png" width="100px">
+        	<img src="assets/chapter-6-images/fort/fort-output-4.png" width="132px">
         </td>
     </tr>
 </table>
@@ -45,7 +45,7 @@
     <tr>
     	<td>3</td>
         <td>
-        	<img src="assets/chapter-6-images/fort/fort-output-5.png" width="100px">
+        	<img src="assets/chapter-6-images/fort/fort-output-5.png" width="200px">
         </td>
     </tr>
 </table>
@@ -58,7 +58,7 @@
     <tr>
     	<td>3</td>
         <td>
-        	<img src="assets/chapter-6-images/fort/fort-output-8.png" width="100px">
+        	<img src="assets/chapter-6-images/fort/fort-output-8.png" width="264px">
         </td>
     </tr>
 </table>
