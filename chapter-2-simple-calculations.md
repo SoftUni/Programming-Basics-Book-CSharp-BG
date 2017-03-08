@@ -219,10 +219,9 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 
 ## Лице на правоъгълник в равнината – пример
 
-Правоъгълник е зададен с координатитена два от своите срещуположни ъгъла
-Да се пресметнат площта и периметъра му
+Правоъгълник е зададен с координатите на два от своите срещуположни ъгъла. Да се пресметнат площта и периметъра му:
 
-![rectangleArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleArea.png)
+<img alt="rectangleArea" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleArea.png" width="250" height="200" />
 
 ```cs
 double x1 = double.Parse(Console.ReadLine());
