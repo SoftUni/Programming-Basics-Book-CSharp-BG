@@ -19,7 +19,7 @@
     <tr>
     	<td>3</td>
         <td>
-        	<img src="assets/chapter-6-images/output-3.png)">
+        	<img src="assets/chapter-6-images/output-3.png">
         </td>
     </tr>
 </table>
