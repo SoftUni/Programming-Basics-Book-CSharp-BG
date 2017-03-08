@@ -29,14 +29,14 @@ var area = a * a;
 Console.Write("Square area = ");
 Console.WriteLine(area);
 ```
-Тествайте вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/151#0]
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#0
 
 ## Пресмятания в програмирането
 
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**.
 Всяка една **променлива** в C# има **име**, **тип** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията й, присвояваме и стойност:
 
-![declaring variables](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/declaringVariables.png)
+![declaring variables](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/declaringVariables.png)
 
 След тяхната обработка, данните се записват отново в променливи.
 
@@ -68,7 +68,7 @@ Console.Write("Centimeters = ");
 Console.WriteLine(centimeters);
 ```
 
-Тествайте вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/151#1]
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#1
 
 ## Четене и печатане на текст
 
@@ -87,7 +87,7 @@ Console.WriteLine("Hello, {0}!", name);
 ```
 В случая, изразът {0} се замества с първия подаден аргумент -  в примера променливата "name".
 
-Тествайте вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/151#2]
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#2
 
 ## Съединяване на текст и числа
 
@@ -103,7 +103,7 @@ Console.WriteLine(
 ```
 Обърнете внимание, как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество,  шаблонът (плейсхолдър) приема променливи от всякакъв вид. Не се допуска да има шаблони, които да имат една и съща поредност, т.е. два или повече шаблона под номер 2. В такъв случай, вашата програма няма да се компилира. 
 
-Тествайте вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/151#3]
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#3
 
 ## Аритметични операции събиране и изваждане
 
@@ -199,7 +199,7 @@ var h = double.Parse(Console.ReadLine());
 var area = (b1 + b2) * h / 2.0;
 Console.WriteLine("Trapezoid area = " + area);
 ```
-Тестване на решението: [https://judge.softuni.bg/Contests/Practice/Index/151#4]
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/151#4
 
 ## Периметър и лице на кръг – пример
 
@@ -215,15 +215,16 @@ var r = double.Parse(Console.ReadLine());
 Console.WriteLine("Area = " + Math.PI * r * r);
 Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 ```
-Тестване на решението: [https://judge.softuni.bg/Contests/Practice/Index/151#5]
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/151#5
 
 ## Лице на правоъгълник в равнината – пример
 
 Правоъгълник е зададен с координатитена два от своите срещуположни ъгъла
 Да се пресметнат площта и периметъра му
 
-TODO: image
+![rectangleArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleArea.png =250px)
 
+```cs
 double x1 = double.Parse(Console.ReadLine());
 double y1 = double.Parse(Console.ReadLine());
 double x2 = double.Parse(Console.ReadLine());
@@ -232,6 +233,7 @@ double width = Math.Max(x1, x2) - Math.Min(x1, x2);
 double height = Math.Max(y1, y2) - Math.Min(y1, y2);
 Console.WriteLine("Area = {0}", width * height);
 Console.WriteLine("Perimeter = {0}", 2 * (width + height));
+```cs
 
 TODO: judge link
 
