@@ -30,7 +30,7 @@
         <th>Изход</th>
     </tr>
     <tr>
-    	<td>3</td>
+    	<td>4</td>
         <td>
         	<img src="assets/chapter-6-images/fort/fort-output-4.png" width="132px">
         </td>
@@ -43,7 +43,7 @@
         <th>Изход</th>
     </tr>
     <tr>
-    	<td>3</td>
+    	<td>5</td>
         <td>
         	<img src="assets/chapter-6-images/fort/fort-output-5.png" width="200px">
         </td>
@@ -56,7 +56,7 @@
         <th>Изход</th>
     </tr>
     <tr>
-    	<td>3</td>
+    	<td>8</td>
         <td>
         	<img src="assets/chapter-6-images/fort/fort-output-8.png" width="264px">
         </td>
@@ -68,9 +68,9 @@ TODO: По добър начин за изобразяване на входно
 #### 1. Анализ на условието
 За да може да "обединиме" примерите в един алгоритъм, ще трябва да изследваме какво се повтаря във всеки пример. Разлгеждайки тестовите примери по редове, може да  разграничим различни групирания от редове.
 
-![Image not found](assets/chapter-6-images/fort/fort-input-5-explanation.png)
+<img src="assets/chapter-6-images/fort/fort-input-5-explanation.png">
 
-![Image not found](assets/chapter-6-images/fort/fort-input-8-explanation.png)
+<img src="assets/chapter-6-images/fort/fort-input-8-explanation.png">
 
 Разграничаваме три различни групи редове :
 - таван
@@ -95,9 +95,9 @@ TODO: По добър начин за изобразяване на входно
 
 За тази цел, ще разделим тавана на няколко части, които са по лесни за рисуване:
 
-![Image not found](assets/chapter-6-images/fort/fort-roof-8-explanation.png)
+<img src="assets/chapter-6-images/fort/fort-roof-8-explanation.png">
 
-![Image not found](assets/chapter-6-images/fort/fort-roof-5-explanation.png)
+<img src="assets/chapter-6-images/fort/fort-roof-5-explanation.png">
 
 Примерите ни показват, че покривът може да бъде разделен на **кули** и **междинна част**. Всяка кула се състои от начало **"/"**, среда **"^"** и край **"\\"**. Броят на символите за начало и край винаги е равен на едно. Като допълнение можем да забележим, че броят на средите "^" е равен на числото n/2 приравнено надолу. Например:
 
@@ -142,7 +142,7 @@ TODO: По добър начин за изобразяване на входно
 Междинна широчина = 2*n - 2*( Math.floor(n/2) + 2 )
 ```
 
-![Image not found](assets/chapter-6-images/fort/fort-roof-4-exlpanation.png)
+<img src="assets/chapter-6-images/fort/fort-roof-4-explanation.png">
 
 Ако заместим във формулата, ще забележим, че в примерите за **n<=4** междинната част се състои от **0** символа.
 
