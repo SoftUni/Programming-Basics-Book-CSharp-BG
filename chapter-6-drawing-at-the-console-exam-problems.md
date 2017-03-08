@@ -19,7 +19,46 @@
     <tr>
     	<td>3</td>
         <td>
-        	<img src="assets/chapter-6-images/fort/fort-output-3.png">
+        	<img src="assets/chapter-6-images/fort/fort-output-3.png" width="100px">
+        </td>
+    </tr>
+</table>
+
+<table>
+	<tr>
+    	<th>Вход</th>
+        <th>Изход</th>
+    </tr>
+    <tr>
+    	<td>3</td>
+        <td>
+        	<img src="assets/chapter-6-images/fort/fort-output-4.png" width="100px">
+        </td>
+    </tr>
+</table>
+
+<table>
+	<tr>
+    	<th>Вход</th>
+        <th>Изход</th>
+    </tr>
+    <tr>
+    	<td>3</td>
+        <td>
+        	<img src="assets/chapter-6-images/fort/fort-output-5.png" width="100px">
+        </td>
+    </tr>
+</table>
+
+<table>
+	<tr>
+    	<th>Вход</th>
+        <th>Изход</th>
+    </tr>
+    <tr>
+    	<td>3</td>
+        <td>
+        	<img src="assets/chapter-6-images/fort/fort-output-8.png" width="100px">
         </td>
     </tr>
 </table>
