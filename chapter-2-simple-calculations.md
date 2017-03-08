@@ -222,7 +222,7 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 Правоъгълник е зададен с координатитена два от своите срещуположни ъгъла
 Да се пресметнат площта и периметъра му
 
-![rectangleArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleArea.png =250px)
+![rectangleArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleArea.png)
 
 ```cs
 double x1 = double.Parse(Console.ReadLine());
@@ -233,7 +233,7 @@ double width = Math.Max(x1, x2) - Math.Min(x1, x2);
 double height = Math.Max(y1, y2) - Math.Min(y1, y2);
 Console.WriteLine("Area = {0}", width * height);
 Console.WriteLine("Perimeter = {0}", 2 * (width + height));
-```cs
+```
 
 TODO: judge link
 
