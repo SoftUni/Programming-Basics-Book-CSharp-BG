@@ -12,23 +12,23 @@ TODO: описание на задачата (евентуално с карти
 
 ### Примерен вход и изход
 
+| Вход | Изход | Коментари |
+|------|-------|-----------|
+| 110<br>mall.Enter<br>d<br>mall.Exit | 1 purchases. Money left: 80.00 lv. | ‘d’ има ASCII код 100.<br>‘d’ e mалка буква е и за това Лина получава 70% отстъпка.<br>100% – 70% = 30.<br>110 – 30 = 80 лв. |
+
+| Вход | Изход |
+|------|-------|
+| 110<br>mall.Enter<br>%<br>mall.Exit|1 purchases. Money left: 55.00 lv.|
+
+| Вход | Изход |
+|------|-------|
+|100<br>mall.Enter<br>Ab<br>**<br>mall.Exit|2 purchases. Money left: 58.10 lv.|
+
 ### Насоки и подсказки
 
 #### Обработване на входа
 #### Алгоритъм за решаване
 #### Форматиране на изхода
-
-Sample code:
-
-```csharp
-public class Taks1 
-{
-    public static void Main() 
-    {
-        Console.WriteLine("Hello World!");
-    }
-}
-```
 
 ## Задача 2 - X Expression
 
