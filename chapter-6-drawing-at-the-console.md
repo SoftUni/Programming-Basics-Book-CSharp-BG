@@ -1,6 +1,6 @@
 # Глава 6. Чертане на фигурки с цикли
 
-В настоящата глава ще разгледаме как да използваме for-цикли за чертане на различни фигурки на конзолата. Ще използваме единични и вложени цикли (цикли един в друг) ...
+В настоящата глава ще разгледаме как да използваме for-цикли за чертане на различни фигурки на конзолата. Ще използваме единични и вложени цикли (цикли един в друг), за да чертаем прости и не чак толкова прости фигурки по конзолата.
 
 TODO
 
@@ -8,11 +8,12 @@ TODO
 ## Правоъгълник от 10 x 10 звездички
 
 Да се начертае на конзолата правоъгълник от 10 x 10 звездички:
-
+```cs
 for (var i = 1; i <= 10; i++)
 {
    Console.WriteLine(new string('*', 10));
 }
+```
 
 Как работи примерът?
 10 пъти печата стринг, който се състои от 10 на брой звездички
@@ -23,15 +24,15 @@ for (var i = 1; i <= 10; i++)
 ## Правоъгълник от N x N звездички
 
 Да се начертае на конзолата правоъгълник от N x N звездички:
-
+```cs
 int n = int.Parse(Console.ReadLine());
 for (var i = 1; i <= n; i++)
 {
    Console.WriteLine(
       new string('*', n));
 }
-
-TODO: картинка
+```
+![Image not found](assets/chapter-6-images/NxN-code.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#1
 
@@ -41,23 +42,23 @@ TODO: картинка
 Вложени цикли == цикъл съдържа в себе си друг цикъл
 Двата цикъла въртят различни променливи
 Пример: външен цикъл (по row) и вътрешен цикъл (по col)
-
+```cs
 for (var row = 1; row <= n; row++)
 {
    for (var col = 1; col <= n; col++)
       Console.Write("*");
    Console.WriteLine();
 }
-
-TODO: картинка
+```
+![Image not found](assets/chapter-6-images/Nestedloops.png)
 
 
 ## Квадрат от звездички
 
 Да се начертае на конзолата квадрат от N x N звездички:
 
-TODO: картинка
-
+![Image not found](assets/chapter-6-images/NxN-square-code.png)
+```cs
 var n = int.Parse(Console.ReadLine());
 for (var r = 1; r <= n; r++)
 {
@@ -66,7 +67,7 @@ for (var r = 1; r <= n; r++)
       Console.Write(" *");
    Console.WriteLine();
 }
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#2
 
 
@@ -77,7 +78,7 @@ for (var r = 1; r <= n; r++)
 TODO: примерен вход и изход
 
 Решение:
-
+```cs
 var n = int.Parse(Console.ReadLine());
 for (var row = 1; row <= n; row++)
 {
@@ -86,7 +87,7 @@ for (var row = 1; row <= n; row++)
       Console.Write(" $");
    Console.WriteLine();
 }
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#3
 
 
@@ -97,7 +98,7 @@ for (var row = 1; row <= n; row++)
 TODO: примерни вход и изход
 
 Решение:
-
+```cs
 // Print the top row: + - - - +
 Console.Write("+");
 for (int i = 0; i < n-2; i++)
@@ -106,7 +107,7 @@ Console.WriteLine(" +");
 for (int row = 0; row < n - 2; row++)
    // TODO: print the mid rows: | - - - |
 // TODO: print the bottom row: + - - - +
-
+```
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#4
 
@@ -118,7 +119,7 @@ for (int row = 0; row < n - 2; row++)
 TODO: примерни вход и изход
 
 Решение:
-
+```cs
 for (var row = 1; row <= n; row++)
 {
     for (var col = 1; col <= n-row; col++)
@@ -129,7 +130,7 @@ for (var row = 1; row <= n; row++)
     Console.WriteLine();
 }
 // TODO: print the down side of the rhomb
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#5
 
 
@@ -140,7 +141,7 @@ for (var row = 1; row <= n; row++)
 TODO: примерни вход и изход
 
 Решение:
-
+```cs
 int n = int.Parse(Console.ReadLine());
 for (int i = 0; i <= n; i++)
 {
@@ -152,7 +153,7 @@ for (int i = 0; i <= n; i++)
    Console.Write(stars);
    Console.WriteLine(spaces);
 }
-
+```
 Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#6
 
 ## Чертане на по-сложни фигури
@@ -180,7 +181,7 @@ N = 4
 Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#7
 
 Решение:
-
+```cs
 // Print the top part
 Console.Write(new string('*', 2 * n));
 Console.Write(new string(' ', n));
@@ -193,9 +194,9 @@ for (int i = 0; i < n - 2; i++)
 Console.Write(new string('*', 2 * n));
 Console.Write(new string(' ', n));
 Console.WriteLine(new string('*', 2 * n));
-
+```
 Печатане на средната част:
-
+```cs
 // Print the middle part
 for (int i = 0; i < n - 2; i++)
 {
@@ -207,7 +208,7 @@ for (int i = 0; i < n - 2; i++)
    // TODO: print *///////*
    Console.WriteLine();
 }
-
+```
 
 ## Къщичка
 
@@ -246,7 +247,7 @@ N = 8
 |******|
 
 Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#8
-
+```cs
 Решение:
 var stars = 1;
 if (n % 2 == 0) stars++;
@@ -260,11 +261,25 @@ for (int i = 0; i < (n+1) / 2; i++)
 }
 for (int i = 0; i < n / 2; i++)
 { // Draw the house body: |*****| }
-
+```
 
 ## Диамант
 
 Напишете програма, която въвежда цяло число n (1 ≤ n ≤ 100) и печата диамант с размер n:
+n = 1   n = 2
+*       **
+
+n = 3
+
+-*-
+*-*
+-*-
+
+n = 4
+
+-**-
+*--*
+-**-
 
 n = 5
 
@@ -282,10 +297,40 @@ n = 6
 -*--*-
 --**--
 
-TODO: Да се дадат повече примери, както в слайдовете.
+n = 7
+
+---*---
+--*-*--
+-*---*-
+*-----*
+-*---*-
+--*-*--
+---*---
+
+n = 8
+
+---**---
+--*--*--
+-*----*-
+*------*
+-*----*-
+--*--*--
+---**---
+
+n = 9
+
+----*----
+---*-*---
+--*---*--
+-*-----*-
+*-------*
+-*-----*-
+--*---*--
+---*-*---
+----*----
 
 Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#9
-
+```cs
 var leftRight = (n - 1) / 2;
 for (int i = 1; i <= (n-1) / 2; i++)
 { 
@@ -302,12 +347,12 @@ for (int i = 1; i <= (n-1) / 2; i++)
   leftRight--;
 }
 // TODO: Draw the bottom part
-
+```
 
 ## Какво научихме от тази глава?
 
 Можем да чертаем фигури с вложени for-цикли:
-
+```cs
 for (var r = 1; r <= 5; r++)
 {
    Console.Write("*");
@@ -315,6 +360,7 @@ for (var r = 1; r <= 5; r++)
       Console.Write(" *");
    Console.WriteLine();
 }
+```
 
 TODO: картинка (както е в слайдовете)
 
