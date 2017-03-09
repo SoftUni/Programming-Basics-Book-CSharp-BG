@@ -135,6 +135,8 @@
    </tr>
 </table>
 
+### Решение:
+
 Входа е стандартен, като единствено трябва да внимаваме за последователността, в която приемаме данните.
 
 ![](/assets/exam-prep-1-images/exam-prep-bricks-1.png)
@@ -198,6 +200,8 @@
       <td><img src="/assets/exam-prep-1-images/exam-prep-point-on-line-3.png"/></td>
    </tr>
 </table>
+
+### Решение:
 
 Приемаме си входа от конзолата.
 
