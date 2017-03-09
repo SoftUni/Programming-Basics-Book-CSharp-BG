@@ -122,7 +122,7 @@
 #### Форматиране на изхода
 
 
-## Задача 3 - Longest Alphabetical Word
+## Задача 3 - Bulls and Cows
 
 Оригинално състезание: [https://judge.softuni.bg/Contests/Practice/Index/8#3](https://judge.softuni.bg/Contests/Practice/Index/8#3)
 
