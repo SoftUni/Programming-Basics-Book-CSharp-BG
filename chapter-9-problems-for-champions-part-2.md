@@ -74,10 +74,10 @@
 ### Пример:
 
 Изразът:
-TODO: Add picture
+![израз](assets/chapter-9-part-2-images/problem-2/matematical-expression.png "Математически израз")
 
 Бива решен по следния начин:
-TODO: Add picture
+![израз](assets/chapter-9-part-2-images/problem-2/matematical-expression-solution.png "Математически израз")
 
 Т.к. Бони е доста красива, но не чак толкова съобразителна, тя има нужда от нашата помощ за да усвои силата на Изразите.
 
