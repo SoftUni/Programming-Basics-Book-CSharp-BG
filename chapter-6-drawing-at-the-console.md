@@ -516,7 +516,7 @@ TODO: повтарящите се задачи да се слеят с текс�
 
 ![Image not found](assets/chapter-6-images/Ratings-example1.png)
 
-1\.	Във Visual Studio създайте `ново ASP.NET MVC уеб приложение` с език C#. Добавете нов проект от [Solution Explorer] -> [Add] -> [New Project…] . Дайте смислено име, например <b>“WebApp-Ratings”</b>:
+1\.	Във Visual Studio създайте `ново ASP.NET MVC уеб приложение` с език C#. Добавете нов проект от [Solution Explorer] -> [Add] -> [New Project…] . Дайте смислено име, например `“WebApp-Ratings”`:
 
 ![Image not found](assets/chapter-6-images/Adding-project-WebApp-Ratings.png)
 
@@ -541,4 +541,4 @@ TODO: повтарящите се задачи да се слеят с текс�
 ![Image not found](assets/chapter-6-images/Adding-images.png)
 
 5\.	Стартирайте проекта с [Ctrl+F5] и му се порадвайте:
-![Image not found](assets/chapter-6-images/Project.png)
+![Image not found](assets/chapter-6-images/project.png)
