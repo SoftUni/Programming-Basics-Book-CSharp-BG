@@ -10,8 +10,6 @@
 
 ## Системна конзола
 Обикновено наричана само "конзола", системната, или още компютърната конзола, представлява устройството, чрез което подаваме команди на компютъра и получаваме резултатите от изпълнението на тези команди. В повечето случаи системната конзола представлява текстови терминал, т.е. приема и визуализира само текст, без графични елементи като например бутони, менюта и т.н. 
->>>more?
-
 
 ## Четене на числа от конзолата
 
@@ -29,6 +27,9 @@ var area = a * a;
 Console.Write("Square area = ");
 Console.WriteLine(area);
 ```
+Ето как би работила програмата при квадрат със размер на страната 3:
+![squareArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/squareArea.png)
+
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#0
 
 ## Пресмятания в програмирането
@@ -67,6 +68,9 @@ var centimeters = inches * 2.54;
 Console.Write("Centimeters = ");
 Console.WriteLine(centimeters);
 ```
+Сега нека стартирам програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
+
+![inchesToCm](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/inchesToCm.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#1
 
@@ -80,12 +84,14 @@ var str = Console.ReadLine();
 Обърнете внимание, че при четене на текст не се декларира по никакъв начин тип "стринг"(текст). Това е така, защото по подразбиране метода ```Console.ReadLine()``` приема като параметър текст. Допълнително, вие можете да зададете текстът да бъде прехвърлен в цяло число чрез ```int.Parse()``` или дробно число чрез ```double.Parse()```. Ако това не се направи, за програмата всяко едно число ще бъде просто текст, с който не биха могли да се извършват аритметични операции.
 
 Нека за пример напишем кратка програма за поздрав по име:
+
 ```cs
 Console.Write("Enter your name: ");              
 var name = Console.ReadLine();
 Console.WriteLine("Hello, {0}!", name);
 ```
-В случая, изразът {0} се замества с първия подаден аргумент -  в примера променливата "name".
+В случая, изразът {0} се замества с първия подаден аргумент -  в примера променливата "name":
+![greetingByName](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/greetingByName.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#2
 
@@ -101,6 +107,9 @@ Console.WriteLine(
   "You are {0} {1}, a {2}-years old person from {3}.",
   firstName, lastName, age, town);
 ```
+Ето резултатът, който ще получим, след изпълнение на този пример:
+![placeholdersInAction](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/placeholders.png)
+
 Обърнете внимание, как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество,  шаблонът (плейсхолдър) приема променливи от всякакъв вид. Не се допуска да има шаблони, които да имат една и съща поредност, т.е. два или повече шаблона под номер 2. В такъв случай, вашата програма няма да се компилира. 
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#3
@@ -122,6 +131,8 @@ var b = int.Parse(Console.ReadLine());
 var result = a - b;
 Console.WriteLine(result);
 ```
+Съответно, ето и резултатът от изпълението на програмата, при числа 10 и 3:
+![subtracting](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/subtracting.png)
 
 ## Аритметични операции умножение и деление
 
@@ -138,9 +149,9 @@ var product = a * b; // 35
 ```cs
 var a = 25;
 var i = a / 4;      // резултатът от тази операция ще бъде 6 – дробната част се отрязва, 
-                       тъй като извършваме деление с цели числа
+                    // тъй като извършваме деление с цели числа
 var f = a / 4.0;    // 6.25 – дробно деление. Изрично сме указали числото 4 да се интерпретира
-                       като дробно, като сме добавили 0 след десетичната запетая
+                    // като дробно, като сме добавили 0 след десетичната запетая
 var error = a / 0;  // Грешка: деление на 0
 ```
 
@@ -161,7 +172,7 @@ var a = 15;
 Console.WriteLine(a / 2.0);  // Дробен резултат: 7.5
 Console.WriteLine(a / 0.0);  // Резултат: Infinity
 Console.WriteLine(0.0 / 0.0); // Резултат: NaN (Not a Number), 
-                                 резултатът от операцияте не представлява числена стойност
+                              // резултатът от операцияте не представлява числена стойност
 ```
 
 ## Съединяване на текст и число
@@ -218,6 +229,9 @@ var r = double.Parse(Console.ReadLine());
 Console.WriteLine("Area = " + Math.PI * r * r);
 Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 ```
+Нека изпробваме програмата с радиус = 10:
+![circleArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/circleArea.png)
+
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/151#5
 
 ## Лице на правоъгълник в равнината – пример
@@ -236,26 +250,21 @@ double height = Math.Max(y1, y2) - Math.Min(y1, y2);
 Console.WriteLine("Area = {0}", width * height);
 Console.WriteLine("Perimeter = {0}", 2 * (width + height));
 ```
+При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
+
+![rectangleAreaExample](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleAreaExample.png)
 
 TODO: judge link
 
 ## Какво научихме от тази глава?
 
-Въвеждане на текст
+- Как да въвеждаме текст: ``` var str = Console.ReadLine();```
 
-var str = Console.ReadLine();
+- Как да въвеждаме цяло число: ``` var num = int.Parse(Console.ReadLine());```
 
-Въвеждане на число
+- Как да извършваме пресмятания с числа и да използваме съответни оператори за това: +, -, *, /, (): ``` var sum = 5 + 3;```
 
-var num = int.Parse(Console.ReadLine());
-
-Пресмятания с числа: +, -, *, /, ()
-
-var sum = 5 + 3;
-
-Извеждане на текст по шаблон
-
-Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);
+- Извеждане на текст по шаблон: ``` Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);```
 
 ## Упражнения: Прости пресмятания
 
