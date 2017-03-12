@@ -6,6 +6,9 @@ TODO
 
 ## Видео
 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/LgT10WCBw0M" frameborder="0" allowfullscreen></iframe>
+https://www.youtube.com/embed/LgT10WCBw0M
+
 [![Видео урок](http://img.youtube.com/vi/LgT10WCBw0M/0.jpg)](http://www.youtube.com/watch?v=LgT10WCBw0M)
 
 ## Какво означава "да програмираме"?
