@@ -6,7 +6,7 @@
   var regex = /embed\/([a-zA-Z0-9_-]+)?/g;
   var matches = regex.exec(videoText) || [''];
   var videoId = matches[1];
-  var iframe = "<iframe src='http://www.youtube.com/embed/" + 
+  var iframe = "<iframe src='https://www.youtube.com/embed/" + 
     videoId + "' frameborder='0' allowfullscreen>";
   document.querySelector('.video-player').innerHTML = iframe;
 })();
