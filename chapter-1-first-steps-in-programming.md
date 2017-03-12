@@ -6,20 +6,10 @@ TODO
 
 ## Видео
 
-<div id="ytplayer"></div>
-<script>
-  var tag = document.createElement('script');
-  tag.src = "https://www.youtube.com/player_api";
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-  function onYouTubePlayerAPIReady() {
-    var player = new YT.Player('ytplayer', {
-      videoId: 'LgT10WCBw0M', width: '640', height: '360'      
-    });
-  }
-</script>
-
-Гледайте видео-урок по тази глава тук: https://www.youtube.com/embed/LgT10WCBw0M.
+<div class="video-player">
+	Гледайте видео-урок по тази глава тук: https://www.youtube.com/embed/LgT10WCBw0M.
+</div>
+<script src="/assets/js/video.js"></script>
 
 ## Какво означава "да програмираме"?
 
