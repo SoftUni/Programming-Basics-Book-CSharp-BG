@@ -6,10 +6,20 @@ TODO
 
 ## Видео
 
-<iframe width="854" src="https://www.youtube.com/embed/LgT10WCBw0M" frameborder="0" allowfullscreen></iframe>
-Гледайте видео-урок по тази глава тук: https://www.youtube.com/embed/LgT10WCBw0M
+<div id="ytplayer"></div>
+<script>
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+  function onYouTubePlayerAPIReady() {
+    var player = new YT.Player('ytplayer', {
+      videoId: 'LgT10WCBw0M', width: '640', height: '360'      
+    });
+  }
+</script>
 
-[![Видео урок](http://img.youtube.com/vi/LgT10WCBw0M/0.jpg)](http://www.youtube.com/watch?v=LgT10WCBw0M)
+Гледайте видео-урок по тази глава тук: https://www.youtube.com/embed/LgT10WCBw0M.
 
 ## Какво означава "да програмираме"?
 
