@@ -51,7 +51,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 <br />
 
-<table style="float:left; margin-right:20px">
+<table style="display:inline-block;float:left;margin-right:20px;">
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -73,7 +73,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </tbody>
 </table>
 
-<table style="float:left; margin-right:20px">
+<table style="display:inline-block;float:left;margin-right:20px;">
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -96,7 +96,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 
 
-<table style="float:left; margin-right:20px">
+<table style="display:inline-block;float:left;">
 <thead>
 <th>Вход</th>
 <th>Изход</th>
