@@ -7,7 +7,8 @@ TODO
 ## Видео
 
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a href="https://www.youtube.com/embed/LgT10WCBw0M">https://www.youtube.com/embed/LgT10WCBw0M</a>.
+  Гледайте видео-урок по тази глава тук: <a target="_blank"
+  href="https://www.youtube.com/embed/LgT10WCBw0M">https://www.youtube.com/embed/LgT10WCBw0M</a>.
 </div>
 <script src="/assets/js/video.js"></script>
 
