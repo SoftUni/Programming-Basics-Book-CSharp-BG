@@ -51,7 +51,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 <br />
 
-<table style="display:inline-block;float:left;margin-right:20px;">
+<table style="display:inline-block !important;float:left !important;margin-right:20px !important">
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -73,7 +73,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </tbody>
 </table>
 
-<table style="display:inline-block;float:left;margin-right:20px;">
+<table style="display:inline-block !important;float:left !important;margin-right:20px !important">
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -96,7 +96,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 
 
-<table style="display:inline-block;float:left;">
+<table style="display:inline-block !important;float:left !important">
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -105,15 +105,15 @@ _Трета задача от междинния изпит на 6 март 2016
 <tbody>
 <tr>
 <td>10<br />00<br />10<br />00</td>
-<td>On time</td>
+<td>On time<br /><br /><br /></td>
 </tr>
 <tr>
 <td>11<br />30<br />10<br />55</td>
-<td>Early<br />35 minutes before the start</td>
+<td>Early<br />35 minutes before the start<br /><br /></td>
 </tr>
 <tr>
 <td>11<br />30<br />12<br />23</td>
-<td>Late<br />59 minutes after the start</td>
+<td>Late<br />59 minutes after the start<br /><br /></td>
 </tr>
 </tbody>
 </table>
