@@ -5,6 +5,16 @@
 TODO
 
 
+## Видео
+
+<div class="video-player">
+  Гледайте видео-урок по тази глава тук: <a target="_blank"
+  href="https://www.youtube.com/watch?v=x7zXRCpkebo">
+  https://www.youtube.com/watch?v=x7zXRCpkebo</a>.
+</div>
+<script src="/assets/js/video.js"></script>
+
+
 ## Правоъгълник от 10 x 10 звездички
 
 Да се начертае на конзолата правоъгълник от 10 x 10 звездички:
