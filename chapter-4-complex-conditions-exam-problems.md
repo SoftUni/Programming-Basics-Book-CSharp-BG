@@ -49,8 +49,8 @@ _Трета задача от междинния изпит на 6 март 2016
 <td style="border:1px solid black;">Late<br />20 minutes after the start</td>
 </tr>
 <tr>
-<td style="border:1px solid black;background:none;">9<br />00<br />8<br />30</td>
-<td style="border:1px solid black;background:none;">On time<br />30 minutes before the start</td>
+<td style="background:none !important;border:1px solid black;">9<br />00<br />8<br />30</td>
+<td style="background:none !important;border:1px solid black;">On time<br />30 minutes before the start</td>
 </tr>
 <tr>
 <td style="border:1px solid black;">16<br />00<br />15<br />00</td>
@@ -493,7 +493,7 @@ _Трета задача от междинния изпит на 28 август
 <tr>
 <td style="border:1px solid black;">May<br />15</td>
 <td style="border:1px solid black;">Apartment: 877.50 lv.<br />Studio: 525.00 lv.</td>
-<td colspan="2"><strong>През май</strong>, при повече от <strong>14</strong> нощувки, намаляваме цената на студиото с <strong>30%</strong> (50 – 15 = 35), а на апартамента – с <strong>10%</strong> (65 – 6.5 =58.5).<br /> Целият престой <strong>в апартамент</strong> – <strong>877.50 лв.</strong><br /> Целият престой <strong>в студио</strong> – <strong>525.00 лв.</strong>
+<td colspan="2" style="border:1px solid black;"><strong>През май</strong>, при повече от <strong>14</strong> нощувки, намаляваме цената на студиото с <strong>30%</strong> (50 – 15 = 35), а на апартамента – с <strong>10%</strong> (65 – 6.5 =58.5).<br /> Целият престой <strong>в апартамент</strong> – <strong>877.50 лв.</strong><br /> Целият престой <strong>в студио</strong> – <strong>525.00 лв.</strong>
 </td>
 </tr>
 <tr>
