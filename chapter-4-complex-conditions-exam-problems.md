@@ -169,7 +169,7 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">50<br />summer</td>
 <td style="border:1px solid black;">Somewhere in Bulgaria<br />Camp - 15.00</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="border:1px solid black;background:none;">75<br />winter</td>
 <td style="border:1px solid black;background:none;">Somewhere in Bulgaria<br />Hotel - 52.50</td>
 </tr>
@@ -177,7 +177,7 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">312<br />summer</td>
 <td style="border:1px solid black;">Somewhere in Balkans<br />Camp - 124.80</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="border:1px solid black;background:none;">678.53<br />winter</td>
 <td style="border:1px solid black;background:none;">Somewhere in Balkans<br />Hotel - 542.82</td>
 </tr>
@@ -240,7 +240,7 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">10<br />12<br />+</td>
 <td style="border:1px solid black;">10 + 12 = 22 - even</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="border:1px solid black;background:none;">10<br />1<br />-</td>
 <td style="border:1px solid black;background:none;">10 - 1 = 9 - odd</td>
 </tr>
@@ -264,7 +264,7 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">123<br />12<br />/</td>
 <td style="border:1px solid black;">123 / 12 = 10.25</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="border:1px solid black;background:none;">10<br />3<br />%</td>
 <td style="border:1px solid black;background:none;">10 % 3 = 1</td>
 </tr>
@@ -284,7 +284,7 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">112<br />0<br />/</td>
 <td style="border:1px solid black;">Cannot divide 122 by zero</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="border:1px solid black;background:none;">10<br />0<br />%</td>
 <td style="border:1px solid black;background:none;">Cannot divide 10 by zero</td>
 </tr>
@@ -378,7 +378,7 @@ _Трета задача от междинния изпит на 17 юли 2016.
 <td colspan="2" style="border:1px solid black;background-color:#d9d9d9;"><strong>Обяснения</strong></td>
 </tr>
 <tr>
-<td colspan="2" style="border:1px solid black;"><strong>49 човека: 40% от бюджета</strong> отиват <strong>за транспорт</strong>.<br /> <strong>Остават</strong>: 30000 – 12000 = <strong>18000</strong>.<br /> Категория <strong>VIP</strong>: билетите струват 499.99 * 49.<br /> <strong>24499.510000000002 &lt; 18000</strong>.<br /> <strong>Не стигат</strong> 24499.51 - 18000 = <strong>6499.51</strong>
+<td colspan="2" style="border:1px solid black;"><strong>49 човека: 40% от бюджета</strong> отиват <strong>за транспорт</strong>.<br /> <strong>Остават</strong>: 30000 – 12000 = <strong>18000</strong>.<br /> Категория <strong>VIP</strong>: билетът струва 499.99 * 49.<br /> <strong>24499.510000000002 &lt; 18000</strong>.<br /> <strong>Не стигат</strong> 24499.51 - 18000 = <strong>6499.51</strong>
 </td>
 </tr>
 </tbody>
@@ -413,7 +413,7 @@ _Трета задача от междинния изпит на 28 август
 <tr>
 <td style="border:1px solid black;">Студио – <strong>50</strong> лв./нощувка</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="background:none;border:1px solid black;">Апартамент – <strong>65</strong> лв./нощувка</td>
 </tr>
 </tbody>
@@ -430,7 +430,7 @@ _Трета задача от междинния изпит на 28 август
 <tr>
 <td style="border:1px solid black;">Студио – <strong>75.20</strong> лв./нощувка</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="background:none;border:1px solid black;">Апартамент – <strong>68.70</strong> лв./нощувка</td>
 </tr>
 </tbody>
@@ -447,7 +447,7 @@ _Трета задача от междинния изпит на 28 август
 <tr>
 <td style="border:1px solid black;">Студио – <strong>76</strong> лв./нощувка</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="background:none;border:1px solid black;">Апартамент – <strong>77</strong> лв./нощувка</td>
 </tr>
 </tbody>
@@ -484,7 +484,7 @@ _Трета задача от междинния изпит на 28 август
 <thead>
 <tr style="background-color:#d9d9d9;">
 <th style="background-color:#d9d9d9;border:1px solid black;">Вход</th>
-<th style="background-color:#d9d9d9;min-width:160px;border:1px solid black;">Изход</th>
+<th style="background-color:#d9d9d9;min-width:190px;border:1px solid black;">Изход</th>
 <th colspan="2" style="background-color:#d9d9d9;border:1px solid black;">Обяснения</th>
 </tr>
 </thead>
@@ -492,19 +492,19 @@ _Трета задача от междинния изпит на 28 август
 <tbody>
 <tr>
 <td style="border:1px solid black;">May<br />15</td>
-<td style="border:1px solid black;">Apartment: 877.50 lv.<br />Studio: 525.00 lv.</td>
+<td style="border:1px solid black;min-width:190px;">Apartment: 877.50 lv.<br />Studio: 525.00 lv.</td>
 <td colspan="2" style="border:1px solid black;"><strong>През май</strong>, при повече от <strong>14</strong> нощувки, намаляваме цената на студиото с <strong>30%</strong> (50 – 15 = 35), а на апартамента – с <strong>10%</strong> (65 – 6.5 =58.5).<br /> Целият престой <strong>в апартамент</strong> – <strong>877.50 лв.</strong><br /> Целият престой <strong>в студио</strong> – <strong>525.00 лв.</strong>
 </td>
 </tr>
 <tr style="background-color:#d9d9d9;">
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
-<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
+<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;min-width:190px;">Изход</td>
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
 </tr>
 <tr style="background:none;">
 <td style="background:none;border:1px solid black;">June<br />14</td>
-<td style="background:none;border:1px solid black;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
+<td style="background:none;border:1px solid black;min-width:190px;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
 <td style="background:none;border:1px solid black;">August<br />20</td>
 <td style="background:none;border:1px solid black;">Apartment: 1386.00 lv.<br />Studio: 1520.00 lv.</td>
 </tr>
