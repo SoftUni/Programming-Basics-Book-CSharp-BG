@@ -34,7 +34,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 ### Примерен вход и изход
 
-<div style="display:inline-block;margin-right:2%;width:31.5%">
+<div style="display:inline-block;margin-right:2%;width:31.5%;">
 <table>
 <thead>
 <tr>
@@ -59,7 +59,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </tbody>
 </table>
 </div>
-<div style="display:inline-block;margin-right:2%;width:31.5%">
+<div style="display:inline-block;margin-right:2%;width:31.5%;">
 <table>
 <thead>
 <tr>
