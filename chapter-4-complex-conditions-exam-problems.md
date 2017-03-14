@@ -38,23 +38,23 @@ _Трета задача от междинния изпит на 6 март 2016
 <table>
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>9<br />30<br />9<br />50</td>
-<td>Late<br />20 minutes after the start</td>
+<td style="border:1px solid black;">9<br />30<br />9<br />50</td>
+<td style="border:1px solid black;">Late<br />20 minutes after the start</td>
 </tr>
 <tr>
-<td>9<br />00<br />8<br />30</td>
-<td>On time<br />30 minutes before the start</td>
+<td style="border:1px solid black;background:none;">9<br />00<br />8<br />30</td>
+<td style="border:1px solid black;background:none;">On time<br />30 minutes before the start</td>
 </tr>
 <tr>
-<td>16<br />00<br />15<br />00</td>
-<td>Early<br />1:00 hours before the start</td>
+<td style="border:1px solid black;">16<br />00<br />15<br />00</td>
+<td style="border:1px solid black;">Early<br />1:00 hours before the start</td>
 </tr>
 </tbody>
 </table>
@@ -63,23 +63,23 @@ _Трета задача от междинния изпит на 6 март 2016
 <table>
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>9<br />00<br />10<br />30</td>
-<td>Late<br />1:30 hours after the start</td>
+<td style="border:1px solid black;">9<br />00<br />10<br />30</td>
+<td style="border:1px solid black;">Late<br />1:30 hours after the start</td>
 </tr>
 <tr>
-<td>14<br />00<br />13<br />55</td>
-<td>On time<br />5 minutes before the start</td>
+<td style="border:1px solid black;background:none;">14<br />00<br />13<br />55</td>
+<td style="border:1px solid black;background:none;">On time<br />5 minutes before the start</td>
 </tr>
 <tr>
-<td>11<br />30<br />8<br />12</td>
-<td>Early<br />3:18 hours before the start</td>
+<td style="border:1px solid black;">11<br />30<br />8<br />12</td>
+<td style="border:1px solid black;">Early<br />3:18 hours before the start</td>
 </tr>
 </tbody>
 </table>
@@ -88,23 +88,23 @@ _Трета задача от междинния изпит на 6 март 2016
 <table>
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>10<br />00<br />10<br />00</td>
-<td>On time<br /><br /><br /></td>
+<td style="border:1px solid black;">10<br />00<br />10<br />00</td>
+<td style="border:1px solid black;">On time<br /><br /><br /></td>
 </tr>
 <tr>
-<td>11<br />30<br />10<br />55</td>
-<td>Early<br />35 minutes before the start<br /><br /></td>
+<td style="border:1px solid black;background:none;">11<br />30<br />10<br />55</td>
+<td style="border:1px solid black;background:none;">Early<br />35 minutes before the start<br /><br /></td>
 </tr>
 <tr>
-<td>11<br />30<br />12<br />23</td>
-<td>Late<br />59 minutes after the start<br /><br /></td>
+<td style="border:1px solid black;">11<br />30<br />12<br />23</td>
+<td style="border:1px solid black;">Late<br />59 minutes after the start<br /><br /></td>
 </tr>
 </tbody>
 </table>
@@ -159,31 +159,31 @@ _Трета задача от междинния изпит на 26 март 201
 <table>
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>50<br />summer</td>
-<td>Somewhere in Bulgaria<br />Camp - 15.00</td>
+<td style="border:1px solid black;">50<br />summer</td>
+<td style="border:1px solid black;">Somewhere in Bulgaria<br />Camp - 15.00</td>
 </tr>
 <tr>
-<td>75<br />winter</td>
-<td>Somewhere in Bulgaria<br />Hotel - 52.50</td>
+<td style="border:1px solid black;background:none;">75<br />winter</td>
+<td style="border:1px solid black;background:none;">Somewhere in Bulgaria<br />Hotel - 52.50</td>
 </tr>
 <tr>
-<td>312<br />summer</td>
-<td>Somewhere in Balkans<br />Camp - 124.80</td>
+<td style="border:1px solid black;">312<br />summer</td>
+<td style="border:1px solid black;">Somewhere in Balkans<br />Camp - 124.80</td>
 </tr>
 <tr>
-<td>678.53<br />winter</td>
-<td>Somewhere in Balkans<br />Hotel - 542.82</td>
+<td style="border:1px solid black;background:none;">678.53<br />winter</td>
+<td style="border:1px solid black;background:none;">Somewhere in Balkans<br />Hotel - 542.82</td>
 </tr>
 <tr>
-<td>1500<br />summer</td>
-<td>Somewhere in Europe<br />Hotel - 1350.00</td>
+<td style="border:1px solid black;">1500<br />summer</td>
+<td style="border:1px solid black;">Somewhere in Europe<br />Hotel - 1350.00</td>
 </tr>
 </tbody>
 </table>
@@ -230,23 +230,23 @@ _Трета задача от междинния изпит на 26 март 201
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>10<br />12<br />+</td>
-<td>10 + 12 = 22 - even</td>
+<td style="border:1px solid black;">10<br />12<br />+</td>
+<td style="border:1px solid black;">10 + 12 = 22 - even</td>
 </tr>
 <tr>
-<td>10<br />1<br />-</td>
-<td>10 - 1 = 9 - odd</td>
+<td style="border:1px solid black;background:none;">10<br />1<br />-</td>
+<td style="border:1px solid black;background:none;">10 - 1 = 9 - odd</td>
 </tr>
 <tr>
-<td>7<br />3<br />*</td>
-<td>7 * 3 = 21 - odd</td>
+<td style="border:1px solid black;">7<br />3<br />*</td>
+<td style="border:1px solid black;">7 * 3 = 21 - odd</td>
 </tr>
 </tbody>
 </table>
@@ -254,19 +254,19 @@ _Трета задача от междинния изпит на 26 март 201
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>123<br />12<br />/</td>
-<td>123 / 12 = 10.25</td>
+<td style="border:1px solid black;">123<br />12<br />/</td>
+<td style="border:1px solid black;">123 / 12 = 10.25</td>
 </tr>
 <tr>
-<td>10<br />3<br />%</td>
-<td>10 % 3 = 1</td>
+<td style="border:1px solid black;background:none;">10<br />3<br />%</td>
+<td style="border:1px solid black;background:none;">10 % 3 = 1</td>
 </tr>
 </tbody>
 </table>
@@ -274,19 +274,19 @@ _Трета задача от междинния изпит на 26 март 201
 <table style="display:inline-block;vertical-align:top;width:31.5%">
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>112<br />0<br />/</td>
-<td>Cannot divide 122 by zero</td>
+<td style="border:1px solid black;">112<br />0<br />/</td>
+<td style="border:1px solid black;">Cannot divide 122 by zero</td>
 </tr>
 <tr>
-<td>10<br />0<br />%</td>
-<td>Cannot divide 10 by zero</td>
+<td style="border:1px solid black;background:none;">10<br />0<br />%</td>
+<td style="border:1px solid black;background:none;">Cannot divide 10 by zero</td>
 </tr>
 </tbody>
 </table>
@@ -342,21 +342,21 @@ _Трета задача от междинния изпит на 17 юли 2016.
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>1000<br />Normal<br />1</td>
-<td>Yes! You have 0.01 leva left.</td>
+<td style="border:1px solid black;">1000<br />Normal<br />1</td>
+<td style="border:1px solid black;">Yes! You have 0.01 leva left.</td>
 </tr>
 <tr>
-<td colspan="2"><strong>Обяснения</strong></td>
+<td colspan="2" style="border:1px solid black;"><strong>Обяснения</strong></td>
 </tr>
 <tr>
-<td colspan="2"><strong>1 човек : 75% от бюджета</strong> отиват <strong>за транспорт</strong>. <strong>Остават</strong>: 1000 – 750 = <strong>250</strong>.<br /> Категория <strong>Normal</strong>: билетът <strong>струва 249.99 * 1 = 249.99</strong><br />249.99 &lt; 250: остават му 250 – 249.99 = <strong>0.01</strong></td>
+<td colspan="2" style="border:1px solid black;"><strong>1 човек : 75% от бюджета</strong> отиват <strong>за транспорт</strong>. <strong>Остават</strong>: 1000 – 750 = <strong>250</strong>.<br /> Категория <strong>Normal</strong>: билетът <strong>струва 249.99 * 1 = 249.99</strong><br />249.99 &lt; 250: остават му 250 – 249.99 = <strong>0.01</strong></td>
 </tr>
 </tbody>
 </table>
@@ -364,21 +364,21 @@ _Трета задача от междинния изпит на 17 юли 2016.
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
 <thead>
 <tr>
-<th>Вход</th>
-<th>Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>30000<br />VIP<br />49</td>
-<td>Not enough money! You need 6499.51 leva.</td>
+<td style="border:1px solid black;">30000<br />VIP<br />49</td>
+<td style="border:1px solid black;">Not enough money! You need 6499.51 leva.</td>
 </tr>
 <tr>
-<td colspan="2"><strong>Обяснения</strong></td>
+<td colspan="2" style="border:1px solid black;"><strong>Обяснения</strong></td>
 </tr>
 <tr>
-<td colspan="2"><strong>49 човека: 40% от бюджета</strong> отиват <strong>за транспорт</strong>.<br /> <strong>Остават</strong>: 30000 – 12000 = <strong>18000</strong>.<br /> Категория <strong>VIP</strong>: билетите струват 499.99 * 49.<br /> <strong>24499.510000000002 &lt; 18000</strong>.<br /> <strong>Не стигат</strong> 24499.51 - 18000 = <strong>6499.51</strong>
+<td colspan="2" style="border:1px solid black;"><strong>49 човека: 40% от бюджета</strong> отиват <strong>за транспорт</strong>.<br /> <strong>Остават</strong>: 30000 – 12000 = <strong>18000</strong>.<br /> Категория <strong>VIP</strong>: билетите струват 499.99 * 49.<br /> <strong>24499.510000000002 &lt; 18000</strong>.<br /> <strong>Не стигат</strong> 24499.51 - 18000 = <strong>6499.51</strong>
 </td>
 </tr>
 </tbody>
@@ -405,16 +405,16 @@ _Трета задача от междинния изпит на 28 август
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%;">
 <thead>
 <tr>
-<th style="background-color:#d9d9d9;">Май и октомври</th>
+<th style="background-color:#d9d9d9;border:1px solid black;">Май и октомври</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>Студио – <strong>50</strong> лв./нощувка</td>
+<td style="border:1px solid black;">Студио – <strong>50</strong> лв./нощувка</td>
 </tr>
 <tr>
-<td style="background:none">Апартамент – <strong>65</strong> лв./нощувка</td>
+<td style="background:none;border:1px solid black;">Апартамент – <strong>65</strong> лв./нощувка</td>
 </tr>
 </tbody>
 </table>
@@ -422,16 +422,16 @@ _Трета задача от междинния изпит на 28 август
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
 <tr>
-<th style="background-color:#d9d9d9;">Юни и септември</th>
+<th style="background-color:#d9d9d9;border:1px solid black;">Юни и септември</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>Студио – <strong>75.20</strong> лв./нощувка</td>
+<td style="border:1px solid black;">Студио – <strong>75.20</strong> лв./нощувка</td>
 </tr>
 <tr>
-<td style="background:none;">Апартамент – <strong>68.70</strong> лв./нощувка</td>
+<td style="background:none;border:1px solid black;">Апартамент – <strong>68.70</strong> лв./нощувка</td>
 </tr>
 </tbody>
 </table>
@@ -439,16 +439,16 @@ _Трета задача от междинния изпит на 28 август
 <table style="display:inline-block;vertical-align:top;width:31.5%;">
 <thead>
 <tr>
-<th style="background-color:#d9d9d9;">Юли и август</th>
+<th style="background-color:#d9d9d9;border:1px solid black;">Юли и август</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>Студио – <strong>76</strong> лв./нощувка</td>
+<td style="border:1px solid black;">Студио – <strong>76</strong> лв./нощувка</td>
 </tr>
 <tr>
-<td style="background:none;">Апартамент – <strong>77</strong> лв./нощувка</td>
+<td style="background:none;border:1px solid black;">Апартамент – <strong>77</strong> лв./нощувка</td>
 </tr>
 </tbody>
 </table>
@@ -483,30 +483,30 @@ _Трета задача от междинния изпит на 28 август
 <table style="display:inline-block;">
 <thead>
 <tr>
-<th style="background-color:#d9d9d9;">Вход</th>
-<th style="background-color:#d9d9d9;min-width:160px;">Изход</th>
-<th colspan="2" style="background-color:#d9d9d9;">Обяснения</th>
+<th style="background-color:#d9d9d9;border:1px solid black;">Вход</th>
+<th style="background-color:#d9d9d9;min-width:160px;border:1px solid black;">Изход</th>
+<th colspan="2" style="background-color:#d9d9d9;border:1px solid black;">Обяснения</th>
 </tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td>May<br />15</td>
-<td>Apartment: 877.50 lv.<br />Studio: 525.00 lv.</td>
+<td style="border:1px solid black;">May<br />15</td>
+<td style="border:1px solid black;">Apartment: 877.50 lv.<br />Studio: 525.00 lv.</td>
 <td colspan="2"><strong>През май</strong>, при повече от <strong>14</strong> нощувки, намаляваме цената на студиото с <strong>30%</strong> (50 – 15 = 35), а на апартамента – с <strong>10%</strong> (65 – 6.5 =58.5).<br /> Целият престой <strong>в апартамент</strong> – <strong>877.50 лв.</strong><br /> Целият престой <strong>в студио</strong> – <strong>525.00 лв.</strong>
 </td>
 </tr>
 <tr>
-<td style="background-color:#d9d9d9;font-weight:700;">Вход</td>
-<td style="background-color:#d9d9d9;font-weight:700;">Изход</td>
-<td style="background-color:#d9d9d9;font-weight:700;">Вход</td>
-<td style="background-color:#d9d9d9;font-weight:700;">Изход</td>
+<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
+<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
+<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
+<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
 </tr>
 <tr>
-<td style="background:none;">June<br />14</td>
-<td style="background:none;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
-<td style="background:none;">August<br />20</td>
-<td style="background:none;">Apartment: 1386.00 lv.<br />Studio: 1520.00 lv.</td>
+<td style="background:none;border:1px solid black;">June<br />14</td>
+<td style="background:none;border:1px solid black;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
+<td style="background:none;border:1px solid black;">August<br />20</td>
+<td style="background:none;border:1px solid black;">Apartment: 1386.00 lv.<br />Studio: 1520.00 lv.</td>
 </tr>
 </tbody>
 </table>
