@@ -2,7 +2,7 @@
 
 ## Навреме за изпит
 
-_Трета задача от междинния изпит на 6 март 2016. Тествайте решението си [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2)._
+_Трета задача от междинния изпит на 6 март 2016. Тествайте решението си на адрес: [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2)._
 
 Студент трябва да отиде **на изпит в определен час** (например в 9:30 часа). Той идва в изпитната зала в даден **час на пристигане** (например 9:40). Счита се, че студентът е дошъл **навреме**, ако е пристигнал в часа на изпита или до половин час преди това. Ако е пристигнал по-рано повече от 30 минути, той е **подранил**. Ако е дошъл след часа на изпита, той е **закъснял**. 
 
@@ -50,7 +50,7 @@ _Трета задача от междинния изпит на 6 март 2016
 | 16<br />00<br />15<br />00 | Early<br />1:00 hours before the start |   | 11<br />30<br />8<br />12 | Early<br />3:18 hours before the start |   |  11<br />30<br />12<br />29 | Late<br />59 minutes after the start |
 
 <br />
-<div style="display:inline-block;float:left;margin-right:20px;width:33%">
+<div style="display:inline-block;margin-right:5%;width:30%">
 <table>
 <thead>
 <th>Вход</th>
@@ -74,7 +74,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 </div>
 
-<div style="display:inline-block;float:left;margin-right:20px;width:33%">
+<div style="display:inline-block;margin-right:5%;width:30%">
 <table>
 <thead>
 <th>Вход</th>
@@ -98,7 +98,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 </div>
 
-<div style="display:inline-block;float:left;width:33%">
+<div style="display:inline-block;width:30%">
 <table>
 <thead>
 <th>Вход</th>
@@ -132,7 +132,7 @@ TODO
 
 ## Пътешествие
 
-_Трета задача от междинния изпит на_ _2__6 март 2016. Тествайте решението си [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2)._
+_Трета задача от междинния изпит на 26 март 2016. Тествайте решението на адрес: [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2)._
 
 Странно, но повечето хора си плануват от рано почивката. Млад програмист разполага с **определен бюджет** и свободно време в даден **сезон**.
 
