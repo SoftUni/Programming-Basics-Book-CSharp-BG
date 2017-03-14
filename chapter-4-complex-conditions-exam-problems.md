@@ -353,7 +353,7 @@ _Трета задача от междинния изпит на 17 юли 2016.
 <td style="border:1px solid black;">Yes! You have 0.01 leva left.</td>
 </tr>
 <tr>
-<td colspan="2" style="border:1px solid black;"><strong>Обяснения</strong></td>
+<td colspan="2" style="border:1px solid black;background-color:#d9d9d9;"><strong>Обяснения</strong></td>
 </tr>
 <tr>
 <td colspan="2" style="border:1px solid black;"><strong>1 човек : 75% от бюджета</strong> отиват <strong>за транспорт</strong>. <strong>Остават</strong>: 1000 – 750 = <strong>250</strong>.<br /> Категория <strong>Normal</strong>: билетът <strong>струва 249.99 * 1 = 249.99</strong><br />249.99 &lt; 250: остават му 250 – 249.99 = <strong>0.01</strong></td>
@@ -375,7 +375,7 @@ _Трета задача от междинния изпит на 17 юли 2016.
 <td style="border:1px solid black;">Not enough money! You need 6499.51 leva.</td>
 </tr>
 <tr>
-<td colspan="2" style="border:1px solid black;"><strong>Обяснения</strong></td>
+<td colspan="2" style="border:1px solid black;background-color:#d9d9d9;"><strong>Обяснения</strong></td>
 </tr>
 <tr>
 <td colspan="2" style="border:1px solid black;"><strong>49 човека: 40% от бюджета</strong> отиват <strong>за транспорт</strong>.<br /> <strong>Остават</strong>: 30000 – 12000 = <strong>18000</strong>.<br /> Категория <strong>VIP</strong>: билетите струват 499.99 * 49.<br /> <strong>24499.510000000002 &lt; 18000</strong>.<br /> <strong>Не стигат</strong> 24499.51 - 18000 = <strong>6499.51</strong>
