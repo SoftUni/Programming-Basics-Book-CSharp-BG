@@ -50,8 +50,8 @@ _Трета задача от междинния изпит на 6 март 2016
 | 16<br />00<br />15<br />00 | Early<br />1:00 hours before the start |   | 11<br />30<br />8<br />12 | Early<br />3:18 hours before the start |   |  11<br />30<br />12<br />29 | Late<br />59 minutes after the start |
 
 <br />
-
-<table style="display:inline-block !important;float:left !important;margin-right:20px !important">
+<div style="display:inline-block !important;float:left !important;margin-right:20px !important">
+<table>
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -72,8 +72,10 @@ _Трета задача от междинния изпит на 6 март 2016
 </tr>
 </tbody>
 </table>
+</div>
 
-<table style="display:inline-block !important;float:left !important;margin-right:20px !important">
+<div  style="display:inline-block !important;float:left !important;margin-right:20px !important">
+<table>
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -94,9 +96,10 @@ _Трета задача от междинния изпит на 6 март 2016
 </tr>
 </tbody>
 </table>
+</div>
 
-
-<table style="display:inline-block !important;float:left !important">
+<div style="display:inline-block !important;float:left !important">
+<table>
 <thead>
 <th>Вход</th>
 <th>Изход</th>
@@ -117,11 +120,12 @@ _Трета задача от междинния изпит на 6 март 2016
 </tr>
 </tbody>
 </table>
+</div>
 
 ### Насоки и подсказки
-
+TODO
 ### Тестване в Judge системата
-
+TODO
 
 ## Пътешествие
 
