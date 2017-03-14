@@ -1,6 +1,6 @@
 # Глава 4. По-сложни проверки - изпитни задачи
 
-## Навреме за изпит
+## 1.Навреме за изпит
 
 _Трета задача от междинния изпит на 6 март 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2)._
 
@@ -112,7 +112,7 @@ TODO
 
 Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2).
 
-## Пътешествие
+## 2.Пътешествие
 
 _Трета задача от междинния изпит на 26 март 2016. Тествайте решението на адрес: [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2)._
 
@@ -188,7 +188,7 @@ TODO
 
 Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2). 
 
-## Операции между числа
+## 3.Операции между числа
 
 _Трета задача от междинния изпит на 26 март 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/181#2**](https://judge.softuni.bg/Contests/Practice/Index/181#2)._
 
@@ -284,7 +284,7 @@ _Трета задача от междинния изпит на 26 март 201
 
 Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/181#2**](https://judge.softuni.bg/Contests/Practice/Index/181#2).
 
-## Билети за мач
+## 4.Билети за мач
 
 TODO: описание
 
@@ -301,7 +301,7 @@ TODO: картинка
 ### Тестване в Judge системата
 
 
-## Хотелска стая
+## 5.Хотелска стая
 
 TODO: описание
 
