@@ -50,7 +50,7 @@ _Трета задача от междинния изпит на 6 март 2016
 | 16<br />00<br />15<br />00 | Early<br />1:00 hours before the start |   | 11<br />30<br />8<br />12 | Early<br />3:18 hours before the start |   |  11<br />30<br />12<br />29 | Late<br />59 minutes after the start |
 
 <br />
-<div style="display:inline-block;margin-right:2.2%;width:31.5%">
+<div style="display:inline-block;margin-right:0%;width:33%">
 <table>
 <thead>
 <th>Вход</th>
@@ -74,7 +74,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 </div>
 
-<div style="display:inline-block;margin-right:2.2%;width:31.5%">
+<div style="display:inline-block;margin-right:0%;width:33%">
 <table>
 <thead>
 <th>Вход</th>
@@ -98,7 +98,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 </div>
 
-<div style="display:inline-block;width:31.5%">
+<div style="display:inline-block;width:33%">
 <table>
 <thead>
 <th>Вход</th>
@@ -235,6 +235,66 @@ _Трета задача от междинния изпит на 26 март 201
 
 
 ### Примерен вход и изход
+
+<div>
+<table style="display:inline-block;vertical-align:top;margin-right:15px">
+<thead>
+<th>Вход</th>
+<th>Изход</th>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td>10<br />12<br />+</td>
+<td>10 + 12 = 22 - even</td>
+</tr>
+<tr>
+<td>10<br />1<br />-</td>
+<td>10 - 1 = 9 - odd</td>
+</tr>
+<tr>
+<td>7<br />3<br />*</td>
+<td>7 * 3 = 21 - odd</td>
+</tr>
+</tbody>
+</table>
+
+<table style="display:inline-block;vertical-align:top;margin-right:15px">
+<thead>
+<th>Вход</th>
+<th>Изход</th>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td>123<br />12<br />/</td>
+<td>123 / 12 = 10.25</td>
+</tr>
+<tr>
+<td>10<br />3<br />%</td>
+<td>10 % 3 = 1</td>
+</tr>
+</tbody>
+</table>
+
+<table style="display:inline-block;vertical-align:top">
+<thead>
+<th>Вход</th>
+<th>Изход</th>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td>112<br />0<br />/</td>
+<td>Cannot divide 122 by zero</td>
+</tr>
+<tr>
+<td>10<br />0<br />%</td>
+<td>Cannot divide 10 by zero</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ### Насоки и подсказки
 
