@@ -37,8 +37,10 @@ _Трета задача от междинния изпит на 6 март 2016
 <div style="display:inline-block;margin-right:2%;width:31.5%">
 <table>
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -60,8 +62,10 @@ _Трета задача от междинния изпит на 6 март 2016
 <div style="display:inline-block;margin-right:2%;width:31.5%">
 <table>
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -83,8 +87,10 @@ _Трета задача от междинния изпит на 6 март 2016
 <div style="display:inline-block;width:31.5%">
 <table>
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -152,8 +158,10 @@ _Трета задача от междинния изпит на 26 март 201
 <div style="display:inline-block">
 <table>
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -221,8 +229,10 @@ _Трета задача от междинния изпит на 26 март 201
 <div>
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -243,8 +253,10 @@ _Трета задача от междинния изпит на 26 март 201
 
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -261,8 +273,10 @@ _Трета задача от междинния изпит на 26 март 201
 
 <table style="display:inline-block;vertical-align:top;width:31.5%">
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -327,8 +341,10 @@ _Трета задача от междинния изпит на 17 юли 2016.
 <div>
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -347,8 +363,10 @@ _Трета задача от междинния изпит на 17 юли 2016.
 
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
 <thead>
+<tr>
 <th>Вход</th>
 <th>Изход</th>
+</tr>
 </thead>
 <tfoot></tfoot>
 <tbody>
@@ -377,22 +395,126 @@ TODO
 
 ## 5.Хотелска стая
 
+_Трета задача от междинния изпит на 28 август 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/274#2**](https://judge.softuni.bg/Contests/Practice/Index/274#2)._
 
+Хотел предлага **2 вида стаи**: **студио и апартамент**.
 
-TODO: описание
+Напишете програма, която изчислява **цената за целия престой за студио и апартамент**. **Цените** зависят от **месеца** на престоя:
 
-TODO: картинка
+<div>
+<table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%;">
+<thead>
+<tr>
+<th style="background-color:#d9d9d9;">Май и октомври</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td>Студио – <strong>50</strong> лв./нощувка</td>
+</tr>
+<tr>
+<td style="background:none">Апартамент – <strong>65</strong> лв./нощувка</td>
+</tr>
+</tbody>
+</table>
+
+<table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
+<thead>
+<tr>
+<th style="background-color:#d9d9d9;">Юни и септември</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td>Студио – <strong>75.20</strong> лв./нощувка</td>
+</tr>
+<tr>
+<td style="background:none;">Апартамент – <strong>68.70</strong> лв./нощувка</td>
+</tr>
+</tbody>
+</table>
+
+<table style="display:inline-block;vertical-align:top;width:31.5%;">
+<thead>
+<tr>
+<th style="background-color:#d9d9d9;">Юли и август</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td>Студио – <strong>76</strong> лв./нощувка</td>
+</tr>
+<tr>
+<td style="background:none;">Апартамент – <strong>77</strong> лв./нощувка</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+Предлагат се и следните **отстъпки**:
+
+- За **студио**, при **повече** от **7** нощувки през **май и октомври**: **5% намаление**.
+- За **студио**, при **повече** от **14** нощувки през **май и октомври**: **30% намаление**.
+- За **студио**, при **повече** от **14** нощувки през **юни и септември**: **20% намаление**.
+- За **апартамент**, при **повече** от **14** нощувки, **без значение от месеца: 10% намаление**.
 
 ### Входни данни
 
+Входът се чете от **конзолата** и съдържа **точно 2 реда**:
+
+- На **първия** ред е **месецът** – **May**, **June**, **July**, **August**, **September** или **October**
+- На **втория** ред е **броят на нощувките** – **цяло число в интервала** **[0...200]**
+
 ### Изходни данни
+
+Да се **отпечатат** на конзолата **2 реда**:
+
+- На **първия ред**: &quot;**Apartment: { цена за целият престой } lv**&quot;.
+- На **втория ред**: &quot;**Studio: { цена за целият престой } lv**&quot;.
+
+**Цената за целия престой да е форматирана с точност до два знака след десетичната запетая**.
 
 ### Примерен вход и изход
 
+<div>
+<table style="display:inline-block;">
+<thead>
+<tr>
+<th style="background-color:#d9d9d9;">Вход</th>
+<th style="background-color:#d9d9d9;min-width:160px;">Изход</th>
+<th colspan="2" style="background-color:#d9d9d9;">Обяснения</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td>May<br />15</td>
+<td>Apartment: 877.50 lv.<br />Studio: 525.00 lv.</td>
+<td colspan="2"><strong>През май</strong>, при повече от <strong>14</strong> нощувки, намаляваме цената на студиото с <strong>30%</strong> (50 – 15 = 35), а на апартамента – с <strong>10%</strong> (65 – 6.5 =58.5).<br /> Целият престой <strong>в апартамент</strong> – <strong>877.50 лв.</strong><br /> Целият престой <strong>в студио</strong> – <strong>525.00 лв.</strong>
+</td>
+</tr>
+<tr>
+<td style="background-color:#d9d9d9;font-weight:700;">Вход</td>
+<td style="background-color:#d9d9d9;font-weight:700;">Изход</td>
+<td style="background-color:#d9d9d9;font-weight:700;">Вход</td>
+<td style="background-color:#d9d9d9;font-weight:700;">Изход</td>
+</tr>
+<tr>
+<td style="background:none;">June<br />14</td>
+<td style="background:none;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
+<td style="background:none;">August<br />20</td>
+<td style="background:none;">Apartment: 1386.00 lv.<br />Studio: 1520.00 lv.</td>
+</tr>
+</tbody>
+</table>
+
 ### Насоки и подсказки
+
+TODO
 
 ### Тестване в Judge системата
 
-
-
-
+Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/274#2**](https://judge.softuni.bg/Contests/Practice/Index/274#2).
