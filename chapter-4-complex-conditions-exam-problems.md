@@ -37,7 +37,7 @@ _Трета задача от междинния изпит на 6 март 2016
 <div style="display:inline-block;margin-right:2%;width:31.5%;">
 <table>
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -48,9 +48,9 @@ _Трета задача от междинния изпит на 6 март 2016
 <td style="border:1px solid black;">9<br />30<br />9<br />50</td>
 <td style="border:1px solid black;">Late<br />20 minutes after the start</td>
 </tr>
-<tr>
-<td style="background:none !important;border:1px solid black;">9<br />00<br />8<br />30</td>
-<td style="background:none !important;border:1px solid black;">On time<br />30 minutes before the start</td>
+<tr style="background:none;">
+<td style="background:none;border:1px solid black;">9<br />00<br />8<br />30</td>
+<td style="background:none;border:1px solid black;">On time<br />30 minutes before the start</td>
 </tr>
 <tr>
 <td style="border:1px solid black;">16<br />00<br />15<br />00</td>
@@ -62,7 +62,7 @@ _Трета задача от междинния изпит на 6 март 2016
 <div style="display:inline-block;margin-right:2%;width:31.5%;">
 <table>
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -73,7 +73,7 @@ _Трета задача от междинния изпит на 6 март 2016
 <td style="border:1px solid black;">9<br />00<br />10<br />30</td>
 <td style="border:1px solid black;">Late<br />1:30 hours after the start</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="border:1px solid black;background:none;">14<br />00<br />13<br />55</td>
 <td style="border:1px solid black;background:none;">On time<br />5 minutes before the start</td>
 </tr>
@@ -87,7 +87,7 @@ _Трета задача от междинния изпит на 6 март 2016
 <div style="display:inline-block;width:31.5%">
 <table>
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -98,7 +98,7 @@ _Трета задача от междинния изпит на 6 март 2016
 <td style="border:1px solid black;">10<br />00<br />10<br />00</td>
 <td style="border:1px solid black;">On time<br /><br /><br /></td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="border:1px solid black;background:none;">11<br />30<br />10<br />55</td>
 <td style="border:1px solid black;background:none;">Early<br />35 minutes before the start<br /><br /></td>
 </tr>
@@ -158,7 +158,7 @@ _Трета задача от междинния изпит на 26 март 201
 <div style="display:inline-block">
 <table>
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -229,7 +229,7 @@ _Трета задача от междинния изпит на 26 март 201
 <div>
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -253,7 +253,7 @@ _Трета задача от междинния изпит на 26 март 201
 
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -273,7 +273,7 @@ _Трета задача от междинния изпит на 26 март 201
 
 <table style="display:inline-block;vertical-align:top;width:31.5%">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -341,7 +341,7 @@ _Трета задача от междинния изпит на 17 юли 2016.
 <div>
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -363,7 +363,7 @@ _Трета задача от междинния изпит на 17 юли 2016.
 
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
 <th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
 </tr>
@@ -404,7 +404,7 @@ _Трета задача от междинния изпит на 28 август
 <div>
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%;">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="background-color:#d9d9d9;border:1px solid black;">Май и октомври</th>
 </tr>
 </thead>
@@ -421,7 +421,7 @@ _Трета задача от междинния изпит на 28 август
 
 <table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="background-color:#d9d9d9;border:1px solid black;">Юни и септември</th>
 </tr>
 </thead>
@@ -438,7 +438,7 @@ _Трета задача от междинния изпит на 28 август
 
 <table style="display:inline-block;vertical-align:top;width:31.5%;">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="background-color:#d9d9d9;border:1px solid black;">Юли и август</th>
 </tr>
 </thead>
@@ -482,7 +482,7 @@ _Трета задача от междинния изпит на 28 август
 <div>
 <table style="display:inline-block;">
 <thead>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <th style="background-color:#d9d9d9;border:1px solid black;">Вход</th>
 <th style="background-color:#d9d9d9;min-width:160px;border:1px solid black;">Изход</th>
 <th colspan="2" style="background-color:#d9d9d9;border:1px solid black;">Обяснения</th>
@@ -496,13 +496,13 @@ _Трета задача от междинния изпит на 28 август
 <td colspan="2" style="border:1px solid black;"><strong>През май</strong>, при повече от <strong>14</strong> нощувки, намаляваме цената на студиото с <strong>30%</strong> (50 – 15 = 35), а на апартамента – с <strong>10%</strong> (65 – 6.5 =58.5).<br /> Целият престой <strong>в апартамент</strong> – <strong>877.50 лв.</strong><br /> Целият престой <strong>в студио</strong> – <strong>525.00 лв.</strong>
 </td>
 </tr>
-<tr>
+<tr style="background-color:#d9d9d9;">
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
 </tr>
-<tr>
+<tr style="background:none;">
 <td style="background:none;border:1px solid black;">June<br />14</td>
 <td style="background:none;border:1px solid black;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
 <td style="background:none;border:1px solid black;">August<br />20</td>
