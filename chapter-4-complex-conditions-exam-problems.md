@@ -50,7 +50,7 @@ _Трета задача от междинния изпит на 6 март 2016
 | 16<br />00<br />15<br />00 | Early<br />1:00 hours before the start |   | 11<br />30<br />8<br />12 | Early<br />3:18 hours before the start |   |  11<br />30<br />12<br />29 | Late<br />59 minutes after the start |
 
 <br />
-<div style="display:inline-block;margin-right:2.2%;width:31.8%">
+<div style="display:inline-block;margin-right:2.2%;width:31.5%">
 <table>
 <thead>
 <th>Вход</th>
@@ -74,7 +74,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 </div>
 
-<div style="display:inline-block;margin-right:2.2%;width:31.8%">
+<div style="display:inline-block;margin-right:2.2%;width:31.5%">
 <table>
 <thead>
 <th>Вход</th>
@@ -98,7 +98,7 @@ _Трета задача от междинния изпит на 6 март 2016
 </table>
 </div>
 
-<div style="display:inline-block;width:31.8%">
+<div style="display:inline-block;width:31.5%">
 <table>
 <thead>
 <th>Вход</th>
@@ -128,7 +128,7 @@ TODO
 
 ### Тестване в Judge системата
 
-Може да тествате вашит0 решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2).
+Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2).
 
 ## Пътешествие
 
@@ -204,17 +204,35 @@ _Трета задача от междинния изпит на 26 март 201
 TODO
 ### Тестване в Judge системата
 
-Може да тествате вашит0 решение на URL адрес: [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2). 
+Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2). 
 
 ## Операции между числа
 
-TODO: описание
+_Трета задача от междинния изпит на 26 март 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/181#2**](https://judge.softuni.bg/Contests/Practice/Index/181#2)._
 
-TODO: картинка
+Напишете програма, която чете **две цели числа (N1 и N2)** и **оператор** с който да се **извърши** дадена **математическа операция** с тях. Възможните операции са: **Събиране (+)**, **Изваждане (-)**, **Умножение (\*)**, **Деление (/)** и **Модулно деление (%)**. При **събиране**, **изваждане** и **умножение** на конзолата **трябва да се отпечатат резултата** и дали той е **четен** или **нечетен**. При **обикновеното деление** – **резултата**. При **модулното деление** – **остатъка**. Трябва да се има предвид, че **делителят може да е равен на 0 (нула)**, а **на нула не се дели**. В този случай трябва да се отпечата **специално съобщениe**.
 
 ### Входни данни
 
+От конзолата се прочитат **3 реда**:
+
+- **N1** – **цяло число** в интервала **[0...40 000]**
+- **N2** – **цяло число** в интервала **[0...40 000]**
+- **Оператор** – **един символ** измеду: &quot;**+**&quot;, &quot;**-**&quot;, &quot;**\***&quot;, &quot;**/**&quot;, &quot;**%**&quot;
+
 ### Изходни данни
+
+Да се отпечата на конзолата **един ред**:
+
+- Ако операцията е **събиране**, **изваждене** или **умножение**:
+  - **&quot;{N1} {оператор} {N2} = {резултат} – {even/odd}&quot;**
+- Ако операцията е **деление**:
+  - **&quot;{N1} / {N2} = {резултат}&quot;** – резултатът е **форматиран **до** вторият знак след десетичната запетая**
+- Ако операцията е **модулно деление**:
+  - **&quot;{N1} % {N2} = {остатък}&quot;**
+- В случай на **деление с 0(нула)**:
+  - **&quot;Cannot divide {N1} by zero&quot;**
+
 
 ### Примерен вход и изход
 
@@ -222,6 +240,7 @@ TODO: картинка
 
 ### Тестване в Judge системата
 
+Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/181#2**](https://judge.softuni.bg/Contests/Practice/Index/181#2).
 
 ## Билети за мач
 
