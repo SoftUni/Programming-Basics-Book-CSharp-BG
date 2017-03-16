@@ -240,9 +240,9 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">10<br />12<br />+</td>
 <td style="border:1px solid black;">10 + 12 = 22 - even</td>
 </tr>
-<tr style="background:none;">
-<td style="border:1px solid black;background:none;">10<br />1<br />-</td>
-<td style="border:1px solid black;background:none;">10 - 1 = 9 - odd</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="border:1px solid black;background:none;background-color:#ffffff;">10<br />1<br />-</td>
+<td style="border:1px solid black;background:none;background-color:#ffffff;">10 - 1 = 9 - odd</td>
 </tr>
 <tr>
 <td style="border:1px solid black;">7<br />3<br />*</td>
@@ -264,9 +264,9 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">123<br />12<br />/</td>
 <td style="border:1px solid black;">123 / 12 = 10.25</td>
 </tr>
-<tr style="background:none;">
-<td style="border:1px solid black;background:none;">10<br />3<br />%</td>
-<td style="border:1px solid black;background:none;">10 % 3 = 1</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="border:1px solid black;background:none;background-color:#ffffff;">10<br />3<br />%</td>
+<td style="border:1px solid black;background:none;background-color:#ffffff;">10 % 3 = 1</td>
 </tr>
 </tbody>
 </table>
@@ -284,9 +284,9 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">112<br />0<br />/</td>
 <td style="border:1px solid black;">Cannot divide 122 by zero</td>
 </tr>
-<tr style="background:none;">
-<td style="border:1px solid black;background:none;">10<br />0<br />%</td>
-<td style="border:1px solid black;background:none;">Cannot divide 10 by zero</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="border:1px solid black;background:none;background-color:#ffffff;">10<br />0<br />%</td>
+<td style="border:1px solid black;background:none;background-color:#ffffff;">Cannot divide 10 by zero</td>
 </tr>
 </tbody>
 </table>
@@ -413,8 +413,8 @@ _Трета задача от междинния изпит на 28 август
 <tr>
 <td style="border:1px solid black;">Студио – <strong>50</strong> лв./нощувка</td>
 </tr>
-<tr style="background:none;">
-<td style="background:none;border:1px solid black;">Апартамент – <strong>65</strong> лв./нощувка</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">Апартамент – <strong>65</strong> лв./нощувка</td>
 </tr>
 </tbody>
 </table>
@@ -430,8 +430,8 @@ _Трета задача от междинния изпит на 28 август
 <tr>
 <td style="border:1px solid black;">Студио – <strong>75.20</strong> лв./нощувка</td>
 </tr>
-<tr style="background:none;">
-<td style="background:none;border:1px solid black;">Апартамент – <strong>68.70</strong> лв./нощувка</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">Апартамент – <strong>68.70</strong> лв./нощувка</td>
 </tr>
 </tbody>
 </table>
@@ -447,8 +447,8 @@ _Трета задача от междинния изпит на 28 август
 <tr>
 <td style="border:1px solid black;">Студио – <strong>76</strong> лв./нощувка</td>
 </tr>
-<tr style="background:none;">
-<td style="background:none;border:1px solid black;">Апартамент – <strong>77</strong> лв./нощувка</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">Апартамент – <strong>77</strong> лв./нощувка</td>
 </tr>
 </tbody>
 </table>
@@ -502,11 +502,11 @@ _Трета задача от междинния изпит на 28 август
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
 <td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
 </tr>
-<tr style="background:none;">
-<td style="background:none;border:1px solid black;">June<br />14</td>
-<td style="background:none;border:1px solid black;min-width:190px;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
-<td style="background:none;border:1px solid black;">August<br />20</td>
-<td style="background:none;border:1px solid black;">Apartment: 1386.00 lv.<br />Studio: 1520.00 lv.</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">June<br />14</td>
+<td style="background:none;background-color:#ffffff;border:1px solid black;min-width:190px;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
+<td style="background:none;background-color:#ffffff;border:1px solid black;">August<br />20</td>
+<td style="background:none;background-color:#ffffff;border:1px solid black;">Apartment: 1386.00 lv.<br />Studio: 1520.00 lv.</td>
 </tr>
 </tbody>
 </table>
