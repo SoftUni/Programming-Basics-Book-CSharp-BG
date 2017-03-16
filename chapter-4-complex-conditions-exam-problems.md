@@ -48,9 +48,9 @@ _Трета задача от междинния изпит на 6 март 2016
 <td style="border:1px solid black;">9<br />30<br />9<br />50</td>
 <td style="border:1px solid black;">Late<br />20 minutes after the start</td>
 </tr>
-<tr style="background:none;">
-<td style="background:none;border:1px solid black;">9<br />00<br />8<br />30</td>
-<td style="background:none;border:1px solid black;">On time<br />30 minutes before the start</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">9<br />00<br />8<br />30</td>
+<td style="background:none;background-color:#ffffff;border:1px solid black;">On time<br />30 minutes before the start</td>
 </tr>
 <tr>
 <td style="border:1px solid black;">16<br />00<br />15<br />00</td>
@@ -73,9 +73,9 @@ _Трета задача от междинния изпит на 6 март 2016
 <td style="border:1px solid black;">9<br />00<br />10<br />30</td>
 <td style="border:1px solid black;">Late<br />1:30 hours after the start</td>
 </tr>
-<tr style="background:none;">
-<td style="border:1px solid black;background:none;">14<br />00<br />13<br />55</td>
-<td style="border:1px solid black;background:none;">On time<br />5 minutes before the start</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="border:1px solid black;background:none;background-color:#ffffff;">14<br />00<br />13<br />55</td>
+<td style="border:1px solid black;background:none;background-color:#ffffff;">On time<br />5 minutes before the start</td>
 </tr>
 <tr>
 <td style="border:1px solid black;">11<br />30<br />8<br />12</td>
@@ -98,9 +98,9 @@ _Трета задача от междинния изпит на 6 март 2016
 <td style="border:1px solid black;">10<br />00<br />10<br />00</td>
 <td style="border:1px solid black;">On time<br /><br /><br /></td>
 </tr>
-<tr style="background:none;">
-<td style="border:1px solid black;background:none;">11<br />30<br />10<br />55</td>
-<td style="border:1px solid black;background:none;">Early<br />35 minutes before the start<br /><br /></td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="border:1px solid black;background:none;background-color:#ffffff;">11<br />30<br />10<br />55</td>
+<td style="border:1px solid black;background:none;background-color:#ffffff;">Early<br />35 minutes before the start<br /><br /></td>
 </tr>
 <tr>
 <td style="border:1px solid black;">11<br />30<br />12<br />23</td>
@@ -169,17 +169,17 @@ _Трета задача от междинния изпит на 26 март 201
 <td style="border:1px solid black;">50<br />summer</td>
 <td style="border:1px solid black;">Somewhere in Bulgaria<br />Camp - 15.00</td>
 </tr>
-<tr style="background:none;">
-<td style="border:1px solid black;background:none;">75<br />winter</td>
-<td style="border:1px solid black;background:none;">Somewhere in Bulgaria<br />Hotel - 52.50</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="border:1px solid black;background:none;background-color:#ffffff;">75<br />winter</td>
+<td style="border:1px solid black;background:none;background-color:#ffffff;">Somewhere in Bulgaria<br />Hotel - 52.50</td>
 </tr>
 <tr>
 <td style="border:1px solid black;">312<br />summer</td>
 <td style="border:1px solid black;">Somewhere in Balkans<br />Camp - 124.80</td>
 </tr>
-<tr style="background:none;">
-<td style="border:1px solid black;background:none;">678.53<br />winter</td>
-<td style="border:1px solid black;background:none;">Somewhere in Balkans<br />Hotel - 542.82</td>
+<tr style="background:none;background-color:#ffffff;">
+<td style="border:1px solid black;background:none;background-color:#ffffff;">678.53<br />winter</td>
+<td style="border:1px solid black;background:none;background-color:#ffffff;">Somewhere in Balkans<br />Hotel - 542.82</td>
 </tr>
 <tr>
 <td style="border:1px solid black;">1500<br />summer</td>
