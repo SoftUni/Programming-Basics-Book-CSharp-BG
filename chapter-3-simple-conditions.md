@@ -172,8 +172,11 @@ tomato
 ```
 ## Четно или нечетно – пример
 
-Проверка дали цяло число е четно (even) или нечетно (odd)
+Да се напише програма, която проверява дали цяло число е **четно** (even) или **нечетно** (odd).
 
+Задачата можем да я решим чрез една `if-else` конструкция и оператора `%`, който ни връща **остатъка при деление** на едно число с друго.
+
+```cs
 var num = int.Parse(Console.ReadLine());
 if (num % 2 == 0)
 {
@@ -183,6 +186,7 @@ else
 {
    Console.WriteLine("odd");
 }
+```
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#2
 
@@ -190,6 +194,9 @@ else
 
 Да се напише програма, която чете две цели числа и извежда по-голямото от тях
 
+Първата ни задача е да **прочетем** двете числа. След което чрез прост `if-else` в съчетание с **оператора за по-голямо** `>` лесно можем да направим проверката.
+
+```cs
 Console.WriteLine("Enter two integers:");
 var num1 = int.Parse(Console.ReadLine());
 var num2 = int.Parse(Console.ReadLine());
@@ -201,12 +208,15 @@ else
 { 
   Console.WriteLine("Greater number: " + num2); 
 }
-
+```
 
 ## Живот на променлива
 
-Обхват, в който дадена променлива може да бъде използвана
+Всяка една променлива си има обхват на "живот" наречен **variable scope**. Този обхват уточнява къде една променлива може да бъде използвана. В C# областта, в която една променлива съществува започва от реда, на който сме я **дефинирали** и завърша до първата затваряща къдрава скоба "**}**" (на метода, на `if` конструкцията и т.н.). Така че е важно да знаем, че **всяка променлива дефинирана вътре в тялото на `if` няма да бъде достъпна извън него**, освен ако не сме я дефинирали по-нагоре в кода.
 
+В долния пример на последният ред, в който се опитваме да отпечатаме променливата **salary**, която е дефинирана в if-a, ще получим **грешка** защото нямаме достъп до нея.
+
+```cs
 var myBankAccount = Bank.GetMyBankAccount();
 if (DateTime.Now().Day >= PayDay)
 {
@@ -215,13 +225,14 @@ if (DateTime.Now().Day >= PayDay)
 }
 
 Console.WriteLine(myBankAccount);
-// Console.WriteLine(salary) Error!
-
+Console.WriteLine(salary) //Error!
+```
 ## Серии от проверки
 
 Конструкцията if-else-if-else… може да е в серия
 Пример: да се изпише с английски текст дадено число (от 0 до 10)
 
+```cs
 var num = int.Parse(Console.ReadLine());
 if (num == 1)
 { 
@@ -240,6 +251,7 @@ else
 {
   Console.WriteLine("number too big");
 }
+```
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#4
 
@@ -256,6 +268,7 @@ else
 
 ## Бонус точки – решение
 
+```cs
 Console.Write("Enter score: ");
 var num = int.Parse(Console.ReadLine());
 var bonusScore = 0.0;
@@ -267,6 +280,7 @@ if (num % 10 == 5)
 else // TODO: write more logic here …
 Console.WriteLine("Bonus score: {0}", bonusScore);
 Console.WriteLine("Total score: {0}", num + bonusScore);
+```
 
 TODO: show the samples
 
@@ -280,6 +294,7 @@ TODO: add examples
 
 ## Сумиране на секунди – решение
 
+```cs
 var sec1 = int.Parse(Console.ReadLine());
 // TODO: Read also sec2 and sec3 …
 var secs = sec1 + sec2 + sec3;
@@ -290,6 +305,7 @@ if (secs < 10)
  { Console.WriteLine(mins + ":" + "0" + secs); }
 else
  { Console.WriteLine(mins + ":" + secs); }
+```
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#6
 
