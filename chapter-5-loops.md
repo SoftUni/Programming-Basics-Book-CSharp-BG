@@ -73,14 +73,14 @@ for (var i = 0; i <= 1000; i++)
 
 Да се напише програма, която отпечатва буквите от латинската азбука: a … z
 For-циклите работят не само с числа, може и с букви:
-
+```cs
 Console.Write("Latin alphabet:");
 for (var letter = 'a'; letter <= 'z'; letter++)
 {
    Console.Write(" " + letter);
 }
 Console.WriteLine();
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#2
 
 
@@ -170,8 +170,11 @@ TODO: solution
 При равенство печата "Yes" + сумата; иначе печата "No" + разликата (изчислена като положително число)
 Примери:
 
-TODO: sample input / output table
+| Вход | Изход | Вход | Изход |
+| :--- | :--- | :--- | :--- | 
+| 2<br>10<br>90<br>60<br>40 | Yes, sum = 100 | 2<br>90<br>9<br>50<br>50 | No, diff = 1 |
 
+```cs
 var n = int.Parse(Console.ReadLine());
 var leftSum = 0;
 for (var i = 0; i < n; i++)
@@ -182,7 +185,7 @@ if (leftSum == rightSum)
 else
   Console.WriteLine("No, diff = " + 
     Math.Abs(rightSum - leftSum));
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#6
 
 
@@ -192,8 +195,11 @@ else
 Проверява дали сумата на числата на четни позиции е равна на сумата на числата на нечетни позиции
 При равенство печата "Yes" + сумата; иначе печата "No" + разликата (положително число). Примери:
 
-TODO: sample input / output table
+| Вход | Изход | Вход | Изход | Вход | Изход |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 4<br>10<br>50<br>60<br>20 | Yes<br>Sum = 70 | 4<br>3<br>5<br>1<br>-2 | No<br>Diff = 1 | 3<br>5<br>8<br>1 | No<br>Diff = 2 |
 
+```cs
 var n = int.Parse(Console.ReadLine());
 var oddSum = 0;
 var evenSum = 0;
@@ -204,7 +210,7 @@ for (var i = 0; i < n; i++)
   else evenSum += element;
 }
 // TODO: print the sum / difference
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#7
 
 
@@ -213,12 +219,17 @@ for (var i = 0; i < n; i++)
 Да се напише програма, която въвежда текст (стринг)
 Отпечатва сумата на гласните букви според таблицата по-долу:
 
-TODO: table
+| a | e | i | o | u | 
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 2 | 3 | 4 | 5 |
 
 Примери:
 
-TODO: sample input / output table
+| Вход | Изход | Вход | Изход | Вход | Изход | Вход | Изход |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| hello | 6<br>(e+o = 2+4 = 6) | bamboo | 9<br>(a+o+o = 1+4+4 = 9) | hi | 3<br>(i = 3) | beer | 4<br>(e+e = 2+2 = 4) |
 
+```cs
 var s = Console.ReadLine();
 var sum = 0;
 for (int i = 0; i < s.Length; i++)
@@ -228,25 +239,25 @@ for (int i = 0; i < s.Length; i++)
   else if (s[i] == 'o') sum += 4;
   else if (s[i] == 'u') sum += 5;
 Console.WriteLine("Vowels sum = " + sum);
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#8 
 
 
 ## Какво научихме от тази глава?
 
 Можем да повтаряме блок код с for-цикъл:
-
+```cs
 for (var i = 1; i <= 10; i++)
 {
    Console.WriteLine("i = " + i);
 }
-
+```
 Можем да четем поредица от n числа от конзолата:
-
+```cs
 var n = int.Parse(Console.ReadLine());
 for (var i = 0; i < n; i++)
 {  var num = int.Parse(Console.ReadLine()); … }
-
+```
 
 ## Упражнения: повторения (цикли)
 
