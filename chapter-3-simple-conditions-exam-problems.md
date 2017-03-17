@@ -133,7 +133,7 @@ TODO: картинка
 
 ### Примерен вход и изход
 
-|Вход|Изход|Вход|Изход|
+<div style="background-color:#d9d9d9;">|Вход|Изход|Вход|Изход| </div>
 |----|-----|----|-----|
 |1000<br>100<br>120<br>3 |The pool is 66% full. Pipe 1: 45%. Pipe2: 54%. |100<br>100<br>100<br>2.5|For 2.5 hours the pool overflows with 400 liters.|
 
