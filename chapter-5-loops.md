@@ -129,8 +129,11 @@ Console.WriteLine("sum = " + sum);
 От следващите n реда се въвежда по едно число
 Примери:
 
-TODO: sample input / output table
+| Вход | Изход | Вход | Изход | Вход | Изход |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 2<br>100<br>99 | 100 | 3<br>-10<br>20<br>-30 | 20 | 4<br>45<br>-20<br>7<br>99<br> | 99 |
 
+```cs
 Console.Write("n = ");
 var n = int.Parse(Console.ReadLine());
 var max = -10000000000000;
@@ -141,7 +144,7 @@ for (var i = 1; i <= n; i++)
       max = num;
 }
 Console.WriteLine("max = " + max);
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#4
 
 
@@ -151,7 +154,9 @@ Console.WriteLine("max = " + max);
 Въвежда първо броя числа n, след тях още n числа
 Примери:
 
-TODO: smaple input / output
+| Вход | Изход | Вход | Изход | Вход | Изход |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 2<br>100<br>99 | 99 | 3<br>-10<br>20<br>-30 | -30 | 4<br>45<br>-20<br>7<br>99<br> | -20 |
 
 TODO: solution
 
