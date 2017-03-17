@@ -26,74 +26,10 @@ TODO: картинка
 
 ### Примерен вход и изход
 
-<div style="display:inline-block; width: 23%">
-	<table>
-		<thead>
-			<tr style="background-color:#d9d9d9;">
-				<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-				<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-			</tr>
-		</thead>
-		<tfoot></tfoot>
-		<tbody>
-			<tr>
-				<td style="border:1px solid black;">5<br />day</td>
-				<td style="border:1px solid black;">4.65</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<div style="display:inline-block; width:23%">
-	<table>
-		<thead>
-			<tr style="background-color:#d9d9d9;">
-				<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-				<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-			</tr>
-		</thead>
-		<tfoot></tfoot>
-		<tbody>
-			<tr>
-				<td style="border:1px solid black;">7<br /> night</td>
-				<td style="border:1px solid black;">7</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<div style="display:inline-block; width: 23%">
-	<table>
-		<thead>
-			<tr style="background-color:#d9d9d9;">
-				<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-				<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-			</tr>
-		</thead>
-		<tfoot></tfoot>
-		<tbody>
-			<tr>
-				<td style="border:1px solid black;">25<br />day</td>
-				<td style="border:1px solid black;">2.25</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-<div style="display:inline-block; width:23%">
-	<table>
-		<thead>
-			<tr style="background-color:#d9d9d9;">
-				<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-				<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-			</tr>
-		</thead>
-		<tfoot></tfoot>
-		<tbody>
-			<tr>
-				<td style="border:1px solid black;">180<br />night</td>
-				<td style="border:1px solid black;">10.8</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+|Вход        |Изход       |Вход        |Изход       |Вход        |Изход       |Вход        |Изход       |
+|------------|------------|------------|------------|------------|------------|------------|------------|
+|5<br>day    |4.65        |7<br>night  |7           |25<br>day   |2.25        |180<br>night|10.8        |
+
 
 ### Насоки и подсказки
 //TODO
@@ -133,7 +69,7 @@ TODO: картинка
 
 ### Примерен вход и изход
 
-|<div style="background-color:#d9d9d9;">Вход</div>|<div style="background-color:#d9d9d9;">Изход</div>|<div style="background-color:#d9d9d9;">Вход</div>|<div style="background-color:#d9d9d9;">Изход</div>|
+|<div style="background:#d9d9d9;">Вход</div>|<div style="background:#d9d9d9;">Изход</div>|<div style="background-color:#d9d9d9;">Вход</div>|<div style="background-color:#d9d9d9;">Изход</div>|
 |----|-----|----|-----|
 |1000<br>100<br>120<br>3 |The pool is 66% full. Pipe 1: 45%. Pipe2: 54%. |100<br>100<br>100<br>2.5|For 2.5 hours the pool overflows with 400 liters.|
 
