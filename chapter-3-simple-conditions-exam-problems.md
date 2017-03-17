@@ -26,7 +26,7 @@ TODO: картинка
 
 ### Примерен вход и изход
 
-<div style="display:inline-block">
+<div style="display:inline-block; width: 25%">
 	<table>
 		<thead>
 			<tr style="background-color:#d9d9d9;">
@@ -43,7 +43,7 @@ TODO: картинка
 		</tbody>
 	</table>
 </div>
-<div style="display:inline-block">
+<div style="display:inline-block; width:25%">
 	<table>
 		<thead>
 			<tr style="background-color:#d9d9d9;">
@@ -54,13 +54,13 @@ TODO: картинка
 		<tfoot></tfoot>
 		<tbody>
 			<tr>
-				<td style="border:1px solid black;">7</br> night</td>
+				<td style="border:1px solid black;">7<br /> night</td>
 				<td style="border:1px solid black;">7</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
-<div style="display:inline-block">
+<div style="display:inline-block; width: 25%">
 	<table>
 		<thead>
 			<tr style="background-color:#d9d9d9;">
@@ -77,7 +77,7 @@ TODO: картинка
 		</tbody>
 	</table>
 </div>
-<div style="display:inline-block;width:31.5%">
+<div style="display:inline-block; width:25%">
 	<table>
 		<thead>
 			<tr style="background-color:#d9d9d9;">
@@ -94,7 +94,6 @@ TODO: картинка
 		</tbody>
 	</table>
 </div>
-
 
 ### Насоки и подсказки
 //TODO
