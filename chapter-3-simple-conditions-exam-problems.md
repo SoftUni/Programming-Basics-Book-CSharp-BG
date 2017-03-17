@@ -118,7 +118,7 @@ TODO: картинка
 
 |Вход|Изход|Вход|Изход|
 |----|-----|----|-----|
-|20|Tom sleeps well </br>95 hours and 25 minutes less for play|113|Tom will run away</br>3 hours and 47 minutes for play|
+|20|Tom sleeps well <br>95 hours and 25 minutes less for play|113|Tom will run away<br>3 hours and 47 minutes for play|
 
 
 ### Насоки и подсказки
@@ -161,7 +161,7 @@ TODO: картинка
 
 |Вход|Изход|Вход|Изход|
 |----|-----|----|-----|
-|650</br>2</br>175</br>3|Good harvest this year! Total wine: 208 liters.</br>33 liters left -> 11 liters per person.|1020</br>1.5</br>425</br>4|It will be a tough winter! More 180 liters wine needed.|
+|650<br>2<br>175<br>3|Good harvest this year! Total wine: 208 liters.<br>33 liters left -> 11 liters per person.|1020<br>1.5<br>425<br>4|It will be a tough winter! More 180 liters wine needed.|
 
 
 ### Насоки и подсказки
@@ -202,7 +202,7 @@ TODO: картинка
 
 |Вход|Изход|Вход|Изход|
 |----|-----|----|-----|
-|90</br>7</br>3</br>|Yes!2 hours left.|99</br>3</br>1|Not enough time!72 hours needed.|
+|90<br>7<br>3<br>|Yes!2 hours left.|99<br>3<br>1|Not enough time!72 hours needed.|
 
 
 ### Насоки и подсказки
