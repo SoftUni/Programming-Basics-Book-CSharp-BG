@@ -42,7 +42,7 @@ for (var i = 1; i <= n; i++)
       new string('*', n));
 }
 ```
-![Image not found](assets/chapter-6-images/NxN-code.png)
+![Image not found](assets/chapter-6-images/rectangle.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#1
 
@@ -67,7 +67,7 @@ for (var row = 1; row <= n; row++)
 
 Да се начертае на конзолата квадрат от N x N звездички:
 
-![Image not found](assets/chapter-6-images/NxN-square-code.png)
+![Image not found](assets/chapter-6-images/Square.png)
 ```cs
 var n = int.Parse(Console.ReadLine());
 for (var r = 1; r <= n; r++)
@@ -175,7 +175,7 @@ for (int row = 0; row < n - 2; row++)
    // TODO: print the mid rows: | - - - |
 // TODO: print the bottom row: + - - - +
 ```
-![Image not found](assets/chapter-6-images/SquareFrame.png)
+![Image not found](assets/chapter-6-images/square-frame.png)
 
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#4
