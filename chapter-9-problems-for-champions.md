@@ -2,147 +2,200 @@
 
 В настоящата глав ще предложим на читателя няколко малко по-трудни задачи, които имат за цел да развият алгоритмични умения и програмни техники за решаване на задачи с по-висока сложност. Задачите са върхи изучавания в книгата учебен материал, но по трудност надвишават обучайните задачи от приемните изпити в СофтУни. Ако искате да сте шампиони по основи на програмирането, ви препоръчваме да се научите да решавате такива по-сложни задачи, за да ви е лесно по изпитите.
 
-* Magic Dates
-* Five Special Letters
+## Crossing sequences (Пресичащи се редици)
 
-## Crossing sequences
+Линк към задачата в Judge системата: https://judge.softuni.bg/Contests/Practice/Index/5#3
 
-Judge Link: https://judge.softuni.bg/Contests/Practice/Index/5#3
+Имаме две редици: __редица на Трибоначи__, където всяко число е сумата от предните три и __числовата спирала__, дефинирана чрез обхождане на матрица от числа като спирала(дясно, долу, ляво, горе, дясно, долу, горе, ляво, ...) и записване на текущите числа, всеки път когато направим завой. Намерете първото число което се появява и в двете последователности.
 
-**_Raw_**
+<img src="assets/chapter-9-images/1_spiral.png" alt="Пример числова спирала" title="Числова спирала" style="float: right; height: 250px;" />
 
-We’re dealing with two sequences: the Tribonacci sequence, where every number is the sum of the previous three, and the number spiral, defined by walking over a grid of numbers as a spiral (right, down, left, up, right, down, up, left, …) and writing down the current number every time we take a turn. Find the first number that appears in both sequences.
+### Пример
 
-Example
+Нека редицата на Трибоначи да започне с 1, 2 и 3. Това означава че ще съдържа числата 1, 2, 3, 6, 11, 20, 37, 68, 125, 230, 423, 778, 1431, 2632, 4841, 8904, 16377, 30122, 55403, 101902, и т.н.
 
-Let the Tribonacci sequence start with 1, 2 and 3. It will therefore contain the numbers 1, 2, 3, 6, 11, 20, 37, 68, 125, 230, 423, 778, 1431, 2632, 4841, 8904, 16377, 30122, 55403, 101902, and so on.
-Also, let the number spiral start with 5 and have a step of 2; it then contains he numbers 5, 7, 9, 13, 17, 23, 29, 37, etc. Since 37 is the first number that is both in the Tribonacci sequence and in the spiral, it is the answer.
-
-Input
-
-The input data should be read from the console.
-•	On the first three lines of input, you will read three integers, representing the three initial numbers of the Tribonacci sequence.
-•	On the next two lines of input, you will read two integers, representing the initial number and the step of each grid cell for the number spiral.
-The input data will always be valid and in the format described. There is no need to check it.
-
-Output
-
-The output must be printed on the console.
-On the single line of output you must print the smallest number that appears in both sequences. If no number in the range [1 … 1 000 000] exists that appears in both sequences, print "No".
-
-Constraints
-
-* All numbers in the input will be in the range [1 … 1 000 000].
-* Allowed work time for your program: 0.25 seconds.
-* Allowed memory: 16 MB.
-
-Examples
-
-
-TODO: описание
-
-TODO: картинка
+Също така, нека числата в спиралата да започнат с 5 и да се увеличава 2 на всяка стъпка, тогава ще съдържа числата 5, 7, 9, 13, 17, 23, 29, 37, т.н. Тъй като 37 е първото число, което се среща в редицата на Трибоначи и в спиралта, това е отговорът.
+<!-- ![Пример числова спирала](assets/chapter-9-images/1_spiral.png "Числова спирала") -->
 
 ### Входни данни
 
+Входните данни трябва да бъдат прочетени от кознолата.
+* На първите три реда от входа, ще прочетете __три цели числа__, представляващи първите три числа в редицата на Трибоначи.
+* На следващите два реда от входа, ще прочетете __две цели числа__, представляващи първото число и стъпката за всяка клетка на матрицата за спиралата от числа.
+
+Входящите данни винаги ще бъдат валидни и винаги ще са в описания формат.  Няма нужда да ги проверявате.
+
 ### Изходни данни
 
+Резултатът трябва да бъде принтиран на козолата.
+
+На единствения ред от изхода трябва да принтирате __най-малкото число, което се среща и в двете последователности__. Ако няма число в __диапазона [1...1 000 000]__, което да се среща и в двете последователности, принтирайте "__Не__".
+
+### Ограничения
+
+* Всички числа във входа ще бъдат в диапазона [1...1 000 000].
+* Позволено работно време за програмта: 0.25 секунди.
+* Позволена памет: 16 MB.
+
 ### Примерен вход и изход
+
+| Вход | Изход  || Вход | Изход      |
+|------|--------||------|------------|
+| 1    | 37     || 13   | 13         |
+| 2    | &nbsp; || 25   | &nbsp;     |
+| 3    | &nbsp; || 99   | &nbsp;     |
+| 5    | &nbsp; || 5    | &nbsp;     |
+| 2    | &nbsp; || 2    | &nbsp;     |
+
+
+| Вход | Изход  || Вход | Изход      |
+|------|--------||------|------------|
+| 1    | 1      || 4    | 13         |
+| 1    | &nbsp; || 1    | &nbsp;     |
+| 1    | &nbsp; || 7    | &nbsp;     |
+| 1    | &nbsp; || 23   | &nbsp;     |
+| 1    | &nbsp; || 3    | &nbsp;     |
+
+| Вход | Изход  |
+|------|--------|
+| 99   | No     |
+| 99   | &nbsp; |
+| 99   | &nbsp; |
+| 2    | &nbsp; |
+| 2    | &nbsp; |
+
+
+TODO: картинка
 
 ### Насоки и подсказки
 
 ### Тестване в Judge системата
 
 
-## Magic Dates
+## Magic Dates (Магически дати)
 
-Judge Link: https://judge.softuni.bg/Contests/Practice/Index/6#3
+Линк към задачата в Judge системата: https://judge.softuni.bg/Contests/Practice/Index/6#3
 
-**_Raw_**
+Да приемем, че ни е зададена __дата__ във формат дд-мм-гггг, например 17-03-2007. Изчисляваме __теглото на тази дата__ като вземем всичките ѝ цифри, умножим всяка цифра с останалите и накрая съберем всички получени резултати. В нашия случай имаме 8 цифри: 17032007, така че теглото е  1\*7 + 1\*0 + 1\*3 + 1\*2 + 1\*0 + 1\*0 + 1\*7 + 7\*0 + 7\*3 + 7\*2 + 7\*0 + 7\*0 + 7\*7 + 0\*3 + 0\*2 + 0\*0 + 0\*0 + 0\*7 + 3\*2 + 3\*0 + 3\*0 + 3\*7 + 2\*0 + 2\*0 + 2\*7 + 0\*0 + 0\*7 + 0\*7 = 144.
 
-Consider we are given a date in format dd-mm-yyyy, e.g. 17-03-2007. We calculate the weight of this date by joining together all its digits, multiplying each digit by each of the other digits and finally sum all obtained products. In our case we will have 8-digits: 17032007, so the weight is 1*7 + 1*0 + 1*3 + 1*2 + 1*0 + 1*0 + 1*7 + 7*0 + 7*3 + 7*2 + 7*0 + 7*0 + 7*7 + 0*3 + 0*2 + 0*0 + 0*0 + 0*7 + 3*2 + 3*0 + 3*0 + 3*7 + 2*0 + 2*0 + 2*7 + 0*0 + 0*7 + 0*7 = 144.
-
-Your task is to write a program that finds all magic dates: dates between two fixed years matching given magic weight. The dates should be printed in increasing order in format dd-mm-yyyy. We use the traditional calendar (years have 12 months, each having 28, 29, 30 or 31 days, etc.)
-
-Input
-
-The input data should be read from the console. It consists of 3 lines:
-•	The first line holds an integer number – start year.
-•	The first line holds an integer number – end year.
-•	The first line holds an integer number – magic weight.
-The input data will always be valid and in the format described. There is no need to check it explicitly.
-
-Output
-
-The output should be printed on the console as a sequence of dates in format dd-mm-yyyy in alphabetical order. Each string should stay on a separate line. In case no magic dates exist, print “No”.
-
-Constraints
-
-* The start and end year are integers in the range [1900-2100].
-* The magic weight is an integer number in range [1…1000].
-* Allowed working time for your program: 0.25 seconds.
-* Allowed memory: 16 MB.
-
-Examples
-
-
-TODO: описание
-
-TODO: картинка
+Вашата задача е да напишете програма, която намира всички __магически дати: дати между две определени години отговарящи на дадено магическо тегло__. Датите трябва да бъдат принтирани в нарастващ ред във формат дд-мм-гггг. Ще използваме традиционен календар (годините имат 12 месеца, всеки месец има 28, 29, 30 или 31 дни, т.н.)
 
 ### Входни данни
 
+Входните данни трябва да бъдат прочетени от конзолата. Състоят се от 3 реда:
+
+*	Първият ред съдържа цяло число - __начална година__
+*	Вторият ред съдържа цяло число - __крайна година__
+*	Третият ред съдържа цяло число - __магическо тегло__
+
+Входящите данни винаги ще бъдат валидни и винаги ще са в описания формат. Няма нужда да ги проверявате.
+
+
 ### Изходни данни
 
+Резултатът трябва да бъде принтиран на козолата, като последователни дати във __формат дд-мм-гггг__ подредени по азбучен ред. Всеки низ трябва да е на отделен ред. В случай че няма съществуващи магически дати, принтира "__No__".
+
+### Ограничения
+
+* Началната и крайната година са цели числа в периода [1900-2100].
+* Магическото тегло е цяло число в диапазона [1...1000].
+* Позволено работно време за програмта: 0.25 секунди.
+* Позволена памет: 16 MB.
+
+
 ### Примерен вход и изход
+
+| Вход | Изход      || Вход | Изход      |
+|------|------------||------|------------|
+| 2007 | 17-03-2007 || 2003 | No         |
+| 2007 | 13-07-2007 || 2004 |            |
+| 144  | 31-07-2007 || 1500 | &nbsp;     |
+
+
+| Вход | Изход      |
+|------|------------|
+| 2012 | 09-01-2013 |
+| 2014 | 17-01-2013 |
+| 80   | 23-03-2013 |
+|      | 11-07-2013 |
+|      | 01-09-2013 |
+|      | 10-09-2013 |
+|      | 09-10-2013 |
+|      | 17-10-2013 |
+|      | 07-11-2013 |
+|      | 24-11-2013 |
+|      | 14-12-2013 |
+|      | 23-11-2014 |
+|      | 13-12-2014 |
+|      | 31-12-2014 |
+
+| Вход | Изход      |
+|------|------------|
+| 2011 | 01-01-2011 |
+| 2012 | 10-01-2011 |
+| 14   | 01-10-2011 |
+|      | 10-10-2011 |
+
+TODO: картинка
 
 ### Насоки и подсказки
 
 ### Тестване в Judge системата
 
 
-## Five Special Letters
+## Five Special Letters (Пет специални букви)
 
-Judge Link: https://judge.softuni.bg/Contests/Practice/Index/7#3
+Линк към задачата в Judge системата: https://judge.softuni.bg/Contests/Practice/Index/7#3
 
-**_Raw_**
+Дадени са две числа: __начало__ и __край__. Напишете програма, която __генерира всички комбинации от 5 букви__, всяка от групата {'a', 'b', 'c', 'd', 'e'}, така че теглото на тези 5 букви да е число в интервала [начало...край], включително. Принтирайте ги по азбучен ред, на един ред, разделени с пространство.
 
-We are given two numbers: start and end. Write a program to generate all sequences of 5 letters, each from the set { 'a', 'b', 'c', 'd', 'e' }, such that the weight of these 5 letters is a number in the range [start … end] inclusively. Print them in alphabetical order, in a single line, separated by a space.
+__Теглото на една буква__ е изчислено по следния начин: weight('__а__') = __5__; weight('__b__') = __-12__; weight('__c__') = __47__; weight('__d__') = __7__; weight('__e__') = __-32__. __Теглото на редицата__ от букви c1c2…cn е изчислено като се премахват всички букви, които се повтарят (от дясно наляво) и след това се сметне формулата:
 
-The weight of a single letter is calculated as follows:  weight('a') = 5; weight('b') = -12;  weight('c') = 47;  weight('d') = 7;  weight('e') = -32. The weight of a sequence of letters c1c2…cn is the calculated by first removing all repeating letters (from right to left) and then calculate the formula:
-weight(c1c2…cn) = 1*weight(c1) + 2*weight(c2) + … + n*weight(cn)
-
-For example, the weight of "bcddc" is calculated as follows: First we remove the repeating letters and we get "bcd". Then we apply the formula: 1*weight('b') + 2*weight('c') + 3*weight('d') = 1*(-12) + 2*47 + 3*7 = 103. Another example: weight("cadea") = weight("cade") = 1*47 + 2*5 + 3*7 - 4*32 = -50.
-
-Input
-
-The input data should be read from the console. It will consist of 2 lines:
-•	The number start stays at the first line.
-•	The number end stays at the second line.
-The input data will always be valid and in the format described. There is no need to check it explicitly.
-
-Output
-
-The output should be printed on the console as a sequence of strings in alphabetical order. Each string should be separated than the next string by a single space. In case no 5-letter strings exist with a weight in the specified range, print “No”.
-
-Constraints
-
-* The numbers start and end will be an integers in the range [-10000…10000].
-* Allowed working time for your program: 0.25 seconds.
-* Allowed memory: 16 MB.
-
-Examples
-
-
-TODO: описание
-
-TODO: картинка
+<center>`weight(c1c2…cn) = 1*weight(c1) + 2*weight(c2) + … + n*weight(cn)`</center><br/>
+Например, теглото на 'bcddc' се изчислява по следния начин:  Първо премахваме повтарящите се букви и получаваме "bcd". След това прилагаме формулата: 1\*weight('b') + 2\*weight('c') + 3\*weight('d') = 1\*(-12) + 2\*47 + 3\*7 = 103. Друг пример: weight("cadea") = weight("cade") = 1\*47 + 2\*5 + 3\*7 - 4\*32 = -50.
 
 ### Входни данни
 
+Входните данни трябва да бъдат прочетени от кознолата. Състоят се от два реда:
+* Числото за __начало__ е на първия ред.
+* Числото за __край__ е на втория ред.
+
+Входните данни винаги ще бъдат валидни и винаги ще са в описания формат. Няма нужда да ги проверявате.
+
+
 ### Изходни данни
 
+Резултатът трябва да бъде принтиран на козолата като поредица от низове, __подредени по азбучен ред__. Всеки низ трябва да бъде отделен от следващия с едно разстояние. Ако теглото на нито един от 5 буквените низове не съществува в зададения интервал, принтирайте "__No__"
+
+### Ограничения
+
+* Числата за __начало__ и __край__ да бъдат цели числа в диапазона [-10000...10000].
+* Позволено работно време за програмта: 0.25 секунди.
+* Позволена памет: 16 MB.
+
 ### Примерен вход и изход
+
+| Вход | Изход       | Коментар             |
+|------|-------------|----------------------|
+| 40   | bcead bdcea | weight("bcead") = 41 |
+| 42   | &nbsp;      | weight("bdcea") = 40 |
+
+| Вход | Изход         |
+|------|---------------|
+| -1   | bcdea cebda eaaad eaada eaadd eaade eaaed eadaa eadad eadae eadda eaddd eadde eadea eaded eadee eaead eaeda eaedd eaede eaeed eeaad eeada eeadd eeade eeaed eeea |
+| 1    | &nbsp;        |
+
+| Вход | Изход      |
+|------|------------|
+| 200  | baadc babdc badac badbc badca badcb badcc badcd baddc bbadc bbdac bdaac bdabc bdaca bdacb bdacc bdacd bdadc bdbac bddac beadc bedac eabdc ebadc ebdac edbac   |
+| 300  | &nbsp;     |
+
+| Вход | Изход  |
+|------|--------|
+| 300  | No     |
+| 400  | &nbsp; |
+
+TODO: картинка
 
 ### Насоки и подсказки
 
