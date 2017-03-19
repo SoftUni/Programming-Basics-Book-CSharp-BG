@@ -158,7 +158,18 @@ Console.WriteLine("max = " + max);
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2<br>100<br>99 | 99 | 3<br>-10<br>20<br>-30 | -30 | 4<br>45<br>-20<br>7<br>99<br> | -20 |
 
-TODO: solution
+```cs
+Console.Write("n = ");
+var n = int.Parse(Console.ReadLine());
+var min = 10000000000000;
+for (var i = 1; i <= n; i++)
+{
+   var num = int.Parse(Console.ReadLine());
+   if (num < min)
+      min = num;
+}
+Console.WriteLine("min = " + min);
+```
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#5
 
@@ -265,6 +276,10 @@ TODO: да се ползва като основа файлът "5. Loops-Exerci
 TODO: повтарящите се задачи да се слеят с текста по-горе.
 
 ### 0. Празно Visual Studio решение (Blank Solution)
+
+1. Създайте празно решение (Blank Solution) във Visual Studio за да организирате кода от задачите за упражнение. Целта на този blank solution e да съдържа по един проект за всяка задача от упражненията.
+
+2.	Задайте да се стартира по подразбиране текущия проект (не първият в решението). Кликнете с десен бутон на мишката върху Solution 'Loops' -> [Set StartUp Projects…] -> [Current selection].
 
 ### 1. Числа от 1 до 100
 
