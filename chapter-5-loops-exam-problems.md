@@ -2,7 +2,7 @@
 В предходната глава научихме как да изпълним даден блок от команди **повече от веднъж**. Затова въведохме for-цикъл и разгледахме някои от основните му приложения. Целта на настоящата глава е да затвърдим знанията си като решим няколко по-сложни задачи с цикли, давани на приемни изпити. За някои от тях ще покажем примерни подробни решения, а за други ще оставим само напътствия.
 Преди да се захванем за работа, е добре да си припомним конструкцията на **цикъла for**:
 
-<img src="assets/chapter-5-exam-preparation-images/for-construction.jpg" width="800" height="275" />
+<img src="assets/chapter-5-exam-preparation-images/for-construction.png" width="800" height="275" />
 
 **For-циклите** се състоят от:
    * 	Инициализационен блок, в който се декларирара променливата-брояч `(var i)` и задаване на нейна начална стойност.
@@ -81,26 +81,26 @@
   
 Преди да преминем към самото прочитане на входните данни трябва да си **декларираме променливите**, в които ще ги съхраняваме. Това      означава да им изберем подходящ тип данни и подходящи имена.
   
-![Image](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Histograma/Histograma_Variables.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Histograma/Histograma_Variables.jpg)
 
 В променливата **n** ще съхраняваме броя на числата, които ще четем от конзолата. Избираме **тип `int`**, защото в условието е упоменато, че **n e цяло число** в диапазона от 1 до 1000. За променливите, в които ще пазим процентите, избираме **тип `double`**, тъй като се очаква те **не винаги да са цели числа**. Допълнително си декларираме и променливите **`cntP1`**, **`cntP2`**…, в които ще пазим броя на числата от съответната група, като за тях отново избираме **тип `int`**.
 
 След като сме си декларирали нужните променливи, можем да пристъпим към прочитането на числото **n** от конзолата:
 
-![Image](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Histograma/Histograma_ReadingN.jpg)</p>
+![Image](assets/chapter-5-exam-preparation-images/Histograma/Histograma_ReadingN.jpg)</p>
 
   2.    **Обработка на входните данни:** <br>
   
 За да прочетем и разпределим всяко число в съответната му група, ще си послужим с **`for-цикъл`** от **0** до **n**(броя на числата).     Всяка итерация на цикъла ще прочита и разпределя **едно единствено** число(`currentNumber`) в съответната му група. За да определим   дали едно число принадлежи към дадена група, **правим проверка в съответния ѝ диапазон** и ако това е така,увеличаваме броя на числата    в тази група(**`cntP1`**, **`cntP2`**…) с 1.  
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Histograma/Histograma_Loop.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Histograma/Histograma_Loop.jpg)
 
 <p>След като сме определили колко числа има във всяка група, можем да преминем към изчисляването на процентите, което е и главна цел на задачата. За това ще използваме следната формула:<br>
 <strong>	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;(процент на група) = (брой числа в група) * 100 / (брой на всички числа)</strong></p>
 
 Тази формула в програмния код изглежда по следния начин:
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Histograma/Histograma_Percentages.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Histograma/Histograma_Percentages.jpg)
 
 Ако умножим със 100 вместо 100.0 ще се извърши така нареченото **целочислено деление** и в променливата ще се запази само цялата част от делението, а това не е което искаме. Например: **5 / 2 = 2**, а **5 / 2.0 = 2.5**.
 
@@ -121,7 +121,7 @@
   
 Остава само да отпечатаме получените резултати. В условието е казано, че процентите трябва да са **с точност две цифри след десетичната точка**. Това ще постигнем, като след placeholder-а изпишем „**`:f2`**“:
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Histograma/Histograma_Output.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Histograma/Histograma_Output.jpg)
 
 
 ### Тестване в Judge системата
@@ -182,25 +182,25 @@ ________________________________________________________________________________
 
 Решението на тази задача, подобно на предходната, също можем да разделим мислено на три части – **прочитане** на входните данни, **обработката** им и **извеждане** на резултат.
 
-![Image](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_Input.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_Input.jpg)
 
 Отново започваме с избора на подходящи **типове данни** и имена на променливите. За годините на Лили(**`age`**) и единичната цена на играчката(**`presentPrice`**) по условие е дадено, че ще са **цели числа**. Затова ще използваме **типа `int`**. За цената на пералнята(**`priceOfWashingMachine`**) знаем, че е **дробно число и избираме `double`**. Разбира се, можем да пропуснем изричното уточняване на типа, като вместо това употребим **`var`**. В кода по-горе заедно с **декларацията** на променливите ги и **инициализираме**(присвояваме им стойност).
 
-![Image](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_Variables.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_Variables.jpg)
 
 За да решим задачата, ще се нуждаем от няколко **помощни променливи** – за **броя на играчките**(**`numberOfToys`**), за **спестените пари**(**`savedMoney`**) и за **парите, получени на всеки рожден ден**(**`moneyForBirthday`**). Като придаваме на **`moneyForBirthday`** първоначална стойност 10, тъй като по условие е дадено, че първата сума, която Лили получава е 10.
 
-![Image](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_ForLoop.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_ForLoop.jpg)
 
 С **`for-цикъл`** преминаваме през всеки рожден ден на Лили. Когато водещата променлива е **четно число**, това означава, че Лили е **получила пари** и съответно прибавяме тези пари към общите и спестявания. Едновременно с това **изваждаме по 1 лев**, парите които брат и взема. След това **увеличаваме** стойността на променливата **`moneyForBirthday`**, т.е увеличаваме с 10 сумата, която тя ще получи на следващия си рожден ден. Обратно, когато водещата променлива е **нечетно число**, увеличаваме броя на **играчките**. Проверката за четност осъществяваме чрез **деление с остатък(%) на 2** – когато остатъкът е 0, числото е четно и нечетно в противен случай.
 
-![Image](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_savedMoney.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_savedMoney.jpg)
 
 Към спестяванията на Лили прибавяме и парите от продадените играчки.
 
 Накрая остава да отпечатаме получените резултати, като се съобразим с формата, указан в условието, т.е. сумата трябва да е **закръглена до две цифри след десетичната запетая**:
 
-![Image](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_Output.jpg)
+![Image](assets/chapter-5-exam-preparation-images/Lily%20the%20Smart/UmnataLili_Output.jpg)
 
 В случая избрахме да използваме **условния оператор(`?:`)**, тъй като записът е по-кратък. Синтаксисът му е следният: **`операнд1 ? операнд2 : операнд3`**. Първият операнд трябва да е от **булев тип**(т.е да връща `true/false`). Ако операнд1 върне стойност **`true`**, то ще се изпълни **`операнд2`**, а ако върне **`false`** – **`операнд3`**. В нашия случай проверяваме, дали **събраните пари** от Лили стигат за една пералня. Ако те са повече от (или поне колкото) цената на пералнята, то проверката **`savedMoney >= priceOfWashingMachine`** ще върне **`true`** и ще се отпечата „**Yes! …**“, а ако са по-малко – резултатът ще е **`false`** и ще се отпечата “**No! …**”. Разбира се, вместо условния оператор, можем да използваме и if-проверки.
 
