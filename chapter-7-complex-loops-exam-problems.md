@@ -1,56 +1,161 @@
+
 # Глава 7. По-сложни цикли - изпитни задачи
 
-
 ## Генератор за тъпи пароли
-
-TODO: описание
-
-TODO: картинка
+Да се напише програма, която въвежда две цели числа **n** и **l** и генерира по азбучен ред всички възможни **“тъпи” пароли**, които се състоят от следните **5 символа**:
+-	Символ 1: цифра от **1** до **n**.
+-	Символ 2: цифра от **1** до **n**.
+-	Символ 3: малка буква измежду първите **l** букви на латинската азбука.
+-	Символ 4: малка буква измежду първите **l** букви на латинската азбука.
+-	Символ 5: цифра от **1** до **n, по-голяма от първите 2 цифри.**
 
 ### Входни данни
+Входът се чете от конзолата и се състои от **две цели числа: n** и **l** в интервала **[1…9]**, по едно на ред.
 
 ### Изходни данни
+На конзолата трябва да се отпечатат **всички “тъпи” пароли по азбучен ред**, разделени с **интервал**.
 
 ### Примерен вход и изход
+<div style="display:inline-block;margin-right:2%;width:90%;">
+<table>
+ <thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+ <tr>
+<td style="border:1px solid black;">2<br />4</td>
+<td style="border:1px solid black;">11aa2 11ab2 11ac2 11ad2 11ba2 11bb2 11bc2 11bd2 11ca2 11cb2 11cc2 11cd2 11da2 11db2 11dc2 11dd2</td>
+</tr>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">3<br />1</td>
+<td style="background:none;background-color:#ffffff;border:1px solid black;">11aa2 11aa3 12aa3 21aa3 22aa3</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">3<br />2</td>
+<td style="border:1px solid black;">11aa2 11aa3 11ab2 11ab3 11ba2 11ba3 11bb2 11bb3 12aa3 12ab3 12ba3 12bb3 21aa3 21ab3 21ba3 21bb3 22aa3 22ab3 22ba3 22bb3</td>
+</tr>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">4<br />2</td>
+<td style="background:none;background-color:#ffffff;border:1px solid black;">11aa2 11aa3 11aa4 11ab2 11ab3 11ab4 11ba2 11ba3 11ba4 11bb2 11bb3 11bb4 12aa3 12aa4 12ab3 12ab4 12ba3 12ba4 12bb3 12bb4 13aa4 13ab4 13ba4 13bb4 21aa3 21aa4 21ab3 21ab4 21ba3 21ba4 21bb3 21bb4 22aa3 22aa4 22ab3 22ab4 22ba3 22ba4 22bb3 22bb4 23aa4 23ab4 23ba4 23bb4 31aa4 31ab4 31ba4 31bb4 32aa4 32ab4 32ba4 32bb4 33aa4 33ab4 33ba4 33bb4</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ### Насоки и подсказки
 
 ### Тестване в Judge системата
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
+//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. Дотогава - https://judge.softuni.bg/Contests/Practice/Index/169#5
 
 
 ## Магически числа
+Да се напише програма, която въвежда едно цяло **„магическо“** число и изкарва **всички** възможни **6-цифрени числа**, за които **произведението на неговите цифри е равно на „магическото“ число**.
+<br/><br/>Пример: „Магическо число“ -> 2
+-	111112 -> 1 * 1 * 1 * 1 * 1 * 2 = 2
+-	111121 -> 1 * 1 * 1 * 1 * 2 * 1 = 2
+-	111211 -> 1 * 1 * 1 * 2 * 1 * 1 = 2
+-	112111 -> 1 * 1 * 2 * 1 * 1 * 1 = 2
+-	121111 -> 1 * 2 * 1 * 1 * 1 * 1 = 2
+-	211111 -> 2 * 1 * 1 * 1 * 1 * 1 = 2
 
-TODO: описание
-
-TODO: картинка
 
 ### Входни данни
+Входът се чете от конзолата и се състои от **едно цяло число** в интервала **[1…600000]**.
 
 ### Изходни данни
-
+На конзолата трябва да се отпечатат **всички “магически” числа**, разделени с **интервал**.
 ### Примерен вход и изход
+<div style="display:inline-block;margin-right:2%;width:31.5%;">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">2</td>"<td style="border:1px solid black;">111112 111121 111211 112111 121111 211111</td>
+</tr>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">8</td>
+<td style="background:none;background-color:#ffffff;border:1px solid black;">111118 111124 111142 111181 111214 111222 111241 111412 111421 111811 112114 112122 112141 112212 112221 112411 114112 114121 114211 118111 121114 121122 121141 121212 121221 121411 122112 122121 122211 124111 141112 141121 141211 142111 181111 211114 211122 211141 211212 211221 211411 212112 212121 212211 214111 221112 221121 221211 222111 241111 411112 411121 411211 412111 421111 811111</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">531441</td>
+<td style="border:1px solid black;">999999</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ### Насоки и подсказки
 
 ### Тестване в Judge системата
-
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. Дотогава - https://judge.softuni.bg/Contests/Practice/Index/179#5
 
 ## Специални числа
+Да се напише програма, която **въвежда едно цяло число N** и генерира всички възможни **“специални” числа** от **1111** до **9999**. За да бъде **“специалнo”** едно число, то трябва да отговаря на **следното условие**:
+-	**N да се дели на всяка една от неговите цифри без остатък.**
 
-TODO: описание
-
-TODO: картинка
-
+<br/>**Пример:** при **N = 16, 2418** е специално число:
+-	**16 / 2** = 8 **без остатък**
+-	**16 / 4** = 4 **без остатък**
+-	**16 / 1** = 16 **без остатък**
+-	**16 / 8** = 2 **без остатък**
+ 
 ### Входни данни
+Входът се чете от конзолата и се състои от **едно цяло число** в интервала **[1…600000]**.
 
 ### Изходни данни
+На конзолата трябва да се отпечатат **всички “магически” числа**, разделени с **интервал**.
 
 ### Примерен вход и изход
+
+<div style="display:inline-block;margin-right:2%;width:31.5%;">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Коментари</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">3</td>
+<td style="border:1px solid black;">1111 1113 1131 1133 1311 1313 1331 1333 3111 3113 3131 3133 3311 3313 3331 3333</td>
+<td>3 / 1 = 3 без остатък<br/>
+3 / 3 = 1 без остатък<br/>
+3 / 3 = 1 без остатък<br/>
+3 / 3 = 1 без остатък<br/>
+</td>
+</tr>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">11</td>
+<td colspan="2" style="background:none;background-color:#ffffff;border:1px solid black;">1111</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">16</td>
+<td colspan="2" style="border:1px solid black;">1111 1112 1114 1118 1121 1122 1124 1128 1141 1142 1144 1148 1181 1182 1184 1188 1211 1212 1214 1218 1221 1222 1224 1228 1241 1242 1244 1248 1281 1282 1284 1288 1411 1412 1414 1418 1421 1422 1424 1428 1441 1442 1444 1448 1481 1482 1484 1488 1811 1812 1814 1818 1821 1822 1824 1828 1841 1842 1844 1848 1881 1882 1884 1888 2111 2112 2114 2118 2121 2122 2124 2128 2141 2142 2144 2148 2181 2182 2184 2188 2211 2212 2214 2218 2221 2222 2224 2228 2241 2242 2244 2248 2281 2282 2284 2288 2411 2412 2414 2418 2421 2422 2424 2428 2441 2442 2444 2448 2481 2482 2484 2488 2811 2812 2814 2818 2821 2822 2824 2828 2841 2842 2844 2848 2881 2882 2884 2888 4111 4112 4114 4118 4121 4122 4124 4128 4141 4142 4144 4148 4181 4182 4184 4188 4211 4212 4214 4218 4221 4222 4224 4228 4241 4242 4244 4248 4281 4282 4284 4288 4411 4412 4414 4418 4421 4422 4424 4428 4441 4442 4444 4448 4481 4482 4484 4488 4811 4812 4814 4818 4821 4822 4824 4828 4841 4842 4844 4848 4881 4882 4884 4888 8111 8112 8114 8118 8121 8122 8124 8128 8141 8142 8144 8148 8181 8182 8184 8188 8211 8212 8214 8218 8221 8222 8224 8228 8241 8242 8244 8248 8281 8282 8284 8288 8411 8412 8414 8418 8421 8422 8424 8428 8441 8442 8444 8448 8481 8482 8484 8488 8811 8812 8814 8818 8821 8822 8824 8828 8841 8842 8844 8848 8881 8882 8884 8888</td>
+</tr>
+</tbody>
+</table>
+</div>
+
 
 ### Насоки и подсказки
 
 ### Тестване в Judge системата
-
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
+//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE
 
 ## TODO: да се добавят още 2-3 изпитни задачи с по-сложни цикли
 
