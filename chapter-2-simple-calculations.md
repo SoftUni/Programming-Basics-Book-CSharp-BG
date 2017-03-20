@@ -283,15 +283,21 @@ TODO: judge link
 1.	Стартирайте Visual Studio.
 2.	Създайте нов **Blank Solution:** [File] -> [New] -> [Project].
 
-![newBlankSolution](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/01newBlankSolution.png)
+<p align="center">
+<img alt="newBlankSolution" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/01newBlankSolution.png" />
+</p>
 
 3.	Изберете от диалоговия прозорец [Templates] -> [Other Project Types] -> [Visual Studio Solutions] -> **[Blank Solution]** и дайте подходящо име на проекта, например ```“Simple-Calculations”```:
 
-![namingTheSolution](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02namingTheSolution.png)
+<p align="center">
+<img alt="namingTheSolution" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02namingTheSolution.png" />
+</p>
 
 Сега имате създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![blankSolution](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03blankSolution.png)
+<p align="center">
+<img alt="namingblankSolutionTheSolution" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03blankSolution.png" />
+</p>
 
 Целта на този blank solution e да добавяте в него **по един проект за всяка задача** от упражненията.
 
@@ -300,27 +306,39 @@ TODO: judge link
 
 1.	Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **  Solution 'Simple-Calculations'**. Изберете [Add] -> [New Project…]:
 
-![newProject](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/01newProject.png)
+<p align="center">
+<img alt="newProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/01newProject.png" />
+</p>
 
 2.	Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение с име **“Square-Area”:**
 
-![namingTheProject](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png)
+<p align="center">
+<img alt="namingTheProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png" />
+</p>
 
 Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
 3.	Отидете в тялото на метода Main(string[] args) и напишете кода от картинката по-долу:
 
-![problem2Code](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/03code.png)
+<p align="center">
+<img alt="problem2Code" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/03code.png" />
+</p>
 
 Кодът въвежда цяло число с **```a = int.Parse(Console.ReadLine())```**, след това изчислява **```area = a * a```** и накрая печата стойността на променливата **area**.
 
 4.	**Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
 
-![result](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/04result.png)
+<p align="center">
+<img alt="result" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/04result.png" />
+</p>
 
 5.	**Тествайте** решението си в **judge системата:** https://judge.softuni.bg/Contests/Practice/Index/151#0. Трябва да получите 100 точки (напълно коректно решение):
 
-![judgeTest01](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png)
-![judgeTest02](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png)
+<p align="center">
+<img alt="judgeTest01" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png" />
+</p>
+<p align="center">
+<img alt="judgeTest02" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png" />
+</p>
 
 ### 2.	От инчове към сантиметри
 Да се напише програма, която **чете от конзолата число** (не непременно цяло) и преобразува числото от **инчове в сантиметри.** За целта **умножава инчовете по 2.54** (защото 1 инч = 2.54 сантиметра).
