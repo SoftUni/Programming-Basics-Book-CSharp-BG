@@ -87,12 +87,7 @@ else
 
 По даден град, продукт и количество да се пресметне цената. Примери:
 
-Вход:
-coffe
-Varna
-2
-Изход:
-0.9
+
 <div style="display:inline-block">
 <table>
 <thead>
@@ -303,15 +298,36 @@ if (onLeftSide || onRightSide ||     onUpSide || onDownSide)
 
 Магазин за плодове в работни дни продава на следните цени:
 
-TODO: table
+![fruit1](/assets/chapter-4-images/fruitShop.png)
+
 
 В почивни дни цените са по-високи:
 
-TODO: table
+![fruit2](/assets/chapter-4-images/fruitShop2.png)
 
 Примерен вход и изход:
 
-TODO: sample input / output
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">apple <br />Thuesday  2</td>
+<td style="border:1px solid black;">2.4<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">orange <br />Sunday  3</td>
+<td style="border:1px solid black;">2.7<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Решение на задачата:
 ```
