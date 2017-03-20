@@ -274,10 +274,42 @@ TODO: judge link
 
 ## Упражнения: Прости пресмятания
 
-TODO: да се следва файла "2. Simple-Calculations-Exercises.docx"
+Нека затвърдим наученото в тази глава с няколко задачи.
 
 ### 0.	Празно Visual Studio решение (Blank Solution)
+
+Създайте празно решение **(Blank Solution)** във Visual Studio. Решенията (solutions) във Visual Studio обединяват **група проекти.** Тази възможност е изключително удобна, когато искаме да работим по няколко проекта и бързо да превключваме между тях или искаме да обединим логически няколко взаимосвързани проекта.
+В настоящото практическо занимание ще използваме **Blank Solution с няколко проекта** за да организираме решенията на задачите от упражненията – всяка задача в отделен проект и всички проекти в общ solution.
+1.	Стартирайте Visual Studio.
+2.	Създайте нов **Blank Solution:** [File] -> [New] -> [Project].
+
+![newBlankSolution](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/01newBlankSolution.png)
+
+3.	Изберете от диалоговия прозорец [Templates] -> [Other Project Types] -> [Visual Studio Solutions] -> **[Blank Solution]** и дайте подходящо име на проекта, например ```“Simple-Calculations”```:
+
+![namingTheSolution](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02namingTheSolution.png)
+
+Сега имате създаден **празен Visual Studio Solution** (с 0 проекта в него):
+
+![blankSolution](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03blankSolution.png)
+
+Целта на този blank solution e да добавяте в него **по един проект за всяка задача** от упражненията.
+
 ### 1.	Пресмятане на лице на квадрат
+Първата задача от тази тема е следната: да се **напише конзолна програма, която въвежда цяло число ```a``` и пресмята лицето на квадрат със страна ```a```**. Задачата е тривиално лесна: въвеждате число от конзолата, умножавате го само по себе си и печатате получения резултат на конзолата.
+1.	Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **  Solution 'Simple-Calculations'**. Изберете [Add] -> [New Project…]:
+![newProject](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/01newProject.png)
+2.	Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение с име **“Square-Area”:**
+![namingTheProject](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png)
+Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
+3.	Отидете в тялото на метода Main(string[] args) и напишете кода от картинката по-долу:
+![problem2Code](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/03code.png)
+Кодът въвежда цяло число с **```a = int.Parse(Console.ReadLine())```**, след това изчислява **```area = a * a```** и накрая печата стойността на променливата **area**.
+4.	**Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
+![result](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/04result.png)
+5.	**Тествайте** решението си в **judge системата:** https://judge.softuni.bg/Contests/Practice/Index/151#0. Трябва да получите 100 точки (напълно коректно решение):
+![judgeTest01](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png)
+![judgeTest02](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png)
 ### 2.	От инчове към сантиметри
 ### 3.	Поздрав по име
 ### 4.	Съединяване на текст и числа
