@@ -138,7 +138,7 @@ var result = a - b;
 Console.WriteLine(result);
 ```
 Съответно, ето и резултатът от изпълението на програмата, при числа 10 и 3:
-![subtracting](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/subtracting.png)
+![subtracting](/assets/chapter-2-images/subtracting.png)
 
 ## Аритметични операции умножение и деление
 
@@ -236,7 +236,7 @@ Console.WriteLine("Area = " + Math.PI * r * r);
 Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 ```
 Нека изпробваме програмата с радиус = 10:
-![circleArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/circleArea.png)
+![circleArea](/assets/chapter-2-images/circleArea.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/151#5
 
@@ -244,7 +244,7 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 
 Правоъгълник е зададен с координатите на два от своите срещуположни ъгъла. Да се пресметнат площта и периметъра му:
 
-<img alt="rectangleArea" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleArea.png" width="250" height="200" />
+<img alt="rectangleArea" src="/assets/chapter-2-images/rectangleArea.png" width="250" height="200" />
 
 ```cs
 double x1 = double.Parse(Console.ReadLine());
@@ -258,7 +258,7 @@ Console.WriteLine("Perimeter = {0}", 2 * (width + height));
 ```
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
-![rectangleAreaExample](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/rectangleAreaExample.png)
+![rectangleAreaExample](/assets/chapter-2-images/rectangleAreaExample.png)
 
 TODO: judge link
 
@@ -284,19 +284,19 @@ TODO: judge link
 2.	Създайте нов **Blank Solution:** [File] -> [New] -> [Project].
 
 <p align="center">
-<img alt="newBlankSolution" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/01newBlankSolution.png" />
+<img alt="newBlankSolution" src="/assets/chapter-2-images/problems/01newBlankSolution.png" />
 </p>
 
 3.	Изберете от диалоговия прозорец [Templates] -> [Other Project Types] -> [Visual Studio Solutions] -> **[Blank Solution]** и дайте подходящо име на проекта, например ```“Simple-Calculations”```:
 
 <p align="center">
-<img alt="namingTheSolution" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02namingTheSolution.png" />
+<img alt="namingTheSolution" src="/assets/chapter-2-images/problems/02namingTheSolution.png" />
 </p>
 
 Сега имате създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
 <p align="center">
-<img alt="namingblankSolutionTheSolution" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03blankSolution.png" />
+<img alt="namingblankSolutionTheSolution" src="/assets/chapter-2-images/problems/03blankSolution.png" />
 </p>
 
 Целта на този blank solution e да добавяте в него **по един проект за всяка задача** от упражненията.
@@ -307,20 +307,20 @@ TODO: judge link
 1.	Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **  Solution 'Simple-Calculations'**. Изберете [Add] -> [New Project…]:
 
 <p align="center">
-<img alt="newProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/01newProject.png" />
+<img alt="newProject" src="/assets/chapter-2-images/problems/02SquareArea/01newProject.png" />
 </p>
 
 2.	Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение с име **“Square-Area”:**
 
 <p align="center">
-<img alt="namingTheProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png" />
+<img alt="namingTheProject" src="/assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png" />
 </p>
 
 Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
 3.	Отидете в тялото на метода Main(string[] args) и напишете кода от картинката по-долу:
 
 <p align="center">
-<img alt="problem2Code" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/03code.png" />
+<img alt="problem2Code" src="/assets/chapter-2-images/problems/02SquareArea/03code.png" />
 </p>
 
 Кодът въвежда цяло число с **```a = int.Parse(Console.ReadLine())```**, след това изчислява **```area = a * a```** и накрая печата стойността на променливата **area**.
@@ -328,16 +328,16 @@ TODO: judge link
 4.	**Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
 
 <p align="center">
-<img alt="result" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/04result.png" />
+<img alt="result" src="/assets/chapter-2-images/problems/02SquareArea/04result.png" />
 </p>
 
 5.	**Тествайте** решението си в **judge системата:** https://judge.softuni.bg/Contests/Practice/Index/151#0. Трябва да получите 100 точки (напълно коректно решение):
 
 <p align="center">
-<img alt="judgeTest01" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png" />
+<img alt="judgeTest01" src="/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png" />
 </p>
 <p align="center">
-<img alt="judgeTest02" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png" />
+<img alt="judgeTest02" src="/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png" />
 </p>
 
 ### 3.	От инчове към сантиметри
@@ -345,90 +345,90 @@ TODO: judge link
 1.	Първо създайте **нов C# конзолен проект** в решението “Simple-Calculations”. Кликнете с мишката върху решението в Solution Explorer и изберете [Add] -> [New Project…]:
 
 <p align="center">
-<img alt="newProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/01newProject.png" />
+<img alt="newProject" src="/assets/chapter-2-images/problems/03inchesToCm/01newProject.png" />
 </p>
 
 Изберете [Visual C#] -> [Windows] -> [Console Application] и задайте име **``“Inches-to-Centimeters”``**:
 
 <p align="center">
-<img alt="nameTheProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/02nameTheProject.png" />
+<img alt="nameTheProject" src="/assets/chapter-2-images/problems/03inchesToCm/02nameTheProject.png" />
 </p>
 
 2.	**Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:
 
 <p align="center">
-<img alt="code" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/03code.png" />
+<img alt="code" src="/assets/chapter-2-images/problems/03inchesToCm/03code.png" />
 </p>
 
 3.	**Стартирайте програмата,** както обикновено с [Ctrl+F5]:
 
 <p align="center">
-<img alt="surpriseResult" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/04result.png" />
+<img alt="surpriseResult" src="/assets/chapter-2-images/problems/03inchesToCm/04result.png" />
 </p>
 
 Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
 Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
 
 <p align="center">
-<img alt="currentProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/05surprise.png" />
+<img alt="currentProject" src="/assets/chapter-2-images/problems/03inchesToCm/05surprise.png" />
 </p>
 
 4.	За да включите режим на **автоматично преминаване към текущия проект**, кликнете върху главния solution с десния бутон на мишката и изберете **[Set StartUp Projects…]**:
 <p align="center">
-<img alt="setStartupProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_1.png" />
+<img alt="setStartupProject" src="/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_1.png" />
 </p>
 
 Ще се появи диалогов прозорец, от който трябва да се избере **[Startup Project] -> [Current selection]**:
 <p align="center">
-<img alt="setStartupProject2" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_2.png" />
+<img alt="setStartupProject2" src="/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_2.png" />
 </p>
 
 5.	Сега отново **стартирайте програмата**, както обикновено с [Ctrl+F5]. Този път ще се стартира текущата отворена програма, която преобразува инчове в сантиметри. Изглежда работи коректно:
 <p align="center">
-<img alt="resultCorrect" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect.png" />
+<img alt="resultCorrect" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect.png" />
 </p>
 
 6.	Сега **превключете към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Program.cs``** от предходния проект **“Square-Area”** в панела [Solution Explorer] на Visual Studio:
 <p align="center">
-<img alt="switchProjects" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/08switchProjects.png" />
+<img alt="switchProjects" src="/assets/chapter-2-images/problems/03inchesToCm/08switchProjects.png" />
 </p>
 
 7.	Натиснете пак **[Ctrl+F5]**. Този път трябва да се стартира другият проект:
 <p align="center">
-<img alt="resultOtherProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_4.png" />
+<img alt="resultOtherProject" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_4.png" />
 </p>
 
 8.	Превключете обратно към проекта **“Inches-to-Centimeters”** и го стартирайте с **[Ctrl+F5]**:
 <p align="center">
-<img alt="resultOtherProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_2.png" />
+<img alt="resultOtherProject" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_2.png" />
 </p>
 
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
 9.	Тествайте с дробни числа, например с **2.5**:
 <p align="center">
-<img alt="testWithFloat" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_3.png" />
+<img alt="testWithFloat" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_3.png" />
 </p>
 
 **Внимание**: в зависимост от регионалните настройки на операционната система, е възможно вместо **десетична точка** (US настройки) да се използва **десетична запетая** (BG настройки). Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или на обратно (бъде въведена десетична точка когато се очаква десетична запетая), ще се получи следната грешка:
 
 <p align="center">
-<img alt="exceptionFloatingPoint" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/09result_exception.png" />
+<img alt="exceptionFloatingPoint" src="/assets/chapter-2-images/problems/03inchesToCm/09result_exception.png" />
 </p>
 
 Препоръчително е **да промените настройките на компютъра си**, така че да се използва **десетична точка**:
 
 <p align="center">
-<img alt="changeWinSettings1" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_1.png" />
+<img alt="changeWinSettings1" src="/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_1.png" />
 </p>
 
 <p align="center">
-<img alt="changeWinSettings2" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png" />
+<img alt="changeWinSettings2" src="/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png" />
 </p>
 
 10.	Вече е време за **тестване в judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#1 ???. Решението би трябвало да бъде прието като напълно коректно:
 <p align="center">
-<img alt="judgeResult" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png" />
+<img alt="judgeResult" src ="/assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png" />
 </p>
 
 ### 4.	Поздрав по име
@@ -437,19 +437,19 @@ TODO: judge link
 1.	Първо създайте **нов C# конзолен проект** с име **``“Greeting”``** в решението **``“Simple-Calculations”``**:
 
 <p align="center">
-<img alt="newProject" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/04greetingByName/01newProject.png" />
+<img alt="newProject" src ="/assets/chapter-2-images/problems/04greetingByName/01newProject.png" />
 </p>
 
 2.	**Напишете кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
 <p align="center">
-<img alt="04code" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/04greetingByName/02code.png" />
+<img alt="04code" src ="/assets/chapter-2-images/problems/04greetingByName/02code.png" />
 </p>
 
 3.	**Стартирайте** програмата с **[Ctrl+F5]** и я тествайте:
 
 <p align="center">
-<img alt="04result" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/04greetingByName/03result.png" />
+<img alt="04result" src ="/assets/chapter-2-images/problems/04greetingByName/03result.png" />
 </p>
 
 4.	Тествайте **в judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#2 ????. Преди да пратите решението сложете коментар на първия ред, който печата “Enter your name”.
@@ -475,7 +475,7 @@ TODO: judge link
 5.	Тествайте решението си в **judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#3 ???.
 
 
-### 5.	Лице на трапец
+### 6.	Лице на трапец
 Напишете програма, която чете от конзолата три числа **b1, b2 и h и пресмята лицето на трапец** с основи **b1 и b2 и височина h. Формулата за лице на трапец е (b1 + b2) * h / 2**.
 
 На фигурата по-долу е показан трапец със страни 8 и 13 и височина 7. Той има лице (8 + 13) * 7 / 2 = 73.5.
@@ -496,7 +496,7 @@ TODO: judge link
 3.	**Тествайте** решението локално с [Ctrl+F5] и въвеждане на примерни данни.
 4.	Тествайте решението си в **judge системата**: ???https://judge.softuni.bg/Contests/Practice/Index/151#4. ???
 
-### 6.	Периметър и лице на кръг
+### 7.	Периметър и лице на кръг
 
 Напишете програма, която чете от конзолата **число r** и пресмята и отпечатва **лицето и периметъра на кръг** / окръжност с радиус r.
 
@@ -512,7 +512,7 @@ TODO: judge link
 Тествайте решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/151#5 ???
 
 ### 8.	Лице на правоъгълник в равнината
-### 8.	Лице на триъгълник
+### 9.	Лице на триъгълник
 ### 10.	Конзолен конвертор: от градуси °C към градуси °F
 ### 11.	Конзолен конвертор: от радиани в градуси
 ### 12.	Конзолен конвертор: USD към BGN
