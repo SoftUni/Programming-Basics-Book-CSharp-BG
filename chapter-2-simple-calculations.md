@@ -327,7 +327,7 @@ TODO: judge link
 1.	Първо създайте **нов C# конзолен проект** в решението “Simple-Calculations”. Кликнете с мишката върху решението в Solution Explorer и изберете [Add] -> [New Project…]:
 
 <p align="center">
-<img alt="newProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/assets/chapter-2-images/problems/03inchesToCm/01newProject.png" />
+<img alt="newProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/01newProject.png" />
 </p>
 
 Изберете [Visual C#] -> [Windows] -> [Console Application] и задайте име **``“Inches-to-Centimeters”``**:
