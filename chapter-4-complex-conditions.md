@@ -35,7 +35,27 @@ if (condition1)
 “Ms.” – жена (пол “f”) на 16 или повече години
 “Miss” – момиче (пол “f”) под 16 години
 
-TODO: table holding sample input / output
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">12<br />f</td>
+<td style="border:1px solid black;">Miss<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">16<br />m</td>
+<td style="border:1px solid black;">Mr.<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Първото нещо ,което забелязваме е че изходът на програмата зависи от няколко неща.Първо трябва да проверим какъв пол е въведен и после да проверим възрастта.Съответно ше използваме повече от 1  if-else блока. Тези блокове ще бъдат вложени.Т.е от резултата от първия ще определим кои от другите да изпълним.
 
