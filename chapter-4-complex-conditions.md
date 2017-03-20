@@ -350,7 +350,7 @@ else if (day == "monday" || day == "tuesday" || day ==
 
 Фирма дава следните комисионни на търговците си според града, в който работят и обема на продажбите s:
 
-![Comssions](/assets/chapter-4-images/Comssions.png)
+![Comssions](/assets/chapter-4-images/Comissions.png)
 
 Напишете програма, която по град и обемна продажбите изчислява комисионната
 Резултатът да се изведе закръглен с 2 десетични цифри
@@ -373,6 +373,8 @@ else if (day == "monday" || day == "tuesday" || day ==
 </tbody>
 </table>
 </div>
+
+
 ```cs
 var comission = -1.0;
 if (town == "sofia")
