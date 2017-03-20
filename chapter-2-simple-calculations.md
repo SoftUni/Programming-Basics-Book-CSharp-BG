@@ -323,6 +323,98 @@ TODO: judge link
 ![judgeTest02](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png)
 
 ### 2.	От инчове към сантиметри
+Да се напише програма, която **чете от конзолата число** (не непременно цяло) и преобразува числото от **инчове в сантиметри.** За целта **умножава инчовете по 2.54** (защото 1 инч = 2.54 сантиметра).
+1.	Първо създайте **нов C# конзолен проект** в решението “Simple-Calculations”. Кликнете с мишката върху решението в Solution Explorer и изберете [Add] -> [New Project…]:
+
+<p align="center">
+<img alt="newProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/assets/chapter-2-images/problems/03inchesToCm/01newProject.png" />
+</p>
+
+Изберете [Visual C#] -> [Windows] -> [Console Application] и задайте име **``“Inches-to-Centimeters”``**:
+
+<p align="center">
+<img alt="nameTheProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/02nameTheProject.png" />
+</p>
+
+2.	**Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:
+
+<p align="center">
+<img alt="code" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/03code.png" />
+</p>
+
+3.	**Стартирайте програмата,** както обикновено с [Ctrl+F5]:
+
+<p align="center">
+<img alt="surpriseResult" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/04result.png" />
+</p>
+
+Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
+Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
+
+<p align="center">
+<img alt="currentProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/05surprise.png" />
+</p>
+
+4.	За да включите режим на **автоматично преминаване към текущия проект**, кликнете върху главния solution с десния бутон на мишката и изберете **[Set StartUp Projects…]**:
+<p align="center">
+<img alt="setStartupProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_1.png" />
+</p>
+
+Ще се появи диалогов прозорец, от който трябва да се избере **[Startup Project] -> [Current selection]**:
+<p align="center">
+<img alt="setStartupProject2" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_2.png" />
+</p>
+
+5.	Сега отново **стартирайте програмата**, както обикновено с [Ctrl+F5]. Този път ще се стартира текущата отворена програма, която преобразува инчове в сантиметри. Изглежда работи коректно:
+<p align="center">
+<img alt="resultCorrect" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect.png" />
+</p>
+
+6.	Сега **превключете към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Program.cs``** от предходния проект **“Square-Area”** в панела [Solution Explorer] на Visual Studio:
+<p align="center">
+<img alt="switchProjects" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/08switchProjects.png" />
+</p>
+
+7.	Натиснете пак **[Ctrl+F5]**. Този път трябва да се стартира другият проект:
+<p align="center">
+<img alt="resultOtherProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_4.png" />
+</p>
+
+8.	Превключете обратно към проекта **“Inches-to-Centimeters”** и го стартирайте с **[Ctrl+F5]**:
+<p align="center">
+<img alt="resultOtherProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_2.png" />
+</p>
+
+
+**Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
+
+9.	Тествайте с дробни числа, например с **2.5**:
+<p align="center">
+<img alt="testWithFloat" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_3.png" />
+</p>
+
+**Внимание**: в зависимост от регионалните настройки на операционната система, е възможно вместо **десетична точка** (US настройки) да се използва **десетична запетая** (BG настройки). Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или на обратно (бъде въведена десетична точка когато се очаква десетична запетая), ще се получи следната грешка:
+
+<p align="center">
+<img alt="exceptionFloatingPoint" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/09result_exception.png" />
+</p>
+
+Препоръчително е **да промените настройките на компютъра си**, така че да се използва **десетична точка**:
+
+<p align="center">
+<img alt="changeWinSettings1" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_1.png" />
+</p>
+
+<p align="center">
+<img alt="changeWinSettings2" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png" />
+</p>
+
+10.	Вече е време за **тестване в judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#1 ???. Решението би трябвало да бъде прието като напълно коректно:
+<p align="center">
+<img alt="judgeResult" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png" />
+</p>
+
+
 ### 3.	Поздрав по име
 ### 4.	Съединяване на текст и числа
 ### 5.	Лице на трапец
