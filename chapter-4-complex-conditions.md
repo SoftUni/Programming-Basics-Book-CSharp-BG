@@ -232,6 +232,8 @@ if (s == "banana" || s == "apple" || s == "kiwi")
 TODO: smaple input and output
 
 Решение на задачата "плод или зеленчук":
+
+
 ```cs
 var s = Console.ReadLine();
 if (s == "banana" || s == "apple" || s == "kiwi" ||
