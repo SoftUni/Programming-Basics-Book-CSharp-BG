@@ -206,7 +206,31 @@ if (s == "banana" || s == "apple" || s == "kiwi")
 Зеленчуците "vegetable" са: tomato, cucumber, pepper, carrot
 Всички останали са "unknown"
 
-TODO: smaple input and output
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">banana<br /></td>
+<td style="border:1px solid black;">fruit<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">tomato <br /></td>
+<td style="border:1px solid black;">vegetable<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">java <br /></td>
+<td style="border:1px solid black;">unknown<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Решение на задачата "плод или зеленчук":
 
@@ -239,11 +263,36 @@ if (!inRange)
 
 ### Пример: Точка върху страна на правоъгълник
 
+
 Да се напише програма, която чете 6 десетични числа x1, y1, x2, y2, x и y
 Печата дали точката е върху страна от правоъгълника или не
 Ограничения: x1 < x2 и y1 < y2
 
-TODO: table holding the sample input / output + the image
+![rect](/assets/chapter-4-images/pointOnSideRect.png)
+
+
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">2 -3 12 3 12 -1 <br /></td>
+<td style="border:1px solid black;">Border<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">2 -3 12 3 8 -1 <br /></td>
+<td style="border:1px solid black;">Inside/Outside<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+
 
 
 ## По-сложни логически условия
@@ -332,12 +381,31 @@ else if (day == "monday" || day == "tuesday" || day ==
 
 Фирма дава следните комисионни на търговците си според града, в който работят и обема на продажбите s:
 
-TODO: table
+![Comssions](/assets/chapter-4-images/Comissions.png)
 
 Напишете програма, която по град и обемна продажбите изчислява комисионната
 Резултатът да се изведе закръглен с 2 десетични цифри
 
-TODO: sample input / output
+
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">Plovdiv <br />499.99</td>
+<td style="border:1px solid black;">27.5<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
 ```cs
 var comission = -1.0;
 if (town == "sofia")
