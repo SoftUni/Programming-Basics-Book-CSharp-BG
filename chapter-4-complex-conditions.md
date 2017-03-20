@@ -16,7 +16,7 @@ TODO
 ## Вложени проверки
 
 Конструкциите if-else могат да се влагат една в друга:
-
+```cs
 if (condition1)
 {
    if (condition2)
@@ -25,7 +25,7 @@ if (condition1)
       Console.WriteLine("condition2 not valid");
    Console.WriteLine("condition1 valid");
 }
-
+```
 
 ### Пример: Обръщение според възраст и пол
 
@@ -39,10 +39,10 @@ TODO: table holding sample input / output
 
 Първото нещо ,което забелязваме е че изходът на програмата зависи от няколко неща.Първо трябва да проверим какъв пол е въведен и после да проверим възрастта.Съответно ше използваме повече от 1  if-else блока. Тези блокове ще бъдат вложени.Т.е от резултата от първия ще определим кои от другите да изпълним.
 
-TODO: image - картинката с диаграмата от слайдовете
+![task1](/assets/chapter-4-images/missOrMaster.png)
 
 Решение на задачата:
-
+```cs
 var age = double.Parse(Console.ReadLine());
 var gender = Console.ReadLine();
 if (age < 16)
@@ -55,7 +55,7 @@ else
    if (gender == "m") Console.WriteLine("Mr.");
    else if (gender == "f") Console.WriteLine("Ms.");
 }
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#0
 
 
@@ -77,6 +77,7 @@ Varna
 
 Решение: квартално магазинче
 
+```cs
 var product = Console.ReadLine().ToLower();
 var town = Console.ReadLine().ToLower();
 var quantity = double.Parse(Console.ReadLine());
@@ -88,7 +89,7 @@ if (town == "sofia")
 }
 if (town == "varna") // TODO: finish this …
 if (town == "plovdiv") // TODO: finish this …
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#1
 
 
@@ -113,7 +114,7 @@ if (x >= x1 && x <= x2 && y >= y1 && y <= y2) …
 ### Точка в правоъгълник
 Пример: проверка дали точка {x, y} се намира вътре в правоъгълника {x1, y1} – {x2, y2}
 
-TODO: image
+![shop](/assets/chapter-4-images/pointinrect.png)
 
 Необходимо е точката {x, y} да е:
 надясно от x1 и наляво от x2 и
