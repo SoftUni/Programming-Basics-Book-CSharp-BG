@@ -164,16 +164,16 @@ else
 <th>a</th> <th>b</th> <th>a || b </th>
 </tr>
 <tr>
-<td>True</td><td align="center"> True </td><td rowspan="2"> True</td>
+<td>True</td><td align="center"> True </td><td rowspan="1"> True</td>
 </tr>
 <tr>
-<td>True</td><td align="center"> False </td><td rowspan="2"> True</td>
+<td>True</td><td align="center"> False </td><td rowspan="1"> True</td>
 </tr>
 <tr>
-<td>False</td><td align="center"> True </td><td rowspan="2"> True</td>
+<td>False</td><td align="center"> True </td><td rowspan="1"> True</td>
 </tr>
 <tr>
-<td>False</td><td align="center"> False </td><td rowspan="2"> False</td>
+<td>False</td><td align="center"> False </td><td rowspan="1"> False</td>
 </tr>
 </table>
 
@@ -215,11 +215,11 @@ else
 Пример:
 Дадено число е валидно, ако е в диапазона [100…200] или е 0
 Да се направи проверка за невалидно число
-
+```cs
 var inRange = (num >= 100 && num <= 200) || num == 0;
 if (!inRange)
   Console.WriteLine("invalid");
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#4
 
 ### Пример: Точка върху страна на правоъгълник
@@ -238,7 +238,7 @@ x съвпада с x1 или x2 и същевременно y е между y1 
 y съвпада с y1 или y2 и същевременно x е между x1 и x2
 
 TODO: image
-
+```cs
 if (((x == x1 || x == x2) && 
      (y >= y1) && (y <= y2)) ||
     ((y == y1 || y == y2) && 
@@ -246,9 +246,9 @@ if (((x == x1 || x == x2) &&
 {
    Console.WriteLine("Border");
 }
-
+```
 Предходното условие може да се опрости ето така:
-
+```cs
 var onLeftSide = (x == x1) && (y >= y1) && (y <= y2);
 var onRightSide = (x == x2) && (y >= y1) && (y <= y2);
 var onUpSide = (y == y1) && (x >= x1) && (x <= x2);
@@ -257,6 +257,7 @@ if (onLeftSide || onRightSide ||     onUpSide || onDownSide)
 {
     Console.WriteLine("Border");
 }
+```
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#5
 
@@ -275,7 +276,7 @@ TODO: table
 TODO: sample input / output
 
 Решение на задачата:
-
+```
 if (day == "saturday" || day == "sunday")
 {
    if (fruit == "banana") price = 2.70;
@@ -288,7 +289,7 @@ else if (day == "monday" || day == "tuesday" || day ==
    if (fruit == "banana") price = 2.50;
    // TODO: more fruits come here …
 }
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#6
 
 ### Пример: Търговски комисионни
@@ -301,7 +302,7 @@ TODO: table
 Резултатът да се изведе закръглен с 2 десетични цифри
 
 TODO: sample input / output
-
+```cs
 var comission = -1.0;
 if (town == "sofia")
 {
@@ -314,14 +315,14 @@ else if (town == "plovdiv") // TODO: check the price ranges …
 if (comission >= 0)
   Console.WriteLine("{0:f2}", sales * comission);
 else Console.WriteLine("error");
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#7
 
 ## Условна конструкция switch-case
 
 Switch-case работи като поредица if-else-if-else
 Пример: Принтирайте деня от седмицата (на английски) според въведеното число (1…7)
-
+```cs
 int day = int.Parse(Console.ReadLine());
 switch (day)
 {
@@ -331,13 +332,13 @@ switch (day)
   case 7: Console.WriteLine("Sunday"); break;
   default: Console.WriteLine("Error!"); break;
 }
-
+```
 Тестване на решението : https://judge.softuni.bg/Contests/Practice/Index/153#8
 
 ### Множество етикети в switch-case
 
 Напишете програма, която принтира вида на животно според името му: dog -> mammal; crocodile, tortoise, snake -> reptile; others -> unknown
-
+```cs
 switch (animal)
 {
   case "dog": Console.WriteLine("mammal"); break;
@@ -346,25 +347,25 @@ switch (animal)
   case "snake": Console.WriteLine("reptile"); break;
   default: Console.WriteLine("unknown"); break;
 }
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#9
 
 
 ## Какво научихме от тази глава?
 
 Вложени проверки:
-
+```cs
 if (condition1)
 {
    if (condition2) …
    else …
 }
-
+```
 По-сложни проверки с &&, ||, ! и ():
-
+```cs
 if ((x == left || x == right) && y >= top && y <= bottom)
   Console.WriteLine("Point on the left or right side.");
-
+```
 
 ## Упражнения: по-сложни проверки
 
