@@ -112,11 +112,20 @@ if (x >= x1 && x <= x2 && y >= y1 && y <= y2) …
 <th>a</th> <th>b</th> <th>a && b </th>
 </tr>
 <tr>
-<td>TRUE</td><td align="center"> TRUE </td><td rowspan="2"> TRUE</td>
+<td>True</td><td align="center"> True </td><td rowspan="2"> True</td>
+</tr>
+<tr>
+<td>True</td><td align="center"> False </td><td rowspan="2"> False</td>
+</tr>
+<tr>
+<td>False</td><td align="center"> True </td><td rowspan="2"> False</td>
+</tr>
+<tr>
+<td>False</td><td align="center"> False </td><td rowspan="2"> False</td>
 </tr>
 </table>
 
-//TODO image with exapmle values and results.
+
 
 Операторът && приема два булеви израза (които имат стойност true или false) и ни връща 1 булев израз като резултат. Ползвайки го него вместо редица вложени if блокове ,прави кода по четлив,подреден и лесен за поддръжка.Но как работи когато поставим няколко условия едно след друго?  a&&b&&c&&d = ? .  Както видяхме горе "логическото и" връща true,само когато приема като аргументи изрази със стойност true. Съответно,когато имаме последователност  от аргументи ,логическото и проверява или докато свършват аргументите, или докато не срещне аргумент със стойност false. Т.е ако в примера аргументите имат стойности - a=true, b=true,c=false, d =true,програмата ще се изпълни по следния начин:Започва проверката от а,отчита го като истина и проверява b.След като е отчело ,че и b е истина проверява  следващия аргумент.Стига до c и веднага вижда ,че то има стойност  false.Аргумента c бъдейки false, вече целия израз има стойност false, независимо от стойността на d.За това проверката на d  се прескача и целия израз получава стойност false.
 
@@ -150,7 +159,24 @@ else
 В училище учителят казва :"Иван или Петър да измият дъската".За да бъде изпълнено това ,което казва учителя, е възможно само Иван да измие дъската, само Петър или  и двамата да го направят. 
 
 
-//todo image with exapmle values and results.
+<table>
+<tr>
+<th>a</th> <th>b</th> <th>a || b </th>
+</tr>
+<tr>
+<td>True</td><td align="center"> True </td><td rowspan="2"> True</td>
+</tr>
+<tr>
+<td>True</td><td align="center"> False </td><td rowspan="2"> True</td>
+</tr>
+<tr>
+<td>False</td><td align="center"> True </td><td rowspan="2"> True</td>
+</tr>
+<tr>
+<td>False</td><td align="center"> False </td><td rowspan="2"> False</td>
+</tr>
+</table>
+
 
 Как работи оператора || ?
 a||b||c||d = ?
