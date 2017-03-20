@@ -276,7 +276,7 @@ TODO: judge link
 
 Нека затвърдим наученото в тази глава с няколко задачи.
 
-### 0.	Празно Visual Studio решение (Blank Solution)
+### 1.	Празно Visual Studio решение (Blank Solution)
 
 Създайте празно решение **(Blank Solution)** във Visual Studio. Решенията (solutions) във Visual Studio обединяват **група проекти.** Тази възможност е изключително удобна, когато искаме да работим по няколко проекта и бързо да превключваме между тях или искаме да обединим логически няколко взаимосвързани проекта.
 В настоящото практическо занимание ще използваме **Blank Solution с няколко проекта** за да организираме решенията на задачите от упражненията – всяка задача в отделен проект и всички проекти в общ solution.
@@ -301,7 +301,7 @@ TODO: judge link
 
 Целта на този blank solution e да добавяте в него **по един проект за всяка задача** от упражненията.
 
-### 1.	Пресмятане на лице на квадрат
+### 2.	Пресмятане на лице на квадрат
 Първата задача от тази тема е следната: да се **напише конзолна програма, която въвежда цяло число ```a``` и пресмята лицето на квадрат със страна ```a```**. Задачата е тривиално лесна: въвеждате число от конзолата, умножавате го само по себе си и печатате получения резултат на конзолата.
 
 1.	Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **  Solution 'Simple-Calculations'**. Изберете [Add] -> [New Project…]:
@@ -340,7 +340,7 @@ TODO: judge link
 <img alt="judgeTest02" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png" />
 </p>
 
-### 2.	От инчове към сантиметри
+### 3.	От инчове към сантиметри
 Да се напише програма, която **чете от конзолата число** (не непременно цяло) и преобразува числото от **инчове в сантиметри.** За целта **умножава инчовете по 2.54** (защото 1 инч = 2.54 сантиметра).
 1.	Първо създайте **нов C# конзолен проект** в решението “Simple-Calculations”. Кликнете с мишката върху решението в Solution Explorer и изберете [Add] -> [New Project…]:
 
@@ -403,7 +403,6 @@ TODO: judge link
 <img alt="resultOtherProject" src="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_2.png" />
 </p>
 
-
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
 9.	Тествайте с дробни числа, например с **2.5**:
@@ -432,18 +431,39 @@ TODO: judge link
 <img alt="judgeResult" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png" />
 </p>
 
+### 4.	Поздрав по име
+Да се напише програма, която **чете от конзолата име на човек** и отпечатва **``“Hello, <name>!”``**, където **``<name>``** е въведеното преди това име.
 
-### 3.	Поздрав по име
-### 4.	Съединяване на текст и числа
+1.	Първо създайте **нов C# конзолен проект** с име **``“Greeting”``** в решението **``“Simple-Calculations”``**:
+
+<p align="center">
+<img alt="newProject" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/04greetingByName/01newProject.png" />
+</p>
+
+2.	**Напишете кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
+
+<p align="center">
+<img alt="04code" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/04greetingByName/02code.png" />
+</p>
+
+3.	**Стартирайте** програмата с **[Ctrl+F5]** и я тествайте:
+
+<p align="center">
+<img alt="04result" src ="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/04greetingByName/03result.png" />
+</p>
+
+4.	Тествайте **в judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#2 ????. Преди да пратите решението сложете коментар на първия ред, който печата “Enter your name”.
+
+### 5.	Съединяване на текст и числа
 ### 5.	Лице на трапец
 ### 6.	Периметър и лице на кръг
-### 7.	Лице на правоъгълник в равнината
+### 8.	Лице на правоъгълник в равнината
 ### 8.	Лице на триъгълник
-### 9.	Конзолен конвертор: от градуси °C към градуси °F
-### 10.	Конзолен конвертор: от радиани в градуси
-### 11.	Конзолен конвертор: USD към BGN
-### 12.	* Конзолен междувалутен конвертор
-### 13.	** Пресмятане с дати: 1000 дни на Земята
+### 10.	Конзолен конвертор: от градуси °C към градуси °F
+### 11.	Конзолен конвертор: от радиани в градуси
+### 12.	Конзолен конвертор: USD към BGN
+### 13.	* Конзолен междувалутен конвертор
+### 14.	** Пресмятане с дати: 1000 дни на Земята
 
 ## Упражнения: графични и уeb приложения
 
