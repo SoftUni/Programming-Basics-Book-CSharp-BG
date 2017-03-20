@@ -112,16 +112,16 @@ if (x >= x1 && x <= x2 && y >= y1 && y <= y2) …
 <th>a</th> <th>b</th> <th>a && b </th>
 </tr>
 <tr>
-<td>True</td><td align="center"> True </td><td rowspan="2"> True</td>
+<td>True</td><td align="center"> True </td><td rowspan="1"> True</td>
 </tr>
 <tr>
-<td>True</td><td align="center"> False </td><td rowspan="2"> False</td>
+<td>True</td><td align="center"> False </td><td rowspan="1"> False</td>
 </tr>
 <tr>
-<td>False</td><td align="center"> True </td><td rowspan="2"> False</td>
+<td>False</td><td align="center"> True </td><td rowspan="1"> False</td>
 </tr>
 <tr>
-<td>False</td><td align="center"> False </td><td rowspan="2"> False</td>
+<td>False</td><td align="center"> False </td><td rowspan="1"> False</td>
 </tr>
 </table>
 
