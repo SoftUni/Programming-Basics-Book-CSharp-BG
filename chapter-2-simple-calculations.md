@@ -34,7 +34,7 @@ Console.Write("Square area = ");
 Console.WriteLine(area);
 ```
 Ето как би работила програмата при квадрат със размер на страната 3:
-![squareArea](/assets/chapter-2-images/squareArea.png)
+![task1](/assets/chapter-4-images/fruitsho.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#0
 
