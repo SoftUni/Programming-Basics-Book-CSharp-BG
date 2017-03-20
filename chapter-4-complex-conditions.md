@@ -93,7 +93,23 @@ Varna
 2
 Изход:
 0.9
-
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">coffe<br />Varna  2</td>
+<td style="border:1px solid black;">0.9<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 Решение: квартално магазинче
 
