@@ -163,7 +163,7 @@ if (x >= x1 && x <= x2 && y >= y1 && y <= y2) …
 ### Точка в правоъгълник
 Пример: проверка дали точка {x, y} се намира вътре в правоъгълника {x1, y1} – {x2, y2}
 
-![shop](/assets/chapter-4-images/PointInRect.png)
+![shop](/assets/chapter-4-images/pointInRect.png)
 
 Необходимо е точката {x, y} да е:
 надясно от x1 и наляво от x2 и
