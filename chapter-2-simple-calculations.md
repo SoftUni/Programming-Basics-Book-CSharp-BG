@@ -297,19 +297,31 @@ TODO: judge link
 
 ### 1.	Пресмятане на лице на квадрат
 Първата задача от тази тема е следната: да се **напише конзолна програма, която въвежда цяло число ```a``` и пресмята лицето на квадрат със страна ```a```**. Задачата е тривиално лесна: въвеждате число от конзолата, умножавате го само по себе си и печатате получения резултат на конзолата.
+
 1.	Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **  Solution 'Simple-Calculations'**. Изберете [Add] -> [New Project…]:
+
 ![newProject](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/01newProject.png)
+
 2.	Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение с име **“Square-Area”:**
+
 ![namingTheProject](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png)
+
 Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
 3.	Отидете в тялото на метода Main(string[] args) и напишете кода от картинката по-долу:
+
 ![problem2Code](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/03code.png)
+
 Кодът въвежда цяло число с **```a = int.Parse(Console.ReadLine())```**, след това изчислява **```area = a * a```** и накрая печата стойността на променливата **area**.
+
 4.	**Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
+
 ![result](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/04result.png)
+
 5.	**Тествайте** решението си в **judge системата:** https://judge.softuni.bg/Contests/Practice/Index/151#0. Трябва да получите 100 точки (напълно коректно решение):
+
 ![judgeTest01](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png)
 ![judgeTest02](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png)
+
 ### 2.	От инчове към сантиметри
 ### 3.	Поздрав по име
 ### 4.	Съединяване на текст и числа
