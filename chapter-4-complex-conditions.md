@@ -220,10 +220,10 @@ a||b||c||d = ?
  
 
 
-
+```cs
 if (s == "banana" || s == "apple" || s == "kiwi")
   Console.WriteLine("fruit");
-
+```
 ### Задача: плод или зеленчук?
 Плодовете "fruit" са: banana, apple, kiwi, cherry, lemon, grapes
 Зеленчуците "vegetable" са: tomato, cucumber, pepper, carrot
@@ -232,7 +232,7 @@ if (s == "banana" || s == "apple" || s == "kiwi")
 TODO: smaple input and output
 
 Решение на задачата "плод или зеленчук":
-
+```cs
 var s = Console.ReadLine();
 if (s == "banana" || s == "apple" || s == "kiwi" ||
     s == "cherry" || s == "lemon" || s == "grapes")
@@ -241,7 +241,7 @@ else if (s == "tomato" || s == "cucumber" ||    s == "pepper" || s == "carrot")
   Console.WriteLine("vegetable");
 else
   Console.WriteLine("unknown");
-
+```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#3
 
 
