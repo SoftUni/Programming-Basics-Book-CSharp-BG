@@ -34,7 +34,7 @@ Console.Write("Square area = ");
 Console.WriteLine(area);
 ```
 Ето как би работила програмата при квадрат със размер на страната 3:
-![squareArea](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/squareArea.png)
+![squareArea](/assets/chapter-2-images/squareArea.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#0
 
@@ -76,7 +76,7 @@ Console.WriteLine(centimeters);
 ```
 Сега нека стартирам програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![inchesToCm](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/inchesToCm.png)
+![inchesToCm](/assets/chapter-2-images/inchesToCm.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#1
 
@@ -97,7 +97,7 @@ var name = Console.ReadLine();
 Console.WriteLine("Hello, {0}!", name);
 ```
 В случая, изразът {0} се замества с първия подаден аргумент -  в примера променливата "name":
-![greetingByName](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/greetingByName.png)
+![greetingByName](/assets/chapter-2-images/greetingByName.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#2
 
