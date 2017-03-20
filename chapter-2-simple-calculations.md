@@ -43,7 +43,7 @@ Console.WriteLine(area);
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**.
 Всяка една **променлива** в C# има **име**, **тип** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията й, присвояваме и стойност:
 
-![declaring variables](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/declaringVariables.png)
+![declaring variables](/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/declaringVariables.png)
 
 След тяхната обработка, данните се записват отново в променливи.
 
