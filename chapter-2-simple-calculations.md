@@ -114,7 +114,7 @@ Console.WriteLine(
   firstName, lastName, age, town);
 ```
 Ето резултатът, който ще получим, след изпълнение на този пример:
-![placeholdersInAction](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-2-images/placeholders.png)
+![placeholdersInAction](/assets/chapter-2-images/placeholders.png)
 
 Обърнете внимание, как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество,  шаблонът (плейсхолдър) приема променливи от всякакъв вид. Не се допуска да има шаблони, които да имат една и съща поредност, т.е. два или повече шаблона под номер 2. В такъв случай, вашата програма няма да се компилира. 
 
