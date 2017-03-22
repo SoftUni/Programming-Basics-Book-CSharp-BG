@@ -116,7 +116,7 @@ _Трета задача от междинния изпит на 6 март 2016
 <td>Препоръчително е да се прочита няколко пъти заданието на дадена задача, като се водят записки, преди да се подходи към писането на код.</td>
 </tr></table>
 
-Съгласно заданието очакваме да ни бъдат подадени в 4 поредни реда различни цели числа. Поглеждайки зададените параметри спокойно можем да се спрем на <strong>int</strong> като тип на параметрите ни. Едновременно четем входа и парсваме стринговата стойност към цяло число.
+Съгласно заданието очакваме да ни бъдат подадени в 4 поредни реда различни цели числа. Разглеждаме зададените параметри. Можем да се спрем на <strong>int</strong> като тип на параметрите ни, който удовлетворява очакваните стойности. Едновременно четем входа и парсваме стринговата стойност към цяло число.
 
 ```cs 
             // Read the input.
@@ -126,7 +126,86 @@ _Трета задача от междинния изпит на 6 март 2016
             int arrivalMinutes = int.Parse(Console.ReadLine());
 ```
 
-TODO
+Разглеждаме очакваният изход. Можем да създадем променливи, които да съдържат различните видове изходни данни, с цел да избегнем използването на т.нар. "magic strings" в кода.
+
+```cs 
+            // Set some constants.
+            string late = "Late";
+            string onTime = "On time";
+            string early = "Early";
+```
+
+#### 2. Изчисления
+
+След това започваме да разписваме логиката за изчисление на резултата. Трябва да изчислим времето на изпита в минути за по-лесно и точно сравнение.
+
+```cs 
+            int examTime = (examHours * 60) + examMinutes;
+```
+
+Нека изчислим по същата логика и времето на пристигане на студента.
+```cs 
+            int arrivalTime = (arrivalHours * 60) + arrivalMinutes;
+```
+
+Остава ни да пресметнем каква е разликата в двете времена, за да можем да определим кога и с какво време спрямо изпита е пристигнал студента.
+
+```cs 
+            int totalMinutesDifference = arrivalTime - examTime;
+```
+
+След което ни остава да направим необходимите проверки и да изведем резултата от изчисленията ни. Нека разделим изхода на 2 части. Първо да покажем как е пристигнал студентът - дали е подранил, закъснял или е навреме. С цел да си спестим една допълнителна проверка можем по подразбиране да приемем, че студентът е закъснял.
+
+```cs 
+            // Check when the student had arrived for the exam and display the result
+            string studentArrival = late;
+            if (totalMinutesDifference < -30)
+            {
+                studentArrival = early;
+            }
+            else if (totalMinutesDifference <= 0)
+            {
+                studentArrival = onTime;
+            }
+```
+
+После ще покажем и с каква разлика от времето на изпита е пристигнал както и дали тази разлика е преди или след изпита.
+
+```cs 
+// Check and output final result.
+            string result = string.Empty;
+            if (totalMinutesDifference != 0)
+            {
+                int hoursDifference = Math.Abs(totalMinutesDifference / 60);
+                int minutesDifference = Math.Abs(totalMinutesDifference % 60);
+
+                if (hoursDifference > 0)
+                {
+                    result = hoursDifference + ":" + string.Format("{0:00}", minutesDifference) + " hours";
+                }
+                else
+                {
+                    result = minutesDifference + " minutes";
+                }
+
+                if (totalMinutesDifference < 0)
+                {
+                    result += " before the start";
+                }
+                else
+                {
+                    result += " after the start";
+                }
+            }
+```
+
+#### 3. Показване на резултата
+
+И накрая остава да изведем резултата на конзолата. 
+```cs 
+            Console.WriteLine(studentArrival);
+            Console.WriteLine(result);
+```
 
 ### Тестване в Judge системата
 
