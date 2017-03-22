@@ -605,11 +605,92 @@ TODO: judge link
 
 ## Упражнения: графични и уeb приложения
 
-TODO: да се следва файла "2. Simple-Calculations-Exercises.docx"
-
 ### Графично приложение: конвертор от BGN към EUR
 
-TODO: да се следва файла "2. Simple-Calculations-Exercises.docx"
+Създайте **графично приложение** (GUI application), което пресмята стойността в **евро** (EUR) на парична сума, зададена в **лева** (BGN). При промяна на стойността в лева, равностойността в евро трябва да се преизчислява автоматично. Използвайте курс лева / евро: **1.95583**.
+
+<p align="center">
+<img alt="model" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/00model.png" />
+</p>
+
+1.	Добавете към текущото Visual Studio решение още един проект. Този път създайте **Windows Forms** приложение със C# с име "**``BGN-to-EUR-Converter``**":
+
+<p align="center">
+<img alt="model" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/01winFormsInstr.png" />
+</p>
+
+2.	Подредете следните UI контролите във формата:
+• **``NumericUpDown``** с име **``numericUpDownAmount``** – ще въвежда сумата за конвертиране
+•	**``Label``** с име **``labelResult``** – ще показва резултата след конвертиране
+•	Още два Label компонента, служещи единствено за статично изобразяване на текст
+Графичният редактор за потребителски интерфейс може да изглежда по подобен начин:
+
+<p align="center">
+<img alt="model" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/02winFormsInstrLabels.png" />
+</p>
+
+3.	Задайте настройки на фòрмата и на отделните контроли:
+
+**``FormConverter``**
+
+|             | Настройка                                                                                             | скрийн|
+|:-----------:|:------------------------------------------------------------------------------------------------------|:-----:|
+|FormConverter|Text = "BGN to EUR",<br>Font.Size = 12,<br>MaximizeBox = False,<br>MinimizeBox = False,<br>FormBorderStyle = FixedSingle | <img alt="formConverter" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/03formConverter.png" /> |
+| numericUpDownAmount|Value = 1,<br>Minimum = 0,<br>Maximum = 10000000,<br>TextAlign = Right,<br>DecimalPlaces = 2 | <img alt="numUpDown" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/05numericUpDownAmount.png" /> |
+| labelResult  |AutoSize = False,<br>BackColor = PaleGreen,<br>TextAlign = MiddleCenter,<br>Font.Size = 14,<br>Font.Bold = True| <img alt="labelResult" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/06labelResult.png" /> |
+
+4.	Дефинирайте **обработчици на събития** по контролите:
+
+<p align="center">
+<img alt="model" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/07events.png" />
+</p>
+
+Хванете следните събития:
+- **``FormConverter.Load``** (кликнете върху формата с мишката 2 пъти)
+- **``numericUpDownAmount.ValueChanged``** (кликнете върху **``NumericUpDown``** контролата 2 пъти)
+- **``numericUpDownAmount.KeyUp``** (изберете **``Events``** от таблото **``Properties``** и кликнете 2 пъти върху **``KeyUp``**)
+Събитието **``Form.Load``** се изпълнява при стартиране на програмата, преди да се появи прозореца на приложението. Събитието **``NumericUpDown.ValueChanged``** се изпълнява при промяна на стойността в полето за въвеждане на число. Събитието **``NumericUpDown.KeyUp``** се изпълнява след натискане на клавиш в полето за въвеждане на число. При всяко от тези събития ще преизчисляваме резултата.
+
+За **хващане на събитие** ползвайте иконката със събитията в **Properties**  прозореца във Visual Studio:
+
+<p align="center">
+<img alt="model" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/08properties.png" />
+</p>
+
+Сложете следния **C# код** за обработка на събитията:
+```cs
+private void FormConverter_Load(object sender, EventArgs e)
+{
+  ConvertCurrency();
+}
+
+private void numericUpDownAmount_ValueChanged(object sender, EventArgs e)
+{
+  ConvertCurrency();
+}
+
+private void numericUpDownAmount_KeyUp(object sender, KeyEventArgs e)
+{
+  ConvertCurrency();
+}
+```
+
+Всички прихванати събития извикват метода **``ConvertCurrency()``**, който конвертира зададената сума от лева в евро и показва резултата в зелената кутийка.
+
+5.	**Напишете кода** (програмната логика) за конвертиране от лева към евро: 
+
+```cs
+private void ConvertCurrency()
+{
+  var amountBGN = this.numericUpDownAmount.Value;
+  var amountEUR = amountBGN * 1.95583m;
+  this.labelResult.Text = 
+    amountBGN + " BGN = " + 
+    Math.Round(amountEUR, 2) + " EUR";
+}
+```
+
+6.	**Стартирайте проектa** с [Ctrl+F5] и тествайте дали работи правилно.
 
 ### *** Графично приложение: хвани бутона!
 
