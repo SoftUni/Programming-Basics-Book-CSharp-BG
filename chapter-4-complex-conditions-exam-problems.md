@@ -172,7 +172,7 @@ _Трета задача от междинния изпит на 6 март 2016
 После ще покажем и с каква разлика от времето на изпита е пристигнал както и дали тази разлика е преди или след изпита.
 
 ```cs 
-// Check and output final result.
+            // Check and output final result.
             string result = string.Empty;
             if (totalMinutesDifference != 0)
             {
