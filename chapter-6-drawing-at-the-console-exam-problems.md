@@ -170,7 +170,7 @@ TODO: Add adress
     <tr>
     	<td>3</td>
         <td>
-        	TODO:Add image
+        	<img src="assets/chapter-6-images/butterfly/butterfly-input-3.png">
         </td>
     </tr>
 </table>
@@ -183,7 +183,7 @@ TODO: Add adress
     <tr>
     	<td>5</td>
         <td>
-        	TODO:Add image
+        	<img src="assets/chapter-6-images/butterfly/butterfly-input-5.png">
         </td>
     </tr>
 </table>
@@ -196,7 +196,7 @@ TODO: Add adress
     <tr>
     	<td>7</td>
         <td>
-        	TODO:Add image
+        	<img src="assets/chapter-6-images/butterfly/butterfly-input-7.png">
         </td>
     </tr>
 </table>
