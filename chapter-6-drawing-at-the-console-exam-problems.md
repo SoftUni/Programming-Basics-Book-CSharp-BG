@@ -13,6 +13,13 @@
 ### Примерен вход и изход
 Следват няколко тестови примера, които ще са главният ни ориентир за писането на кода:
 
+<div style="display:inline-block; border: 1px solid blue">Вход</div>
+<div style="display:inline-block; border: 1px solid green">Изход</div>
+
+<div style="display:inline-block; border: 1px solid blue">3</div>
+<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/fort/fort-output-3.png" width="100px"></div>
+
+
 <table>
 	<tr>
     	<th>Вход</th>
@@ -226,13 +233,15 @@ TODO: Add adress
 
 ## Знак "Стоп"
 
-TODO: описание
-
-TODO: картинка
+Да се напише програма, която прочита от конзолата **цяло число N** и чертае **предупредителен знак STOP** с размери като в примерите по-долу.
 
 ### Входни данни
 
+Входът е **цяло число N** в интервала **[3…1000]**.
+
 ### Изходни данни
+
+Да се отпечатат на конзолата текстови редове, изобразяващи **предупредителния знак STOP**, точно както в примерите.
 
 ### Примерен вход и изход
 
