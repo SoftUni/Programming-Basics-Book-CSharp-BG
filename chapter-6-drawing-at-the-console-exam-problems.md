@@ -196,13 +196,13 @@ TODO: Add adress
 <div style="display:inline-block; border: 1px solid blue">Вход</div>
 <div style="display:inline-block; border: 1px solid green">Изход</div>
 
-<div style="display:inline-block; border: 1px solid blue">5</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/stop/stop-input-5.png" width="100px"></div>
+<div style="display:inline-block; border: 1px solid blue">6</div>
+<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/stop/stop-input-6.png" width="100px"></div>
 
 <div style="display:inline-block; border: 1px solid blue">Вход</div>
 <div style="display:inline-block; border: 1px solid green">Изход</div>
 
-<div style="display:inline-block; border: 1px solid blue">7</div>
+<div style="display:inline-block; border: 1px solid blue">8</div>
 <div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/stop/stop-input-8.png" width="100px"></div>
 
 ### Насоки и подсказки
