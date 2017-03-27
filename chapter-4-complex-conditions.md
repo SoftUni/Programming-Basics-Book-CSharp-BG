@@ -361,7 +361,7 @@ if (onLeftSide || onRightSide ||     onUpSide || onDownSide)
 </div>
 
 Решение на задачата:
-```
+```cs
 if (day == "saturday" || day == "sunday")
 {
    if (fruit == "banana") price = 2.70;
