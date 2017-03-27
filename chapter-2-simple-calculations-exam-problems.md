@@ -130,6 +130,14 @@ TODO: картинка
 
 ### Насоки и подсказки
 
+![Image not found](assets/chapter-2-part-2-images/problem-4/reading-from-the-console.png)
+
+![Image not found](assets/chapter-2-part-2-images/problem-4/calculations-pt1.png)
+
+![Image not found](assets/chapter-2-part-2-images/problem-4/calculations-pt2.png)
+
+![Image not found](assets/chapter-2-part-2-images/problem-4/result.png)
+
 ### Тестване в Judge системата
 Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/233
 
