@@ -19,6 +19,12 @@
 
 ### Насоки и подсказки
 
+![Image not found](assets/chapter-2-part-2-images/problem-1/reading-from-the-console.png)
+
+![Image not found](assets/chapter-2-part-2-images/problem-1/calculations.png)
+
+![Image not found](assets/chapter-2-part-2-images/problem-1/results-print.png)
+
 ### Тестване в Judge системата
 Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/169#0
 
