@@ -261,11 +261,14 @@ if (!inRange)
 ```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/153#4
 
+## По-сложни логически условия
+
+
 ### Пример: Точка върху страна на правоъгълник
 
-
 Да се напише програма, която чете 6 десетични числа x1, y1, x2, y2, x и y
-Печата дали точката е върху страна от правоъгълника или не
+Печата дали точката е върху страна от правоъгълника или не.
+
 Ограничения: x1 < x2 и y1 < y2
 
 ![rect](/assets/chapter-4-images/pointOnSideRect.png)
@@ -295,13 +298,10 @@ if (!inRange)
 
 
 
-## По-сложни логически условия
-
 Точка лежи върху някоя от страните на правоъгълник, ако:
 x съвпада с x1 или x2 и същевременно y е между y1 и y2 или
 y съвпада с y1 или y2 и същевременно x е между x1 и x2
 
-TODO: image
 ```cs
 if (((x == x1 || x == x2) && 
      (y >= y1) && (y <= y2)) ||
@@ -361,7 +361,7 @@ if (onLeftSide || onRightSide ||     onUpSide || onDownSide)
 </div>
 
 Решение на задачата:
-```
+```cs
 if (day == "saturday" || day == "sunday")
 {
    if (fruit == "banana") price = 2.70;
@@ -473,36 +473,110 @@ if ((x == left || x == right) && y >= top && y <= bottom)
 
 ## Упражнения: по-сложни проверки
 
-TODO: да се ползва като основа файла "4. Complex-Conditions-Exercises.docx".
-TODO: повтарящите се задачи и обясненията за тях да се качат по-горе в текста.
-
-### 0. Празно Visual Studio решение (Blank Solution)
-
-### 1. Обръщение според възраст и пол
-
-### 2. Квартално магазинче
-
-### 3. Точка в правоъгълник
-
-### 4. Плод или зеленчук?
-
-### 5. Невалидно число
-
-### 6. Точка върху страната на правоъгълник
-
-### 7. Магазин за плодове
-
-### 8. Търговски комисионни
-
-### 9. Day of Week
-
-### 10. Animal Type
 
 ### 11. Кино
 
+В една кинозала столовете са наредени в правоъгълна форма в r реда и c колони. Има три вида прожекции с билети на различни цени:
+-> Premiere – премиерна прожекция, на цена 12.00 лева.
+-> Normal – стандартна прожекция, на цена 7.50 лева.
+-> Discount – прожекция за деца, ученици и студенти на намалена цена от 5.00 лева.
+
+Напишете програма, която въвежда тип прожекция (стринг), брой редове и брой колони в залата (цели числа) и изчислява общите приходи от билети при пълна зала. Резултатът да се отпечата във формат като в примерите по-долу, с 2 знака след десетичната точка.
+
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">Premiere<br />100 12</td>
+<td style="border:1px solid black;">1440.00<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">Normal <br />21 13</td>
+<td style="border:1px solid black;">2047.50<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+
 ### 12. Волейбол
 
+Влади е студент, живее в София и си ходи от време на време до родния град. Той е много запален по волейбола, но е зает през работните дни и играе волейбол само през уикендите и в празничните дни. Влади играе в София всяка събота, когато не е на работа и не си пътува до родния град, както и в 2/3 от празничните дни. Той пътува до родния си град h пъти в годината, където играе волейбол със старите си приятели в неделя. Влади не е на работа 3/4 от уикендите, в които е в София. Отделно, през високосните години Влади играе с 15% повече волейбол от нормалното. Приемаме, че годината има точно 48 уикенда, подходящи за волейбол. Напишете програма, която изчислява колко пъти Влади е играл волейбол през годината. Закръглете резултата надолу до най-близкото цяло число (например 2.15 -> 2; 9.95 -> 9).
+
+Входните данни се четат от конзолата:
+
+-> Първият ред съдържа думата “leap” (високосна година) или “normal” (невисокосна).
+-> Вторият ред съдържа цялото число p – брой празници в годината (които не са събота и неделя).
+-> Третият ред съдържа цялото число h – брой уикенди, в които Влади си пътува до родния град.
+
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">leap <br />5 2</td>
+<td style="border:1px solid black;">45<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">normal <br />3 2</td>
+<td style="border:1px solid black;">38<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
 ### 13. * Точка във фигурата
+Фигура се състои от 6 блокчета с размер h * h, разположени като на фигурата вдясно. Долният ляв ъгъл на сградата е на позиция {0, 0}. Горният десен ъгъл на фигурата е на позиция {2*h, 4*h}. На фигурата координатите са дадени при h = 2. Напишете програма, която въвежда цяло число h и координатите на дадена точка {x, y} (цели числа) и отпечатва дали точката е вътре във фигурата (inside), вън от фигурата (outside) или на някоя от стените на фигурата (border).
+
+<div style="display:inline-block">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">2 3 10 <br /></td>
+<td style="border:1px solid black;">outside<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">2 3 1 <br ></td>
+<td style="border:1px solid black;">inside<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">2 2 2 <br ></td>
+<td style="border:1px solid black;">border<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">2 6 0<br ></td>
+<td style="border:1px solid black;">border<br /></td>
+</tr>
+<tr>
+<td style="border:1px solid black;">2 0 6 <br ></td>
+<td style="border:1px solid black;">outside<br /></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+![PointInFigure](/assets/chapter-4-images/pointInFigure.png)
 
 ## Упражнения: графични и уеб приложения
 
