@@ -80,6 +80,7 @@ JavaScript – може да се пише директно в конзолат�
 Нов конзолен проект – [File] &rarr; [New] &rarr; [Project] &rarr; [Visual C#] &rarr; [Windows] &rarr; [Console Application]
 
 ![ide](/assets/chapter-1-images/chapter-1-ide.png)
+![consoleapp](/assets/chapter-1-images/chapter-one-consoleapp.png)
 
 ### Писане на програмен код
 
