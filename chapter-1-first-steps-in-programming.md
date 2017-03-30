@@ -79,6 +79,7 @@ JavaScript – може да се пише директно в конзолат�
 Стартирайте Visual Studio
 Нов конзолен проект – [File] &rarr; [New] &rarr; [Project] &rarr; [Visual C#] &rarr; [Windows] &rarr; [Console Application]
 
+![Screenshot] (1.png)
 TODO: image
 
 ### Писане на програмен код
