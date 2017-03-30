@@ -71,9 +71,11 @@
 ![Image not found](assets/chapter-2-part-2-images/problem-2/reading-from-the-console.png)
 
 Извършваме необходимите изчисления: 
+
 ![Image not found](assets/chapter-2-part-2-images/problem-2/calculations.png)
 
-С `Console.WriteLine()` отпечатваме изхода на конзолата.
+В условието на задачата не е зададено специално форматиране, следователно трябва просто да изчислим исканата стойност и да я отпечатаме на конзолата. Това правим с `Console.WriteLine()`.
+
 ![Image not found](assets/chapter-2-part-2-images/problem-2/results.png)
 
 ### Тестване в Judge системата
