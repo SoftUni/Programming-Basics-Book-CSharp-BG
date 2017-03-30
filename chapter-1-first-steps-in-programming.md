@@ -102,14 +102,19 @@ Console.WriteLine("Hello C#");
 Ако няма грешки, програмата ще се изпълни
 Резултатът ще се изпише на конзолата (в черния прозорец):
 
-TODO: image
+![startconsoleapp](/assets/chapter-1-images/chapter-1-result.png)
+
 
 ### Тестване на програмата в Judge системата
 
 Тествайте кода си в онлайн judge системата:
 https://judge.softuni.bg/Contests/150/First-Steps-in-Coding
 
-TODO: image
+![judgetest](/assets/chapter-1-images/chapter-1-testinjudge.png)
+
+Изпратете решението за оценяване с бутона [Submit]. Ще получите резултата след няколко секунди в таблицата с изпратени решения в judge системата:
+
+![judgeresults](/assets/chapter-1-images/chapter-1-judgeresult.png)
 
 #### Как да се регистрирам в SoftUni Judge?
 
