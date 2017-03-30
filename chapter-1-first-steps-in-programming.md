@@ -93,7 +93,7 @@ JavaScript – може да се пише директно в конзолат�
 
 Console.WriteLine("Hello C#");
 
-![helloc#](/assets/chapter-1-images/chapter-one-helloc.png)
+![helloc](/assets/chapter-1-images/chapter-one-helloc.png)
 
 ### Стартиране на програмата
 
