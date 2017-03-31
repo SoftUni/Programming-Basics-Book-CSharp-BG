@@ -183,6 +183,40 @@ TODO: Add adress
 --*--<br>
 </div>
 
+<div style="display:inline-block; border: 1px solid blue">Вход</div>
+<div style="display:inline-block; border: 1px solid green">Изход</div>
+
+<div style="display:inline-block; border: 1px solid blue">7 <br> @</div>
+<div style="display:inline-block; border: 1px solid green">
+---@---<br>
+--@@@--<br>
+-@@@@@-<br>
+@@@@@@@<br>
+-@@@@@-<br>
+--@@@--<br>
+---@---<br>
+</div>
+
+<div style="display:inline-block; border: 1px solid blue">Вход</div>
+<div style="display:inline-block; border: 1px solid green">Изход</div>
+
+<div style="display:inline-block; border: 1px solid blue">13 <br> a</div>
+<div style="display:inline-block; border: 1px solid green">
+------a------<br>
+-----aaa-----<br>
+----aaaaa----<br>
+---aaaaaaa---<br>
+--aaaaaaaaa--<br>
+-aaaaaaaaaaa-<br>
+aaaaaaaaaaaaa<br>
+-aaaaaaaaaaa-<br>
+--aaaaaaaaa--<br>
+---aaaaaaa---<br>
+----aaaaa----<br>
+-----aaa-----<br>
+------a------<br>
+</div>
+
 ### Насоки и подсказки
 Както в задачата за Знак "Стоп", може да разделим фигурата ни на две части : 
 * Горна, в която диамантът се разширява
