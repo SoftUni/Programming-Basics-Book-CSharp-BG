@@ -723,7 +723,7 @@ _Трета задача от междинния изпит на 17 юли 2016.
             // Initialization of the required parameters
             decimal transportCharges = .....;
             decimal moneyForTickets = .....;
-            decimal moneyLeft = .....;
+            decimal moneyDifference = .....;
 ```
 
 Нека отново прегледаме условието. Трябва да направим две различни блок изчисления. От първите изчисления трябва да разберем каква част от бюджета ще трябва да заделим за транспорт. За логиката на тези изчисления забелязваме, че има значение единствено броят на хората в групата. Следователно ще направим логическата разбивка спрямо броят на запалянковците.
@@ -775,12 +775,16 @@ _Трета задача от междинния изпит на 17 юли 2016.
 
 ```cs 
             // Calculate amount of money left and result to display.
-            moneyLeft = budget - transportCharges - moneyForTickets;
-            string result = string.Format("Yes! You have {0:F2} leva left.", decimal.Round(moneyLeft, 2));
+            moneyDifference = budget - transportCharges - moneyForTickets;
+            string result = string.Format(
+                "Yes! You have {0:F2} leva left.",
+                decimal.Round(moneyDifference, 2));
 
-            if (moneyLeft < 0)
+            if (moneyDifference < 0)
             {
-                result = string.Format("Not enough money! You need {0:F2} leva.", Math.Abs(decimal.Round(moneyLeft, 2)));
+                result = string.Format(
+                    "Not enough money! You need {0:F2} leva.",
+                    Math.Abs(decimal.Round(moneyDifference, 2)));
             }
 ```
 
