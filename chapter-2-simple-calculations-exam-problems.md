@@ -187,11 +187,16 @@
 
 ![Image not found](assets/chapter-2-part-2-images/problem-4/reading-from-the-console.png)
 
+Извършваме необходимите изчисления: 
 ![Image not found](assets/chapter-2-part-2-images/problem-4/calculations-pt1.png)
 
 ![Image not found](assets/chapter-2-part-2-images/problem-4/calculations-pt2.png)
 
+Накрая пресмятаме стойността на комисионната и я изваждаме от сумата в евро. Нека обърнем внимание на начина, по който можем да изпишем това: `euro -= commission * euro` e съкратен начин за изписване на  `euro = euro - (commission * euro);`. В условието на задачата не е зададено специално форматиране или закръгляне, следователно трябва просто да изчислим изхода и да го отпечатаме на конзолата. 
+
 ![Image not found](assets/chapter-2-part-2-images/problem-4/result.png)
+
+Вече сме със задачата и може да тестваме решението ѝ. 
 
 ### Тестване в Judge системата
 Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/233
