@@ -1001,8 +1001,8 @@ _Трета задача от междинния изпит на 28 август
 След като имаме изчислени какви ще са ни съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни параметри - <strong>studioInfo</strong> и <strong>apartmentInfo</strong>.
 
 ```cs
-                    studioInfo = string.Format("Studio: {0:F2} lv.", decimal.Round(studioRent, 2));
-                    apartmentInfo = string.Format("Apartment: {0:F2} lv.", decimal.Round(apartmentRent, 2));
+            studioInfo = string.Format("Studio: {0:F2} lv.", decimal.Round(studioRent, 2));
+            apartmentInfo = string.Format("Apartment: {0:F2} lv.", decimal.Round(apartmentRent, 2));
 ```
 
 #### 3. Показване на резултата
