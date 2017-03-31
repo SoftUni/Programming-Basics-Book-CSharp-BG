@@ -925,9 +925,6 @@ _Трета задача от междинния изпит на 28 август
             decimal apartmentPrice = 65.00M;
             decimal studioRent = 0.00M;
             decimal apartmentRent = 0.00M;
-
-            string apartmentInfo = string.Empty;
-            string studioInfo = string.Empty;
 ```
 
 Нека отново прегледаме условието. Забеляваме, че основната ни логика зависи от това какъв месец ни е подаден, като същевременно и зависим от броят на нощувките.
@@ -1001,8 +998,8 @@ _Трета задача от междинния изпит на 28 август
 След като имаме изчислени какви ще са ни съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни параметри - <strong>studioInfo</strong> и <strong>apartmentInfo</strong>.
 
 ```cs
-            studioInfo = string.Format("Studio: {0:F2} lv.", decimal.Round(studioRent, 2));
-            apartmentInfo = string.Format("Apartment: {0:F2} lv.", decimal.Round(apartmentRent, 2));
+            string studioInfo = string.Format("Studio: {0:F2} lv.", decimal.Round(studioRent, 2));
+            string apartmentInfo = string.Format("Apartment: {0:F2} lv.", decimal.Round(apartmentRent, 2));
 ```
 
 #### 3. Показване на резултата
