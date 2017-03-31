@@ -313,7 +313,7 @@ _Трета задача от междинния изпит на 26 март 201
             // Initialization of the required parameters
             string destinationResult = string.Empty;
             string holidayInformation = .........;
-            decimal spendedMoney = 0.00M;
+            decimal moneySpent = 0.00M;
 ```
 
 Можем и подобно на примера в предната задача да си инициализираме променливите с някои от изходните резултати с цел да спестим допълнително инициализиране в конкретният случай. 
@@ -330,13 +330,13 @@ _Трета задача от междинния изпит на 26 март 201
                 destinationResult = "Bulgaria";
                 if (season.Equals("summer"))
                 {
-                    spendedMoney = 0.30M * budget;
-                    holidayInformation = string.Format("Camp - {0:F2}", spendedMoney);
+                    moneySpent = 0.30M * budget;
+                    holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
                 }
                 else
                 {
-                    spendedMoney = ...............;
-                    holidayInformation = string.Format("Hotel - {0:F2}", spendedMoney);
+                    moneySpent = ...............;
+                    holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
                 }
             }
             else if (budget <= 1000.00M)
@@ -344,19 +344,19 @@ _Трета задача от междинния изпит на 26 март 201
                 destinationResult = .........;
                 if (season.Equals("......"))
                 {
-                    spendedMoney = .................;
+                    moneySpent = .................;
                     holidayInformation = ..........................;
                 }
                 else
                 {
-                    spendedMoney = ................;
+                    moneySpent = ................;
                     holidayInformation = ...........................;
                 }
             }
             else
             {
                 destinationResult = ........;
-                spendedMoney = ........;
+                moneySpent = ........;
                 holidayInformation = ..........;
             }
 
@@ -371,13 +371,13 @@ _Трета задача от междинния изпит на 26 март 201
                 destinationResult = "Bulgaria";
                 if (season.Equals("summer"))
                 {
-                    spendedMoney = 0.30M * budget;
-                    holidayInformation = string.Format("Camp - {0:F2}", spendedMoney);
+                    moneySpent = 0.30M * budget;
+                    holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
                 }
                 else
                 {
-                    spendedMoney = ...............;
-                    holidayInformation = string.Format("Hotel - {0:F2}", spendedMoney);
+                    moneySpent = ...............;
+                    holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
                 }
 ```
 
@@ -386,13 +386,13 @@ _Трета задача от междинния изпит на 26 март 201
 
 ```cs 
                 destinationResult = "Bulgaria";
-                spendedMoney = 0.70M * budget;
-                holidayInformation = string.Format("Hotel - {0:F2}", spendedMoney);
+                moneySpent = 0.70M * budget;
+                holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
                 
                 if (season.Equals("summer"))
                 {
-                    spendedMoney = 0.30M * budget;
-                    holidayInformation = string.Format("Camp - {0:F2}", spendedMoney);
+                    moneySpent = 0.30M * budget;
+                    holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
                 }
 ```
 
