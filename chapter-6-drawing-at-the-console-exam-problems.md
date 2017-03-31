@@ -171,51 +171,64 @@ TODO: Add adress
 Да се отпечатат на конзолата **n** текстови реда, съдържащи диамантът.
 
 ### Примерен вход и изход
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Вход:
+<pre>
+5
+*
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">5 <br> *</div>
-<div style="display:inline-block; border: 1px solid green">
---*--<br>
--***-<br>
-*****<br>
--***-<br>
---*--<br>
-</div><br>
+#### Изход:
+<pre>
+--*--
+-***-
+*****
+-***-
+--*--
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+---
 
-<div style="display:inline-block; border: 1px solid blue">7 <br> @</div>
-<div style="display:inline-block; border: 1px solid green">
----@---<br>
---@@@--<br>
--@@@@@-<br>
-@@@@@@@<br>
--@@@@@-<br>
---@@@--<br>
----@---<br>
-</div><br>
+#### Вход:
+<pre>
+7
+@
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Изход:
+<pre>
+---@---
+--@@@--
+-@@@@@-
+@@@@@@@
+-@@@@@-
+--@@@--
+---@---
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">13 <br> a</div>
-<div style="display:inline-block; border: 1px solid green">
-------a------<br>
------aaa-----<br>
-----aaaaa----<br>
----aaaaaaa---<br>
---aaaaaaaaa--<br>
--aaaaaaaaaaa-<br>
-aaaaaaaaaaaaa<br>
--aaaaaaaaaaa-<br>
---aaaaaaaaa--<br>
----aaaaaaa---<br>
-----aaaaa----<br>
------aaa-----<br>
-------a------<br>
-</div><br>
+---
+
+#### Вход:
+<pre>
+13
+a
+</pre>
+
+#### Изход:
+<pre>
+------a------
+-----aaa-----
+----aaaaa----
+---aaaaaaa---
+--aaaaaaaaa--
+-aaaaaaaaaaa-
+aaaaaaaaaaaaa
+-aaaaaaaaaaa-
+--aaaaaaaaa--
+---aaaaaaa---
+----aaaaa----
+-----aaa-----
+------a------
+</pre>
 
 ### Насоки и подсказки
 Както в задачата за Знак "Стоп", може да разделим фигурата ни на две части : 
