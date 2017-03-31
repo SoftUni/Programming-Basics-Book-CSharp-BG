@@ -181,7 +181,7 @@ TODO: Add adress
 *****<br>
 -***-<br>
 --*--<br>
-</div>
+</div><br>
 
 <div style="display:inline-block; border: 1px solid blue">Вход</div>
 <div style="display:inline-block; border: 1px solid green">Изход</div>
@@ -195,7 +195,7 @@ TODO: Add adress
 -@@@@@-<br>
 --@@@--<br>
 ---@---<br>
-</div>
+</div><br>
 
 <div style="display:inline-block; border: 1px solid blue">Вход</div>
 <div style="display:inline-block; border: 1px solid green">Изход</div>
@@ -215,7 +215,7 @@ aaaaaaaaaaaaa<br>
 ----aaaaa----<br>
 -----aaa-----<br>
 ------a------<br>
-</div>
+</div><br>
 
 ### Насоки и подсказки
 Както в задачата за Знак "Стоп", може да разделим фигурата ни на две части : 
