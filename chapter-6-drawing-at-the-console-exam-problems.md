@@ -13,29 +13,67 @@
 ### Примерен вход и изход
 Следват няколко тестови примера, които ще са главният ни ориентир за писането на кода:
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Вход:
+<pre>
+3
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">3</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/fort/fort-output-3.png" width="100px"></div>
+#### Изход:
+<pre>
+/^\/^\
+|    |
+\_/\_/
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+---
 
-<div style="display:inline-block; border: 1px solid blue">4</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/fort/fort-output-4.png" width="100px"></div>
+#### Вход:
+<pre>
+4
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Изход:
+<pre>
+/^^\/^^\
+|      |
+|      |
+\__/\__/
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">5</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/fort/fort-output-5.png" width="100px"></div>
+---
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Вход:
+<pre>
+5
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">8</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/fort/fort-output-8.png" width="100px"></div>
+#### Изход:
+<pre>
+/^^\__/^^\
+|        |
+|        |
+|   __   |
+\__/  \__/
+</pre>
+
+---
+
+#### Вход:
+<pre>
+8
+</pre>
+
+#### Изход:
+<pre>
+/^^^^\____/^^^^\
+|              |
+|              |
+|              |
+|              |
+|              |
+|     ____     |
+\____/    \____/
+</pre>
 
 ### Насоки и подсказки
 За да "обединим" примерите в един алгоритъм, ще трябва да изследваме какво се повтаря във всеки пример. Разлгеждайки тестовите примери по редове, може да  разграничим различни групирания от редове.
@@ -122,23 +160,57 @@ TODO: Add adress
 Да се отпечатат на конзолата **2 * (n - 2) + 1**  текстови реда, изобразяващи пеперудата.
 ### Примерен вход и изход
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Вход:
+<pre>
+3
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">3</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/butterfly/butterfly-input-3.png" width="100px"></div>
+#### Изход:
+<pre>
+*\ /*
+  @
+*/ \*
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+---
 
-<div style="display:inline-block; border: 1px solid blue">5</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/butterfly/butterfly-input-5.png" width="100px"></div>
+#### Вход:
+<pre>
+5
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Изход:
+<pre>
+***\ /***
+---\ /---
+***\ /***
+    @
+***/ \***
+---/ \---
+***/ \***
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">7</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/butterfly/butterfly-input-7.png" width="100px"></div>
+---
+
+#### Вход:
+<pre>
+7
+</pre>
+
+#### Изход:
+<pre>
+*****\ /*****
+-----\ /-----
+*****\ /*****
+-----\ /-----
+*****\ /*****
+      @
+*****/ \*****
+-----/ \-----
+*****/ \*****
+-----/ \-----
+*****/ \*****
+</pre>
 
 ### Насоки и подсказки
 Примерният вход и изход ни показват, че има 2 вида редове:
@@ -159,96 +231,6 @@ TODO: Add adress
 
 ### Тестване в Judge системата
 
-## Диамант
-Да се напише програма, която прочита от конзолата цяло число **n** и **символ** и чертае **диамант** като този на примерите по долу.
-
-### Входни данни
-Входът се прочита от конзолата:
-* На първият ред се прочита нечетното число **n** - размерът на диаманта.
-* На вторият ред се прочита символът, от който фигурата трябва да е изградена.
-
-### Изходни данни
-Да се отпечатат на конзолата **n** текстови реда, съдържащи диамантът.
-
-### Примерен вход и изход
-#### Вход:
-<pre>
-5
-*
-</pre>
-
-#### Изход:
-<pre>
---*--
--***-
-*****
--***-
---*--
-</pre>
-
----
-
-#### Вход:
-<pre>
-7
-@
-</pre>
-
-#### Изход:
-<pre>
----@---
---@@@--
--@@@@@-
-@@@@@@@
--@@@@@-
---@@@--
----@---
-</pre>
-
----
-
-#### Вход:
-<pre>
-13
-a
-</pre>
-
-#### Изход:
-<pre>
-------a------
------aaa-----
-----aaaaa----
----aaaaaaa---
---aaaaaaaaa--
--aaaaaaaaaaa-
-aaaaaaaaaaaaa
--aaaaaaaaaaa-
---aaaaaaaaa--
----aaaaaaa---
-----aaaaa----
------aaa-----
-------a------
-</pre>
-
-### Насоки и подсказки
-Както в задачата за Знак "Стоп", може да разделим фигурата ни на две части : 
-* Горна, в която диамантът се разширява
-* Долна, в която диамантът се свива
-
-Също така, нека да считаме средният ред, на който няма точки, към горната част.
-
-#### Рисуване на горната част на фигурата
-Нека броят на точки на един ред е i. На първият ред от горната част има `n-1` точки, а на последният, който е среден за фигурата, има 0 точки. На всеки ред точките са с 2 по-малко от предходният.
-
-Тогава, на един ред трябва да начертаем `n-1` символа от диаманта и по `i/2` точки преди и след диаманта.
-
-#### Рисуване на долната част на фигурата
-За долната част знаем, че на първият ред от нея има 2 точки, а на последният има `n-1` точки. Също така знаем, че на всеки ред има с 2 точки повече от предходният.
-
-Ако приемем, че i е броят на точките на един ред, ще трябва на всеки ред да рисуваме по `n-1` символа от диаманта и по `i/2` точки преди и след диаманта.
-
-### Тестване в Judge системата
-
 ## Знак "Стоп"
 
 Да се напише програма, която прочита от конзолата **цяло число N** и чертае **предупредителен знак STOP** с размери като в примерите по-долу.
@@ -263,23 +245,74 @@ aaaaaaaaaaaaa
 
 ### Примерен вход и изход
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Вход:
+<pre>
+3
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">3</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/stop/stop-input-3.png" width="100px"></div>
+#### Изход:
+<pre>
+...._______....
+...//_____\\...
+..//_______\\..
+.//_________\\.
+//___STOP!___\\
+\\___________//
+.\\_________//.
+..\\_______//..
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+---
 
-<div style="display:inline-block; border: 1px solid blue">5</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/stop/stop-input-5.png" width="100px"></div>
+#### Вход:
+<pre>
+6
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">Вход</div>
-<div style="display:inline-block; border: 1px solid green">Изход</div>
+#### Изход:
+<pre>
+......._____________.......
+......//___________\\......
+.....//_____________\\.....
+....//_______________\\....
+...//_________________\\...
+..//___________________\\..
+.//_____________________\\.
+//_________STOP!_________\\
+\\_______________________//
+.\\_____________________//.
+..\\___________________//..
+...\\_________________//...
+....\\_______________//....
+.....\\_____________//.....
+</pre>
 
-<div style="display:inline-block; border: 1px solid blue">7</div>
-<div style="display:inline-block; border: 1px solid green"><img src="assets/chapter-6-images/stop/stop-input-8.png" width="100px"></div>
+---
+
+#### Вход:
+<pre>
+7
+</pre>
+
+#### Изход:
+<pre>
+........_______________........
+.......//_____________\\.......
+......//_______________\\......
+.....//_________________\\.....
+....//___________________\\....
+...//_____________________\\...
+..//_______________________\\..
+.//_________________________\\.
+//___________STOP!___________\\
+\\___________________________//
+.\\_________________________//.
+..\\_______________________//..
+...\\_____________________//...
+....\\___________________//....
+.....\\_________________//.....
+......\\_______________//......
+</pre>
 
 ### Насоки и подсказки
 В зависимост от идентичноста на редовете може ги разделим на:
