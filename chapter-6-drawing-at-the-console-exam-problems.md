@@ -171,6 +171,17 @@ TODO: Add adress
 Да се отпечатат на конзолата **n** текстови реда, съдържащи диамантът.
 
 ### Примерен вход и изход
+<div style="display:inline-block; border: 1px solid blue">Вход</div>
+<div style="display:inline-block; border: 1px solid green">Изход</div>
+
+<div style="display:inline-block; border: 1px solid blue">5 <br> *</div>
+<div style="display:inline-block; border: 1px solid green">
+--*--<br>
+-***-<br>
+*****<br>
+-***-<br>
+--*--<br>
+</div>
 
 ### Насоки и подсказки
 Както в задачата за Знак "Стоп", може да разделим фигурата ни на две части : 
