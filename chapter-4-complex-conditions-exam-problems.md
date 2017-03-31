@@ -905,7 +905,114 @@ _Трета задача от междинния изпит на 28 август
 
 ### Насоки и подсказки
 
-TODO
+#### 1. Обработка на входнните данни.
+
+Съгласно условието на задачата очакваме да получим 2 реда входни данни - на първият ред месеца през който се планува престой, а на вторият ред броят на нощувките.
+
+Нека си обработим и запазим входните данни в подходящи за това параметри:
+
+```cs 
+            string month = Console.ReadLine();
+            int nights = int.Parse(Console.ReadLine());
+```
+
+#### 2. Изчисления.
+
+След това да си създадем и инициализираме нужните ни за изчисленията променливи:
+
+```cs 
+            decimal studioPrice = 50.00M;
+            decimal apartmentPrice = 65.00M;
+            decimal studioRent = 0.00M;
+            decimal apartmentRent = 0.00M;
+
+            string apartmentInfo = string.Empty;
+            string studioInfo = string.Empty;
+```
+
+Нека отново прегледаме условието. Забеляваме, че основната ни логика зависи от това какъв месец ни е подаден, като същевременно и зависим от броят на нощувките.
+
+Като цяло има различни подходи и начини да се направят въпросните проверки, но нека се спрем на основна условна конструкция <strong>switch-case</strong>, като в различните <strong>case</strong> блокове ще използваме съответно условни конструкции <strong>if</strong> и <strong>if-else</strong>.
+
+Нека започнем с първата група месеци: Май и Октомври. За тези два месеца цената на престой ни е еднаква и за двата типа настаняване - в студио и в апартамент. Съответно ни остава само да направим вътрешна проверка спрямо броят нощувки, за да преизчислим ако се налага с колко да се промени съответната цена.
+
+```cs
+            switch (month)
+            {
+                case "May":
+                case "October":
+                    studioPrice = 50.00M;
+                    apartmentPrice = 65.00M;
+
+                    studioRent = studioPrice * nights;
+                    apartmentRent = apartmentPrice * nights;
+
+                    if (nights > 14)
+                    {
+                        studioRent *= 0.70M;
+                        apartmentRent *= 0.90M;
+                    }
+                    else if (nights > 7)
+                    {
+                        studioRent *= 0.95M;
+                    }
+
+                    break;
+                ...............
+```
+
+Съответно за последващите месеци и групи от месеци логиката и изчисленията ни ще са донякъде идентични. 
+
+```cs
+                case "June":
+                case "September":
+                    studioPrice = .......;
+                    apartmentPrice = .......;
+
+                    studioRent = ...........;
+                    apartmentRent = ...........;
+
+                    if (nights > 14)
+                    {
+                        studioRent ...........;
+                        apartmentRent ...........;
+                    }
+
+                    break;
+                case "July":
+                case "August":
+                    studioPrice = .......;
+                    apartmentPrice = .......;
+
+                    studioRent = ...........;
+                    apartmentRent = ...........;
+
+                    if (.........)
+                    {
+                        ..............
+                    }
+                    
+                    break;
+                default:
+                    break;
+            }
+```
+
+След като имаме изчислени какви ще са ни съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни параметри - <strong>studioInfo</strong> и <strong>apartmentInfo</strong>.
+
+```cs
+                    studioInfo = string.Format("Studio: {0:F2} lv.", decimal.Round(studioRent, 2));
+                    apartmentInfo = string.Format("Apartment: {0:F2} lv.", decimal.Round(apartmentRent, 2));
+```
+
+#### 3. Показване на резултата
+
+Накрая ни остава да покажем изчислените резултати на конзолата:
+
+```cs
+            Console.WriteLine(apartmentInfo);
+            Console.WriteLine(studioInfo);
+```
 
 ### Тестване в Judge системата
 
