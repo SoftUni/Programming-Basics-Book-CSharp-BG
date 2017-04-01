@@ -429,14 +429,14 @@ private void buttonCalculate_Click(object sender, EventArgs e)
 
 <h2>Sumator</h2>
 
-<form method="post" action="/home/calculate">
+ <form method="post" action="/home/calculate">
     <input type="number" name="num1" value="@ViewBag.num1" />
     <span>+</span>
     <input type="number" name="num2" value="@ViewBag.num2" />
     <span>=</span>
     <input type="number" readonly="readonly" value="@ViewBag.sum" />
     <input type="submit" value="Calculate" />
-</form>
+ </form>
 </pre>
 
 Този код създава една уеб форма с три текстови полета и един бутон в нея. В полетата се зареждат стойности, които се изчисляват предварително в обекта ViewBag. Указано е, че при натискане на бутона [Calculate] ще се извика действието /home/calculate (действие calculate от home контролера).
