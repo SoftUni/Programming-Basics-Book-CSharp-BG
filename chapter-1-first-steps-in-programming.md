@@ -359,11 +359,44 @@ var num1 = decimal.Parse(this.textBox1.Text);
 var num2 = decimal.Parse(this.textBox2.Text);
 var sum = num1 + num2;
 textBoxSum.Text = sum.ToString();
-<per/>
+</per>
 
 Този код взима първото число от полето textBox1 в променлива num1, след това второто число от полето textBox2 в променлива num2, след това ги сумира num1 + num2 в променлива sum и накрая извежда текстовата стойност на sum в полето textBoxSum.
 
 ![codeinside](/assets/chapter-1-images/chapter-1-79.png)
+
+10.	Стартирайте отново програмата с [Ctrl+F5] и я пробвайте дали работи. Пробвайте да сметнете 4 + 5. След това пробвайте да сметнете -12.5 + 1.3:
+
+![resultone](/assets/chapter-1-images/chapter-1-710-1.png) ![resulttwo](/assets/chapter-1-images/chapter-1-710-2.png)
+
+11.	Пробвайте с невалидни числа, примерно “aaa” и “bbb”. Изглежда има проблем: 
+
+![errorreason](/assets/chapter-1-images/chapter-1-711-1.png) ![errorresult](/assets/chapter-1-images/chapter-1-711-2.png)
+
+12.	Проблемът идва от прехвърлянето на текстово поле в число. Ако стойността в полето не е число, програмата се чупи и дава грешка. Можете да поправите кода, за да решите проблема така:
+
+<pre>
+private void buttonCalculate_Click(object sender, EventArgs e)
+{
+    try
+    {
+        var num1 = decimal.Parse(this.textBox1.Text);
+        var num2 = decimal.Parse(this.textBox2.Text);
+        var sum = num1 + num2;
+        textBoxSum.Text = sum.ToString();
+    }
+    catch (Exception)
+    {
+        textBoxSum.Text = "error";
+    }
+}
+</pre>
+
+Горният код прихваща грешките при работа с числа (хваща изключенията) и в случай на грешка извежда стойност “error” в полето с резултата.
+
+13.	Стартирайте отново програмата с [Ctrl+F5] и я пробвайте дали работи. Този път при грешно число резултатът е “error” и програмата не се чупи.
+
+![sumatorresult](/assets/chapter-1-images/chapter-1-712-1.png) ![sumatorresult](/assets/chapter-1-images/chapter-1-712-2.png)
 
 
 ### 8.	Уеб приложение „Суматор за числа“
