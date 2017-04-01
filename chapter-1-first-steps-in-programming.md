@@ -363,6 +363,7 @@ textBoxSum.Text = sum.ToString();
 
 Този код взима първото число от полето textBox1 в променлива num1, след това второто число от полето textBox2 в променлива num2, след това ги сумира num1 + num2 в променлива sum и накрая извежда текстовата стойност на sum в полето textBoxSum.
 
+![codeinside](/assets/chapter-1-images/chapter-1-79.png)
 
 
 ### 8.	Уеб приложение „Суматор за числа“
