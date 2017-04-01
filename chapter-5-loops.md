@@ -367,43 +367,43 @@ TODO examples table
 
 Ще се отвори прозорец за търсене и инсталиране на **NuGet** пакети. Потърсете пакети по ключова дума **“nakov”**. Ще излязат няколко пакета. Изберете пакет **“Nakov.TurtleGraphics”**. Натиснете **[Install]** за да го инсталирате към вашия C# проект:
 
-//TODO add package image
+![](/assets/chapter-5-loops-images/turtle-graphics/package.png)
 
 Към вашият C# проект вече в включена външната библиотека **“Nakov.TurtleGraphics”**. Тя дефинира един клас **Turtle**, който представлява **костенурка за рисуване**. За да го използвате, трябва да добавите в C# кода за вашата форма (**Form1.cs**) следния код най-отгоре в началото на файла:
 
-/TODO add using image 
+![](/assets/chapter-5-loops-images/turtle-graphics/using.png)
 
 4.	Сега сложете **три бутона** във формата и нагласете **имената** и **свойствата** им както е посочено по-долу:
 
-//TODO add buttons image
+![](/assets/chapter-5-loops-images/turtle-graphics/buttons.png)
 
 5.	Кликнете два пъти върху бутона **[Draw]**, за да напишете кода, който да се изпълни при натискането му. Напишете следния код:
 
-//TODO add draw button function image
+![](/assets/chapter-5-loops-images/turtle-graphics/draw-button.png)
 
 Този код мести и върти костенурката, която в началото е в центъра на екрана (в средата на формата), и чертае равностранен триъгълник. Може да го редактирате и да си поиграете с него.
 
 6.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте го дали работи (натиснете **[Draw]** бутона няколко пъти):
 
-//TODO add test draw button image
+![](/assets/chapter-5-loops-images/turtle-graphics/test-draw-button.png)
 
 7.	Сега можете да напишете **по-сложна програма за костенурката**: 
 
-//TODO add more complex program image
+![](/assets/chapter-5-loops-images/turtle-graphics/more-complex-program.png)
 
 8.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работи новата програма за костенурката:
 
-//TODO test image
+![](/assets/chapter-5-loops-images/turtle-graphics/test-program.png)
 
 Вече костенурката чертае по-сложни фигури чрез приятно анимирано движение.
 
 9.	Напишете кода и за останалите два бутона. Целта на бутона **[Reset]** е да изтрие графиката и да започне да чертае на чисто:
 
-//TODO button reset code
+![](/assets/chapter-5-loops-images/turtle-graphics/reset-button.png)
 
 10.	Целта на бутона **[Show / Hide Turtle]** е да показва или скрива костенурката: 
 
-//TODO show hide button
+![](/assets/chapter-5-loops-images/turtle-graphics/show-hide-button.png)
 
 11.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работят правилно всички бутони.
 
