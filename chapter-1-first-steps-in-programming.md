@@ -161,9 +161,24 @@ static void Main(string[] args)
 
 Забележка: не е разрешено да се пресметне стойността предварително (например с Windows Calculator).
 
+1.	Направете нов C# конзолен проект с име “Expression”.
+2.	Намерете метода “static void Main(string[] args)” и влезте в неговото тяло между { и }.
+3.	Сега трябва да напишете кода, който да изчисли горния числен израз и да отпечата на конзолата стойността му. Подайте горния числен    израз в скобите на командата Console.WriteLine():
+
+![expression01](/assets/chapter-1-images/chapter-1-expression01.png)
+
+4.	Стартирайте програмата с [Ctrl+F5] и проверете дали вашият резултат прилича на нашия:
+
+![expression02](/assets/chapter-1-images/chapter-1-expression02.png)
+
+5.	Тествайте вашата програма в judge системата: https://judge.softuni.bg/Contests/Practice/Index/150#1.
+
+![expression03](/assets/chapter-1-images/chapter-1-expression03.png)
 
 
 ### 3.	Числата от 1 до 20
+
+
 
 ### 4.	Триъгълник от 55 звездички
 
