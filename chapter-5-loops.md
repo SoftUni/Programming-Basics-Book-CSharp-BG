@@ -411,7 +411,7 @@ TODO examples table
 
 Добавете бутон **[Hexagon]**, който чертае правилен шестоъгълник:
 
-![](/assets/chapter-5-loops-images/hexagon.png)
+![](/assets/chapter-5-loops-images/turtle-graphics/hexagon.png)
 
 **Подсказка:** В цикъл повторете 6 пъти следното: ротация на 60 градуса; движение напред 100.
 
@@ -419,7 +419,7 @@ TODO examples table
 
 Добавете бутон **[Star]**, който чертае звезда с 5 върха (**петолъчка**) като на фигурата по-долу:
 
-![](/assets/chapter-5-loops-images/star.png)
+![](/assets/chapter-5-loops-images/turtle-graphics/star.png)
 
 **Подсказка:**
 
@@ -431,7 +431,7 @@ TODO examples table
 
 Добавете бутон **[Spiral]**, който чертае спирала с 20 върха като на фигурата по-долу:
 
-![](/assets/chapter-5-loops-images/spiral.png)
+![](/assets/chapter-5-loops-images/turtle-graphics/spiral.png)
 
 **Подсказка:** Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте постепенно дължината на движението напред и завъртайте на 60 градуса.
 
@@ -439,12 +439,12 @@ TODO examples table
 
 Добавете бутон **[Sun]**, който чертае слънце с 36 върха като на фигурата по-долу:
 
-![](/assets/chapter-5-loops-images/sun.png)
+![](/assets/chapter-5-loops-images/turtle-graphics/sun.png)
 
 ### 9. * Чертане на спирален триъгълник с костенурката
 
 Добавете бутон **[Triangle]**, който три триъгълника с по 22 върха като на фигурата по-долу:
 
-![](/assets/chapter-5-loops-images/spiral-triangle.png)
+![](/assets/chapter-5-loops-images/turtle-graphics/spiral-triangle.png)
 
 **Подсказка:** Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте с 10 дължината на движението напред и завъртайте на 120 градуса. Повторете 3 пъти за трите триъгълника.
