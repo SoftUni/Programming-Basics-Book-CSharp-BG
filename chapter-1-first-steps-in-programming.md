@@ -234,7 +234,7 @@ static void Main(string[] args)
     var a = decimal.Parse(Console.ReadLine());
     var b = decimal.Parse(Console.ReadLine());
             
-    // TODO: calculate the area and print it
+    // Пресметнете лицето и го принтирайте на конзолата
 }
 </pre>
 
@@ -248,20 +248,11 @@ static void Main(string[] args)
 
 | вход | изход |
 | :--: | :---: |
-| 3 | *** 
-      * *
-      ***
+| 3 | ***<br/>* *<br/>*** |
 
-| 4 | ****
-      *  *
-      *  *
-      ****
+| 4 | ****<br/>*  *<br/>*  *<br/>**** |
       
-| 5 | *****
-      *   *
-      *   *
-      *   *
-      *****
+| 5 | *****<br/>*   *<br/>*   *<br/>*   *<br/>***** |
 
 
 
