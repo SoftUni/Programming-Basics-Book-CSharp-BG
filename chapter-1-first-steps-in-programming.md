@@ -401,4 +401,68 @@ private void buttonCalculate_Click(object sender, EventArgs e)
 
 ### 8.	Уеб приложение „Суматор за числа“
 
-TODO: да се ползва за основа файла "1. First-Steps-in-Coding-Exercises.docx".
+Напишете уеб приложение, което изчислява сумата на две числа. При въвеждане на две числа в първите две текстови полета и натискане на бутона [Calculate] се изчислява тяхната сума и резултатът се показва в третото текстово поле. Уеб приложението би могло да изглежда по следния начин:
+
+![websum](/assets/chapter-1-images/chapter-1-81.png)
+
+За разлика от конзолните приложения, които четат и пишат данните си във вид на текст на конзолата, уеб приложения имат уеб базиран потребителски интерфейс. Уеб приложенията се зареждат от някакъв Интернет адрес (URL) чрез стандартен уеб браузър. Потребителите пишат входните данни в страница, визуализирана от уеб приложението, данните се обработват на уеб сървъра и резултатите се показват отново в страницата в уеб браузъра.
+За нашето уеб приложение ще използваме технологията ASP.NET MVC, която позволява създаване на уеб приложения с езика за програмиране C# в средата за разработка Visual Studio.
+
+1.	Във Visual Studio създайте нов C# проект от тип „ASP.NET Web Application“:
+
+![webapp](/assets/chapter-1-images/chapter-1-82.png)
+
+2.	Изберете тип приложение “MVC”:
+
+![mvc](/assets/chapter-1-images/chapter-1-83.png)
+
+3.	Намерете файла Views\Home\Index.cshtml. В него стои изгледът (view) за главната страница на уеб приложението:
+
+![code](/assets/chapter-1-images/chapter-1-84.png)
+
+14.	Изтрийте стария код от файла Index.chtml и напишете вместо него следния код: 
+
+<pre>
+@{
+    ViewBag.Title = "Sumator";
+}
+
+<h2>Sumator</h2>
+
+<form method="post" action="/home/calculate">
+    <input type="number" name="num1" value="@ViewBag.num1" />
+    <span>+</span>
+    <input type="number" name="num2" value="@ViewBag.num2" />
+    <span>=</span>
+    <input type="number" readonly="readonly" value="@ViewBag.sum" />
+    <input type="submit" value="Calculate" />
+</form>
+</pre>
+
+Този код създава една уеб форма с три текстови полета и един бутон в нея. В полетата се зареждат стойности, които се изчисляват предварително в обекта ViewBag. Указано е, че при натискане на бутона [Calculate] ще се извика действието /home/calculate (действие calculate от home контролера).
+
+4.	Ето как трябва да изглежда файлът Index.cshtml след промяната:
+
+![morecode](/assets/chapter-1-images/chapter-1-85.png)
+
+15.	Остава да се напише действието (action), което сумира числата при натискане на бутона [Calculate]. Отворете файла Controllers\HomeController.cs и добавете следния код в тялото на HomeController класа:
+
+<pre>
+public ActionResult Calculate(int num1, int num2)
+{
+    this.ViewBag.num1 = num1;
+    this.ViewBag.num2 = num2;
+    this.ViewBag.sum = num1 + num2;
+    return View("Index");
+}
+</pre>
+
+Този код осъществява действието “calculate”. То приема два параметъра num1 и num2 и ги записва в обекта ViewBag, след което изчислява и записва тяхната сума. Записаните във ViewBag стойности след това се използват от изгледа, за да се покажат в трите текстови полета във формата за сумиране на числа в уеб страницата от приложението.
+
+5.	Ето как трябва да изглежда файлът HomeController.cs след промяната:
+
+![codemore](/assets/chapter-1-images/chapter-1-86.png)
+
+6.	Приложението е готово. Можете да го стартирате с [Ctrl+F5] и да го тествате дали работи:
+
+![finalapp](/assets/chapter-1-images/chapter-1-87.png)
