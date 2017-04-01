@@ -82,6 +82,7 @@ else
 <tbody>
 <tr>
 <td style="border:1px solid black;">coffe<br />Varna  2</td>
+<td style="border:1px solid black;">2<br />Varna  2</td>
 <td style="border:1px solid black;">0.9<br /></td>
 </tr>
 </tbody>
