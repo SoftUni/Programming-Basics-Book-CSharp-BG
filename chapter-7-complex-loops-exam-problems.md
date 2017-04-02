@@ -200,5 +200,140 @@ for (var d1 = 1; d1 <= n; d1++)
 Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
 //TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE
 
-## TODO: да се добавят още 2-3 изпитни задачи с по-сложни цикли
+## Комбинации от букви
+Да се напише програма, която да **принтира** на конзолата **всички комбинации от 3 букви в зададен интервал**, като се пропускат тези, които съдържат зададена от конзолата буква.
+ 
+### Входни данни
+Входът се чете от **конзолата** и съдържа **точно 3 реда**.
+- Ред 1. Малка буква от английската азбука за начало на интервала - от **a** до **z**.
+- Ред 2. Малка буква от английската азбука за край на интервала - от **първата буква** до **z**.
+- Ред 3. Малка буква от английската азбука - от **a** до **z** - като комбинациите, съдържащи тази буква се пропускат..
 
+### Изходни данни
+На конзолата трябва да се отпечатат всички трибуквени комбинации, които отговарят на условието, разделени с интервал. Накрая трябва да се принтира и броят на комбинациите.
+
+### Примерен вход и изход
+
+<div style="display:inline-block;margin-right:2%;width:31.5%;">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Коментари</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">a<br />b<br />c</td>
+<td style="border:1px solid black;">aaa aac aca acc caa cac cca ccc 8</td>
+<td>Всички възможни комбинации с буквите a, b, и c са: <br /> 
+aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc <br />
+Комбинациите съдържащи b не са валидни. <br />
+Остават 8 валидни комбинации
+</td>
+</tr>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">f<br />k<br />h</td>
+<td colspan="2" style="background:none;background-color:#ffffff;border:1px solid black;">fff ffg ffi ffj ffk fgf fgg fgi fgj fgk fif fig fii fij fik fjf fjg fji fjj fjk fkf fkg fki fkj fkk gff gfg gfi gfj gfk ggf ggg ggi ggj ggk gif gig gii gij gik gjf gjg gji gjj gjk gkf gkg gki gkj gkk iff ifg ifi ifj ifk igf igg igi igj igk iif iig iii iij iik ijf ijg iji ijj ijk ikf ikg iki ikj ikk jff jfg jfi jfj jfk jgf jgg jgi jgj jgk jif jig jii jij jik jjf jjg jji jjj jjk jkf jkg jki jkj jkk kff kfg kfi kfj kfk kgf kgg kgi kgj kgk kif kig kii kij kik kjf kjg kji kjj kjk kkf kkg kki kkj kkk 125</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+### Насоки и подсказки
+Решете задачата самостоятелно използвайки наученото от предишните. Не забравяйте да дефинирате променлива от *целочислен тип*, която да увеличавате с едно във тялото на `if` конструкцията.
+А знаете ли, че:
+- можете да дефинирате *for-цикъл* с променлива от тип `char`?
+    ```c#
+    for (char ch = 'a'; ch < 'z'; ch++)
+    ``` 
+- можете да прочетете променлива от тип char от конзолата със следната конструкция:
+    ```c#
+     char ch = (char)Console.Read();
+     ``` 
+    и да обърнете главен символ към малък използвайки вградена функция в C#?
+    ```c#
+    Char.ToLower(ch);
+    ``` 
+    съответно, при прочит на символи от конзолата, директно да преобразувате главни към малки букви, обединявайки горните два реда:
+    ```c#
+    char ch = Char.ToLower((char)Console.Read());
+    ``` 
+
+### Тестване в Judge системата
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
+//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. ДОТОГАВА - https://judge.softuni.bg/Contests/Practice/Index/368#5
+
+## Цифри
+Да се напише програма, която прочита от конзолата 1 цяло число в интервала **[100...999]**, и след това го принтира определен брой пъти - модифицирайки го преди всяко принтиране по следния начин:
+- Ако числото се дели на **5** без остатък, **извадете** от него **първата му цифра**.
+- Ако числото се дели на **3** без остатък, **извадете** от него **втората му цифра**.
+- Ако нито едно от горните условия не е вярно, **прибавете** към него **третата му цифра**.
+
+Принтирайте на конзолата **N брой реда**, като всеки ред има **M на брой числа**, които са резултат от горните действия. Нека:
+- N = сбора на първата и втората цифра на числото.
+- M = сбора на първата и третата цифра на числото.
+ 
+### Входни данни
+Входът се чете от **конзолата** и е цяло число в интервала **[100...999]**.
+
+### Изходни данни
+На конзолата трябва да се отпечатат **всички цели числа**, които са резултат от дадените по-горе изчисления в съответния брой редове и колони, както в примерите.
+
+### Примерен вход и изход
+
+<div style="display:inline-block;margin-right:2%;width:31.5%;">
+<table>
+<thead>
+<tr style="background-color:#d9d9d9;">
+<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
+<th style="border:1px solid black;background-color:#d9d9d9;">Коментари</th>
+</tr>
+</thead>
+<tfoot></tfoot>
+<tbody>
+<tr>
+<td style="border:1px solid black;">132</td>
+<td style="border:1px solid black;">129 126 123 <br/>
+120 119 121 <br/>
+123 120 119 <br/>
+121 123 120 <br/>
+</td>
+<td>1 +3) = 4 и (1 + 2) = 3  -> 4 реда по 3 числа на всеки ред <br/>
+Входното число 132 <br/>
+132 -> деление на 3 -> 132 - 3 = <br/>
+= 129 -> деление на 3 -> 129 - 3 = <br/>
+= 126 -> деление на 3 -> 126 - 3 = <br/>
+= 123 -> деление на 3 -> 123 - 3 = <br/>
+= 120 -> деление на 5 -> 120 - 1 = <br/>
+..... 121 -> нито на 5, нито на 3 -> 121 + 2 = 123
+</td>
+</tr>
+<tr style="background:none;background-color:#ffffff;">
+<td style="background:none;background-color:#ffffff;border:1px solid black;">376</td>
+<td colspan="2" style="background:none;background-color:#ffffff;border:1px solid black;">382 388 394 400 397 403 409 415 412 <br/>
+418 424 430 427 433 439 445 442 448 <br/>
+454 460 457 463 469 475 472 478 484 <br/>
+490 487 493 499 505 502 508 514 520 <br/>
+517 523 529 535 532 538 544 550 547 <br/>
+553 559 565 562 568 574 580 577 583 <br/>
+589 595 592 598 604 610 607 613 619 <br/>
+625 622 628 634 640 637 643 649 655 <br/>
+652 658 664 670 667 673 679 685 682 <br/>
+688 694 700 697 703 709 715 712 718</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+### Насоки и подсказки
+Решете задачата самостоятелно използвайки наученото от предишните. Не забравяйте, че ще е нужно да дефинирате отделна променлива за всяка цифра на входното число.
+
+### Тестване в Judge системата
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
+//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. ДОТОГАВА - https://judge.softuni.bg/Contests/Practice/Index/274#5
