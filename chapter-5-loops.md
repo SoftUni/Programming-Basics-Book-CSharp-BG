@@ -278,7 +278,7 @@ for (var i = 0; i < n; i++)
 
 1. Създайте празно решение **(Blank Solution)** във Visual Studio за да организирате кода от задачите за упражнение. Целта на този **blank solution** e да съдържа **по един проект за всяка задача** от упражненията.
 
-![](/assets/chapter-5-loops-images/blank-solution.png)
+  ![](/assets/chapter-5-loops-images/blank-solution.png)
 
 2.	Задайте **да се стартира по подразбиране текущия проект** (не първият в решението). Кликнете с десен бутон на мишката върху **Solution 'Loops' -> [Set StartUp Projects…] -> [Current selection]**.
 
@@ -360,55 +360,55 @@ for (var i = 0; i < n; i++)
 
 2.	Създайте нов **C# Windows Forms проект**:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/create-new-project.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/create-new-project.png)
 
 3.	Инсталирайте **NuGet** пакета **"Nakov.TurtleGraphics"** към вашият Windows Forms проект.
 
-От Visual Studio може да се добавят **външни библиотеки** (пакети) към вашите C# проекти. Те добавят допълнителна функционалност към вашите приложения. Официалното хранилище (repository) за C# библиотеки се поддържа от Microsoft и се нарича **NuGet** [https://www.nuget.org/](www.nuget.org).
+  От Visual Studio може да се добавят **външни библиотеки** (пакети) към вашите C# проекти. Те добавят допълнителна функционалност към вашите приложения. Официалното хранилище (repository) за C# библиотеки се поддържа от Microsoft и се нарича **NuGet** [https://www.nuget.org/](www.nuget.org).
 
-Кликнете върху проекта в **Solution Explorer** и изберете **[Manage NuGet Packages…]**:
+  Кликнете върху проекта в **Solution Explorer** и изберете **[Manage NuGet Packages…]**:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/manage-nuget-packages.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/manage-nuget-packages.png)
 
-Ще се отвори прозорец за търсене и инсталиране на **NuGet** пакети. Потърсете пакети по ключова дума **“nakov”**. Ще излязат няколко пакета. Изберете пакет **“Nakov.TurtleGraphics”**. Натиснете **[Install]** за да го инсталирате към вашия C# проект:
+  Ще се отвори прозорец за търсене и инсталиране на **NuGet** пакети. Потърсете пакети по ключова дума **“nakov”**. Ще излязат няколко пакета. Изберете пакет **“Nakov.TurtleGraphics”**. Натиснете **[Install]** за да го инсталирате към вашия C# проект:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/package.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/package.png)
 
-Към вашият C# проект вече в включена външната библиотека **“Nakov.TurtleGraphics”**. Тя дефинира един клас **Turtle**, който представлява **костенурка за рисуване**. За да го използвате, трябва да добавите в C# кода за вашата форма (**Form1.cs**) следния код най-отгоре в началото на файла:
+  Към вашият C# проект вече в включена външната библиотека **“Nakov.TurtleGraphics”**. Тя дефинира един клас **Turtle**, който представлява **костенурка за рисуване**. За да го използвате, трябва да добавите в C# кода за вашата форма (**Form1.cs**) следния код най-отгоре в началото на файла:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/using.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/using.png)
 
-4.	Сега сложете **три бутона** във формата и нагласете **имената** и **свойствата** им както е посочено по-долу:
+4.	Сега сложете **три бутона** във формата и нагласете **имената** и **свойствата** им, както е посочено по-долу:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/buttons.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/buttons.png)
 
 5.	Кликнете два пъти върху бутона **[Draw]**, за да напишете кода, който да се изпълни при натискането му. Напишете следния код:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/draw-button.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/draw-button.png)
 
-Този код мести и върти костенурката, която в началото е в центъра на екрана (в средата на формата), и чертае равностранен триъгълник. Може да го редактирате и да си поиграете с него.
+  Този код мести и върти костенурката, която в началото е в центъра на екрана (в средата на формата), и чертае равностранен триъгълник. Може да го редактирате и да си поиграете с него.
 
 6.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте го дали работи (натиснете **[Draw]** бутона няколко пъти):
 
-![](/assets/chapter-5-loops-images/turtle-graphics/test-draw-button.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/test-draw-button.png)
 
 7.	Сега можете да напишете **по-сложна програма за костенурката**: 
 
-![](/assets/chapter-5-loops-images/turtle-graphics/more-complex-program.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/more-complex-program.png)
 
 8.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работи новата програма за костенурката:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/test-program.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/test-program.png)
 
-Вече костенурката чертае по-сложни фигури чрез приятно анимирано движение.
+  Вече костенурката чертае по-сложни фигури чрез приятно анимирано движение.
 
 9.	Напишете кода и за останалите два бутона. Целта на бутона **[Reset]** е да изтрие графиката и да започне да чертае на чисто:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/reset-button.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/reset-button.png)
 
 10.	Целта на бутона **[Show / Hide Turtle]** е да показва или скрива костенурката: 
 
-![](/assets/chapter-5-loops-images/turtle-graphics/show-hide-button.png)
+  ![](/assets/chapter-5-loops-images/turtle-graphics/show-hide-button.png)
 
 11.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работят правилно всички бутони.
 
@@ -448,7 +448,7 @@ for (var i = 0; i < n; i++)
 
 ### 9. * Чертане на спирален триъгълник с костенурката
 
-Добавете бутон **[Triangle]**, който три триъгълника с по 22 върха като на фигурата по-долу:
+Добавете бутон **[Triangle]**, който чертае три триъгълника с по 22 върха като на фигурата по-долу:
 
 ![](/assets/chapter-5-loops-images/turtle-graphics/spiral-triangle.png)
 
