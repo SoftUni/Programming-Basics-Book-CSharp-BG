@@ -216,7 +216,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 ## 2.Пътешествие
 
-_Трета задача от междинния изпит на 26 март 2016. Тествайте решението на адрес: [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2)._
+_Трета задача от междинния изпит на 26 март 2016. Тествайте решението на адрес: [**https://judge.softuni.bg/Contests/Practice/Index/179#2**](https://judge.softuni.bg/Contests/Practice/Index/179#2)._
 
 Странно, но повечето хора си плануват от рано почивката. Млад програмист разполага с **определен бюджет** и свободно време в даден **сезон**.
 
@@ -399,7 +399,7 @@ _Трета задача от междинния изпит на 26 март 201
 
 ### Тестване в Judge системата
 
-Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Compete/Index/179#2**](https://judge.softuni.bg/Contests/Compete/Index/179#2). 
+Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/179#2**](https://judge.softuni.bg/Contests/Practice/Index/179#2). 
 
 ## 3.Операции между числа
 
