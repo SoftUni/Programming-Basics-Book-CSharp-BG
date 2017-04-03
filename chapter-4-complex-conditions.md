@@ -39,7 +39,7 @@ if (condition1)
 | 2<br>10<br>20 | 30 | 3<br>-10<br>-20<br>-30 | -60 | 4<br>45<br>-20<br>7<br>11<br> | 43 |
 
 
-Първото нещо, което забелязваме е че изходът на програмата зависи от няколко неща. Първо трябва да проверим какъв пол е въведен и после да проверим възрастта.Съответно ше използваме повече от 1  if-else блока. Тези блокове ще бъдат вложени.Т.е от резултата от първия ще определим кои от другите да изпълним.
+Първото нещо, което забелязваме, е че изходът на програмата зависи от няколко неща. Първо трябва да проверим какъв пол е въведен и после да проверим възрастта.Съответно ше използваме повече от 1  if-else блока. Тези блокове ще бъдат вложени.Т.е от резултата от първия ще определим кои от другите да изпълним.
 
 ![task1](/assets/chapter-4-images/missOrMaster.png)
 
@@ -116,7 +116,6 @@ if (town == "plovdiv") // TODO: finish this …
 ## Логическо "И"
 
 Както видяхме в някои задачи се налага да правим много проверки наведнъж.Но какво става, когато за да изпълним някакъв код се трябва да изпълнени повече условия и не искаме да правим отрицание(else) за всяко едно от тях. Вариантът с вложените if-блокове важи,но кода би изглеждал много неподреден и със сигурност и труден за поддръжка.  
-//TODO image with example.
 
 Логическо "И" (оператор &&) означава няколко условия да са изпълнени едновременно
 
@@ -144,7 +143,7 @@ if (x >= x1 && x <= x2 && y >= y1 && y <= y2) …
 * Как работи оператора && ?
 
 
-Операторът && приема два булеви израза (които имат стойност true или false) и ни връща 1 булев израз като резултат. Ползвайки го него вместо редица вложени if блокове ,прави кода по четлив,подреден и лесен за поддръжка.Но как работи когато поставим няколко условия едно след друго?  Както видяхме горе "логическото и" връща true,само когато приема като аргументи изрази със стойност true. Съответно,когато имаме последователност  от аргументи ,логическото и проверява или докато свършват аргументите, или докато не срещне аргумент със стойност false. Пример:
+Операторът && приема два булеви израза (които имат стойност true или false) и ни връща 1 булев израз като резултат. Ползвайки го  вместо редица вложени if блокове ,прави кода по четлив,подреден и лесен за поддръжка.Но как работи когато поставим няколко условия едно след друго?  Както видяхме горе "логическото и" връща true,само когато приема като аргументи изрази със стойност true. Съответно,когато имаме последователност  от аргументи ,"логическото и" проверява или докато свършват аргументите, или докато не срещне аргумент със стойност false. Пример:
 ```cs
 bool a = true;
 bool b = true;
@@ -215,7 +214,7 @@ bool c = false;
 bool d = true;
 bool result = a||b||c||d; ///true (като c и d не се проверяват)
 ```
- Например ако a=false,b=true,c=false,d= true.Проверява се а, отчита се ,че има стойност false и се продължава.Стигайки до b, се отчита ,че има стойност true и целия израз получава стойност true,без да се проверават c и d ,защото техните стойности не биха променили стойността на израза.
+Проверява се а, отчита се ,че има стойност false и се продължава.Стигайки до b, се отчита ,че има стойност true и целия израз получава стойност true,без да се проверават c и d ,защото техните стойности не биха променили стойността на израза.
  
 
 
@@ -476,13 +475,42 @@ switch (day)
   default: Console.WriteLine("Error!"); break;
 }
 ```
-Променливата ,която искаме да сравняваме поставяме в скобите след switch.Тука типът трябва да е сравним (числа,стрингове,булеви изрази).
+Променливата ,която искаме да сравняваме, поставяме в скобите след switch.Тука типът трябва да е сравним (числа,стрингове,булеви изрази).Последователно започва сравняването с всички стойности които се намират в 'case'.При съвпадение започва изпълнението на кода от съответното място и продължава ,докато стигне оператора "break".В някои програмни езици (като C и C++) "break" може да се изпускаи съответно да се изпълнява код от друг 'case',докато не стигне до оператора.В C# обаче, 'break' е задължителен за всеки 'case'.
+При липса на съвпадение, се изпълнява default конструкцията, когато такава съществува.
+
+
+В C# имаме възможността да използваме множество 'case'-ве, когато те трябва да изпълняват един и същи код. При този начин на записване, когато намерим съвпадение, тъй като след съответния case етикет липсва код за изпълнение и break оператор, ще се изпълни следващия срещнат код. Ако такъв липсва ще се изпълни default конструкцията.
+```cs
+int number = 6;
+switch (number)
+{
+ int day = int.Parse(Console.ReadLine());
+switch (day)
+{
+  case 1:
+  case 2:
+  case 3:
+  case 4:
+  case 5:
+  case 6:
+  case 7:Console.WriteLine("Valid day!");break;
+  
+  default: Console.WriteLine("Error!"); break;
+}
+}
+```
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>Добра практика е първо място да поставяме онези case случаи, които обработват най-често случилите се ситуации, а case конструкциите, обработващи по-рядко възникващи ситуации да оставим в края.</td>
+</tr></table>
 
 Тестване на решението : https://judge.softuni.bg/Contests/Practice/Index/153#8
 
 ### Множество етикети в switch-case
 
-Напишете програма, която принтира вида на животно според името му: dog -> mammal; crocodile, tortoise, snake -> reptile; others -> unknown
+Напишете програма, която принтира вида на животно според името му: 
+* dog -> mammal; 
+* crocodile, tortoise, snake -> reptile;
+* others -> unknown
 ```cs
 switch (animal)
 {
@@ -518,9 +546,9 @@ if ((x == left || x == right) && y >= top && y <= bottom)
 ### 11. Кино
 
 В една кинозала столовете са наредени в правоъгълна форма в r реда и c колони. Има три вида прожекции с билети на различни цени:
--> Premiere – премиерна прожекция, на цена 12.00 лева.
--> Normal – стандартна прожекция, на цена 7.50 лева.
--> Discount – прожекция за деца, ученици и студенти на намалена цена от 5.00 лева.
+* Premiere – премиерна прожекция, на цена 12.00 лева.
+* Normal – стандартна прожекция, на цена 7.50 лева.
+* Discount – прожекция за деца, ученици и студенти на намалена цена от 5.00 лева.
 
 Напишете програма, която въвежда тип прожекция (стринг), брой редове и брой колони в залата (цели числа) и изчислява общите приходи от билети при пълна зала. Резултатът да се отпечата във формат като в примерите по-долу, с 2 знака след десетичната точка.
 
@@ -552,9 +580,9 @@ if ((x == left || x == right) && y >= top && y <= bottom)
 
 Входните данни се четат от конзолата:
 
--> Първият ред съдържа думата “leap” (високосна година) или “normal” (невисокосна).
--> Вторият ред съдържа цялото число p – брой празници в годината (които не са събота и неделя).
--> Третият ред съдържа цялото число h – брой уикенди, в които Влади си пътува до родния град.
+* Първият ред съдържа думата “leap” (високосна година) или “normal” (невисокосна).
+* Вторият ред съдържа цялото число p – брой празници в годината (които не са събота и неделя).
+* Третият ред съдържа цялото число h – брой уикенди, в които Влади си пътува до родния град.
 
 <div style="display:inline-block">
 <table>
@@ -616,11 +644,227 @@ if ((x == left || x == right) && y >= top && y <= bottom)
 </table>
 </div>
 
-
 ![PointInFigure](/assets/chapter-4-images/pointInFigure.png)
+
+
+* Може да разделите фигурата на два правоъгълника с обща стена.
+* Една точка е външна (outside) за фигурата, когато е едновременно извън двата правоъгълника.
+* Една точка е вътрешна (inside) за фигурата, ако е вътре в някой от правоъгълниците (изключвайки стените им) или лежи върху общата им стена.
+* В противен случай точката лежи на стената на правоъгълника (border).
 
 ## Упражнения: графични и уеб приложения
 
 ### 14. * Точка и правоъгълник – графично (GUI) приложение
+Да се разработи графично (GUI) приложение за визуализация на точка и правоъгълник. Приложението трябва да изглежда приблизително по следния начин:
+
+![PointAndFigure](/assets/chapter-4-images/PointAndRect1.png)
+![PointAndFigure](/assets/chapter-4-images/PointAndRect2.png)
+![PointAndFigure](/assets/chapter-4-images/PointAndRect3.png)
+
+От контролите вляво се задават координатите на два от ъглите на правоъгълник (десетични числа) и координатите на точка. Приложението визуализира графично правоъгълника и точката и изписва дали точката е вътре в правоъгълника (Inside), вън от него (Outside) или на някоя от стените му (Border).
+Приложението премества и мащабира координатите на правоъгълника и точката, за да бъдат максимално големи, но да се събират в полето за визуализация в дясната страна на приложението.
+
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>Внимание: това приложение е значително по-сложно от предходните графични приложения, които разработвахте до сега, защото изисква ползване на функции за чертане и нетривиални изчисления за преоразмеряване и преместване на правоъгълника и точката. Следват инструкции за изграждане на приложението стъпка по стъпка.</td>
+</tr></table>
+
+* Създайте нов Windows Forms Application с подходящо име, например “Point-and-Rectangle”:
+
+![PointAndFigure](/assets/chapter-4-images/PointAndRect4.png)
+
+*  Наредете контролите във формата както е показано на фигурата по-долу: 6 кутийки за въвеждане на число (NumericUpDown) с надписи (Label) пред всяка от тях, бутон (Button) за изчертаване на правоъгълника и точката и текстов блок за резултата (Label). Нагласете размерите и свойствата на контролите, за да изглеждат долу-горе като на картинката:
+![PointAndFigure](/assets/chapter-4-images/PointAndRect5.png)
+
+* Задайте следните препоръчителни настройки на контролите:
+
+За главната форма (Form), която съдържа всички контроли:
+
+*	(name) = FormPointAndRectangle
+*	Text = "Point and Rectangle"
+*	Font.Size = 12
+*	Size = 700, 410
+*	MinimumSize = 500, 400
+*	FormBorderStyle = FixedSingle
+
+За полетата за въвеждане на число (NumericUpDown):
+
+*	(name) = numericUpDownX1; numericUpDownY1; numericUpDownX2; numericUpDownY2; numericUpDownX; numericUpDownY
+*	Value = 2; -3; 12; 3; 8; -1
+*	Minimum = -100000
+*	Maximum = 100000
+*	DecimalPlaces = 2
+
+За бутона (Button) за визуализация на правоъгълника и точката:
+
+*	(name) = buttonDraw
+*	Text = “Draw” 
+
+За текстовия блок за резултата (Label):
+
+*	(name) = labelLocation
+*	AutoSize = False
+*	BackColor = PaleGreen
+*	TextAlign = MiddleCenter
+
+
+За полето с чертежа (PictureBox):
+
+*	(name) = pictureBox
+*	Anchor = Top, Bottom, Left, Right
+*	Хванете следните събития, за да напишете C# кода, който ще се изпълни при настъпването им:
+*	Събитието Click на бутона buttonDraw (извиква се при натискане на бутона).
+*	Събитието ValueChanged на контролите за въвеждане на числа numericUpDownX1, numericUpDownY1, numericUpDownX2, numericUpDownY2, numericUpDownX и numericUpDownY (извиква се при промяна на стойността в контролата за въвеждане на число).
+*	Събитието Load на формата FormPointAndRectangle (извиква се при стартиране на приложението, преди да се появи главната форма на екрана).
+*	Събитието Resize на формата FormPointAndRectangle (извиква се при промяна на размера на главната формата).
+*	Всички изброени по-горе събития ще изпълняват едно и също действие – Draw(), което ще визуализира правоъгълника и точката и ще показва дали тя е вътре, вън или на някоя от страните. Кодът трябва да прилича на този: 
+
+```cs
+private void buttonDraw_Click(object sender, EventArgs e)
+{
+    Draw();
+}
+
+private void FormPointAndRectangle_Load(object sender, EventArgs e)
+{
+    Draw();
+}
+
+private void FormPointAndRectangle_Resize(object sender, EventArgs e)
+{
+    Draw();
+}
+
+private void numericUpDownX1_ValueChanged(object sender, EventArgs e)
+{
+    Draw();
+}
+
+// TODO: implement the same way event handlers numericUpDownY1_ValueChanged, numericUpDownX2_ValueChanged, numericUpDownY2_ValueChanged, numericUpDownX_ValueChanged and numericUpDownY_ValueChanged
+
+private void Draw()
+{
+    // TODO: implement this a bit later …
+}
+
+```
+
+* 	Започнете от по-лесната част: печат на информация къде е точката спрямо правоъгълника (Inside, Outside или Border). Можете да ползвате следния код:
+
+```cs
+private void Draw()
+{
+    // Get the rectangle and point coordinates from the form
+    var x1 = this.numericUpDownX1.Value;
+    var y1 = this.numericUpDownY1.Value;
+    var x2 = this.numericUpDownX2.Value;
+    var y2 = this.numericUpDownY2.Value;
+    var x = this.numericUpDownX.Value;
+    var y = this.numericUpDownY.Value;
+
+    // Display the location of the point: Inside / Border / Outside
+    DisplayPointLocation(x1, y1, x2, y2, x, y);
+}
+
+private void DisplayPointLocation(
+    decimal x1, decimal y1, decimal x2, decimal y2, decimal x, decimal y)
+{
+    var left = Math.Min(x1, x2);
+    var right = Math.Max(x1, x2);
+    var top = Math.Min(y1, y2);
+    var bottom = Math.Max(y1, y2);
+    if (x > left && x < right && …)
+    {
+        this.labelLocation.Text = "Inside";
+        this.labelLocation.BackColor = Color.LightGreen;
+    }
+    else if (… || y < top || y > bottom)
+    {
+        this.labelLocation.Text = "Outside";
+        this.labelLocation.BackColor = Color.LightSalmon;
+    }
+    else
+    {
+        this.labelLocation.Text = "Border";
+        this.labelLocation.BackColor = Color.Gold;
+    }
+}
+```
+
+Помислете как да допишете недовършените (нарочно) условия в if-проверките! Кодът по-горе нарочно не се компилира, защото целта му е да помислите как и защо работи и да допишете липсващите части.
+Горният код взима координатите на правоъгълника и точките и проверява дали точката е вътре, вън или на страната на правоъгълника. При визуализацията на резултата се сменя и цвета на фона на текстовия блок, който го съдържа.
+*	Остава да се имплементира най-сложната част: визуализация на правоъгълника и точката в контролата pictureBox с преоразмеряване. Можете да ползвате кода по-долу, който прави малко изчисления и рисува син правоъгълник и тъмносиньо кръгче (точката) според зададените във формата координати. За съжаление сложността на кода надхвърля изучавания до момента материал и е сложно да се обясни в детайли как точно работи. Можете да разгледате коментарите за ориентация. Това е пълната версия на действието Draw():
+```cs
+private void Draw()
+{
+  // Get the rectangle and point coordinates from the form
+  var x1 = this.numericUpDownX1.Value;
+  var y1 = this.numericUpDownY1.Value;
+  var x2 = this.numericUpDownX2.Value;
+  var y2 = this.numericUpDownY2.Value;
+  var x = this.numericUpDownX.Value;
+  var y = this.numericUpDownY.Value;
+
+  // Display the location of the point: Inside / Border / Outside
+  DisplayPointLocation(x1, y1, x2, y2, x, y);
+
+  // Calculate the scale factor (ratio) for the diagram holding the
+  // rectangle and point in order to fit them well in the picture box
+  var minX = Min(x1, x2, x);
+  var maxX = Max(x1, x2, x);
+  var minY = Min(y1, y2, y);
+  var maxY = Max(y1, y2, y);
+  var diagramWidth = maxX - minX;
+  var diagramHeight = maxY - minY;
+  var ratio = 1.0m;
+  var offset = 10;
+  if (diagramWidth != 0 && diagramHeight != 0)
+  {
+    var ratioX = (pictureBox.Width - 2 * offset - 1) / diagramWidth;
+    var ratioY = (pictureBox.Height - 2 * offset - 1) / diagramHeight;
+    ratio = Math.Min(ratioX, ratioY);
+  }
+
+  // Calculate the scaled rectangle coordinates
+  var rectLeft = offset + (int)Math.Round((Math.Min(x1, x2) - minX) * ratio);
+  var rectTop = offset + (int)Math.Round((Math.Min(y1, y2) - minY) * ratio);
+  var rectWidth = (int)Math.Round(Math.Abs(x2 - x1) * ratio);
+  var rectHeight = (int)Math.Round(Math.Abs(y2 - y1) * ratio);
+  var rect = new Rectangle(rectLeft, rectTop, rectWidth, rectHeight);
+
+  // Calculate the scalled point coordinates
+  var pointX = (int)Math.Round(offset + (x - minX) * ratio);
+  var pointY = (int)Math.Round(offset + (y - minY) * ratio);
+  var pointRect = new Rectangle(pointX - 2, pointY - 2, 5, 5);
+
+  // Draw the rectangle and point
+  pictureBox.Image = new Bitmap(pictureBox.Width, pictureBox.Height);
+  using (var g = Graphics.FromImage(pictureBox.Image))
+  {
+    // Draw diagram background (white area)
+    g.Clear(Color.White);
+
+    // Draw the rectangle (scalled to the picture box size)
+    var pen = new Pen(Color.Blue, 3);
+    g.DrawRectangle(pen, rect);
+
+    // Draw the point (scalled to the picture box size)
+    pen = new Pen(Color.DarkBlue, 5);
+    g.DrawEllipse(pen, pointRect);
+  }
+}
+
+private decimal Min(decimal val1, decimal val2, decimal val3)
+{
+  return Math.Min(val1, Math.Min(val2, val3));
+}
+
+private decimal Max(decimal val1, decimal val2, decimal val3)
+{
+  return Math.Max(val1, Math.Max(val2, val3));
+}
+```
+В горния код се срещат доста преобразувания на типове, защото се работи с различни типове числа (десетини числа, реални числа и цели числа) и понякога се изисква да се преминава между тях.
+* Компилирайте кода. Ако има някакви грешки, ги отстранете. Най-вероятната причина за грешка е несъответстващо име на някоя от контролите или ако сте написали кода на неправилно място.
+*	Стартирайте приложението и го тествайте (с разцъкване). Пробвайте да въвеждате различни правоъгълници и позиционирайте точката на различни позиции, преоразмерявайте приложението и вижте дали се държи коректно.
 
 TODO: да се ползва като основа файла "4. Complex-Conditions-Exercises.docx".
