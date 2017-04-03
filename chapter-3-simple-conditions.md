@@ -78,7 +78,7 @@ Console.WriteLine(result); // True
 ```cs
 if (булев израз)
 {
-      тяло на условната конструкция;
+  тяло на условната конструкция;
 }
 ``` 
 
@@ -102,11 +102,11 @@ if (grade >= 5.50)
 ```cs
 if (булев израз)
 {
-      тяло на условната конструкция;
+  тяло на условната конструкция;
 }
 else
 {
-      тяло на else-конструкция;
+  тяло на else-конструкция;
 }
 ```
 
@@ -229,8 +229,8 @@ else
 var myBankAccount = Bank.GetMyBankAccount();
 if (DateTime.Now().Day >= PayDay)
 {
-    var salary = Job.GetMyMonthlySalary();
-    myBankAccount = myBankAccount + salary;
+  var salary = Job.GetMyMonthlySalary();
+  myBankAccount = myBankAccount + salary;
 }
 
 Console.WriteLine(myBankAccount);
@@ -243,20 +243,20 @@ Console.WriteLine(salary) //Error!
 ```cs
 if (условие)
 {
-	тяло на условната конструкция;
+  тяло на условната конструкция;
 }
 else if (условие2)
 {
-	тяло на условната конструкция;	
+  тяло на условната конструкция;  
 }
 else if (условие3)
 {
-	тяло на условната конструкция;	
+  тяло на условната конструкция;  
 }
 ...
 else 
 {
-	тяло на else конструкция;
+  тяло на else конструкция;
 }
 ``` 
 
@@ -316,12 +316,19 @@ Console.Write("Enter score: ");
 var num = int.Parse(Console.ReadLine());
 var bonusScore = 0.0;
 if (num > 1000)
-  { bonusScore = num * 0.10; }
+{ 
+  bonusScore = num * 0.10; 
+}
 else // TODO: write more logic here … 
 if (num % 10 == 5)
-  { bonusScore += 2; }
+{ 
+  bonusScore += 2; 
+}
 else // TODO: write more logic here …
-Console.WriteLine("Bonus score: {0}", bonusScore);
+{
+  Console.WriteLine("Bonus score: {0}", bonusScore);
+}
+  
 Console.WriteLine("Total score: {0}", num + bonusScore);
 ```
 
@@ -355,11 +362,18 @@ var sec1 = int.Parse(Console.ReadLine());
 var secs = sec1 + sec2 + sec3;
 var mins = 0;
 if (sec > 59)   // TODO: Repeat this 2 times …
-{ mins++; secs = sec - 60; }
+{ 
+  mins++; 
+  secs = sec - 60;
+}
 if (secs < 10)
- { Console.WriteLine(mins + ":" + "0" + secs); }
+{ 
+  Console.WriteLine(mins + ":" + "0" + secs); 
+}
 else
- { Console.WriteLine(mins + ":" + secs); }
+{ 
+  Console.WriteLine(mins + ":" + secs); 
+}
 ```
 
 **Подсказка**:
@@ -385,6 +399,13 @@ else
 | 1 meter (m) |	0.001 kilometers (km) |
 | 1 meter (m) |	3.2808399 feet (ft)  |
 | 1 meter (m) |	1.0936133 yards (yd) |
+| 1 meter (m) | 1000 millimeters (mm) |
+| 1 meter (m) | 100 centimeters (cm) |
+| 1 meter (m) | 0.000621371192 miles (mi) |
+| 1 meter (m) | 39.3700787 inches (in) |
+| 1 meter (m) | 0.001 kilometers (km) |
+| 1 meter (m) | 3.2808399 feet (ft)  |
+| 1 meter (m) | 1.0936133 yards (yd) |
 
 Входните данни се състоят от три реда:
 
@@ -407,10 +428,14 @@ var size = double.Parse(Console.ReadLine());
 var sourceMetric = Console.ReadLine().ToLower();
 var destMetric = Console.ReadLine().ToLower();
 if (sourceMetric == "km")
-    { size = size / 0.001; }
+{ 
+  size = size / 0.001; 
+}
 // Check the other metrics: mm, cm, ft, yd, ...
 if (destMetric == "ft")
-    { size = size * 3.2808399; }
+{ 
+  size = size * 3.2808399; 
+}
 // Check the other metrics: mm, cm, ft, yd, ...
 Console.WriteLine(size + " " + destMetric);
 ```
@@ -739,4 +764,3 @@ Console.WriteLine(size + " " + destMetric);
         }
         
 Горният код взима **сумата** за конвертиране от полето `numericUpDownAmount` и **избраната валута** за резултата от полето `comboBoxCurrency`. След това с **условна конструкция** според избраната валута, сумата се дели на **валутния курс** (който е фиксиран твърдо в сорс кода). Накрая се генерира текстово **съобщение с резултата** (закръглен до 2 цифри след десетичната точка) и се записва в зелената кутийка `labelResult`.
-
