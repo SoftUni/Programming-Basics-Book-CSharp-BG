@@ -581,7 +581,11 @@ else
         N2,
         result,
         result % 2 == 0 ? "even" : "odd");
+```
 
+И завършваме с проверките за деление и модулно деление.
+
+```cs 
     if (nOperator.Equals("/"))
     {
         result = ............;
