@@ -222,11 +222,11 @@ if (!string.IsNullOrEmpty(result))
 ```
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
-<td>Реално за целите на задачата извеждането на резултата <strong>на конзолата</strong> може да бъде направен и в по-ранен етап - още при самите изчисления. Това като цяло не е много добра практика. **Защо?**
+<td>Реално за целите на задачата извеждането на резултата <strong>на конзолата</strong> може да бъде направен и в по-ранен етап - още при самите изчисления. Това като цяло не е много добра практика. <strong>Защо?</strong>
 <br /><br />
-Нека разгледаме идеята, че кодът ни не е 10 реда, а 100 или 1000! И някой ден се наложи извеждането на резултата да не бъде в конзолата, а да бъде записан във **файл**, или показан на **уеб приложение**. Тогава на колко места в кодът ще трябва да бъдат нанесени корекции поради тази смяна? И дали няма да пропуснем някое място!
+Нека разгледаме идеята, че кодът ни не е 10 реда, а 100 или 1000! И някой ден се наложи извеждането на резултата да не бъде в конзолата, а да бъде записан във <strong>файл<strong>, или показан на <strong>уеб приложение</strong>. Тогава на колко места в кодът ще трябва да бъдат нанесени корекции поради тази смяна? И дали няма да пропуснем някое място!
 <br /><br />
-**Съвет:** Винаги си мислете за кода с логическите изчисления като за отделна част от входните и изходните данни. Така че да може да работи без значение как му се подават данните и къде ще трябва да бъде показан резултата.</td>
+<strong>Съвет:</strong> Винаги си мислете за кода с логическите изчисления като за отделна част от входните и изходните данни. Така че да може да работи без значение как му се подават данните и къде ще трябва да бъде показан резултата.</td>
 </tr></table>
 
 ### Тестване в Judge системата
@@ -384,13 +384,13 @@ else
 destinationResult = "Bulgaria";
 if (season.Equals("summer"))
 {
-moneySpent = 0.30M * budget;
-holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
+    moneySpent = 0.30M * budget;
+    holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
 }
 else
 {
-moneySpent = ...............;
-holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
+    moneySpent = ...............;
+    holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
 }
 ```
 
@@ -404,8 +404,8 @@ holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
 
 if (season.Equals("summer"))
 {
-moneySpent = 0.30M * budget;
-holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
+    moneySpent = 0.30M * budget;
+    holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
 }
 ```
 
@@ -589,7 +589,7 @@ else
     }
     else if (nOperator.Equals(.....))
     {
-		result = ... % ...;
+	    result = ... % ...;
         output = string.Format("{0} {1} {2} = {3}", ........................);
     }
 }
@@ -608,7 +608,7 @@ if (result % 2 == 0)
 }
 else
 {
-	numberIs = "odd";
+    numberIs = "odd";
 }
 ```
 
