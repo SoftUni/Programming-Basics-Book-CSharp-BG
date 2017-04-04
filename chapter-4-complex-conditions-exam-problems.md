@@ -233,7 +233,7 @@ if (!string.IsNullOrEmpty(result))
 
 Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2).
 
-## 2.Пътешествие
+## Пътешествие
 
 _Трета задача от междинния изпит на 26 март 2016. Тествайте решението на адрес: [**https://judge.softuni.bg/Contests/Practice/Index/179#2**](https://judge.softuni.bg/Contests/Practice/Index/179#2)._
 
@@ -422,7 +422,7 @@ Console.WriteLine(holidayInformation);
 
 Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/179#2**](https://judge.softuni.bg/Contests/Practice/Index/179#2). 
 
-## 3.Операции между числа
+## Операции между числа
 
 _Трета задача от междинния изпит на 26 март 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/181#2**](https://judge.softuni.bg/Contests/Practice/Index/181#2)._
 
@@ -630,7 +630,7 @@ Console.WriteLine(output);
 
 Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/181#2**](https://judge.softuni.bg/Contests/Practice/Index/181#2).
 
-## 4.Билети за мач
+## Билети за мач
 
 _Трета задача от междинния изпит на 17 юли 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/233#2**](https://judge.softuni.bg/Contests/Practice/Index/233#2)._
 
@@ -819,7 +819,7 @@ Console.WriteLine(result);
 
 Може да тествате вашето решение на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/233#2**](https://judge.softuni.bg/Contests/Practice/Index/233#2).
 
-## 5.Хотелска стая
+## Хотелска стая
 
 _Трета задача от междинния изпит на 28 август 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/274#2**](https://judge.softuni.bg/Contests/Practice/Index/274#2)._
 
@@ -1010,6 +1010,8 @@ switch (month)
         }
 
         break;
+```
+```cs
     case "July":
     case "August":
         studioPrice = .......;
