@@ -10,7 +10,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 ### Входни данни
 
-От конзолата се четат **4 цели числа** (по едно на ред):
+От конзолата се четат **четири цели числа** (по едно на ред):
 
 - Първият ред съдържа **час на изпита** – цяло число от 0 до 23.
 - Вторият ред съдържа **минута на изпита** – цяло число от 0 до 59.
@@ -118,46 +118,32 @@ _Трета задача от междинния изпит на 6 март 2016
 
 #### 1. Обработка на входните данни
 
-Съгласно заданието очакваме да ни бъдат подадени в **4** поредни реда различни <strong>цели числа</strong>. Разглеждаме зададените параметри. Можем да се спрем на <strong>int</strong>, като тип на параметрите ни, който удовлетворява очакваните стойности. Едновременно **четем** входа и **парсваме** стринговата стойност към избраният от нас тип данни за **цяло число**.
+Съгласно заданието очакваме да ни бъдат подадени в **четири** поредни реда различни <strong>цели числа</strong>. Разглеждаме зададените параметри. Можем да се спрем на `int`, като тип на параметрите ни, който удовлетворява очакваните стойности. Едновременно **четем** входа и **парсваме** стринговата стойност към избраният от нас тип данни за **цяло число**.
 
-```cs
-int examHours = int.Parse(Console.ReadLine());
-int examMinutes = int.Parse(Console.ReadLine());
-int arrivalHours = int.Parse(Console.ReadLine());
-int arrivalMinutes = int.Parse(Console.ReadLine());
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_input.png)
 
 Разглеждаме очакваният изход. Можем да създадем променливи, които да съдържат различните видове изходни данни, с цел да избегнем използването на т.нар. <strong>"magic strings"</strong> в кода.
 
-```cs 
-string late = "Late";
-string onTime = "On time";
-string early = "Early";
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_params.png)
 
 #### 2. Изчисления
 
 След прочитането на входа започваме да разписваме логиката за изчисление на резултата. Нека да изчислим **времето** на изпита **в минути** за по-лесно и точно сравнение.
 
-```cs
-int examTime = (examHours * 60) + examMinutes;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_exam-time.png)
 
 Нека изчислим по същата логика и **времето на пристигане** на студента.
-```cs 
-int arrivalTime = (arrivalHours * 60) + arrivalMinutes;
-```
+
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_arival-time.png)
 
 Остава ни да пресметнем каква е разликата в двете времена, за да можем да определим <strong>кога</strong> и с <strong>какво време спрямо изпита</strong> е пристигнал студентът.
 
-```cs 
-int totalMinutesDifference = arrivalTime - examTime;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_total-min-diff.png)
 
 Следващата ни стъпка е да направим необходимите проверки и да изведем резултата от изчисленията ни. Нека разделим изхода на **две** части. 
 
 Първо да покажем как е пристигнал студентът - дали е <strong>подранил</strong>, <strong>закъснял</strong> или е <strong>навреме</strong>. 
-За целта ще се спрем на <strong>if - else if</strong> конструкция. 
+За целта ще се спрем на `if - else if` конструкция. 
 
 С цел да си спестим една допълнителна проверка (<strong>else</strong>) можем по подразбиране да приемем, че студентът е закъснял. 
 
@@ -165,66 +151,26 @@ int totalMinutesDifference = arrivalTime - examTime;
 
 При всички останали случаи приемаме, че студентът е **закъснял**, което сме направили **по подразбиране**, и не е нужна допълнителна проверка.
 
-```cs
-string studentArrival = late;
-if (totalMinutesDifference < -30)
-{
-    studentArrival = early;
-}
-else if (totalMinutesDifference <= 0)
-{
-    studentArrival = onTime;
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_check-diff.png)
 
 За финал ни остава да разберем и покажем и с <strong>каква разлика от времето на изпита е пристигнал</strong>, както и дали тази разлика е <strong>преди или след изпита</strong>.
 
-Правим проверка дали разликата ни е над 1 час, за да изпишем съответно часове и минути в желаният по задание **формат**, или е под 1 час, за да покажем **само минути** като формат и описание. 
+Правим проверка дали разликата ни е **над** един час, за да изпишем съответно часове и минути в желаният по задание **формат**, или е **под** един час, за да покажем **само минути** като формат и описание. 
 
 Остава да направим още една проверка дали времето на пристигане на студента е **преди** или **след** началото на изпита.
 
-```cs
-string result = string.Empty;
-if (totalMinutesDifference != 0)
-{
-    int hoursDifference = Math.Abs(totalMinutesDifference / 60);
-    int minutesDifference = Math.Abs(totalMinutesDifference % 60);
-
-    if (hoursDifference > 0)
-    {
-        result = string.Format("{0}:{1:00} hours", hoursDifference, minutesDifference);
-    }
-    else
-    {
-        result = minutesDifference + " minutes";
-    }
-
-    if (totalMinutesDifference < 0)
-    {
-        result += " before the start";
-    }
-    else
-    {
-        result += " after the start";
-    }
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_result.png)
 
 #### 3. Показване на резултата
 
-И накрая остава да изведем резултата на конзолата. Тъй като по задание ако студентът е дошъл точно на време (без 1 минута разлика) не трябва да изваждаме втори резултат, правим **проверка** дали да изваждаме вторият резултат.
-```cs 
-Console.WriteLine(studentArrival);
-if (!string.IsNullOrEmpty(result))
-{
-    Console.WriteLine(result);
-}
-```
+И накрая остава да изведем резултата на конзолата. Тъй като по задание ако студентът е дошъл точно на време (без нито една минута разлика) не трябва да изваждаме втори резултат, правим **проверка** дали да изваждаме вторият резултат.
+
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_output.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Реално за целите на задачата извеждането на резултата <strong>на конзолата</strong> може да бъде направен и в по-ранен етап - още при самите изчисления. Това като цяло не е много добра практика. <strong>Защо?</strong>
 <br /><br />
-Нека разгледаме идеята, че кодът ни не е 10 реда, а 100 или 1000! И някой ден се наложи извеждането на резултата да не бъде в конзолата, а да бъде записан във <strong>файл<strong>, или показан на <strong>уеб приложение</strong>. Тогава на колко места в кодът ще трябва да бъдат нанесени корекции поради тази смяна? И дали няма да пропуснем някое място!
+Нека разгледаме идеята, че кодът ни не е 10 реда, а 100 или 1000! И някой ден се наложи извеждането на резултата да не бъде в конзолата, а да бъде записан във <strong>файл</strong>, или показан на <strong>уеб приложение</strong>. Тогава на колко места в кодът ще трябва да бъдат нанесени корекции поради тази смяна? И дали няма да пропуснем някое място!
 <br /><br />
 <strong>Съвет:</strong> Винаги си мислете за кода с логическите изчисления като за отделна част от входните и изходните данни. Така че да може да работи без значение как му се подават данните и къде ще трябва да бъде показан резултата.</td>
 </tr></table>
@@ -241,7 +187,7 @@ _Трета задача от междинния изпит на 26 март 201
 
 Напишете програма, която да приема **на входа бюджета и сезона**, а **на изхода** да изкарва, **къде ще почива** програмиста и **колко ще похарчи**.
 
-**Бюджета определя дестинацията, а сезона определя колко от бюджета ще изхарчи**. Ако е **лято** ще почива на **къмпинг**, а **зимата в хотел**. Ако е в **Европа**, **независимо от сезона** ще почива в **хотел**. Всеки **къмпинг** или **хотел**, ** според дестинацията**, има **собствена цена**, която отговаря на даден **процент от бюджета**:
+**Бюджета определя дестинацията, а сезона определя колко от бюджета ще изхарчи**. Ако е **лято** ще почива на **къмпинг**, а **зимата в хотел**. Ако е в **Европа**, **независимо от сезона** ще почива в **хотел**. Всеки **къмпинг** или **хотел**, **според дестинацията**, има **собствена цена**, която отговаря на даден **процент от бюджета**:
 
 - При **100лв. или по-малко** – някъде в **България**
   - **Лято** – **30%** от бюджета
@@ -308,26 +254,19 @@ _Трета задача от междинния изпит на 26 март 201
 
 #### 1. Обработка на входнните данни
 
-Прочитайки внимателно условието разбираме, че очакваме **два** реда с входни данни. Първият параметър е <strong>реално число</strong>, за което е хубаво да изберем подходящ тип на променливата. За по-голяма точност на изчисленията нека се спрем на <strong>decimal</strong> като тип за бюджета, а за сезона - <strong>string</strong>. 
+Прочитайки внимателно условието разбираме, че очакваме **два** реда с входни данни. Първият параметър е <strong>реално число</strong>, за което е хубаво да изберем подходящ тип на променливата. За по-голяма точност на изчисленията нека се спрем на `decimal` като тип за бюджета, а за сезона - `string`. 
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Винаги преценявайте какъв тип стойност ви се подава при входни данни, както и към какъв тип трябва да бъдат парснати тези данни, за да работят правилно създадените от вас програмни конструкции!</td>
 </tr></table>
 
-```cs 
-decimal budget = decimal.P...................;
-string season = ..................;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_input.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните ни за логиката и изчисленията променливи.
 
-```cs
-string destinationResult = string.Empty;
-string holidayInformation = .........;
-decimal moneySpent = 0.00M;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_params.png)
 
 Можем и подобно на примера в предната задача да си инициализираме променливите с някои от изходните резултати с цел да спестим допълнително инициализиране в конкретният случай. 
 
@@ -338,85 +277,26 @@ decimal moneySpent = 0.00M;
 След това за всяка от под схемите се прави проверка спрямо стойността на <strong>подаденият сезон</strong>, за да се определи какъв процент от бюджета ще бъде похарчен, както и къде ще почиваме - в <strong>хотел</strong> или на <strong>къмпинг</strong>.
 
 Например за един от възможните подходи за решение е:
-```cs 
-if (budget <= 100.00M)
-{
-    destinationResult = "Bulgaria";
-    if (season.Equals("summer"))
-    {
-        moneySpent = 0.30M * budget;
-        holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
-    }
-    else
-    {
-        moneySpent = ...............;
-        holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
-    }
-}
-else if (budget <= 1000.00M)
-{
-    destinationResult = .........;
-    if (season.Equals("......"))
-    {
-        moneySpent = .................;
-        holidayInformation = ..........................;
-    }
-    else
-    {
-        moneySpent = ................;
-        holidayInformation = ...........................;
-    }
-}
-else
-{
-    destinationResult = ........;
-    moneySpent = ........;
-    holidayInformation = ..........;
-}
 
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_check-budget-if.png)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_check-budget-elseif.png)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_check-budget-else.png)
 
 Винаги можем да инициализираме дадена стойност на параметъра и след това да направим само една проверка дали има нужда да бъде сменена. **Спестява ни една логическа стъпка**.
 
 Например блок-схемата,
 
-```cs
-destinationResult = "Bulgaria";
-if (season.Equals("summer"))
-{
-    moneySpent = 0.30M * budget;
-    holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
-}
-else
-{
-    moneySpent = ...............;
-    holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_first-block-schema.png)
 
 може да бъде изчислена и по следният начин:
 
-
-```cs
-destinationResult = "Bulgaria";
-moneySpent = 0.70M * budget;
-holidayInformation = string.Format("Hotel - {0:F2}", moneySpent);
-
-if (season.Equals("summer"))
-{
-    moneySpent = 0.30M * budget;
-    holidayInformation = string.Format("Camp - {0:F2}", moneySpent);
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_second-block-schema.png)
 
 #### 3. Показване на резултата
 
 Остава да покажем изчисленият резултат на конзолата:
 
-```cs
-Console.WriteLine("Somewhere in {0}", destinationResult);
-Console.WriteLine(holidayInformation);
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/trip_output.png)
 
 ### Тестване в Judge системата
 
@@ -522,109 +402,47 @@ _Трета задача от междинния изпит на 26 март 201
 
 #### 1. Обработка на входнните данни
 
-След прочитане на условието разбираме, че очакваме 3 реда с входни данни. Първите 2 реда са с <strong>цели числа</strong> в указаният от заданието <strong>диапазон</strong>, а на третият очакваме даден <strong>аритметичен символ</strong>. 
+След прочитане на условието разбираме, че очакваме **три** реда с входни данни. Първите **два** реда са с <strong>цели числа</strong> в указаният от заданието <strong>диапазон</strong>, а на третият очакваме даден <strong>аритметичен символ</strong>. 
 
-```cs
-decimal N1 = .................................;
-decimal N2 = .................................;
-string nOperator = ..................;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_input.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните ни за логиката и изчисленията променливи. В едната ще пазим резултатът от изчисленията, а другата ще използваме за крайния изход на програмата ни.
 
-```cs
-decimal result = ......;
-string output = .......;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_params.png)
 
 Прочитаме внимателно условието и ни прави впечатление, че има случаите, в които не трябва да правим никакви изчисления, а просто да изведем резултат.
 
 Следователно първо можем да проверим дали второто число е **0** (нула), както и дали операцията е **деление** или **модулно деление**, след което да инициализираме резултата:
 
-```cs 
-if (N2 == 0 && (nOperator.Equals("/") || nOperator.Equals("%")))
-{
-    output = string.Format("Cannot divide {0} by zero", N1);
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_if.png)
 
-Нека изкараният резултат да го сложим като стойност при инициализацията на <strong>output</strong> параметъра и да правим само една проверка дали е необходимо да преизчислим и заменим този резултат. Спрямо това кой подход изберем следващата ни проверка ще бъде или обикновен <strong>else</strong> или единичен <strong>if</strong>. В тялото на тази проверка може да разделим логиката спрямо структурата на очакваният резултат с допълнителни проверки за начина на изчисление на резултата спрямо подаденият оператор. 
+Нека изкараният резултат да го сложим като стойност при инициализацията на `output` параметъра и да правим само една проверка дали е необходимо да преизчислим и заменим този резултат. Спрямо това кой подход изберем следващата ни проверка ще бъде или обикновен `else` или единичен `if`. В тялото на тази проверка може да разделим логиката спрямо структурата на очакваният резултат с допълнителни проверки за начина на изчисление на резултата спрямо подаденият оператор. 
 
 От условието можем да видим, че за <strong>събиране (+)</strong>, <strong>изваждене (-)</strong> или <strong>умножение (*)</strong> очакваният резултат има обща структура: <strong>"{N1} {оператор} {N2} = {резултат} – {even/odd}"</strong>, докато за <strong>деление (/)</strong> и за <strong>модулно деление (%)</strong> резултатът има отделна специфична структура.
 
-```cs 
-else
-{
-    if (nOperator.Equals("+"))
-    {
-        result = N1 + N2;
-    }
-    else if (nOperator.Equals("-"))
-    {
-        result = ..........;
-    }
-    else if (nOperator.Equals(...))
-    {
-        result = ... * ...;
-    }
-
-    output = string.Format(
-        "{0} {1} {2} = {3} - {4}",
-        N1,
-        nOperator,
-        N2,
-        result,
-        result % 2 == 0 ? "even" : "odd");
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_else-first-part.png)
 
 И завършваме с проверките за деление и модулно деление.
 
-```cs 
-    if (nOperator.Equals("/"))
-    {
-        result = ............;
-        output = string.Format("{0} {1} {2} = {3:F2}", ........................);
-    }
-    else if (nOperator.Equals(.....))
-    {
-	    result = ... % ...;
-        output = string.Format("{0} {1} {2} = {3}", ........................);
-    }
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_else-second-part.png)
 
 При кратки и ясни проверки е възможно да се използват <strong>тернарни оператори</strong>. Например при проверката за четно и нечетно число в горния пример. Нека разгледаме възможната проверка **с** и **без** тернарен оператор.
 
 **Без използване на тернарен оператор:**
 
-```cs
-string numberIs = string.Empty;
-
-if (result % 2 == 0)
-{
-    numberIs = "even";
-}
-else
-{
-    numberIs = "odd";
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_operator-first-example.png)
 
 **С изполване на тернарен оператор:**
 
-```cs
-string numberIs = result % 2 == 0 ? "even" : "odd";
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_operator-second-example.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-```cs 
-Console.WriteLine(output);
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_output.png)
 
 ### Тестване в Judge системата
 
@@ -725,95 +543,39 @@ _Трета задача от междинния изпит на 17 юли 2016.
 
 Като за начало нека си обработим и запазим входните данни в подходящи за това параметри:
 
-```cs
-decimal budget = ............................;
-string ticketType = ...................;
-int people = .........................;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/match-tickets_input.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните ни за изчисленията променливи:
 
-```cs
-decimal transportCharges = .....;
-decimal moneyForTickets = .....;
-decimal moneyDifference = .....;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/match-tickets_params.png)
 
 Нека отново прегледаме условието. Трябва да направим **две** различни блок изчисления. 
 
 От първите изчисления трябва да разберем каква част от бюджета ще трябва да заделим за <strong>транспорт</strong>. За логиката на тези изчисления забелязваме, че има значение единствено <strong>броят на хората в групата</strong>. Следователно ще направим логическата разбивка спрямо броят на запалянковците.
 
-Ще използваме условна конструкция - поредица <strong>if-else if-else if-......</strong>.
+Ще използваме условна конструкция - поредица `if-else if-else if-......`.
 
-```cs
-if (people <= 4)
-{
-    transportCharges = 0.75M * budget;
-}
-else if (people <= ....)
-{
-    transportCharges = 0.60M * budget;
-}
-else if (people <= ....)
-{
-    transportCharges = ..........;
-}
-else if (.............)
-{
-    transportCharges = ..........;
-}
-else if (..... >= .....)
-{
-    transportCharges = ..........;
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/match-tickets_cal-transport-charges.png)
 
 От вторите изчисления трябва да намерим каква сума ще ни е необходима за закупуване на <strong>билети за групата</strong>. Според условието това ни зависи единствено от типа на билетите, които трябва да закупим. 
 
-Нека използваме <strong>switch-case</strong> условна конструкция.
+Нека използваме `switch-case` условна конструкция.
 
-```cs
-switch (ticketType)
-{
-    case "Normal":
-        moneyForTickets = ................;
-        break;
-    case "VIP":
-        moneyForTickets = ................;
-        break;
-    default:
-        moneyForTickets = people * 249.99M;
-        break;
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/match-tickets_calc-money-for-tickets.png)
 
 След като сме изчислили какви са ни <strong>транспортните разходи</strong> и <strong>разходите за билети</strong> ни остава да изчислим крайният резултат и да разберем ще успее ли групата от запалянковци да отиде на Евро 2016 или няма да успее при така подадените параметри. 
 
-За извеждането на резултата, за да си спестим една проверка (<strong>else</strong>) в конструкцията приемаме, че групата **по подразбиране** ще **може** да отиде на Евро 2016.
+За извеждането на резултата, за да си спестим една проверка (`else`) в конструкцията приемаме, че групата **по подразбиране** ще **може** да отиде на Евро 2016.
 
-```cs
-moneyDifference = budget - transportCharges - moneyForTickets;
-string result = string.Format(
-    "Yes! You have {0:F2} leva left.",
-    decimal.Round(moneyDifference, 2));
-
-if (moneyDifference < 0)
-{
-    result = string.Format(
-        "Not enough money! You need {0:F2} leva.",
-        Math.Abs(decimal.Round(moneyDifference, 2)));
-}
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/match-tickets_calc-money-left.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-```cs
-Console.WriteLine(result);
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/match-tickets_output.png)
 
 ### Тестване в Judge системата
 
@@ -823,7 +585,7 @@ Console.WriteLine(result);
 
 _Трета задача от междинния изпит на 28 август 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/274#2**](https://judge.softuni.bg/Contests/Practice/Index/274#2)._
 
-Хотел предлага **2 вида стаи**: **студио и апартамент**.
+Хотел предлага **два вида стаи**: **студио и апартамент**.
 
 Напишете програма, която изчислява **цената за целия престой за студио и апартамент**. **Цените** зависят от **месеца** на престоя:
 
@@ -889,14 +651,14 @@ _Трета задача от междинния изпит на 28 август
 
 ### Входни данни
 
-Входът се чете от **конзолата** и съдържа **точно 2 реда**:
+Входът се чете от **конзолата** и съдържа **точно два реда**:
 
 - На **първия** ред е **месецът** – **May**, **June**, **July**, **August**, **September** или **October**
 - На **втория** ред е **броят на нощувките** – **цяло число в интервала** **[0...200]**
 
 ### Изходни данни
 
-Да се **отпечатат** на конзолата **2 реда**:
+Да се **отпечатат** на конзолата **два реда**:
 
 - На **първия ред**: &quot;**Apartment: { цена за целият престой } lv**&quot;.
 - На **втория ред**: &quot;**Studio: { цена за целият престой } lv**&quot;.
@@ -941,113 +703,41 @@ _Трета задача от междинния изпит на 28 август
 
 #### 1. Обработка на входнните данни
 
-Съгласно условието на задачата очакваме да получим 2 реда входни данни - на първият ред <strong>месеца през който се планува престой</strong>, а на вторият ред <strong>броят на нощувките</strong>.
+Съгласно условието на задачата очакваме да получим два реда входни данни - на първият ред <strong>месеца през който се планува престой</strong>, а на вторият ред <strong>броят на нощувките</strong>.
 
 Нека си обработим и запазим входните данни в подходящи за това параметри:
 
-```cs 
-string month = Console.ReadLine();
-int nights = int.Parse(Console.ReadLine());
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_input.png)
 
 #### 2. Изчисления
 
 След това да си създадем и инициализираме нужните ни за изчисленията променливи:
 
-```cs 
-decimal studioPrice = 50.00M;
-decimal apartmentPrice = 65.00M;
-decimal studioRent = 0.00M;
-decimal apartmentRent = 0.00M;
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_params.png)
 
 Нека отново прегледаме условието. Забеляваме, че основната ни логика зависи от това какъв **месец** ни е подаден, като същевременно и зависим от броят на **нощувките**.
 
-Като цяло има различни подходи и начини да се направят въпросните проверки, но нека се спрем на основна условна конструкция <strong>switch-case</strong>, като в различните <strong>case</strong> блокове ще използваме съответно условни конструкции <strong>if</strong> и <strong>if-else</strong>.
+Като цяло има различни подходи и начини да се направят въпросните проверки, но нека се спрем на основна условна конструкция `switch-case`, като в различните `case` блокове ще използваме съответно условни конструкции `if` и `if-else`.
 
 Нека започнем с първата група месеци: **Май** и **Октомври**. За тези два месеца <strong>цената на престой ни е еднаква</strong> и за двата типа настаняване - в студио и в апартамент. Съответно ни остава само да направим вътрешна проверка спрямо <strong>броят нощувки</strong>, за да преизчислим ако се налага <strong>с колко да се промени съответната цена</strong>.
 
-```cs
-switch (month)
-{
-    case "May":
-    case "October":
-        studioPrice = 50.00M;
-        apartmentPrice = 65.00M;
-
-        studioRent = studioPrice * nights;
-        apartmentRent = apartmentPrice * nights;
-
-        if (nights > 14)
-        {
-            studioRent *= 0.70M;
-            apartmentRent *= 0.90M;
-        }
-        else if (nights > 7)
-        {
-            studioRent *= 0.95M;
-        }
-
-        break;
-    ...............
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_switch-first-part.png)
 
 Съответно за последващите месеци и групи от месеци логиката и изчисленията ни ще са донякъде идентични. 
 
-```cs
-    case "June":
-    case "September":
-        studioPrice = .......;
-        apartmentPrice = .......;
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_switch-second-part.png)
 
-        studioRent = ...........;
-        apartmentRent = ...........;
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_switch-third-part.png)
 
-        if (nights > 14)
-        {
-            studioRent ...........;
-            apartmentRent ...........;
-        }
+След като изчислим какви ще са ни съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни параметри - `studioInfo` и `apartmentInfo`.
 
-        break;
-```
-```cs
-    case "July":
-    case "August":
-        studioPrice = .......;
-        apartmentPrice = .......;
-
-        studioRent = ...........;
-        apartmentRent = ...........;
-
-        if (.........)
-        {
-            ..............
-        }
-
-        break;
-    default:
-        break;
-}
-```
-
-След като изчислим какви ще са ни съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни параметри - <strong>studioInfo</strong> и <strong>apartmentInfo</strong>.
-
-```cs
-string studioInfo = string.Format(
-    "Studio: {0:F2} lv.", decimal.Round(studioRent, 2));
-string apartmentInfo = string.Format(
-    "Apartment: {0:F2} lv.", decimal.Round(apartmentRent, 2));
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_result.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчислените резултати на конзолата:
 
-```cs
-Console.WriteLine(apartmentInfo);
-Console.WriteLine(studioInfo);
-```
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_output.png)
 
 ### Тестване в Judge системата
 
