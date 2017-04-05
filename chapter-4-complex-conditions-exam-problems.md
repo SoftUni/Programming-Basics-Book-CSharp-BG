@@ -442,7 +442,7 @@ _Трета задача от междинния изпит на 26 март 201
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operations-between-numbers_output.png)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/output.png)
 
 ### Тестване в Judge системата
 
@@ -721,23 +721,23 @@ _Трета задача от междинния изпит на 28 август
 
 Нека започнем с първата група месеци: **Май** и **Октомври**. За тези два месеца <strong>цената на престой ни е еднаква</strong> и за двата типа настаняване - в студио и в апартамент. Съответно ни остава само да направим вътрешна проверка спрямо <strong>броят нощувки</strong>, за да преизчислим ако се налага <strong>с колко да се промени съответната цена</strong>.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_switch-first-part.png)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_switch-first-part.png)
 
 Съответно за последващите месеци и групи от месеци логиката и изчисленията ни ще са донякъде идентични. 
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_switch-second-part.png)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_switch-second-part.png)
 
 ![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_switch-third-part.png)
 
 След като изчислим какви ще са ни съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни параметри - `studioInfo` и `apartmentInfo`.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_result.png)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_result.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчислените резултати на конзолата:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room_output.png)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_output.png)
 
 ### Тестване в Judge системата
 
