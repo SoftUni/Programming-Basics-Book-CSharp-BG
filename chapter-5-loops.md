@@ -13,7 +13,7 @@
 
 ## Повторения на блокове код (for-цикъл)
 
-В програмирането често пъти се налага **да изпълним блок с команди няколко пъти**. За целта в езиците за програмиране се използват **цикли**. Да разгледаме един пример за `for` цикъл:
+В програмирането често пъти се налага **да изпълним блок с команди няколко пъти**. За целта в езиците за програмиране се използват **цикли**. Да разгледаме един пример за `for` цикъл: 
 
 ```cs
 for (var i = 1; i <= 10; i++)
@@ -142,7 +142,9 @@ for (var i = 1; i <= n; i++)
 {
    var num = int.Parse(Console.ReadLine());
    if (num > max)
+   {
       max = num;
+   }
 }
 Console.WriteLine("max = " + max);
 ```
@@ -167,7 +169,9 @@ for (var i = 1; i <= n; i++)
 {
    var num = int.Parse(Console.ReadLine());
    if (num < min)
+   {
       min = num;
+   }
 }
 Console.WriteLine("min = " + min);
 ```
@@ -189,13 +193,18 @@ Console.WriteLine("min = " + min);
 var n = int.Parse(Console.ReadLine());
 var leftSum = 0;
 for (var i = 0; i < n; i++)
+{
   leftSum = leftSum + int.Parse(Console.ReadLine());
-// TODO: read and calculate the rightSum
-if (leftSum == rightSum)
-  Console.WriteLine("Yes, sum = " + leftSum);
-else
-  Console.WriteLine("No, diff = " + 
-    Math.Abs(rightSum - leftSum));
+  // TODO: read and calculate the rightSum
+  if (leftSum == rightSum)
+  {
+     Console.WriteLine("Yes, sum = " + leftSum);
+  }
+  else
+  {
+     Console.WriteLine("No, diff = " + Math.Abs(rightSum - leftSum));
+  }
+}
 ```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#6
 
@@ -217,8 +226,14 @@ var evenSum = 0;
 for (var i = 0; i < n; i++)
 {
   var element = int.Parse(Console.ReadLine());
-  if (i % 2 == 0) oddSum += element;
-  else evenSum += element;
+  if (i % 2 == 0)
+  {
+    oddSum += element;
+  }
+  else 
+  {
+    evenSum += element;
+  }
 }
 // TODO: print the sum / difference
 ```
@@ -244,11 +259,28 @@ for (var i = 0; i < n; i++)
 var s = Console.ReadLine();
 var sum = 0;
 for (int i = 0; i < s.Length; i++)
-  if (s[i] == 'a') sum += 1;
-  else if (s[i] == 'e') sum += 2;
-  else if (s[i] == 'i') sum += 3;
-  else if (s[i] == 'o') sum += 4;
-  else if (s[i] == 'u') sum += 5;
+{
+  if (s[i] == 'a')
+  {
+    sum += 1;
+  }
+  else if (s[i] == 'e') 
+  {
+    sum += 2;
+  }
+  else if (s[i] == 'i') 
+  {
+    sum += 3;
+  }
+  else if (s[i] == 'o') 
+  {
+    sum += 4;
+  }
+  else if (s[i] == 'u')
+  {
+    sum += 5;
+  }
+}
 Console.WriteLine("Vowels sum = " + sum);
 ```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#8 
