@@ -42,7 +42,7 @@ for (var i = 1; i <= 10; i++)
 
 ![](/assets/chapter-5-loops-images/test-numbers-1-to-100.png)
 
-Решението може да се тества в judge системата: [https://judge.softuni.bg/Contests/154](https://judge.softuni.bg/Contests/Practice/Index/154#0).
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#0.
 Трябва да получите **100 точки** (напълно коректно решение).
 
 ## Code Snippet за for цикъл във Visual Studio
@@ -69,7 +69,7 @@ for (var i = 1; i <= 1000; i++)
 }
 ```
 
-Решението може да се тества в judge системата: [https://judge.softuni.bg/Contests/154](https://judge.softuni.bg/Contests/Practice/Index/154#1).
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#1.
 
 ## Пример: всички латински букви
 
