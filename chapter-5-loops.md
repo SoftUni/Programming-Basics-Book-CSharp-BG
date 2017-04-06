@@ -1,6 +1,6 @@
 # Глава 5. Повторения (цикли)
 
-В настоящата глава ще се запознаем с конструкциите за **повторение на група команди**, известни в програмирането с понятието "**цикли**". Ще напишем няколко цикъла с използване на оператора `for` в най-простата му форма и ще използваме цикли, за да решим няколко практически задачи, изискващи повторение на поредица от действия.
+В настоящата глава ще се запознаем с конструкциите за **повторение на група команди**, известни в програмирането с понятието "**цикли**". Ще напишем няколко цикъла с използване на оператора `for` в най-простата му форма. Ще решим няколко практически задачи, изискващи повторение на поредица от действия, като използваме цикли.
 
 ## Видео
 
@@ -13,7 +13,7 @@
 
 ## Повторения на блокове код (for-цикъл)
 
-В програмирането често пъти се налага **да изпълним блок с команди няколко пъти**. За целта в езиците за програмиране се използват **цикли**. Да разгледаме един пример за `for` цикъл:
+В програмирането често пъти се налага **да изпълним блок с команди няколко пъти**. За целта в езиците за програмиране се използват **цикли**. Да разгледаме един пример за `for` цикъл: 
 
 ```cs
 for (var i = 1; i <= 10; i++)
@@ -28,7 +28,7 @@ for (var i = 1; i <= 10; i++)
 
 ![](/assets/chapter-5-loops-images/for-loop-explained.png)
 
-В повечето случаи един `for` цикъл се завърта от `1` до `n` (примерно от 1 до 10). Целта на цикъла е да се премине последователно през числата 1, 2, 3, ..., n и за всяко от тях да се изпълни някакво действие. В примера по-горе променливата `i` приема стойности от 1 до 10 и в тялото на цикъла сe отпечатва текущата стойност. Цикълът се повтаря 10 пъти и всяко от тези повторения се нарича "**итерация**".
+В повечето случаи един `for` цикъл се завърта от `1` до `n` (например от 1 до 10). Целта на цикъла е да се премине последователно през числата 1, 2, 3, ..., n и за всяко от тях да се изпълни някакво действие. В примера по-горе променливата `i` приема стойности от 1 до 10 и в тялото на цикъла сe отпечатва текущата стойност. Цикълът се повтаря 10 пъти и всяко от тези повторения се нарича "**итерация**".
 
 ## Пример: Числа от 1 до 100
 
@@ -42,7 +42,7 @@ for (var i = 1; i <= 10; i++)
 
 ![](/assets/chapter-5-loops-images/test-numbers-1-to-100.png)
 
-Решението може да се тества в judge системата: [https://judge.softuni.bg/Contests/154](https://judge.softuni.bg/Contests/154).
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#0.
 Трябва да получите **100 точки** (напълно коректно решение).
 
 ## Code Snippet за for цикъл във Visual Studio
@@ -60,7 +60,7 @@ for (var i = 1; i <= 10; i++)
 Задачата можем да решим като комбинираме `for` **цикъл** за преминаваме по числата от 1 до 1000 и **проверка** за всяко число дали завършва на 7. Има и други решения, разбира се, но нека решим задачата чрез **завъртане на цикъл + проверка**:
 
 ```cs
-for (var i = 0; i <= 1000; i++)
+for (var i = 1; i <= 1000; i++)
 {
    if (i % 10 == 7)
    {
@@ -69,7 +69,7 @@ for (var i = 0; i <= 1000; i++)
 }
 ```
 
-Решението може да се тества в judge системата: [https://judge.softuni.bg/Contests/154](https://judge.softuni.bg/Contests/154).
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#1.
 
 ## Пример: всички латински букви
 
@@ -85,7 +85,7 @@ for (var letter = 'a'; letter <= 'z'; letter++)
 Console.WriteLine();
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#2
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#2.
 
 ## Пример: сумиране на числа
 
@@ -122,7 +122,7 @@ for (var i = 0; i < n; i++)
 Console.WriteLine("sum = " + sum);
 
 ```
-Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/154.
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#3.
 
 ## Пример: най-голямо число
 
@@ -142,7 +142,9 @@ for (var i = 1; i <= n; i++)
 {
    var num = int.Parse(Console.ReadLine());
    if (num > max)
+   {
       max = num;
+   }
 }
 Console.WriteLine("max = " + max);
 ```
@@ -167,7 +169,9 @@ for (var i = 1; i <= n; i++)
 {
    var num = int.Parse(Console.ReadLine());
    if (num < min)
+   {
       min = num;
+   }
 }
 Console.WriteLine("min = " + min);
 ```
@@ -189,13 +193,18 @@ Console.WriteLine("min = " + min);
 var n = int.Parse(Console.ReadLine());
 var leftSum = 0;
 for (var i = 0; i < n; i++)
+{
   leftSum = leftSum + int.Parse(Console.ReadLine());
-// TODO: read and calculate the rightSum
-if (leftSum == rightSum)
-  Console.WriteLine("Yes, sum = " + leftSum);
-else
-  Console.WriteLine("No, diff = " + 
-    Math.Abs(rightSum - leftSum));
+  // TODO: read and calculate the rightSum
+  if (leftSum == rightSum)
+  {
+     Console.WriteLine("Yes, sum = " + leftSum);
+  }
+  else
+  {
+     Console.WriteLine("No, diff = " + Math.Abs(rightSum - leftSum));
+  }
+}
 ```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#6
 
@@ -217,8 +226,14 @@ var evenSum = 0;
 for (var i = 0; i < n; i++)
 {
   var element = int.Parse(Console.ReadLine());
-  if (i % 2 == 0) oddSum += element;
-  else evenSum += element;
+  if (i % 2 == 0)
+  {
+    oddSum += element;
+  }
+  else 
+  {
+    evenSum += element;
+  }
 }
 // TODO: print the sum / difference
 ```
@@ -244,11 +259,28 @@ for (var i = 0; i < n; i++)
 var s = Console.ReadLine();
 var sum = 0;
 for (int i = 0; i < s.Length; i++)
-  if (s[i] == 'a') sum += 1;
-  else if (s[i] == 'e') sum += 2;
-  else if (s[i] == 'i') sum += 3;
-  else if (s[i] == 'o') sum += 4;
-  else if (s[i] == 'u') sum += 5;
+{
+  if (s[i] == 'a')
+  {
+    sum += 1;
+  }
+  else if (s[i] == 'e') 
+  {
+    sum += 2;
+  }
+  else if (s[i] == 'i') 
+  {
+    sum += 3;
+  }
+  else if (s[i] == 'o') 
+  {
+    sum += 4;
+  }
+  else if (s[i] == 'u')
+  {
+    sum += 5;
+  }
+}
 Console.WriteLine("Vowels sum = " + sum);
 ```
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#8 
