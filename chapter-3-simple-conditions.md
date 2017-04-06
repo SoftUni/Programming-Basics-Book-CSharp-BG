@@ -23,7 +23,7 @@
 
 1. Оператор **==** (равно)
 
-При сравнение ни се връща булева стойност `True` или `False` в зависимост от това, дали сравнението е вярно.
+При сравнение получаваме булева стойност `True` или `False` в зависимост от това, дали сравнението е вярно или грешно.
 
 ### Пример: 
 
@@ -143,7 +143,6 @@ else
 var color = "red";
 if (color == "red")
   Console.WriteLine("tomato");
-  Console.WriteLine("cherry");
 else if (color == "yellow")
   Console.WriteLine("banana");
   Console.WriteLine("lemon");
@@ -153,7 +152,6 @@ else if (color == "yellow")
 
 ```cs
 tomato
-cherry
 lemon
 ```
 
@@ -164,7 +162,6 @@ var color = "red";
 if (color == "red")
 {
   Console.WriteLine("tomato");
-  Console.WriteLine("cherry");
 }
 else if (color == "yellow")
 {
@@ -177,14 +174,13 @@ else if (color == "yellow")
 
 ```cs
 tomato
-cherry
 ```
 
 ### Пример: Четно или нечетно
 
 Да се напише програма, която проверява, дали дадено цяло число е **четно** (even) или **нечетно** (odd).
 
-Задачата можем да я решим, чрез една `if-else` конструкция и оператора `%`, който ни връща **остатък при деление** на едно число с друго.
+Задачата можем да я решим, чрез една `if-else` конструкция и оператора `%`, който връща **остатък при деление** на едно число с друго.
 
 ```cs
 var num = int.Parse(Console.ReadLine());
@@ -227,19 +223,22 @@ else
 В долния пример на последния ред, в който се опитваме да отпечатаме променливата **salary**, която е дефинирана в `if` конструкцията, ще получим **грешка**, защото нямаме достъп до нея.
 
 ```cs
-var myBankAccount = Bank.GetMyBankAccount();
-if (DateTime.Now().Day >= PayDay)
+var myMoney = 500;
+var payDayDate = 07;
+var todayDate = 10;
+if (todayDate >= payDayDate)
 {
-  var salary = Job.GetMyMonthlySalary();
-  myBankAccount = myBankAccount + salary;
+  var salary = 5000;
+  myMoney = myMoney + salary;
 }
 
-Console.WriteLine(myBankAccount);
-Console.WriteLine(salary) //Error!
+Console.WriteLine(myMoney);
+Console.WriteLine(salary); //Error!
 ```
+
 ## Серии от проверки
 
-Понякога се налага да извършим серия от проверки, преди да решим какви действия ще изпълнява нашата програмата. В такива случаи, можем да приложим конструкцията `if-else` **в серия**. За целта използваме следния формат:
+Понякога се налага да извършим серия от проверки, преди да решим какви действия ще изпълнява нашата програма. В такива случаи, можем да приложим конструкцията `if-else` **в серия**. За целта използваме следния формат:
 
 ```cs
 if (условие)
@@ -286,7 +285,7 @@ else
 }
 ```
 
-Програмната логика от примера **последователно сравнява** даденото ни число от конзолата, за да провери, дали то е единична цифра. **Всяко следващо сравнение се извършва, само в случай че предходното сравнение не е било истина**. В крайна сметка, ако никое от `if` условията не е изпълнено, се изпълнява последната `else` клауза.
+Програмната логика от примера **последователно сравнява** дадено число от конзолата, за да провери, дали то е единична цифра. **Всяко следващо сравнение се извършва, само в случай че предходното сравнение не е било истина**. В крайна сметка, ако никое от `if` условията не е изпълнено, се изпълнява последната `else` клауза.
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#4
 
@@ -335,7 +334,7 @@ else // TODO: write more logic here …
 Console.WriteLine("Total score: {0}", num + bonusScore);
 ```
 
-Ето как би могло да изглежда решението на задачата в действие:  
+Ето как би могло да изглежда решението на задачата в действие:
 
 ![](assets/chapter-3-images/problem-6-image-1.png)
 
@@ -366,10 +365,10 @@ var sec1 = int.Parse(Console.ReadLine());
 // TODO: Read also sec2 and sec3 …
 var secs = sec1 + sec2 + sec3;
 var mins = 0;
-if (sec > 59)   // TODO: Repeat this 2 times …
+if (secs > 59)   // TODO: Repeat this 2 times …
 { 
   mins++; 
-  secs = sec - 60;
+  secs = secs - 60;
 }
 if (secs < 10)
 { 
