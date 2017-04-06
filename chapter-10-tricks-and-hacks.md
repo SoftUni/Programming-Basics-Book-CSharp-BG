@@ -98,6 +98,10 @@ TODO: Дебъгване на код - работа с [F10], [F11] и breakpoin
 <p>&nbsp;&nbsp; В тази подглава ще ви покажа как се форматира с 2 десетични цифри и други полезни или основни неща в случай, че забравите.</p>
 &nbsp;&nbsp;Вкарване на променливи в стринг (string):
 ```cs
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+}
 var text = "some text"
 Console.WriteLine("{0}",text);
 //това ще изкара на конзолата "some text"
