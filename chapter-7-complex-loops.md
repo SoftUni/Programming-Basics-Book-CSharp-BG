@@ -326,7 +326,7 @@ do
 // TODO: Отпечатваме факториела.
 ```
 
-<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width: 50px;" /></td>
 <td>n % 10: <u><b>връща</b></u> последната цифра на числото n.<br>
 n / 10: <u><b>изтрива</b></u>  последната цифра на n.</td>
 </tr></table>
