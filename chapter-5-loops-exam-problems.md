@@ -15,9 +15,8 @@
 Дадени са **n цели числа** в интервала **[1…1000]**. От тях някакъв процент **p1** са под 200, друг процент __p2__ са от 200 до 399, друг процент **p3** са от 400 до 599, друг процент **p4** са от 600 до 799 и останалите **p5** процента са от 800 нагоре. Да се напише програма, която изчислява и отпечатва процентите **p1**, **p2**, **p3**, **p4** и **p5**.
 
 **Пример**: имаме n = **20** числа: 53, 7, 56, 180, 450, 920, 12, 7, 150, 250, 680, 2, 600, 200, 800, 799, 199, 46, 128, 65. Получаваме следното разпределение и визуализация:
-
                           
-| **Диапазон** | **Числа в диапазона**                           | **Брой числа** | **Процент**                     |
+| **Група**    | **Числа**                                       | **Брой числа** | **Процент**                     |
 |--------------|-------------------------------------------------|:--------------:|---------------------------------|
 | < 200        | 53, 7, 56, 180, 12, 7, 150, 2, 199, 46, 128, 65 | 12             | p1 = 12 / 20 * 100 = **60.00%** |
 | 200 … 399    | 250, 200                                        | 2              | p2 = 2 / 20 * 100 = **10.00%**  |
@@ -41,8 +40,21 @@
 <th align="left"><strong>Изход</strong></th>
 <th align="left"><strong>Вход</strong></th>
 <th align="left"><strong>Изход</strong></th>
-<th align="left"><strong>Вход</strong></th>
-<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top"><strong>3</strong><br>1<br>2<br>999</td>
+<td valign="top">66.67%<br>0.00%<br>0.00%<br>0.00%<br>33.33%</td>
+<td valign="top"><strong>4</strong><br>53<br>7<br>56<br>999</td>
+<td valign="top">75.00%<br>0.00%<br>0.00%<br>0.00%<br>25.00%</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th align="left"><strong>Вход</strong></th>
 <th align="left"><strong>Изход</strong></th>
 <th align="left"><strong>Вход</strong></th>
@@ -51,19 +63,29 @@
 </thead>
 <tbody>
 <tr>
-<td valign="top"><strong>3</strong><br><br>1<br>2<br>999</td>
-<td valign="top">66.67%<br>0.00%<br>0.00%<br>0.00%<br>33.33%</td>
-<td valign="top"><strong>4</strong><br><br>53<br>7<br>56<br>999</td>
-<td valign="top">75.00%<br>0.00%<br>0.00%<br>0.00%<br>25.00%</td>
-<td valign="top"><strong>7</strong><br><br>800<br>801<br>250<br>199<br>399<br>599<br>799</td>
+<td valign="top"><strong>7</strong><br>800<br>801<br>250<br>199<br>399<br>599<br>799</td>
 <td valign="top">14.29%<br>28.57%<br>14.29%<br>14.29%<br>28.57%</td>
-<td valign="top"><strong>9</strong><br><br>367<br>99<br>200<br>799<br>999<br>333<br>555<br>111<br>9</td>
+<td valign="top"><strong>9</strong><br>367<br>99<br>200<br>799<br>999<br>333<br>555<br>111<br>9</td>
 <td valign="top">33.33%<br>33.33%<br>11.11%<br>11.11%<br>11.11%</td>
-<td valign="top"><strong>14</strong><br><br>53<br>7<br>56<br>180<br>450<br>920<br>12<br>7<br>150<br>250<br>680<br>2<br>600<br>200</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top"><strong>14</strong><br>53<br>7<br>56<br>180<br>450<br>920<br>12<br>7<br>150<br>250<br>680<br>2<br>600<br>200</td>
 <td valign="top">57.14%<br>14.29%<br>7.14%<br>14.29%<br>7.14%</td>
 </tr>
 </tbody>
-</table>           
+</table>
+
 
 ### Насоки и подсказки
 
@@ -103,7 +125,7 @@
 
 ![Image](/assets/chapter-5-exam-preparation-images/Histograma/Histograma_Percentages.jpg)
 
-Ако разделим на **100** (число тип `int`) вместо на **100.0** (число тип `double`), ще се извърши така нареченото **целочислено деление** и в променливата ще се запази само цялата част от делението, а това не е желания от нас резултат. Например: **5 / 2 = 2**, а **5 / 2.0 = 2.5**. В тази ситуация формулата за ървата променлива ще изглежда по следния начин: 
+Ако разделим на **100** (число тип `int`) вместо на **100.0** (число тип `double`), ще се извърши така нареченото **целочислено деление** и в променливата ще се запази само цялата част от делението, а това не е желания от нас резултат. Например: **5 / 2 = 2**, а **5 / 2.0 = 2.5**. Имайки това предвид, формулата за първата променлива ще изглежда така: 
 
 ![Image](/assets/chapter-5-exam-preparation-images/Histograma/Histogram_Percentage_Formula.JPG)
 
@@ -111,7 +133,7 @@
 
 |**Вход**|**Изход**|
 |--------|---------|
-|**3**<br><br>1<br>2<br>999|66.67%<br>0.00%<br>0.00%<br>0.00%<br>33.33%|
+|**3**<br>1<br>2<br>999|66.67%<br>0.00%<br>0.00%<br>0.00%<br>33.33%|
 
 В случая **n = 3**.
 За цикъла имаме:
@@ -392,8 +414,8 @@ ________________________________________________________________________________
 <thead>
 <tr>
 <th align="left"><strong>Деление без остатък на:</strong></th>
-<th align="left"><strong>Числа в диапазона</strong></th>
-<th align="left"><strong>Брой числа</strong></th>
+<th align="left"><strong>Числа</strong></th>
+<th align="left"><strong>Брой</strong></th>
 <th align="left"><strong>Процент</strong></th>
 </tr>
 </thead>
@@ -402,7 +424,7 @@ ________________________________________________________________________________
 <td valign="top">2</td>
 <td valign="top">680, 2, 600, 200, 800, 46, 128</td>
 <td valign="top">7</td>
-<td valign="top">p1 = (7.0 / 10) * 100 = <strong>70.00%</strong></td>
+<td valign="top">p1 = (7 / 10) * 100 = <strong>70.00%</strong></td>
 </tr>
 <tr>
 <td valign="top">3</td>
@@ -499,8 +521,6 @@ ________________________________________________________________________________
 <th align="left"><strong>Вход</strong></th>
 <th align="left"><strong>Изход</strong></th>
 <th align="left"><strong>Обяснения</strong></th>
-<th align="left"><strong>Вход</strong></th>
-<th align="left"><strong>Изход</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -508,11 +528,24 @@ ________________________________________________________________________________
 <td valign="top">4<br>1<br>5<br>16<br>3</td>
 <td valign="top">143.80<br>16.00%<br>20.00%<br>64.00%</td>
 <td valign="top"><p>Всички товари 1 + 5 + 16 + 3 = 25 тона<br>(4 * 200 + 5 * 175 + 16 * 120)/25 = 143.80 (средно на тон)<br>С микробус – 4/25*100 = 16.00%<br>С камион – 5/25*100 = 20.00%<br>С влак – 16/25*100 = 64.00%</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
 <td valign="top">5<br>2<br>10<br>20<br>1<br>7</td>
 <td valign="top">149.38<br>7.50%<br>42.50%<br>50.00%</td>
 </tr>
 </tbody>
-</table>    
+</table>
 
 ### Насоки и подсказки
 
