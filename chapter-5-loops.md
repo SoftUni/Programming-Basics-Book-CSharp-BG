@@ -42,7 +42,7 @@ for (var i = 1; i <= 10; i++)
 
 ![](/assets/chapter-5-loops-images/test-numbers-1-to-100.png)
 
-Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#0.
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/510#0.
 Трябва да получите **100 точки** (напълно коректно решение).
 
 ## Code Snippet за for цикъл във Visual Studio
@@ -51,7 +51,7 @@ for (var i = 1; i <= 10; i++)
 
 ![](/assets/chapter-5-loops-images/for-loop-code-snippet.png)
 
-**Опитайте сами**, за да усвоите умението да ползвате шаблона за код `for` във Visual Studio.
+**Опитайте сами**, за да усвоите умението да ползвате шаблона за код за `for` цикъл във Visual Studio.
 
 ## Пример: числа до 1000, завършващи на 7
 
@@ -69,12 +69,12 @@ for (var i = 1; i <= 1000; i++)
 }
 ```
 
-Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#1.
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/510#1.
 
 ## Пример: всички латински букви
 
 Да се напише програма, която отпечатва буквите от латинската азбука: **a, b, c, …, z**.
-For-циклите работят не само с числа, може и с букви:
+Тук трябва да се отбележи, че `for` циклите не работят само с числа. Може да решим задачата като завъртим `for` цикъл, който преминава последователно през всички букви от латинската азбука:
 
 ```cs
 Console.Write("Latin alphabet:");
@@ -85,7 +85,7 @@ for (var letter = 'a'; letter <= 'z'; letter++)
 Console.WriteLine();
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#2.
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/510#2.
 
 ## Пример: сумиране на числа
 
@@ -122,7 +122,7 @@ for (var i = 0; i < n; i++)
 Console.WriteLine("sum = " + sum);
 
 ```
-Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/154#3.
+Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/510#3.
 
 ## Пример: най-голямо число
 
