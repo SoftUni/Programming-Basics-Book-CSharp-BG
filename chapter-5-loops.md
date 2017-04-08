@@ -42,7 +42,7 @@ for (var i = 1; i <= 10; i++)
 
 ![](/assets/chapter-5-loops-images/test-numbers-1-to-100.png)
 
-Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/510#0.
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#0.
 Трябва да получите **100 точки** (напълно коректно решение).
 
 ## Code Snippet за for цикъл във Visual Studio
@@ -69,7 +69,7 @@ for (var i = 1; i <= 1000; i++)
 }
 ```
 
-Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/510#1.
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#1.
 
 ### Задача: Всички латински букви
 
@@ -85,7 +85,7 @@ for (var letter = 'a'; letter <= 'z'; letter++)
 Console.WriteLine();
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/510#2.
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#2.
 
 ### Задача: Сумиране на числа
 
@@ -122,7 +122,7 @@ for (var i = 0; i < n; i++)
 Console.WriteLine("sum = " + sum);
 
 ```
-Решението може да се тества в judge системата: https://judge.softuni.bg/Contests/Practice/Index/510#3.
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#3.
 
 ### Задача: Най-голямо число
 
@@ -148,7 +148,7 @@ for (var i = 1; i <= n; i++)
 }
 Console.WriteLine("max = " + max);
 ```
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/510#4.
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#4.
 
 
 ### Задача: Най-малко число
@@ -176,37 +176,38 @@ for (var i = 1; i <= n; i++)
 Console.WriteLine("min = " + min);
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/510#5.
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#5.
 
 
 ### Задача: Лява и дясна сума
 
-Да се напише програма, която въвежда 2 &#42; **n** числа и проверява дали **сумата на първите n числа** (лява сума) е равна на **сумата на вторите n числа** (дясна сума). При равенство се печата **"Yes" + сумата**, иначе се печата **"No" + разликата**. Разликата се изчислява като положително число (по абсолютна стойност). Примери:
+Да се напише програма, която въвежда 2 &#42; **n** цели числа и проверява дали **сумата на първите n числа** (лява сума) е равна на **сумата на вторите n числа** (дясна сума). При равенство се печата **"Yes" + сумата**, иначе се печата **"No" + разликата**. Разликата се изчислява като положително число (по абсолютна стойност). Примери:
 
 | Вход | Изход | Вход | Изход |
 | :--- | :--- | :--- | :--- | 
 | 2<br>10<br>90<br>60<br>40 | Yes, sum = 100 | 2<br>90<br>9<br>50<br>50 | No, diff = 1 |
 
-Първо въвеждаме числото **n**, след това първите **n** числа (**лявата** половина) и ги сумираме. Продължаваме с въвеждането на още **n** числа (**дясната** половина) и намирае и тяхната сума. Изчисляваме **разликата** между намерените суми по абсолютна стойност: **Math.Abs(leftSum - rightSum)**. Ако разликата е **0**, отпечатваме **"Yes" + сумата**, ако не - отпечатваме **"No" + разликата**.
+Първо въвеждаме числото **n**, след това първите **n** числа (**лявата** половина) и ги сумираме. Продължаваме с въвеждането на още **n** числа (**дясната** половина) и намираме и тяхната сума. Изчисляваме **разликата** между намерените суми по абсолютна стойност: **Math.Abs(leftSum - rightSum)**. Ако разликата е **0**, отпечатваме **"Yes" + сумата**, в противен случай - отпечатваме **"No" + разликата**.
 
 ```cs
 var n = int.Parse(Console.ReadLine());
 var leftSum = 0;
+var rightSum = 0;
 for (var i = 0; i < n; i++)
 {
-  leftSum = leftSum + int.Parse(Console.ReadLine());
-  // TODO: read and calculate the rightSum
-  if (leftSum == rightSum)
-  {
-     Console.WriteLine("Yes, sum = " + leftSum);
-  }
-  else
-  {
-     Console.WriteLine("No, diff = " + Math.Abs(rightSum - leftSum));
-  }
+  leftSum = leftSum + int.Parse(Console.ReadLine());  
+}
+// TODO: read and calculate the rightSum
+if (leftSum == rightSum)
+{
+  Console.WriteLine("Yes, sum = " + leftSum);
+}
+else
+{
+  Console.WriteLine("No, diff = " + Math.Abs(rightSum - leftSum));
 }
 ```
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/154#6
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#6.
 
 
 ### Задача: Четна / нечетна сума
