@@ -461,6 +461,7 @@ Console.WriteLine(size + " " + destMetric);
 Създайте празно решение (**Blank Solution**) във Visual Studio, за да организирате решенията на задачите от упражненията – всяка задача ще бъде в отделен проект и всички проекти ще бъдат в общ solution.
 
 1. Стартирайте Visual Studio.
+
 2. Създайте нов **Blank Solution**: [File] -> [New] -> [Project]. 
 
 ![](assets/chapter-3-images/problem-0-image-1.png)
@@ -493,6 +494,7 @@ Console.WriteLine(size + " " + destMetric);
 ![](assets/chapter-3-images/problem-1-image-2.png)  
 
 Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
+
 3. Отидете в тялото на метода `Main(string[] args)` и напишете решението на задачата. Можете да си помогнете с кода от картинката по-долу:  
 
 ![](assets/chapter-3-images/problem-1-image-3.png)
@@ -521,8 +523,11 @@ Console.WriteLine(size + " " + destMetric);
 | 5.49 | Not excellent. |
 
 1. Първо създайте **нов C# конзолен проект** в решението “**Simple-Conditions**”.
+
  - Кликнете с мишката върху решението в Solution Explorer и изберете [Add] -> [**New Project…**].
+ 
  - Изберете [Visual C#] -> [Windows] -> [**Console Application**] и задайте име “**Excellent-or-Not**”.
+ 
 2. **Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:  
 
 ![](assets/chapter-3-images/problem-2-image-1.png)
@@ -556,7 +561,9 @@ Console.WriteLine(size + " " + destMetric);
 | 1024 | odd |
 
 1. Първо добавете **нов C# конзолен проект** в съществуващия solution.
+
 2. **Напишете кода** на програмата. Проверката за четност може да се реализира чрез проверка на **остатъка при деление на 2** по следния начин: `var even = (num % 2 == 0)`.
+
 3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:  
 
 ![](assets/chapter-3-images/problem-3-image-1.png)
@@ -575,7 +582,9 @@ Console.WriteLine(size + " " + destMetric);
 | -5 <br/> 5 | 5 |
 
 1. Първо добавете **нов C# конзолен проект** в съществуващия solution.
+
 2. **Напишете кода** на програмата. Необходима е единична `if-else` конструкция.
+
 3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:
 
 ![](assets/chapter-3-images/problem-4-image-1.png)
@@ -751,6 +760,7 @@ Console.WriteLine(size + " " + destMetric);
      - `TextAlign` = `MiddleCenter`
      - `Font.Size` = **14**
      - `Font.Bold` = `True`
+     
 4. Хванете следните **събития**, за да напишете C# кода, който ще се изпълни при настъпването им:
   - Събитието `ValueChanged` на контролата за въвеждане на число `numericUpDownAmount`: 
   
@@ -758,6 +768,7 @@ Console.WriteLine(size + " " + destMetric);
 
   - Събитието `Load` на формата `FormConverter`.
   - Събитието `SelectedIndexChanged` на падащия списък за избор на валута `comboBoxCurrency`.
+  
 5. Напишете следния **C# код** за обработка на събитията:
 
         private void FormConverter_Load(object sender, EventArgs e)
