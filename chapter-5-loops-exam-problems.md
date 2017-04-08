@@ -109,7 +109,7 @@
 
 След като сме си декларирали нужните променливи, можем да пристъпим към прочитането на числото **n** от конзолата:
 
-![Image](/assets/chapter-5-exam-preparation-images/Histograma/Histograma_ReadingN.jpg)</p>
+![Image](/assets/chapter-5-exam-preparation-images/Histograma/Histograma_ReadingN.jpg)
 
   2.    **Обработка на входните данни:** <br>
   
