@@ -165,7 +165,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 И накрая остава да изведем резултата на конзолата. Тъй като по задание ако студентът е дошъл точно на време (без нито една минута разлика) не трябва да изваждаме втори резултат, правим **проверка** дали да изваждаме вторият резултат.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/on-time-for-the-exam_output.PNG)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/output.PNG)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Реално за целите на задачата извеждането на резултата <strong>на конзолата</strong> може да бъде направен и в по-ранен етап - още при самите изчисления. Това като цяло не е много добра практика. <strong>Защо?</strong>
@@ -721,7 +721,7 @@ _Трета задача от междинния изпит на 28 август
 
 Нека започнем с първата група месеци: **Май** и **Октомври**. За тези два месеца <strong>цената на престой ни е еднаква</strong> и за двата типа настаняване - в студио и в апартамент. Съответно ни остава само да направим вътрешна проверка спрямо <strong>броят нощувки</strong>, за да преизчислим ако се налага <strong>с колко да се промени съответната цена</strong>.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_switch-first-part.PNG)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-first-part.PNG)
 
 Съответно за последващите месеци и групи от месеци логиката и изчисленията ни ще са донякъде идентични. 
 
@@ -731,7 +731,7 @@ _Трета задача от междинния изпит на 28 август
 
 След като изчислим какви ще са ни съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни параметри - `studioInfo` и `apartmentInfo`.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/hotel-room_result.PNG)
+![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/result.PNG)
 
 #### 3. Показване на резултата
 
