@@ -33,44 +33,58 @@
 
 ### Примерен вход и изход
 
-| **Вход**| **Изход**| **Вход** | **Изход**|
-|---------|----- ----|----------|----------|
-| **3**   | 66.67%   | **4**    | 75.00%   |
-| 1       | 0.00%    | 53       | 0.00%    |
-| 2       | 0.00%    | 7        | 0.00%    |
-| 999     | 0.00%    | 56       | 0.00%    |
-|         | 33.33%   | 999      | 25.00%   |
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top"><strong>3</strong><br>1<br>2<br>999</td>
+<td valign="top">66.67%<br>0.00%<br>0.00%<br>0.00%<br>33.33%</td>
+<td valign="top"><strong>4</strong><br>53<br>7<br>56<br>999</td>
+<td valign="top">75.00%<br>0.00%<br>0.00%<br>0.00%<br>25.00%</td>
+</tr>
+</tbody>
+</table>
 
-| **Вход**| **Изход**| **Вход** | **Изход**|
-|---------|----- ----|----------|----------|
-| **7**   | 14.29%   | **9**    | 33.33%   |
-| 800     | 28.57%   | 367      | 33.33%   |
-| 801     | 14.29%   | 99       | 11.11%   |
-| 250     | 14.29%   | 200      | 11.11%   |
-| 199     | 28.57%   | 799      | 11.11%   |
-| 399     |          | 999      |          |
-| 599     |          | 333      |          |
-| 799     |          | 555      |          |
-|         |          | 111      |          |
-|         |          | 9        |          |
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top"><strong>7</strong><br>800<br>801<br>250<br>199<br>399<br>599<br>799</td>
+<td valign="top">14.29%<br>28.57%<br>14.29%<br>14.29%<br>28.57%</td>
+<td valign="top"><strong>9</strong><br>367<br>99<br>200<br>799<br>999<br>333<br>555<br>111<br>9</td>
+<td valign="top">33.33%<br>33.33%<br>11.11%<br>11.11%<br>11.11%</td>
+</tr>
+</tbody>
+</table>
 
-| **Вход**| **Изход**|
-|---------|----- ----|
-| **14**  | 14.29%   |
-| 53      | 28.57%   |
-| 7       | 14.29%   |
-| 56      | 14.29%   |
-| 180     | 28.57%   |
-| 450     |          |
-| 920     |          |
-| 12      |          |
-| 7       |          |
-| 150     |          |
-| 250     |          |
-| 680     |          |
-| 2       |          |
-| 600     |          |
-| 200     |          |
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top"><strong>14</strong><br>53<br>7<br>56<br>180<br>450<br>920<br>12<br>7<br>150<br>250<br>680<br>2<br>600<br>200</td>
+<td valign="top">57.14%<br>14.29%<br>7.14%<br>14.29%<br>7.14%</td>
+</tr>
+</tbody>
+</table>
 
 ### Насоки и подсказки
 
