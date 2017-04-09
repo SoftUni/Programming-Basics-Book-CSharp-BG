@@ -9,8 +9,7 @@
 
 ## Видео
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="_blank"
-    href="https://www.youtube.com/watch?v=0f7c9RIZGaE">https://www.youtube.com/watch?v=0f7c9RIZGaE</a>.
+  Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=0f7c9RIZGaE">https://www.youtube.com/watch?v=0f7c9RIZGaE</a>.
 </div>
 <script src="/assets/js/video.js"></script>
 
@@ -36,7 +35,7 @@ Console.WriteLine(area);
 Ето как би работила програмата при квадрат със размер на страната 3:
 ![squareArea](/assets/chapter-2-images/squareArea.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#0
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/504#0
 
 ## Пресмятания в програмирането
 
@@ -78,7 +77,7 @@ Console.WriteLine(centimeters);
 
 ![inchesToCm](/assets/chapter-2-images/inchesToCm.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#1
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/504#1
 
 ## Четене и печатане на текст
 
@@ -99,7 +98,7 @@ Console.WriteLine("Hello, {0}!", name);
 В случая, изразът {0} се замества с първия подаден аргумент -  в примера променливата "name":
 ![greetingByName](/assets/chapter-2-images/greetingByName.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#2
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/504#2
 
 ## Съединяване на текст и числа
 
@@ -118,7 +117,7 @@ Console.WriteLine(
 
 Обърнете внимание, как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество,  шаблонът (плейсхолдър) приема променливи от всякакъв вид. Не се допуска да има шаблони, които да имат една и съща поредност, т.е. два или повече шаблона под номер 2. В такъв случай, вашата програма няма да се компилира. 
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/151#3
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/504#3
 
 ## Аритметични операции събиране и изваждане
 
@@ -219,7 +218,7 @@ var h = double.Parse(Console.ReadLine());
 var area = (b1 + b2) * h / 2.0;
 Console.WriteLine("Trapezoid area = " + area);
 ```
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/151#4
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/504#4
 
 ## Периметър и лице на кръг – пример
 
@@ -238,7 +237,7 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 Нека изпробваме програмата с радиус = 10:
 ![circleArea](/assets/chapter-2-images/circleArea.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/151#5
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/504#5
 
 ## Лице на правоъгълник в равнината – пример
 
@@ -260,7 +259,7 @@ Console.WriteLine("Perimeter = {0}", 2 * (width + height));
 
 ![rectangleAreaExample](/assets/chapter-2-images/rectangleAreaExample.png)
 
-TODO: judge link
+Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/504#6
 
 ## Какво научихме от тази глава?
 
@@ -331,7 +330,7 @@ TODO: judge link
 <img alt="result" src="/assets/chapter-2-images/problems/02SquareArea/04result.png" />
 </p>
 
-5.	**Тествайте** решението си в **judge системата:** https://judge.softuni.bg/Contests/Practice/Index/151#0. Трябва да получите 100 точки (напълно коректно решение):
+5.	**Тествайте** решението си в **judge системата:** https://judge.softuni.bg/Contests/Practice/Index/504#0. Трябва да получите 100 точки (напълно коректно решение):
 
 <p align="center">
 <img alt="judgeTest01" src="/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png" />
@@ -426,7 +425,7 @@ TODO: judge link
 <img alt="changeWinSettings2" src="/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png" />
 </p>
 
-10.	Вече е време за **тестване в judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#1 ???. Решението би трябвало да бъде прието като напълно коректно:
+10.	Вече е време за **тестване в judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#1. Решението би трябвало да бъде прието като напълно коректно:
 <p align="center">
 <img alt="judgeResult" src ="/assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png" />
 </p>
@@ -452,7 +451,7 @@ TODO: judge link
 <img alt="04result" src ="/assets/chapter-2-images/problems/04greetingByName/03result.png" />
 </p>
 
-4.	Тествайте **в judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#2 ????. Преди да пратите решението сложете коментар на първия ред, който печата “Enter your name”.
+4.	Тествайте **в judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#2. Преди да пратите решението сложете коментар на първия ред, който печата “Enter your name”.
 
 ### 5.	Съединяване на текст и числа
 Напишете C# програма, която прочита от конзолата име, фамилия, възраст и град и печата съобщение от следния вид: **``“You are <firstName> <lastName>, a <age>-years old person from <town>”``**.
@@ -472,7 +471,7 @@ TODO: judge link
 На горната картинка кодът е нарочно даден размазан, за да помислите как да си го напишете сами.
 
 4.	Тествайте решението локално с [Ctrl+F5] и въвеждане на примерни данни.
-5.	Тествайте решението си в **judge системата**: ??? https://judge.softuni.bg/Contests/Practice/Index/151#3 ???.
+5.	Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#3.
 
 
 ### 6.	Лице на трапец
@@ -494,7 +493,7 @@ TODO: judge link
 Кодът на картинката е нарочно размазан, за да си го доизмислите и допишете сами.
 
 3.	**Тествайте** решението локално с [Ctrl+F5] и въвеждане на примерни данни.
-4.	Тествайте решението си в **judge системата**: ???https://judge.softuni.bg/Contests/Practice/Index/151#4. ???
+4.	Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#4.
 
 ### 7.	Периметър и лице на кръг
 
@@ -509,7 +508,7 @@ TODO: judge link
 -	**``area = Math.PI * r * r``**
 -	**``perimeter = 2 * Math.PI * r``**
 
-Тествайте решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/151#5 ???
+Тествайте решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/504#5.
 
 ### 8.	Лице на правоъгълник в равнината
 
@@ -527,6 +526,8 @@ TODO: judge link
 <img alt="rectangleMockUp" src ="/assets/chapter-2-images/problems/08rectangleAreaAndP/rectangleMockUp.png" />
 </p>
 
+Тествайте решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/504#6.
+
 |вход                       |    изход     |вход                        |    изход     |вход                        |    изход     |
 |:-------------------------:|:------------:|:--------------------------:|:------------:|:--------------------------:|:------------:|
 |60 <br> 20 <br> 10 <br> 50 |1500 <br> 160 |30 <br> 40 <br> 70 <br> -10 |2000 <br> 180 |600.25 <br> 500.75 <br> 100.50 <br> -200.5 |350449.6875 <br> 2402|
@@ -542,7 +543,7 @@ TODO: judge link
 | 7.75 <br> 8.45       | Triangle area = 32.74 |
 | 1.23456 <br> 4.56789 | Triangle area = 2.82  |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#7. link?
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#7.
 
 ### 10.	Конзолен конвертор: от градуси °C към градуси °F
 
@@ -552,6 +553,8 @@ TODO: judge link
 |:----:|:-----:|:-:|:----:|:-----:|:-:|:----:|:-----:|:-:|:----:|:-----:|
 |  25  |   77  |   |   0  |   32  |   | -5.5 |  22.1 |   | 32.3 | 90.14 |
 
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#8.
+
 ### 11.	Конзолен конвертор: от радиани в градуси
 
 Напишете програма, която чете **ъгъл в [радиани](https://bg.wikipedia.org/wiki/Радиан)** (rad) и го преобразува в **[градуси](https://bg.wikipedia.org/wiki/Градус_(ъгъл))** (deg). Потърсете в Интернет подходяща формула. Числото **π** в C# програми е достъпно чрез **``Math.PI``**. Закръглете резултата до най-близкото цяло число използвайки **``Math.Round()``**. Ето няколко примера:
@@ -560,7 +563,7 @@ TODO: judge link
 |:------:|:-----:|:-:|:----:|:-----:|:-:|:----:|:-----:|:-:|:----:|:-----:|
 | 3.1416 |  180  |   |6.2832|  360  |   |0.7854|   45  |   |0.5236|   30  |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#9.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#9.
 
 ### 12.	Конзолен конвертор: USD към BGN
 
@@ -570,7 +573,7 @@ TODO: judge link
 |:------:|:---------:|:-:|:----:|:----------:|:-:|:----:|:---------:|
 |   20   | 35.91 BGN |   | 100  | 179.55 BGN |   | 12.5 | 22.44 BGN |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#10.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#10.
 
 ### 13.	* Конзолен междувалутен конвертор
 
@@ -586,7 +589,7 @@ TODO: judge link
 |:--------------:|:-------:|:-:|:---------------:|:-------:|:-:|:-----------------:|:------:|:-:|:------------------:|:--------:|
 |20<br>USD<br>BGN|35.91 BGN|   |100<br>BGN<br>EUR|51.13 EUR|   |12.35<br>EUR<br>GBP|9.53 GBP|   |150.35<br>USD<br>EUR|138.02 EUR|
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#11.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#11.
 
 ### 14.	** Пресмятане с дати: 1000 дни на Земята
 
@@ -601,7 +604,7 @@ TODO: judge link
 |14-06-1980|10-03-1983|
 
 **Подсказки**: потърсете информация за типа **``DateTime``** в C# и по-конкретно разгледайте методите **``ParseExact(str, format)``**, **``AddDays(count)``** и **``ToString(format)``**. С тяхна помощ може да решите задачата, без да е необходимо да изчислявате дни, месеци и високосни години.
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#12. Не печатайте нищо допълнително на конзолата освен изискваната дата!
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#12. Не печатайте нищо допълнително на конзолата освен изискваната дата!
 
 ## Упражнения: графични и уeb приложения
 
