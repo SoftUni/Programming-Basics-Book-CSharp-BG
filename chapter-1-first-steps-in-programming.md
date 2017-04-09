@@ -79,8 +79,8 @@ JavaScript – може да се пише директно в конзолат�
 
 ### Създаване на конзолна програма "Hello C#"
 
-Стартирайте Visual Studio<br/>
-Нов конзолен проект – [File] &rarr; [New] &rarr; [Project] &rarr; [Visual C#] &rarr; [Windows] &rarr; [Console Application]
+Стартирайте Visual Studio.<br/>
+Нов конзолен проект: [File] &rarr; [New] &rarr; [Project] &rarr; [Visual C#] &rarr; [Windows] &rarr; [Console Application]
 
 ![ide](/assets/chapter-1-images/chapter-1-ide.png)
 
@@ -116,7 +116,7 @@ https://judge.softuni.bg/Contests/150/First-Steps-in-Coding
 
 ![judgetest](/assets/chapter-1-images/chapter-1-testinjudge.png)
 
-Изпратете решението за оценяване с бутона [Submit]. Ще получите резултата след няколко секунди в таблицата с изпратени решения в judge системата:
+Изпратете решението за оценяване с бутона [**Submit**]. Ще получите резултата след няколко секунди в таблицата с изпратени решения в judge системата:
 
 ![judgeresults](/assets/chapter-1-images/chapter-1-judgeresult.png)
 
