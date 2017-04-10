@@ -64,7 +64,9 @@
 
 ![code](/assets/chapter-3-2-images/1.06..PNG)
 
+
 ### Тестване в Judge системата
+
 https://judge.softuni.bg/Contests/Practice/Index/507#0
 
 
@@ -83,7 +85,6 @@ https://judge.softuni.bg/Contests/Practice/Index/507#0
 * Четвъртият ред съдържа числото **H – часовете, в които работникът отсъства** – число с плаваща запетая в интервала [1.0 … 24.00].
 
 
-
 ### Изходни данни
 
 Да се отпечата на конзолата **едно от двете възможни състояния**:
@@ -94,13 +95,11 @@ https://judge.softuni.bg/Contests/Practice/Index/507#0
 \* **Имайте предвид**, че поради **свеждането до цяло число** се **губят данни** и e нормално **сборът на процентите да е 99%, а не 100%**.
 
 
-
 ### Примерен вход и изход
 
 |Вход|Изход|Вход|Изход|
 |----|-----|----|-----|
 |1000<br>100<br>120<br>3 |The pool is 66% full. Pipe 1: 45%. Pipe2: 54%. |100<br>100<br>100<br>2.5|For 2.5 hours the pool overflows with 400 liters.|
-
 
 
 ### Насоки и подсказки
@@ -121,6 +120,7 @@ https://judge.softuni.bg/Contests/Practice/Index/507#0
 
 
 ### Тестване в Judge системата
+
 https://judge.softuni.bg/Contests/Practice/Index/507#1
 
 
@@ -184,8 +184,8 @@ https://judge.softuni.bg/Contests/Practice/Index/507#1
 ![code](/assets/chapter-3-2-images/3.05..PNG)
 
 
-
 ### Тестване в Judge системата
+
 https://judge.softuni.bg/Contests/Practice/Index/507#2
 
 
@@ -246,7 +246,9 @@ https://judge.softuni.bg/Contests/Practice/Index/507#2
 
 
 ### Тестване в Judge системата
+
 https://judge.softuni.bg/Contests/Practice/Index/507#3
+
 
 
 ## Фирма
@@ -283,6 +285,7 @@ https://judge.softuni.bg/Contests/Practice/Index/507#3
 
 
 ### Насоки и подсказки
+
 За решението на задачата е нужно **първо** да преценим какви **типове променливи** ще използваме за **входните данни**. 
 
 ![code](/assets/chapter-3-2-images/5.01..png)
@@ -295,5 +298,7 @@ https://judge.softuni.bg/Contests/Practice/Index/507#3
 
 ![code](/assets/chapter-3-2-images/5.03..png)
 
+
 ### Тестване в Judge системата
+
 https://judge.softuni.bg/Contests/Practice/Index/507#4
