@@ -34,81 +34,24 @@ _Трета задача от междинния изпит на 6 март 2016
 
 ### Примерен вход и изход
 
-<div style="display:inline-block;margin-right:2%;width:31.5%;">
-<table>
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">9<br />30<br />9<br />50</td>
-<td style="border:1px solid black;">Late<br />20 minutes after the start</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">9<br />00<br />8<br />30</td>
-<td style="background:none;background-color:#ffffff;border:1px solid black;">On time<br />30 minutes before the start</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">16<br />00<br />15<br />00</td>
-<td style="border:1px solid black;">Early<br />1:00 hours before the start</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div style="display:inline-block;margin-right:2%;width:31.5%;">
-<table>
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">9<br />00<br />10<br />30</td>
-<td style="border:1px solid black;">Late<br />1:30 hours after the start</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="border:1px solid black;background:none;background-color:#ffffff;">14<br />00<br />13<br />55</td>
-<td style="border:1px solid black;background:none;background-color:#ffffff;">On time<br />5 minutes before the start</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">11<br />30<br />8<br />12</td>
-<td style="border:1px solid black;">Early<br />3:18 hours before the start</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div style="display:inline-block;width:31.5%">
-<table>
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">10<br />00<br />10<br />00</td>
-<td style="border:1px solid black;">On time<br /><br /><br /></td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="border:1px solid black;background:none;background-color:#ffffff;">11<br />30<br />10<br />55</td>
-<td style="border:1px solid black;background:none;background-color:#ffffff;">Early<br />35 minutes before the start<br /><br /></td>
-</tr>
-<tr>
-<td style="border:1px solid black;">11<br />30<br />12<br />23</td>
-<td style="border:1px solid black;">Late<br />59 minutes after the start<br /><br /></td>
-</tr>
-</tbody>
-</table>
-</div>
+| **Вход** | **Изход** |
+|---|---|
+|9 <br/> 30 <br/> 9 <br/> 50|Late <br/> 20 minutes after the start|
+|9 <br/> 00 <br/> 8 <br/> 30|On time <br/> 30 minutes before the start|
+|16 <br/> 00 <br/> 15 <br/> 00|Early <br/> 1:00 hours before the start|
+
+| **Вход** | **Изход** |
+|---|---|
+|9 <br/> 00 <br/> 10 <br/> 30|Late <br/> 1:30 hours after the start|
+|14 <br/> 00 <br/> 13 <br/> 55|On time <br/> 5 minutes before the start|
+|11 <br/> 30 <br/> 8 <br/> 12|Early <br/> 3:18 hours before the start|
+
+| **Вход** | **Изход** |
+|---|---|
+|10 <br/> 00 <br/> 10 <br/> 00|On time|
+|11 <br/> 30 <br/> 10 <br/> 55|Early <br/> 35 minutes before the start|
+|11 <br/> 30 <br/> 12 <br/> 23|Late <br/> 59 minutes after the start|
+
 
 ### Насоки и подсказки
 
@@ -216,39 +159,13 @@ _Трета задача от междинния изпит на 26 март 201
 
 ### Примерен вход и изход
 
-<div style="display:inline-block">
-<table>
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">50<br />summer</td>
-<td style="border:1px solid black;">Somewhere in Bulgaria<br />Camp - 15.00</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="border:1px solid black;background:none;background-color:#ffffff;">75<br />winter</td>
-<td style="border:1px solid black;background:none;background-color:#ffffff;">Somewhere in Bulgaria<br />Hotel - 52.50</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">312<br />summer</td>
-<td style="border:1px solid black;">Somewhere in Balkans<br />Camp - 124.80</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="border:1px solid black;background:none;background-color:#ffffff;">678.53<br />winter</td>
-<td style="border:1px solid black;background:none;background-color:#ffffff;">Somewhere in Balkans<br />Hotel - 542.82</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">1500<br />summer</td>
-<td style="border:1px solid black;">Somewhere in Europe<br />Hotel - 1350.00</td>
-</tr>
-</tbody>
-</table>
-</div>
+| **Вход** | **Изход** |
+|---|---|
+|50 <br/> summer|Somewhere in Bulgaria <br/> Camp - 15.00|
+|75 <br/> winter|Somewhere in Bulgaria <br/> Hotel - 52.50|
+|312 <br/> summer|Somewhere in Balkans <br/> Camp - 124.80|
+|678.53 <br/> winter|Somewhere in Balkans <br/> Hotel - 542.82|
+|1500 <br/> summer|Somewhere in Europe <br/> Hotel - 1350.00|
 
 ### Насоки и подсказки
 
@@ -332,71 +249,22 @@ _Трета задача от междинния изпит на 26 март 201
 
 ### Примерен вход и изход
 
-<div>
-<table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">10<br />12<br />+</td>
-<td style="border:1px solid black;">10 + 12 = 22 - even</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="border:1px solid black;background:none;background-color:#ffffff;">10<br />1<br />-</td>
-<td style="border:1px solid black;background:none;background-color:#ffffff;">10 - 1 = 9 - odd</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">7<br />3<br />*</td>
-<td style="border:1px solid black;">7 * 3 = 21 - odd</td>
-</tr>
-</tbody>
-</table>
+| **Вход** | **Изход** |
+|---|---|
+|10 <br/> 12 <br/> +|10 + 12 = 22 - even|
+|10 <br/> 1 <br/> -|10 - 1 = 9 - odd|
+|7 <br/> 3 <br/> *|7 * 3 = 21 - odd|
 
-<table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">123<br />12<br />/</td>
-<td style="border:1px solid black;">123 / 12 = 10.25</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="border:1px solid black;background:none;background-color:#ffffff;">10<br />3<br />%</td>
-<td style="border:1px solid black;background:none;background-color:#ffffff;">10 % 3 = 1</td>
-</tr>
-</tbody>
-</table>
+| **Вход** | **Изход** |
+|---|---|
+|123 <br/> 12 <br/> /|123 / 12 = 10.25|
+|10 <br/> 3 <br/> %|10 % 3 = 1|
 
-<table style="display:inline-block;vertical-align:top;width:31.5%">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">112<br />0<br />/</td>
-<td style="border:1px solid black;">Cannot divide 122 by zero</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="border:1px solid black;background:none;background-color:#ffffff;">10<br />0<br />%</td>
-<td style="border:1px solid black;background:none;background-color:#ffffff;">Cannot divide 10 by zero</td>
-</tr>
-</tbody>
-</table>
-</div>
+| **Вход** | **Изход** |
+|---|---|
+|112 <br/> 0 <br/> /|Cannot divide 122 by zero|
+|10 <br/> 0 <br/> %|Cannot divide 10 by zero|
+
 
 ### Насоки и подсказки
 
@@ -488,52 +356,21 @@ _Трета задача от междинния изпит на 17 юли 2016.
 
 ### Примерен вход и изход
 
-<div>
-<table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">1000<br />Normal<br />1</td>
-<td style="border:1px solid black;">Yes! You have 0.01 leva left.</td>
-</tr>
-<tr>
-<td colspan="2" style="border:1px solid black;background-color:#d9d9d9;"><strong>Обяснения</strong></td>
-</tr>
-<tr>
-<td colspan="2" style="border:1px solid black;"><strong>1 човек : 75% от бюджета</strong> отиват <strong>за транспорт</strong>. <strong>Остават</strong>: 1000 – 750 = <strong>250</strong>.<br /> Категория <strong>Normal</strong>: билетът <strong>струва 249.99 * 1 = 249.99</strong><br />249.99 &lt; 250: остават му 250 – 249.99 = <strong>0.01</strong></td>
-</tr>
-</tbody>
-</table>
+| **Вход** | **Изход** |
+|---|---|
+|1000 <br/> Normal <br/> 1|Yes! You have 0.01 leva left.|
 
-<table style="display:inline-block;vertical-align:top;margin-right:2%;width:47.4%">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">30000<br />VIP<br />49</td>
-<td style="border:1px solid black;">Not enough money! You need 6499.51 leva.</td>
-</tr>
-<tr>
-<td colspan="2" style="border:1px solid black;background-color:#d9d9d9;"><strong>Обяснения</strong></td>
-</tr>
-<tr>
-<td colspan="2" style="border:1px solid black;"><strong>49 човека: 40% от бюджета</strong> отиват <strong>за транспорт</strong>.<br /> <strong>Остават</strong>: 30000 – 12000 = <strong>18000</strong>.<br /> Категория <strong>VIP</strong>: билетът струва 499.99 * 49.<br /> <strong>24499.510000000002 &lt; 18000</strong>.<br /> <strong>Не стигат</strong> 24499.51 - 18000 = <strong>6499.51</strong>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
+|**Обяснения**|
+|---|
+|**1 човек : 75%** от бюджета отиват за **транспорт**. **Остават:** 1000 – 750 = **250**. <br/> Категория **Normal**: билетът **струва 249.99 * 1 = 249.99** <br/> 249.99 < 250: **остават му** 250 – 249.99 = **0.01**|
+
+| **Вход** | **Изход** |
+|---|---|
+|30000 <br/> VIP <br/> 49|Not enough money! You need 6499.51 leva.|
+
+|**Обяснения**|
+|---|
+|**49 човека: 40%** от бюджета отиват за **транспорт**. <br/> Остават: 30000 – 12000 = 18000. <br/> Категория **VIP**: билетът **струва** 499.99 * 49. <br/> **24499.510000000002** < 18000. <br/> **Не стигат** 24499.51 - 18000 = **6499.51**|
 
 ### Насоки и подсказки
 
@@ -589,58 +426,10 @@ _Трета задача от междинния изпит на 28 август
 
 Напишете програма, която изчислява **цената за целия престой за студио и апартамент**. **Цените** зависят от **месеца** на престоя:
 
-<div>
-<table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%;">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="background-color:#d9d9d9;border:1px solid black;">Май и октомври</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">Студио – <strong>50</strong> лв./нощувка</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">Апартамент – <strong>65</strong> лв./нощувка</td>
-</tr>
-</tbody>
-</table>
-
-<table style="display:inline-block;vertical-align:top;margin-right:2%;width:31.5%">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="background-color:#d9d9d9;border:1px solid black;">Юни и септември</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">Студио – <strong>75.20</strong> лв./нощувка</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">Апартамент – <strong>68.70</strong> лв./нощувка</td>
-</tr>
-</tbody>
-</table>
-
-<table style="display:inline-block;vertical-align:top;width:31.5%;">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="background-color:#d9d9d9;border:1px solid black;">Юли и август</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">Студио – <strong>76</strong> лв./нощувка</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">Апартамент – <strong>77</strong> лв./нощувка</td>
-</tr>
-</tbody>
-</table>
-</div>
+| **Май и октомври** | **Юни и септември** | **Юли и август** |
+|---|---|---|
+|Студио – **50** лв./нощувка|Студио – **75.20** лв./нощувка|Студио – **76** лв./нощувка|
+|Апартамент – **65** лв./нощувка|Апартамент – **68.70** лв./нощувка|    Апартамент – **77** лв./нощувка|
 
 Предлагат се и следните **отстъпки**:
 
@@ -667,37 +456,18 @@ _Трета задача от междинния изпит на 28 август
 
 ### Примерен вход и изход
 
-<div>
-<table style="display:inline-block;">
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="background-color:#d9d9d9;border:1px solid black;">Вход</th>
-<th style="background-color:#d9d9d9;min-width:190px;border:1px solid black;">Изход</th>
-<th colspan="2" style="background-color:#d9d9d9;border:1px solid black;">Обяснения</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">May<br />15</td>
-<td style="border:1px solid black;min-width:190px;">Apartment: 877.50 lv.<br />Studio: 525.00 lv.</td>
-<td colspan="2" style="border:1px solid black;"><strong>През май</strong>, при повече от <strong>14</strong> нощувки, намаляваме цената на студиото с <strong>30%</strong> (50 – 15 = 35), а на апартамента – с <strong>10%</strong> (65 – 6.5 =58.5).<br /> Целият престой <strong>в апартамент</strong> – <strong>877.50 лв.</strong><br /> Целият престой <strong>в студио</strong> – <strong>525.00 лв.</strong>
-</td>
-</tr>
-<tr style="background-color:#d9d9d9;">
-<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
-<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;min-width:190px;">Изход</td>
-<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Вход</td>
-<td style="background-color:#d9d9d9;font-weight:700;border:1px solid black;">Изход</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">June<br />14</td>
-<td style="background:none;background-color:#ffffff;border:1px solid black;min-width:190px;">Apartment: 961.80 lv.<br />Studio: 1052.80 lv.</td>
-<td style="background:none;background-color:#ffffff;border:1px solid black;">August<br />20</td>
-<td style="background:none;background-color:#ffffff;border:1px solid black;">Apartment: 1386.00 lv.<br />Studio: 1520.00 lv.</td>
-</tr>
-</tbody>
-</table>
+| **Вход** | **Изход** |
+|---|---|
+|May <br/> 15|Apartment: 877.50 lv. <br/> Studio: 525.00 lv.|
+
+| **Обяснения** |
+|---|
+|През **май**, при повече от **14 нощувки**, намаляваме цената на **студиото с 30%** (50 – 15 = 35), а на **апартамента – с 10%** (65 – 6.5 =58.5). <br/> Целият престой в **апартамент – 877.50** лв. <br/> Целият престой **в студио – 525.00** лв.|
+
+| **Вход** | **Изход** |
+|---|---|
+|June <br/> 14|Apartment: 961.80 lv. <br/> Studio: 1052.80 lv|
+|August <br/> 20|Apartment: 1386.00 lv. <br/> Studio: 1520.00 lv.|
 
 ### Насоки и подсказки
 
