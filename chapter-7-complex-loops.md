@@ -668,3 +668,6 @@ TODO: да се слеят задачите, които се повтарят с
 ![image](assets/chapter-7-images/fruits-final-test.png)
 
 Този път при уцелване на динамит, трябва да се появи дясната картинка и да се позволява единствено действието “нова игра” (бутонът **[New Game]**).
+
+<img src="assets/Capture.PNG" style="width: 50%;" alt="test" />
+<img src="assets/Capture.PNG" alt="test" />
