@@ -649,13 +649,13 @@ Console.WriteLine("Perimeter = {0}", 2 * (width + height));
 
 3.	Задайте настройки на фòрмата и на отделните контроли:
 
-**``FormConverter``**
 
-|             | Настройка                                                                                             | скрийн|
-|:-----------:|:------------------------------------------------------------------------------------------------------|:-----:|
-|FormConverter|Text = "BGN to EUR",<br>Font.Size = 12,<br>MaximizeBox = False,<br>MinimizeBox = False,<br>FormBorderStyle = FixedSingle | <img alt="formConverter" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/03formConverter.png" /> |
-| numericUpDownAmount|Value = 1,<br>Minimum = 0,<br>Maximum = 10000000,<br>TextAlign = Right,<br>DecimalPlaces = 2 | <img alt="numUpDown" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/05numericUpDownAmount.png" /> |
-| labelResult  |AutoSize = False,<br>BackColor = PaleGreen,<br>TextAlign = MiddleCenter,<br>Font.Size = 14,<br>Font.Bold = True| <img alt="labelResult" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/06labelResult.png" /> |
+
+|                                             Настройка                                                 | скрийн|
+|:------------------------------------------------------------------------------------------------------|:-----:|
+|**``FormConverter``**:<br>Text = "BGN to EUR",<br>Font.Size = 12,<br>MaximizeBox = False,<br>MinimizeBox = False,<br>FormBorderStyle = FixedSingle | <img alt="formConverter" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/03formConverter.png" /> |
+|**``numericUpDownAmount``**:<br>Value = 1,<br>Minimum = 0,<br>Maximum = 10000000,<br>TextAlign = Right,<br>DecimalPlaces = 2 | <img alt="numUpDown" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/05numericUpDownAmount.png" /> |
+|**``labelResult``**:<br>AutoSize = False,<br>BackColor = PaleGreen,<br>TextAlign = MiddleCenter,<br>Font.Size = 14,<br>Font.Bold = True| <img alt="labelResult" src ="/assets/chapter-2-images/problems/GUIcurrencyConverter/06labelResult.png" /> |
 
 4.	Дефинирайте **обработчици на събития** по контролите:
 
