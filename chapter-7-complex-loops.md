@@ -669,5 +669,4 @@ TODO: да се слеят задачите, които се повтарят с
 
 Този път при уцелване на динамит, трябва да се появи дясната картинка и да се позволява единствено действието “нова игра” (бутонът **[New Game]**).
 
-<img src="assets/Capture.PNG" style="width: 50%;" alt="test" />
-<img src="assets/Capture.PNG" alt="test" />
+<img src="assets/screenshot.png" alt="test" />
