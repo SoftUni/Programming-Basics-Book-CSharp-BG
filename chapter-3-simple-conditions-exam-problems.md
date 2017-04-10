@@ -26,9 +26,13 @@
 
 ### Примерен вход и изход
 
-|Вход        |Изход       |Вход        |Изход       |Вход        |Изход       |Вход        |Изход       |
-|------------|------------|------------|------------|------------|------------|------------|------------|
-|5<br>day    |4.65        |7<br>night  |7           |25<br>day   |2.25        |180<br>night|10.8        |
+|Вход        |Изход       |Вход        |Изход       |
+|------------|------------|------------|------------|
+|5<br>day    |4.65        |7<br>night  |7           |
+
+|Вход        |Изход       |Вход        |Изход       |
+|------------|------------|------------|------------|
+|25<br>day   |2.25        |180<br>night|10.8        |
 
 
 ### Насоки и подсказки
@@ -61,7 +65,7 @@
 ![code](/assets/chapter-3-2-images/1.06..PNG)
 
 ### Тестване в Judge системата
-//todo: link
+https://judge.softuni.bg/Contests/Practice/Index/507#0
 
 
 
@@ -117,7 +121,7 @@
 
 
 ### Тестване в Judge системата
-//todo: link
+https://judge.softuni.bg/Contests/Practice/Index/507#1
 
 
 
@@ -182,7 +186,7 @@
 
 
 ### Тестване в Judge системата
-//todo:link
+https://judge.softuni.bg/Contests/Practice/Index/507#2
 
 
 
@@ -242,7 +246,7 @@
 
 
 ### Тестване в Judge системата
-//todo: link
+https://judge.softuni.bg/Contests/Practice/Index/507#3
 
 
 ## Фирма
@@ -292,4 +296,4 @@
 ![code](/assets/chapter-3-2-images/5.03..png)
 
 ### Тестване в Judge системата
-//todo: link
+https://judge.softuni.bg/Contests/Practice/Index/507#4
