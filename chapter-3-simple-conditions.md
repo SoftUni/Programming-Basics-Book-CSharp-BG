@@ -493,7 +493,7 @@ Console.WriteLine(size + " " + destMetric);
 
  ![image](assets/chapter-3-images/problem-1-image-2.png)  
 
-Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
+ Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
 
 3. Отидете в тялото на метода `Main(string[] args)` и напишете решението на задачата. Можете да си помогнете с кода от картинката по-долу:  
 
@@ -773,8 +773,8 @@ Console.WriteLine(size + " " + destMetric);
   - Събитието `SelectedIndexChanged` на падащия списък за избор на валута `comboBoxCurrency`.
   
 5.	Напишете следния **C# код** за обработка на събитията:
-
-```cs
+ 
+ ```cs
 private void FormConverter_Load(object sender, EventArgs e)
 {
   this.comboBoxCurrency.SelectedItem = "EUR";
