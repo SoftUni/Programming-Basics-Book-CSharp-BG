@@ -464,11 +464,11 @@ Console.WriteLine(size + " " + destMetric);
 
 2. Създайте нов **Blank Solution**: [File] -> [New] -> [Project]. 
 
-![image](assets/chapter-3-images/problem-0-image-1.png)
+ ![image](assets/chapter-3-images/problem-0-image-1.png)
 
 3. Изберете от диалоговия прозорец [Templates] -> [Other Project Types] -> [Visual Studio Solutions] -> [**Blank Solution**] и дайте подходящо име на проекта, например “**Simple-Conditions**”:  
 
-![image](assets/chapter-3-images/problem-0-image-2.png)
+ ![image](assets/chapter-3-images/problem-0-image-2.png)
 
 Сега имате създаден празен Visual Studio Solution (без проекти в него):  
 
@@ -487,29 +487,29 @@ Console.WriteLine(size + " " + destMetric);
 
 1. Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **Solution 'Simple-Conditions'**. Изберете [Add] -> [New Project…]:  
 
-![image](assets/chapter-3-images/problem-1-image-1.png)
+ ![image](assets/chapter-3-images/problem-1-image-1.png)
 
 2. Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение и задайте име “**Excellent-Result**”:  
 
-![image](assets/chapter-3-images/problem-1-image-2.png)  
+ ![image](assets/chapter-3-images/problem-1-image-2.png)  
 
 Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
 
 3. Отидете в тялото на метода `Main(string[] args)` и напишете решението на задачата. Можете да си помогнете с кода от картинката по-долу:  
 
-![image](assets/chapter-3-images/problem-1-image-3.png)
+ ![image](assets/chapter-3-images/problem-1-image-3.png)
 
 4. **Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
 
-![image](assets/chapter-3-images/problem-1-image-4.png)
+ ![image](assets/chapter-3-images/problem-1-image-4.png)
 
-![image](assets/chapter-3-images/problem-1-image-5.png)
+ ![image](assets/chapter-3-images/problem-1-image-5.png)
 
 5.	**Тествайте** решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/152#0. Трябва да получите **100 точки** (напълно коректно решение):  
 
-![image](assets/chapter-3-images/problem-1-image-6.png)  
+ ![image](assets/chapter-3-images/problem-1-image-6.png)  
 
-![image](assets/chapter-3-images/problem-1-image-7.png)
+ ![image](assets/chapter-3-images/problem-1-image-7.png)
 
 ### 2. Отлична оценка или не
 
@@ -530,24 +530,24 @@ Console.WriteLine(size + " " + destMetric);
  
 2. **Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:  
 
-![image](assets/chapter-3-images/problem-2-image-1.png)
+ ![image](assets/chapter-3-images/problem-2-image-1.png)
 
 3. Включете режим на **автоматично превключване към текущия проект** като кликнете върху главния solution с десния бутон на мишката и изберете [**Set StartUp Projects…**]:  
 
-![image](assets/chapter-3-images/problem-2-image-2.png)  
+ ![image](assets/chapter-3-images/problem-2-image-2.png)  
 
-Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current selection**]:
+ Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current selection**]:
 
-![image](assets/chapter-3-images/problem-2-image-3.png) 
+ ![image](assets/chapter-3-images/problem-2-image-3.png) 
 
 4. Сега **стартирайте програмата**, както обикновено с [Ctrl+F5] и я тествайте:
 
-![image](assets/chapter-3-images/problem-2-image-4.png)
-![image](assets/chapter-3-images/problem-2-image-5.png)
+ ![image](assets/chapter-3-images/problem-2-image-4.png)
+ ![image](assets/chapter-3-images/problem-2-image-5.png)
 
 5.	Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#1. Решението би трябвало да бъде прието като напълно коректно: 
 
-![image](assets/chapter-3-images/problem-2-image-6.png)
+ ![image](assets/chapter-3-images/problem-2-image-6.png)
 
 ### 3. Четно или нечетно
 
@@ -566,7 +566,7 @@ Console.WriteLine(size + " " + destMetric);
 
 3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:  
 
-![image](assets/chapter-3-images/problem-3-image-1.png)
+ ![image](assets/chapter-3-images/problem-3-image-1.png)
 
 4. Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#2.
 
@@ -587,7 +587,7 @@ Console.WriteLine(size + " " + destMetric);
 
 3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:
 
-![image](assets/chapter-3-images/problem-4-image-1.png)
+ ![image](assets/chapter-3-images/problem-4-image-1.png)
 
 4. Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#3.
 
@@ -717,7 +717,7 @@ Console.WriteLine(size + " " + destMetric);
 | :--- | :---- |
 | 25 | twenty five |
 
-## Упражнения: графични и Web приложения: конвертор за валути
+## Графични и Web приложения: Конвертор за валути
 
 Създайте графично (**GUI**) приложение за **конвертиране на валути**. Приложението трябва да изглежда приблизително като на картинката по-долу:  
 
@@ -725,94 +725,95 @@ Console.WriteLine(size + " " + destMetric);
 
 1. Създайте нов **Windows Forms Application** с име “**Currency-Converter**”:
 
-![image](assets/chapter-3-images/convertor-image-2.png)
+  ![image](assets/chapter-3-images/convertor-image-2.png)
 
-2. **Наредете контролите** във формата: една кутийка за въвеждане на число (**NumericUpDown**), един падащ списък с валути (**ComboBox**), текстов блок за резултата (**Label**) и няколко надписа (**Label**). Нагласете **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:  
-
-![image](assets/chapter-3-images/convertor-image-3.png)
+2. **Наредете контролите** във формата: една кутийка за въвеждане на число (**NumericUpDown**), един падащ списък с валути (**ComboBox**), текстов блок за резултата (**Label**) и няколко надписа (**Label**). Нагласете **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:![image](assets/chapter-3-images/convertor-image-3.png)
 
 3. Задайте следните препоръчителни **настройки на контролите**:
 
  - **За главната форма** (**Form**), която съдържа всички контроли:
-     - `(name)` = `FormConverter`
-     - `Text` = "**Currency Converter**"
-     - `Font.Size` = **12**
-     - `MaximizeBox` = `False`
-     - `MinimizeBox` = `False`
-     - `FormBorderStyle` = `FixedSingle`
+  - `(name)` = `FormConverter`
+  - `Text` = "**Currency Converter**"
+  - `Font.Size` = **12**
+  - `MaximizeBox` = `False`
+  - `MinimizeBox` = `False`
+  - `FormBorderStyle` = `FixedSingle`
      
  - За **полето за въвеждане на число** (**NumericUpDown**):
-     - `(name)` = `numericUpDownAmount`
-     - `Value` = **1**
-     - `Minimum` = **0**
-     - `Maximum` = **1000000**
-     - `TextAlign` = `Right`
-     - `DecimalPlaces` = **2**
+  - `(name)` = `numericUpDownAmount`
+  - `Value` = **1**
+  - `Minimum` = **0**
+  - `Maximum` = **1000000**
+  - `TextAlign` = `Right`
+  - `DecimalPlaces` = **2**
      
  - За **падащия списък в валутите** (**ComboBox**):
-     - `(name)` = `comboBoxCurrency`
-     - `DropDownStyle` = `DropDownList`
-     - `Items` =
-         - **EUR**
-         - **USD**
-         - **GBP**
+  - `(name)` = `comboBoxCurrency`
+  - `DropDownStyle` = `DropDownList`
+  - `Items` =
+   - **EUR**
+   - **USD**
+   - **GBP**
          
  - За **текстовия блок за резултата** (**Label**):
-     - `(name)` = `labelResult`
-     - `AutoSize `= `False`
-     - `BackColor` = `PaleGreen`
-     - `TextAlign` = `MiddleCenter`
-     - `Font.Size` = **14**
-     - `Font.Bold` = `True`
+  - `(name)` = `labelResult`
+  - `AutoSize `= `False`
+  - `BackColor` = `PaleGreen`
+  - `TextAlign` = `MiddleCenter`
+  - `Font.Size` = **14**
+  - `Font.Bold` = `True`
      
 4. Хванете следните **събития**, за да напишете C# кода, който ще се изпълни при настъпването им:
 
   - Събитието `ValueChanged` на контролата за въвеждане на число `numericUpDownAmount`: 
   
-![image](assets/chapter-3-images/convertor-image-4.png)
+  ![image](assets/chapter-3-images/convertor-image-4.png)
 
   - Събитието `Load` на формата `FormConverter`.
   - Събитието `SelectedIndexChanged` на падащия списък за избор на валута `comboBoxCurrency`.
   
 5.	Напишете следния **C# код** за обработка на събитията:
 
-        private void FormConverter_Load(object sender, EventArgs e)
-        {
-           this.comboBoxCurrency.SelectedItem = "EUR";
-        }
+```cs
+private void FormConverter_Load(object sender, EventArgs e)
+{
+  this.comboBoxCurrency.SelectedItem = "EUR";
+}
         
-        private void numericUpDownAmount_ValueChanged(object sender, EventArgs e)
-        {
-           ConvertCurrency();
-        }
+private void numericUpDownAmount_ValueChanged(object sender, EventArgs e)
+{
+  ConvertCurrency();
+}
         
-        private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           ConvertCurrency();
-        }
-        
+private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)
+{
+  ConvertCurrency();
+}
+```
+
 Задачата на горния код е, да избере при стартиране на програмата валута “**EUR**” и при промяна на стойностите в полето за сума или при смяна на валутата, да изчисли резултата, извиквайки `ConvertCurrency()`.
 
 6.	Следва да се напише действието `ConvertCurrency()` за конвертиране на въведената сума от лева в избраната валута: 
-      
-        private void ConvertCurrency()
-        {
-            var originalAmount = this.numericUpDownAmount.Value;
-            var convertedAmount = originalAmount;
-            if (this.comboBoxCurrency.SelectedItem.ToString() == "EUR")
-            {
-                convertedAmount = originalAmount / 1.95583m;
-            }
-            else if (this.comboBoxCurrency.SelectedItem.ToString() == "USD")
-            {
-                convertedAmount = originalAmount / 1.80810m;
-            }
-            else if (this.comboBoxCurrency.SelectedItem.ToString() == "GBP")
-            {
-                convertedAmount = originalAmount / 2.54990m;
-            }
-            this.labelResult.Text = originalAmount + " лв. = " +
-                Math.Round(convertedAmount, 2) + " " + this.comboBoxCurrency.SelectedItem;
-        }
-        
+ 
+ ```cs
+private void ConvertCurrency()
+{
+  var originalAmount = this.numericUpDownAmount.Value;
+  var convertedAmount = originalAmount;
+  if (this.comboBoxCurrency.SelectedItem.ToString() == "EUR")
+      {
+        convertedAmount = originalAmount / 1.95583m;
+      }
+  else if (this.comboBoxCurrency.SelectedItem.ToString() == "USD")
+      {
+        convertedAmount = originalAmount / 1.80810m;
+      }
+  else if (this.comboBoxCurrency.SelectedItem.ToString() == "GBP")
+      {
+        convertedAmount = originalAmount / 2.54990m;
+      }
+  this.labelResult.Text = originalAmount + " лв. = " +
+  Math.Round(convertedAmount, 2) + " " + this.comboBoxCurrency.SelectedItem;
+}
+```      
 Горният код взима **сумата** за конвертиране от полето `numericUpDownAmount` и **избраната валута** за резултата от полето `comboBoxCurrency`. След това с **условна конструкция**, според избраната валута, сумата се дели на **валутния курс** (който е фиксиран твърдо в сорс кода). Накрая се генерира текстово **съобщение с резултата** (закръглен до 2 цифри след десетичната точка) и се записва в зелената кутийка `labelResult`.
