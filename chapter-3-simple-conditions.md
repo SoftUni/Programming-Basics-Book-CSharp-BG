@@ -17,11 +17,11 @@
 
 1.	Оператор **<** (по-малко)
 
-1.	Оператор **>** (по-голямо)
+2.	Оператор **>** (по-голямо)
 
-1.	Оператор **<=** (по-малко или равно)
+3.	Оператор **<=** (по-малко или равно)
 
-1.	Оператор **==** (равно)
+4.	Оператор **==** (равно)
 
 При сравнение получаваме булева стойност `True` или `False` в зависимост от това, дали сравнението е вярно или грешно.
 
@@ -289,7 +289,7 @@ else
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#4
 
-## Примерни задачи: прости проверки
+## Примерни задачи: Прости проверки
 
 ### 1. Бонус точки 
 
@@ -336,7 +336,7 @@ Console.WriteLine("Total score: {0}", num + bonusScore);
 
 Ето как би могло да изглежда решението на задачата в действие:
 
-![](assets/chapter-3-images/problem-6-image-1.png)
+![image](assets/chapter-3-images/problem-6-image-1.png)
 
 **Подсказка**:
 
@@ -406,9 +406,9 @@ else
 
 Входните данни се състоят от три реда:
 
-- Първи ред: число за преобразуване
-- Втори ред: входна мерна единица
-- Трети ред: изходна мерна единица (за резултата)
+- Първи ред: число за преобразуване.
+- Втори ред: входна мерна единица.
+- Трети ред: изходна мерна единица (за резултата).
 
 Примерен вход и изход:
 
@@ -444,13 +444,13 @@ Console.WriteLine(size + " " + destMetric);
 
 Това е процесът на „**закачане**“ към изпълнението на програмата, който ни позволява да проследим поетапно процеса на изпълнение. Можем да следим **ред по ред** какво се случва с нашата програма, какъв път следва, какви стойности имат дефинираните променливи и много други неща, които ни позволяват да откриваме грешки (**бъгове**).
 
-![](assets/chapter-3-images/debugging-example.png)
+![image](assets/chapter-3-images/debugging-example.png)
 
 ### Дебъгване във Visual Studio
 
 Чрез натискане на бутона **[F10]**, стартираме програмата в **debug режим**. Преминаваме към **следващия ред**, отново с **[F10]**. 
 
-![](assets/chapter-3-images/debugging-example-2.png)
+![image](assets/chapter-3-images/debugging-example-2.png)
 
 Чрез **[F9]** създаваме стопери – така наречените **breakpoints**, до които можем да стигнем директно използвайки **[F5]** при стартирането на програмата.
 
@@ -460,19 +460,19 @@ Console.WriteLine(size + " " + destMetric);
 
 Създайте празно решение (**Blank Solution**) във Visual Studio, за да организирате решенията на задачите от упражненията – всяка задача ще бъде в отделен проект и всички проекти ще бъдат в общ solution.
 
-1.	Стартирайте Visual Studio.
+1. Стартирайте Visual Studio.
 
-2.	Създайте нов **Blank Solution**: [File] -> [New] -> [Project]. 
+2. Създайте нов **Blank Solution**: [File] -> [New] -> [Project]. 
 
-![](assets/chapter-3-images/problem-0-image-1.png)
+![image](assets/chapter-3-images/problem-0-image-1.png)
 
-3.	Изберете от диалоговия прозорец [Templates] -> [Other Project Types] -> [Visual Studio Solutions] -> [**Blank Solution**] и дайте подходящо име на проекта, например “**Simple-Conditions**”:  
+3. Изберете от диалоговия прозорец [Templates] -> [Other Project Types] -> [Visual Studio Solutions] -> [**Blank Solution**] и дайте подходящо име на проекта, например “**Simple-Conditions**”:  
 
-![](assets/chapter-3-images/problem-0-image-2.png)
+![image](assets/chapter-3-images/problem-0-image-2.png)
 
 Сега имате създаден празен Visual Studio Solution (без проекти в него):  
 
-![](assets/chapter-3-images/problem-0-image-3.png)
+![image](assets/chapter-3-images/problem-0-image-3.png)
 
 ### 1. Проверка за отлична оценка
 
@@ -485,31 +485,31 @@ Console.WriteLine(size + " " + destMetric);
 | 5.5 | Excellent! |
 | 5.49 | (няма изход) |
 
-1.	Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **Solution 'Simple-Conditions'**. Изберете [Add] -> [New Project…]:  
+1. Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **Solution 'Simple-Conditions'**. Изберете [Add] -> [New Project…]:  
 
-![](assets/chapter-3-images/problem-1-image-1.png)
+![image](assets/chapter-3-images/problem-1-image-1.png)
 
-2.	Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение и задайте име “**Excellent-Result**”:  
+2. Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение и задайте име “**Excellent-Result**”:  
 
-![](assets/chapter-3-images/problem-1-image-2.png)  
+![image](assets/chapter-3-images/problem-1-image-2.png)  
 
 Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
 
-3.	Отидете в тялото на метода `Main(string[] args)` и напишете решението на задачата. Можете да си помогнете с кода от картинката по-долу:  
+3. Отидете в тялото на метода `Main(string[] args)` и напишете решението на задачата. Можете да си помогнете с кода от картинката по-долу:  
 
-![](assets/chapter-3-images/problem-1-image-3.png)
+![image](assets/chapter-3-images/problem-1-image-3.png)
 
-4.	**Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
+4. **Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
 
-![](assets/chapter-3-images/problem-1-image-4.png)
+![image](assets/chapter-3-images/problem-1-image-4.png)
 
-![](assets/chapter-3-images/problem-1-image-5.png)
+![image](assets/chapter-3-images/problem-1-image-5.png)
 
 5.	**Тествайте** решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/152#0. Трябва да получите **100 точки** (напълно коректно решение):  
 
-![](assets/chapter-3-images/problem-1-image-6.png)  
+![image](assets/chapter-3-images/problem-1-image-6.png)  
 
-![](assets/chapter-3-images/problem-1-image-7.png)
+![image](assets/chapter-3-images/problem-1-image-7.png)
 
 ### 2. Отлична оценка или не
 
@@ -522,32 +522,32 @@ Console.WriteLine(size + " " + destMetric);
 | 5.5 | Excellent! |
 | 5.49 | Not excellent. |
 
-1.	Първо създайте **нов C# конзолен проект** в решението “**Simple-Conditions**”.
+1. Първо създайте **нов C# конзолен проект** в решението “**Simple-Conditions**”.
 
  - Кликнете с мишката върху решението в Solution Explorer и изберете [Add] -> [**New Project…**].
  
  - Изберете [Visual C#] -> [Windows] -> [**Console Application**] и задайте име “**Excellent-or-Not**”.
  
-2.	**Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:  
+2. **Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:  
 
-![](assets/chapter-3-images/problem-2-image-1.png)
+![image](assets/chapter-3-images/problem-2-image-1.png)
 
-3.	Включете режим на **автоматично превключване към текущия проект** като кликнете върху главния solution с десния бутон на мишката и изберете [**Set StartUp Projects…**]:  
+3. Включете режим на **автоматично превключване към текущия проект** като кликнете върху главния solution с десния бутон на мишката и изберете [**Set StartUp Projects…**]:  
 
-![](assets/chapter-3-images/problem-2-image-2.png)  
+![image](assets/chapter-3-images/problem-2-image-2.png)  
 
 Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current selection**]:
 
-![](assets/chapter-3-images/problem-2-image-3.png) 
+![image](assets/chapter-3-images/problem-2-image-3.png) 
 
-4.	Сега **стартирайте програмата**, както обикновено с [Ctrl+F5] и я тествайте:
+4. Сега **стартирайте програмата**, както обикновено с [Ctrl+F5] и я тествайте:
 
-![](assets/chapter-3-images/problem-2-image-4.png)
-![](assets/chapter-3-images/problem-2-image-5.png)
+![image](assets/chapter-3-images/problem-2-image-4.png)
+![image](assets/chapter-3-images/problem-2-image-5.png)
 
 5.	Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#1. Решението би трябвало да бъде прието като напълно коректно: 
 
-![](assets/chapter-3-images/problem-2-image-6.png)
+![image](assets/chapter-3-images/problem-2-image-6.png)
 
 ### 3. Четно или нечетно
 
@@ -560,15 +560,15 @@ Console.WriteLine(size + " " + destMetric);
 | 25 | even |
 | 1024 | odd |
 
-1.	Първо добавете **нов C# конзолен проект** в съществуващия solution.
+1. Първо добавете **нов C# конзолен проект** в съществуващия solution.
 
-2.	**Напишете кода** на програмата. Проверката за четност може да се реализира чрез проверка на **остатъка при деление на 2** по следния начин: `var even = (num % 2 == 0)`.
+2. **Напишете кода** на програмата. Проверката за четност може да се реализира чрез проверка на **остатъка при деление на 2** по следния начин: `var even = (num % 2 == 0)`.
 
-3.	**Стартирайте** програмата с [Ctrl+F5] и я тествайте:  
+3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:  
 
-![](assets/chapter-3-images/problem-3-image-1.png)
+![image](assets/chapter-3-images/problem-3-image-1.png)
 
-4.	Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#2.
+4. Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#2.
 
 ### 4. Намиране на по-голямото число
 
@@ -581,18 +581,18 @@ Console.WriteLine(size + " " + destMetric);
 | 10 <br/> 10 | 10 |
 | -5 <br/> 5 | 5 |
 
-1.	Първо добавете **нов C# конзолен проект** в съществуващия solution.
+1. Първо добавете **нов C# конзолен проект** в съществуващия solution.
 
-2.	**Напишете кода** на програмата. Необходима е единична `if-else` конструкция.
+2. **Напишете кода** на програмата. Необходима е единична `if-else` конструкция.
 
-3.	**Стартирайте** програмата с [Ctrl+F5] и я тествайте:
+3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:
 
-![](assets/chapter-3-images/problem-4-image-1.png)
+![image](assets/chapter-3-images/problem-4-image-1.png)
 
-4.	Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#3.
+4. Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#3.
 
 **Подсказка**: може да си помогнете частично с кода от картинката, който е нарочно замъглен, за да помислите как да си го напишете сами:  
-![](assets/chapter-3-images/problem-4-image-2.png)
+![image](assets/chapter-3-images/problem-4-image-2.png)
 
 ### 5. Изписване на число до 10 с думи
 
@@ -721,17 +721,17 @@ Console.WriteLine(size + " " + destMetric);
 
 Създайте графично (**GUI**) приложение за **конвертиране на валути**. Приложението трябва да изглежда приблизително като на картинката по-долу:  
 
-![](assets/chapter-3-images/convertor-image-1.png)
+![image](assets/chapter-3-images/convertor-image-1.png)
 
-1.	Създайте нов **Windows Forms Application** с име “**Currency-Converter**”:
+1. Създайте нов **Windows Forms Application** с име “**Currency-Converter**”:
 
-![](assets/chapter-3-images/convertor-image-2.png)
+![image](assets/chapter-3-images/convertor-image-2.png)
 
-2.	**Наредете контролите** във формата: една кутийка за въвеждане на число (**NumericUpDown**), един падащ списък с валути (**ComboBox**), текстов блок за резултата (**Label**) и няколко надписа (**Label**). Нагласете **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:  
+2. **Наредете контролите** във формата: една кутийка за въвеждане на число (**NumericUpDown**), един падащ списък с валути (**ComboBox**), текстов блок за резултата (**Label**) и няколко надписа (**Label**). Нагласете **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:  
 
-![](assets/chapter-3-images/convertor-image-3.png)
+![image](assets/chapter-3-images/convertor-image-3.png)
 
-3.	Задайте следните препоръчителни **настройки на контролите**:
+3. Задайте следните препоръчителни **настройки на контролите**:
 
  - **За главната форма** (**Form**), която съдържа всички контроли:
      - `(name)` = `FormConverter`
@@ -765,11 +765,11 @@ Console.WriteLine(size + " " + destMetric);
      - `Font.Size` = **14**
      - `Font.Bold` = `True`
      
-4.	Хванете следните **събития**, за да напишете C# кода, който ще се изпълни при настъпването им:
+4. Хванете следните **събития**, за да напишете C# кода, който ще се изпълни при настъпването им:
 
   - Събитието `ValueChanged` на контролата за въвеждане на число `numericUpDownAmount`: 
   
-![](assets/chapter-3-images/convertor-image-4.png)
+![image](assets/chapter-3-images/convertor-image-4.png)
 
   - Събитието `Load` на формата `FormConverter`.
   - Събитието `SelectedIndexChanged` на падащия списък за избор на валута `comboBoxCurrency`.
