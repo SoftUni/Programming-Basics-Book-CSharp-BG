@@ -773,8 +773,8 @@ Console.WriteLine(size + " " + destMetric);
   - Събитието `SelectedIndexChanged` на падащия списък за избор на валута `comboBoxCurrency`.
   
 5.	Напишете следния **C# код** за обработка на събитията:
- 
- ```cs
+
+```cs
 private void FormConverter_Load(object sender, EventArgs e)
 {
   this.comboBoxCurrency.SelectedItem = "EUR";
@@ -793,9 +793,9 @@ private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)
 
 Задачата на горния код е, да избере при стартиране на програмата валута “**EUR**” и при промяна на стойностите в полето за сума или при смяна на валутата, да изчисли резултата, извиквайки `ConvertCurrency()`.
 
-6.	Следва да се напише действието `ConvertCurrency()` за конвертиране на въведената сума от лева в избраната валута: 
+6.Следва да се напише действието `ConvertCurrency()` за конвертиране на въведената сума от лева в избраната валута:
  
- ```cs
+```cs
 private void ConvertCurrency()
 {
   var originalAmount = this.numericUpDownAmount.Value;
