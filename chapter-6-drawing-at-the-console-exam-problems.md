@@ -101,7 +101,7 @@
 
 ***Чертане на първата кула:***
 
-<img src="assets/chapter-6-images/fort/fort-code-1.png">
+![code](/assets/chapter-6-images/fort/fort-code-1.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Използваме <b>Console.Write()</b> за да печатаме няколко пъти върху един ред от конзолата.</td>
@@ -117,7 +117,7 @@
 
 ***Чертане на покрива:***
 
-<img src="assets/chapter-6-images/fort/fort-code-2.png">
+![code](/assets/chapter-6-images/fort/fort-code-2.png)
 
 Остава ни да нарисуваме втората кула. След като свършим с чертането на покрива, минаваме на нов ред.
 
@@ -128,11 +128,11 @@
 #### Рисуване на стените
 Ще трябва да рисуваме `n-3` еднакви редове.
 
-<img src="assets/chapter-6-images/fort/fort-code-3.png">
+![code](/assets/chapter-6-images/fort/fort-code-3.png)
 
 Един такъв ред се състои от двe ограждащи прави черти **"|"** и `2*n - 2` интервала.
 
-<img src="assets/chapter-6-images/fort/fort-code-4.png">
+![code](/assets/chapter-6-images/fort/fort-code-4.png)
 
 #### Рисуване на основите
 
@@ -144,14 +144,14 @@
 
 Тях ще печатаме на две равни части преди и след междинната част.
 
-<img src="assets/chapter-6-images/fort/fort-code-5.png">
+![code](/assets/chapter-6-images/fort/fort-code-5.png)
 
 Последният ред от крепоста наподобява първият. Трябва да нарисуваме основи на кулите и няколко интервала между тях.
 
-<img src="assets/chapter-6-images/fort/fort-code-6.png">
+![code](/assets/chapter-6-images/fort/fort-code-6.png)
 
 ### Тестване в Judge системата
-TODO: Add adress
+https://judge.softuni.bg/Contests/Practice/Index/513#0
 
 
 ## Пеперуда
