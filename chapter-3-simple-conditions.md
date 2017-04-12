@@ -57,10 +57,10 @@ Console.WriteLine(b == 2 * a); // True
 <td>По-голямо или равно</td><td align="center"> >= </td>
 </tr>
 <tr>
-<td>По-малко</td><td align="center"> < </td>
+<td>По-малко</td><td align="center"> &lt; </td>
 </tr>
 <tr>
-<td>По-малко или равно</td><td align="center"> <= </td>
+<td>По-малко или равно</td><td align="center"> &lt;= </td>
 </tr>
 </table>
 
