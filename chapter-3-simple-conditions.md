@@ -86,13 +86,7 @@ if (булев израз)
 
 Въвеждаме оценка в конзолата и проверяваме дали тя е отлична (**≥ 5.50**).
 
-```cs
-var grade = double.Parse(Console.ReadLine());
-if (grade >= 5.50)
-{
-   Console.WriteLine("Excellent!");
-}
-```
+![image](assets/chapter-3-images/problem-1-image-3,5.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#0
 
@@ -115,17 +109,7 @@ else
 
 Подобно на горния пример, въвеждаме оценка, проверяваме дали е отлична, но **изписваме резултат и в двата случая**.
 
-```cs
-var grade = double.Parse(Console.ReadLine());
-if (grade >= 5.50)
-{
-   Console.WriteLine("Excellent!");
-}
-else
-{
-   Console.WriteLine("Not excellent.");
-}
-```
+![image](assets/chapter-3-images/problem-2-image-1.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#1
 
@@ -182,17 +166,7 @@ tomato
 
 Задачата можем да я решим, чрез една `if-else` конструкция и оператора `%`, който връща **остатък при деление** на едно число с друго.
 
-```cs
-var num = int.Parse(Console.ReadLine());
-if (num % 2 == 0)
-{
-   Console.WriteLine("even");
-}
-else
-{
-   Console.WriteLine("odd");
-}
-```
+![image](assets/chapter-3-images/problem-3-image-2.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#2
 
@@ -200,21 +174,9 @@ else
 
 Да се напише програма, която чете две цели числа и извежда по-голямото от тях.
 
-Първата ни задача е да **прочетем** две числа. След което, чрез проста `if-else` конструкция в съчетание с **оператора за по-голямо** `>`, да направим проверка.
+Първата ни задача е да **прочетем** две числа. След което, чрез проста `if-else` конструкция в съчетание с **оператора за по-голямо** `>`, да направим проверка. Част от кода е замъглен умишлено, за да изпробваме наученото до момента.
 
-```cs
-Console.WriteLine("Enter two integers:");
-var num1 = int.Parse(Console.ReadLine());
-var num2 = int.Parse(Console.ReadLine());
-if (num1 > num2)
-{ 
-  Console.WriteLine("Greater number: " + num1); 
-}
-else
-{ 
-  Console.WriteLine("Greater number: " + num2); 
-}
-```
+![image](assets/chapter-3-images/problem-4-image-2.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#3
 
