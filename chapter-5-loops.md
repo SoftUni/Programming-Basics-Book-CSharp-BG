@@ -214,7 +214,7 @@ if (leftSum == rightSum)
 }
 else
 {
-  var difference =  Math.Abs(rightSum - leftSum)
+  var difference =  Math.Abs(rightSum - leftSum);
   Console.WriteLine("No, diff = " + difference);
 }
 ```
