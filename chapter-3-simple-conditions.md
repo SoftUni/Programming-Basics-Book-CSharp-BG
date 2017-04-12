@@ -94,7 +94,7 @@ if (grade >= 5.50)
 }
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#0
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#0
 
 ## Проверки с if-else конструкция
 
@@ -127,7 +127,7 @@ else
 }
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#1
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#1
 
 ## За къдравите скоби { } след if / else
 
@@ -194,7 +194,7 @@ else
 }
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#2
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#2
 
 ### Пример: По-голямото число
 
@@ -215,6 +215,8 @@ else
   Console.WriteLine("Greater number: " + num2); 
 }
 ```
+
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#3
 
 ## Живот на променлива
 
@@ -260,9 +262,9 @@ else
 }
 ``` 
 
-### Пример: От 1 до 10 на английски
+### Пример: От 1 до 9 на английски
 
-Да се изпише с английски текст числата от 1 до 10.
+Да се изпише с английски текст числата от 1 до 9.
 
 ```cs
 var num = int.Parse(Console.ReadLine());
@@ -287,7 +289,7 @@ else
 
 Програмната логика от примера **последователно сравнява** дадено число от конзолата, за да провери, дали то е единична цифра. **Всяко следващо сравнение се извършва, само в случай че предходното сравнение не е било истина**. В крайна сметка, ако никое от `if` условията не е изпълнено, се изпълнява последната `else` клауза.
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#4
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#4
 
 ## Примерни задачи: Прости проверки
 
@@ -343,7 +345,7 @@ Console.WriteLine("Total score: {0}", num + bonusScore);
 - Основните бонус точки можете да изчислите с `if-else-if-else-if` конструкция (имате 3 случая).
 - Допълнителните бонус точки можете да изчислите с `if-else-if` конструкция (имате още 2 случая).
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#5
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#5
 
 ### 2. Сумиране на секунди
 
@@ -388,7 +390,7 @@ else
 - Ако резултатът е между 120 и 179, отпечатайте 2 минути + изчислените секунди минус 120.
 - Ако секундите са по-малко от 10, изведете водеща нула преди тях.
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#6
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#6
 
 ### 3. Конвертор за мерни единици
 
@@ -436,7 +438,7 @@ if (destMetric == "ft")
 // Check the other metrics: mm, cm, ft, yd, ...
 Console.WriteLine(size + " " + destMetric);
 ```
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/152#7
+Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#7
 
 ## Дебъгване - прости операции с дебъгер
 
@@ -505,7 +507,7 @@ Console.WriteLine(size + " " + destMetric);
 
  ![image](assets/chapter-3-images/problem-1-image-5.png)
 
-5.	**Тествайте** решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/152#0. Трябва да получите **100 точки** (напълно коректно решение):  
+5.	**Тествайте** решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/506#0. Трябва да получите **100 точки** (напълно коректно решение):  
 
  ![image](assets/chapter-3-images/problem-1-image-6.png)  
 
@@ -545,7 +547,7 @@ Console.WriteLine(size + " " + destMetric);
  ![image](assets/chapter-3-images/problem-2-image-4.png)
  ![image](assets/chapter-3-images/problem-2-image-5.png)
 
-5.	Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#1. Решението би трябвало да бъде прието като напълно коректно: 
+5.	Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#1. Решението би трябвало да бъде прието, като напълно коректно: 
 
  ![image](assets/chapter-3-images/problem-2-image-6.png)
 
@@ -568,7 +570,7 @@ Console.WriteLine(size + " " + destMetric);
 
  ![image](assets/chapter-3-images/problem-3-image-1.png)
 
-4. Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#2.
+4. Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#2.
 
 ### 4. Намиране на по-голямото число
 
@@ -589,14 +591,14 @@ Console.WriteLine(size + " " + destMetric);
 
  ![image](assets/chapter-3-images/problem-4-image-1.png)
 
-4. Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#3.
+4. Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#3.
 
 **Подсказка**: може да си помогнете частично с кода от картинката, който е нарочно замъглен, за да помислите как да си го напишете сами:  
 ![image](assets/chapter-3-images/problem-4-image-2.png)
 
-### 5. Изписване на число до 10 с думи
+### 5. Изписване на число до 9 с думи
 
-Да се напише програма, която въвежда **цяло число в диапазона [0…10]** и го **изписва с думи** на английски език. Ако числото е извън диапазона, изписва “**number too big**”. Примери:
+Да се напише програма, която въвежда **цяло число в диапазона [0…9]** и го **изписва с думи** на английски език. Ако числото е извън диапазона, изписва “**number too big**”. Примери:
 
 | Вход | Изход |
 | :--- | :---- |
@@ -605,7 +607,7 @@ Console.WriteLine(size + " " + destMetric);
 | 9 | nine |
 | 10 | number too big |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#4.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#4.
 
 **Подсказка**: можете да напишете дълга `if-else-if-else…else`, с която да разгледате възможните **11 случая**.
 
@@ -619,7 +621,7 @@ Console.WriteLine(size + " " + destMetric);
 | s3cr3t!P@ssw0rd | Welcome |
 | s3cr3t!p@ss | Wrong password! |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#8.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#8.
 
 **Подсказка**: използвайте `if-else` конструкцията.
 
@@ -633,13 +635,13 @@ Console.WriteLine(size + " " + destMetric);
 | 120 | Between 100 and 200 |
 | 210 | Greater than 200 |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#9.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#9.
 
 **Подсказка**: използвайте `if-else-if-else` конструкция, за да проверите всеки от трите случая.
 
 ### 8. Еднакви думи
 
-Да се напише програма, която **въвежда две думи** и проверява дали са еднакви. Да не се прави разлика между главни и малки думи. Да се изведе “**yes**” или “**no**”. Примери:
+Да се напише програма, която **въвежда две думи** и проверява дали са еднакви. Да не се прави разлика между главни и малки букви. Да се изведе “**yes**” или “**no**”. Примери:
 
 | Вход | Изход |
 | :--- | :---- |
@@ -649,7 +651,7 @@ Console.WriteLine(size + " " + destMetric);
 | beer <br/> vodka | no |
 | HeLlO <br/> hELLo | yes |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#10.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#10.
 
 **Подсказка**: използвайте `if-else` конструкция. Преди сравняване на думите, ги обърнете в долен регистър: `word = word.ToLower()`.
 
@@ -665,7 +667,7 @@ Console.WriteLine(size + " " + destMetric);
 | 160 | ultra fast |
 | 3500 | extremely fast |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#11.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#11.
 
 **Подсказка**: използвайте серия от `if-else-if-else-…` конструкции, за да хванете всичките 5 случая.
 
@@ -680,7 +682,7 @@ Console.WriteLine(size + " " + destMetric);
 | circle <br/> 6 | 113.097 |
 | triangle <br/> 4.5 <br/> 20 | 45 |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#12.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#12.
 
 **Подсказка**: използвайте серия от `if-else-if-else-…` конструкции, за да обработите 4-те вида фигури.
 
@@ -696,26 +698,33 @@ Console.WriteLine(size + " " + destMetric);
 | 11 <br/> 08 | 11:23 |
 | 12 <br/> 49 | 13:04 |
 
-Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/151#13.
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#13.
 
 **Подсказка**: добавете 15 минути и направете няколко проверки. Ако минутите надвишат 59, увеличете часовете с 1 и намалете минутите с 60. По аналогичен начин разгледайте случая, когато часовете надвишат 23. При печатането на минутите, проверете за водеща нула.
 
 ### 12. Еднакви 3 числа
 
-Да се напише програма, в която се въведат 3 числа и се отпечата дали те са еднакви (yes / no). Пример:
+Да се напише програма, в която се въвеждат 3 числа и се отпечатва дали те са еднакви (yes / no). Пример:
 
 | Вход | Изход |
 | :--- | :---- |
 | 5 <br/> 5 <br/> 5 | yes |
 | 5 <br/> 4 <br/> 5 | no |
+| 1 <br/> 2 <br/> 3 | no |
 
-### 13. * Изписване на число до 100 с думи
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#14.
+
+### 13. * Изписване на число от 0 до 100 с думи
 
 Да се напише програма, която превръща число [0…100] в текст. Пример:
 
 | Вход | Изход |
 | :--- | :---- |
 | 25 | twenty five |
+| 42 | forty two |
+| 6  | six |
+
+Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#15.
 
 ## Графични и Web приложения: Конвертор за валути
 
@@ -725,10 +734,12 @@ Console.WriteLine(size + " " + destMetric);
 
 1. Създайте нов **Windows Forms Application** с име “**Currency-Converter**”:
 
-  ![image](assets/chapter-3-images/convertor-image-2.png)
+ ![image](assets/chapter-3-images/convertor-image-2.png)
 
-2. **Наредете контролите** във формата: една кутийка за въвеждане на число (**NumericUpDown**), един падащ списък с валути (**ComboBox**), текстов блок за резултата (**Label**) и няколко надписа (**Label**). Нагласете **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:![image](assets/chapter-3-images/convertor-image-3.png)
-
+2. **Наредете контролите** във формата: една кутийка за въвеждане на число (**NumericUpDown**), един падащ списък с валути (**ComboBox**), текстов блок за резултата (**Label**) и няколко надписа (**Label**). Нагласете **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:
+ 
+ ![image](assets/chapter-3-images/convertor-image-3.png)
+ 
 3. Задайте следните препоръчителни **настройки на контролите**:
 
  - **За главната форма** (**Form**), която съдържа всички контроли:
@@ -815,5 +826,6 @@ private void ConvertCurrency()
   this.labelResult.Text = originalAmount + " лв. = " +
   Math.Round(convertedAmount, 2) + " " + this.comboBoxCurrency.SelectedItem;
 }
-```      
+```
+
 Горният код взима **сумата** за конвертиране от полето `numericUpDownAmount` и **избраната валута** за резултата от полето `comboBoxCurrency`. След това с **условна конструкция**, според избраната валута, сумата се дели на **валутния курс** (който е фиксиран твърдо в сорс кода). Накрая се генерира текстово **съобщение с резултата** (закръглен до 2 цифри след десетичната точка) и се записва в зелената кутийка `labelResult`.
