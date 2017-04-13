@@ -35,16 +35,11 @@ if (condition1)
 “**Ms.**” – жена (пол “**f**”) на 16 или повече години
 “**Miss**” – момиче (пол “**f**”) под 16 години
 
-| Вход | Изход | Вход | Изход | Вход | Изход |
-| --- | --- | --- | --- | --- | --- |
-| 2<br>10<br>20 | 30 | 3<br>-10<br>-20<br>-30 | -60 | 4<br>45<br>-20<br>7<br>11<br> | 43 |
-
-
 Първото нещо, което забелязваме, е това, че **изходът** на програмата **зависи** от **няколко** неща. Първо трябва да проверим какъв **пол** е въведен и **после** да проверим **възрастта**. Съответно ще използваме **повече от един** `if-else` блока. Тези блокове ще бъдат **вложени**, т.е. от **резултата** на първия ще **определим** кои от **другите** да изпълним.
 
 ![task1](/assets/chapter-4-images/missOrMaster.png)
 
-Решение на задачата:
+#### Решение:
 ```cs
 var age = double.Parse(Console.ReadLine());
 var gender = Console.ReadLine();
@@ -59,42 +54,20 @@ else
    else if (gender == "f") Console.WriteLine("Ms.");
 }
 ```
-
 //todo: картинка
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#0
+#### Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#0
 
 
 ### Пример: Квартално магазинче
 
 Предприемчив българин отваря по едно квартално магазинче в няколко **града** с различни **цени** за следните **продукти**:
 
-![shop](/assets/chapter-4-images/shop.png)
+//todo: markdown table
 
 По даден град, продукт и количество да се пресметне цената. Примери:
 
-//todo: markdown table
-<div style="display:inline-block">
-<table>
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">coffe<br />Varna 
-2</td>
-
-<td style="border:1px solid black;">0.9<br /></td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Решение: квартално магазинче
+#### Решение: 
 
 ```cs
 var product = Console.ReadLine().ToLower();
@@ -109,10 +82,9 @@ if (town == "sofia")
 if (town == "varna") // TODO: finish this …
 if (town == "plovdiv") // TODO: finish this …
 ```
-
 //todo: png image
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#1
+#### Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 
 ## По-сложни проверки
