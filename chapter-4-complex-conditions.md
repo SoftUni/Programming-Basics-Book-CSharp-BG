@@ -66,7 +66,8 @@ else
 ```
 //todo: картинка
 
-#### Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#0
+#### Тестване на решението: 
+https://judge.softuni.bg/Contests/Practice/Index/508#0
 
 
 ### Пример: Квартално магазинче
@@ -102,7 +103,8 @@ if (town == "plovdiv") // TODO: finish this …
 ```
 //todo: png image
 
-#### Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#1
+#### Тестване на решението: 
+https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 
 
@@ -155,6 +157,7 @@ bool result = a && b && c && d; //false (като d не се проверява
 * Точката е нагоре от долната страна на правоъгълника
 
 #### Решение
+
 ```cs
 var x = 8, y = -1;
 var x1 = 2, y1 = -3;
@@ -164,7 +167,8 @@ if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
 else
    Console.WriteLine("Outside");
 ```
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#2
+#### Тестване на решението: 
+https://judge.softuni.bg/Contests/Practice/Index/508#2
 
 
 ## Логическо "ИЛИ"
@@ -218,7 +222,8 @@ else
   Console.WriteLine("unknown");
 ```
 
-#### Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#3
+#### Тестване на решението: 
+https://judge.softuni.bg/Contests/Practice/Index/508#3
 
 
 ## Логическо отрицание
@@ -243,7 +248,8 @@ if (!inRange)
   Console.WriteLine("invalid");
 ```
 
-#### Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#4
+#### Тестване на решението: 
+https://judge.softuni.bg/Contests/Practice/Index/508#4
 
 
 
@@ -251,9 +257,7 @@ if (!inRange)
 
 ### Пример: Точка върху страна на правоъгълник
 
-Да се напише програма, която чете 6 десетични числа x1, y1, x2, y2, x и y, и печата дали точката е върху страна от правоъгълника или не.
-
-Ограничения: x1 < x2 и y1 < y2
+Да се напише програма, която проверява дали **точка {x, y}** се намира **върху някоя от страните на правоъгълник {x1, y1} - {x2, y2}**. Входните данни се четат от конзолата и се състоят от 6 реда: десетичните числа **x1**, **y1**, **x2**, **y2**, **x** и **y** (като се гарантира, че **x1 < x2** и **y1 < y2**). Да се отпечата "**Border**" (точката лежи на няко от страните) или "**Inside / Outside**" (в противен случай).
 
 ![rect](/assets/chapter-4-images/pointOnSideRect.png)
 
@@ -265,6 +269,8 @@ if (!inRange)
 * x съвпада с x1 или x2 и същевременно y е между y1 и y2 или
 * y съвпада с y1 или y2 и същевременно x е между x1 и x2
 
+#### Решение
+
 ```cs
 if (((x == x1 || x == x2) && 
      (y >= y1) && (y <= y2)) ||
@@ -274,56 +280,49 @@ if (((x == x1 || x == x2) &&
    Console.WriteLine("Border");
 }
 ```
-Предходното условие може да се опрости ето така:
+Предходното условие може да се опрости по този начин:
+
 ```cs
 var onLeftSide = (x == x1) && (y >= y1) && (y <= y2);
 var onRightSide = (x == x2) && (y >= y1) && (y <= y2);
 var onUpSide = (y == y1) && (x >= x1) && (x <= x2);
 var onDownSide = (y == y2) && (x >= x1) && (x <= x2);
-if (onLeftSide || onRightSide ||     onUpSide || onDownSide)
+if (onLeftSide || onRightSide || onUpSide || onDownSide)
 {
     Console.WriteLine("Border");
 }
 ```
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#5
+#### Тестване на решението: 
+https://judge.softuni.bg/Contests/Practice/Index/508#5
 
 ### Пример: Магазин за плодове
 
-Магазин за плодове в работни дни продава на следните цени:
+Магазин за плодове в **работни дни** продава на следните **цени**:
 
-![fruit1](/assets/chapter-4-images/fruitShop.png)
+|плод|banana|apple|orange|grapefruit|kiwi|pineapple|grapes|
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|цена|2.50|1.20|0.85|1.45|2.70|5.50|3.85|
+
+В почивни дни цените са **по-високи**:
+
+|плод|banana|apple|orange|grapefruit|kiwi|pineapple|grapes|
+|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
+|цена|2.70|1.25|0.90|1.60|3.00|5.60|4.20|
+
+Нека напишем програма, която чете от конзолата **плод** , **ден от седмицата** и **количество** (десетично число), след което пресмята **цената** според цените от таблиците по-горе. Резултатът да се отпечатва **закръглен с 2 цифри** след десетичния знак. При невалиден ден от седмицата или невалидно име на плод да се отпечата "error".
+
+|Вход|Изход|Вход|Изход|
+|----|----|----|----|
+|orange<br>Sunday<br>3|2.70|kiwi<br>Monday<br>2.5|6.75|
 
 
-В почивни дни цените са по-високи:
+|Вход|Изход|Вход|Изход|
+|----|----|----|----|
+|grapes<br>Saturday<br>0.5|2.10|tomato<br>Monday<br>0.5|error|
 
-![fruit2](/assets/chapter-4-images/fruitShop2.png)
+#### Решение
 
-Примерен вход и изход:
-
-<div style="display:inline-block">
-<table>
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">apple <br />Thuesday  2</td>
-<td style="border:1px solid black;">2.4<br /></td>
-</tr>
-<tr>
-<td style="border:1px solid black;">orange <br />Sunday  3</td>
-<td style="border:1px solid black;">2.7<br /></td>
-</tr>
-</tbody>
-</table>
-</div>
-
-Решение на задачата:
 ```cs
 if (day == "saturday" || day == "sunday")
 {
@@ -338,7 +337,10 @@ else if (day == "monday" || day == "tuesday" || day ==
    // TODO: more fruits come here …
 }
 ```
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/508#6
+
+#### Тестване на решението: 
+https://judge.softuni.bg/Contests/Practice/Index/508#6
+
 
 ### Пример: Търговски комисионни
 
