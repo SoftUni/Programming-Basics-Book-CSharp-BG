@@ -34,22 +34,16 @@ _Трета задача от междинния изпит на 6 март 2016
 
 ### Примерен вход и изход
 
-| Вход | Изход |
-|:---|:---|
-|9 <br/> 30 <br/> 9 <br/> 50|Late <br/> 20 minutes after the start|
-|9 <br/> 00 <br/> 8 <br/> 30|On time <br/> 30 minutes before the start|
-|16 <br/> 00 <br/> 15 <br/> 00|Early <br/> 1:00 hours before the start|
+| Вход | Изход | Вход | Изход |
+|---|---|---|---|
+|9 <br/> 30 <br/> 9 <br/> 50|Late <br/> 20 minutes after the start|16 <br/> 00 <br/> 15 <br/> 00|Early <br/> 1:00 hours before the start|
+|9 <br/> 00 <br/> 8 <br/> 30|On time <br/> 30 minutes before the start|9 <br/> 00 <br/> 10 <br/> 30|Late <br/> 1:30 hours after the start|
+|14 <br/> 00 <br/> 13 <br/> 55|On time <br/> 5 minutes before the start|11 <br/> 30 <br/> 8 <br/> 12|Early <br/> 3:18 hours before the start|
 
-| Вход | Изход |
-|:---|:---|
-|9 <br/> 00 <br/> 10 <br/> 30|Late <br/> 1:30 hours after the start|
-|14 <br/> 00 <br/> 13 <br/> 55|On time <br/> 5 minutes before the start|
-|11 <br/> 30 <br/> 8 <br/> 12|Early <br/> 3:18 hours before the start|
 
-| Вход | Изход |
-|:---|:---|
-|10 <br/> 00 <br/> 10 <br/> 00|On time|
-|11 <br/> 30 <br/> 10 <br/> 55|Early <br/> 35 minutes before the start|
+| Вход | Изход | Вход | Изход |
+|---|---|---|---|
+|10 <br/> 00 <br/> 10 <br/> 00|On time|11 <br/> 30 <br/> 10 <br/> 55|Early <br/> 35 minutes before the start|
 |11 <br/> 30 <br/> 12 <br/> 23|Late <br/> 59 minutes after the start|
 
 
