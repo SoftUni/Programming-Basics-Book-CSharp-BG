@@ -42,7 +42,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 
 | Вход | Изход | 
-|---|---|---|
+|---|---|
 |10 <br/> 00 <br/> 10 <br/> 00|On time|
 |11 <br/> 30 <br/> 10 <br/> 55|Early <br/> 35 minutes before the start|
 |11 <br/> 30 <br/> 12 <br/> 23|Late <br/> 59 minutes after the start|
