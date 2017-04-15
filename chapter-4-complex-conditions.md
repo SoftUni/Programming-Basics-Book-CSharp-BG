@@ -308,10 +308,6 @@ https://judge.softuni.bg/Contests/Practice/Index/508#5
 
 В почивни дни цените са **по-високи**:
 
-|плод|banana|apple|orange|grapefruit|kiwi|pineapple|grapes|
-|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|цена|2.70|1.25|0.90|1.60|3.00|5.60|4.20|
-
 |плод|цена|
 |:-----:|:-----:|
 |banana<br>apple<br>orange<br>grapefruit<br>kiwi<br>pineapple<br>grapes|2.70<br>1.25<br>0.90<br>1.60<br>3.00<br>5.60<br>4.20|
