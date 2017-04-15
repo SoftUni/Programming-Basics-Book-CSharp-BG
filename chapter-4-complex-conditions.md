@@ -9,6 +9,7 @@
 </div>
 <script src="/assets/js/video.js"></script>
 
+
 ## Вложени проверки
 
 Конструкциите **`if-else`** могат да се **влагат една в друга**:
@@ -304,9 +305,9 @@ https://judge.softuni.bg/Contests/Practice/Index/508#8
 
 Напишете програма, която принтира вида на животно според името му: 
 
-* **dog -> mammal**
-* **crocodile, tortoise, snake -> reptile**
-* **others -> unknown**
+* **dog** -> **mammal**
+* **crocodile, tortoise, snake** -> **reptile**
+* **others** -> **unknown**
 
 ![code](/assets/chapter-4-images/image-18.png)
 
@@ -326,6 +327,9 @@ https://judge.softuni.bg/Contests/Practice/Index/508#9
 ![code](/assets/chapter-4-images/image-20.png)
 
 #### Switch-case провеки
+
+![code](/assets/chapter-4-images/image-15.png)
+
 
 
 ## Упражнения: по-сложни проверки
@@ -501,7 +505,6 @@ private void Draw()
 }
 
 ```
-//todo: png file
 
 6. Започнете от по-лесната част: **печат на информация къде е точката спрямо правоъгълника** (Inside, Outside или Border). Можете да ползвате следния код:
 
