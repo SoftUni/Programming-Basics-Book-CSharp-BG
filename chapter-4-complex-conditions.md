@@ -23,7 +23,7 @@ if (condition1)
    Console.WriteLine("condition1 valid");
 }
 ```
-//todo: png file 
+![code](/assets/chapter-4-images/image-01.png)
 
 ### Пример: Обръщение според възраст и пол
 
@@ -61,7 +61,7 @@ else
    else if (gender == "f") Console.WriteLine("Ms.");
 }
 ```
-//todo: картинка
+![code](/assets/chapter-4-images/image-02.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#0
@@ -102,7 +102,7 @@ if (town == "sofia")
 if (town == "varna") // TODO: finish this …
 if (town == "plovdiv") // TODO: finish this …
 ```
-//todo: png image
+![code](/assets/chapter-4-images/image-03.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#1
@@ -120,9 +120,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 Логическо "**И**" (оператор **`&&`**) означава няколко условия да са **изпълнени едновременно**:
 
-```cs
-if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
-```
+![code](/assets/chapter-4-images/image-04.png)
 
 |a|b|a & b|
 |:-----:|:-----:|:-----:|
@@ -142,6 +140,8 @@ bool c = false;
 bool d = true;
 bool result = a && b && c && d; //false (като d не се проверява)
 ```
+
+![code](/assets/chapter-4-images/image-05.png)
 
 **Програмата** ще се изпълни по **следния** начин: **започва** проверката от **`а`**, **прочита** я и отчита, че има стойност **`true`**, след което **проверява** **`b`**. След като е **отчелa**, че **`a`** и **`b`** връщат стойност **`true`**, **проверява следващия** аргумент. Стига до **`c`** и отчита, че **променливата** има стойност **`false`**. След като програмата отчете, че аргументът **`c`** има стойност **`false`**, тя изчислява израза **до `c`**, **независимо** каква е стойността на **`d`**. За това проверката на **`d`** се **прескача** и **целият** израз бива изчислен като **`false`**.
 
@@ -168,6 +168,9 @@ if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
 else
    Console.WriteLine("Outside");
 ```
+
+![code](/assets/chapter-4-images/image-06.png)
+
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#2
 
@@ -195,12 +198,16 @@ bool d = true;
 bool result = a||b||c||d; ///true (като c и d не се проверяват)
 ```
 
+![code](/assets/chapter-4-images/image-07.png)
+
 Програмата **проверява `а`**, отчита, че има стойност **`false`** и продължава. Стигайки до **`b`**, отчита, че има стойност **`true`** и целия **израз** получава стойност **`true`**, **без** да се проверава **`c`** и **`d`**, защото техните стойности **не биха променили** резултата на израза.
  
 ```cs
 if (s == "banana" || s == "apple" || s == "kiwi")
   Console.WriteLine("fruit");
 ```
+
+![code](/assets/chapter-4-images/image-08.png)
 
 ### Пример: Плод или зеленчук
 
@@ -222,6 +229,8 @@ else if (s == "tomato" || s == "cucumber" ||    s == "pepper" || s == "carrot")
 else
   Console.WriteLine("unknown");
 ```
+
+![code](/assets/chapter-4-images/image-09.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#3
@@ -248,6 +257,8 @@ var inRange = (num >= 100 && num <= 200) || num == 0;
 if (!inRange)
   Console.WriteLine("invalid");
 ```
+
+![code](/assets/chapter-4-images/image-10.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#4
@@ -282,6 +293,8 @@ if (((x == x1 || x == x2) &&
 }
 ```
 
+![code](/assets/chapter-4-images/image-11.png)
+
 Предходното условие може да се опрости по този начин:
 
 ```cs
@@ -294,6 +307,8 @@ if (onLeftSide || onRightSide || onUpSide || onDownSide)
     Console.WriteLine("Border");
 }
 ```
+
+![code](/assets/chapter-4-images/image-12.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#5
@@ -339,6 +354,8 @@ else if (day == "monday" || day == "tuesday" || day ==
 }
 ```
 
+![code](/assets/chapter-4-images/image-13.png)
+
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#6
 
@@ -376,6 +393,8 @@ if (comission >= 0)
 else Console.WriteLine("error");
 ```
 
+![code](/assets/chapter-4-images/image-14.png)
+
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#7
 
@@ -406,7 +425,7 @@ switch (селектор)
     break;
 }
 ```
-//todo: png
+![code](/assets/chapter-4-images/image-15.png)
 
 
 ### Пример: Ден от седмицата
@@ -430,6 +449,8 @@ switch (day)
   default: Console.WriteLine("Error!"); break;
 }
 ```
+
+![code](/assets/chapter-4-images/image-16.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Добра практика</b> е на <b>първо</b> място да поставяме онези <b>case случаи</b>, които обработват <b>най-често случилите се ситуации</b>, а <b>case конструкциите</b>, обработващи <b>по-рядко възникващи ситуации</b>, да оставим в <b>края преди default конструкцията</b>. Друга <b>добра практика</b> е да <b>подреждаме case етикетите</b> в <b>нарастващ ред</b>, без значение дали са челочислени или символни.</td>
@@ -457,7 +478,8 @@ switch (селектор)
     break;
 }
 ```
-//todo: png
+
+![code](/assets/chapter-4-images/image-17.png)
 
 ### Пример: Вид животно
 
@@ -479,6 +501,8 @@ switch (animal)
 }
 ```
 
+![code](/assets/chapter-4-images/image-18.png)
+
 #### Тестване на решението:
 https://judge.softuni.bg/Contests/Practice/Index/508#9
 
@@ -499,12 +523,16 @@ if (condition1)
 }
 ```
 
+![code](/assets/chapter-4-images/image-19.png)
+
 #### По-сложни проверки с `&&`, `||`, `!` и `()`:
 
 ```cs
 if ((x == left || x == right) && y >= top && y <= bottom)
   Console.WriteLine("Point on the left or right side.");
 ```
+
+![code](/assets/chapter-4-images/image-20.png)
 
 #### Switch-case провеки
 
