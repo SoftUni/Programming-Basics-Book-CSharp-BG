@@ -13,16 +13,6 @@
 
 Конструкциите **`if-else`** могат да се **влагат една в друга**:
 
-```cs
-if (condition1)
-{
-   if (condition2)
-      Console.WriteLine("condition2 valid");
-   else
-      Console.WriteLine("condition2 not valid");
-   Console.WriteLine("condition1 valid");
-}
-```
 ![code](/assets/chapter-4-images/image-01.png)
 
 ### Пример: Обръщение според възраст и пол
@@ -47,20 +37,6 @@ if (condition1)
 
 #### Решение
 
-```cs
-var age = double.Parse(Console.ReadLine());
-var gender = Console.ReadLine();
-if (age < 16)
-{
-   if (gender == "m") Console.WriteLine("Master");
-   else if (gender == "f") Console.WriteLine("Miss");
-}
-else
-{
-   if (gender == "m") Console.WriteLine("Mr.");
-   else if (gender == "f") Console.WriteLine("Ms.");
-}
-```
 ![code](/assets/chapter-4-images/image-02.png)
 
 #### Тестване на решението: 
@@ -89,19 +65,6 @@ https://judge.softuni.bg/Contests/Practice/Index/508#0
 
 **Прехвърляме** всички букви в **долен регистър** с **`.ToLower()`**, за да сравняваме продукти и градове **без значение** на малки/главни букви.
 
-```cs
-var product = Console.ReadLine().ToLower();
-var town = Console.ReadLine().ToLower();
-var quantity = double.Parse(Console.ReadLine());
-if (town == "sofia")
-{
-   if (product == "coffee") 
-      Console.WriteLine(0.50 * quantity);
-  // TODO: finish this …
-}
-if (town == "varna") // TODO: finish this …
-if (town == "plovdiv") // TODO: finish this …
-```
 ![code](/assets/chapter-4-images/image-03.png)
 
 #### Тестване на решението: 
@@ -133,14 +96,6 @@ https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 Пример:
 
-```cs
-bool a = true;
-bool b = true;
-bool c = false;
-bool d = true;
-bool result = a && b && c && d; //false (като d не се проверява)
-```
-
 ![code](/assets/chapter-4-images/image-05.png)
 
 **Програмата** ще се изпълни по **следния** начин: **започва** проверката от **`а`**, **прочита** я и отчита, че има стойност **`true`**, след което **проверява** **`b`**. След като е **отчелa**, че **`a`** и **`b`** връщат стойност **`true`**, **проверява следващия** аргумент. Стига до **`c`** и отчита, че **променливата** има стойност **`false`**. След като програмата отчете, че аргументът **`c`** има стойност **`false`**, тя изчислява израза **до `c`**, **независимо** каква е стойността на **`d`**. За това проверката на **`d`** се **прескача** и **целият** израз бива изчислен като **`false`**.
@@ -158,16 +113,6 @@ bool result = a && b && c && d; //false (като d не се проверява
 * Точката е нагоре от долната страна на правоъгълника
 
 #### Решение
-
-```cs
-var x = 8, y = -1;
-var x1 = 2, y1 = -3;
-var x2 = 12, y2 = 3;
-if (x >= x1 && x <= x2 && y >= y1 && y <= y2)
-   Console.WriteLine("Inside");
-else
-   Console.WriteLine("Outside");
-```
 
 ![code](/assets/chapter-4-images/image-06.png)
 
@@ -190,22 +135,9 @@ https://judge.softuni.bg/Contests/Practice/Index/508#2
 
 Вече научихме какво **представлява** логическото **"ИЛИ"**. Но как всъщност се реализира? Като при логическото **"И"**, програмата **проверява** от ляво на дясно **аргументите**, които са зададени. За да получим **`true`** от израза, е необходимо **само един** аргумент да има стойност **`true`**, съответно проверката **продължава** докато се срещне **аргумент** с **такава** стойност или докато **не свършат** аргументите.
 
- ```cs
-bool a = false;
-bool b = true;
-bool c = false;
-bool d = true;
-bool result = a||b||c||d; ///true (като c и d не се проверяват)
-```
-
 ![code](/assets/chapter-4-images/image-07.png)
 
 Програмата **проверява `а`**, отчита, че има стойност **`false`** и продължава. Стигайки до **`b`**, отчита, че има стойност **`true`** и целия **израз** получава стойност **`true`**, **без** да се проверава **`c`** и **`d`**, защото техните стойности **не биха променили** резултата на израза.
- 
-```cs
-if (s == "banana" || s == "apple" || s == "kiwi")
-  Console.WriteLine("fruit");
-```
 
 ![code](/assets/chapter-4-images/image-08.png)
 
@@ -218,17 +150,6 @@ if (s == "banana" || s == "apple" || s == "kiwi")
 |banana<br>tomato<br>java|fruit<br>vegetable<br>unknown|
 
 #### Решение:
-
-```cs
-var s = Console.ReadLine();
-if (s == "banana" || s == "apple" || s == "kiwi" ||
-    s == "cherry" || s == "lemon" || s == "grapes")
-  Console.WriteLine("fruit");
-else if (s == "tomato" || s == "cucumber" ||    s == "pepper" || s == "carrot")
-  Console.WriteLine("vegetable");
-else
-  Console.WriteLine("unknown");
-```
 
 ![code](/assets/chapter-4-images/image-09.png)
 
@@ -251,12 +172,6 @@ https://judge.softuni.bg/Contests/Practice/Index/508#3
 Дадено **число е валидно**, ако е в диапазона **[100…200]** или е **0**. Да се направи проверка за **невалидно** число.
 
 #### Решение
-
-```cs
-var inRange = (num >= 100 && num <= 200) || num == 0;
-if (!inRange)
-  Console.WriteLine("invalid");
-```
 
 ![code](/assets/chapter-4-images/image-10.png)
 
@@ -283,30 +198,9 @@ https://judge.softuni.bg/Contests/Practice/Index/508#4
 
 #### Решение
 
-```cs
-if (((x == x1 || x == x2) && 
-     (y >= y1) && (y <= y2)) ||
-    ((y == y1 || y == y2) && 
-     (x >= x1) && (x <= x2)))
-{
-   Console.WriteLine("Border");
-}
-```
-
 ![code](/assets/chapter-4-images/image-11.png)
 
 Предходното условие може да се опрости по този начин:
-
-```cs
-var onLeftSide = (x == x1) && (y >= y1) && (y <= y2);
-var onRightSide = (x == x2) && (y >= y1) && (y <= y2);
-var onUpSide = (y == y1) && (x >= x1) && (x <= x2);
-var onDownSide = (y == y2) && (x >= x1) && (x <= x2);
-if (onLeftSide || onRightSide || onUpSide || onDownSide)
-{
-    Console.WriteLine("Border");
-}
-```
 
 ![code](/assets/chapter-4-images/image-12.png)
 
@@ -339,21 +233,6 @@ https://judge.softuni.bg/Contests/Practice/Index/508#5
 
 #### Решение
 
-```cs
-if (day == "saturday" || day == "sunday")
-{
-   if (fruit == "banana") price = 2.70;
-   else if (fruit == "apple") price = 1.25;
-   // TODO: more fruits come here …
-}
-else if (day == "monday" || day == "tuesday" || day ==
-   "wednesday" || day == "thursday" || day == "friday")
-{
-   if (fruit == "banana") price = 2.50;
-   // TODO: more fruits come here …
-}
-```
-
 ![code](/assets/chapter-4-images/image-13.png)
 
 #### Тестване на решението: 
@@ -378,21 +257,6 @@ https://judge.softuni.bg/Contests/Practice/Index/508#6
 |:-----:|:-----:|:-----:|:-----:|
 |Sofia<br>1500|120.00|Plovidv<br>499.99|27.50|
 
-```cs
-var comission = -1.0;
-if (town == "sofia")
-{
-  if (0 <= sales && sales <= 500) comission = 0.05;
-  else if (500 < sales && sales <= 1000) comission = 0.07;
-  // TODO: check the other price ranges …
-}
-else if (town == "varna") // TODO: check the price ranges …
-else if (town == "plovdiv") // TODO: check the price ranges …
-if (comission >= 0)
-  Console.WriteLine("{0:f2}", sales * comission);
-else Console.WriteLine("error");
-```
-
 ![code](/assets/chapter-4-images/image-14.png)
 
 #### Тестване на решението: 
@@ -408,25 +272,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#7
 
 **Променливата**, която искаме да **сравняваме**, поставяме в **скобите след оператора `switch`** и се нарича "**селектор**". Тук типът трябва да е сравним (числа, стрингове, булеви изрази). **Последователно** започва **сравняването** с всяка една **стойност**, която **се намира** след **`case` етикетите**. При съвпадение започва изпълнението на кода от съответното място и продължава, докато стигне оператора **`break`**. В някои програмни езици (като C и C++) `break` може да се изпуска, за да се изпълнява код от друга `case` конструкция, докато не стигне до въпросния оператор. В `C#` обаче, **`break`** е **задължителен** за **всеки `case`**. При **липса** на **съвпадение**, се изпълнява **`default`** конструкцията, **ако** такава **съществува**.
 
-```cs
-switch (селектор)
-{
-  case стойност1: конструкция; 
-    break;
-  case стойност2: конструкция; 
-    break;
-  case стойност3: конструкция; 
-    break;
-  case стойност4: конструкция; 
-    break;
-  case стойност5: конструкция; 
-    break;
-  default: конструкция; 
-    break;
-}
-```
 ![code](/assets/chapter-4-images/image-15.png)
-
 
 ### Пример: Ден от седмицата
 
@@ -437,18 +283,6 @@ switch (селектор)
 |1<br>7<br>-1|Monday<br>Sunday<br>error|
 
 #### Решение
-
-```cs
-int day = int.Parse(Console.ReadLine());
-switch (day)
-{
-  case 1: Console.WriteLine("Monday"); break;
-  case 2: Console.WriteLine("Tuesday"); break;
-  …
-  case 7: Console.WriteLine("Sunday"); break;
-  default: Console.WriteLine("Error!"); break;
-}
-```
 
 ![code](/assets/chapter-4-images/image-16.png)
 
@@ -464,21 +298,6 @@ https://judge.softuni.bg/Contests/Practice/Index/508#8
 
 В **`C#`** имаме възможността да **използваме множество `case`**, когато те трябва да изпълняват **един и същи** код. При този начин на записване, когато **програмата** ни намери **съвпадение**, ще се изпълни **следващият** срещнат код, тъй като **след** съответния **`case`** етикет **липсва код** за изпълнение и **`break`** оператор. Ако такъв **липсва**, ще се **изпълни `default`** конструкцията.
 
-```cs
-switch (селектор)
-{
-  case стойност1: 
-  case стойност2: 
-  case стойност3: конструкция; 
-    break;
-  case стойност4: 
-  case стойност5: конструкция; 
-    break;
-  default: конструкция; 
-    break;
-}
-```
-
 ![code](/assets/chapter-4-images/image-17.png)
 
 ### Пример: Вид животно
@@ -488,18 +307,6 @@ switch (селектор)
 * **dog -> mammal**
 * **crocodile, tortoise, snake -> reptile**
 * **others -> unknown**
-
-
-```cs
-switch (animal)
-{
-  case "dog": Console.WriteLine("mammal"); break;
-  case "crocodile":
-  case "tortoise":
-  case "snake": Console.WriteLine("reptile"); break;
-  default: Console.WriteLine("unknown"); break;
-}
-```
 
 ![code](/assets/chapter-4-images/image-18.png)
 
@@ -512,25 +319,9 @@ https://judge.softuni.bg/Contests/Practice/Index/508#9
 
 #### Вложени проверки:
 
-```cs
-if (condition1)
-{
-   if (condition2)
-      Console.WriteLine("condition2 valid");
-   else
-      Console.WriteLine("condition2 not valid");
-   Console.WriteLine("condition1 valid");
-}
-```
-
 ![code](/assets/chapter-4-images/image-19.png)
 
 #### По-сложни проверки с `&&`, `||`, `!` и `()`:
-
-```cs
-if ((x == left || x == right) && y >= top && y <= bottom)
-  Console.WriteLine("Point on the left or right side.");
-```
 
 ![code](/assets/chapter-4-images/image-20.png)
 
