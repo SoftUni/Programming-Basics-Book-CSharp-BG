@@ -416,9 +416,11 @@ https://judge.softuni.bg/Contests/Practice/Index/508#12
 ### Зачача: * Точка и правоъгълник – графично (GUI) приложение
 Да се разработи графично (**GUI**) приложение за **визуализация на точка и правоъгълник**. Приложението трябва да изглежда приблизително по следния начин:
 
-![PointAndFigure](/assets/chapter-4-images/PointAndRect1.png)
-![PointAndFigure](/assets/chapter-4-images/PointAndRect2.png)
-![PointAndFigure](/assets/chapter-4-images/PointAndRect3.png)
+![PointAndFigure](/assets/chapter-4-images/image-21.png)
+
+![PointAndFigure](/assets/chapter-4-images/image-22.png)
+
+![PointAndFigure](/assets/chapter-4-images/image-23.png)
 
 От контролите вляво се задават координатите на **два от ъглите на правоъгълник** (десетични числа) и координатите на **точка**. Приложението **визуализира графично** правоъгълника и точката и изписва дали точката е **вътре** в правоъгълника (**Inside**), **вън** от него (**Outside**) или на някоя от стените му (**Border**).
 Приложението **премества и мащабира** координатите на правоъгълника и точката, за да бъдат максимално големи, но да се събират в полето за визуализация в дясната страна на приложението.
