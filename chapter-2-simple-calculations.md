@@ -11,7 +11,7 @@
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=0f7c9RIZGaE">https://www.youtube.com/watch?v=0f7c9RIZGaE</a>.
 </div>
-<script src="/assets/js/video.js"></script>
+
 
 ## Системна конзола
 Обикновено наричана само "конзола", системната, или още компютърната конзола, представлява устройството, чрез което подаваме команди на компютъра и получаваме резултатите от изпълнението на тези команди. В повечето случаи системната конзола представлява текстови терминал, т.е. приема и визуализира само текст, без графични елементи като например бутони, менюта и т.н. 
@@ -90,8 +90,7 @@ var str = Console.ReadLine();
 
 Нека да напишем кратка програма за поздрав по име:
 
-```cs
-Console.Write("Enter your name: ");              
+```cs           
 var name = Console.ReadLine();
 Console.WriteLine("Hello, {0}!", name);
 ```
@@ -255,8 +254,8 @@ double x2 = double.Parse(Console.ReadLine());
 double y2 = double.Parse(Console.ReadLine());
 double width = Math.Max(x1, x2) - Math.Min(x1, x2);
 double height = Math.Max(y1, y2) - Math.Min(y1, y2);
-Console.WriteLine("Area = {0}", width * height);
-Console.WriteLine("Perimeter = {0}", 2 * (width + height));
+Console.WriteLine(width * height); //Area
+Console.WriteLine(2 * (width + height)); //Perimeter
 ```
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
