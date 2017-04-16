@@ -187,7 +187,7 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/input.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-01.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-01.png)
 
 #### 2. Изчисления
 
@@ -195,7 +195,7 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/params.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-02.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-02.png)
 
 Можем подобно на примера в предната задача да инициализираме променливите с някои от изходните резултати, с цел спестяване на допълнително инициализиране. 
 
@@ -209,15 +209,15 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/if.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-03.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-03.png)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/elseif.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-04.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-04.png)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/else.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-05.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-05.png)
 
 Винаги можем да инициализираме дадена стойност на параметъра и след това да направим само една проверка дали има нужда да бъде сменена. **Това ни спестява една логическа стъпка**.
 
@@ -225,14 +225,14 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/first-block-schema.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-03.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-03.png)
 
 
 **може да бъде представена по следният начин:**
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/second-block-schema.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-06.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-06.png)
 
 
 #### 3. Показване на резултата
@@ -241,7 +241,7 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/output.PNG)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-07.png)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-07.png)
 
 ### Тестване в Judge системата
 
