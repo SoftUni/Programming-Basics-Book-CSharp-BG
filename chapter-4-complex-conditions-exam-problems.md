@@ -58,9 +58,13 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/input.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-01.png)
+
 Разглеждайки очакваният изход можем да създадем променливи, които да съдържат различните видове изходни данни, с цел да избегнем използването на т.нар. <strong>"magic strings"</strong> в кода.
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/params.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-02.png)
 
 #### 2. Изчисления
 
@@ -68,13 +72,19 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam-time.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-03.png)
+
 Нека изчислим по същата логика и **времето на пристигане** на студента.
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/arival-time.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-04.png)
+
 Остава ни да пресметнем разликата в двете времена, за да можем да определим <strong>кога</strong> и с <strong>какво време спрямо изпита</strong> е пристигнал студентът.
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/total-min-diff.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-05.png)
 
 Следващата ни стъпка е да направим необходимите проверки и изчисления, като накрая ще изведем резултата от тях. Нека разделим изхода на **две** части. 
 
@@ -90,6 +100,8 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam_check-diff.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-06.png)
+
 За финал ни остава да разберем и покажем и с <strong>каква разлика от времето на изпита е пристигнал</strong>, както и дали тази разлика е <strong>преди или след изпита</strong>.
 
 Правим проверка дали разликата ни е **над** един час, за да изпишем съответно часове и минути в желаният по задание **формат**, или е **под** един час, за да покажем **само минути** като формат и описание. 
@@ -98,11 +110,15 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/result.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-07.png)
+
 #### 3. Показване на резултата
 
 И накрая остава да изведем резултата на конзолата. Тъй като по задание ако студентът е дошъл точно на време (**без нито една минута разлика**) не трябва да изваждаме втори резултат, правим **проверка**.
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/output.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-08.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Реално за целите на задачата извеждането на резултата <strong>на конзолата</strong> може да бъде направен и в по-ранен етап - още при самите изчисления. Това като цяло не е много добра практика. <strong>Защо?</strong>
@@ -171,11 +187,15 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/input.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-01.png)
+
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи.
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/params.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-02.png)
 
 Можем подобно на примера в предната задача да инициализираме променливите с някои от изходните резултати, с цел спестяване на допълнително инициализиране. 
 
@@ -188,8 +208,16 @@
 Пример за един от възможните подходи за решение е:
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/if.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-03.png)
+
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/elseif.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-04.png)
+
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/else.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-05.png)
 
 Винаги можем да инициализираме дадена стойност на параметъра и след това да направим само една проверка дали има нужда да бъде сменена. **Това ни спестява една логическа стъпка**.
 
@@ -197,15 +225,23 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/first-block-schema.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-03.png)
+
+
 **може да бъде представена по следният начин:**
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/second-block-schema.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-06.png)
+
 
 #### 3. Показване на резултата
 
 Остава ни да покажем изчисленият резултат на конзолата:
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/output.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/01.Trip-07.png)
 
 ### Тестване в Judge системата
 
