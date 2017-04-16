@@ -14,7 +14,7 @@
 
 Конструкциите **`if-else`** могат да се **влагат една в друга**:
 
-![code](/assets/chapter-4-images/image-01.png)
+![code](/assets/chapter-4-images/00.If-else-construction.png)
 
 ### Пример: Обръщение според възраст и пол
 
@@ -26,7 +26,7 @@
 
 Първото нещо, което забелязваме, е това, че **изходът** на програмата **зависи** от **няколко** неща. Първо трябва да проверим какъв **пол** е въведен и **после** да проверим **възрастта**. Съответно ще използваме **повече от един** `if-else` блока. Тези блокове ще бъдат **вложени**, т.е. от **резултата** на първия ще **определим** кои от **другите** да изпълним.
 
-![task1](/assets/chapter-4-images/missOrMaster.png)
+![task1](/assets/chapter-4-images/01.Personal Titles-01.png)
 
 |Вход|Изход|Вход|Изход|
 |----|----|----|----|
@@ -38,7 +38,7 @@
 
 #### Решение
 
-![code](/assets/chapter-4-images/image-02.png)
+![code](/assets/chapter-4-images/01.Personal Titles-02.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#0
@@ -66,7 +66,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#0
 
 **Прехвърляме** всички букви в **долен регистър** с **`.ToLower()`**, за да сравняваме продукти и градове **без значение** на малки/главни букви.
 
-![code](/assets/chapter-4-images/image-03.png)
+![code](/assets/chapter-4-images/02.Small-shop-01.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#1
@@ -84,7 +84,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 Логическо "**И**" (оператор **`&&`**) означава няколко условия да са **изпълнени едновременно**:
 
-![code](/assets/chapter-4-images/image-04.png)
+![code](/assets/chapter-4-images/00.Logical-and-01.png)
 
 |a|b|a & b|
 |:-----:|:-----:|:-----:|
@@ -97,7 +97,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 Пример:
 
-![code](/assets/chapter-4-images/image-05.png)
+![code](/assets/chapter-4-images/00.Logical-and-02.png)
 
 **Програмата** ще се изпълни по **следния** начин: **започва** проверката от **`а`**, **прочита** я и отчита, че има стойност **`true`**, след което **проверява** **`b`**. След като е **отчелa**, че **`a`** и **`b`** връщат стойност **`true`**, **проверява следващия** аргумент. Стига до **`c`** и отчита, че **променливата** има стойност **`false`**. След като програмата отчете, че аргументът **`c`** има стойност **`false`**, тя изчислява израза **до `c`**, **независимо** каква е стойността на **`d`**. За това проверката на **`d`** се **прескача** и **целият** израз бива изчислен като **`false`**.
 
@@ -105,7 +105,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 Проверка дали **точка {x, y}** се намира **вътре в правоъгълника {x1, y1} – {x2, y2}**. Входните данни се четат от конзолата и се състоят от 6 реда: десетичните числа **x1**, **y1**, **x2**, **y2**, **x** и **y** (като се гарантира, че **x1 < x2** и **y1 < y2**).
 
-![shop](/assets/chapter-4-images/PointInRect.png)
+![shop](/assets/chapter-4-images/03.Point-in-rectangle-01.png)
 
 Една точка е вътрешна за даден многоъгълник, ако едновременно са изпълнени следните четири условия:
 * Точката е надясно от лявата страна на правоъгълника
@@ -115,7 +115,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#1
 
 #### Решение
 
-![code](/assets/chapter-4-images/image-06.png)
+![code](/assets/chapter-4-images/03.Point-in-rectangle-02.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#2
@@ -136,11 +136,11 @@ https://judge.softuni.bg/Contests/Practice/Index/508#2
 
 Вече научихме какво **представлява** логическото **"ИЛИ"**. Но как всъщност се реализира? Като при логическото **"И"**, програмата **проверява** от ляво на дясно **аргументите**, които са зададени. За да получим **`true`** от израза, е необходимо **само един** аргумент да има стойност **`true`**, съответно проверката **продължава** докато се срещне **аргумент** с **такава** стойност или докато **не свършат** аргументите.
 
-![code](/assets/chapter-4-images/image-07.png)
+![code](/assets/chapter-4-images/00.Logical-or-01.png)
 
 Програмата **проверява `а`**, отчита, че има стойност **`false`** и продължава. Стигайки до **`b`**, отчита, че има стойност **`true`** и целия **израз** получава стойност **`true`**, **без** да се проверава **`c`** и **`d`**, защото техните стойности **не биха променили** резултата на израза.
 
-![code](/assets/chapter-4-images/image-08.png)
+![code](/assets/chapter-4-images/00.Logical-or-02.png)
 
 ### Пример: Плод или зеленчук
 
@@ -152,7 +152,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#2
 
 #### Решение:
 
-![code](/assets/chapter-4-images/image-09.png)
+![code](/assets/chapter-4-images/04.Fruit-or-vegetable-01.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#3
@@ -174,7 +174,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#3
 
 #### Решение
 
-![code](/assets/chapter-4-images/image-10.png)
+![code](/assets/chapter-4-images/05.Invalid-number-01.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#4
@@ -187,7 +187,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#4
 
 Да се напише програма, която проверява дали **точка {x, y}** се намира **върху някоя от страните на правоъгълник {x1, y1} - {x2, y2}**. Входните данни се четат от конзолата и се състоят от 6 реда: десетичните числа **x1**, **y1**, **x2**, **y2**, **x** и **y** (като се гарантира, че **x1 < x2** и **y1 < y2**). Да се отпечата "**Border**" (точката лежи на няко от страните) или "**Inside / Outside**" (в противен случай).
 
-![rect](/assets/chapter-4-images/pointOnSideRect.png)
+![rect](/assets/chapter-4-images/06.Point-on-rectangle-border-01.png)
 
 |Вход|Изход|Вход|Изход|
 |-----|-----|-----|-----|
@@ -199,11 +199,11 @@ https://judge.softuni.bg/Contests/Practice/Index/508#4
 
 #### Решение
 
-![code](/assets/chapter-4-images/image-11.png)
+![code](/assets/chapter-4-images/06.Point-on-rectangle-border-02.png)
 
 Предходното условие може да се опрости по този начин:
 
-![code](/assets/chapter-4-images/image-12.png)
+![code](/assets/chapter-4-images/06.Point-on-rectangle-border-03.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#5
@@ -234,7 +234,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#5
 
 #### Решение
 
-![code](/assets/chapter-4-images/image-13.png)
+![code](/assets/chapter-4-images/07.Fruit-shop-01.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#6
@@ -258,7 +258,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#6
 |:-----:|:-----:|:-----:|:-----:|
 |Sofia<br>1500|120.00|Plovidv<br>499.99|27.50|
 
-![code](/assets/chapter-4-images/image-14.png)
+![code](/assets/chapter-4-images/08.Trade-comissions-01.png)
 
 #### Тестване на решението: 
 https://judge.softuni.bg/Contests/Practice/Index/508#7
@@ -273,7 +273,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#7
 
 **Променливата**, която искаме да **сравняваме**, поставяме в **скобите след оператора `switch`** и се нарича "**селектор**". Тук типът трябва да е сравним (числа, стрингове, булеви изрази). **Последователно** започва **сравняването** с всяка една **стойност**, която **се намира** след **`case` етикетите**. При съвпадение започва изпълнението на кода от съответното място и продължава, докато стигне оператора **`break`**. В някои програмни езици (като C и C++) `break` може да се изпуска, за да се изпълнява код от друга `case` конструкция, докато не стигне до въпросния оператор. В `C#` обаче, **`break`** е **задължителен** за **всеки `case`**. При **липса** на **съвпадение**, се изпълнява **`default`** конструкцията, **ако** такава **съществува**.
 
-![code](/assets/chapter-4-images/image-15.png)
+![code](/assets/chapter-4-images/00.Switch-case-01.png)
 
 ### Пример: Ден от седмицата
 
@@ -285,7 +285,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#7
 
 #### Решение
 
-![code](/assets/chapter-4-images/image-16.png)
+![code](/assets/chapter-4-images/09.Day-of-week-01.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Добра практика</b> е на <b>първо</b> място да поставяме онези <b>case случаи</b>, които обработват <b>най-често случилите се ситуации</b>, а <b>case конструкциите</b>, обработващи <b>по-рядко възникващи ситуации</b>, да оставим в <b>края преди default конструкцията</b>. Друга <b>добра практика</b> е да <b>подреждаме case етикетите</b> в <b>нарастващ ред</b>, без значение дали са челочислени или символни.</td>
@@ -299,7 +299,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#8
 
 В **`C#`** имаме възможността да **използваме множество `case`**, когато те трябва да изпълняват **един и същи** код. При този начин на записване, когато **програмата** ни намери **съвпадение**, ще се изпълни **следващият** срещнат код, тъй като **след** съответния **`case`** етикет **липсва код** за изпълнение и **`break`** оператор. Ако такъв **липсва**, ще се **изпълни `default`** конструкцията.
 
-![code](/assets/chapter-4-images/image-17.png)
+![code](/assets/chapter-4-images/00.Swtich-case-02.png)
 
 ### Пример: Вид животно
 
@@ -309,7 +309,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#8
 * **crocodile, tortoise, snake** -> **reptile**
 * **others** -> **unknown**
 
-![code](/assets/chapter-4-images/image-18.png)
+![code](/assets/chapter-4-images/10.Animal-type-01.png)
 
 #### Тестване на решението:
 https://judge.softuni.bg/Contests/Practice/Index/508#9
@@ -320,15 +320,15 @@ https://judge.softuni.bg/Contests/Practice/Index/508#9
 
 #### Вложени проверки:
 
-![code](/assets/chapter-4-images/image-19.png)
+![code](/assets/chapter-4-images/00.If-else-construction.png)
 
 #### По-сложни проверки с `&&`, `||`, `!` и `()`:
 
-![code](/assets/chapter-4-images/image-20.png)
+![code](/assets/chapter-4-images/00.Logical-or-and-not.png)
 
 #### Switch-case провеки
 
-![code](/assets/chapter-4-images/image-15.png)
+![code](/assets/chapter-4-images/00.Switch-case-01.png)
 
 
 
@@ -377,7 +377,7 @@ https://judge.softuni.bg/Contests/Practice/Index/508#11
 **Фигура** се състои от **6 блокчета с размер h * h**, разположени като на фигурата. Долният ляв ъгъл на сградата е на позиция {0, 0}. Горният десен ъгъл на фигурата е на позиция {**2\*h**, **4\*h**}. На фигурата координатите са дадени при **h = 2**. 
 Напишете програма, която въвежда цяло число **h** и координатите на дадена **точка {x, y}** (цели числа) и отпечатва дали точката е вътре във фигурата (**inside**), вън от фигурата (**outside**) или на някоя от стените на фигурата (**border**).
 
-![PointInFigure](/assets/chapter-4-images/pointInFigure.png)
+![PointInFigure](/assets/chapter-4-images/13.Point-in-the-figure-01.png)
 
 * Може да разделите фигурата на **два правоъгълника** с обща стена.
 * Една точка е **външна (outside)** за фигурата, когато е едновременно **извън** двата правоъгълника.
@@ -416,11 +416,11 @@ https://judge.softuni.bg/Contests/Practice/Index/508#12
 ### Зачача: * Точка и правоъгълник – графично (GUI) приложение
 Да се разработи графично (**GUI**) приложение за **визуализация на точка и правоъгълник**. Приложението трябва да изглежда приблизително по следния начин:
 
-![PointAndFigure](/assets/chapter-4-images/image-21.png)
+![PointAndFigure](/assets/chapter-4-images/14.Point-in-rectangle-gui-01.png)
 
-![PointAndFigure](/assets/chapter-4-images/image-22.png)
+![PointAndFigure](/assets/chapter-4-images/14.Point-in-rectangle-gui-02.png)
 
-![PointAndFigure](/assets/chapter-4-images/image-23.png)
+![PointAndFigure](/assets/chapter-4-images/14.Point-in-rectangle-gui-03.png)
 
 От контролите вляво се задават координатите на **два от ъглите на правоъгълник** (десетични числа) и координатите на **точка**. Приложението **визуализира графично** правоъгълника и точката и изписва дали точката е **вътре** в правоъгълника (**Inside**), **вън** от него (**Outside**) или на някоя от стените му (**Border**).
 Приложението **премества и мащабира** координатите на правоъгълника и точката, за да бъдат максимално големи, но да се събират в полето за визуализация в дясната страна на приложението.
@@ -431,11 +431,11 @@ https://judge.softuni.bg/Contests/Practice/Index/508#12
 
 1. Създайте нов **Windows Forms Application** с подходящо име, например “**Point-and-Rectangle**”:
 
-![PointAndFigure](/assets/chapter-4-images/PointAndRect4.png)
+![PointAndFigure](/assets/chapter-4-images/14.Point-in-rectangle-gui-04.png)
 
 2. **Наредете контролите** във формата както е показано на фигурата по-долу: 6 кутийки за въвеждане на число (**`NumericUpDown`**) с надписи (**`Label`**) пред всяка от тях, бутон (**`Button`**) за изчертаване на правоъгълника и точката и текстов блок за резултата (**`Label`**). Нагласете **размерите** и **свойствата** на контролите, за да изглеждат долу-горе като на картинката:
 
-![PointAndFigure](/assets/chapter-4-images/PointAndRect5.png)
+![PointAndFigure](/assets/chapter-4-images/14.Point-in-rectangle-gui-05.png)
 
 3. Задайте следните препоръчителни настройки на контролите:
 
