@@ -27,17 +27,6 @@
 
 ### Пример: 
 
-```cs
-var a = 5;
-var b = 10;
-Console.WriteLine(a < b);      // True
-Console.WriteLine(a > 0);      // True
-Console.WriteLine(a > 100);    // False
-Console.WriteLine(a < a);      // False
-Console.WriteLine(a <= 5);     // True
-Console.WriteLine(b == 2 * a); // True
-```
-
 ![code](assets/chapter-3-images/00.Comparing-numbers-01.png)
 
 ### Оператори за сравнение
@@ -68,23 +57,11 @@ Console.WriteLine(b == 2 * a); // True
 
 ### Пример:
 
-```cs
-var result = (5 <= 6);
-Console.WriteLine(result); // True
-```
-
 ![code](assets/chapter-3-images/00.Comparing-numbers-02.png)
 
 ## Прости проверки
 
 В програмирането често **проверяваме дадени условия** и извършваме различни действия, според резултата от проверката. Това става чрез конструкцията `if`, която има следния основен формат:
-
-```cs
-if (булев израз)
-{
-  тяло на условната конструкция;
-}
-``` 
 
 ![code](assets/chapter-3-images/00.Comparing-numbers-03.png)
 
@@ -99,17 +76,6 @@ if (булев израз)
 ## Проверки с if-else конструкция
 
 Съществува разновидност на конструкцията `if`, която се нарича `if-else` и я използваме, когато искаме да проверим дадено условие. В случай че резултата от него е **позитивен** - извършваме едни действия, а когато е **негативен** - други. Форматът на конструкцията е следният:
-
-```cs
-if (булев израз)
-{
-  тяло на условната конструкция;
-}
-else
-{
-  тяло на else-конструкция;
-}
-```
 
 ![code](assets/chapter-3-images/00.If-else.png)
 
@@ -132,15 +98,6 @@ else
 
 Ето един пример, в който изпускането на къдравите скоби води до объркване:
 
-```cs
-var color = "red";
-if (color == "red")
-  Console.WriteLine("tomato");
-else if (color == "yellow")
-  Console.WriteLine("banana");
-  Console.WriteLine("lemon");
-```
-
 ![code](assets/chapter-3-images/00.Brackets-tip-01.png)
 
 Изпълнението на горния код ще изведе следния резултат на конзолата:
@@ -151,19 +108,6 @@ lemon
 ```
 
 С къдрави скоби:
-
-```cs
-var color = "red";
-if (color == "red")
-{
-  Console.WriteLine("tomato");
-}
-else if (color == "yellow")
-{
-  Console.WriteLine("banana");
-  Console.WriteLine("lemon");
-}
-```
 
 ![code](assets/chapter-3-images/00.Brackets-tip-02.png)
 
@@ -199,72 +143,17 @@ tomato
 
 В долния пример на последния ред, в който се опитваме да отпечатаме променливата **salary**, която е дефинирана в `if` конструкцията, ще получим **грешка**, защото нямаме достъп до нея.
 
-```cs
-var myMoney = 500;
-var payDayDate = 07;
-var todayDate = 10;
-if (todayDate >= payDayDate)
-{
-  var salary = 5000;
-  myMoney = myMoney + salary;
-}
-
-Console.WriteLine(myMoney);
-Console.WriteLine(salary); //Error!
-```
-
 ![code](assets/chapter-3-images/00.Variable-scope-01.png)
 
 ## Серии от проверки
 
-Понякога се налага да извършим серия от проверки, преди да решим какви действия ще изпълнява нашата програма. В такива случаи, можем да приложим конструкцията `if-else` **в серия**. За целта използваме следния формат:
-
-```cs
-if (условие)
-{
-  тяло на условната конструкция;
-}
-else if (условие2)
-{
-  тяло на условната конструкция;  
-}
-else if (условие3)
-{
-  тяло на условната конструкция;  
-}
-...
-else 
-{
-  тяло на else конструкция;
-}
-``` 
+Понякога се налага да извършим серия от проверки, преди да решим какви действия ще изпълнява нашата програма. В такива случаи, можем да приложим конструкцията `if-else` **в серия**. За целта използваме следния формат: 
 
 ![code](assets/chapter-3-images/00.If-else-else-if.png)
 
 ### Пример: От 1 до 9 на английски
 
 Да се изпише с английски текст числата от 1 до 9.
-
-```cs
-var num = int.Parse(Console.ReadLine());
-if (num == 1)
-{ 
-  Console.WriteLine("one"); 
-}
-else if (num == 2)
-{
-  Console.WriteLine("two");
-}
-else if (num == 3)
-{ 
-  Console.WriteLine("three"); 
-}
-// TODO: add more checks
-else
-{
-  Console.WriteLine("number is too big");
-}
-```
 
 ![code](assets/chapter-3-images/05.Number-to-text-01.png)
 
@@ -296,27 +185,6 @@ else
 
 ### Решение: Бонус точки
 
-```cs
-Console.Write("Enter score: ");
-var num = int.Parse(Console.ReadLine());
-var bonusScore = 0.0;
-if (num > 1000)
-{ 
-  bonusScore = num * 0.10; 
-}
-else // TODO: write more logic here … 
-if (num % 10 == 5)
-{ 
-  bonusScore += 2; 
-}
-else // TODO: write more logic here …
-{
-  Console.WriteLine("Bonus score: {0}", bonusScore);
-}
-  
-Console.WriteLine("Total score: {0}", num + bonusScore);
-```
-
 ![code](assets/chapter-3-images/06.Bonus-score-01.png)
 
 Ето как би могло да изглежда решението на задачата в действие:
@@ -344,26 +212,6 @@ Console.WriteLine("Total score: {0}", num + bonusScore);
 | 14 <br/> 12 <br/> 10 | 0:36 |
 
 ### Решение: Сумиране на секунди 
-
-```cs
-var sec1 = int.Parse(Console.ReadLine());
-// TODO: Read also sec2 and sec3 …
-var secs = sec1 + sec2 + sec3;
-var mins = 0;
-if (secs > 59)   // TODO: Repeat this 2 times …
-{ 
-  mins++; 
-  secs = secs - 60;
-}
-if (secs < 10)
-{ 
-  Console.WriteLine(mins + ":" + "0" + secs); 
-}
-else
-{ 
-  Console.WriteLine(mins + ":" + secs); 
-}
-```
 
 ![code](assets/chapter-3-images/07.Sum-seconds-01.png)
 
@@ -406,23 +254,6 @@ else
 | 450 <br/> yd <br/> km | 0.41147999937455 yd |
 
 ### Решение: Конвертор за мерни единици
-
-```cs
-var size = double.Parse(Console.ReadLine());
-var sourceMetric = Console.ReadLine().ToLower();
-var destMetric = Console.ReadLine().ToLower();
-if (sourceMetric == "km")
-{ 
-  size = size / 0.001; 
-}
-// Check the other metrics: mm, cm, ft, yd, ...
-if (destMetric == "ft")
-{ 
-  size = size * 3.2808399; 
-}
-// Check the other metrics: mm, cm, ft, yd, ...
-Console.WriteLine(size + " " + destMetric);
-```
 
 ![code](assets/chapter-3-images/08.Metric-converter-01.png)
 
