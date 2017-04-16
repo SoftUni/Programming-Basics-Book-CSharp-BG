@@ -2,8 +2,6 @@
 
 ### Задача: Навреме за изпит
 
-_Трета задача от междинния изпит на 6 март 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/169#2**](https://judge.softuni.bg/Contests/Practice/Index/169#2)._
-
 **Условие:** Студент трябва да отиде **на изпит в определен час** (например в 9:30 часа). Той идва в изпитната зала в даден **час на пристигане** (например 9:40). Счита се, че студентът е дошъл **навреме**, ако е пристигнал в часа на изпита или до половин час преди това. Ако е пристигнал по-рано повече от 30 минути, той е **подранил**. Ако е дошъл след часа на изпита, той е **закъснял**. 
 
 Напишете програма, която въвежда време на изпит и време на пристигане и отпечатва дали студентът е дошъл **навреме**, дали е **подранил** или е **закъснял** както и **с колко часа или минути** е подранил или закъснял.
@@ -58,25 +56,25 @@ _Трета задача от междинния изпит на 6 март 2016
 
 Съгласно заданието очакваме да ни бъдат подадени в **четири** поредни реда различни <strong>цели числа</strong>. Разглеждайки дадените параметри можем да се спрем на `int`, като тип, тъй като той удовлетворява очакваните стойности. Едновременно **четем** входа и **парсваме** стринговата стойност към избраният от нас тип данни за **цяло число**.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/input.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/input.PNG)
 
 Разглеждайки очакваният изход можем да създадем променливи, които да съдържат различните видове изходни данни, с цел да избегнем използването на т.нар. <strong>"magic strings"</strong> в кода.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/params.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/params.PNG)
 
 #### 2. Изчисления
 
 След като прочетохме входа, можем да започнем да разписваме логиката за изчисление на резултата. Нека първо да изчислим **началния час** на изпита **в минути** за по-лесно и точно сравнение.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam-time.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam-time.PNG)
 
 Нека изчислим по същата логика и **времето на пристигане** на студента.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/arival-time.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/arival-time.PNG)
 
 Остава ни да пресметнем разликата в двете времена, за да можем да определим <strong>кога</strong> и с <strong>какво време спрямо изпита</strong> е пристигнал студентът.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/total-min-diff.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/total-min-diff.PNG)
 
 Следващата ни стъпка е да направим необходимите проверки и изчисления, като накрая ще изведем резултата от тях. Нека разделим изхода на **две** части. 
 
@@ -90,7 +88,7 @@ _Трета задача от междинния изпит на 6 март 2016
 
 При всички останали случаи приемаме, че студентът е **закъснял**, което сме направили **по подразбиране**, и не е нужна допълнителна проверка.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam_check-diff.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam_check-diff.PNG)
 
 За финал ни остава да разберем и покажем и с <strong>каква разлика от времето на изпита е пристигнал</strong>, както и дали тази разлика е <strong>преди или след изпита</strong>.
 
@@ -98,13 +96,13 @@ _Трета задача от междинния изпит на 6 март 2016
 
 Остава да направим още една проверка дали времето на пристигане на студента е **преди** или **след** началото на изпита.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/result.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/result.PNG)
 
 #### 3. Показване на резултата
 
 И накрая остава да изведем резултата на конзолата. Тъй като по задание ако студентът е дошъл точно на време (**без нито една минута разлика**) не трябва да изваждаме втори резултат, правим **проверка**.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/output.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/output.PNG)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Реално за целите на задачата извеждането на резултата <strong>на конзолата</strong> може да бъде направен и в по-ранен етап - още при самите изчисления. Това като цяло не е много добра практика. <strong>Защо?</strong>
@@ -119,8 +117,6 @@ _Трета задача от междинния изпит на 6 март 2016
 Тествайте вашето решение тук:  [https://judge.softuni.bg/Contests/Practice/Index/509#0](https://judge.softuni.bg/Contests/Practice/Index/509#0) 
 
 ### Задача: Пътешествие
-
-_Трета задача от междинния изпит на 26 март 2016. Тествайте решението на адрес: [**https://judge.softuni.bg/Contests/Practice/Index/179#2**](https://judge.softuni.bg/Contests/Practice/Index/179#2)._
 
 Странно, но повечето хора си плануват от рано почивката. Млад програмист разполага с **определен бюджет** и свободно време в даден **сезон**.
 
@@ -173,13 +169,13 @@ _Трета задача от междинния изпит на 26 март 201
 <td>Винаги преценявайте какъв тип стойност ви се подава при входни данни, както и към какъв тип трябва да бъдат парснати тези данни, за да работят правилно създадените от вас програмни конструкции! Също така, когато в задачата е необходимо да направите парични изчисления, използвайте <strong><em>decimal</em></strong>, за по-голяма точност.</td>
 </tr></table>
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/input.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/input.PNG)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/params.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/params.PNG)
 
 Можем подобно на примера в предната задача да инициализираме променливите с някои от изходните резултати, с цел спестяване на допълнително инициализиране. 
 
@@ -191,33 +187,31 @@ _Трета задача от междинния изпит на 26 март 201
 
 Пример за един от възможните подходи за решение е:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/if.PNG)
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/elseif.PNG)
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/else.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/if.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/elseif.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/else.PNG)
 
 Винаги можем да инициализираме дадена стойност на параметъра и след това да направим само една проверка дали има нужда да бъде сменена. **Това ни спестява една логическа стъпка**.
 
 **Например блок-схемата,**
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/first-block-schema.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/first-block-schema.PNG)
 
 **може да бъде представена по следният начин:**
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/second-block-schema.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/second-block-schema.PNG)
 
 #### 3. Показване на резултата
 
 Остава ни да покажем изчисленият резултат на конзолата:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/trip/output.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/output.PNG)
 
 ### Тестване в Judge системата
 
 Тествайте вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/509#1](https://judge.softuni.bg/Contests/Practice/Index/509#1)
 
 ### Задача: Операции между числа
-
-_Трета задача от междинния изпит на 26 март 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/181#2**](https://judge.softuni.bg/Contests/Practice/Index/181#2)._
 
 **Условие:** Напишете програма, която чете **две цели числа (N1 и N2)** и **оператор** с който да се **извърши** дадена **математическа операция** с тях. Възможните операции са: **Събиране (+)**, **Изваждане (-)**, **Умножение (\*)**, **Деление (/)** и **Модулно деление (%)**. При **събиране**, **изваждане** и **умножение** на конзолата **трябва да се отпечатат резултата** и дали той е **четен** или **нечетен**. При **обикновеното деление** – **резултата**. При **модулното деление** – **остатъка**. Трябва да се има предвид, че **делителят може да е равен на 0 (нула)**, а **на нула не се дели**. В този случай трябва да се отпечата **специално съобщение**.
 
@@ -263,19 +257,19 @@ _Трета задача от междинния изпит на 26 март 201
 
 След прочитане на условието разбираме, че очакваме **три** реда с входни данни. На първите **два** реда ни се подават <strong>цели числа</strong> (в указаният от заданието диапазон), а на третият, <strong>аритметичен символ</strong>. 
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/input.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/input.PNG)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи. В едната ще пазим **резултатът от изчисленията**, а другата ще използваме за **крайния изход** на програмата.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/params.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/params.PNG)
 
 Прочитайки внимателно условието разбираме, че има случаи, в които не трябва да правим **никакви** изчисления, а просто да изведем резултат.
 
 Следователно първо можем да проверим дали второто число е **0** (нула), както и дали операцията е **деление** или **модулно деление**, след което да инициализираме резултата:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/if.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/if.PNG)
 
 Нека резултата да го сложим, като стойност при инициализацията на `output` параметъра. По този начин можем да направим само **една проверка** дали е необходимо да **преизчислим** и **заменим** този резултат. 
 
@@ -283,35 +277,33 @@ _Трета задача от междинния изпит на 26 март 201
 
 От условието можем да видим, че за <strong>събиране (+)</strong>, <strong>изваждане (-)</strong> или <strong>умножение (*)</strong> очакваният резултат има обща структура: <strong>"{N1} {оператор} {N2} = {резултат} – {even/odd}"</strong>, докато за <strong>деление (/)</strong> и за <strong>модулно деление (%)</strong> резултатът има отделна специфична структура.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/else-first-part.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/else-first-part.PNG)
 
 И завършваме с проверките за деление и модулно деление.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/else-second-part.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/else-second-part.PNG)
 
 При кратки и ясни проверки, както в горния пример за четно и нечетно число е възможно да се използват <strong>тернарни оператори</strong>. Нека разгледаме възможната проверка **с** и **без** тернарен оператор.
 
 **Без използване на тернарен оператор:**
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operator-first-example.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operator-first-example.PNG)
 
 **С използване на тернарен оператор:**
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operator-second-example.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operator-second-example.PNG)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/outputNew.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/outputNew.PNG)
 
 ### Тестване в Judge системата
 
 Тествайте вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/509#2](https://judge.softuni.bg/Contests/Practice/Index/509#2)
 
 ### Задача: Билети за мач
-
-_Трета задача от междинния изпит на 17 юли 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/233#2**](https://judge.softuni.bg/Contests/Practice/Index/233#2)._
 
 Когато пуснали **билетите за Евро 2016**, **група запалянковци** решили да си закупят. **Билетите имат две категории с различни цени**:
 
@@ -373,13 +365,13 @@ _Трета задача от междинния изпит на 17 юли 2016.
 
 Като за начало нека си обработим и запазим входните данни в **подходящи** за това **параметри**:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/input.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/input.PNG)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за изчисленията променливи:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/params.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/params.PNG)
 
 Нека отново прегледаме условието. Трябва да направим **две** различни блок изчисления. 
 
@@ -387,33 +379,31 @@ _Трета задача от междинния изпит на 17 юли 2016.
 
 Ще използваме условна конструкция - поредица `if-else if-else if-......`.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/transport-charges.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/transport-charges.PNG)
 
 От вторите изчисления трябва да намерим каква сума ще ни е необходима за закупуване на <strong>билети за групата</strong>. Според условието това ни зависи единствено от типа на билетите, които трябва да закупим. 
 
 Нека използваме `switch-case` условна конструкция.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-for-tickets.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-for-tickets.PNG)
 
 След като сме изчислили какви са <strong>транспортните разходи</strong> и <strong>разходите за билети</strong> ни остава да изчислим крайният резултат и да разберем **ще успее** ли групата от запалянковци да отиде на Евро 2016 или **няма да успее** при така подадените параметри. 
 
 За извеждането на резултата, за да си спестим една проверка (`else`) в конструкцията приемаме, че групата **по подразбиране** ще **може** да отиде на Евро 2016.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-left.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-left.PNG)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/output.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/output.PNG)
 
 ### Тестване в Judge системата
 
 Тествайте вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/509#3](https://judge.softuni.bg/Contests/Practice/Index/509#3)
 
 ### Задача: Хотелска стая
-
-_Трета задача от междинния изпит на 28 август 2016. Тествайте решението си на URL адрес: [**https://judge.softuni.bg/Contests/Practice/Index/274#2**](https://judge.softuni.bg/Contests/Practice/Index/274#2)._
 
 Хотел предлага **два вида стаи**: **студио и апартамент**.
 
@@ -470,13 +460,13 @@ _Трета задача от междинния изпит на 28 август
 
 Нека си обработим и запазим входните данни в подходящи за това параметри:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/input.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/input.PNG)
 
 #### 2. Изчисления
 
 След това да си създадем и инициализираме нужните за изчисленията променливи:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/params.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/params.PNG)
 
 Разглеждайки отново условието забелязваме, че основната ни логика зависи от това какъв **месец** ни се подава, като и от броя на **нощувките**.
 
@@ -484,23 +474,23 @@ _Трета задача от междинния изпит на 28 август
 
 Нека започнем с първата група месеци: **Май** и **Октомври**. За тези два месеца <strong>цената на престой ни е еднаква</strong> и за двата типа настаняване - в **студио** и в **апартамент**. Съответно ни остава само да направим вътрешна проверка спрямо <strong>броят нощувки</strong>, за да преизчислим ако се налага <strong>съответната цена</strong>.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-first-part.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-first-part.PNG)
 
 За следващите месеци **логиката** и **изчисленията** ни ще са донякъде **идентични**. 
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-second-part.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-second-part.PNG)
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-third-part.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-third-part.PNG)
 
 След като изчислим какви са съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни **параметри** - `studioInfo` и `apartmentInfo`.
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/result.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/result.PNG)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчислените резултати на конзолата:
 
-![Image not found](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/output.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/output.PNG)
 
 ### Тестване в Judge системата
 
