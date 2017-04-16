@@ -369,15 +369,11 @@
 
 Като за начало нека си обработим и запазим входните данни в **подходящи** за това **параметри**:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/input.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-01.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за изчисленията променливи:
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/params.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-02.png)
 
@@ -387,15 +383,11 @@
 
 Ще използваме условна конструкция - поредица `if-else if-else if-......`.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/transport-charges.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-03.png)
 
 От вторите изчисления трябва да намерим каква сума ще ни е необходима за закупуване на <strong>билети за групата</strong>. Според условието това ни зависи единствено от типа на билетите, които трябва да закупим. 
 
 Нека използваме `switch-case` условна конструкция.
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-for-tickets.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-04.png)
 
@@ -403,15 +395,11 @@
 
 За извеждането на резултата, за да си спестим една проверка (`else`) в конструкцията приемаме, че групата **по подразбиране** ще **може** да отиде на Евро 2016.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-left.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-05.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/output.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-06.png)
 
@@ -478,11 +466,15 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/input.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-01.png)
+
 #### 2. Изчисления
 
 След това да си създадем и инициализираме нужните за изчисленията променливи:
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/params.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-02.png)
 
 Разглеждайки отново условието забелязваме, че основната ни логика зависи от това какъв **месец** ни се подава, като и от броя на **нощувките**.
 
@@ -492,21 +484,31 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-first-part.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-03.png)
+
 За следващите месеци **логиката** и **изчисленията** ни ще са донякъде **идентични**. 
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-second-part.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-04.png)
+
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/switch-third-part.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-05.png)
 
 След като изчислим какви са съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни **параметри** - `studioInfo` и `apartmentInfo`.
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/result.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-06.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчислените резултати на конзолата:
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/hotel-room/output.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-07.png)
 
 ### Тестване в Judge системата
 
