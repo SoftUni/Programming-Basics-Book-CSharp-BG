@@ -56,25 +56,25 @@
 
 Съгласно заданието очакваме да ни бъдат подадени в **четири** поредни реда различни **цели числа**. Разглеждайки дадените параметри можем да се спрем на `int`, като тип, тъй като той удовлетворява очакваните стойности. Едновременно **четем** входа и **парсваме** стринговата стойност към избраният от нас тип данни за **цяло число**.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-01.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-01.png)
 
 Разглеждайки очакваният изход можем да създадем променливи, които да съдържат различните видове изходни данни, с цел да избегнем използването на т.нар. **"magic strings"** в кода.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-02.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-02.png)
 
 #### 2. Изчисления
 
 След като прочетохме входа, можем да започнем да разписваме логиката за изчисление на резултата. Нека първо да изчислим **началния час** на изпита **в минути** за по-лесно и точно сравнение.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-03.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-03.png)
 
 Нека изчислим по същата логика и **времето на пристигане** на студента.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-04.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-04.png)
 
 Остава ни да пресметнем разликата в двете времена, за да можем да определим **кога** и с **какво време спрямо изпита** е пристигнал студентът.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-05.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-05.png)
 
 Следващата ни стъпка е да направим необходимите проверки и изчисления, като накрая ще изведем резултата от тях. Нека разделим изхода на **две** части. 
 
@@ -88,7 +88,7 @@
 
 При всички останали случаи приемаме, че студентът е **закъснял**, което сме направили **по подразбиране**, и не е нужна допълнителна проверка.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-06.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-06.png)
 
 За финал ни остава да разберем и покажем и с **каква разлика от времето на изпита е пристигнал**, както и дали тази разлика е **преди или след изпита**.
 
@@ -96,13 +96,13 @@
 
 Остава да направим още една проверка дали времето на пристигане на студента е **преди** или **след** началото на изпита.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-07.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-07.png)
 
 #### 3. Показване на резултата
 
 И накрая остава да изведем резултата на конзолата. Тъй като по задание ако студентът е дошъл точно на време (**без нито една минута разлика**) не трябва да изваждаме втори резултат, правим **проверка**.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-08.png)
+![code](assets/chapter-4-2-images/01.On-time-for-the-exam-08.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Реално за целите на задачата извеждането на резултата <strong>на конзолата</strong> може да бъде направен и в по-ранен етап - още при самите изчисления. Това като цяло не е много добра практика. <strong>Защо?</strong>
@@ -169,13 +169,13 @@
 <td>Винаги преценявайте какъв тип стойност ви се подава при входни данни, както и към какъв тип трябва да бъдат парснати тези данни, за да работят правилно създадените от вас програмни конструкции! Също така, когато в задачата е необходимо да направите парични изчисления, използвайте <strong><em>decimal</em></strong>, за по-голяма точност.</td>
 </tr></table>
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-01.png)
+![code](assets/chapter-4-2-images/02.Trip-01.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-02.png)
+![code](assets/chapter-4-2-images/02.Trip-02.png)
 
 Можем подобно на примера в предната задача да инициализираме променливите с някои от изходните резултати, с цел спестяване на допълнително инициализиране. 
 
@@ -187,29 +187,29 @@
 
 Пример за един от възможните подходи за решение е:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-03.png)
+![code](assets/chapter-4-2-images/02.Trip-03.png)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-04.png)
+![code](assets/chapter-4-2-images/02.Trip-04.png)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-05.png)
+![code](assets/chapter-4-2-images/02.Trip-05.png)
 
 Винаги можем да инициализираме дадена стойност на параметъра и след това да направим само една проверка дали има нужда да бъде сменена. **Това ни спестява една логическа стъпка**.
 
 **Например блок-схемата,**
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-03.png)
+![code](assets/chapter-4-2-images/02.Trip-03.png)
 
 
 **може да бъде представена по следният начин:**
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-06.png)
+![code](assets/chapter-4-2-images/02.Trip-06.png)
 
 
 #### 3. Показване на резултата
 
 Остава ни да покажем изчисленият резултат на конзолата:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-07.png)
+![code](assets/chapter-4-2-images/02.Trip-07.png)
 
 ### Тестване в Judge системата
 
@@ -261,19 +261,19 @@
 
 След прочитане на условието разбираме, че очакваме **три** реда с входни данни. На първите **два** реда ни се подават **цели числа** (в указаният от заданието диапазон), а на третият, **аритметичен символ**. 
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-01.png)
+![code](assets/chapter-4-2-images/03.Operations-01.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи. В едната ще пазим **резултатът от изчисленията**, а другата ще използваме за **крайния изход** на програмата.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-02.png)
+![code](assets/chapter-4-2-images/03.Operations-02.png)
 
 Прочитайки внимателно условието разбираме, че има случаи, в които не трябва да правим **никакви** изчисления, а просто да изведем резултат.
 
 Следователно първо можем да проверим дали второто число е **0** (нула), както и дали операцията е **деление** или **модулно деление**, след което да инициализираме резултата:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-03.png)
+![code](assets/chapter-4-2-images/03.Operations-03.png)
 
 Нека резултата да го сложим, като стойност при инициализацията на `output` параметъра. По този начин можем да направим само **една проверка** дали е необходимо да **преизчислим** и **заменим** този резултат. 
 
@@ -281,27 +281,27 @@
 
 От условието можем да видим, че за **събиране (+)**, **изваждане (-)** или **умножение (*)** очакваният резултат има обща структура: **"{N1} {оператор} {N2} = {резултат} – {even/odd}"**, докато за **деление (/)** и за **модулно деление (%)** резултатът има отделна специфична структура.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-04.png)
+![code](assets/chapter-4-2-images/03.Operations-04.png)
 
 И завършваме с проверките за деление и модулно деление.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-05.png)
+![code](assets/chapter-4-2-images/03.Operations-05.png)
 
 При кратки и ясни проверки, както в горния пример за четно и нечетно число е възможно да се използват **тернарни оператори**. Нека разгледаме възможната проверка **с** и **без** тернарен оператор.
 
 **Без използване на тернарен оператор:**
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-06.png)
+![code](assets/chapter-4-2-images/03.Operations-06.png)
 
 **С използване на тернарен оператор:**
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-07.png)
+![code](assets/chapter-4-2-images/03.Operations-07.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-08.png)
+![code](assets/chapter-4-2-images/03.Operations-08.png)
 
 ### Тестване в Judge системата
 
@@ -369,13 +369,13 @@
 
 Като за начало нека си обработим и запазим входните данни в **подходящи** за това **параметри**:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-01.png)
+![code](assets/chapter-4-2-images/04.Match-tickets-01.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за изчисленията променливи:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-02.png)
+![code](assets/chapter-4-2-images/04.Match-tickets-02.png)
 
 Нека отново прегледаме условието. Трябва да направим **две** различни блок изчисления. 
 
@@ -383,25 +383,25 @@
 
 Ще използваме условна конструкция - поредица `if-else if-else if-......`.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-03.png)
+![code](assets/chapter-4-2-images/04.Match-tickets-03.png)
 
 От вторите изчисления трябва да намерим каква сума ще ни е необходима за закупуване на **билети за групата**. Според условието това ни зависи единствено от типа на билетите, които трябва да закупим. 
 
 Нека използваме `switch-case` условна конструкция.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-04.png)
+![code](assets/chapter-4-2-images/04.Match-tickets-04.png)
 
 След като сме изчислили какви са **транспортните разходи** и **разходите за билети** ни остава да изчислим крайният резултат и да разберем **ще успее** ли групата от запалянковци да отиде на Евро 2016 или **няма да успее** при така подадените параметри. 
 
 За извеждането на резултата, за да си спестим една проверка (`else`) в конструкцията приемаме, че групата **по подразбиране** ще **може** да отиде на Евро 2016.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-05.png)
+![code](assets/chapter-4-2-images/04.Match-tickets-05.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-06.png)
+![code](assets/chapter-4-2-images/04.Match-tickets-06.png)
 
 ### Тестване в Judge системата
 
@@ -464,13 +464,13 @@
 
 Нека си обработим и запазим входните данни в подходящи за това параметри:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-01.png)
+![code](assets/chapter-4-2-images/05.Hotel-room-01.png)
 
 #### 2. Изчисления
 
 След това да си създадем и инициализираме нужните за изчисленията променливи:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-02.png)
+![code](assets/chapter-4-2-images/05.Hotel-room-02.png)
 
 Разглеждайки отново условието забелязваме, че основната ни логика зависи от това какъв **месец** ни се подава, като и от броя на **нощувките**.
 
@@ -478,23 +478,23 @@
 
 Нека започнем с първата група месеци: **Май** и **Октомври**. За тези два месеца **цената на престой ни е еднаква** и за двата типа настаняване - в **студио** и в **апартамент**. Съответно ни остава само да направим вътрешна проверка спрямо **броят нощувки**, за да преизчислим ако се налага **съответната цена**.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-03.png)
+![code](assets/chapter-4-2-images/05.Hotel-room-03.png)
 
 За следващите месеци **логиката** и **изчисленията** ни ще са донякъде **идентични**. 
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-04.png)
+![code](assets/chapter-4-2-images/05.Hotel-room-04.png)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-05.png)
+![code](assets/chapter-4-2-images/05.Hotel-room-05.png)
 
 След като изчислим какви са съответните цени и крайна стойност за престоя нека да си извадим крайните изчисления в изходните ни **параметри** - `studioInfo` и `apartmentInfo`.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-06.png)
+![code](assets/chapter-4-2-images/05.Hotel-room-06.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчислените резултати на конзолата:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/05.Hotel-room-07.png)
+![code](assets/chapter-4-2-images/05.Hotel-room-07.png)
 
 ### Тестване в Judge системата
 
