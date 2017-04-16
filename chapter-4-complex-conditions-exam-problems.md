@@ -56,13 +56,9 @@
 
 Съгласно заданието очакваме да ни бъдат подадени в **четири** поредни реда различни <strong>цели числа</strong>. Разглеждайки дадените параметри можем да се спрем на `int`, като тип, тъй като той удовлетворява очакваните стойности. Едновременно **четем** входа и **парсваме** стринговата стойност към избраният от нас тип данни за **цяло число**.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/input.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-01.png)
 
 Разглеждайки очакваният изход можем да създадем променливи, които да съдържат различните видове изходни данни, с цел да избегнем използването на т.нар. <strong>"magic strings"</strong> в кода.
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/params.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-02.png)
 
@@ -70,19 +66,13 @@
 
 След като прочетохме входа, можем да започнем да разписваме логиката за изчисление на резултата. Нека първо да изчислим **началния час** на изпита **в минути** за по-лесно и точно сравнение.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam-time.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-03.png)
 
 Нека изчислим по същата логика и **времето на пристигане** на студента.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/arival-time.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-04.png)
 
 Остава ни да пресметнем разликата в двете времена, за да можем да определим <strong>кога</strong> и с <strong>какво време спрямо изпита</strong> е пристигнал студентът.
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/total-min-diff.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-05.png)
 
@@ -98,8 +88,6 @@
 
 При всички останали случаи приемаме, че студентът е **закъснял**, което сме направили **по подразбиране**, и не е нужна допълнителна проверка.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/exam_check-diff.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-06.png)
 
 За финал ни остава да разберем и покажем и с <strong>каква разлика от времето на изпита е пристигнал</strong>, както и дали тази разлика е <strong>преди или след изпита</strong>.
@@ -108,15 +96,11 @@
 
 Остава да направим още една проверка дали времето на пристигане на студента е **преди** или **след** началото на изпита.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/result.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-07.png)
 
 #### 3. Показване на резултата
 
 И накрая остава да изведем резултата на конзолата. Тъй като по задание ако студентът е дошъл точно на време (**без нито една минута разлика**) не трябва да изваждаме втори резултат, правим **проверка**.
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/on-time-for-the-exam/output.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/01.On-time-for-the-exam-08.png)
 
@@ -185,15 +169,11 @@
 <td>Винаги преценявайте какъв тип стойност ви се подава при входни данни, както и към какъв тип трябва да бъдат парснати тези данни, за да работят правилно създадените от вас програмни конструкции! Също така, когато в задачата е необходимо да направите парични изчисления, използвайте <strong><em>decimal</em></strong>, за по-голяма точност.</td>
 </tr></table>
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/input.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-01.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи.
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/params.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-02.png)
 
@@ -207,15 +187,9 @@
 
 Пример за един от възможните подходи за решение е:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/if.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-03.png)
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/elseif.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-04.png)
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/else.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-05.png)
 
@@ -223,14 +197,10 @@
 
 **Например блок-схемата,**
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/first-block-schema.PNG)
-
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-03.png)
 
 
 **може да бъде представена по следният начин:**
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/second-block-schema.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-06.png)
 
@@ -238,8 +208,6 @@
 #### 3. Показване на резултата
 
 Остава ни да покажем изчисленият резултат на конзолата:
-
-![code](assets/chapter-4-complex-conditions-exam-problems-images/trip/output.PNG)
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/02.Trip-07.png)
 
@@ -293,19 +261,19 @@
 
 След прочитане на условието разбираме, че очакваме **три** реда с входни данни. На първите **два** реда ни се подават <strong>цели числа</strong> (в указаният от заданието диапазон), а на третият, <strong>аритметичен символ</strong>. 
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/input.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-01.png)
 
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за логиката и изчисленията променливи. В едната ще пазим **резултатът от изчисленията**, а другата ще използваме за **крайния изход** на програмата.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/params.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-02.png)
 
 Прочитайки внимателно условието разбираме, че има случаи, в които не трябва да правим **никакви** изчисления, а просто да изведем резултат.
 
 Следователно първо можем да проверим дали второто число е **0** (нула), както и дали операцията е **деление** или **модулно деление**, след което да инициализираме резултата:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/if.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-03.png)
 
 Нека резултата да го сложим, като стойност при инициализацията на `output` параметъра. По този начин можем да направим само **една проверка** дали е необходимо да **преизчислим** и **заменим** този резултат. 
 
@@ -313,27 +281,27 @@
 
 От условието можем да видим, че за <strong>събиране (+)</strong>, <strong>изваждане (-)</strong> или <strong>умножение (*)</strong> очакваният резултат има обща структура: <strong>"{N1} {оператор} {N2} = {резултат} – {even/odd}"</strong>, докато за <strong>деление (/)</strong> и за <strong>модулно деление (%)</strong> резултатът има отделна специфична структура.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/else-first-part.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-04.png)
 
 И завършваме с проверките за деление и модулно деление.
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/else-second-part.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-05.png)
 
 При кратки и ясни проверки, както в горния пример за четно и нечетно число е възможно да се използват <strong>тернарни оператори</strong>. Нека разгледаме възможната проверка **с** и **без** тернарен оператор.
 
 **Без използване на тернарен оператор:**
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operator-first-example.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-06.png)
 
 **С използване на тернарен оператор:**
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/operator-second-example.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-07.png)
 
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
-![code](assets/chapter-4-complex-conditions-exam-problems-images/operations-between-numbers/outputNew.PNG)
+![code](assets/chapter-4-complex-conditions-exam-problems-images/03.Operations-08.png)
 
 ### Тестване в Judge системата
 
@@ -403,11 +371,15 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/input.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-01.png)
+
 #### 2. Изчисления
 
 Нека си създадем и инициализираме нужните за изчисленията променливи:
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/params.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-02.png)
 
 Нека отново прегледаме условието. Трябва да направим **две** различни блок изчисления. 
 
@@ -417,11 +389,15 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/transport-charges.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-03.png)
+
 От вторите изчисления трябва да намерим каква сума ще ни е необходима за закупуване на <strong>билети за групата</strong>. Според условието това ни зависи единствено от типа на билетите, които трябва да закупим. 
 
 Нека използваме `switch-case` условна конструкция.
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-for-tickets.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-04.png)
 
 След като сме изчислили какви са <strong>транспортните разходи</strong> и <strong>разходите за билети</strong> ни остава да изчислим крайният резултат и да разберем **ще успее** ли групата от запалянковци да отиде на Евро 2016 или **няма да успее** при така подадените параметри. 
 
@@ -429,11 +405,15 @@
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/calc-money-left.PNG)
 
+![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-05.png)
+
 #### 3. Показване на резултата
 
 Накрая ни остава да покажем изчисленият резултат на конзолата:
 
 ![code](assets/chapter-4-complex-conditions-exam-problems-images/match-tickets/output.PNG)
+
+![code](assets/chapter-4-complex-conditions-exam-problems-images/04.Match-tickets-06.png)
 
 ### Тестване в Judge системата
 
