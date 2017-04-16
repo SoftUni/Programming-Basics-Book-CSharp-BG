@@ -8,6 +8,7 @@
   Гледайте видео-урок по тази глава тук: <a target="\_blank"
   href="https://www.youtube.com/watch?v=x7zXRCpkebo">
   https://www.youtube.com/watch?v=x7zXRCpkebo</a>.
+  
 </div>
 <script src="/assets/js/video.js"></script>
 
@@ -24,10 +25,10 @@ for (var i = 1; i <= 10; i++)
 
 //TODO: Да се добави картинка и да се премахне кодът, който може да се копира.
 
-Как работи примерът?<br>
-Инициализира се цикъл с променлива `i = 1`, която ще се увеличава на всяка итерация на цикъла докато е по-малка или равна на 10. Така кодът в тялото на цикълът ще се изпълни 10 пъти. В тялото на цикъла се печата на нов ред в конзолата `new string('*',10)`, което създава низ от 10 звездички.
+Как работи примерът?
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#0
+Инициализира се цикъл с променлива `i = 1`, която ще се увеличава на всяка итерация на цикъла докато е по-малка или равна на 10. Така кодът в тялото на цикълът ще се изпълни 10 пъти. В тялото на цикъла се печата на нов ред в конзолата `new string('*',10)`, което създава низ от 10 звездички.
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#0
 
 ## Правоъгълник от N x N звездички
 
@@ -48,11 +49,12 @@ for (var i = 1; i <= n; i++)
 
 ![Image not found](assets/chapter-6-images/rectangle.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#1
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#1
 
 ## Вложени цикли
 
-Вложените цикли представляват конструкция от няколко цикъла, разположени един в друг.<br>
+Вложените цикли представляват конструкция от няколко цикъла, разположени един в друг.
+
 Пример: външен цикъл по ред(по row) и вътрешен цикъл по колона(по col).
 
 ```cs
@@ -92,7 +94,7 @@ for (var r = 1; r <= n; r++)
 
 ![Image not found](assets/chapter-6-images/Square.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#2
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#2
 
 ## Триъгълник от долари
 
@@ -141,7 +143,7 @@ for (var row = 1; row <= n; row++)
    Console.WriteLine();
 }
 ```
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#3
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#3
 
 //TODO: Да се добавят обяснения.
 
@@ -209,7 +211,7 @@ for (int row = 0; row < n - 2; row++)
 
 ![Image not found](assets/chapter-6-images/square-frame.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#4
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#4
 
 ## Ромбче от звездички
 
@@ -266,7 +268,7 @@ for (var row = 1; row <= n; row++)
 
 //TODO: Да се добави картинка.
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/155#5
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#5
 
 ## Коледна елха
 
@@ -322,9 +324,7 @@ for (int i = 0; i <= n; i++)
 
 //TODO: Да се премахне кодът, който може да се копира.
 
-//TODO: За редактор - Глобално уеднаквяване на формата на частта за тестване.
-
-Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#6
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#6
 
 ## Чертане на по-сложни фигури
 
@@ -350,8 +350,6 @@ N = 4
 *//////*    *//////*
 ********    ********
 </pre>
-
-Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#7
 
 Решение:
 
@@ -389,6 +387,8 @@ for (int i = 0; i < n - 2; i++)
 //TODO: Да се добави картинка
 
 //TODO: Да се оправи или премахне кодът, който може да се копира.
+
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#7
 
 ## Къщичка
 
@@ -442,7 +442,7 @@ N = 8
 |******|
 </pre>
 
-Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#8
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#8
 
 ### Насоки и подсказки
 
@@ -605,7 +605,7 @@ n = 9
 ----*----
 </pre>
 
-Пращане на решения: https://judge.softuni.bg/Contests/Practice/Index/155#9
+Може да си тестваме решението на: https://judge.softuni.bg/Contests/Practice/Index/155#9
 
 ```cs
 var leftRight = (n - 1) / 2;
