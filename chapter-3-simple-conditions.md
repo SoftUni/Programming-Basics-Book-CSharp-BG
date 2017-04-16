@@ -38,6 +38,8 @@ Console.WriteLine(a <= 5);     // True
 Console.WriteLine(b == 2 * a); // True
 ```
 
+![code](assets/chapter-3-images/00.Comparing-numbers-01.png)
+
 ### Оператори за сравнение
 
 <table>
@@ -71,6 +73,8 @@ var result = (5 <= 6);
 Console.WriteLine(result); // True
 ```
 
+![code](assets/chapter-3-images/00.Comparing-numbers-02.png)
+
 ## Прости проверки
 
 В програмирането често **проверяваме дадени условия** и извършваме различни действия, според резултата от проверката. Това става чрез конструкцията `if`, която има следния основен формат:
@@ -82,11 +86,13 @@ if (булев израз)
 }
 ``` 
 
+![code](assets/chapter-3-images/00.Comparing-numbers-03.png)
+
 ### Пример: Отлична оценка
 
 Въвеждаме оценка в конзолата и проверяваме дали тя е отлична (**≥ 5.50**).
 
-![image](assets/chapter-3-images/problem-1-image-3,5.png)
+![code](assets/chapter-3-images/01.Еxcellent-result-01.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#0
 
@@ -105,11 +111,14 @@ else
 }
 ```
 
+![code](assets/chapter-3-images/00.If-else.png)
+
+
 ### Пример: Отлична оценка или не
 
 Подобно на горния пример, въвеждаме оценка, проверяваме дали е отлична, но **изписваме резултат и в двата случая**.
 
-![image](assets/chapter-3-images/problem-2-image-1.png)
+![code](assets/chapter-3-images/02.Excellent-or-not-01.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#1
 
@@ -131,6 +140,8 @@ else if (color == "yellow")
   Console.WriteLine("banana");
   Console.WriteLine("lemon");
 ```
+
+![code](assets/chapter-3-images/00.Brackets-tip-01.png)
 
 Изпълнението на горния код ще изведе следния резултат на конзолата:
 
@@ -154,6 +165,8 @@ else if (color == "yellow")
 }
 ```
 
+![code](assets/chapter-3-images/00.Brackets-tip-02.png)
+
 На конзолата ще бъде отпечатано следното:
 
 ```cs
@@ -166,7 +179,7 @@ tomato
 
 Задачата можем да я решим, чрез една `if-else` конструкция и оператора `%`, който връща **остатък при деление** на едно число с друго.
 
-![image](assets/chapter-3-images/problem-3-image-2.png)
+![code](assets/chapter-3-images/03.Even-or-odd-02.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#2
 
@@ -176,7 +189,7 @@ tomato
 
 Първата ни задача е да **прочетем** две числа. След което, чрез проста `if-else` конструкция в съчетание с **оператора за по-голямо** `>`, да направим проверка. Част от кода е замъглен умишлено, за да изпробваме наученото до момента.
 
-![image](assets/chapter-3-images/problem-4-image-2.png)
+![code](assets/chapter-3-images/04.Greater-number-02.png)
 
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#3
 
@@ -199,6 +212,8 @@ if (todayDate >= payDayDate)
 Console.WriteLine(myMoney);
 Console.WriteLine(salary); //Error!
 ```
+
+![code](assets/chapter-3-images/00.Variable-scope-01.png)
 
 ## Серии от проверки
 
@@ -224,6 +239,8 @@ else
 }
 ``` 
 
+![code](assets/chapter-3-images/00.If-else-else-if.png)
+
 ### Пример: От 1 до 9 на английски
 
 Да се изпише с английски текст числата от 1 до 9.
@@ -248,6 +265,8 @@ else
   Console.WriteLine("number is too big");
 }
 ```
+
+![code](assets/chapter-3-images/05.Number-to-text-01.png)
 
 Програмната логика от примера **последователно сравнява** дадено число от конзолата, за да провери, дали то е единична цифра. **Всяко следващо сравнение се извършва, само в случай че предходното сравнение не е било истина**. В крайна сметка, ако никое от `if` условията не е изпълнено, се изпълнява последната `else` клауза.
 
@@ -298,9 +317,11 @@ else // TODO: write more logic here …
 Console.WriteLine("Total score: {0}", num + bonusScore);
 ```
 
+![code](assets/chapter-3-images/06.Bonus-score-01.png)
+
 Ето как би могло да изглежда решението на задачата в действие:
 
-![image](assets/chapter-3-images/problem-6-image-1.png)
+![code](assets/chapter-3-images/06.Bonus-score-02.png)
 
 **Подсказка**:
 
@@ -343,6 +364,8 @@ else
   Console.WriteLine(mins + ":" + secs); 
 }
 ```
+
+![code](assets/chapter-3-images/07.Sum-seconds-01.png)
 
 **Подсказка**:
 
@@ -400,6 +423,9 @@ if (destMetric == "ft")
 // Check the other metrics: mm, cm, ft, yd, ...
 Console.WriteLine(size + " " + destMetric);
 ```
+
+![code](assets/chapter-3-images/08.Metric-converter-01.png)
+
 Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/506#7
 
 ## Дебъгване - прости операции с дебъгер
@@ -408,13 +434,13 @@ Console.WriteLine(size + " " + destMetric);
 
 Това е процесът на „**закачане**“ към изпълнението на програмата, който ни позволява да проследим поетапно процеса на изпълнение. Можем да следим **ред по ред** какво се случва с нашата програма, какъв път следва, какви стойности имат дефинираните променливи и много други неща, които ни позволяват да откриваме грешки (**бъгове**).
 
-![image](assets/chapter-3-images/debugging-example.png)
+![code](assets/chapter-3-images/00.Debugging-01.png)
 
 ### Дебъгване във Visual Studio
 
 Чрез натискане на бутона **[F10]**, стартираме програмата в **debug режим**. Преминаваме към **следващия ред**, отново с **[F10]**. 
 
-![image](assets/chapter-3-images/debugging-example-2.png)
+![code](assets/chapter-3-images/00.Debugging-02.png)
 
 Чрез **[F9]** създаваме стопери – така наречените **breakpoints**, до които можем да стигнем директно използвайки **[F5]** при стартирането на програмата.
 
@@ -428,15 +454,15 @@ Console.WriteLine(size + " " + destMetric);
 
 2. Създайте нов **Blank Solution**: [File] -> [New] -> [Project]. 
 
- ![image](assets/chapter-3-images/problem-0-image-1.png)
+![code](assets/chapter-3-images/00.Visual-studio-01.png)
 
 3. Изберете от диалоговия прозорец [Templates] -> [Other Project Types] -> [Visual Studio Solutions] -> [**Blank Solution**] и дайте подходящо име на проекта, например “**Simple-Conditions**”:  
 
- ![image](assets/chapter-3-images/problem-0-image-2.png)
+![code](assets/chapter-3-images/00.Visual-studio-02.png)
 
 Сега имате създаден празен Visual Studio Solution (без проекти в него):  
 
-![image](assets/chapter-3-images/problem-0-image-3.png)
+![code](assets/chapter-3-images/00.Visual-studio-03.png)
 
 ### 1. Проверка за отлична оценка
 
@@ -451,29 +477,30 @@ Console.WriteLine(size + " " + destMetric);
 
 1. Създайте **нов проект** в съществуващото Visual Studio решение. В Solution Explorer кликнете с десен бутон на мишката върху **Solution 'Simple-Conditions'**. Изберете [Add] -> [New Project…]:  
 
- ![image](assets/chapter-3-images/problem-1-image-1.png)
+ ![code](assets/chapter-3-images/09.Excellent-result-01.png)
 
 2. Ще се отвори диалогов прозорец за избор на тип проект за създаване. Изберете C# конзолно приложение и задайте име “**Excellent-Result**”:  
 
- ![image](assets/chapter-3-images/problem-1-image-2.png)  
+ ![code](assets/chapter-3-images/09.Excellent-result-02.png)
+ 
 
  Вече имате solution с едно конзолно приложение в него. Остава да напишете кода за решаване на задачата.
 
 3. Отидете в тялото на метода `Main(string[] args)` и напишете решението на задачата. Можете да си помогнете с кода от картинката по-долу:  
 
- ![image](assets/chapter-3-images/problem-1-image-3.png)
+ ![code](assets/chapter-3-images/09.Excellent-result-03.png)
 
 4. **Стартирайте** програмата с [Ctrl+F5] и я **тествайте** с различни входни стойности:
 
- ![image](assets/chapter-3-images/problem-1-image-4.png)
+ ![code](assets/chapter-3-images/09.Excellent-result-04.png)
 
- ![image](assets/chapter-3-images/problem-1-image-5.png)
+ ![code](assets/chapter-3-images/09.Excellent-result-05.png)
 
 5.	**Тествайте** решението си в judge системата: https://judge.softuni.bg/Contests/Practice/Index/506#0. Трябва да получите **100 точки** (напълно коректно решение):  
 
- ![image](assets/chapter-3-images/problem-1-image-6.png)  
+ ![code](assets/chapter-3-images/09.Excellent-result-06.png) 
 
- ![image](assets/chapter-3-images/problem-1-image-7.png)
+ ![code](assets/chapter-3-images/09.Excellent-result-07.png)
 
 ### 2. Отлична оценка или не
 
@@ -494,24 +521,24 @@ Console.WriteLine(size + " " + destMetric);
  
 2. **Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:  
 
- ![image](assets/chapter-3-images/problem-2-image-1.png)
+ ![code](assets/chapter-3-images/02.Excellent-or-not-01.png)
 
 3. Включете режим на **автоматично превключване към текущия проект** като кликнете върху главния solution с десния бутон на мишката и изберете [**Set StartUp Projects…**]:  
 
- ![image](assets/chapter-3-images/problem-2-image-2.png)  
+ ![code](assets/chapter-3-images/02.Excellent-or-not-02.png)
 
  Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current selection**]:
 
- ![image](assets/chapter-3-images/problem-2-image-3.png) 
+ ![code](assets/chapter-3-images/02.Excellent-or-not-03.png)
 
 4. Сега **стартирайте програмата**, както обикновено с [Ctrl+F5] и я тествайте:
 
- ![image](assets/chapter-3-images/problem-2-image-4.png)
- ![image](assets/chapter-3-images/problem-2-image-5.png)
+ ![code](assets/chapter-3-images/02.Excellent-or-not-04.png)
+ ![code](assets/chapter-3-images/02.Excellent-or-not-05.png)
 
 5.	Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#1. Решението би трябвало да бъде прието, като напълно коректно: 
 
- ![image](assets/chapter-3-images/problem-2-image-6.png)
+ ![code](assets/chapter-3-images/02.Excellent-or-not-06.png)
 
 ### 3. Четно или нечетно
 
@@ -530,7 +557,7 @@ Console.WriteLine(size + " " + destMetric);
 
 3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:  
 
- ![image](assets/chapter-3-images/problem-3-image-1.png)
+ ![code](assets/chapter-3-images/03.Even-or-odd-01.png)
 
 4. Тествайте в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#2.
 
@@ -551,12 +578,12 @@ Console.WriteLine(size + " " + destMetric);
 
 3. **Стартирайте** програмата с [Ctrl+F5] и я тествайте:
 
- ![image](assets/chapter-3-images/problem-4-image-1.png)
+ ![code](assets/chapter-3-images/04.Greater-number-01.png)
 
 4. Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/506#3.
 
 **Подсказка**: може да си помогнете частично с кода от картинката, който е нарочно замъглен, за да помислите как да си го напишете сами:  
-![image](assets/chapter-3-images/problem-4-image-2.png)
+![code](assets/chapter-3-images/04.Greater-number-02.png)
 
 ### 5. Изписване на число до 9 с думи
 
@@ -692,15 +719,15 @@ Console.WriteLine(size + " " + destMetric);
 
 Създайте графично (**GUI**) приложение за **конвертиране на валути**. Приложението трябва да изглежда приблизително като на картинката по-долу:  
 
-![image](assets/chapter-3-images/convertor-image-1.png)
+![code](assets/chapter-3-images/14.Converter-01.png)
 
 1. Създайте нов **Windows Forms Application** с име “**Currency-Converter**”:
 
- ![image](assets/chapter-3-images/convertor-image-2.png)
+![code](assets/chapter-3-images/14.Converter-02.png)
 
 2. **Наредете контролите** във формата: една кутийка за въвеждане на число (**NumericUpDown**), един падащ списък с валути (**ComboBox**), текстов блок за резултата (**Label**) и няколко надписа (**Label**). Нагласете **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:
  
- ![image](assets/chapter-3-images/convertor-image-3.png)
+![code](assets/chapter-3-images/14.Converter-03.png)
  
 3. Задайте следните препоръчителни **настройки на контролите**:
 
@@ -740,7 +767,7 @@ Console.WriteLine(size + " " + destMetric);
 
   - Събитието `ValueChanged` на контролата за въвеждане на число `numericUpDownAmount`: 
   
-  ![image](assets/chapter-3-images/convertor-image-4.png)
+  ![code](assets/chapter-3-images/14.Converter-04.png)
 
   - Събитието `Load` на формата `FormConverter`.
   - Събитието `SelectedIndexChanged` на падащия списък за избор на валута `comboBoxCurrency`.
