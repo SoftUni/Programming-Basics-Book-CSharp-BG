@@ -15,13 +15,13 @@
 
 В програмирането често пъти се налага **да изпълним блок с команди няколко пъти**. За целта в езиците за програмиране се използват **цикли**. Да разгледаме един пример за `for` цикъл: 
 
-![code](assets/chapter-5-loops-images/00.For-loop-01.png)
+![code](assets/chapter-5-images/00.For-loop-01.png)
 
 Цикълът започва с **оператора** `for` и преминава през всички стойности за дадена променлива в даден интервал, например всички числа от 1 до 10 включително, и за всяка стойност изпълнява поредица команди \(тяло на цикъла\).
 
 В декларацията на цикъла може да се зададе **начална стойност** и **крайна стойност**. **Тялото на цикъла** обикновено се огражда с къдрави скоби `{ }` и представлява блок с една или няколко команди. На фигурата по-долу е показана структурата на един `for` цикъл:
 
-![code](assets/chapter-5-loops-images/00.For-loop-02.png)
+![code](assets/chapter-5-images/00.For-loop-02.png)
 
 В повечето случаи един `for` цикъл се завърта от `1` до `n` (например от 1 до 10). Целта на цикъла е да се премине последователно през числата 1, 2, 3, ..., n и за всяко от тях да се изпълни някакво действие. В примера по-горе променливата `i` приема стойности от 1 до 10 и в тялото на цикъла сe отпечатва текущата стойност. Цикълът се повтаря 10 пъти и всяко от тези повторения се нарича "**итерация**".
 
@@ -31,11 +31,11 @@
 
 Можем да решим задачата с `for` цикъл, с който преминаваме с променливата `i` по числата от 1 до 100 и ги печатаме:
 
-![code](assets/chapter-5-loops-images/01.Numbers-1-to-100-01.png)
+![code](assets/chapter-5-images/01.Numbers-1-to-100-01.png)
 
 **Стартирайте** програмата с [Ctrl+F5] и я **тествайте**:
 
-![code](assets/chapter-5-loops-images/01.Numbers-1-to-100-02.png)
+![code](assets/chapter-5-images/01.Numbers-1-to-100-02.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#0
@@ -46,7 +46,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#0
 
 Докато програмираме, постоянно се налага да пишем цикли, десетки пъти всеки ден. Затова в повечето среди за разработка (IDE) има **шаблони за код** (**code snippets**) за писане на цикли. Един такъв шаблон е **шаблонът за `for` цикъл във Visual Studio**. Напишете `for` в редактора за C\# код във Visual Studio и **натиснете два пъти \[Tab\]**. Visual Studio ще разгъне за вас шаблон и ще напише цялостен `for` цикъл:
 
-![code](assets/chapter-5-loops-images/00.For-loop-code-snippet.png)
+![code](assets/chapter-5-images/00.For-loop-code-snippet.png)
 
 **Опитайте сами**, за да усвоите умението да ползвате шаблона за код за `for` цикъл във Visual Studio.
 
@@ -56,7 +56,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#0
 
 Задачата можем да решим като комбинираме `for` **цикъл** за преминаваме по числата от 1 до 1000 и **проверка** за всяко число дали завършва на 7. Има и други решения, разбира се, но нека решим задачата чрез **завъртане на цикъл + проверка**:
 
-![code](assets/chapter-5-loops-images/02.Numbers-ending-in-7-01.png)
+![code](assets/chapter-5-images/02.Numbers-ending-in-7-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#1
@@ -66,7 +66,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#1
 Да се напише програма, която отпечатва буквите от латинската азбука: **a, b, c, …, z**.
 Тук трябва да се отбележи, че `for` циклите не работят само с числа. Може да решим задачата като завъртим `for` цикъл, който преминава последователно през всички букви от латинската азбука:
 
-![code](assets/chapter-5-loops-images/03.Latin-letters-01.png)
+![code](assets/chapter-5-images/03.Latin-letters-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#2
@@ -97,7 +97,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#2
  
 Ето го и сорс кодa на решението:
 
-![code](assets/chapter-5-loops-images/04.Sum-numbers-01.png)
+![code](assets/chapter-5-images/04.Sum-numbers-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#3
@@ -116,7 +116,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#3
 
 Първо въвеждаме едно число **n** (броят числа, които предстои да бъдат въведени). Задаваме на текущия максимум **max** първоначална неутрална стойност, например **-10000000000000**. С помощта на `for` цикъл, който итерираме **n-1 пъти**, прочитаме по едно цяло число **num**. Ако прочетеното число **num** е по-голямо от текущия максимум **max**, запомняме **num** в **max**. На края в **max** трябва да се е запазило най-голямото число. Отпечатваме го на конзолата.
 
-![code](assets/chapter-5-loops-images/05.Max-number-01.png)
+![code](assets/chapter-5-images/05.Max-number-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#4
@@ -134,7 +134,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#4
 
 Задачата е абсолютно аналогична с предходната:
 
-![code](assets/chapter-5-loops-images/06.Min-number-01.png)
+![code](assets/chapter-5-images/06.Min-number-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#5
@@ -150,7 +150,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#5
 
 Първо въвеждаме числото **n**, след това първите **n** числа (**лявата** половина) и ги сумираме. Продължаваме с въвеждането на още **n** числа (**дясната** половина) и намираме и тяхната сума. Изчисляваме **разликата** между намерените суми по абсолютна стойност: **Math.Abs(leftSum - rightSum)**. Ако разликата е **0**, отпечатваме **"Yes" + сумата**, в противен случай - отпечатваме **"No" + разликата**.
 
-![code](assets/chapter-5-loops-images/07.Left-and-right-sum-01.png)
+![code](assets/chapter-5-images/07.Left-and-right-sum-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#6
@@ -168,7 +168,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#6
 
 Въвеждаме числата едно по едно и изчисляваме двете **суми** (на числата на **четни** позиции и на числата на **нечетни** позиции). Както в предходната задача, изчисляваме абсолютната стойност на разликата и отпечатваме резултата (**"Yes" + сумата** при разлика 0 или **"No" + разликата** в противен случай).
 
-![code](assets/chapter-5-loops-images/08.Odd-even-sum-01.png)
+![code](assets/chapter-5-images/08.Odd-even-sum-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#7
@@ -190,7 +190,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#7
 
 Прочитаме входния текст **s**, нулираме сумата и завъртаме цикъл от **0** до **s.Length-1** (дължината на текста -1). Проверяваме всяка буква **s[i]** дали е гласна и съответно добавяме към сумата стойността ѝ.
 
-![code](assets/chapter-5-loops-images/09.Vowels-sum-01.png)
+![code](assets/chapter-5-images/09.Vowels-sum-01.png)
 
 ### Тестване в Judge системата
 https://judge.softuni.bg/Contests/Practice/Index/510#8
@@ -200,11 +200,11 @@ https://judge.softuni.bg/Contests/Practice/Index/510#8
 
 Можем да повтаряме блок код с for-цикъл:
 
-![code](assets/chapter-5-loops-images/00.For-loop-01.png)
+![code](assets/chapter-5-images/00.For-loop-01.png)
 
 Можем да четем поредица от n числа от конзолата:
 
-![code](assets/chapter-5-loops-images/00.For-loop-03.png)
+![code](assets/chapter-5-images/00.For-loop-03.png)
 
 ## Упражнения: повторения (цикли)
 
@@ -212,7 +212,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#8
 
 1. Създайте празно решение **(Blank Solution)** във Visual Studio за да организирате кода от задачите за упражнение. Целта на този **blank solution** e да съдържа **по един проект за всяка задача** от упражненията.
   
-  ![code](assets/chapter-5-loops-images/00.Blank-visual-studio.png)
+  ![code](assets/chapter-5-images/00.Blank-visual-studio.png)
 
 2.	Задайте **да се стартира по подразбиране текущият проект** (не първият в решението). Кликнете с десен бутон на мишката върху **Solution 'Loops' -> [Set StartUp Projects…] -> [Current selection]**.
 
@@ -287,7 +287,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#11
 
 Целта на следващото упражнение е да си поиграем с една **библиотека за рисуване**, известна като **“графика с костенурка” (turtle graphics)**. Ще изградим графично приложение, в което ще **рисуваме различни фигури**, придвижвайки нашата **“костенурка”** по екрана чрез операции от типа “отиди напред 100 позиции”, “завърти се надясно на 30 градуса”, “отиди напред още 50 позиции”. Приложението ще изглежда приблизително така:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-01.png)
+![code](assets/chapter-5-images/13.Turtle-graphics-01.png)
 
 1.	Запознайте се с **концепцията за рисуване “Turtle Graphics”**. Можете да разгледате следните източници:
 
@@ -299,7 +299,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#11
 
 2.	Създайте нов **C# Windows Forms проект**:
  
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-02.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-02.png)
 
 3.	Инсталирайте **NuGet** пакета **"Nakov.TurtleGraphics"** към вашия Windows Forms проект.
 
@@ -307,47 +307,47 @@ https://judge.softuni.bg/Contests/Practice/Index/510#11
 
   Кликнете върху проекта в **Solution Explorer** и изберете **[Manage NuGet Packages…]**:
  
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-03.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-03.png)
 
   Ще се отвори прозорец за търсене и инсталиране на **NuGet** пакети. Потърсете пакети по ключова дума **“nakov”**. Ще излязат няколко пакета. Изберете пакет **“Nakov.TurtleGraphics”**. Натиснете **[Install]** за да го инсталирате към вашия C# проект:
  
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-04.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-04.png)
 
   Към вашия C# проект вече в включена външната библиотека **“Nakov.TurtleGraphics”**. Тя дефинира един клас **Turtle**, който представлява **костенурка за рисуване**. За да го използвате, трябва да добавите в C# кода за вашата форма (**Form1.cs**) следния код най-отгоре в началото на файла:
   
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-05.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-05.png)
 
 4.	Сега сложете **три бутона** във формата и нагласете **имената** и **свойствата** им, както е посочено по-долу:
  
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-06.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-06.png)
 
 5.	Кликнете два пъти върху бутона **[Draw]**, за да въведете кода, който да се изпълни при натискането му. Напишете следния код:
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-07.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-07.png)
 
   Този код мести и върти костенурката, която в началото е в центъра на екрана (в средата на формата), и чертае равностранен триъгълник. Може да го редактирате и да си поиграете с него.
 
 6.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте го дали работи (натиснете **[Draw]** бутона няколко пъти):
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-08.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-08.png)
 
 7.	Сега можете да напишете **по-сложна програма за костенурката**: 
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-09.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-09.png)
 
 8.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работи новата програма за костенурката:
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-10.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-10.png)
 
   Вече костенурката чертае по-сложни фигури чрез приятно анимирано движение.
 
 9.	Напишете кода и за останалите два бутона. Целта на бутона **[Reset]** е да изтрие графиката и да започне да чертае на чисто:
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-11.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-11.png)
 
 10.	Целта на бутона **[Show / Hide Turtle]** е да показва или скрива костенурката: 
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-12.png)
+  ![code](assets/chapter-5-images/13.Turtle-graphics-12.png)
 
 11.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работят правилно всички бутони.
 
@@ -355,7 +355,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#11
 
 Добавете бутон **[Hexagon]**, който чертае правилен шестоъгълник:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-13.png)
+![code](assets/chapter-5-images/13.Turtle-graphics-13.png)
 
 **Подсказка:** В цикъл повторете 6 пъти следното: ротация на 60 градуса, движение напред 100.
 
@@ -363,7 +363,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#11
 
 Добавете бутон **[Star]**, който чертае звезда с 5 върха (**петолъчка**) като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-14.png)
+![code](assets/chapter-5-images/13.Turtle-graphics-14.png)
 
 **Подсказка:**
 
@@ -375,7 +375,7 @@ https://judge.softuni.bg/Contests/Practice/Index/510#11
 
 Добавете бутон **[Spiral]**, който чертае спирала с 20 върха като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-15.png)
+![code](assets/chapter-5-images/13.Turtle-graphics-15.png)
 
 **Подсказка:** Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте постепенно дължината на движението напред и завъртайте на 60 градуса.
 
@@ -383,12 +383,12 @@ https://judge.softuni.bg/Contests/Practice/Index/510#11
 
 Добавете бутон **[Sun]**, който чертае слънце с 36 върха като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-16.png)
+![code](assets/chapter-5-images/13.Turtle-graphics-16.png)
 
 ### 9. * Чертане на спирален триъгълник с костенурката
 
 Добавете бутон **[Triangle]**, който чертае три триъгълника с по 22 върха като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-17.png)
+![code](assets/chapter-5-images/13.Turtle-graphics-17.png)
 
 **Подсказка:** Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте с 10 дължината на движението напред и завъртайте на 120 градуса. Повторете 3 пъти за трите триъгълника.
