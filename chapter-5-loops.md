@@ -37,7 +37,9 @@
 
 ![code](assets/chapter-5-loops-images/01.Numbers-1-to-100-02.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#0.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#0
+
 Трябва да получите **100 точки** (напълно коректно решение).
 
 ## Code Snippet за for цикъл във Visual Studio
@@ -56,7 +58,8 @@
 
 ![code](assets/chapter-5-loops-images/02.Numbers-ending-in-7-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#1.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#1
 
 ### Задача: Всички латински букви
 
@@ -65,7 +68,8 @@
 
 ![code](assets/chapter-5-loops-images/03.Latin-letters-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#2.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#2
 
 ### Задача: Сумиране на числа
 
@@ -95,7 +99,8 @@
 
 ![code](assets/chapter-5-loops-images/04.Sum-numbers-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#3.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#3
 
 ### Задача: Най-голямо число
 
@@ -113,7 +118,8 @@
 
 ![code](assets/chapter-5-loops-images/05.Max-number-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#4.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#4
 
 
 ### Задача: Най-малко число
@@ -130,7 +136,8 @@
 
 ![code](assets/chapter-5-loops-images/06.Min-number-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#5.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#5
 
 
 ### Задача: Лява и дясна сума
@@ -145,7 +152,8 @@
 
 ![code](assets/chapter-5-loops-images/07.Left-and-right-sum-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#6.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#6
 
 
 ### Задача: Четна / нечетна сума
@@ -162,7 +170,8 @@
 
 ![code](assets/chapter-5-loops-images/08.Odd-even-sum-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#7.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#7
 
 ### Задача: Сумиране на гласните букви
 
@@ -183,7 +192,8 @@
 
 ![code](assets/chapter-5-loops-images/09.Vowels-sum-01.png)
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#8. 
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#8
 
 
 ## Какво научихме от тази глава?
@@ -219,7 +229,8 @@
 | 3<br>5<br>5<br>1 | No<br>Diff = 1 | &#124;5 - (5 + 1)&#124; = 1 |
 | 3<br>1<br>1<br>1 | No<br>Diff = 1 | &nbsp; |
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#9.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#9
 
 **Подсказка**: изчислете **сумата** на всички елементи, намерете **най-големия** от тях и проверете търсеното условие.
 
@@ -234,7 +245,8 @@
 | 5<br>3<br>-2<br>8<br>11<br>-3 | OddSum=8,<br>OddMin=-3,<br>OddMax=8,<br>EvenSum=9,<br>EvenMin=-2,<br>EvenMax=11 | 4<br>1.5<br>1.75<br>1.5<br>1.75 | OddSum=3,<br>OddMin=1.5,<br>OddMax=1.5,<br>EvenSum=3.5,<br>EvenMin=1.75,<br>EvenMax=1.75 |
 | 1<br>-5 | OddSum=-5,<br>OddMin=-5,<br>OddMax=-5,<br>EvenSum=0,<br>EvenMin=No,<br>EvenMax=No | 3<br>-1<br>-2<br>-3 | OddSum=-4,<br>OddMin=-3,<br>OddMax=-1,<br>EvenSum=-2,<br>EvenMin=-2,<br>EvenMax=-2 |
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#10.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#10
 
 **Подсказки**:
 
@@ -258,7 +270,8 @@
 | 2<br>-1<br>0<br>0<br>-1 | Yes, value=-1 | стойности = {-1, -1}<br>еднакви стойности | 
 | 2<br>-1<br>2<br>0<br>-1 | No, maxdiff=2 | стойности = {1, -1}<br>разлики = {2}<br>макс. разлика = 2 |
 
-Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#11.
+### Тестване в Judge системата
+https://judge.softuni.bg/Contests/Practice/Index/510#11
 
 **Подсказки**:
 
