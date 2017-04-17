@@ -58,7 +58,7 @@
 
 С `Console.WriteLine()` отпечатваме резултата на конзолата.
 
-![code](assets/chapter-2-part-2-images/01.Training-lab-06.png))
+![code](assets/chapter-2-part-2-images/01.Training-lab-06.png)
 
 ### Тестване в Judge системата
 Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/169#0
