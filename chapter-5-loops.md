@@ -15,20 +15,11 @@
 
 В програмирането често пъти се налага **да изпълним блок с команди няколко пъти**. За целта в езиците за програмиране се използват **цикли**. Да разгледаме един пример за `for` цикъл: 
 
-```cs
-for (var i = 1; i <= 10; i++)
-{
-    Console.WriteLine("i = " + i);
-}
-```
-
 ![code](assets/chapter-5-loops-images/00.For-loop-01.png)
 
 Цикълът започва с **оператора** `for` и преминава през всички стойности за дадена променлива в даден интервал, например всички числа от 1 до 10 включително, и за всяка стойност изпълнява поредица команди \(тяло на цикъла\).
 
 В декларацията на цикъла може да се зададе **начална стойност** и **крайна стойност**. **Тялото на цикъла** обикновено се огражда с къдрави скоби `{ }` и представлява блок с една или няколко команди. На фигурата по-долу е показана структурата на един `for` цикъл:
-
-![](/assets/chapter-5-loops-images/for-loop-explained.png)
 
 ![code](assets/chapter-5-loops-images/00.For-loop-02.png)
 
@@ -40,13 +31,9 @@ for (var i = 1; i <= 10; i++)
 
 Можем да решим задачата с `for` цикъл, с който преминаваме с променливата `i` по числата от 1 до 100 и ги печатаме:
 
-![](/assets/chapter-5-loops-images/numbers-1-to-100.png)
-
 ![code](assets/chapter-5-loops-images/01.Numbers-1-to-100-01.png)
 
 **Стартирайте** програмата с [Ctrl+F5] и я **тествайте**:
-
-![](/assets/chapter-5-loops-images/test-numbers-1-to-100.png)
 
 ![code](assets/chapter-5-loops-images/01.Numbers-1-to-100-02.png)
 
@@ -56,8 +43,6 @@ for (var i = 1; i <= 10; i++)
 ## Code Snippet за for цикъл във Visual Studio
 
 Докато програмираме, постоянно се налага да пишем цикли, десетки пъти всеки ден. Затова в повечето среди за разработка (IDE) има **шаблони за код** (**code snippets**) за писане на цикли. Един такъв шаблон е **шаблонът за `for` цикъл във Visual Studio**. Напишете `for` в редактора за C\# код във Visual Studio и **натиснете два пъти \[Tab\]**. Visual Studio ще разгъне за вас шаблон и ще напише цялостен `for` цикъл:
-
-![](/assets/chapter-5-loops-images/for-loop-code-snippet.png)
 
 ![code](assets/chapter-5-loops-images/00.For-loop-code-snippet.png)
 
@@ -69,16 +54,6 @@ for (var i = 1; i <= 10; i++)
 
 Задачата можем да решим като комбинираме `for` **цикъл** за преминаваме по числата от 1 до 1000 и **проверка** за всяко число дали завършва на 7. Има и други решения, разбира се, но нека решим задачата чрез **завъртане на цикъл + проверка**:
 
-```cs
-for (var i = 1; i <= 1000; i++)
-{
-   if (i % 10 == 7)
-   {
-      // TODO: отпечатваме i
-   }
-}
-```
-
 ![code](assets/chapter-5-loops-images/02.Numbers-ending-in-7-01.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#1.
@@ -87,15 +62,6 @@ for (var i = 1; i <= 1000; i++)
 
 Да се напише програма, която отпечатва буквите от латинската азбука: **a, b, c, …, z**.
 Тук трябва да се отбележи, че `for` циклите не работят само с числа. Може да решим задачата като завъртим `for` цикъл, който преминава последователно през всички букви от латинската азбука:
-
-```cs
-Console.Write("Latin alphabet:");
-for (var letter = 'a'; letter <= 'z'; letter++)
-{
-   Console.Write(" " + letter);
-}
-Console.WriteLine();
-```
 
 ![code](assets/chapter-5-loops-images/03.Latin-letters-01.png)
 
@@ -127,20 +93,6 @@ Console.WriteLine();
  
 Ето го и сорс кодa на решението:
 
-```cs
-Console.Write("n = ");
-var n = int.Parse(Console.ReadLine());
-Console.WriteLine("Enter the numbers:");
-var sum = 0;
-for (var i = 0; i < n; i++)
-{
-   var num = int.Parse(Console.ReadLine());
-   sum = sum + num;
-}
-Console.WriteLine("sum = " + sum);
-
-```
-
 ![code](assets/chapter-5-loops-images/04.Sum-numbers-01.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#3.
@@ -159,21 +111,6 @@ Console.WriteLine("sum = " + sum);
 
 Първо въвеждаме едно число **n** (броят числа, които предстои да бъдат въведени). Задаваме на текущия максимум **max** първоначална неутрална стойност, например **-10000000000000**. С помощта на `for` цикъл, който итерираме **n-1 пъти**, прочитаме по едно цяло число **num**. Ако прочетеното число **num** е по-голямо от текущия максимум **max**, запомняме **num** в **max**. На края в **max** трябва да се е запазило най-голямото число. Отпечатваме го на конзолата.
 
-```cs
-Console.Write("n = ");
-var n = int.Parse(Console.ReadLine());
-var max = -10000000000000;
-for (var i = 1; i <= n; i++)
-{
-   var num = int.Parse(Console.ReadLine());
-   if (num > max)
-   {
-      max = num;
-   }
-}
-Console.WriteLine("max = " + max);
-```
-
 ![code](assets/chapter-5-loops-images/05.Max-number-01.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#4.
@@ -191,21 +128,6 @@ Console.WriteLine("max = " + max);
 
 Задачата е абсолютно аналогична с предходната:
 
-```cs
-Console.Write("n = ");
-var n = int.Parse(Console.ReadLine());
-var min = 10000000000000;
-for (var i = 1; i <= n; i++)
-{
-   var num = int.Parse(Console.ReadLine());
-   if (num < min)
-   {
-      min = num;
-   }
-}
-Console.WriteLine("min = " + min);
-```
-
 ![code](assets/chapter-5-loops-images/06.Min-number-01.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#5.
@@ -220,26 +142,6 @@ Console.WriteLine("min = " + min);
 | 2<br>10<br>90<br>60<br>40 | Yes, sum = 100 | 2<br>90<br>9<br>50<br>50 | No, diff = 1 |
 
 Първо въвеждаме числото **n**, след това първите **n** числа (**лявата** половина) и ги сумираме. Продължаваме с въвеждането на още **n** числа (**дясната** половина) и намираме и тяхната сума. Изчисляваме **разликата** между намерените суми по абсолютна стойност: **Math.Abs(leftSum - rightSum)**. Ако разликата е **0**, отпечатваме **"Yes" + сумата**, в противен случай - отпечатваме **"No" + разликата**.
-
-```cs
-var n = int.Parse(Console.ReadLine());
-var leftSum = 0;
-var rightSum = 0;
-for (var i = 0; i < n; i++)
-{
-  leftSum = leftSum + int.Parse(Console.ReadLine());  
-}
-// TODO: read and calculate the rightSum
-if (leftSum == rightSum)
-{
-  Console.WriteLine("Yes, sum = " + leftSum);
-}
-else
-{
-  var difference =  Math.Abs(rightSum - leftSum);
-  Console.WriteLine("No, diff = " + difference);
-}
-```
 
 ![code](assets/chapter-5-loops-images/07.Left-and-right-sum-01.png)
 
@@ -257,25 +159,6 @@ else
 | 3<br>5<br>8<br>1 | No<br>Diff = 2 |
 
 Въвеждаме числата едно по едно и изчисляваме двете **суми** (на числата на **четни** позиции и на числата на **нечетни** позиции). Както в предходната задача, изчисляваме абсолютната стойност на разликата и отпечатваме резултата (**"Yes" + сумата** при разлика 0 или **"No" + разликата** в противен случай).
-
-```cs
-var n = int.Parse(Console.ReadLine());
-var oddSum = 0;
-var evenSum = 0;
-for (var i = 0; i < n; i++)
-{
-  var element = int.Parse(Console.ReadLine());
-  if (i % 2 == 0)
-  {
-    evenSum += element;
-  }
-  else 
-  {
-    oddSum += element;
-  }
-}
-// TODO: print the sum / difference
-```
 
 ![code](assets/chapter-5-loops-images/08.Odd-even-sum-01.png)
 
@@ -298,35 +181,6 @@ for (var i = 0; i < n; i++)
 
 Прочитаме входния текст **s**, нулираме сумата и завъртаме цикъл от **0** до **s.Length-1** (дължината на текста -1). Проверяваме всяка буква **s[i]** дали е гласна и съответно добавяме към сумата стойността ѝ.
 
-```cs
-var s = Console.ReadLine();
-var sum = 0;
-for (int i = 0; i < s.Length; i++)
-{
-  if (s[i] == 'a')
-  {
-    sum += 1;
-  }
-  else if (s[i] == 'e') 
-  {
-    sum += 2;
-  }
-  else if (s[i] == 'i') 
-  {
-    sum += 3;
-  }
-  else if (s[i] == 'o') 
-  {
-    sum += 4;
-  }
-  else if (s[i] == 'u')
-  {
-    sum += 5;
-  }
-}
-Console.WriteLine("Vowels sum = " + sum);
-```
-
 ![code](assets/chapter-5-loops-images/09.Vowels-sum-01.png)
 
 Тествайте вашето решение тук: https://judge.softuni.bg/Contests/Practice/Index/510#8. 
@@ -335,23 +189,10 @@ Console.WriteLine("Vowels sum = " + sum);
 ## Какво научихме от тази глава?
 
 Можем да повтаряме блок код с for-цикъл:
-```cs
-for (var i = 1; i <= 10; i++)
-{
-   Console.WriteLine("i = " + i);
-}
-```
 
 ![code](assets/chapter-5-loops-images/00.For-loop-01.png)
 
 Можем да четем поредица от n числа от конзолата:
-```cs
-var n = int.Parse(Console.ReadLine());
-for (var i = 0; i < n; i++)
-{  
-   var num = int.Parse(Console.ReadLine());
-}
-```
 
 ![code](assets/chapter-5-loops-images/00.For-loop-03.png)
 
@@ -360,8 +201,6 @@ for (var i = 0; i < n; i++)
 ### 0. Празно Visual Studio решение (Blank Solution)
 
 1. Създайте празно решение **(Blank Solution)** във Visual Studio за да организирате кода от задачите за упражнение. Целта на този **blank solution** e да съдържа **по един проект за всяка задача** от упражненията.
-
-  ![](/assets/chapter-5-loops-images/blank-solution.png)
   
   ![code](assets/chapter-5-loops-images/00.Blank-visual-studio.png)
 
@@ -435,8 +274,6 @@ for (var i = 0; i < n; i++)
 
 Целта на следващото упражнение е да си поиграем с една **библиотека за рисуване**, известна като **“графика с костенурка” (turtle graphics)**. Ще изградим графично приложение, в което ще **рисуваме различни фигури**, придвижвайки нашата **“костенурка”** по екрана чрез операции от типа “отиди напред 100 позиции”, “завърти се надясно на 30 градуса”, “отиди напред още 50 позиции”. Приложението ще изглежда приблизително така:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/turtle-graphics-demo.png)
-
 ![code](assets/chapter-5-loops-images/13.Turtle-graphics-01.png)
 
 1.	Запознайте се с **концепцията за рисуване “Turtle Graphics”**. Можете да разгледате следните източници:
@@ -448,9 +285,7 @@ for (var i = 0; i < n; i++)
       •	Интерактивен онлайн инструмент за чертаене с костенурка – https://blockly-games.appspot.com/turtle
 
 2.	Създайте нов **C# Windows Forms проект**:
-
-  ![](/assets/chapter-5-loops-images/turtle-graphics/create-new-project.png)
-  
+ 
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-02.png)
 
 3.	Инсталирайте **NuGet** пакета **"Nakov.TurtleGraphics"** към вашия Windows Forms проект.
@@ -458,67 +293,47 @@ for (var i = 0; i < n; i++)
   От Visual Studio може да се добавят **външни библиотеки** (пакети) към вашите C# проекти. Те добавят допълнителна функционалност към вашите приложения. Официалното хранилище (repository) за C# библиотеки се поддържа от Microsoft и се нарича **NuGet** (http://www.nuget.org/).
 
   Кликнете върху проекта в **Solution Explorer** и изберете **[Manage NuGet Packages…]**:
-
-  ![](/assets/chapter-5-loops-images/turtle-graphics/manage-nuget-packages.png)
-  
+ 
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-03.png)
 
   Ще се отвори прозорец за търсене и инсталиране на **NuGet** пакети. Потърсете пакети по ключова дума **“nakov”**. Ще излязат няколко пакета. Изберете пакет **“Nakov.TurtleGraphics”**. Натиснете **[Install]** за да го инсталирате към вашия C# проект:
-
-  ![](/assets/chapter-5-loops-images/turtle-graphics/package.png)
-  
+ 
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-04.png)
 
   Към вашия C# проект вече в включена външната библиотека **“Nakov.TurtleGraphics”**. Тя дефинира един клас **Turtle**, който представлява **костенурка за рисуване**. За да го използвате, трябва да добавите в C# кода за вашата форма (**Form1.cs**) следния код най-отгоре в началото на файла:
-
-  ![](/assets/chapter-5-loops-images/turtle-graphics/using.png)
   
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-05.png)
 
 4.	Сега сложете **три бутона** във формата и нагласете **имената** и **свойствата** им, както е посочено по-долу:
-
-  ![](/assets/chapter-5-loops-images/turtle-graphics/buttons.png)
-  
+ 
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-06.png)
 
 5.	Кликнете два пъти върху бутона **[Draw]**, за да въведете кода, който да се изпълни при натискането му. Напишете следния код:
 
-  ![](/assets/chapter-5-loops-images/turtle-graphics/draw-button.png)
-  
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-07.png)
 
   Този код мести и върти костенурката, която в началото е в центъра на екрана (в средата на формата), и чертае равностранен триъгълник. Може да го редактирате и да си поиграете с него.
 
 6.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте го дали работи (натиснете **[Draw]** бутона няколко пъти):
 
-  ![](/assets/chapter-5-loops-images/turtle-graphics/test-draw-button.png)
-  
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-08.png)
 
 7.	Сега можете да напишете **по-сложна програма за костенурката**: 
 
-  ![](/assets/chapter-5-loops-images/turtle-graphics/more-complex-program.png)
-  
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-08.png)
 
 8.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работи новата програма за костенурката:
 
-  ![](/assets/chapter-5-loops-images/turtle-graphics/test-program.png)
-  
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-09.png)
 
   Вече костенурката чертае по-сложни фигури чрез приятно анимирано движение.
 
 9.	Напишете кода и за останалите два бутона. Целта на бутона **[Reset]** е да изтрие графиката и да започне да чертае на чисто:
 
-  ![](/assets/chapter-5-loops-images/turtle-graphics/reset-button.png)
-  
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-10.png)
 
 10.	Целта на бутона **[Show / Hide Turtle]** е да показва или скрива костенурката: 
 
-  ![](/assets/chapter-5-loops-images/turtle-graphics/show-hide-button.png)
-  
   ![code](assets/chapter-5-loops-images/13.Turtle-graphics-11.png)
 
 11.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работят правилно всички бутони.
@@ -527,8 +342,6 @@ for (var i = 0; i < n; i++)
 
 Добавете бутон **[Hexagon]**, който чертае правилен шестоъгълник:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/hexagon.png)
-
 ![code](assets/chapter-5-loops-images/13.Turtle-graphics-12.png)
 
 **Подсказка:** В цикъл повторете 6 пъти следното: ротация на 60 градуса, движение напред 100.
@@ -536,8 +349,6 @@ for (var i = 0; i < n; i++)
 ### 6. * Чертане на звезда с костенурката
 
 Добавете бутон **[Star]**, който чертае звезда с 5 върха (**петолъчка**) като на фигурата по-долу:
-
-![](/assets/chapter-5-loops-images/turtle-graphics/star.png)
 
 ![code](assets/chapter-5-loops-images/13.Turtle-graphics-12.png)
 
@@ -551,8 +362,6 @@ for (var i = 0; i < n; i++)
 
 Добавете бутон **[Spiral]**, който чертае спирала с 20 върха като на фигурата по-долу:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/spiral.png)
-
 ![code](assets/chapter-5-loops-images/13.Turtle-graphics-13.png)
 
 **Подсказка:** Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте постепенно дължината на движението напред и завъртайте на 60 градуса.
@@ -561,15 +370,11 @@ for (var i = 0; i < n; i++)
 
 Добавете бутон **[Sun]**, който чертае слънце с 36 върха като на фигурата по-долу:
 
-![](/assets/chapter-5-loops-images/turtle-graphics/sun.png)
-
 ![code](assets/chapter-5-loops-images/13.Turtle-graphics-14.png)
 
 ### 9. * Чертане на спирален триъгълник с костенурката
 
 Добавете бутон **[Triangle]**, който чертае три триъгълника с по 22 върха като на фигурата по-долу:
-
-![](/assets/chapter-5-loops-images/turtle-graphics/spiral-triangle.png)
 
 ![code](assets/chapter-5-loops-images/13.Turtle-graphics-15.png)
 
