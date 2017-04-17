@@ -85,8 +85,7 @@ for (var d1 = 1; d1 <= n; d1++)
 ```
 
 ### Тестване в Judge системата
-Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
-//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. Дотогава - https://judge.softuni.bg/Contests/Practice/Index/169#5
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/Practice/Index/515#0
 
 
 ## Магически числа
@@ -132,7 +131,7 @@ for (var d1 = 1; d1 <= n; d1++)
 </div>
 
 ### Насоки и подсказки
-Решението на задачата за магическите числа следва същата концепция(//TODO: Коя съща концепция?). Следвайки тези стъпки, опитайте да решите задачата сами.
+Решението на задачата за магическите числа следва същата концепция(отново трябва да генерираме всички комбинации за n елемента). Следвайки тези стъпки, опитайте да решите задачата сами.
 -	Задайте променлива от целочислен тип `int` и прочетете входа от конзолата.
 -	Вложете **шест for-цикъла** един в друг, по един за всяка цифра на търсените шестцифрени числа.
 -	В последния цикъл, чрез `if` конструкция, проверете дали произведението на шестте цифри е равно на магическото число.
@@ -173,7 +172,7 @@ static void Main(string[] args)
 Както виждаме, една проблем можем да решим с различни цикли. За всяка задача, разбира се, има най-подходящ избор. С цел да упражните всеки цикъл - опитайте се да решите всяка от следващите задачи с всички изучени цикли.
 
 ### Тестване в Judge системата
-Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. Дотогава - https://judge.softuni.bg/Contests/Practice/Index/179#5
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/Practice/Index/515#1
 
 ## Специални числа
 Да се напише програма, която **въвежда едно цяло число N** и генерира всички възможни **“специални” числа** от **1111** до **9999**. За да бъде **“специалнo”** едно число, то трябва да отговаря на **следното условие**:
@@ -227,11 +226,11 @@ static void Main(string[] args)
 
 
 ### Насоки и подсказки
-Решете задачата самостоятелно използвайки наученото от предишните две. Спомнете си разликата между операторите *целочислено деление ( **/** )* и *деление с остатък ( **%** )* в C#.
+Решете задачата самостоятелно използвайки наученото от предишните две. Спомнете си разликата между операторите *целочислено деление ( __/__ )* и *деление с остатък ( __%__ )* в C#.
 
 ### Тестване в Judge системата
-Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
-//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE
+Може да тествате вашето решение на URL адрес:
+https://judge.softuni.bg/Contests/Practice/Index/515#2
 
 ## Комбинации от букви
 Да се напише програма, която да **принтира** на конзолата **всички комбинации от 3 букви в зададен интервал**, като се пропускат тези, които съдържат зададена от конзолата буква.
@@ -246,7 +245,7 @@ static void Main(string[] args)
 На конзолата трябва да се отпечатат всички трибуквени комбинации, които отговарят на условието, разделени с интервал. Накрая трябва да се принтира и броят на комбинациите.
 
 ### Примерен вход и изход
-//TODO: Първия пример не съвпада с условиетео! Казва се, че се изпускат комбинации с буквата въведена на ред 3, но всъщност се махат комбинациите с "b", която е въведена на 2ри ред
+
 <div style="display:inline-block;margin-right:2%;width:31.5%;">
 <table>
 <thead>
@@ -259,7 +258,7 @@ static void Main(string[] args)
 <tfoot></tfoot>
 <tbody>
 <tr>
-<td style="border:1px solid black;">a<br />b<br />c</td>
+<td style="border:1px solid black;">a<br />c<br />b</td>
 <td style="border:1px solid black;">aaa aac aca acc caa cac cca ccc 8</td>
 <td style="border:1px solid black;">Всички възможни комбинации с буквите a, b, и c са: <br />
 aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc <br />
@@ -297,7 +296,10 @@ aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb bbc bca bcb bcc caa cab 
     ```
 
 ### Тестване в Judge системата
-Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
+Може да тествате вашето решение на URL адрес:
+`[TODO: Няма такава задача в изпита за тази глава https://judge.softuni.bg/Contests/Practice/Index/515]`
+
+https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
 //TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. ДОТОГАВА - https://judge.softuni.bg/Contests/Practice/Index/368#5
 
 ## Цифри
@@ -363,10 +365,8 @@ aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb bbc bca bcb bcc caa cab 
 </table>
 </div>
 
-
 ### Насоки и подсказки
 Решете задачата самостоятелно използвайки наученото от предишните. Не забравяйте, че ще е нужно да дефинирате отделна променлива за всяка цифра на входното число.
 
 ### Тестване в Judge системата
-Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/515/7-2-Complex-Loops-Exam-Problems
-//TODO - EDIT THE LINK WHEN PROBLEMS ARE IN JUDGE. ДОТОГАВА - https://judge.softuni.bg/Contests/Practice/Index/274#5
+Може да тествате вашето решение на URL адрес: https://judge.softuni.bg/Contests/Practice/Index/515#3
