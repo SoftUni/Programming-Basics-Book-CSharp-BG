@@ -102,10 +102,7 @@
 
 Изпълнението на горния код ще изведе следния резултат на конзолата:
 
-```cs
-tomato
-lemon
-```
+![code](assets/chapter-3-images/00.Brackets-tip-03.png)
 
 С къдрави скоби:
 
@@ -113,9 +110,7 @@ lemon
 
 На конзолата ще бъде отпечатано следното:
 
-```cs
-tomato
-```
+![code](assets/chapter-3-images/00.Brackets-tip-04.png)
 
 ### Пример: Четно или нечетно
 
