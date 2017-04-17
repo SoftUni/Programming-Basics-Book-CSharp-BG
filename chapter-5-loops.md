@@ -320,21 +320,21 @@
 
 7.	Сега можете да напишете **по-сложна програма за костенурката**: 
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-08.png)
+  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-09.png)
 
 8.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работи новата програма за костенурката:
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-09.png)
+  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-10.png)
 
   Вече костенурката чертае по-сложни фигури чрез приятно анимирано движение.
 
 9.	Напишете кода и за останалите два бутона. Целта на бутона **[Reset]** е да изтрие графиката и да започне да чертае на чисто:
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-10.png)
+  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-11.png)
 
 10.	Целта на бутона **[Show / Hide Turtle]** е да показва или скрива костенурката: 
 
-  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-11.png)
+  ![code](assets/chapter-5-loops-images/13.Turtle-graphics-12.png)
 
 11.	**Стартирайте** приложението с **[Ctrl+F5]**. Тествайте дали работят правилно всички бутони.
 
@@ -342,7 +342,7 @@
 
 Добавете бутон **[Hexagon]**, който чертае правилен шестоъгълник:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-12.png)
+![code](assets/chapter-5-loops-images/13.Turtle-graphics-13.png)
 
 **Подсказка:** В цикъл повторете 6 пъти следното: ротация на 60 градуса, движение напред 100.
 
@@ -350,7 +350,7 @@
 
 Добавете бутон **[Star]**, който чертае звезда с 5 върха (**петолъчка**) като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-12.png)
+![code](assets/chapter-5-loops-images/13.Turtle-graphics-14.png)
 
 **Подсказка:**
 
@@ -362,7 +362,7 @@
 
 Добавете бутон **[Spiral]**, който чертае спирала с 20 върха като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-13.png)
+![code](assets/chapter-5-loops-images/13.Turtle-graphics-15.png)
 
 **Подсказка:** Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте постепенно дължината на движението напред и завъртайте на 60 градуса.
 
@@ -370,12 +370,12 @@
 
 Добавете бутон **[Sun]**, който чертае слънце с 36 върха като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-14.png)
+![code](assets/chapter-5-loops-images/13.Turtle-graphics-16.png)
 
 ### 9. * Чертане на спирален триъгълник с костенурката
 
 Добавете бутон **[Triangle]**, който чертае три триъгълника с по 22 върха като на фигурата по-долу:
 
-![code](assets/chapter-5-loops-images/13.Turtle-graphics-15.png)
+![code](assets/chapter-5-loops-images/13.Turtle-graphics-17.png)
 
 **Подсказка:** Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте с 10 дължината на движението напред и завъртайте на 120 градуса. Повторете 3 пъти за трите триъгълника.
