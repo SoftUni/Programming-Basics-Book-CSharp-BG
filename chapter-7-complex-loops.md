@@ -26,12 +26,12 @@
 
 ### Какво представлява стъпката?
 
-**Стъпката** е тази **част** от конструкцията на **`for`** цикъла, която указва с **колко** да се **увеличи** или **намали** стойността на **текущата** му променлива. Тя се декларира последна в скелета на `for`.
+**Стъпката** е тази **част** от конструкцията на **`for`** цикъла, която указва с **колко** да се **увеличи** или **намали** стойността на **водещата** му променлива. Тя се декларира последна в скелета на `for-цикъла`.
 
-Най-често е с **размер `i = 1`** и в такъв случай, вместо да пишем **`i += 1`** или **`i -= 1`**, можем да използваме операторите 
-**`i++`** или **`i--`**. Ако искаме стъпката ни да е **различна от 1**, при увеличение използваме оператора **`i += + размера на стъпката`**, а при намаляване **`i -= + размера на стъпката`**. При стъпка 10, цикълът би изглеждал по следния начин: 
+Най-често е с **размер `1`** и в такъв случай, вместо да пишем **`i += 1`** или **`i -= 1`**, можем да използваме операторите 
+**`i++`** или **`i--`**. Ако искаме стъпката ни да е **различна от 1**, при увеличение използваме оператора **`i +=` + `размера на стъпката`**, а при намаляване **`i -=` + `размера на стъпката`**. При стъпка 10, цикълът би изглеждал по следния начин: 
 
-![image](assets/chapter-7-images/step-explanation.png)
+![image](/assets/chapter-7-images/00.Step-explanation.png)
 
 Следва поредица от примерни задачи, решението на които ще ни помогне да разберем по-добре употребата на **стъпката** във `for` цикъла.
 
@@ -45,10 +45,10 @@
   1. Създаваме `for` цикъл с размер на стъпката 3.
   1. В **тялото на цикъла** отпечатваме стойността на текущата стъпка.
   
-  ![image](assets/chapter-7-images/task-numbers1ToN.png)
+  ![image](/assets/chapter-7-images/task-numbers1ToN.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/514#0.
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/514#0.
 
 ### Задача: Числата от N до 1 в обратен ред
 
@@ -60,10 +60,10 @@ https://judge.softuni.bg/Contests/Practice/Index/514#0.
   1. Създаваме `for` цикъл с размер на стъпката -1.
   1. В **тялото на цикъла** отпечатваме стойността на текущата стъпка.
 
-![image](assets/chapter-7-images/task-numbersNTo1.png)
+![image](/assets/chapter-7-images/task-numbersNTo1.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/514#1
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/514#1
 
 ### Задача: Числата от 1 до 2^n с `for` цикъл
 
@@ -71,10 +71,10 @@ https://judge.softuni.bg/Contests/Practice/Index/514#1
 
 **Условие**: Да се напише програма, която отпечатва числата **от 1 до 2^n** (две на степен n). Например, **ако n = 10**, то резултатът ще е **1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024**.
 
-![image](assets/chapter-7-images/task-numbers1То2^n.png)
+![image](/assets/chapter-7-images/task-numbers1То2^n.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#2
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#2
 
 ### Задача: Четни степени на 2
 
@@ -88,10 +88,10 @@ https://judge.softuni.bg/Contests/Practice/Index/156#2
       1. Отпечатваме стойността на текущото число.
       1. Увеличаваме текущото число според условието на задачата.
 
-![image](assets/chapter-7-images/task-even^2.png)
+![image](/assets/chapter-7-images/task-even^2.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#3
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#3
 
 ## `While` цикъл
 
@@ -101,7 +101,7 @@ https://judge.softuni.bg/Contests/Practice/Index/156#3
 
 **`While`** цикълът се използва, когато искаме да **повтаряме** извършването на определена логика, докато **е в сила** дадено условие. Под "**условие**", разбираме всеки **израз**, който връща **`true`** или **`false`**. Когато **условието** стане **грешно**, **`while`** цикълът **прекъсва** изпълнението си и програмата **продължава** с реализацията на **останалия** код. Конструкцията на цикъла изглежда по този начин:
 
-  ![image](assets/chapter-7-images/while-loop-second-example.png)
+  ![image](/assets/chapter-7-images/while-loop-second-example.png)
 
 Следва поредица от примерни задачи, решението на които ще ни помогне да разберем по-добре употребата на **`while`** цикъла.
 
@@ -117,10 +117,10 @@ https://judge.softuni.bg/Contests/Practice/Index/156#3
       1. Отпечатваме стойността на текущото число.
       1. Увеличаваме текущото число, използвайки формулата от условието на задачата.
       
- ![image](assets/chapter-7-images/task-numbers2k+1.png)
+ ![image](/assets/chapter-7-images/task-numbers2k+1.png)
  
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#4
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#4
 
 ### Задача: Число в диапазона [1…100]
 
@@ -137,10 +137,10 @@ https://judge.softuni.bg/Contests/Practice/Index/156#4
       1. Присвояваме нова стойност за **`num`** от входа на конзолата.
   1. След като вече сме валидирали въведеното число, извън тялото на цикъла отпечатваме стойността на числото.
 
- ![image](assets/chapter-7-images/task-numbersInRange1..100.png)
+ ![image](/assets/chapter-7-images/task-numbersInRange1..100.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#5
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#5
 
 ## Най-голям общ делител (НОД)
 
@@ -169,7 +169,7 @@ https://judge.softuni.bg/Contests/Practice/Index/156#5
 
 **Псевдо код** за алгоритъма на Евклид:
 
-```
+```csharp
 while b ≠ 0
   var oldB = b;
   b = a % b;
@@ -191,16 +191,16 @@ print а;
       1. На променливата `a` присвояваме **предишната** стойност на променливата `b`.
   1. След като цикъла приключи и сме установили НОД, го отпечатваме на екрана.
 
-![image](assets/chapter-7-images/task-GCD.png)
+![image](/assets/chapter-7-images/task-GCD.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#6
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#6
 
 ## `Do-While` цикъл
 
 Следващият цикъл, с който ще се запознаем, е **`do-while`**, в превод - **прави-докато**. По структура, той наподобява `while`, но има съществена разлика между тях. Тя се състои в това, че **`do-while`** ще изпълни тялото си **поне веднъж**. Защо се получава така? В конструкцията на **`do-while`** цикъла, **условието** винаги се проверява **след** тялото му, което от своя страна гарантира, че при **първото завъртане** на цикъла, кодът ще се **изпълни**, а **валидацията** ще се прилага върху всяка **следваща** итерация на **`do-while`**. 
 
-![image](assets/chapter-7-images/do-while-example.png)
+![image](/assets/chapter-7-images/do-while-example.png)
 
 Следва обичайната поредица от примерни задачи, чиито решения ще ни помогнат да разберем по-добре **`do-while`** цикъла.
 
@@ -218,10 +218,10 @@ https://judge.softuni.bg/Contests/Practice/Index/156#6
       1. Намаляваме стойността на **`n`** с **-1**.
   1. Извън тялото на цикъла отпечатваме крайната стойност на факториела.
 
-![image](assets/chapter-7-images/task-factorial.png)
+![image](/assets/chapter-7-images/task-factorial.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#7
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#7
 
 ### Задача: Сумиране на цифрите на число
 
@@ -236,7 +236,7 @@ https://judge.softuni.bg/Contests/Practice/Index/156#7
       1. Присвояваме нова стойност на **`n`**, която е резултат от премахването на последната цифра от **`n`**.
   1. Извън тялото на цикъла отпечатваме крайната стойност на сумата.
 
-![image](assets/chapter-7-images/task-sumDigits.png)
+![image](/assets/chapter-7-images/task-sumDigits.png)
 
 <table><tr><td><img src="assets/alert-icon.png" style="max-width: 50px;" /></td>
 <td>n % 10: <u><b>връща</b></u> последната цифра на числото n.<br>
@@ -244,7 +244,7 @@ n / 10: <u><b>изтрива</b></u>  последната цифра на n.</t
 </tr></table>
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#8
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#8
 
 ## Безкрайни цикли и операторът break
 
@@ -256,11 +256,11 @@ https://judge.softuni.bg/Contests/Practice/Index/156#8
 
 Ето как изглежда **безкраен `while`** цикъл:
 
-![image](assets/chapter-7-images/infinite-while-loop.png)
+![image](/assets/chapter-7-images/infinite-while-loop.png)
 
 А така изглежда **безкраен `for`** цикъл:
 
-![image](assets/chapter-7-images/infinite-for-loop.png)
+![image](/assets/chapter-7-images/infinite-for-loop.png)
 
 
 ### Оператор `break`
@@ -310,7 +310,7 @@ https://judge.softuni.bg/Contests/Practice/Index/156#8
 ![image](assets/chapter-7-images/task-checkIfPrime.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#9
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#9
 
 ### Задача: Оператор `break` в безкраен цикъл
 
@@ -334,29 +334,29 @@ https://judge.softuni.bg/Contests/Practice/Index/156#9
 // TODO: Проверка на задачата в judge?
 
 ## Вложени цикли и операторът `break`
-След като вече научихме какво са **вложените цикли** и как работи операторът **`break`**, е време да разберем как работят двете заедно. За по-добро разбиране, нека стъпка по стъпка да направим **програма**, която трябва да направи всички възможни комбинации от **двойка числа**. Първото число от комбинацията е нарастващо от 1 до 3, а второто е намаляващо от 3 до 1. Задачата трябва да продължи изпълнението си, докато i + j **не** е равно на 2 (т.е. i = 1 и j = 1).
+След като вече научихме какво са **вложените цикли** и как работи операторът **`break`**, е време да разберем как работят двете заедно. За по-добро разбиране, нека стъпка по стъпка да направим **програма**, която трябва да направи всички възможни комбинации от **двойка числа**. Първото число от комбинацията е нарастващо от 1 до 3, а второто е намаляващо от 3 до 1. Задачата трябва да продължи изпълнението си, докато `i + j` **не** е равно на 2 (т.е. `i = 1` и `j = 1`).
 
 Желаният резултат е:
 
-![image](assets/chapter-7-images/nestedAndBreak-desired-result.png)
+![image](/assets/chapter-7-images/nestedAndBreak-desired-result.png)
 
 **Грешно** решение:
 
-![image](assets/chapter-7-images/task-breakInNested-WrongSolution.png)
+![image](/assets/chapter-7-images/task-breakInNested-WrongSolution.png)
 
 Ако оставим програмата ни по този начин, резултатът ни ще е:
 
-![image](assets/chapter-7-images/nestedAndBreak-undesiredResult.png)
+![image](/assets/chapter-7-images/nestedAndBreak-undesiredResult.png)
 
-Защо се получава така? Както виждаме, в резултата **липсва “1 1”**. Когато програмата стига до там, че `i = 1` и `j = 1`, тя влиза в `if` проверката и изпълнява **`break`** операцията. По този начин се излиза от вътрешния цикъл, но след това продължава изпълнението на външния. **`i`** нараства, програмата влиза във вътрешния цикъл и принтира резултата.
+Защо се получава така? Както виждаме, в резултата **липсва “1 1”**. Когато програматът стига до там, че `i = 1` и `j = 1`, тя влиза в `if` проверката и изпълнява **`break`** операцията. По този начин се излиза от вътрешния цикъл, но след това продължава изпълнението на външния. **`i`** нараства, програмата влиза във вътрешния цикъл и принтира резултата.
 
-<table><tr><td><img src="assets/alert-icon.png" style="max-width:50px" /></td>
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Когато във <b>вложен цикъл</b> използваме оператора <b>break</b>, той прекъсва изпълнението <b>само</b> на вътрешния цикъл.</td>
 </tr></table>
 
 Какво е **правилното решение**? Един начин за решаването на този проблем е чрез деклариране на **`bool` променлива**, която следи за това, дали трябва да продължава въртенето на цикъла. Цялото решение на задачата:
 
-![image](assets/chapter-7-images/task-breakInNested-Solution.png)
+![image](/assets/chapter-7-images/task-breakInNested-Solution.png)
 
 По този начин, когато `i + j = 2`, програмата ще направи променливата **`hasToEnd = true`** и ще излезе от вътрешния цикъл. При следващото завъртане на външния цикъл, чрез `if` проверката, програмата няма да може да стигне до вътрешния цикъл и ще прекъсне изпълнението си.
 
@@ -392,7 +392,7 @@ https://judge.softuni.bg/Contests/Practice/Index/156#9
 ![image](assets/chapter-7-images/task-wrongNumbersTryCatch.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#10
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#10
 
 ## Задачи с цикли
 
@@ -404,7 +404,7 @@ https://judge.softuni.bg/Contests/Practice/Index/156#10
 
 **Формулата** за образуване на редицата е:
 
-```
+```csharp
 F0 = 1
 F1 = 1
 Fn = Fn-1 + Fn-2
@@ -431,10 +431,10 @@ Fn = Fn-1 + Fn-2
       1. На **`f1`** присвояваме стойността от временната променлива **`fNext`**
   1. Извън цикъла отпечатваме числото n-тото число на Фибоначи.
 
-![image](assets/chapter-7-images/task-Fibonacci.png)
+![image](/assets/chapter-7-images/task-Fibonacci.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#11
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#11
 
 ### Задача: Пирамида от числа
 
@@ -458,10 +458,10 @@ https://judge.softuni.bg/Contests/Practice/Index/156#11
   1. Отпечатваме **празен ред**, за да преминем на следващия.
   1. Отново проверяваме дали **`num > n`**. Ако е по-голямо, **прекъсваме** изпълнението на **програмата ни** чрез `break`. 
 
-![image](assets/chapter-7-images/task-Pyramid.png)
+![image](/assets/chapter-7-images/task-Pyramid.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#12
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#12
 
 ### Задача: Таблица с числа
 
@@ -485,16 +485,16 @@ https://judge.softuni.bg/Contests/Practice/Index/156#12
       1. Отпечатваме **празен ред**, за да преминем на следващия.
 
 //TODO: Fix image
-![image](assets/chapter-7-images/task-tableWithNumbers.png)
+![image](/assets/chapter-7-images/task-tableWithNumbers.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/156#13
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/156#13
 
 ## Какво научихме от тази глава?
 
 Можем да използваме **`for`** цикли със **стъпка**:
 
-```cs
+```csharp
 for (var i = 1; i <= n; i+=3)
 {
    Console.WriteLine(i);
@@ -503,7 +503,7 @@ for (var i = 1; i <= n; i+=3)
 
 Циклите **`while`** / **`do-while`** се повтарят докато е в сила дадено **условие**:
 
-```cs
+```csharp
 int num = 1;
 while (num <= n)
 {
@@ -513,7 +513,7 @@ while (num <= n)
 
 Ако се наложи да **прекъснем** изпълнението на цикъл, го правим с оператора **`break`**:
 
-```cs
+```csharp
 var n = 0;
 while (true)
 {
@@ -529,7 +529,7 @@ Console.WriteLine("Even number entered: {0}", n);
 
 Вече знаем как да следим за **грешки** по време на изпълнението на програмата ни:
 
-```cs
+```csharp
 try
 {
    Console.Write("Enter even number: ");
@@ -550,13 +550,13 @@ TODO: да се слеят задачите, които се повтарят с
 
 1. Създайте празно решение **(Blank Solution)** във Visual Studio за да организирате кода от задачите за упражнение. Целта на този **blank solution** e да съдържа **по един проект за всяка задача** от упражненията.
 
-  ![image](assets/chapter-7-images/empty-blank-solution.png)
+  ![image](/assets/chapter-7-images/empty-blank-solution.png)
 
 2.	Задайте **да се стартира по подразбиране текущия проект** (не първият в решението). Кликнете с десен бутон на мишката върху **Solution 'Complex-Loops' -> [Set StartUp Projects…] -> [Current selection]**.
 
- ![image](assets/chapter-7-images/set-current-selection.png)
+ ![image](/assets/chapter-7-images/set-current-selection.png)
 
-## Упражнения: уеб приложения с по-сложни цикли
+## Упражнения: Уеб приложения с по-сложни цикли
 
 ### Уеб игра „Обстреляй плодовете!“
 
@@ -565,17 +565,17 @@ TODO: да се слеят задачите, които се повтарят с
 
 Играта ни трябва да изглежда по този начин:
 
-![image](assets/chapter-7-images/fruits-game-show1.png) ![image](assets/chapter-7-images/fruits-game-show2.png)
+![image](/assets/chapter-7-images/fruits-game-show1.png) ![image](assets/chapter-7-images/fruits-game-show2.png)
 
 Ето какви са нужните **стъпки**, за да може нашата програма да се изпълни коректно:
 
 1. Във Visual Studio създайте ново ASP.NET MVC уеб приложение с език C#. Добавете нов проект от [Solution Explorer]  [Add]  [New Project…] . Дайте смислено име, например “Fruits-Web-Game”:
 
-![image](assets/chapter-7-images/create-MVC-example.png) 
+![image](/assets/chapter-7-images/create-MVC-example.png) 
 
 След това изберете тип на уеб приложението “MVC”:
 
-![image](assets/chapter-7-images/choose-project-type-example.png) 
+![image](/assets/chapter-7-images/choose-project-type-example.png) 
 
 2. Сега създавайте контролите за играта. Целта е да добавите **скролиращи ленти** (scroll bars), с които се играчът се прицелва, и бутон за старт на **нова игра**. Редактирайте файла **Views/Home/Index.cshtml**. Изтрийте всичко и въведете кода от картинката:
   
@@ -585,7 +585,7 @@ TODO: да се слеят задачите, които се повтарят с
 
 3. Сега трябва да подготвите плодовете за рисуване в изгледа. Добавете кода от картинката в контролера: **Controllers/HomeController.cs**:
 
-![image](assets/chapter-7-images/fruits-home-controller-edit.png) 
+![image](/assets/chapter-7-images/fruits-home-controller-edit.png) 
 
 Горният код дефинира полета за **брой редове, брой колони**, за **таблицата с плодовете** (игралното поле), за натрупаните от играча **точки** и информация дали играта е активна или е **свършила** (поле **gameOver**). Игралното поле е с размери 9 колони на 3 реда и съдържа за всяко поле текст какво има в него: **apple, banana, orange, kiwi, empty или dynamite**.
 Главното действие **Index()** подготвя игралното поле за чертане като записва във **ViewBag** структурата елементите на играта и извиква изгледа, който ги чертае в страницата на играта в уеб браузъра като HTML.
@@ -593,7 +593,7 @@ TODO: да се слеят задачите, които се повтарят с
 4. Генерирайте случайни плодове. За да направите това, трябва да напишете метод **GenerateRandomFruits()** с кода от картинката по-долу. Този код записва в таблицата (матрицата) **fruits** имена на различни картинки и така изгражда игралното поле. Във всяка клетка от таблицата се записва една от следните стойности: **apple, banana, orange, kiwi, empty или dynamite**. След това, за да се нарисува съответното изображение в изгледа, към текста от таблицата ще се долепи **“.png”** и така ще се получи името на файла с картинката, която да се вмъкне в HTML страницата като част от игралното поле. Попълването на игралното поле (9 колони с по 3 реда) става в изгледа Index.cshtml** с два вложени **for**-цикъла (за ред и за колона).
 За да се генерират случайни плодове за всяка клетка се генерира **случайно число** между 0 и 8 (вж. класа Random() в .NET). Ако числото e 0 или 1, се слага **аpple**, ако е между 2 и 3, се слага **banan**a и т.н. Ако числото е 8, се поставя **dynamite**. Така плодовете се появяват 2 пъти по-често отколкото динамита. Ето и кода:
 
-![image](assets/chapter-7-images/fruits-random.png) 
+![image](/assets/chapter-7-images/fruits-random.png) 
 
 5.	**Добавете картинките** за играта.
 
@@ -601,28 +601,28 @@ TODO: да се слеят задачите, които се повтарят с
  
 Сега добавете **картинките** за играта (те са част от файловете със заданието за домашно). Копирайте ги от Windows Explorer и ги поставете в папката **“images”** в **[Solution Explorer]** във Visual Studio с **copy / paste**.
 
-![image](assets/chapter-7-images/fruits-take-pictures.png) 
+![image](/assets/chapter-7-images/fruits-take-pictures.png) 
 
 6.	Чертане на плодовете в **Index.cshtml**
 За да **начертаете игралното поле** с подовете, трябва да завъртите **два вложени цикъла** (за редовете и за колоните). Всеки ред се състои от 9 на брой картинки, всяка от които съдържа **apple, banana** или друг плод или празно **(empty)** или динамит **(dynamite)**. Картинките се чертаят като се отпечата HTML таг за вмъкване на картинка от вида на **\<img src="/images/apple.png" />**. Девет картинки се подреждат една след друга на всеки от редовете, а след тях се преминава на нов ред с **`<br>`**. Това се повтаря три пъти за трите реда. Накрая се отпечатват точките на играча. Ето как изглежда **кодът** за чертане на игралното поле и точките:
 
-![image](assets/chapter-7-images/fruits-draw-field.png) 
+![image](/assets/chapter-7-images/fruits-draw-field.png) 
 
 Обърнете внимание на жълтите символи **@** – те служат за превключване между езика **C#** и езика **HTML** и идват от **Razor** синтаксиса за рисуване на динамични уеб страници.
 
 7.	Нагласете текстовете във файла **/Views/Shared/_Layout.cshtml**. Заменете **“My ASP.NET Application”** с по-подходящи текстове, например **“Fruits”**:
 
-![image](assets/chapter-7-images/fruits-change-texts.png) 
+![image](/assets/chapter-7-images/fruits-change-texts.png) 
 
 8.	Стартирайте проекта с **[Ctrl+F5]** и му се порадвайте. Очаква се да бъде генерирано случайно игрово поле с плодове с размери 9 на 3 и да се визуализира в уеб страницата чрез поредица картинки:
 
-![image](assets/chapter-7-images/fruits-first-start.png) 
+![image](/assets/chapter-7-images/fruits-first-start.png) 
 
 Сега играта е донякъде направена: игралното поле се генерира случайни и се визуализира успешно (ако не сте допуснали грешка някъде). Остава да се реализира същината на играта: **стрелянето по плодовете**.
 
 9.	Добавете действията **[New Game]** и **[Fire Top]** / **[Fire Top]** в контролера **“HomeController.cs”**:
 
-![image](assets/chapter-7-images/fruits-add-actions.png) 
+![image](/assets/chapter-7-images/fruits-add-actions.png) 
 
 Горният код дефинира три действия:
 *	**Reset()** – стартира нова игра, като генерира новo случайно игрално поле с плодове и експлозиви, нулира точките на играча и прави играта валидна **(gameOver = false)**. Това действие е доста просто и може да се тества веднага с [Ctrl+F5], преди да се напишат другите.
@@ -631,7 +631,7 @@ TODO: да се слеят задачите, които се повтарят с
 
 10.	Имплементирайте "стрелянето" – метода **Fire(position, startRow, step)**:
 
-![image](assets/chapter-7-images/fruits-implement-fire.png)
+![image](/assets/chapter-7-images/fruits-implement-fire.png)
 
 Стрелянето работи по следния начин: първо се изчислява номера на колоната **col**, към която играчът се е прицелил. Входното число от скролера (между 0 и 100) се намалява до число между 0 и 8 (за всяка от 9-те колони). Номерът на реда **row** е или 0 (ако изстрелът е отгоре) или броят редове минус едно (ако изстрелът е отдолу). Съответно посоката на стрелба (стъпката) е **1** (надолу) или **-1** (нагоре).
 
@@ -639,23 +639,23 @@ TODO: да се слеят задачите, които се повтарят с
 
 Оставаме на по-запалените да имплементират по-сложно поведение, например да се дават различни точки при уцелване на различен плод, да се реализира анимация с експлозия (това не е твърде лесно), да се взимат точки при излишно стреляне в празна колона и подобни.
 
-11.	**Тествайте** какво работи до момента като стартирате с [Ctrl+F5]:
+11.	**Тествайте** какво работи до момента като стартирате с [**Ctrl+F5**]:
   *	**Нова игра** -> бутонът за нова игра трябва да генерира ново игрално поле със случайно разположени плодове и експлозиви и да нулира точките на играча.
   *	**Стреляне отгоре** -> стрелянето отгоре трябва да премахва най-горният плод в уцелената колона или да предизвиква край на играта при динамит. Всъщност при край на играта все още нищо няма да се случва, защото в изгледа този случай още не се разглежда.
   * **Стреляне отдолу** -> стрелянето отдолу трябва да премахва най-долния плод в уцелената колона или да прекратява играта при уцелване на динамит.
 
-![image](assets/chapter-7-images/fruits-test-game.png)
+![image](/assets/chapter-7-images/fruits-test-game.png)
  
 12.	Имплементирайте **"Край на играта"**. За момента при край на играта нищо не се случа. Ако играчът уцели динамит, в контролера се отбелязва, че играта е свършила **(gameOver = true)**, но този факт не се визуализира по никакъв начин. За да заработи свършването на играта, е необходимо да добавим няколко проверки в изгледа:
 
-![image](assets/chapter-7-images/fruits-implement-end1.png)
+![image](/assets/chapter-7-images/fruits-implement-end1.png)
 
-![image](assets/chapter-7-images/fruits-implement-end2.png)
+![image](/assets/chapter-7-images/fruits-implement-end2.png)
 
 Кодът по-горе проверява дали е свършила играта и показва съответно контролите за стреляне и игралното поле (при активна игра) или картинка с експлодирали плодове при край на играта.
 
 13.	След промяната в кода на изгледа стартирайте с [Ctrl+F5] и **тествайте** играта отново:
 
-![image](assets/chapter-7-images/fruits-final-test.png)
+![image](/assets/chapter-7-images/fruits-final-test.png)
 
 Този път при уцелване на динамит, трябва да се появи дясната картинка и да се позволява единствено действието “нова игра” (бутонът **[New Game]**).
