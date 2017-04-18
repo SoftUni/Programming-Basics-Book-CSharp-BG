@@ -1,6 +1,6 @@
 # Глава 6. Чертане на фигурки с цикли - изпитни задачи
 
-## Чертане на крепост
+### Задача: Чертане на крепост
 
 Да се напише програма, която прочита от конзолата **цяло число n** и чертае **крепост** с ширина **2 * n колони** и височина **n реда** като в примерите по-долу. Лявата и дясната колона във вътрешността си са широки **n / 2**.
 
@@ -118,10 +118,10 @@
 ![code](/assets/chapter-6-2-images/01.Draw-fort-07.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/513#0
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/513#0
 
 
-## Пеперуда
+### Задача: Пеперуда
 
 Да се напише програма, която прочита от конзолата **цяло число n** и чертае **пеперуда** с ширина **2 * n - 1 колони** и височина **2 * (n - 2) + 1** реда като в примерите по-долу.  **Лявата и дясната** ѝ **част** са **широки n - 1**.
 
@@ -213,9 +213,9 @@ https://judge.softuni.bg/Contests/Practice/Index/513#0
 ![code](/assets/chapter-6-2-images/02.Butterfly-06.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/513#1
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/513#1
 
-## Знак "Стоп"
+### Задача: Знак "Стоп"
 
 Да се напише програма, която прочита от конзолата **цяло число n** и чертае **предупредителен знак STOP** с размери като в примерите по-долу.
 
@@ -336,9 +336,9 @@ https://judge.softuni.bg/Contests/Practice/Index/513#1
 ![code](/assets/chapter-6-2-images/03.Stop-09.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/513#2
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/513#2
 
-## Стрелка
+### Задача: Стрелка
 Да се напише програма, която прочита от конзолата **цяло нечетно число n** и чертае **вертикална стрелка** с размери като в примерите по-долу.
 
 ### Входни данни
@@ -450,9 +450,9 @@ https://judge.softuni.bg/Contests/Practice/Index/513#2
 ![code](/assets/chapter-6-2-images/04.Arrow-09.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/513#3
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/513#3
 
-## Брадва
+### Задача: Брадва
 
 Да се напише програма, която прочита **цяло число n** и чертае брадва с размери, показани по-долу.
 Ширината на брадвата е `5 * N`  колони.
@@ -553,4 +553,4 @@ https://judge.softuni.bg/Contests/Practice/Index/513#3
 ![code](/assets/chapter-6-2-images/05.Axe-06.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/513#4
+Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/513#4
