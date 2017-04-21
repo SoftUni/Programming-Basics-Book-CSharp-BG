@@ -86,7 +86,7 @@
 
 ![code](/assets/chapter-4-images/00.Logical-and-01.png)
 
-|a|b|a & b|
+|a|b|a && b|
 |:-----:|:-----:|:-----:|
 |True<br>True<br>False<br>False|True<br>False<br>True<br>False|True<br>False<br>False<br>False|
 
@@ -127,7 +127,7 @@
 
 "В училище учителят казва: 'Иван или Петър да измият дъската'. За да бъде изпълнено това, което казва учителя, е възможно само Иван да измие дъската, само Петър или и двамата да го направят."
 
-|a|b|a || b|
+|a|b|a &#124;&#124; b|
 |:-----:|:-----:|:-----:|
 |True<br>True<br>False<br>False|True<br>False<br>True<br>False|True<br>True<br>True<br>False|
 
