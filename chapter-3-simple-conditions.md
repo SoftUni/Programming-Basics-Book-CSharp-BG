@@ -152,7 +152,7 @@ https://judge.softuni.bg/Contests/Practice/Index/506#3
 
 ### Пример: От 1 до 9 на английски
 
-Да се изпише с английски текст числата от 1 до 9.
+Да се изпишат с английски текст числата от 1 до 9.
 
 ![code](assets/chapter-3-images/05.Number-to-text-01.png)
 
