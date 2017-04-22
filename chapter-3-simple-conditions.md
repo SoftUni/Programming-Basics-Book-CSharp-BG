@@ -619,7 +619,7 @@ https://judge.softuni.bg/Contests/Practice/Index/506#15
   - Събитието `Load` на формата `FormConverter`.
   - Събитието `SelectedIndexChanged` на падащия списък за избор на валута `comboBoxCurrency`.
   
-5.	Напишете следния **C# код** за обработка на събитията:
+5. Напишете следния **C# код** за обработка на събитията:
 
 ```cs
 private void FormConverter_Load(object sender, EventArgs e)
@@ -640,7 +640,7 @@ private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)
 
 Задачата на горния код е, да избере при стартиране на програмата валута “**EUR**” и при промяна на стойностите в полето за сума или при смяна на валутата, да изчисли резултата, извиквайки `ConvertCurrency()`.
 
-6.Следва да се напише действието `ConvertCurrency()` за конвертиране на въведената сума от лева в избраната валута:
+6. Следва да се напише действието `ConvertCurrency()` за конвертиране на въведената сума от лева в избраната валута:
  
 ```cs
 private void ConvertCurrency()
