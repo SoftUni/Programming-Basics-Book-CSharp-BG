@@ -797,26 +797,18 @@ N = 9
 
 Готови сме с горната част.
 
-//TODO: 
+Долната част е доста подобна на горната. Единствената промяна е че в началото на цикъла ще увеличаваме ``leftRight`` с 1.
 
-```cs
-var leftRight = (n - 1) / 2;
-for (int i = 1; i <= (n-1) / 2; i++)
-{
-  // Draw the top part
-  Console.Write(new string('-', leftRight));
-  Console.Write("*");
-  var mid = n - 2 * leftRight - 2;
-  if (mid >= 0)
-  {
-    Console.Write(new string('-', mid));
-    Console.Write("*");
-  }
-  Console.WriteLine(new string('-', leftRight));
-  leftRight--;
-}
-// TODO: Draw the bottom part
-```
+![](assets/chapter-6-images/diamond/lower-part-drawing.png)
+
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>Повторението на код се смята за лоша практика, защото става доста труден за поддръжка. Представете си ако имахме парче код, примерно логиката за чертането на ред от диаманта, на още няколко пъти и се бяхме решили да направим промяна. Щеше да е необходимо да минем през всичките места и да направим промените. Представете си ако трябваше да използвате код не 1, 2, 3 пъти, а десетки пъти. <p>
+Начин за справяне с този проблем е като се използват [методи](https://bg.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%D1%80%D0%B0%D0%BD%D0%B5)) </td>
+</tr></table>
+
+Ако всичко сме написали както трябва, задачата ни е решена.
+
+![](assets/chapter-6-images/diamond/final-output.png)
 
 ### Тестване в Judge системата
 
