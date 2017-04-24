@@ -274,7 +274,6 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 
 <img alt="rectangleArea" src="/assets/chapter-2-images/rectangleArea.png" width="250" height="200" />
 
-
 ```csharp
 double x1 = double.Parse(Console.ReadLine());
 double y1 = double.Parse(Console.ReadLine());
