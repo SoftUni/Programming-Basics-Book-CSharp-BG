@@ -363,160 +363,141 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 ### Задача:	От инчове към сантиметри
 
 Да се напише програма, която **чете от конзолата число** (не непременно цяло) и преобразува числото от **инчове в сантиметри.** За целта **умножава инчовете по 2.54** (защото 1 инч = 2.54 сантиметра).
-1.	Първо създайте **нов C# конзолен проект** в решението “Simple-Calculations”. Кликнете с мишката върху решението в Solution Explorer и изберете [Add] -> [New Project…]:
 
-<p align="center">
-<img alt="newProject" src="/assets/chapter-2-images/problems/03inchesToCm/01newProject.png" />
-</p>
+Първо създаваме **нов C# конзолен проект** в решението “Simple-Calculations”. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-Изберете [Visual C#] -> [Windows] -> [Console Application] и задайте име **``“Inches-to-Centimeters”``**:
+![](/assets/chapter-2-images/problems/03inchesToCm/01newProject.png)
 
-<p align="center">
-<img alt="nameTheProject" src="/assets/chapter-2-images/problems/03inchesToCm/02nameTheProject.png" />
-</p>
+Избираме [**Visual C#**] -> [**Windows**] -> [**Console Application**] и задайте име “Inches-to-Centimeters”:
 
-2.	**Напишете кода** на програмата. Може да си помогнете с примерния код от картинката:
+![](/assets/chapter-2-images/problems/03inchesToCm/02nameTheProject.png)
 
-<p align="center">
-<img alt="code" src="/assets/chapter-2-images/problems/03inchesToCm/03code.png" />
-</p>
+Следва да напишем **кода на програмата**:
 
-3.	**Стартирайте програмата,** както обикновено с [Ctrl+F5]:
+![](/assets/chapter-2-images/problems/03inchesToCm/03code.png)
 
-<p align="center">
-<img alt="surpriseResult" src="/assets/chapter-2-images/problems/03inchesToCm/04result.png" />
-</p>
+**Стартираме програмата,** както обикновено с [**Ctrl+F5**]:
+
+![](/assets/chapter-2-images/problems/03inchesToCm/04result.png)
 
 Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
 Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
 
-<p align="center">
-<img alt="currentProject" src="/assets/chapter-2-images/problems/03inchesToCm/05surprise.png" />
-</p>
+![](/assets/chapter-2-images/problems/03inchesToCm/05surprise.png)
 
-4.	За да включите режим на **автоматично преминаване към текущия проект**, кликнете върху главния solution с десния бутон на мишката и изберете **[Set StartUp Projects…]**:
-<p align="center">
-<img alt="setStartupProject" src="/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_1.png" />
-</p>
+За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
-Ще се появи диалогов прозорец, от който трябва да се избере **[Startup Project] -> [Current selection]**:
-<p align="center">
-<img alt="setStartupProject2" src="/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_2.png" />
-</p>
+![](/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_1.png)
 
-5.	Сега отново **стартирайте програмата**, както обикновено с [Ctrl+F5]. Този път ще се стартира текущата отворена програма, която преобразува инчове в сантиметри. Изглежда работи коректно:
-<p align="center">
-<img alt="resultCorrect" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect.png" />
-</p>
+Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current Selection**]:
 
-6.	Сега **превключете към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Program.cs``** от предходния проект **“Square-Area”** в панела [Solution Explorer] на Visual Studio:
-<p align="center">
-<img alt="switchProjects" src="/assets/chapter-2-images/problems/03inchesToCm/08switchProjects.png" />
-</p>
+![](/assets/chapter-2-images/problems/03inchesToCm/06startupPorject_2.png)
 
-7.	Натиснете пак **[Ctrl+F5]**. Този път трябва да се стартира другият проект:
-<p align="center">
-<img alt="resultOtherProject" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_4.png" />
-</p>
+Сега отново **стартираме програмата**, както обикновено с [**Ctrl+F5**]. Този път ще се стартира **текущата отворена програма**, която преобразува инчове в сантиметри. Изглежда работи коректно:
 
-8.	Превключете обратно към проекта **“Inches-to-Centimeters”** и го стартирайте с **[Ctrl+F5]**:
-<p align="center">
-<img alt="resultOtherProject" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_2.png" />
-</p>
+![](/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect.png)
+
+Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Program.cs``** от предходния проект **“Square-Area”** в панела [**Solution Explorer**] на Visual Studio:
+
+![](/assets/chapter-2-images/problems/03inchesToCm/08switchProjects.png)
+
+Натискаме пак [**Ctrl+F5**]. Този път трябва да се стартира другият проект:
+
+![](/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_4.png)
+
+Превключваме обратно към проекта **“Inches-to-Centimeters”** и го стартираме с [**Ctrl+F5**]:
+
+![](/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_2.png)
 
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
-9.	Тествайте с дробни числа, например с **2.5**:
-<p align="center">
-<img alt="testWithFloat" src="/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_3.png" />
-</p>
+Да тестваме с дробни числа, например с **2.5**:
 
-**Внимание**: в зависимост от регионалните настройки на операционната система, е възможно вместо **десетична точка** (US настройки) да се използва **десетична запетая** (BG настройки). Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или на обратно (бъде въведена десетична точка когато се очаква десетична запетая), ще се получи следната грешка:
+![](/assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_3.png)
 
-<p align="center">
-<img alt="exceptionFloatingPoint" src="/assets/chapter-2-images/problems/03inchesToCm/09result_exception.png" />
-</p>
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<td>В зависимост от регионалните настройки на операционната система, е възможно вместо <strong>десетична точка</strong> (US настройки) да се използва <strong>десетична запетая</strong> (BG настройки).</td>
+</tr></table>
 
-Препоръчително е **да промените настройките на компютъра си**, така че да се използва **десетична точка**:
+Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или на обратно (бъде въведена десетична точка, когато се очаква десетична запетая), ще се получи следната грешка:
 
-<p align="center">
-<img alt="changeWinSettings1" src="/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_1.png" />
-</p>
+![](/assets/chapter-2-images/problems/03inchesToCm/09result_exception.png)
 
-<p align="center">
-<img alt="changeWinSettings2" src="/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png" />
-</p>
+Препоръчително е **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
-10.	Вече е време за **тестване в judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#1. Решението би трябвало да бъде прието като напълно коректно:
-<p align="center">
-<img alt="judgeResult" src ="/assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png" />
-</p>
+![](/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_1.png)
 
-### 4.	Поздрав по име
-Да се напише програма, която **чете от конзолата име на човек** и отпечатва **``“Hello, <name>!”``**, където **``<name>``** е въведеното преди това име.
+![](/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png)
 
-1.	Първо създайте **нов C# конзолен проект** с име **``“Greeting”``** в решението **``“Simple-Calculations”``**:
+#### Тестване в Judge системата
 
-<p align="center">
-<img alt="newProject" src ="/assets/chapter-2-images/problems/04greetingByName/01newProject.png" />
-</p>
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#1](https://judge.softuni.bg/Contests/Practice/Index/504#1).
 
-2.	**Напишете кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
+Решението би трябвало да бъде прието като напълно коректно:
 
-<p align="center">
-<img alt="04code" src ="/assets/chapter-2-images/problems/04greetingByName/02code.png" />
-</p>
+![](/assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png)
 
-3.	**Стартирайте** програмата с **[Ctrl+F5]** и я тествайте:
+### Задача: Поздрав по име
 
-<p align="center">
-<img alt="04result" src ="/assets/chapter-2-images/problems/04greetingByName/03result.png" />
-</p>
+Да се напише програма, която **чете от конзолата име на човек** и отпечатва **`Hello, <name>!`**, където **`<name>`** е въведеното преди това име.
 
-4.	Тествайте **в judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#2. Преди да пратите решението сложете коментар на първия ред, който печата “Enter your name”.
+Първо създаваме **нов C# конзолен проект** с име “Greeting” в решението **“Simple-Calculations”**:
 
-### 5.	Съединяване на текст и числа
-Напишете C# програма, която прочита от конзолата име, фамилия, възраст и град и печата съобщение от следния вид: **``“You are <firstName> <lastName>, a <age>-years old person from <town>”``**.
-1.	Добавете към текущото Visual Studio решение още един конзолен C# проект с име **“Concatenate-Data”**.
-2.	**Напишете кода**, който чете входните данни от конзолата:
+![](/assets/chapter-2-images/problems/04greetingByName/01newProject.png)
 
-<p align="center">
-<img alt="05code" src ="/assets/chapter-2-images/problems/05concatenateData/01code.png" />
-</p>
+**Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-3.	**Допишете код**, който отпечатва описаното в условието на задачата съобщение.
+![](/assets/chapter-2-images/problems/04greetingByName/02code.png)
 
-<p align="center">
-<img alt="05code_2" src ="/assets/chapter-2-images/problems/05concatenateData/01code_2.png" />
-</p>
+**Стартираме** програмата с [**Ctrl+F5**] и я тестваме дали работи:
+
+![](/assets/chapter-2-images/problems/04greetingByName/03result.png)
+
+#### Тестване в Judge системата
+
+Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2)
+
+### Задача:	Съединяване на текст и числа
+
+Напишете C# програма, която прочита от конзолата име, фамилия, възраст и град и печата съобщение от следния вид: **`You are <firstName> <lastName>, a <age>-years old person from <town>`**.
+
+Добавяме към текущото Visual Studio решение още един конзолен C# проект с име “Concatenate-Data”.	**Пишем кода**, който чете входните данни от конзолата:
+
+![](/assets/chapter-2-images/problems/05concatenateData/01code.png)
+
+**Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
+
+![](/assets/chapter-2-images/problems/05concatenateData/01code_2.png)
 
 На горната картинка кодът е нарочно даден размазан, за да помислите как да си го напишете сами.
 
-4.	Тествайте решението локално с [Ctrl+F5] и въвеждане на примерни данни.
-5.	Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#3.
+Следва да се тества решението локално с [**Ctrl+F5**] и въвеждане на примерни входни данни.
 
+#### Тестване в Judge системата
 
-### 6.	Лице на трапец
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3)
+
+### Задача:	Лице на трапец
+
 Напишете програма, която чете от конзолата три числа **b1, b2 и h и пресмята лицето на трапец** с основи **b1 и b2 и височина h. Формулата за лице на трапец е (b1 + b2) * h / 2**.
 
-На фигурата по-долу е показан трапец със страни 8 и 13 и височина 7. Той има лице (8 + 13) * 7 / 2 = 73.5.
+На фигурата по-долу е показан трапец със страни 8 и 13 и височина 7. Той има лице **(8 + 13) * 7 / 2 = 73.5**.
 
-<p align="center">
-<img alt="trapezoidMockUp" src ="/assets/chapter-2-images/problems/06trapezoidArea/mockUp.png" />
-</p>
+![](/assets/chapter-2-images/problems/06trapezoidArea/mockUp.png)
 
-1.	Добавете към текущото Visual Studio решение още един **конзолен C# проект** с име **""Trapezoid-Area"**.
-2.	**Напишете кода**, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва:
+Отново трябва да добавим към текущото Visual Studio решение още един **конзолен C# проект** с име ""Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-<p align="center">
-<img alt="trapezoidAreaCode" src ="/assets/chapter-2-images/problems/06trapezoidArea/code.png" />
-</p>
+![](/assets/chapter-2-images/problems/06trapezoidArea/code.png)
 
 Кодът на картинката е нарочно размазан, за да си го доизмислите и допишете сами.
 
-3.	**Тествайте** решението локално с [Ctrl+F5] и въвеждане на примерни данни.
-4.	Тествайте решението си в **judge системата**: https://judge.softuni.bg/Contests/Practice/Index/504#4.
+**Тествайте** решението локално с [**Ctrl+F5**] и въвеждане на примерни данни.
 
+#### Тестване в Judge системата
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4)
+
+//TODO:
 ### 7.	Периметър и лице на кръг
 
 Напишете програма, която чете от конзолата **число r** и пресмята и отпечатва **лицето и периметъра на кръг** / окръжност с радиус r.
