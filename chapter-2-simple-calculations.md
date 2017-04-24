@@ -24,7 +24,7 @@
 var num = int.Parse(Console.ReadLine());
 ```
 
-### Пример: Пресмятане на лице на квадрат със страна а
+### Пример: Пресмятане на лице на квадрат със страна **а**
 
 ```csharp
 Console.Write("a = ");              
@@ -97,7 +97,7 @@ var str = Console.ReadLine();
 
 Обърнете внимание, че при четене на текст не се декларира по никакъв начин тип "стринг"(текст). Това е така, защото по подразбиране методът ```Console.ReadLine()``` връща като резултат текст. Допълнително, вие можете да зададете текстът да бъде прехвърлен в цяло число чрез ```int.Parse()``` или дробно число чрез ```double.Parse()```. Ако това не се направи, за програмата **всяко едно число** ще бъде просто **текст**, с който **не биха могли да се извършват** аритметични операции.
 
-### Пример: Поздрав по име:
+### Пример: Поздрав по име
 
 ```csharp           
 var name = Console.ReadLine();
@@ -105,6 +105,7 @@ Console.WriteLine("Hello, {0}!", name);
 ```
 
 В случая, изразът **`{0}`** се замества с първия подаден аргумент -  в примера - променливата **`name`**:
+
 ![greetingByName](/assets/chapter-2-images/greetingByName.jpg)
 
 #### Тестване в Judge системата
@@ -275,7 +276,7 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 
 
 ```csharp
- double x1 = double.Parse(Console.ReadLine());
+double x1 = double.Parse(Console.ReadLine());
 double y1 = double.Parse(Console.ReadLine());
 double x2 = double.Parse(Console.ReadLine());
 double y2 = double.Parse(Console.ReadLine());
