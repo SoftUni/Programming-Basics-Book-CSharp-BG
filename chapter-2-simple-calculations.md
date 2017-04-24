@@ -323,9 +323,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Изберете от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и дайте подходящо име на проекта, например “Simple-Calculations”:
 
-<p align="center">
-<img alt="namingTheSolution" src="/assets/chapter-2-images/problems/02namingTheSolution.png" />
-</p>
+![](/assets/chapter-2-images/problems/02namingTheSolution.png)
 
 Сега имате създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
