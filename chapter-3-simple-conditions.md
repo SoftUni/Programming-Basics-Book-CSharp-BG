@@ -72,7 +72,8 @@
 ![code](assets/chapter-3-images/01.Еxcellent-result-01.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#0
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0)
 
 ## Проверки с if-else конструкция
 Конструкцията `if` може да съдържа и `else` клауза с която да окажем конкретно действие в случай, че булевият израз, който е зададен в началото `if(булев израз)` върне отрицателен (`false`) резултат. Така построена **условната конструкция** наричаме `if-else` и поведението й е следното: ако резултатът от условието е **позитивен** - извършваме едни действия, a когато е **негативен** - други. Форматът на конструкцията е:
@@ -87,7 +88,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#0
 ![code](assets/chapter-3-images/02.Excellent-or-not-01.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#1
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1)
 
 ## За къдравите скоби { } след if / else
 
@@ -122,7 +124,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#1
 ![code](assets/chapter-3-images/03.Even-or-odd-02.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#2
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2)
 
 ### Пример: По-голямото число
 
@@ -133,7 +136,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#2
 ![code](assets/chapter-3-images/04.Greater-number-02.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#3
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3)
 
 ## Живот на променлива
 
@@ -158,7 +162,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#3
 Програмната логика от примера **последователно сравнява** входното число от конзолата с цифрите от 1 до 9, като **всяко следващо сравнение се извършва, само в случай че предходното сравнение не е било истина**. В крайна сметка, ако никое от `if` условията не е изпълнено, се изпълнява последната `else` клауза.
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#4
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4)
 
 ## Примерни задачи: Прости проверки
 
@@ -196,7 +201,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#4
 - Допълнителните бонус точки можете да изчислите с `if-else-if` конструкция (имате още 2 случая).
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#5
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#5](https://judge.softuni.bg/Contests/Practice/Index/506#5)
 
 ### 2. Сумиране на секунди
 
@@ -224,7 +230,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#5
 - Ако секундите са по-малко от 10, изведете водеща нула преди тях.
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#6
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#6](https://judge.softuni.bg/Contests/Practice/Index/506#6)
 
 ### 3. Конвертор за мерни единици
 
@@ -259,7 +266,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#6
 ![code](assets/chapter-3-images/08.Metric-converter-01.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#7
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#7](https://judge.softuni.bg/Contests/Practice/Index/506#7)
 
 ## Дебъгване - прости операции с дебъгер
 
@@ -330,7 +338,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#7
  ![code](assets/chapter-3-images/09.Excellent-result-05.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#0
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0)
 
  ![code](assets/chapter-3-images/09.Excellent-result-06.png) 
 
@@ -371,7 +380,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#0
  ![code](assets/chapter-3-images/02.Excellent-or-not-05.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#1
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1)
 
  ![code](assets/chapter-3-images/02.Excellent-or-not-06.png)
 
@@ -395,7 +405,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#1
  ![code](assets/chapter-3-images/03.Even-or-odd-01.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#2
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2)
 
 ### 4. Намиране на по-голямото число
 
@@ -417,7 +428,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#2
  ![code](assets/chapter-3-images/04.Greater-number-01.png)
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#3
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3)
 
 **Подсказка**: може да си помогнете частично с кода от картинката, който е умишлено замъглен, за да помислите как да го напишете сами:  
 ![code](assets/chapter-3-images/04.Greater-number-02.png)
@@ -434,7 +446,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#3
 | 10 | number too big |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#4
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4)
 
 **Подсказка**: можете да напишете поредица `if-else-if-else…else`, с която да разгледате възможните **11 случая**.
 
@@ -449,7 +462,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#4
 | s3cr3t!p@ss | Wrong password! |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#8
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#8](https://judge.softuni.bg/Contests/Practice/Index/506#8)
 
 **Подсказка**: използвайте `if-else` конструкцията.
 
@@ -464,7 +478,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#8
 | 210 | Greater than 200 |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#9
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#9](https://judge.softuni.bg/Contests/Practice/Index/506#9)
 
 **Подсказка**: използвайте `if-else-if-else` конструкция, за да проверите всеки от трите случая.
 
@@ -481,7 +496,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#9
 | HeLlO <br/> hELLo | yes |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#10
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#10](https://judge.softuni.bg/Contests/Practice/Index/506#10)
 
 **Подсказка**: използвайте `if-else` конструкция. Преди сравняване на думите, ги обърнете в долен регистър: `word = word.ToLower()`.
 
@@ -498,7 +514,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#10
 | 3500 | extremely fast |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#11
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#11](https://judge.softuni.bg/Contests/Practice/Index/506#11)
 
 **Подсказка**: използвайте серия от `if-else-if-else-…` конструкции, за да хванете всичките 5 случая.
 
@@ -514,7 +531,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#11
 | triangle <br/> 4.5 <br/> 20 | 45 |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#12
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#12](https://judge.softuni.bg/Contests/Practice/Index/506#12)
 
 **Подсказка**: използвайте серия от `if-else-if-else-…` конструкции, за да обработите 4-те вида фигури.
 
@@ -531,7 +549,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#12
 | 12 <br/> 49 | 13:04 |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#13
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#13](https://judge.softuni.bg/Contests/Practice/Index/506#13)
 
 **Подсказка**: добавете 15 минути и направете няколко проверки. Ако минутите надвишат 59, увеличете часовете с 1 и намалете минутите с 60. По аналогичен начин разгледайте случая, когато часовете надвишат 23. При печатането на минутите, проверете за водеща нула.
 
@@ -546,7 +565,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#13
 | 1 <br/> 2 <br/> 3 | no |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#14
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#14](https://judge.softuni.bg/Contests/Practice/Index/506#14)
 
 ### 13. * Изписване на число от 0 до 100 с думи
 
@@ -559,7 +579,8 @@ https://judge.softuni.bg/Contests/Practice/Index/506#14
 | 6  | six |
 
 ### Тестване в Judge системата
-https://judge.softuni.bg/Contests/Practice/Index/506#15
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#15](https://judge.softuni.bg/Contests/Practice/Index/506#15)
 
 ## Графични и Web приложения: Конвертор за валути
 
