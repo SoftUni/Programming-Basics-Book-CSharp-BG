@@ -250,14 +250,15 @@ Console.WriteLine("Trapezoid area = " + area);
 Нека напишем една програма, която при въвеждане **радиуса r** на кръг, **изчислява лицето и периметъра** на кръга / окръжността.
 
 Формули:
-- Лице = π * r * r
-- Периметър = 2 * π * r
+- Лице = π \* r \* r
+- Периметър = 2 \* π \* r
 - π ≈ 3.14159265358979323846…
 
 ```csharp
 Console.Write("Enter circle radius. r = ");
 var r = double.Parse(Console.ReadLine());
-Console.WriteLine("Area = " + Math.PI * r * r); // Math.PI - вградена в C# константа за π
+Console.WriteLine("Area = " + Math.PI * r * r); 
+  // Math.PI - вградена в C# константа за π
 Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 ```
 Нека изпробваме програмата с **радиус `r = 10`**:
@@ -495,10 +496,9 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4)
 
-//TODO:
 ### Задача:	Периметър и лице на кръг
 
-Напишете програма, която чете от конзолата **число r** и пресмята и отпечатва **лицето и периметъра на кръг** / окръжност с радиус r.
+Напишете програма, която чете от конзолата **число r** и пресмята и отпечатва **лицето и периметъра на кръг** / окръжност с **радиус r**.
 
 #### Пример
 
@@ -525,9 +525,9 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 |               Вход                        |       Изход         |
 |:-----------------------------------------:|:-------------------:|
-|60 <br> 20 <br> 10 <br> 50                 |1500 <br> 160        |
-|30 <br> 40 <br> 70 <br> -10                |2000 <br> 180        |
-|600.25 <br> 500.75 <br> 100.50 <br> -200.5 |350449.6875 <br> 2402|
+|60 <br>20<br>10 <br>50                     |1500 <br>160         |
+|30 <br>40 <br>70 <br>-10                   |2000 <br>180         |
+|600.25 <br>500.75 <br>100.50 <br>-200.5    |350449.6875 <br>2402 |
 
 #### Тестване в Judge системата
 
@@ -542,10 +542,10 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 |       Вход           |         Изход         |
 |:--------------------:|:---------------------:|
-| 20 <br> 30           | Triangle area = 300   |
-| 15 <br> 35           | Triangle area = 262.5 |
-| 7.75 <br> 8.45       | Triangle area = 32.74 |
-| 1.23456 <br> 4.56789 | Triangle area = 2.82  |
+| 20 <br>30            | Triangle area = 300   |
+| 15 <br>35            | Triangle area = 262.5 |
+| 7.75 <br>8.45        | Triangle area = 32.74 |
+| 1.23456 <br>4.56789  | Triangle area = 2.82  |
 
 #### Тестване в Judge системата
 
