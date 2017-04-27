@@ -310,23 +310,23 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 ### Празно Visual Studio решение (Blank Solution)
 
-Създайте празно решение **(Blank Solution)** във Visual Studio. Решенията (solutions) във Visual Studio обединяват **група проекти**. Тази възможност е **изключително удобна**, когато искаме да **работим по няколко проекта** и бързо да превключваме между тях или искаме да **обединим логически няколко взаимносвързани проекта**.
+Започваме, като създадем празно решение **(Blank Solution)** във Visual Studio. Решенията (solutions) във Visual Studio обединяват **група проекти**. Тази възможност е **изключително удобна**, когато искаме да **работим по няколко проекта** и бързо да превключваме между тях или искаме да **обединим логически няколко взаимносвързани проекта**.
 В настоящото практическо занимание ще използваме **Blank Solution с няколко проекта**, за да организираме решенията на задачите от упражненията – всяка задача в отделен проект и всички проекти в общ solution.
 
-*	Стартирайте Visual Studio.
-* Създайте нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
+*	Стартираме Visual Studio.
+* Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
 
 ![](/assets/chapter-2-images/problems/01newBlankSolution.png)
 
-Изберете от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и дайте подходящо име на проекта, например “Simple-Calculations”:
+Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
 ![](/assets/chapter-2-images/problems/02namingTheSolution.png)
 
-Сега имате създаден **празен Visual Studio Solution** (с 0 проекта в него):
+Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
 ![](/assets/chapter-2-images/problems/03blankSolution.png)
 
-Целта на този blank solution e да добавяте в него **по един проект за всяка задача** от упражненията.
+Целта на този blank solution e да добавяме в него **по един проект за всяка задача** от упражненията.
 
 ### Задача:	Пресмятане на лице на квадрат
 
