@@ -336,7 +336,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 ![](/assets/chapter-2-images/problems/02SquareArea/01newProject.png)
 
-Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Изберете **C# конзолно приложение** с име “Square-Area”:
+Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избераме **C# конзолно приложение** с име “Square-Area”:
 
 ![](/assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png)
 
