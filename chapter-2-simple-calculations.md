@@ -514,6 +514,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 | 3     | Area = 28.2743338823081 <br> Perimeter = 18.8495559215388|
 | 4.5   | Area = 63.6172512351933 <br> Perimeter = 28.2743338823081|
 
+#### Насоки и подсказки
+
 За изчисленията можете да използвате следните формули:
 -	**`Area = Math.PI * r * r`**
 -	**`Perimeter = 2 * Math.PI * r`**
