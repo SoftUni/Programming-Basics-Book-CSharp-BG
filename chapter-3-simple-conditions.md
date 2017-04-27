@@ -5,11 +5,9 @@
 ## Видео
 
 <div class="video-player">
-  Гледайте видео-урок по тази глава тук: <a target="_blank"
-  href="https://www.youtube.com/watch?v=uwW_ueaOt7M">
+  Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=uwW_ueaOt7M">
   https://www.youtube.com/watch?v=uwW_ueaOt7M</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 ## Сравняване на числа
 
