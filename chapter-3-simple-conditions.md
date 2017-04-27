@@ -667,31 +667,34 @@ else
  
 Задаваме следните **настройки на контролите**:
 
- * **За главната форма** (**Form**), която съдържа всички контроли:
-   * **`(name)`** = **`FormConverter`**
-   * **`Text`** = "**Currency Converter**"
-   * **`Font.Size`** = **12**
-   * **`MaximizeBox`** = **`False`**
-   * **`MinimizeBox`** = **`False`**
-   * **`FormBorderStyle`** = **`FixedSingle`**
-  
-* За **полето за въвеждане на число** (**NumericUpDown**):
+* **За главната форма** (**Form**), която съдържа всички контроли:
+  * **`(name)`** = **`FormConverter`**
+  * **`Text`** = "**Currency Converter**"
+  * **`Font.Size`** = **12**
+  * **`MaximizeBox`** = **`False`**
+  * **`MinimizeBox`** = **`False`**
+  * **`FormBorderStyle`** = **`FixedSingle`**
+<br>
+
+* За **полето за въвеждане на число** (**`NumericUpDown`**):
   * **`(name)`** = **`numericUpDownAmount`**
   * **`Value`** = **1**
   * **`Minimum`** = **0**
   * **`Maximum`** = **1000000**
   * **`TextAlign`** = **`Right`**
   * **`DecimalPlaces`** = **2**
-     
-* За **падащия списък в валутите** (**ComboBox**):
+<br>  
+
+* За **падащия списък в валутите** (**`ComboBox`**):
   * **`(name)`** = **`comboBoxCurrency`**
   * **`DropDownStyle`** = **`DropDownList`**
   * **`Items`** =
     * **EUR**
     * **USD**
     * **GBP**
-         
-* За **текстовия блок за резултата** (**Label**):
+<br> 
+
+* За **текстовия блок за резултата** (**`Label`**):
   * **`(name)`** = **`labelResult`**
   * **`AutoSize`** = **`False`**
   * **`BackColor`** = **`PaleGreen`**
