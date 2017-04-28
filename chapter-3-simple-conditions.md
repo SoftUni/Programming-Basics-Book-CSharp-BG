@@ -74,7 +74,7 @@ if (булев израз)
 
 ![code](assets/chapter-3-images/01.Еxcellent-result-01.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0)
 
@@ -100,7 +100,7 @@ else
 
 ![code](assets/chapter-3-images/02.Excellent-or-not-01.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1)
 
@@ -136,7 +136,7 @@ else
 
 ![code](assets/chapter-3-images/03.Even-or-odd-02.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2)
 
@@ -148,7 +148,7 @@ else
 
 ![code](assets/chapter-3-images/04.Greater-number-02.png)
 
-### Тестване в Judge системата
+###3 Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3)
 
@@ -192,7 +192,7 @@ else
 
 Програмната логика от примера **последователно сравнява** входното число от конзолата с цифрите от 1 до 9, като **всяко следващо сравнение се извършва, само в случай че предходното сравнение не е било истина**. В крайна сметка, ако никое от **`if`** условията не е изпълнено, се изпълнява последната **`else-клауза`**.
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4)
 
@@ -283,9 +283,9 @@ else
 
 | Вход | Изход |
 | :---: | :----: |
-| 12 <br>km <br>ft | 39370.0788 ft |
-| 150 <br>mi <br>in | 9503999.99393599 mi |
-| 450 <br>yd <br>km | 0.41147999937455 yd |
+| 12 <br>km <br>ft | 39370.0788 |
+| 150 <br>mi <br>in | 9503999.99393599 |
+| 450 <br>yd <br>km | 0.41147999937455 |
 
 #### Насоки и подсказки
 
@@ -369,7 +369,7 @@ else
 
  ![code](assets/chapter-3-images/09.Excellent-result-05.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0)
 
@@ -415,7 +415,7 @@ else
  ![code](assets/chapter-3-images/02.Excellent-or-not-04.png)
  ![code](assets/chapter-3-images/02.Excellent-or-not-05.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1)
 
@@ -431,8 +431,8 @@ else
 | :---: | :----: |
 | 2 | even |
 | 3 | odd |
-| 25 | even |
-| 1024 | odd |
+| 25 | odd |
+| 1024 | even |
 
 #### Насоки и подсказки
 
@@ -442,7 +442,7 @@ else
 
 ![code](assets/chapter-3-images/03.Even-or-odd-01.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2)
 
@@ -469,7 +469,7 @@ else
 
 ![code](assets/chapter-3-images/04.Greater-number-01.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3)
 
@@ -510,7 +510,7 @@ else
 
 Използвайте **`if-else`** конструкцията.
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#8](https://judge.softuni.bg/Contests/Practice/Index/506#8)
 
