@@ -405,23 +405,37 @@ switch (селектор)
 if (condition1)
 {
     if (condition2)
-    {
         // тяло; 
-    }
     else
-    {
         // тяло;
-    }
 }
 ```
 
 ### По-сложни проверки с `&&`, `||`, `!` и `()`:
 
-![code](/assets/chapter-4-images/00.Logical-or-and-not.png)
+```csharp
+if ((x == left || x == right) && y >= top && y <= bottom)
+    Console.WriteLine(...); 
+```
 
 #### Switch-case провеки
 
-![code](/assets/chapter-4-images/00.Switch-case-01.png)
+```csharp
+switch (селектор)
+{
+    case стойност1:
+        конструкция;
+        break;
+    case стойност2:
+    case стойност3:
+        конструкция;
+        break;
+    ....
+    default:
+        конструкция;
+        break;
+}
+```
 
 
 
@@ -439,8 +453,8 @@ if (condition1)
 
 #### Примерен вход и изход
 
-|Вход|Изход|
-|:----:|:-----:|
+|Вход|Изход|Вход|Изход|
+|:----:|:-----:|:----:|:-----:|
 |Premiere<br>10<br>12|1440.00 leva|Normal<br>21<br>13|2047.50 leva|
 
 #### Тестване на решението
@@ -553,28 +567,23 @@ if (condition1)
   *	**Size** = **700**, **410**
   *	**MinimumSize** = **500**, **400**
   *	**FormBorderStyle** = **FixedSingle**
-
 * За **полетата за въвеждане на число (NumericUpDown)**:
   *	(name) = **numericUpDownX1**; **numericUpDownY1**; **numericUpDownX2**; **numericUpDownY2**; **numericUpDownX**; **numericUpDownY**
   *	**Value** = **2**; **-3**; **12**; **3**; **8**; **-1**
   *	**Minimum** = **-100000**
   *	**Maximum** = **100000**
   *	**DecimalPlaces** = **2**
-
 * За **бутона (Button)** за **визуализация** на правоъгълника и точката:
   *	(name) = **buttonDraw**
   *	**Text** = **“Draw”**
-
 * За **текстовия блок за резултата (Label)**:
   *	(name) = **labelLocation**
   *	**AutoSize** = **False**
   *	**BackColor** = **PaleGreen**
   *	**TextAlign** = **MiddleCenter**
-
 * За **полето с чертежа (PictureBox)**:
   *	(name) = **pictureBox**
   *	**Anchor** = **Top**, **Bottom**, **Left**, **Right**
-
 
 Следва да хванем следните **събития**, за да напишем C# кода, който ще се изпълни при настъпването им:
 
