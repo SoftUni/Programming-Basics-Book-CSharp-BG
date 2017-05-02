@@ -224,23 +224,19 @@ weight(c1c2…cn) = 1 * weight(c1) + 2 * weight(c2) + … + n * weight(cn)
 
 | Вход | Изход       | Коментар             |
 |------|-------------|----------------------|
-| 40   | bcead bdcea | weight("bcead") = 41 |
-| 42   | &nbsp;      | weight("bdcea") = 40 |
+|40<br>42|bcead bdcea |weight("bcead") = 41<br>weight("bdcea") = 40|
 
 | Вход | Изход         |
 |------|---------------|
-| -1   | bcdea cebda eaaad eaada eaadd eaade eaaed eadaa eadad eadae eadda eaddd eadde eadea eaded eadee eaead eaeda eaedd eaede eaeed eeaad eeada eeadd eeade eeaed eeea |
-| 1    | &nbsp;        |
+|-1<br>1| bcdea cebda eaaad eaada eaadd eaade eaaed eadaa eadad eadae eadda eaddd eadde eadea eaded eadee eaead eaeda eaedd eaede eaeed eeaad eeada eeadd eeade eeaed eeea|
 
 | Вход | Изход      |
 |------|------------|
-| 200  | baadc babdc badac badbc badca badcb badcc badcd baddc bbadc bbdac bdaac bdabc bdaca bdacb bdacc bdacd bdadc bdbac bddac beadc bedac eabdc ebadc ebdac edbac   |
-| 300  | &nbsp;     |
+|200<br>300|baadc babdc badac badbc badca badcb badcc badcd baddc bbadc bbdac bdaac bdabc bdaca bdacb bdacc bdacd bdadc bdbac bddac beadc bedac eabdc ebadc ebdac edbac|
 
 | Вход | Изход  |
 |------|--------|
-| 300  | No     |
-| 400  | &nbsp; |
+|300<br>400| No|
 
 #### Насоки и подсказки
 
