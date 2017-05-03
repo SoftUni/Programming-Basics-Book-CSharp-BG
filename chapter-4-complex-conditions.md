@@ -52,7 +52,6 @@ if (condition1)
 
 ![task1](assets/chapter-4-images/Personal%20Titles-01.jpg)
 
-![code](/assets/chapter-4-images/01.Personal Titles-02.png)
 
 #### Тестване на решението: 
 
