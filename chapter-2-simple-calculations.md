@@ -241,7 +241,7 @@ Console.WriteLine("Trapezoid area = " + area);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/504#4
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4)
 
 ### Пример: Периметър и лице на кръг 
 
@@ -535,9 +535,9 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 |               Вход                        |       Изход         |
 |:-----------------------------------------:|:-------------------:|
-|60 <br>20<br>10 <br>50                     |1500 <br>160         |
-|30 <br>40 <br>70 <br>-10                   |2000 <br>180         |
-|600.25 <br>500.75 <br>100.50 <br>-200.5    |350449.6875 <br>2402 |
+|60<br>20<br>10<br>50                     |1500<br>160         |
+|30<br>40<br>70<br>-10                   |2000<br>180         |
+|600.25<br>500.75<br>100.50<br>-200.5    |350449.6875<br>2402 |
 
 #### Тестване в Judge системата
 
