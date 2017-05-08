@@ -241,8 +241,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1]
-(https://judge.softuni.bg/Contests/Practice/Index/517#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1](https://judge.softuni.bg/Contests/Practice/Index/517#1)
 
 ### Задача 3. Магазин за цветя
 
@@ -374,8 +373,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2]
-(https://judge.softuni.bg/Contests/Practice/Index/517#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2](https://judge.softuni.bg/Contests/Practice/Index/517#2)
 
 ### Задача 4. Оценки
 
@@ -468,8 +466,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3]
-(https://judge.softuni.bg/Contests/Practice/Index/517#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3](https://judge.softuni.bg/Contests/Practice/Index/517#3)
 
 ### Задача 5. Коледна шапка
 
@@ -524,8 +521,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4]
-(https://judge.softuni.bg/Contests/Practice/Index/517#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4](https://judge.softuni.bg/Contests/Practice/Index/517#4)
 
 ### Задача 6. Комбинации от букви
 
@@ -641,8 +637,7 @@ cab  cac  cba  cbb  cbc  cca  ccb  ccc  27
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5
-(https://judge.softuni.bg/Contests/Practice/Index/517#5)
+Може да тествате Вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5)
 
 ### Какво научихме от тази глава?
 
