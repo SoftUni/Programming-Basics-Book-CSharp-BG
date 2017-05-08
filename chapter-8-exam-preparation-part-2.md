@@ -133,9 +133,9 @@ _Типът данни за реални числа с десетична точ
 
 В случай че сте работили правилно и изпълните програмата с входните данни от условието на задачата, ще се уверите, че тя работи коректно.
 
-####Тестване в Judge системата
+#### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: (https://judge.softuni.bg/Contests/368/Programming-Basics-Exam-18-December-2016)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#0](https://judge.softuni.bg/Contests/Practice/Index/517#0)
 
 ### Задача 2. Смяна на плочки
 
@@ -241,7 +241,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: (https://judge.softuni.bg/Contests/368/Programming-Basics-Exam-18-December-2016)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1]
+(https://judge.softuni.bg/Contests/Practice/Index/517#1)
 
 ### Задача 3. Магазин за цветя
 
@@ -373,7 +374,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: (https://judge.softuni.bg/Contests/368/Programming-Basics-Exam-18-December-2016)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2]
+(https://judge.softuni.bg/Contests/Practice/Index/517#2)
 
 ### Задача 4. Оценки
 
@@ -466,7 +468,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: (https://judge.softuni.bg/Contests/368/Programming-Basics-Exam-18-December-2016)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3]
+(https://judge.softuni.bg/Contests/Practice/Index/517#3)
 
 ### Задача 5. Коледна шапка
 
@@ -521,7 +524,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: (https://judge.softuni.bg/Contests/368/Programming-Basics-Exam-18-December-2016)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4]
+(https://judge.softuni.bg/Contests/Practice/Index/517#4)
 
 ### Задача 6. Комбинации от букви
 
@@ -532,7 +536,7 @@ _Типът данни за реални числа с десетична точ
 Входът се чете от **конзолата** и съдържа **точно 3 реда**:
 * **Малка буква от английската азбука за начало на интервала – от 'a' до 'z'**.
 * **Малка буква от английската азбука за край на интервала – от първата буква до 'z'**.
-* **Малка буква от английската азбука – от 'a' до 'z' – като комбинациите, съдържащи тази буквата се пропускат**.
+* **Малка буква от английската азбука – от 'a' до 'z' – като комбинациите, съдържащи тази буква се пропускат**.
 
 #### Изходни данни
 
@@ -637,7 +641,8 @@ cab  cac  cba  cbb  cbc  cca  ccb  ccc  27
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: (https://judge.softuni.bg/Contests/368/Programming-Basics-Exam-18-December-2016)
+Може да тествате Вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5
+(https://judge.softuni.bg/Contests/Practice/Index/517#5)
 
 ### Какво научихме от тази глава?
 
