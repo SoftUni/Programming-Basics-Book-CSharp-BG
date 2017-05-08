@@ -106,8 +106,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-triangle-6.png)
 
-####
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#0](https://judge.softuni.bg/Contests/Practice/Index/516#0)
 
 
 ### Задача: Пренасяне на тухли
@@ -167,7 +167,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-bricks-4.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#1
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#1](https://judge.softuni.bg/Contests/Practice/Index/516#1)
 
 
 ## Задачи с единична проверка
@@ -237,7 +238,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-point-on-line-8.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#2
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#2](https://judge.softuni.bg/Contests/Practice/Index/516#2)
 
 ### Задача: Точка във фигура
 
@@ -297,7 +299,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-point-in-figure-6.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#3
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#3](https://judge.softuni.bg/Contests/Practice/Index/516#3)
 
 
 ## Задачи с по-сложни проверки
@@ -369,7 +372,7 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-day-of-month-6.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#4
+Тестване на решението: [https://judge.softuni.bg/Contests/Practice/Index/516#4](https://judge.softuni.bg/Contests/Practice/Index/516#4)
 
 ### Задача: Суми от 3 числа
 
@@ -426,7 +429,8 @@
 ![](/assets/exam-prep-1-images/exam-prep-sum-three-numbers-4.png)
 
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#5
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#5](https://judge.softuni.bg/Contests/Practice/Index/516#5)
 
 
 ## Задачи с единичен цикъл
@@ -487,7 +491,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-sum-at-three-4.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#6
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#6](https://judge.softuni.bg/Contests/Practice/Index/516#6)
 
 ### Задача: Поредица от нарастващи елементи
 
@@ -526,7 +531,7 @@
    </tr>
 </table>
 
-### Решение
+#### Решение
 
 За решението на тази задача трябва да помислим малко **по-алгоритмично**. Дадена ни е **редица от числа** и трябва да проверяваме дали всяко **следващо**, ще бъде **по-голямо от предното** и ако е така да броим колко дълга е редицата, в която това условие е изпълнено. След това трябва да намерим **коя редица** от всички такива е **най-дълга**. За целта, нека да си направим няколко променливи, които ще ползваме през хода на задачата. 
 
@@ -546,7 +551,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-increasing-elements-4.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#7
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#7](https://judge.softuni.bg/Contests/Practice/Index/516#7)
 
 
 ## Чертане на фигурки на конзолата
@@ -606,7 +612,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-diamond-4.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#8
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#8](https://judge.softuni.bg/Contests/Practice/Index/516#8)
 
 ### Задача: Правоъгълник със звездички в центъра
 
@@ -661,7 +668,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-rectangle-with-stars-4.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#9
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#9](https://judge.softuni.bg/Contests/Practice/Index/516#9)
 
 
 ## Задачи с вложени цикли
@@ -723,7 +731,8 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-increasing-numbers-4.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#10
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#10](https://judge.softuni.bg/Contests/Practice/Index/516#10)
 
 
 ### Задача: Генериране на правоъгълници
@@ -785,4 +794,5 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-generate-rectangles-4.png)
 
-Тестване на решението: https://judge.softuni.bg/Contests/Practice/Index/157#11
+#### Тестване в Judge системата
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#10](https://judge.softuni.bg/Contests/Practice/Index/516#10)
