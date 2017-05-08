@@ -191,15 +191,15 @@ _Типът данни за реални числа с десетична точ
 
 |Вход|Изход|Обяснения|
 |---|---|---|
-|2<br>4<br>8<br>Spring<br>Y<br>|46.14|**Цена**: 2\*2.00 + 4\*4.10 + 8\*2.50 = **40.40 лв.**<br>**Празничен ден**: 40.40 + **15**% = 46.46 лв.<br>**5%** намаление за **повече от 7 лалета през пролетта**: 44.14<br>Общо цветята са 20 или по-малко: **няма намаление**<br>**44.14 + 2 за аранжиране = 46.14 лв.**|
+|2<br>4<br>8<br>Spring<br>Y<br>|46.14|**Цена**: 2\*2.00 + 4\*4.10 + 8\*2.50 = **40.40 лв.**<br>**Празничен ден**: 40.40 + **15**% = **46.46 лв.**<br>**5%** намаление за **повече от 7 лалета през пролетта**: **44.14**<br>Общо цветята са 20 или по-малко: **няма намаление**<br>**44.14 + 2 за аранжиране = 46.14 лв.**|
 
 |Вход|Изход|Обяснения|
 |---|---|---|
-|3<br>10<br>9<br>Winter<br>N<br>|69.39|**Цена**: 3\*3.75 + 10\*4.50 + 9\*4.15 = **93.60 лв.**<br>**Не е празничен ден**: **няма увеличение**<br>**10%** намаление за **10 или повече рози през зимата**: 84.24<br>Общо цветята са повече от 20 - **20% намаление** = **67.392**<br>**67.392+ 2 за аранжиране = 69.392 лв.**|
+|3<br>10<br>9<br>Winter<br>N<br>|69.39|**Цена**: 3\*3.75 + 10\*4.50 + 9\*4.15 = **93.60 лв.**<br>**Не е празничен ден**: **няма увеличение**<br>**10%** намаление за **10 или повече рози през зимата**: **84.24**<br>Общо цветята са повече от 20: **20% намаление** = **67.392**<br>**67.392 + 2 за аранжиране = 69.392 лв.**|
 
 |Вход|Изход|
 |---|---|
-|10<br>10<br>10<br>Autumn<N>|101.20|
+|10<br>10<br>10<br>Autumn<br>N|101.20|
 
 #### Насоки и подсказки
 
@@ -246,47 +246,13 @@ _Типът данни за реални числа с десетична точ
 
 ##### Примерен вход и изход
 
-<table>
-<thead>
-<tr>
-<th align="left"><strong>Вход</strong></th>
-<th align="left"><strong>Изход</strong></th>
-<th align="left"><strong>Обяснения</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top">10<br>3.00<br>2.99<br>5.68<br>3.01<br>4<br>4<br>6.00<br>4.50<br>2.44<br>5</td>
-<td valign="top" width="30%">Top students: 30.00%<br>Between 4.00 and 4.99: 30.00%<br>Between 3.00 and 3.99: 20.00%<br>Fail: 20.00%<br>Average: 4.06</td>
-<td valign="top" width="70%">
-    5 и повече – трима = 30% от 10
-    <br>
-    Между 4 и 4.99 – трима = 30% от 10
-    <br>
-    Между 3 и 3.99 – двама = 20% от 10
-    <br>
-    Под 3 – двама = 20% от 10
-    <br>
-    Средният успех: 3 + 2.99 + 5.68 + 3.01 + 4 + 4 + 6 + 4.50 + 2.44 + 5 = 40.62 / 10 = 4.062
-</td>
-</tr>
-</tbody>
-</table>
+|Вход|Изход|Обяснения|
+|---|---|---|
+|10<br>3.00<br>2.99<br>5.68<br>3.01<br>4<br>4<br>6.00<br>4.50<br>2.44<br>5<br>|Top students: 30.00%<br>Between 4.00 and 4.99: 30.00%<br>Between 3.00 and 3.99: 20.00%<br>Fail: 20.00%<br>Average: 4.06|5 и повече - **трима** = 30% от 10<br>Между 4.00 и 4.99 - **трима** = 30% от 10<br>Между 3.00 и 3.99 - **двама** = 20% от 10<br>Под 3 - **двама** = 20% от 10<br>Средният успех е: 3 + 2.99 + 5.68 + 3.01 + 4 + 4 + 6 + 4.50 + 2.44 + 5 = 40.62 / 10 = 4.062|
 
-<table>
-<thead>
-<tr>
-<th align="left"><strong>Вход</strong></th>
-<th align="left"><strong>Изход</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top">6<br>2<br>3<br>4<br>5<br>6<br>2.2</td>
-<td valign="top" width="100%">Top students: 33.33%<br>Between 4.00 and 4.99: 16.67%<br>Between 3.00 and 3.99: 16.67%<br>Fail: 33.33%<br>Average: 3.70</td>
-</tr>
-</tbody>
-</table>
+|Вход|Изход|
+|---|---|
+|6<br>2<br>3<br>4<br>5<br>6<br>2.2|Top students: 33.33%<br>Between 4.00 and 4.99: 16.67%<br>Between 3.00 and 3.99: 16.67%<br>Fail: 33.33%<br>Average: 3.70|
 
 #### Насоки и подсказки
 
@@ -390,80 +356,17 @@ _Типът данни за реални числа с десетична точ
 
 #### Примерен вход и изход
 
-<table>
-<thead>
-<tr>
-<th align="left"><strong>Вход</strong></th>
-<th align="left"><strong>Изход</strong></th>
-<th align="left"><strong>Обяснения</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top">a<br>c<br>b</td>
-<td valign="top" width="50%">aaa aac aca acc caa cac cca ccc 8</td>
-<td valign="top" width="100%">
-Всички възможни комбинации с буквите a, b, и c са:
-<br>
-aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb
-<br>
-bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc
-<br>
-Комбинациите съдържащи b не са валидни.
-<br>
-Остават 8 валидни комбинации
-</td>
-</tr>
-</tbody>
-</table>
+|Вход|Изход|Обяснения|
+|---|---|---|
+|a<br>c<br>b|aaa aac aca acc caa cac cca ccc 8|Всички възможни комбинации с буквите 'а', 'b' и 'c' са:<br>aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc<br>Комбинациите, **съдържащи `b` не са валидни**.<br>Остават 8 валидни комбинации.|
 
-<table>
-<thead>
-<tr>
-<th align="left"><strong>Вход</strong></th>
-<th align="left"><strong>Изход</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top">f<br>k<br>h</td>
-<td valign="top" width="100%">
-fff ffg ffi ffj ffk fgf fgg fgi fgj fgk fif fig fii fij fik fjf fjg fji fjj
-<br>
-fjk fkf fkg fki fkj fkk gff gfg gfi gfj gfk ggf ggg ggi ggj ggk gif gig gii
-<br>
-gij gik gjf gjg gji gjj gjk gkf gkg gki gkj gkk iff ifg ifi ifj ifk igf igg
-<br>
-igi igj igk iif iig iii iij iik ijf ijg iji ijj ijk ikf ikg iki ikj ikk jff
-<br>
-jfg jfi jfj jfk jgf jgg jgi jgj jgk jif jig jii jij jik jjf jjg jji jjj jjk
-<br>
-jkf jkg jki jkj jkk kff kfg kfi kfj kfk kgf kgg kgi kgj kgk kif kig kii kij
-<br>
-kik kjf kjg kji kjj kjk kkf kkg kki kkj kkk 125
-</td>
-</tr>
-</tbody>
-</table>
+|Вход|Изход|
+|---|---|
+|f<br>k<br>h|fff ffg ffi ffj ffk fgf fgg fgi fgj fgk fif fig fii fij fik fjf fjg fji fjj fjk fkf fkg fki fkj fkk gff gfg gfi gfj gfk ggf ggg ggi ggj ggk gif gig gii gij gik gjf gjg gji gjj gjk gkf gkg gki gkj gkk iff ifg ifi ifj ifk igf igg igi igj igk iif iig iii iij iik ijf ijg iji ijj ijk ikf ikg iki ikj ikk jff jfg jfi jfj jfk jgf jgg jgi jgj jgk jif jig jii jij jik jjf jjg jji jjj jjk jkf jkg jki jkj jkk kff kfg kfi kfj kfk kgf kgg kgi kgj kgk kif kig kii kij kik kjf kjg kji kjj kjk kkf kkg kki kkj kkk 125|
 
-<table>
-<thead>
-<tr>
-<th align="left"><strong>Вход</strong></th>
-<th align="left"><strong>Изход</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top">a<br>c<br>z</td>
-<td valign="top" width="100%">
-aaa  aab  aac  aba  abb  abc  aca  acb  acc  baa  bab  bac  bba  bbb  bbc  bca  bcb  bcc  caa
-<br>
-cab  cac  cba  cbb  cbc  cca  ccb  ccc  27
-</td>
-</tr>
-</tbody>
-</table>
+|Вход|Изход|
+|---|---|
+|a<br>c<br>z|aaa aab aac aba abb abc aca acb acc baa bab bac bba bbb bbc bca bcb bcc caa cab cac cba cbb cbc cca ccb ccc 27|
 
 #### Насоки и подсказки
 
