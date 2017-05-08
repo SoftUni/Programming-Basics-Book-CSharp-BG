@@ -667,7 +667,7 @@ else
 * **За главната форма** (**Form**), която съдържа всички контроли:
   * **`(name)`** = **`FormConverter`**
   * **`Text`** = "**`Currency Converter`**"
-  * **`Font.Size`** = **12**
+  * **`Font.Size`** = **`12`**
   * **`MaximizeBox`** = **`False`**
   * **`MinimizeBox`** = **`False`**
   * **`FormBorderStyle`** = **`FixedSingle`**
@@ -675,11 +675,11 @@ else
 
 * За **полето за въвеждане на число** (**`NumericUpDown`**):
   * **`(name)`** = **`numericUpDownAmount`**
-  * **`Value`** = **1**
-  * **`Minimum`** = **0**
-  * **`Maximum`** = **1000000**
+  * **`Value`** = **`1`**
+  * **`Minimum`** = **`0`**
+  * **`Maximum`** = **`1000000`**
   * **`TextAlign`** = **`Right`**
-  * **`DecimalPlaces`** = **2**
+  * **`DecimalPlaces`** = **`2`**
 <br>  
 
 * За **падащия списък с валутите** (**`ComboBox`**):
@@ -696,7 +696,7 @@ else
   * **`AutoSize`** = **`False`**
   * **`BackColor`** = **`PaleGreen`**
   * **`TextAlign`** = **`MiddleCenter`**
-  * **`Font.Size`** = **14**
+  * **`Font.Size`** = **`14`**
   * **`Font.Bold`** = **`True`**
      
 Трябва да хванем следните **събития**, за да напишем C# кода, който ще се изпълни при настъпването им:
