@@ -315,15 +315,3 @@ for (var i = 0; i < 5; i++;)
 
 В **настоящата** глава се запознахме как **правилно** да **форматираме** и именуваме елементите на нашия **код**, някои **бързи клавиши** (shortcuts) за работа във Visual Studio, **шаблони с код** (code snippets) и разгледахме как се **дебъгва код**.
 
-
-
-![code](assets/Capture.PNG)
-
-asdasdasdadasdasdasds
-
-![code](assets/CaptureSmall.PNG)
-
-![cpde](/assets/testrosi.png)
-
-![cpde](/assets/test100.png)
-
