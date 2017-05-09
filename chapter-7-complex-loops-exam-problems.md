@@ -4,14 +4,15 @@
 Вече **научихме** как може да изпълним даден **блок от команди повече от веднъж** използвайки **`for`**-цикъл. В предходната глава **разгледахме** още няколко **циклични конструкци**, които биха ни помогнали при решаването на по-сложни проблеми.
 - **Цикли със стъпка**;
 - **Вложени** цикли;
-- **`while`**-цикли;
-- **`do-while`** цикли;
+- **`While`**-цикли;
+- **`Do-while`** цикли;
 - **Безкрайни** цикли и излизане от цикъл (**`break`** оператор);
 - Конструкцията **`try-catch`**.
 
 Нека затвърдим знанията си като решим няколко по-сложни задачи с цикли, давани на приемни изпити.
 
 ### Задача: Генератор за тъпи пароли
+
 Да се напише програма, която въвежда две цели числа **n** и **l** и генерира по азбучен ред всички възможни **“тъпи” пароли**, които се състоят от следните **5 символа**:
 -	Символ 1: цифра от **1** до **n**.
 -	Символ 2: цифра от **1** до **n**.
@@ -26,40 +27,20 @@
 На конзолата трябва да се отпечатат **всички “тъпи” пароли по азбучен ред**, разделени с **интервал**.
 
 #### Примерен вход и изход
-<div style="display:inline-block;margin-right:2%;width:90%;">
-<table>
- <thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
- <tr>
-<td style="border:1px solid black;">2<br />4</td>
-<td style="border:1px solid black;">11aa2 11ab2 11ac2 11ad2 11ba2 11bb2 11bc2 11bd2 11ca2 11cb2 11cc2 11cd2 11da2 11db2 11dc2 11dd2</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">3<br />1</td>
-<td style="background:none;background-color:#ffffff;border:1px solid black;">11aa2 11aa3 12aa3 21aa3 22aa3</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">3<br />2</td>
-<td style="border:1px solid black;">11aa2 11aa3 11ab2 11ab3 11ba2 11ba3 11bb2 11bb3 12aa3 12ab3 12ba3 12bb3 21aa3 21ab3 21ba3 21bb3 22aa3 22ab3 22ba3 22bb3</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">4<br />2</td>
-<td style="background:none;background-color:#ffffff;border:1px solid black;">11aa2 11aa3 11aa4 11ab2 11ab3 11ab4 11ba2 11ba3 11ba4 11bb2 11bb3 11bb4 12aa3 12aa4 12ab3 12ab4 12ba3 12ba4 12bb3 12bb4 13aa4 13ab4 13ba4 13bb4 21aa3 21aa4 21ab3 21ab4 21ba3 21ba4 21bb3 21bb4 22aa3 22aa4 22ab3 22ab4 22ba3 22ba4 22bb3 22bb4 23aa4 23ab4 23ba4 23bb4 31aa4 31ab4 31ba4 31bb4 32aa4 32ab4 32ba4 32bb4 33aa4 33ab4 33ba4 33bb4</td>
-</tr>
-</tbody>
-</table>
-</div>
+
+|Вход|Изход|Вход|Изход|
+|:---:|---|:---:|---|
+|2<br>4|11aa2 11ab2 11ac2 11ad2 11ba2 11bb2 11bc2 11bd2 11ca2 11cb2 11cc2 11cd2 11da2 11db2 11dc2 11dd2|3<br>1|11aa2 11aa3 12aa3 21aa3 22aa3|
+
+
+|Вход|Изход|Вход|Изход|
+|:---:|---|:---:|---|
+|3<br>2|11aa2 11aa3 11ab2 11ab3 11ba2 11ba3 11bb2 11bb3 12aa3 12ab3 12ba3 12bb3 21aa3 21ab3 21ba3 21bb3 22aa3 22ab3 22ba3 22bb3|4<br>2|11aa2 11aa3 11aa4 11ab2 11ab3 11ab4 11ba2 11ba3 11ba4 11bb2 11bb3 11bb4 12aa3 12aa4 12ab3 12ab4 12ba3 12ba4 12bb3 12bb4 13aa4 13ab4 13ba4 13bb4 21aa3 21aa4 21ab3 21ab4 21ba3 21ba4 21bb3 21bb4 22aa3 22aa4 22ab3 22ab4 22ba3 22ba4 22bb3 22bb4 23aa4 23ab4 23ba4 23bb4 31aa4 31ab4 31ba4 31bb4 32aa4 32ab4 32ba4 32bb4 33aa4 33ab4 33ba4 33bb4|
 
 #### Насоки и подсказки
 
 Програмата, която решава този проблем, можем да разделим мислено на три части:
-* **Прочитане на входните данни** – в настоящата задача това включва прочитането на две числа n и l, всяко на отделен ред.
+* **Прочитане на входните данни** – в настоящата задача това включва прочитането на две числа `n` и `l`, всяко на отделен ред.
 * **Обработка на входните данни** – използване на вложени цикли за преминаване през всеки възможен символ за всеки от петте символа на паролата.
 *	**Извеждане на резултат** – отпечатване на всяка "тъпа" парола, която отговаря на условията.
 
@@ -114,30 +95,10 @@ for (var d1 = 1; d1 <= n; d1++)
 
 #### Примерен вход и изход
 
-<div style="display:inline-block;margin-right:2%;width:31.5%;">
-<table>
-<thead>
-<tr style="background-color:#d9d9d9;">
-<th style="border:1px solid black;background-color:#d9d9d9;">Вход</th>
-<th style="border:1px solid black;background-color:#d9d9d9;">Изход</th>
-</tr>
-</thead>
-<tfoot></tfoot>
-<tbody>
-<tr>
-<td style="border:1px solid black;">2</td><td style="border:1px solid black;">111112 111121 111211 112111 121111 211111</td>
-</tr>
-<tr style="background:none;background-color:#ffffff;">
-<td style="background:none;background-color:#ffffff;border:1px solid black;">8</td>
-<td style="background:none;background-color:#ffffff;border:1px solid black;">111118 111124 111142 111181 111214 111222 111241 111412 111421 111811 112114 112122 112141 112212 112221 112411 114112 114121 114211 118111 121114 121122 121141 121212 121221 121411 122112 122121 122211 124111 141112 141121 141211 142111 181111 211114 211122 211141 211212 211221 211411 212112 212121 212211 214111 221112 221121 221211 222111 241111 411112 411121 411211 412111 421111 811111</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">531441</td>
-<td style="border:1px solid black;">999999</td>
-</tr>
-</tbody>
-</table>
-</div>
+|Вход|Изход|Вход|Изход|Вход|Изход|
+|:---:|---|:---:|---|:---:|---|
+|2|111112 111121 111211 112111 121111 211111|8|111118 111124 111142 111181 111214 111222 111241 111412 111421 111811 112114 112122 112141 112212 112221 112411 114112 114121 114211 118111 121114 121122 121141 121212 121221 121411 122112 122121 122211 124111 141112 141121 141211 142111 181111 211114 211122 211141 211212 211221 211411 212112 212121 212211 214111 221112 221121 221211 222111 241111 411112 411121 411211 412111 421111 811111|531441|999999|
+
 
 #### Насоки и подсказки
 Решението на задачата за магическите числа следва същата концепция (отново трябва да генерираме всички комбинации за n елемента). Следвайки тези стъпки, опитайте да решите задачата сами.
