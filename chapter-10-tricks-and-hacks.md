@@ -322,3 +322,5 @@ for (var i = 0; i < 5; i++;)
 asdasdasdadasdasdasds
 
 ![code](assets/CaptureSmall.PNG)
+
+![cpde](/assets/testrosi.png)
