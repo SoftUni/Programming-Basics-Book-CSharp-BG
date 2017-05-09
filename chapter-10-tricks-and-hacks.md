@@ -305,8 +305,8 @@ for (var i = 0; i < 5; i++;)
 
 
 
-![code](assets/Capture.JPG)
+![code](assets/Capture.PNG)
 
 asdasdasdadasdasdasds
 
-![code](assets/CaptureSmall.JPG)
+![code](assets/CaptureSmall.PNG)
