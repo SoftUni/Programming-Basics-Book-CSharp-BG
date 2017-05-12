@@ -75,7 +75,7 @@
     
 ![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-5.png)
     
-Съответно, при прочит на символи от конзолата, директно можем да преобразуваме главни към малки букви, **обединявайки горните два реда**
+Съответно, при прочит на символи от конзолата, директно можем да преобразуваме главни към малки букви, **обединявайки горните два реда**:
 
 ![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-6.png)
 
