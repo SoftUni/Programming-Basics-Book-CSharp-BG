@@ -49,7 +49,7 @@
 
 За **прочитане** на **входните** данни ще декларираме две променливи от целочислен тип **`int`**: **`n`** и **`l`**.
 
-![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-1.png)
+![](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-1.png)
 
 Нека декларираме и инициализираме **променливите**, които ще **съхраняват символите** на паролата: за **цифровите** символи - от тип **`int`** -  **`d1`**, **`d2`**, **`d3`**, a за **буквените** - от тип  **`char`** - **`l1`**, **`l2`**. За улеснение ще пропуснем изричното уточняване на типа като го заместим с ключовата дума **`var`**.
 
@@ -57,27 +57,27 @@
 
 Необходимо е да вложим **пет** **`for`** цикъла един в друг, по един за всяка променлива. За да гарантираме условието последната цифра **d3** да бъде **по-голяма** от първите две, ще използваме вградената функция **`Math.Max(...)`**. 
 
-![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-2.png)
+![](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-2.png)
 
 
 **Знаете ли, че:** 
 
 можем да **дефинираме `for`** цикъл с променлива от тип **`char`**:
 
-![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-3.png)
+![](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-3.png)
 
     
 и можем да **прочетем** променлива от тип **`char`** от конзолата със следната конструкция:
 
-![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-4.png)
+![](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-4.png)
     
 както и да обърнем **главен** символ **към малък**, използвайки вградена функция в C#:
     
-![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-5.png)
+![](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-5.png)
     
 Съответно, при прочит на символи от конзолата, директно можем да преобразуваме главни към малки букви, **обединявайки горните два реда**:
 
-![image](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-6.png)
+![](/assets/chapter-7-exam-preparation-images/01.stupid-password-generator-6.png)
 
 #### Тестване в Judge системата
 
@@ -119,12 +119,12 @@
 -	Вложете **шест `for` цикъла** един в друг, по един за всяка цифра на търсените 6-цифрени числа.
 -	В последния цикъл, чрез **`if`** конструкция проверете дали **произведението** на шестте цифри е **равно** на **магическото** число.
 
-![image](/assets/chapter-7-exam-preparation-images/02.magic-numbers-1.png)
+![](/assets/chapter-7-exam-preparation-images/02.magic-numbers-1.png)
 
 В предходната глава разгледахме и други циклични конструкции. Нека разгледаме примерно решение на същата задача, в което използваме цикъла **`while`**.
 Първо трябва да запишем **входното магическо число** в подходяща променлива. След това ще инициализираме 6 променливи - по една за всяка от шестте цифри на търсените като **резултат** числа.
 
-![image](/assets/chapter-7-exam-preparation-images/02.magic-numbers-2.png)
+![](/assets/chapter-7-exam-preparation-images/02.magic-numbers-2.png)
 
 След това ще започнем да разписваме **`while`** циклите.
 - Ще инициализираме **първата цифра**: **`d1 = 0`**.
@@ -133,11 +133,11 @@
 - В **края** на всеки цикъл ще **увеличаваме** цифрата с едно: **`d++`**.
 - В **най-вътрешния** цикъл ще направим **проверката** и ако е необходимо, ще принтираме на конзолата.
 
-![image](/assets/chapter-7-exam-preparation-images/02.magic-numbers-3.png)
+![](/assets/chapter-7-exam-preparation-images/02.magic-numbers-3.png)
 
 Нека премахнем **`if`** проверката от най-вътрешния цикъл. Сега, нека инициализираме всяка променлива извън циклите и нека изтрием редовете **`dx = 0`**. След като стартираме програмата, получаваме само 10 резултата. Защо? А ако използвате **`do-while`**? В случая този цикъл не изглежда подходящ, нали? Помислете защо. Разбира се, можете да решите задачата и с помощта на **безкраен цикъл**.
 
-![image](/assets/chapter-7-exam-preparation-images/02.magic-numbers-4.png)
+![](/assets/chapter-7-exam-preparation-images/02.magic-numbers-4.png)
 
 Както виждаме, един проблем можем да решим с различни видове цикли. Разбира се, за всяка задача има най-подходящ избор. С цел да упражните всеки цикъл - опитайте се да решите всяка от следващите задачи с всички изучени цикли.
 
