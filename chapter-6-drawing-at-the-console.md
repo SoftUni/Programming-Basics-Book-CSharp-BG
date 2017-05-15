@@ -387,7 +387,7 @@ int result = (int)Math.Ceiling(3 / 2f);
 * Отпечатваме на конзолата: "**тиренца**" (**`padding`** / 2 на брой пъти) + "**звездички**" (**`stars`** пъти) + "**тиренца**" (**`padding`** / 2 пъти). ![](assets/chapter-6-images/house/roof-printing.png)
 * Преди да свърши итерацията на цикъла добавяме 2 към **`stars`** (броя на **звездичките**). ![](assets/chapter-6-images/house/stars-adding-roof-printing.png)
 
-<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
+<table><tr><td><img src="/assets/alert-icon.png" height="50px" width="50px" /></td>
 <td>Не е добра идея да правим събирания на много на брой символни низове по показания по-горе начин. За повече информация посетете [връзката до wikipedia](https://bg.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B7#String_Builder)</td>
 </tr></table>
 
