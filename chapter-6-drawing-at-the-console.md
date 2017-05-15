@@ -170,7 +170,7 @@
 
 #### Насоки и подсказки
 
-От примерите виждаме, че **елхата** може да бъде **разделена** на **три** логически части. **Първата** част са **звездичките и празните места преди и след тях**, **средната** част е **` | `**, а **последната** част са отново **звездички**, като този път **празни** места има само **преди** тях. Разпечатването може да бъде постигнато само с **един цикъл** и конструктора **`new string(...)`**, който ще използваме един път за звездичките и един път за празните пространства. Оставяме на читателя да помисли каква точно е **зависимостта** на **звездичките** и **празните места** спрямо въведеното число **`n`**, съответно как точно ще бъде използвана тази зависимост в цикъла.
+От примерите виждаме, че **елхата** може да бъде **разделена** на **три** логически части. **Първата** част са **звездичките и празните места преди и след тях**, **средната** част е **` | `**, а **последната** част са отново **звездички**, като този път **празни** места има само **преди** тях. Разпечатването може да бъде постигнато само с **един цикъл** и конструктора **`new string(...)`**, който ще използваме един път за звездичките и един път за празните пространства. 
 
 ![images](/assets/chapter-6-images/07.Christmas-tree-01.png)
 
@@ -227,7 +227,10 @@
 
 Разбираме от условието на задачата, че къщата е с размер **`n` x `n`**. Това, което виждаме от примерните вход и изход, е че:
 
-* Къщичката е разделена на 2 части: **покрив и основа**. ![](assets/chapter-6-images/house/house-parts.png)
+* Къщичката е разделена на 2 части: **покрив и основа**. 
+
+![](assets/chapter-6-images/house/house-parts.png)
+
 * Когато **`n`** е четно число, върхът на къщичката е "тъп". ![](assets/chapter-6-images/house/house.png)
 * Когато **`n`** е нечетно число, **покривът** е с един ред по-голям от **основата**.
 
@@ -235,7 +238,7 @@
 * Съставен е от **звездички** и **тирета**.
 * В най-високата си част има една или две звездички, спрямо това дали **n** e четно или нечетно, както и тирета.
 * В най-ниската си част има много звездички и малко или никакви долни черти.
-* С всеки един ред по-надолу, **звездичките** се увеличават с 2, а **долните черти** намаляват с 2.
+* С всеки един ред по-надолу, **звездичките** се увеличават с 2, а **тиретата** намаляват с 2.
 
 ##### Основа
 * Дълга е **`n`** на брой редове.
@@ -244,7 +247,7 @@
 
 Прочитаме **`n`** от конзолата и записваме стойността в променлива от тип **`int`**.  
 
-![](assets/chapter-6-images/house/reading-input.png)
+![image](/assets/chapter-6-images/house/reading-input.PNG)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Много е важно да проверяваме дали са валидни входните данни!</b> В тези задачи не е проблем директно да обръщаме прочетеното от конзолата в тип <b><code>Integer</code></b>, защото изрично е казано че ще получаваме валидни целочислени числа. Ако обаче правите по-сериозни приложения е добра практика да проверявате данните. Какво ще стане, ако вместо потребителя въведе число въведе буквата "А"?</td>
@@ -254,11 +257,11 @@
 * Ако **`n`** е четно число, ще са 2 броя.
 * Ако е нечетно, ще е 1 брой.
 
-![](assets/chapter-6-images/house/stars-initialization.png)
+![](/assets/chapter-6-images/house/stars-initialization.PNG)
 
 Изчисляваме дължината на **покрива**. Тя е равна на половината от **`n`**. Резултата записваме в променливата **`roofHeight`**
 
-![](assets/chapter-6-images/house/calculating-roof-length.png)
+![](/assets/chapter-6-images/house/calculating-roof-length.PNG)
 
 Важно е да се отбележи че, когато **`n`** е нечетно число, дължината на покрива е по-голяма с един ред от тази на **основата**. В **C#** когато два целочислени типа се делят и има остатък, то резултата ще е числото без остатъка.
 
@@ -276,11 +279,18 @@ int result = (int)Math.Ceiling(3 / 2f);
 //(int) <-- се слага за да може да трнасформираме типа обратно в Integer
 ```
 
-След като сме изчислили дължината на покрива, завъртаме цикъл от 0 до **`roofHeight`**.
-На всяка итерация ще:
-* Изчисляваме броя **тиренца**, които ще трябва да чертаем. Броят ще е равен на (**`n - stars`**). Записваме го в променлива **`padding`** ![](assets/chapter-6-images/house/calculating-padding.png);
-* Отпечатваме на конзолата: "**тиренца**" (**`padding`** / 2 на брой пъти) + "**звездички**" (**`stars`** пъти) + "**тиренца**" (**`padding`** / 2 пъти). ![](assets/chapter-6-images/house/roof-printing.png)
-* Преди да свърши итерацията на цикъла добавяме 2 към **`stars`** (броя на **звездичките**). ![](assets/chapter-6-images/house/stars-adding-roof-printing.png)
+След като сме изчислили дължината на покрива, завъртаме цикъл от 0 до **`roofHeight`**. На всяка итерация ще:
+* Изчисляваме броя **тиренца**, които трябва да изрисуваме. Броят ще е равен на **`n - stars`**. Записваме го в променлива **`padding`**.
+
+![](assets/chapter-6-images/house/calculating-padding.PNG)
+
+* Отпечатваме на конзолата: "**тиренца**" (**`padding`** / 2 на брой пъти) + "**звездички**" (**`stars`** пъти) + "**тиренца**" (**`padding`** / 2 пъти). 
+
+![](assets/chapter-6-images/house/roof-printing.PNG)
+
+* Преди да свърши итерацията на цикъла добавяме 2 към **`stars`** (броя на **звездичките**).
+
+![](assets/chapter-6-images/house/stars-adding-roof-printing.PNG)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px"/></td>
 <td>Не е добра идея да правим събирания на много на брой символни низове по показания по-горе начин. За повече информация посетете [връзката до wikipedia](https://bg.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B7#String_Builder)</td>
@@ -290,11 +300,11 @@ int result = (int)Math.Ceiling(3 / 2f);
 * Започваме с цикъл от 0 до n (изключено).
 * Отпечатваме на конзолата: `|` + `*` (**`n - 2`** на брой пъти) + `|`.
 
-![](assets/chapter-6-images/house/base-printing.png)
+![](/assets/chapter-6-images/house/base-printing.PNG)
 
 Ако всичко сме написали както трябва, задачата ни е решена.
 
-![](assets/chapter-6-images/house/final-output.png)
+![](/assets/chapter-6-images/house/final-output.PNG)
 
 #### Тестване в Judge системата
 
@@ -348,11 +358,11 @@ int result = (int)Math.Ceiling(3 / 2f);
 
 Прочитаме стойността на **n** от конзолата и я записваме в променлива от тип **`Integer`**.  
 
-![](assets/chapter-6-images/diamond/reading-input.png)
+![](/assets/chapter-6-images/diamond/reading-input.png)
 
 Започваме да чертаем горната част на диаманта. Първото нещо, което трябва да направим, е да изчислим началната стойност на външната бройка **тиренца `leftRight`** (тиретата от външната част на **звездите**). Тя е равна на **`n / 2`**, закръглено надолу.
 
-![](assets/chapter-6-images/diamond/calculating-padding.png)
+![](/assets/chapter-6-images/diamond/calculating-padding.png)
 
 След като сме изчислили **`leftRight`**, започваме да чертаем **горната част** на диаманта. Може да започнем, като завъртим **цикъл** от **`0`** до **`n / 2`** (закръглено надолу).  
 
@@ -367,7 +377,7 @@ int result = (int)Math.Ceiling(3 / 2f);
 
 Рисуването на долната част е доста подобна на рисуването на горната част. Разликите са, че вместо да намаляваме **`leftRight`** с 1 към края на цикъла, ще увеличаваме **`leftRight`** с 1 в началото на цикъла. Също така, **цикълът ще е от 0 до `(n / 2 (закръглено надолу)) - 1`.   
 
-![](assets/chapter-6-images/diamond/lower-part-drawing.png)
+![](/assets/chapter-6-images/diamond/lower-part-drawing.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Повторението на код се смята за лоша практика, защото става доста труден за поддръжка. Нека си представим, че имаме парче код (напр. логиката за чертането на ред от диаманта) на още няколко места и решаваме да направим промяна. За целта би било необходимо да минем през всичките места и да направим промените. Нека си представим, че трябва да използвате код не 1, 2 или 3 пъти, а десетки пъти. <p>
@@ -376,7 +386,7 @@ int result = (int)Math.Ceiling(3 / 2f);
 
 Ако всичко сме написали коректно, задачата ни е решена.
 
-![](assets/chapter-6-images/diamond/final-output.png)
+![](/assets/chapter-6-images/diamond/final-output.png)
 
 #### Тестване в Judge системата
 
@@ -388,41 +398,41 @@ int result = (int)Math.Ceiling(3 / 2f);
 
 Да се разработи ASP.NET MVC уеб приложение за визуализация на рейтинг (число от 0 до 100). Чертаят се от 1 до 10 звездички (с половинки). Звездичките да се генерират с `for` цикъл
 
-![Image not found](assets/chapter-6-images/Ratings-example1.png)
+![Image not found](/assets/chapter-6-images/Ratings-example1.png)
 
 Във Visual Studio създайте `ново ASP.NET MVC уеб приложение` с език C#. Добавете нов проект от [Solution Explorer] -> [Add] -> [New Project…] . Дайте смислено име, например `“WebApp-Ratings”`
 
-![Image not found](assets/chapter-6-images/Adding-project-WebApp-Ratings.png)
+![Image not found](/assets/chapter-6-images/Adding-project-WebApp-Ratings.png)
 
 Изберете тип на уеб приложението `"MVC"`
 
-![Image not found](assets/chapter-6-images/Application-type.png)
+![Image not found](/assets/chapter-6-images/Application-type.png)
 
 Редактирайте файла `Views/Home/Index.cshtml`. Изтрийте всичко и въведете кода от картинката:
 
-![Image not found](assets/chapter-6-images/Adding-indexhtml.png)
+![Image not found](/assets/chapter-6-images/Adding-indexhtml.png)
 
 Този код създава уеб форма `<form>` с едно поле `"rating"` за въвеждане на число в интервала [0…100] и бутон `[Draw]` за изпращане на данните от формата към сървъра. Действието, което ще обработи данните, се казва `/Home/DrawRatings`, което означава метод `"DrawRatings"` в контролер `"Home"`, който се намира във файла `"HomeController.cs"`. След формата се отпечатва съдържанието на `ViewBag.Stars`. Кодът, който ще се съдържа в него, ще бъде динамично генериран от контролера `HTML` с поредица от звездички.
 
 Добавете метод `"DrawRatings"` в контролера `"HomeController"`. Отворете файла `Controllers/HomeController.cs` и добавете следния код:
 
-![Image not found](assets/chapter-6-images/Drawratings-method.png)
+![Image not found](/assets/chapter-6-images/Drawratings-method.png)
 
 Горният код взима въведеното число `rating`, прави малко пресмятания и изчислява броя **пълни звездички**, броя **празни звездички** и броя **половинки звездички**, след което генерира HTML код, който нарежда няколко картинки със звездички една след друга, за да сглоби от тях картинката с рейтинга. Подготвеният HTML код се записва във `ViewBag.Stars` за визуализация от изгледа `Index.cshtml`. Допълнително се запазва и изпратеният рейтинг (като число) във `ViewBag.Rating`, за да се зададе в полето за рейтинг в изгледа. За да се оеринтирате по-добре в проекта, може да си помогнете с картинката от Visual Studio по-долу:
 
-![Image not found](assets/chapter-6-images/HomeController-picture.png)
+![Image not found](/assets/chapter-6-images/HomeController-picture.png)
 
 От [Solution Explorer] направете папка **images** в проекта:
   
-![Image not found](assets/chapter-6-images/Creating-folder.png)
+![Image not found](/assets/chapter-6-images/Creating-folder.png)
 
 Сега добавете картинките със звездичките (те са част от заданието за домашно). Копирайте ги от Windows Explorer и ги поставете в папката **images** в [Solution Explorer] във Visual Studio с copy/paste.
 
-![Image not found](assets/chapter-6-images/Adding-images.png)
+![Image not found](/assets/chapter-6-images/Adding-images.png)
 
 Стартирайте проекта с [Ctrl+F5] и му се порадвайте
 
-![Image not found](assets/chapter-6-images/project.png)
+![Image not found](/assets/chapter-6-images/project.png)
 
 ## Какво научихме от тази глава?
 
