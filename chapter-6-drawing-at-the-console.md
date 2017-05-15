@@ -300,11 +300,9 @@ int result = (int)Math.Ceiling(3 / 2f);
 * Започваме с цикъл от 0 до n (изключено).
 * Отпечатваме на конзолата: `|` + `*` (**`n - 2`** на брой пъти) + `|`.
 
-![](/assets/chapter-6-images/house/base-printing.PNG)
+![](/assets/chapter-6-images/house/base-printing.png)
 
 Ако всичко сме написали както трябва, задачата ни е решена.
-
-![](/assets/chapter-6-images/house/final-output.PNG)
 
 #### Тестване в Judge системата
 
