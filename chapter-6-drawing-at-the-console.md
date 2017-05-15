@@ -34,8 +34,7 @@ for (var i = 1; i <= 10; i++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/155#0](https://judge.softuni.bg/Contests/Practice/Index/155#0)
-//fix link
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#0](https://judge.softuni.bg/Contests/Practice/Index/512#0)
 
 ### Пример: Правоъгълник от N x N звездички
 
@@ -64,7 +63,7 @@ for (var i = 1; i <= n; i++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#1
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#1](https://judge.softuni.bg/Contests/Practice/Index/512#1)
 
 ## Вложени цикли
 
@@ -106,7 +105,7 @@ for (var r = 1; r <= n; r++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#2
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#2](https://judge.softuni.bg/Contests/Practice/Index/512#2)
 
 ### Пример: Триъгълник от долари
 
@@ -139,7 +138,7 @@ for (var row = 1; row <= n; row++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#3
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#3](https://judge.softuni.bg/Contests/Practice/Index/512#3)
 
 ### Пример: Квадратна рамка
 
@@ -176,7 +175,7 @@ for (int row = 0; row < n - 2; row++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#4
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#4](https://judge.softuni.bg/Contests/Practice/Index/512#4)
 
 ### Пример: Ромбче от звездички
 
@@ -216,7 +215,7 @@ for (var row = 1; row <= n; row++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#5
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#5](https://judge.softuni.bg/Contests/Practice/Index/512#5)
 
 ### Пример: Коледна елха
 
@@ -253,7 +252,7 @@ for (int i = 0; i <= n; i++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#6
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#6](https://judge.softuni.bg/Contests/Practice/Index/512#6)
 
 ## Чертане на по-сложни фигури
 
@@ -309,7 +308,7 @@ for (int i = 0; i < n - 2; i++)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#7
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#7](https://judge.softuni.bg/Contests/Practice/Index/512#7)
 
 ### Пример: Къщичка
 
@@ -402,7 +401,7 @@ int result = (int)Math.Ceiling(3 / 2f);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#8
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#8](https://judge.softuni.bg/Contests/Practice/Index/512#8)
 
 ### Пример: Диамант
 
@@ -484,7 +483,7 @@ int result = (int)Math.Ceiling(3 / 2f);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#9
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#9](https://judge.softuni.bg/Contests/Practice/Index/512#9)
 
 ## Упражнения: чертане на фигурки в уеб среда
 
