@@ -189,7 +189,7 @@ for (int row = 0; row < n - 2; row++)
 
 |Вход|Изход|Вход|Изход|
 |---|---|---|---|
-|3|<code>&nbsp;&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;\*&nbsp;\*&nbsp;</code><br><code>\*&nbsp;\*&nbsp;\*</code><br><code>&nbsp;\*&nbsp;\*&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;&nbsp;</code>|4|<code>&nbsp;&nbsp;&nbsp;\*&nbsp;&nbsp;&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;\*&nbsp;\*&nbsp;\*&nbsp;</code><br><code>\*&nbsp;\*&nbsp;\*&nbsp;\*</code><br><code>&nbsp;\*&nbsp;\*&nbsp;\*&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;&nbsp;&nbsp;\*&nbsp;&nbsp;&nbsp;</code>|
+|3|<code>&nbsp;&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;\*&nbsp;\*&nbsp;</code><br><code>\*&nbsp;\*&nbsp;\*</code><br><code>&nbsp;\*&nbsp;\*&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;&nbsp;</code>|4|<code>&nbsp;&nbsp;&nbsp;\*&nbsp;&#124;&nbsp;\*&nbsp;&nbsp;&nbsp;</code><br><code>&nbsp;&nbsp;\*\*&nbsp;&#124;&nbsp;\*\*&nbsp;&nbsp;</code><br><code>&nbsp;\*\*\*&nbsp;&#124;&nbsp;\*\*\*&nbsp;</code><br><code>\*\*\*\*&nbsp;&#124;&nbsp;\*\*\*\*</code><br>|
 
 #### Насоки и подсказки
 
@@ -213,7 +213,7 @@ for (var row = 1; row <= n; row++)
 ```
 //TODO: image
 
-###№ Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/155#5
 
@@ -221,37 +221,15 @@ for (var row = 1; row <= n; row++)
 
 Да се напише програма, която въвежда число **n** (1 ≤ n ≤ 100) и печата коледна елха с височина **n+1**.
 
-N = 1
-<pre>
-  |
-* | *
-</pre>
+|Вход|Изход|Вход|Изход|
+|---|---|---|---|
+|1|<code>&nbsp;&nbsp;&#124;&nbsp;&nbsp;</code><br><code>\*&nbsp;&#124;&nbsp;\*</code>|2|<code>&nbsp;&nbsp;&nbsp;&#124;&nbsp;&nbsp;&nbsp;</code><br><code>&nbsp;\*&nbsp;&#124;&nbsp;\*&nbsp;</code><br><code>\*\*&nbsp;&#124;&nbsp;\*\*</code>|
 
-N = 2
-<pre>
-   |
- * | *
-** | **
-</pre>
+|Вход|Изход|Вход|Изход|
+|---|---|---|---|
+|3|<code>&nbsp;&nbsp;&nbsp;&nbsp;&#124;&nbsp;&nbsp;&nbsp;&nbsp;</code><br><code>&nbsp;&nbsp;\*&nbsp;&#124;&nbsp;\*&nbsp;&nbsp;</code><br><code>&nbsp;\*\*&nbsp;&#124;&nbsp;\*\*&nbsp;</code><br><code>\*\*\*&nbsp;&#124;&nbsp;\*\*\*</code>|4|<code>&nbsp;&nbsp;&nbsp;&#124;&nbsp;&nbsp;&nbsp;</code><br><code>&nbsp;\*&nbsp;&#124;&nbsp;\*&nbsp;</code><br><code>\*\*&nbsp;&#124;&nbsp;\*\*</code><br><code>\*\*\*&nbsp;&#124;&nbsp;\*\*\*</code><br>|
 
-N = 3
-<pre>
-    |
-  * | *
- ** | **
-*** | ***
-</pre>
-
-N = 4
-<pre>
-     |
-   * | *
-  ** | **
- *** | ***
-**** | ****
-</pre>
-
-### Насоки и подсказки
+#### Насоки и подсказки
 
 //TODO: Да се добавят обяснения.
 
