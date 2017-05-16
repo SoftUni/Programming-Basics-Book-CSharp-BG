@@ -37,11 +37,6 @@
 |---|---|---|---|---|---|
 |2|<code>\*\*</code><br><code>\*\*</code>|3|<code>\*\*\*</code><br><code>\*\*\*</code><br><code>\*\*\*</code>|4|<code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code>|
 
-|Вход|Изход|
-|---|---|
-|4|<code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code><br><code>\*\*\*\*</code>|
-
-
 #### Насоки и подсказки
 
 ![](/assets/chapter-6-images/02.Rectangle-of-N-x-N-stars-03.png)
