@@ -1,7 +1,7 @@
 # Summary
 
 * [Книга "Основи на програмирането"](README.md)
-* [0. Предговор](chapter-0-preface.md)
+* [Предговор](chapter-0-preface.md)
 * [1. Първи стъпки в програмирането](chapter-1-first-steps-in-programming.md)
 * [2.1. Прости пресмятания](chapter-2-simple-calculations.md)
 * [2.2. Прости пресмятания - изпитни задачи](/chapter-2-simple-calculations-exam-problems.md#simple-calculations)
