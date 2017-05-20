@@ -8,3 +8,14 @@ code {
 	padding: 0.2em 0em;
 	border-radius: 0.2em;
 }
+
+pre {
+	padding: 0.4em 0.8em;
+	border-radius: 0.2em;
+	line-height: 1.2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0.7em;
+    margin-bottom: .3em;
+}
