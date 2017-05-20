@@ -201,7 +201,7 @@
 
 ![](/assets/exam-prep-1-images/exam-prep-point-on-line-7.png)
 
-Накрая изкарваме **разстоянието**, намерено преди това.
+Накрая принтираме **разстоянието**, намерено преди това.
 
 ![](/assets/exam-prep-1-images/exam-prep-point-on-line-8.png)
 
