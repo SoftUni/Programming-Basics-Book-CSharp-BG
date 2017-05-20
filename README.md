@@ -2,7 +2,7 @@
 
 Книгата "**Основи на програмирането**" запознава читателите с писането на **програмен код** на начално ниво с езика **C\#**.
 
-<img src="/assets/CSharp-Programming-Basics-Book-Cover.jpg" alt="Книга основи на програмирането със C# -  корица" style="float:right" />
+<img src="/assets/CSharp-Programming-Basics-Book-Cover.jpg" alt="Книга основи на програмирането със C# - корица" style="float:right; width:50%" />
 
 * [Предговор](chapter-0-preface.md)
 * [1. Първи стъпки в програмирането](chapter-1-first-steps-in-programming.md)
