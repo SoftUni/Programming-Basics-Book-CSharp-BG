@@ -19,4 +19,3 @@
 * [9.2. Задачи за шампиони \(част II\)](chapter-9-problems-for-champions-part-2.md)
 * [10. Хитрости и хакове](chapter-10-tricks-and-hacks.md)
 * [Заключение](chapter-11-conclusion.md)
-
