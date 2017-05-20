@@ -1,5 +1,3 @@
-# Summary
-
 * [Книга "Основи на програмирането"](README.md)
 * [Предговор](chapter-0-preface.md)
 * [1. Първи стъпки в програмирането](chapter-1-first-steps-in-programming.md)
