@@ -3,3 +3,8 @@
 .readme-book-cover-image {
 	display: none;
 }
+
+.markdown-section code {
+	padding: 0.2em 0em;
+	border-radius: 0.2em;
+}
