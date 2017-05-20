@@ -177,7 +177,7 @@
 
 ## Лиценз
 
-Книгата се разпространява **безплатно** в електронен формат под отворен лиценз [CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/). На хартия книгата се издава и разпространява от [СофтУни](https://softuni.bg/contacts). Сорс кодът на книгата може да се намери в GitHub: https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG.
+Книгата се разпространява **безплатно** в електронен формат под отворен лиценз **[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)**. Книгата се издава и разпространява **на хартия** от [СофтУни](https://softuni.bg/contacts). **Сорс кодът** на книгата може да се намери в GitHub: https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG.
 
 ## Докладване на грешки
 
