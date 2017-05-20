@@ -3,4 +3,11 @@
 .readme-book-cover-image {
 	float: right;
 	margin-left: 10px;
+	width: 50%;
+}
+
+@media screen and (min-width 480px) {
+	.readme-book-cover-image {
+		float: none;		
+	}
 }
