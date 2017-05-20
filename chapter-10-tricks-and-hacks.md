@@ -144,7 +144,7 @@ for (int i = 0; i < 5; i++)
 
 ![](/assets/chapter-10-images/Snippet_CW.jpg)
 
-В тази подглава ще покажем как сами да си **направим собствен шаблон**. Ще разгледаме **как се прави code snippet** за **`Console.ReadLine()`**. Като за начало ще си създадем нов празен проект и ще отидем на [**Tools -> Code Snippet Manager**], както е показано на снимката:
+В тази подглава ще покажем как сами да си **направим собствен шаблон**. Ще разгледаме **как се прави code snippet** за **`Console.ReadLine()`**. Като за начало ще си създадем нов празен проект и ще отидем на [**Tools -> Code Snippets Manager**], както е показано на снимката:
 
 ![](/assets/chapter-10-images/Tools_CodeSnippetsManager.jpg) 
 
