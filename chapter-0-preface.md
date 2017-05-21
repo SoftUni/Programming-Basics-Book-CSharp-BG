@@ -197,7 +197,7 @@
 
 <p align="center"><strong><a href="https://facebook.com/IntroProgrammingBooks/">fb.com/IntroProgrammingBooks</a></strong></p>
 
-## Лиценз
+## Лиценз и разпространение
 
 Книгата се разпространява **безплатно** в електронен формат под отворен лиценз **[CC-BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
 
