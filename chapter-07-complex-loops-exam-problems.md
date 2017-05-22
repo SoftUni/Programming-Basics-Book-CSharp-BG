@@ -191,7 +191,7 @@
 Съответно, ако **условието** на проверката дали числото съвпада със "спиращото" число върне резултат **`false`**, по задание нашата програма трябва да **продължи да печата**. Това всъщност покрива и **четвъртата и последна** част от нашата програма.
 
 #### Tестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#3](https://judge.softuni.bg/Contests/Practice/Index/515#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#2](https://judge.softuni.bg/Contests/Practice/Index/515#2)
 
 ### Задача: Специални числа
 
@@ -227,7 +227,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#2](https://judge.softuni.bg/Contests/Practice/Index/515#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#3](https://judge.softuni.bg/Contests/Practice/Index/515#3)
 
 
 ### Задача: Цифри
