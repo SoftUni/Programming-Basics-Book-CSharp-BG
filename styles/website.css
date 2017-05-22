@@ -1,0 +1,29 @@
+/* This CSS code is applied for browser-only rendering in HTML format */
+
+.readme-book-cover-image {
+	float: right;
+	margin-left: 10px;
+	width: 50%;
+}
+
+@media screen and (min-width 480px) {
+	.readme-book-cover-image {
+		float: none;		
+	}
+}
+
+.markdown-section code {
+	padding: 0.2em 0em;
+	border-radius: 0.2em;
+}
+
+.markdown-section pre {
+	padding: 0.4em 0.8em;
+	border-radius: 0.2em;
+	line-height: 1.2em;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+    margin-top: 0.7em;
+    margin-bottom: .3em;
+}
