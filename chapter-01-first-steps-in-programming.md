@@ -135,7 +135,7 @@
 
 Горната програма може да тествате тук: [https://judge.softuni.bg/Contests/Practice/Index/503#0](https://judge.softuni.bg/Contests/Practice/Index/503#0)
 
-Поставяме целия код на програмата в черното поле и избираме **C# code**, както е на показано тук:
+Поставяме целия код на програмата в черното поле и избираме **C# code**, както е показано тук:
 
 ![](/assets/chapter-1-images/01.Hello-csharp-06.png)
 
