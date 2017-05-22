@@ -286,7 +286,7 @@ switch (селектор)
 
 | Вход | Изход | Вход | Изход |
 |---|---|---|---|
-|123<br>12<br>/|123 / 12 = 10.25|112<br>0<br>/|Cannot divide 122 by zero|
+|123<br>12<br>/|123 / 12 = 10.25|112<br>0<br>/|Cannot divide 112 by zero|
 |10<br>3<br>%|10 % 3 = 1|10<br>0<br>%|Cannot divide 10 by zero|
 
 | Вход | Изход |
