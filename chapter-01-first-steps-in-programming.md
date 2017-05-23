@@ -410,7 +410,7 @@ Console.WriteLine(euro);
 
 ![](assets/chapter-1-images/08.Numbers-sum-web-04.png)
 
-Изтриваме стария код от **файла Index.chtml** и пишем следния код: 
+Изтриваме стария код от **файла `Index.cshtml`** и пишем следния код: 
 
 ![](assets/chapter-1-images/08.Numbers-sum-web-05.png)
 
