@@ -31,7 +31,7 @@
 
 За програмиране на **езика C#** най-често се ползва средата за разработка **Visual Studio**, която се разработва и разпространява безплатно от Microsoft и може да се изтегли от: https://www.visualstudio.com/downloads/. Алтернативи на Visual Studio са **Rider** (https://www.jetbrains.com/rider/) и **MonoDevelop** / **Xamarin Studio** (http://www.monodevelop.com) и **SharpDevelop** (http://www.icsharpcode.net/OpenSource/SD/). В настоящата книга ще използваме средата за разработка Visual Studio.
 
-### Езици за програмиране и среди за изпълнение
+### Среди за изпълнение (Runtime Environments)
 
 Програмата в своята същност е **набор от инструкции**, които карат компютъра да свърши определена задача. Те се въвеждат от програмиста и се **изпълняват безусловно от машината**.
 
