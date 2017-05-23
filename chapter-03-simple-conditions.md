@@ -27,7 +27,7 @@
 
 ### Пример: 
 
-![code](assets/chapter-3-images/00.Comparing-numbers-01.png)
+![](assets/chapter-3-images/00.Comparing-numbers-01.png)
 
 ### Оператори за сравнение
 
@@ -57,7 +57,7 @@
 
 ### Пример:
 
-![code](assets/chapter-3-images/00.Comparing-numbers-02.png)
+![](assets/chapter-3-images/00.Comparing-numbers-02.png)
 
 ## Прости проверки
 
@@ -70,11 +70,11 @@ if (булев израз)
 }
 ```
 
-### Пример: Отлична оценка
+### Пример: отлична оценка
 
 Въвеждаме оценка в конзолата и проверяваме дали тя е отлична (**`≥ 5.50`**).
 
-![code](assets/chapter-3-images/01.Еxcellent-result-01.png)
+![](assets/chapter-3-images/01.Еxcellent-result-01.png)
 
 #### Тестване в Judge системата
 
@@ -96,11 +96,11 @@ else
 
 ```
 
-### Пример: Отлична оценка или не
+### Пример: отлична оценка или не
 
 Подобно на горния пример, въвеждаме оценка, проверяваме дали е отлична, но **изписваме резултат и в двата случая**.
 
-![code](assets/chapter-3-images/02.Excellent-or-not-01.png)
+![](assets/chapter-3-images/02.Excellent-or-not-01.png)
 
 #### Тестване в Judge системата
 
@@ -116,39 +116,39 @@ else
 
 Ето един пример, в който изпускането на къдравите скоби води до объркване:
 
-![code](assets/chapter-3-images/00.Brackets-tip-01.png)
+![](assets/chapter-3-images/00.Brackets-tip-01.png)
 
 Изпълнението на горния код ще изведе следния резултат на конзолата:
 
-![code](assets/chapter-3-images/00.Brackets-tip-03.png)
+![](assets/chapter-3-images/00.Brackets-tip-03.png)
 
 С къдрави скоби:
 
-![code](assets/chapter-3-images/00.Brackets-tip-02.png)
+![](assets/chapter-3-images/00.Brackets-tip-02.png)
 
 На конзолата ще бъде отпечатано следното:
 
-![code](assets/chapter-3-images/00.Brackets-tip-04.png)
+![](assets/chapter-3-images/00.Brackets-tip-04.png)
 
-### Пример: Четно или нечетно
+### Пример: четно или нечетно
 
 Да се напише програма, която проверява, дали дадено цяло число е **четно** (even) или **нечетно** (odd).
 
 Задачата можем да решим с помощта на една **`if-else`** конструкция и оператора **`%`**, който връща **остатък при деление** на две числа.
 
-![code](assets/chapter-3-images/03.Even-or-odd-02.png)
+![](assets/chapter-3-images/03.Even-or-odd-02.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2)
 
-### Пример: По-голямото число
+### Пример: по-голямото число
 
 Да се напише програма, която чете две цели числа и извежда по-голямото от тях.
 
 Първата ни задача е да **прочетем** двете числа. След което, чрез проста **`if-else`** конструкция, в съчетание с **оператора за по-голямо** (**`>`**), да направим проверка. Част от кода е замъглена умишлено, за да изпробваме наученото до момента.
 
-![code](assets/chapter-3-images/04.Greater-number-02.png)
+![](assets/chapter-3-images/04.Greater-number-02.png)
 
 #### Тестване в Judge системата
 
@@ -160,7 +160,7 @@ else
 
 В примерa по-долу, на последния ред, на който се опитваме да отпечатаме променливата **`salary`**, която е дефинирана в **`if` конструкцията**, ще получим **грешка**, защото нямаме достъп до нея.
 
-![code](assets/chapter-3-images/00.Variable-scope-01.png)
+![](assets/chapter-3-images/00.Variable-scope-01.png)
 
 ## Серии от проверки
 
@@ -186,7 +186,7 @@ else
 }
 ```
 
-### Пример: От 1 до 9 на английски
+### Пример: от 1 до 9 на английски
 
 Да се изпишат с английски текст числата от 1 до 9.
 
@@ -196,9 +196,9 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4)
 
-## Упражнения: Прости проверки
+## Упражнения: прости проверки
 
-### Задача: Бонус точки 
+### Задача: бонус точки 
 
 Дадено е **цяло число** – брой точки. Върху него се начисляват **бонус точки** по правилата, описани по-долу. Да се напише програма, която пресмята **бонус точките** за това число и **общия брой точки** с бонусите.
 
@@ -222,17 +222,17 @@ else
 
 Основните и допълнителните бонус точки можем да изчислим с поредица от няколко **`if-else-if-else`** проверки. Като за **основните бонус точки имаме 3 случая** (когато въведеното число е до 100, между 100 и 1000 и по-голямо от 1000), а за **допълнителните бонус точки - още 2 случая** (когато числото е четно и нечетно).
 
-![code](assets/chapter-3-images/06.Bonus-score-01.png)
+![](assets/chapter-3-images/06.Bonus-score-01.png)
 
 Ето как би могло да изглежда решението на задачата:
 
-![code](assets/chapter-3-images/06.Bonus-score-02.png)
+![](assets/chapter-3-images/06.Bonus-score-02.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#5](https://judge.softuni.bg/Contests/Practice/Index/506#5)
 
-### Задача: Сумиране на секунди
+### Задача: сумиране на секунди
 
 Трима спортни състезатели финишират за някакъв **брой секунди** (между **1** и **50**). Да се напише програма, която въвежда времената на състезателите и пресмята **сумарното им време** във формат "минути:секунди". Секундите да се изведат с **водеща нула** (2 -> "02", 7 -> "07", 35 -> "35").
 
@@ -253,13 +253,13 @@ else
 - Ако резултатът е между 120 и 179, отпечатваме 2 минути + изчислените секунди минус 120.
 - Ако секундите са по-малко от 10, изваждаме водеща нула преди тях.
 
-![code](assets/chapter-3-images/07.Sum-seconds-01.png)
+![](assets/chapter-3-images/07.Sum-seconds-01.png)
 
 ### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#6](https://judge.softuni.bg/Contests/Practice/Index/506#6)
 
-### Задача: Конвертор за мерни единици
+### Задача: конвертор за мерни единици
 
 Да се напише програма, която **преобразува разстояние** между следните **8 мерни единици**: **`m`, `mm`, `cm`, `mi`, `in`, `km`, `ft`, `yd`**. Използвайте съответствията от таблицата по-долу:
 
@@ -291,7 +291,7 @@ else
 
 Прочитаме си входните данни, като към прочитането на мерните единици можем да добавим функцията **`ToLower()`**, която ще направи всички букви малки. Както виждаме от таблицата в условието, можем да конвертираме само **между метри и някаква друга мерна единица**. Следователно трябва първо да изчислим числото за преобразуване в метри. Затова трябва да направим набор от проверки, за да определим каква е входната мерна единица, а след това и за изходната мерна единица.
 
-![code](assets/chapter-3-images/08.Metric-converter-01.png)
+![](assets/chapter-3-images/08.Metric-converter-01.png)
 
 #### Тестване в Judge системата
 
@@ -303,17 +303,17 @@ else
 
 Това е процесът на „**закачане**“ към изпълнението на програмата, който ни позволява да проследим поетапно процеса на изпълнение. Можем да следим **ред по ред** какво се случва с нашата програма, какъв път следва, какви стойности имат дефинираните променливи и много други неща, които ни позволяват да откриваме грешки (**бъгове**).
 
-![code](assets/chapter-3-images/00.Debugging-01.png)
+![](assets/chapter-3-images/00.Debugging-01.png)
 
 ### Дебъгване във Visual Studio
 
 Чрез натискане на бутона [**F10**], стартираме програмата в **debug режим**. Преминаваме към **следващия ред** отново с [**F10**]. 
 
-![code](assets/chapter-3-images/00.Debugging-02.png)
+![](assets/chapter-3-images/00.Debugging-02.png)
 
 Чрез [**F9**] създаваме стопери – така наречените **breakpoints**, до които можем да стигнем директно използвайки [**F5**] при стартирането на програмата.
 
-## Упражнения: Прости проверки
+## Упражнения: прости проверки
 
 Нека затвърдим наученото в тази глава с няколко задачи.
 
@@ -323,17 +323,17 @@ else
 
 Стартираме Visual Studio. Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
 
-![code](assets/chapter-3-images/00.Visual-studio-01.png)
+![](assets/chapter-3-images/00.Visual-studio-01.png)
 
 Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Conditions”:  
 
-![code](assets/chapter-3-images/00.Visual-studio-02.png)
+![](assets/chapter-3-images/00.Visual-studio-02.png)
 
 Сега имаме създаден празен Visual Studio Solution (без проекти в него):  
 
-![code](assets/chapter-3-images/00.Visual-studio-03.png)
+![](assets/chapter-3-images/00.Visual-studio-03.png)
 
-### Задача: Проверка за отлична оценка
+### Задача: проверка за отлична оценка
 
 Първата задача от тази тема е, да се напише **конзолна програма**, която **въвежда оценка** (десетично число) и отпечатва “**Excellent!**”, ако оценката е **5.50** или по-висока.
 
@@ -350,33 +350,33 @@ else
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликваме с десен бутон на мишката върху **Solution 'Simple-Conditions'**. Избираме [**Add**] -> [**New Project**]:  
 
- ![code](assets/chapter-3-images/09.Excellent-result-01.png)
+ ![](assets/chapter-3-images/09.Excellent-result-01.png)
 
 Ще се отвори диалогов прозорец за избор на тип проект за създаване. Избираме **C# конзолно приложение** и задаваме име, например “Excellent-Result”:  
 
- ![code](assets/chapter-3-images/09.Excellent-result-02.png)
+ ![](assets/chapter-3-images/09.Excellent-result-02.png)
  
 Вече имаме solution с едно конзолно приложение в него. Остава да напишем кода за решаване на задачата.
 
 За целта отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
- ![code](assets/chapter-3-images/09.Excellent-result-03.png)
+ ![](assets/chapter-3-images/09.Excellent-result-03.png)
 
 **Стартираме** програмата с [**Ctrl+F5**], за да я **тестваме** с различни входни стойности:
 
- ![code](assets/chapter-3-images/09.Excellent-result-04.png)
+ ![](assets/chapter-3-images/09.Excellent-result-04.png)
 
- ![code](assets/chapter-3-images/09.Excellent-result-05.png)
+ ![](assets/chapter-3-images/09.Excellent-result-05.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0)
 
- ![code](assets/chapter-3-images/09.Excellent-result-06.png) 
+ ![](assets/chapter-3-images/09.Excellent-result-06.png) 
 
- ![code](assets/chapter-3-images/09.Excellent-result-07.png)
+ ![](assets/chapter-3-images/09.Excellent-result-07.png)
 
-### Задача: Отлична оценка или не
+### Задача: отлична оценка или не
 
 Следващата задача от тази тема е да се напише **конзолна програма**, която **въвежда оценка** (десетично число) и отпечатва “**Excellent!**”, ако оценката е **5.50** или по-висока, или “**Not excellent.**” в противен случай.
 
@@ -399,28 +399,28 @@ else
  
 Следва да **напишем кода** на програмата. Може да си помогнем с примерния код от картинката:  
 
- ![code](assets/chapter-3-images/02.Excellent-or-not-01.png)
+ ![](assets/chapter-3-images/02.Excellent-or-not-01.png)
 
 Включваме режим на **автоматично превключване към текущия проект** като кликнем върху главния solution с десния бутон на мишката и изберем [**Set StartUp Projects…**]:  
 
- ![code](assets/chapter-3-images/02.Excellent-or-not-02.png)
+ ![](assets/chapter-3-images/02.Excellent-or-not-02.png)
 
  Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current selection**]:
 
- ![code](assets/chapter-3-images/02.Excellent-or-not-03.png)
+ ![](assets/chapter-3-images/02.Excellent-or-not-03.png)
 
 Сега **стартираме програмата**, както обикновено с [**Ctrl+F5**] и я тестваме дали работи коректно:
 
- ![code](assets/chapter-3-images/02.Excellent-or-not-04.png)
- ![code](assets/chapter-3-images/02.Excellent-or-not-05.png)
+ ![](assets/chapter-3-images/02.Excellent-or-not-04.png)
+ ![](assets/chapter-3-images/02.Excellent-or-not-05.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1)
 
- ![code](assets/chapter-3-images/02.Excellent-or-not-06.png)
+ ![](assets/chapter-3-images/02.Excellent-or-not-06.png)
 
-### Задача: Четно или нечетно
+### Задача: четно или нечетно
 
 Да се напише програма, която въвежда **цяло число** и печата дали е **четно** или **нечетно**.
 
@@ -439,13 +439,13 @@ else
 
 Остава да **стартираме** програмата с [**Ctrl+F5**] и да я тестваме:  
 
-![code](assets/chapter-3-images/03.Even-or-odd-01.png)
+![](assets/chapter-3-images/03.Even-or-odd-01.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2)
 
-### Задача: Намиране на по-голямото число
+### Задача: намиране на по-голямото число
 
 Да се напише програма, която въвежда **две цели числа** и отпечатва по-голямото от двете.
 
@@ -462,17 +462,17 @@ else
 
 Както обикновено, първо трябва да добавим **нов C# конзолен проект** в съществуващия solution. За кода на програмата ни е необходима единична **`if-else`** конструкция. Може да си помогнете частично с кода от картинката, който е умишлено замъглен, за да помислите как да го допишете сами:  
 
-![code](assets/chapter-3-images/04.Greater-number-02.png)
+![](assets/chapter-3-images/04.Greater-number-02.png)
 
 След като сме готови с имплементацията на решението, **стартираме** програмата с [**Ctrl+F5**] и я тестваме:
 
-![code](assets/chapter-3-images/04.Greater-number-01.png)
+![](assets/chapter-3-images/04.Greater-number-01.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3)
 
-### Задача: Изписване на число до 9 с думи
+### Задача: изписване на число до 9 с думи
 
 Да се напише програма, която въвежда **цяло число в диапазона** [**0…9**] и го **изписва с думи** на английски език. Ако числото е извън диапазона, изписва “**number too big**”.
 
@@ -493,7 +493,7 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4)
 
-### Задача: Познай паролата
+### Задача: познай паролата
 
 Да се напише програма, която **въвежда парола** (един ред с произволен текст) и проверява дали въведеното **съвпада** с фразата “**s3cr3t!P@ssw0rd**”. При съответствие да се изведе “**Welcome**”, а при несъответствие да се изведе “**Wrong password!**”. 
 
@@ -513,7 +513,7 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#8](https://judge.softuni.bg/Contests/Practice/Index/506#8)
 
-### Задача: Число от 100 до 200
+### Задача: число от 100 до 200
 
 Да се напише програма, която **въвежда цяло число** и проверява дали е **под 100**, **между 100 и 200** или **над 200**. Да се отпечатат съответно съобщения, като в примерите по-долу.
 
@@ -530,7 +530,7 @@ else
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#9](https://judge.softuni.bg/Contests/Practice/Index/506#9)
 
 
-### Задача: Еднакви думи
+### Задача: еднакви думи
 
 Да се напише програма, която **въвежда две думи** и проверява дали са еднакви. Да не се прави разлика между главни и малки букви. Да се изведе “**yes**” или “**no**”. 
 
@@ -552,7 +552,7 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#10](https://judge.softuni.bg/Contests/Practice/Index/506#10)
 
-### Задача: Информация за скоростта
+### Задача: информация за скоростта
 
 Да се напише програма, която **въвежда скорост** (десетично число) и отпечатва **информация за скоростта**. При скорост **до 10** (включително), отпечатайте “**slow**”. При скорост **над 10** и **до 50**, отпечатайте “**average**”. При скорост **над 50 и до 150**, отпечатайте “**fast**”. При скорост **над 150 и до 1000**, отпечатайте “**ultra fast**”. При по-висока скорост, отпечатайте “**extremely fast**”.
 
@@ -571,7 +571,7 @@ else
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#11](https://judge.softuni.bg/Contests/Practice/Index/506#11)
 
 
-### Задача: Лица на фигури
+### Задача: лица на фигури
 
 Да се напише програма, която **въвежда размерите на геометрична фигура** и **пресмята лицето й**. Фигурите са четири вида: квадрат (**square**), правоъгълник (**rectangle**), кръг (**circle**) и триъгълник (**triangle**). На първия ред на входа се чете вида на фигурата (`square`, `rectangle`, `circle`, `triangle`). Ако фигурата е **квадрат**, на следващия ред се чете едно число – дължина на страната му. Ако фигурата е **правоъгълник**, на следващите два реда се четат две числа – дължините на страните му. Ако фигурата е **кръг**, на следващия ред се чете едно число – радиусa на кръга. Ако фигурата е **триъгълник**, на следващите два реда се четат две числа – дължината на страната му и дължината на височината към нея. Резултатът да се закръгли до **3 цифри след десетичния знак**. 
 
@@ -588,7 +588,7 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#12](https://judge.softuni.bg/Contests/Practice/Index/506#12)
 
-### Задача: Време + 15 минути
+### Задача: време + 15 минути
 
 Да се напише програма, която **въвежда час и минути** от 24-часово денонощие и изчислява колко ще е **часът след 15 минути**. Резултатът да се отпечата във формат **`hh:mm`**. Часовете винаги са между 0 и 23, а минутите винаги са между 0 и 59. Часовете се изписват с една или две цифри. Минутите се изписват винаги с по две цифри и с **водеща нула**, когато е необходимо.
 
@@ -610,7 +610,7 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#13](https://judge.softuni.bg/Contests/Practice/Index/506#13)
 
-### Задача: Еднакви 3 числа
+### Задача: еднакви 3 числа
 
 Да се напише програма, в която се въвеждат 3 числа и се отпечатва дали те са еднакви (yes / no).
 
@@ -626,7 +626,7 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#14](https://judge.softuni.bg/Contests/Practice/Index/506#14)
 
-### Задача: * Изписване на число от 0 до 100 с думи
+### Задача: * изписване на число от 0 до 100 с думи
 
 Да се напише програма, която превръща число в диапазона [**0…100**] в текст. 
 
@@ -642,15 +642,15 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#15](https://judge.softuni.bg/Contests/Practice/Index/506#15)
 
-## Графични и Web приложения: Конвертор за валути
+## Графични и web приложения: конвертор за валути
 
 Нека разгледаме как да създадем графично (**GUI**) приложение за **конвертиране на валути**. Приложението ще изглежда приблизително като на картинката по-долу:  
 
-![code](assets/chapter-3-images/14.Converter-01.png)
+![](assets/chapter-3-images/14.Converter-01.png)
 
 Този път създаваме нов **Windows Forms Application** с име “Currency-Converter”:
 
-![code](assets/chapter-3-images/14.Converter-02.png)
+![](assets/chapter-3-images/14.Converter-02.png)
 
 **Нареждаме следните контроли** във формата: 
 * Една кутийка за въвеждане на число (**`NumericUpDown`**)
@@ -660,11 +660,11 @@ else
 
 Нагласяме **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:
  
-![code](assets/chapter-3-images/14.Converter-03.png)
+![](assets/chapter-3-images/14.Converter-03.png)
  
 Задаваме следните **настройки на контролите**:
 
-* **За главната форма** (**Form**), която съдържа всички контроли:
+* **За главната форма** (**`Form`**), която съдържа всички контроли:
   * **`(name)`** = **`FormConverter`**
   * **`Text`** = "**`Currency Converter`**"
   * **`Font.Size`** = **`12`**
@@ -703,7 +703,7 @@ else
 
 * Събитието **`ValueChanged`** на контролата за въвеждане на число **`numericUpDownAmount`**: 
 
-![code](assets/chapter-3-images/14.Converter-04.png)
+![](assets/chapter-3-images/14.Converter-04.png)
 
 * Събитието **`Load`** на формата **`FormConverter`**
 * Събитието **`SelectedIndexChanged`** на падащия списък за избор на валута **`comboBoxCurrency`**
