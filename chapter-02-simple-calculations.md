@@ -82,7 +82,7 @@ Console.WriteLine(centimeters);
 
 Сега нека стартираме програмата и се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](/assets/chapter-2-images/inchesToCm.jpg)
+![](assets/chapter-2-images/inchesToCm.jpg)
 
 #### Тестване в Judge системата
 
@@ -127,7 +127,7 @@ Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
 
 Ето резултатът, който ще получим, след изпълнение на този пример:
 
-![](/assets/chapter-2-images/placeholders.jpg)
+![](assets/chapter-2-images/placeholders.jpg)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид**. **Не се допуска** да има шаблони, които да имат една и съща поредност, т.е. два или повече шаблона под номер 2. В такъв случай, вашата програма няма да се компилира. 
 
@@ -135,7 +135,9 @@ Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3)
 
-## Аритметични операции: събиране на числа (оператор **`+`**)
+## Аритметични операции
+
+### Събиране на числа (оператор **`+`**)
 
 ```csharp
 var a = 5;
@@ -143,7 +145,7 @@ var b = 7;
 var sum = a + b; // резултатът е 12
 ```
 
-## Аритметични операции: изваждане на числа (оператор **`-`**)
+### Изваждане на числа (оператор **`-`**)
 
 ```csharp
 var a = int.Parse(Console.ReadLine());
@@ -154,9 +156,9 @@ Console.WriteLine(result);
 
 Ето резултатът от изпълнението на програмата (при числа 10 и 3):
 
-![subtracting](/assets/chapter-2-images/subtracting.jpg)
+![](assets/chapter-2-images/subtracting.jpg)
 
-## Аритметични операции: умножение на числа (оператор **`*`**)
+### Умножение на числа (оператор **`*`**)
 
 ```csharp
 var a = 5;
@@ -164,7 +166,7 @@ var b = 7;
 var product = a * b; // 35
 ```
 
-## Аритметични операции: деление на числа (оператор /)
+### Деление на числа (оператор /)
 
 ```csharp
 var a = 25;
@@ -176,7 +178,7 @@ var f = a / 4.0;    // 6.25 – дробно деление. Изрично см
 var error = a / 0;  // Грешка: деление на 0
 ```
 
-## Особености при деление на числа в C#
+#### Особености при деление на числа в C#
 
 В тази секция ще обърнем внимание на някои особености.
 
@@ -317,15 +319,15 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 *	Стартираме Visual Studio.
 * Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
 
-![](/assets/chapter-2-images/problems/01newBlankSolution.png)
+![](assets/chapter-2-images/problems/01newBlankSolution.png)
 
 Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](/assets/chapter-2-images/problems/02namingTheSolution.png)
+![](assets/chapter-2-images/problems/02namingTheSolution.png)
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![](/assets/chapter-2-images/problems/03blankSolution.png)
+![](assets/chapter-2-images/problems/03blankSolution.png)
 
 Целта на този blank solution e да добавяме в него **по един проект за всяка задача** от упражненията.
 
@@ -337,7 +339,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **  Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project...**]:
 
-![](/assets/chapter-2-images/problems/02SquareArea/01newProject.png)
+![](assets/chapter-2-images/problems/02SquareArea/01newProject.png)
 
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избераме **C# конзолно приложение** с име “Square-Area”:
 
@@ -355,9 +357,9 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Тествайте решението си тук:** [https://judge.softuni.bg/Contests/Practice/Index/504#0](https://judge.softuni.bg/Contests/Practice/Index/504#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png)
+![](assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png)
 
-![](/assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png)
+![](assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png)
 
 ### Задача:	от инчове към сантиметри
 
@@ -428,7 +430,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 ![](assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_1.png)
 
-![](/assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png)
+![](assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png)
 
 #### Тестване в Judge системата
 
@@ -734,7 +736,7 @@ private void ConvertCurrency()
 
 Накрая **стартираме проектa** с [**Ctrl+F5**] и тестваме дали работи коректно.
 
-### Графично приложение: *** Хвани бутона!
+### Графично приложение: \*\*\* Хвани бутона!
 
 Създайте забавно графично приложение **„хвани бутона“**: една форма съдържа един бутон. При преместване на курсора на мишката върху бутона той се премества на случайна позиция. Така се създава усещане, че **„бутонът бяга от мишката и е трудно да се хване“**. При „хващане“ на бутона се извежда съобщение-поздрав.
 
