@@ -255,7 +255,7 @@ else
 
 ![](assets/chapter-3-images/07.Sum-seconds-01.png)
 
-### Тестване в Judge системата
+#### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#6](https://judge.softuni.bg/Contests/Practice/Index/506#6)
 
@@ -626,7 +626,7 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#14](https://judge.softuni.bg/Contests/Practice/Index/506#14)
 
-### Задача: * изписване на число от 0 до 100 с думи
+### Задача: \* изписване на число от 0 до 100 с думи
 
 Да се напише програма, която превръща число в диапазона [**0…100**] в текст. 
 
@@ -642,7 +642,9 @@ else
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#15](https://judge.softuni.bg/Contests/Practice/Index/506#15)
 
-## Графични и web приложения: конвертор за валути
+## Графични и web приложения
+
+### Задача: конвертор за валути
 
 Нека разгледаме как да създадем графично (**GUI**) приложение за **конвертиране на валути**. Приложението ще изглежда приблизително като на картинката по-долу:  
 
