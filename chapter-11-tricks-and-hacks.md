@@ -142,32 +142,32 @@ for (int i = 0; i < 5; i++)
 
 Във Visual Studiо съществуват т.нар. **шаблони с код** (code snippets), при изписването на които се генерира шаблон с код. Примерно при изписването на [**`cw` + Tab + Tab**]" се генерира кодът **`Console.WriteLine();`**:
 
-![](/assets/chapter-10-images/Snippet_CW.jpg)
+![](/assets/chapter-11-images/Snippet_CW.jpg)
 
 В тази подглава ще покажем как сами да си **направим собствен шаблон**. Ще разгледаме **как се прави code snippet** за **`Console.ReadLine()`**. Като за начало ще си създадем нов празен проект и ще отидем на [**Tools -> Code Snippets Manager**], както е показано на снимката:
 
-![](/assets/chapter-10-images/Tools_CodeSnippetsManager.jpg) 
+![](/assets/chapter-11-images/Tools_CodeSnippetsManager.jpg) 
 
 В отворилия се прозорец трябва да изберем **Language -> CSharp**, а от секцията **Locations -> Visual C#**. Там се намират всички съществуващи шаблони за езика **C#**:
 
-![](/assets/chapter-10-images/CodeSnippetsManager.jpg) 
+![](/assets/chapter-11-images/CodeSnippetsManager.jpg) 
 
 Избираме някой snippet, например **`cw`**, вземаме пътя му и го отваряме:
-![](/assets/chapter-10-images/CodeSnippet_CW.jpg) 
+![](/assets/chapter-11-images/CodeSnippet_CW.jpg) 
 
 Виждаме доста непознати неща, но няма страшно, по-нататък ще се запознаем и с тях. Сега се фокусираме върху частта **`<Title><Title>`**, **`<Shortcut><Shortcut>`** и кода между **`CDATA[]`**. Първо ще сменим заглавието, което седи в секцията **`<Title><Title>`** и вместо **`cw`**, ще напишем **`cr`**, като това ще бъде **заглавието на нашия шаблон**. След това, в секцията **`<Shortcut><Shortcut>`**, ще сменим това, което трябва да напишем за **извикването на нашия шаблон** (shortcut) от **`cw`** на **`cr`**. Накрая трябва да сменим кода в **`CDATA[]`**, от **`WriteLine`** на **`ReadLine`**: **`CDATA[$SystemConsole$.ReadLine($end$);]`**. Пожелание може да промените и секциите Description и Author. Промененият файл трябва да изглежда така:
 
-![](/assets/chapter-10-images/Snippet_CR.jpg) 
+![](/assets/chapter-11-images/Snippet_CR.jpg) 
 
 След като сме написали нашия snippet, трябва да си **запазим файла във формат** **snippName.snippet** (в нашия случай **cr.snippet**). За да вкараме shortcut комбинацията в Visual Sudio отиваме в [**Tools**] -> [**Code Snippet Manager**] -> [**Import**] и избираме **cr.snippet** файла, който създадохме:
 
-![](/assets/chapter-10-images/CodeSnippetManager_Import.jpg) 
+![](/assets/chapter-11-images/CodeSnippetManager_Import.jpg) 
 
-![](/assets/chapter-10-images/Import_NewSnippet.jpg) 
+![](/assets/chapter-11-images/Import_NewSnippet.jpg) 
 
 Вече когато напишем **`cr`** във Visual Studio, **нашият нов snippet** се появява:
 
-![](/assets/chapter-10-images/NewSnippet_Test.jpg) 
+![](/assets/chapter-11-images/NewSnippet_Test.jpg) 
 
 ## Техники за дебъгване на кода
 
@@ -194,19 +194,19 @@ static void Main(string[] args)
 
 Ще сложим стопер (breakpoint) на функцията **`Console.WriteLine(...)`**. За целта трябва да преместим курсора на реда, който печата на конзолата, и да натиснем [**F9**]. Появява се **точка на прекъсване**, където програмата ще **спре** изпълнението си:
 
-![](/assets/chapter-10-images/Debugger_BR.jpg) 
+![](/assets/chapter-11-images/Debugger_BR.jpg) 
 
 За да стартираме **програмата в режим на дебъгване**, избираме [**Debug**] -> [**Start Debugging**] или натискаме [**F5**]:
 
-![](/assets/chapter-10-images/Debugger_Menu.jpg) 
+![](/assets/chapter-11-images/Debugger_Menu.jpg) 
 
 След стартиране на програмата виждаме, че тя **спира изпълнението си** на ред 11, където сложихме стопера (breakpoint). Кодът на текущия ред се **оцветява с жълт цвят** и можем да го **изпълняваме постъпково**. За да преминем на **следващ ред** използваме клавиш [**F10**]. **Забелязваме, че кодът на текущия ред все още не е изпълнен**. **Изпълнява се, когато преминем на следващия ред**:
 
-![Debugger](/assets/chapter-10-images/Debugger_Test.jpg) 
+![Debugger](/assets/chapter-11-images/Debugger_Test.jpg) 
 
 От прозореца **Locals** можем да наблюдаваме **промените по локалните променливи**. За да отворите прозореца изберете [**Debug**] -> [**Windows**] -> [**Locals**].
 
-![Debugger](/assets/chapter-10-images/Debugger_Locals.jpg) 
+![Debugger](/assets/chapter-11-images/Debugger_Locals.jpg) 
 
 ## Справочник с хитрости
 
