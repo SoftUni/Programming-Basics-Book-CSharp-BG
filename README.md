@@ -4,8 +4,6 @@
 
 <img src="/assets/CSharp-Programming-Basics-Book-Cover.jpg" alt="Книга основи на програмирането със C# - корица" class="readme-book-cover-image" />
 
-Добавих умнотия.
-
 * [Предговор](chapter-00-preface.md)
 * [1. Първи стъпки в програмирането](chapter-01-first-steps-in-programming.md)
 * [2.1. Прости пресмятания](chapter-02-simple-calculations.md)
