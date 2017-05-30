@@ -332,7 +332,7 @@
 
 * дефиниция на понятието “turtle graphics”: [http://c2.com/cgi/wiki?TurtleGraphics](http://c2.com/cgi/wiki?TurtleGraphics)
 * статия за “turtle graphics” в Wikipedia – [https://en.wikipedia.org/wiki/Turtle_graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
-* интерактивен онлайн инструмент за чертаене с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
+* интерактивен онлайн инструмент за чертане с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
 
 Започваме, като създаваме нов **C# Windows Forms проект**:
 
