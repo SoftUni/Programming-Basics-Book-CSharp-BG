@@ -122,13 +122,15 @@ Console.WriteLine(euro);
 
 ### Пример: създаване на конзолна програма "Hello C#"
 
-Стартираме Visual Studio.
-
-Създаваме нов конзолен проект: [**File**] &rarr; [**New**] &rarr; [**Project**] &rarr; [**Visual C#**] &rarr; [**Windows**] &rarr; [**Console Application**]
+Стартираме Visual Studio. Създаваме нов конзолен проект: [**File**] &rarr; [**New**] &rarr; [**Project**] &rarr; [**Visual C#**] &rarr; [**Windows**] &rarr; [**Console Application**].
 
 ![](assets/chapter-1-images/01.Hello-csharp-01.png)
 
+Задаваме смислено име на нашата програма, например `HelloCSharp`:
+
 ![](assets/chapter-1-images/01.Hello-csharp-02.png)
+
+Visual Studio ще създаде за нас празна C# програма, която трябва да допишем.
 
 #### Писане на програмен код
 
