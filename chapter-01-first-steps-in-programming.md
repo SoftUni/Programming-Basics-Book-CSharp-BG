@@ -287,6 +287,14 @@ static void Main(string[] args)
 
 ![](assets/chapter-1-images/03.Numbers-1-to-20-02.png)
 
+Сега стартирайте програмата и поверете дали резултатът е както се очаква:
+```
+1
+2
+...
+20
+```
+
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/503#2](https://judge.softuni.bg/Contests/Practice/Index/503#2)
