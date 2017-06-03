@@ -141,7 +141,7 @@ Visual Studio ще създаде за нас празна C# програма, 
 
 Пишем следната команда:
 
-```
+```csharp
 Console.WriteLine("Hello C#");
 ```
 
