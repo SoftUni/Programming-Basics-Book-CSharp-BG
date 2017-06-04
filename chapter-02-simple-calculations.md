@@ -377,8 +377,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 - **Въвеждане на текст**: **`var str = Console.ReadLine();`**.
 - **Въвеждане на цяло число**: **`var num = int.Parse(Console.ReadLine());`**.
 - **Въвеждане на дробно число**: **`var num = double.Parse(Console.ReadLine());`**.
-- **Извършване на пресмятания с числа** и използване на syotwetnite **аритметични оператори** [+, -, \*, /, ()]: **`var sum = 5 + 3;`**.
-- **Извеждане на текст по шаблон** на зонзолата: **`Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);`**.
+- **Извършване на пресмятания с числа** и използване на съответните **аритметични оператори** [+, -, \*, /, ()]: **`var sum = 5 + 3;`**.
+- **Извеждане на текст по шаблон** на конзолата: **`Console.WriteLine("{0} + {1} = {2}", 3, 5, 3 + 5);`**.
 
 ## Упражнения: прости пресмятания
 
@@ -410,7 +410,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Насоки и подсказки
 
-Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **  Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project...**]:
+Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project...**]:
 
 ![](assets/chapter-2-images/problems/02SquareArea/01newProject.png)
 
