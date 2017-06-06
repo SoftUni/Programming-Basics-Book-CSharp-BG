@@ -626,8 +626,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 |       Вход           |         Изход         |
 |--------------------|---------------------|
-| 20 <br>30            | Triangle area = 300.00   |
-| 15 <br>35            | Triangle area = 262.50 |
+| 20 <br>30            | Triangle area = 300   |
+| 15 <br>35            | Triangle area = 262.5 |
 | 7.75 <br>8.45        | Triangle area = 32.74 |
 | 1.23456 <br>4.56789  | Triangle area = 2.82  |
 
