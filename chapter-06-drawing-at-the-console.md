@@ -426,7 +426,7 @@ for (var r = 1; r <= 5; r++)
   
 ![](assets/chapter-6-images/Creating-folder.png)
 
-Сега добавяме картинките със звездичките (те са част от заданието за домашно). Копираме ги от Windows Explorer и ги поставяме в папката **images** в [**Solution Explorer**] във Visual Studio с copy/paste.
+Сега добавяме **картинките със звездичките** (те са част от файловете със заданието за този проект и могат да бъдат свалени от [тук](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/tree/master/assets/chapter-6-assets)). Копираме ги от Windows Explorer и ги поставяме в папката **images** в [**Solution Explorer**] във Visual Studio с copy/paste.
 
 ![](assets/chapter-6-images/Adding-images.png)
 
