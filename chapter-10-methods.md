@@ -391,7 +391,7 @@ var division = Divide(1, 3);
 
 |Вход|Изход|Вход|Изход|Вход|Изход|
 |---|---|---|---|---|---|
-|int<br>2><br>16|16|char<br>a<br>z|z|string<br>Ivan<br>Todor|Todor|
+|int<br>2<br>16|16|char<br>a<br>z|z|string<br>Ivan<br>Todor|Todor|
 
 #### Насоки и подсказки
 
