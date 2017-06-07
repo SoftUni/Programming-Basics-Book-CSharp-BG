@@ -747,9 +747,9 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 ![](assets/chapter-2-images/problems/GUIcurrencyConverter/01winFormsInstr.png)
 
 Подреждаме следните UI контроли във формата:
-• **`NumericUpDown`** с име **`numericUpDownAmount`** – ще въвежда сумата за конвертиране
-•	**`Label`** с име **`labelResult`** – ще показва резултата след конвертиране
-•	Още два **`Label`** компонента, служещи единствено за статично изобразяване на текст
+* **`NumericUpDown`** с име **`numericUpDownAmount`** – ще въвежда сумата за конвертиране
+*	**`Label`** с име **`labelResult`** – ще показва резултата след конвертиране
+*	Още два **`Label`** компонента, служещи единствено за статично изобразяване на текст
 Графичният редактор за потребителски интерфейс може да изглежда по подобен начин:
 
 ![](assets/chapter-2-images/problems/GUIcurrencyConverter/02winFormsInstrLabels.png)
