@@ -582,7 +582,7 @@ catch
 
 Ето какви са нужните **стъпки**, за да може нашата програма да се изпълни коректно:
 
-Във Visual Studio създаваме ново **ASP.NET MVC уеб приложение** с език C#. Добавяме нов проект от [**Solution Explorer**] &rarr; [**Add**] &rarr; [**New Project…**]. Задаваме смислено име, например “Fruits-Web-Game”:
+Във Visual Studio създаваме ново **ASP.NET MVC уеб приложение** с език C#. Добавяме нов проект от [**Solution Explorer**] &rarr; [**Add**] &rarr; [**New Project…**]. Задаваме смислено име, например “**Fruits-Web-Game**”:
 
 ![](assets/chapter-7-images/create-MVC-example.png) 
 
