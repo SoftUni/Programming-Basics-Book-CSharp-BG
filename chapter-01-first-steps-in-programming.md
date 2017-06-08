@@ -463,7 +463,7 @@ Console.WriteLine("**");
 
 ![](assets/chapter-1-images/07.Numbers-sum-11.png) ![](/assets/chapter-1-images/07.Numbers-sum-12.png)
 
-Пробваме и с **невалидни числа**, напр. “aaa” и “bbb”. Изглежда има проблем: 
+Пробваме и с **невалидни числа**, напр. “**aaa**” и “**bbb**”. Изглежда има проблем: 
 
 ![](assets/chapter-1-images/07.Numbers-sum-13.png) ![](/assets/chapter-1-images/07.Numbers-sum-14.png)
 
