@@ -247,7 +247,7 @@ bool result = a || b || c || d;
 * x съвпада с x1 или x2 и същевременно y е между y1 и y2 или
 * y съвпада с y1 или y2 и същевременно x е между x1 и x2
 
-![](аssets/chapter-4-images/06.Point-on-rectangle-border-02.png)
+![](assets/chapter-4-images/06.Point-on-rectangle-border-02.png)
 
 Предходната проверка може да се опрости по този начин:
 
