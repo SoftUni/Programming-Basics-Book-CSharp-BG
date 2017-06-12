@@ -186,7 +186,7 @@ Console.WriteLine(euro);
 
 ![](assets/chapter-1-images/01.Hello-csharp-02.png)
 
-Visual Studio ще създаде за нас **празна C# програма**, която трябва да допишем (VS Solution с VS Project в него със C# сорс файл в него с един C# клас в него с `**Main()**` метод в него).
+Visual Studio ще създаде за нас **празна C# програма**, която трябва да допишем (VS Solution с VS Project в него със C# сорс файл в него с един C# клас в него с **`Main()`** метод в него).
 
 #### Писане на програмен код
 
