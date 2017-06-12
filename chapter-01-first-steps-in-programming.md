@@ -113,13 +113,13 @@ Console.WriteLine(euro);
 
 #### Инсталация на Visual Studio Community
 
-Започваме с инсталацията на интегрираната среда **Microsoft Visual Studio Community**, последна версия. Можем да я изтеглим **безплатно** от: https://www.visualstudio.com/vs/community/. Инсталацията е типичната за Windows с [Next], [Next] и [Finish]. Не е необходимо да променяме настройките за инсталация по подразбиране, просто изпълняваме типична инсталация на Visual Studio и го стартираме след това.
+Започваме с инсталацията на интегрираната среда **Microsoft Visual Studio Community**, версия 2017. **Community** версията се разпронстранява безплатно от Microsoft и може да бъде изтегена от: [https://www.visualstudio.com/vs/community](https://www.visualstudio.com/vs/community). Инсталацията е типичната за Windows с [**Next**], [**Next**] и [**Finish**]. Не е необходимо да променяме настройките за инсталация по подразбиране, просто изпълняваме типична инсталация на Visual Studio и го стартираме след това.
 
 В следващите редове подробно са описани стъпките за инсталация на Visual Studio. След като свалим инсталационния файл и го стартираме, се появява следният екран:
 
 ![](assets/chapter-1-images/00.visual-studio-1.png)
 
-Натискаме бутона [Continue], след което трябва да виждаме прозореца долу:
+Натискаме бутона [**Continue**], след което трябва да виждаме прозореца долу:
 
 ![](assets/chapter-1-images/00.visual-studio-2.png)
 
@@ -127,7 +127,7 @@ Console.WriteLine(euro);
 
 ![](assets/chapter-1-images/00.visual-studio-3.png)
 
-Слагаме тикчета на [Universal Windows Platform development] и на [.NET desktop development], след което натискаме бутона [Install].
+Слагаме тикчета на [**Universal Windows Platform development**] и на [**.NET desktop development**], след което натискаме бутона [**Install**].
 
 ![](assets/chapter-1-images/00.visual-studio-4.png)
 
@@ -135,19 +135,19 @@ Console.WriteLine(euro);
 
 ![](assets/chapter-1-images/00.visual-studio-5.png)
 
-След като Visual Studio се инсталира, трябва да видим този екран и да натиснем бутона [Launch], за да го стартираме.
+След като Visual Studio се инсталира, трябва да видим този екран и да натиснем бутона [**Launch**], за да го стартираме.
 
 ![](assets/chapter-1-images/00.visual-studio-6.png)
 
-Излиза екран като този по-долу. От тук можем да изберем дали да влезем или не с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме [Not now, maybe later.] опцията. 
+Излиза екран като този по-долу. От тук можем да изберем дали да влезем с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме опцията [**Not now, maybe later.**]. 
 
 ![](assets/chapter-1-images/00.visual-studio-7.png)
 
-Следващата стъпка е да изберем цветовата тема, с която да се визуализира Visual Studio. Тук изборът е изцяло според предпочитанията на потребителя, като няма значение коя опция ще бъде избрана. 
+Следващата стъпка е да изберем **цветовата тема**, с която да се визуализира Visual Studio. Тук изборът е изцяло според предпочитанията на потребителя, като няма значение коя опция ще бъде избрана. 
 
 ![](assets/chapter-1-images/00.visual-studio-8.png)
 
-Натискаме бутона [Start Visual Studio] и се зарежда в началния изглед на Visual Studio Community.
+Натискаме бутона [**Start Visual Studio**] и се зарежда в началния изглед на Visual Studio Community.
 
 ![](assets/chapter-1-images/00.visual-studio-9.png)
 
