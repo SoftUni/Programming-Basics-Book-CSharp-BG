@@ -115,31 +115,33 @@ Console.WriteLine(euro);
 
 Започваме с инсталацията на интегрираната среда **Microsoft Visual Studio Community**, последна версия. Можем да я изтеглим **безплатно** от: https://www.visualstudio.com/vs/community/. Инсталацията е типичната за Windows с [Next], [Next] и [Finish]. Не е необходимо да променяме настройките за инсталация по подразбиране, просто изпълняваме типична инсталация на Visual Studio и го стартираме след това.
 
-В следващите редове подробно са описани стъпките за инсталация на Visual Studio. След като свалим инсталационния файл и го стартираме, се появява следният екран:
+В **следващите** редове подробно са описани стъпките за **инсталация** на Visual Studio. След като свалим инсталационния **файл** и го стартираме, се появява следният екран:
 
 ![](assets/chapter-1-images/00.visual-studio-1.png)
 
-Натискаме бутона [Continue], след което трябва да виждаме прозореца долу:
+Натискаме бутона **[Continue]**, след което трябва да виждаме прозореца долу:
 
 ![](assets/chapter-1-images/00.visual-studio-2.png)
 
-Зарежда се прозорец с инсталационният панел на Visual Studio.
+Зарежда се прозорец с инсталационният панел на **Visual Studio**.
 
 ![](assets/chapter-1-images/00.visual-studio-3.png)
 
-Слагаме тикчета на [Universal Windows Platform development] и на [.NET desktop development], след което натискаме бутона [Install].
+Слагаме тикчета на **[Universal Windows Platform development]** и на **[.NET desktop development]**, след което натискаме бутона **[Install]**.
 
 ![](assets/chapter-1-images/00.visual-studio-4.png)
 
-Започва инсталацията на Visual Studio и трябва да виждаме екран като този по-долу:
+Започва **инсталацията** на Visual Studio и трябва да виждаме екран като този по-долу:
 
 ![](assets/chapter-1-images/00.visual-studio-5.png)
 
-След като Visual Studio се инсталира, трябва да видим този екран и да натиснем бутона [Launch], за да го стартираме.
+След като Visual Studio се инсталира, трябва да видим този екран и да натиснем бутона **[Launch]**, за да го стартираме.
 
 ![](assets/chapter-1-images/00.visual-studio-6.png)
 
-Излиза екран като този по-долу. От тук можем да изберем дали да влезем или не с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме [Not now, maybe later.] опцията. 
+Излиза екран като този по-долу. От тук можем да изберем дали да влезем или не с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с акаунта, затова избираме **[Not now, maybe later.]** опцията. 
+
+На по-късен етап, ако имате такъв акаунт, можете да се логнете, а ако нямате и срещате затруднения със създаването му, винаги можете да пишете във форума на SoftUni: [https://softuni.bg/forum](https://softuni.bg/forum).
 
 ![](assets/chapter-1-images/00.visual-studio-7.png)
 
@@ -147,7 +149,7 @@ Console.WriteLine(euro);
 
 ![](assets/chapter-1-images/00.visual-studio-8.png)
 
-Натискаме бутона [Start Visual Studio] и се зарежда в началния изглед на Visual Studio Community.
+Натискаме бутона **[Start Visual Studio]** и се зарежда началния изглед на Visual Studio Community.
 
 ![](assets/chapter-1-images/00.visual-studio-9.png)
 
@@ -157,6 +159,12 @@ Console.WriteLine(euro);
 * За езика C# сайтът **.NET Fiddle** позволява писане на код и изпълнението му онлайн: [https://dotnetfiddle.net](https://dotnetfiddle.net).
 * За Java можем да използваме следното онлайн Java IDE: [https://www.compilejava.net](https://www.compilejava.net).
 * За JavaScript можем да пишем JS код директно в конзолата на даден браузър с натискане на **[F12]**.
+
+При **работа** с Visual Studio е нужно да се запознаем с понятията **Visual Studio Solution** и **Visual Studio project**, които са неизменна част от него.
+
+**Visual Studio Project** представлява "**проекта**", върху който работим. В началото това ще са нашите **конзолни програми**, които ще се научим да пишем с помощта на този учебник и в курса [Programming Basics @ SoftUni](https://softuni.bg/courses/programming-basics). При по-задълбочено изучаване и с времето и практиката, тези проекти ще преминат в апликации, уеб приложения, уеб сайтове и т.н. Проектът логическа групира множество файлове, с чиято помощ тези приложения работят. 
+
+**Visual Studio Solution** представлява **контейнер**, в който са обединени **няколко** проекта. Целта на обединението на тези **VS Projects** е да има възможност кода от който и да е от проектите, да си взаимодейства с кода на останалите VS проекти, за да може приложението или уеб сайта да работи коректно.
 
 ### Пример: създаване на конзолна програма "Hello C#"
 
