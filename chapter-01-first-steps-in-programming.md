@@ -127,7 +127,7 @@ Console.WriteLine(euro);
 
 ![](assets/chapter-1-images/00.visual-studio-3.png)
 
-Слагаме тикчета на [**Universal Windows Platform development**] и на [**.NET desktop development**], след което натискаме бутона [**Install**].
+Слагаме отметка на [**Universal Windows Platform development**], [**.NET desktop development**] и [**ASP.NET web development**], след което натискаме бутона [**Install**].
 
 ![](assets/chapter-1-images/00.visual-studio-4.png)
 
