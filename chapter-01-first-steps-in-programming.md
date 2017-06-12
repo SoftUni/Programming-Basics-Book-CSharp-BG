@@ -139,7 +139,7 @@ Console.WriteLine(euro);
 
 ![](assets/chapter-1-images/00.visual-studio-6.png)
 
-Излиза екран като този по-долу. От тук можем да изберем дали да влезем с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме опцията [**Not now, maybe later.**]. 
+Излиза екран като този по-долу. От тук можем да изберем дали да влезем с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме опцията [**Not now, maybe later.**]. На по-късен етап, ако имате такъв акаунт, можете да се логнете, а ако нямате и срещате затруднения със създаването му, винаги можете да пишете във форума на SoftUni: [https://softuni.bg/forum](https://softuni.bg/forum).
 
 ![](assets/chapter-1-images/00.visual-studio-7.png)
 
