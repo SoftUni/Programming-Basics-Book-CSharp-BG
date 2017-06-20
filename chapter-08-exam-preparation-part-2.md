@@ -392,4 +392,4 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5)
