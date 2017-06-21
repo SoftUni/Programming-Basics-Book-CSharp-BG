@@ -11,9 +11,9 @@
 }
 
 .page .section pre {
-    padding: 0.3em 0.5em;
+    padding: 0.4em 0.6em;
     border-radius: 0.25em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 .page .section pre>code {
