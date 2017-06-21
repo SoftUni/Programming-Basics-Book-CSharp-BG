@@ -4,23 +4,23 @@
     display: none;
 }
 
-.markdown-section code {
+code {
     padding: 0.2em 0em;
     border-radius: 0.25em;
     font-size: 1em;
 }
 
-.markdown-section pre {
+pre {
     padding: 0.4em 0.8em;
     border-radius: 0.25em;
     line-height: 1.2em;
 }
 
-.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+h1, h2, h3, h4, h5, h6 {
     margin-top: 0.7em;
     margin-bottom: .3em;
 }
 
-.markdown-section table thead tr {
+table thead tr {
     background: #eee;
 }
