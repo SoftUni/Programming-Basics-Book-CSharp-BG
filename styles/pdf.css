@@ -4,27 +4,27 @@
     display: none;
 }
 
-.section code {
+.page .section code {
     padding: 0.2em 0em;
     border-radius: 0.25em;
     font-size: 1em;
 }
 
-.section pre {
+.page .section pre {
     padding: 0.3em 0.5em;
     border-radius: 0.25em;
     line-height: 1.2em;
 }
 
-.section pre>code {
+.page .section pre>code {
     font-size: 1em;
 }
 
-.section h1, .section h2, .section h3, .section h4, .section h5, .section h6 {
+.page .section h1, .page .section h2, .page .section h3, .page .section h4, .page .section h5, .page .section h6 {
     margin-top: 0.7em;
     margin-bottom: .3em;
 }
 
-.section table thead tr {
+.page .section table thead tr {
     background: #eee;
 }
