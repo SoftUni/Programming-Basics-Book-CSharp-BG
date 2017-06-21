@@ -4,27 +4,27 @@
     display: none;
 }
 
-.book code {
+.section code {
     padding: 0.2em 0em;
     border-radius: 0.25em;
     font-size: 1em;
 }
 
-.book pre {
+.section pre {
     padding: 0.3em 0.5em;
     border-radius: 0.25em;
     line-height: 1.2em;
 }
 
-.book pre>code {
+.section pre>code {
     font-size: 1em;
 }
 
-.book h1, .book h2, .book h3, .book h4, .book h5, .book h6 {
+.section h1, .section h2, .section h3, .section h4, .section h5, .section h6 {
     margin-top: 0.7em;
     margin-bottom: .3em;
 }
 
-.book table thead tr {
+.section table thead tr {
     background: #eee;
 }
