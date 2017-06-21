@@ -1,21 +1,26 @@
 /* This CSS code is applied for PDF rendering */
 
 .readme-book-cover-image {
-	display: none;
+    display: none;
 }
 
 code {
-	padding: 0.2em 0em;
-	border-radius: 0.2em;
+    padding: 0.2em 0em;
+    border-radius: 0.25em;
+    font-size: 1em;
 }
 
 pre {
-	padding: 0.4em 0.8em;
-	border-radius: 0.2em;
-	line-height: 1.2em;
+    padding: 0.4em 0.8em;
+    border-radius: 0.25em;
+    line-height: 1.2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-top: 0.7em;
     margin-bottom: .3em;
+}
+
+table thead tr {
+    background: #eee;
 }
