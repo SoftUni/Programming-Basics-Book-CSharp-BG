@@ -4,6 +4,11 @@
     display: none;
 }
 
+.page .section code,
+.page .section pre {
+    font-family: "Consolas", "Lucida Console", "Liberation Mono", "Menlo", "Courier New", monospace;
+}
+
 .page .section code {
     padding: 0.2em 0em;
     border-radius: 0.25em;
