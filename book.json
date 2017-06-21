@@ -7,9 +7,11 @@
     },
     "pdf": {
         "paperSize": "a4",
-        "margin.top": 48,
-        "margin.bottom": 48,
-        "margin.left": 36,
-        "margin.right": 36        
+        "margin": { 
+            top: 48,
+            bottom: 48,
+            left: 36,
+            right: 36
+        }
     }
 }
