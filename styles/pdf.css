@@ -4,23 +4,27 @@
     display: none;
 }
 
-code {
+.book code {
     padding: 0.2em 0em;
     border-radius: 0.25em;
     font-size: 1em;
 }
 
-pre {
-    padding: 0.4em 0.8em;
+.book pre {
+    padding: 0.3em 0.5em;
     border-radius: 0.25em;
     line-height: 1.2em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.book pre>code {
+    font-size: 1em;
+}
+
+.book h1, .book h2, .book h3, .book h4, .book h5, .book h6 {
     margin-top: 0.7em;
     margin-bottom: .3em;
 }
 
-table thead tr {
+.book table thead tr {
     background: #eee;
 }
