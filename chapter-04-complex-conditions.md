@@ -248,7 +248,7 @@ bool result = a || b || c || d;
 
 |Вход|Изход|Вход|Изход|
 |-----|-----|-----|-----|
-|2<br>-3<br>12<br>3<br>12<br>-1|Border|2<br>-3<br>12<br>3<br>8<br>-1|Inside/Outside
+|2<br>-3<br>12<br>3<br>12<br>-1|Border|2<br>-3<br>12<br>3<br>8<br>-1|Inside / Outside|
 
 #### Решение
 
