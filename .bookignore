@@ -1,2 +1,2 @@
-# Ignore all the resources folder (it holds files, which are not part of the book assets)
+# Ignore the "resources" folder (it holds files, which are not part of the book assets)
 resources/*
