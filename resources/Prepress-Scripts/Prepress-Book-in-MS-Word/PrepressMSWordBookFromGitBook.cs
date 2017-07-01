@@ -1,12 +1,13 @@
 ﻿using Microsoft.Office.Interop.Word;
 using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 
 class PrepressMSWordBookFromGitBook
 {
     const string inputFileName =
-        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress\chapter4.docx";
+        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress-Scripts\short-sample.docx";
     static Application wordApp;
     const int True = -1;
     const int False = 0;
@@ -21,27 +22,77 @@ class PrepressMSWordBookFromGitBook
 
         Execute(OpenBookWordFile, String.Format("Opening MS Word document {0}...", inputFileName));
         Execute(FixPageSizeAndMargins, "Fixing page size and margins");
-        Execute(FixDocumentLanguage, "Fixing document language");
-        Execute(FixHeadings, "Fixing headings");
+        Execute(FixNonBreakingSpaces, "Fixing non-breaking-spaces");
+        Execute(AdjustDocumentStyles, "Fixing document styles");
+        Execute(FixFonts, "Fixing fonts");
+        Execute(FixHeadings, "Fixing text headings (applying styles)");
+        Execute(FixTables, "Fixing tables");
         Execute(FixImageSizes, "Fixing image sizes");
+        //Execute(FixDocumentLanguage, "Fixing document language");
 
         stopwatch.Stop();
         wordApp.Visible = true;
-        wordApp.ScreenUpdating = true;
         Console.WriteLine("Total time: {0}", stopwatch.Elapsed);
     }
 
-    static void Execute(Action action, string description)
+    static void FixFonts()
     {
-        Console.Write(description);
-        Stopwatch stopwatch = Stopwatch.StartNew();
-        Timer timer = new Timer((state) => Console.Write("."), null, 0, 1000);
+        // Process non-heading paragraphs
+        var finder = wordApp.ActiveDocument.Content.Find;
+        finder.ClearFormatting();
+        finder.Replacement.ClearFormatting();
+        finder.Font.Name = "Times New Roman";
+        finder.Replacement.Font.Name = "Lato Light";
+        finder.Replacement.Font.Size = 11;
+        finder.Execute(Replace: WdReplace.wdReplaceAll);
 
-        action();
+        finder.ClearFormatting();
+        finder.Replacement.ClearFormatting();
+        finder.Font.Name = "Consolas";
+        finder.Replacement.Font.Name = "Consolas";
+        finder.Replacement.Font.Size = 11;
+        finder.Execute(Replace: WdReplace.wdReplaceAll);
+    }
 
-        timer.Dispose();
-        stopwatch.Stop();
-        Console.WriteLine("done. ({0:f2} secs)", stopwatch.Elapsed.TotalSeconds);
+    static void FixNonBreakingSpaces()
+    {
+        var finder = wordApp.Selection.Find;
+        finder.ClearFormatting();
+        finder.Text = "^s";
+        finder.Replacement.ClearFormatting();
+        finder.Replacement.Text = " ";
+        finder.Execute(Replace: WdReplace.wdReplaceAll);
+    }
+
+    static void FixHeadings()
+    {
+        foreach (Paragraph p in wordApp.ActiveDocument.Paragraphs)
+        {
+            int outlineLevel = (int)p.OutlineLevel;
+            if (outlineLevel >= 1 && outlineLevel <= 6)
+            {
+                // Process headings
+                p.set_Style("Heading " + outlineLevel);
+            }
+
+            if (outlineLevel == (int)WdOutlineLevel.wdOutlineLevelBodyText)
+            {
+                // Process headings
+                p.Range.ParagraphFormat.SpaceBefore = 5;
+                p.Range.ParagraphFormat.SpaceBefore = 5;
+            }
+        }
+    }
+
+    static void FixTables()
+    {
+        var pageWidth = CalcPageWidth();
+        foreach (Table table in wordApp.ActiveDocument.Tables)
+        {
+            table.PreferredWidthType = WdPreferredWidthType.wdPreferredWidthAuto;
+            table.Range.ParagraphFormat.SpaceBefore = 0;
+            table.Range.ParagraphFormat.SpaceAfter = 0;
+        }
     }
 
     static void StartMSWord()
@@ -55,33 +106,77 @@ class PrepressMSWordBookFromGitBook
         wordApp.Documents.Open(inputFileName);
     }
 
-    static void FixHeadings()
+    static void AdjustDocumentStyles()
     {
-        var docStyles = wordApp.ActiveDocument.Styles;
-        var finder = wordApp.Selection.Find;
-        FixHeading(WdOutlineLevel.wdOutlineLevel1, "Heading 1");
-        FixHeading(WdOutlineLevel.wdOutlineLevel2, "Heading 2");
-        FixHeading(WdOutlineLevel.wdOutlineLevel3, "Heading 3");
-        FixHeading(WdOutlineLevel.wdOutlineLevel4, "Heading 4");
-        FixHeading(WdOutlineLevel.wdOutlineLevel5, "Heading 5");
-        FixHeading(WdOutlineLevel.wdOutlineLevel6, "Heading 6");
+        var headingFonts = new Dictionary<string, dynamic> {
+            {"Heading 1", new { size=24, before=0, after=6 } },
+            {"Heading 2", new { size=16, before=12, after=6 }},
+            {"Heading 3", new { size=14, before=11, after=6 }},
+            {"Heading 4", new { size=12, before=10, after=5 }},
+            {"Heading 5", new { size=11, before=9, after=5 }},
+            {"Heading 6", new { size=11, before=8, after=5 }},
+        };
 
-        void FixHeading(WdOutlineLevel outlineLevel, string headingName)
+        for (int size = 1; size <= 6; size++)
+            AdjustHeadingStyle(size);
+
+        void AdjustHeadingStyle(int headingSize)
         {
-            finder.ClearFormatting();
-            finder.ParagraphFormat.OutlineLevel = outlineLevel;
-            finder.Replacement.ClearFormatting();
-            finder.Replacement.set_Style(docStyles[headingName]);
-            finder.Execute(Replace: WdReplace.wdReplaceAll);
+            var headingName = "Heading " + headingSize;
+            var headingStyle = wordApp.ActiveDocument.Styles[headingName];
+            headingStyle.Font.Name = "Lato Medium";
+            headingStyle.Font.Bold = False;
+            headingStyle.Font.Size = headingFonts[headingName].size;
+            headingStyle.ParagraphFormat.SpaceBeforeAuto = False;
+            headingStyle.ParagraphFormat.SpaceBefore = headingFonts[headingName].before;
+            headingStyle.ParagraphFormat.SpaceAfterAuto = False;
+            headingStyle.ParagraphFormat.SpaceAfter = headingFonts[headingName].after;
+            headingStyle.set_BaseStyle("");
+            headingStyle.set_NextParagraphStyle(wordApp.ActiveDocument.Styles["Normal"]);
+            if (headingStyle.ParagraphFormat.OutlineLevel == WdOutlineLevel.wdOutlineLevel1)
+                headingStyle.ParagraphFormat.PageBreakBefore = True;
+            headingStyle.Font.Color = WdColor.wdColorAutomatic;
+            headingStyle.LanguageID = WdLanguageID.wdBulgarian;
         }
+
+        var normalStyle = wordApp.ActiveDocument.Styles["Normal"];
+        normalStyle.Font.Name = "Lato Light";
+        normalStyle.Font.Size = 11;
+        normalStyle.LanguageID = WdLanguageID.wdBulgarian;
+        normalStyle.ParagraphFormat.Alignment = WdParagraphAlignment.wdAlignParagraphJustify;
+        normalStyle.ParagraphFormat.SpaceBefore = 5;
+        normalStyle.ParagraphFormat.SpaceAfter = 5;
+
+        //wordApp.ActiveDocument.Styles.Add("Table Body", WdStyleType.wdStyleTypeParagraph);
+        //var tableBodyStyle = wordApp.ActiveDocument.Styles["Table Body"];
+        //tableBodyStyle.set_BaseStyle("Normal");
+        ////tableBodyStyle.Font = new Font();
+        //tableBodyStyle.ParagraphFormat.SpaceBefore = 0;
+        //tableBodyStyle.ParagraphFormat.SpaceAfter = 0;
+        //tableBodyStyle.ParagraphFormat.OutlineLevel = WdOutlineLevel.wdOutlineLevelBodyText;
+
+
+        //var finder = wordApp.Selection.Find;
+        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel1, "Heading 1");
+        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel2, "Heading 2");
+        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel3, "Heading 3");
+        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel4, "Heading 4");
+        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel5, "Heading 5");
+        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel6, "Heading 6");
+
+        //void FixHeadingParagraphs(WdOutlineLevel outlineLevel, string headingName)
+        //{
+        //    finder.ClearFormatting();
+        //    finder.ParagraphFormat.OutlineLevel = outlineLevel;
+        //    finder.Replacement.ClearFormatting();
+        //    finder.Replacement.set_Style(headingName);
+        //    finder.Execute(Replace: WdReplace.wdReplaceAll);
+        //}
     }
 
     static void FixImageSizes()
     {
-        var pageWidth =
-            wordApp.ActiveDocument.PageSetup.PageWidth
-            - wordApp.ActiveDocument.PageSetup.LeftMargin
-            - wordApp.ActiveDocument.PageSetup.RightMargin;
+        var pageWidth = CalcPageWidth();
 
         foreach (InlineShape shape in wordApp.ActiveDocument.InlineShapes)
         {
@@ -133,6 +228,28 @@ class PrepressMSWordBookFromGitBook
 
         pageSetup.HeaderDistance = CentimetersToPoints(1.25);
         pageSetup.FooterDistance = CentimetersToPoints(1.25);
+    }
+
+    static void Execute(Action action, string description)
+    {
+        Console.Write(description);
+        Stopwatch stopwatch = Stopwatch.StartNew();
+        Timer timer = new Timer((state) => Console.Write("."), null, 0, 1000);
+
+        action();
+
+        timer.Dispose();
+        stopwatch.Stop();
+        Console.WriteLine("done. ({0:f2} secs)", stopwatch.Elapsed.TotalSeconds);
+    }
+
+    static float CalcPageWidth()
+    {
+        var pageWidth =
+            wordApp.ActiveDocument.PageSetup.PageWidth
+            - wordApp.ActiveDocument.PageSetup.LeftMargin
+            - wordApp.ActiveDocument.PageSetup.RightMargin;
+        return pageWidth;
     }
 
     static float CentimetersToPoints(dynamic cm)
