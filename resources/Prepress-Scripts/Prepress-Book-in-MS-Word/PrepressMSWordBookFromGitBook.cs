@@ -83,15 +83,24 @@ class PrepressMSWordBookFromGitBook
                 parFormat.SpaceAfterAuto = False;
                 parFormat.SpaceAfter = 5;
 
-                // Process lists
+                // Process lists (bullets / numbered list / nested bullets)
                 if (par.Range.ListFormat.ListType != WdListType.wdListNoNumbering)
                 {
-                    // We have a list (bullets / numbered list / nested bullets)
                     parFormat.FirstLineIndent = CentimetersToPoints(-0.4);
                     var leftIndent = 0.8 * par.Range.ListFormat.ListLevelNumber + 0.1;
                     parFormat.LeftIndent = CentimetersToPoints(leftIndent);
                     parFormat.Alignment = WdParagraphAlignment.wdAlignParagraphLeft;
                     parFormat.TabStops.ClearAll();
+                }
+
+                // Process source code blocks
+                if (par.Range.Font.Name == "Consolas")
+                {            
+                    parFormat.SpaceBeforeAuto = False;
+                    parFormat.SpaceBefore = 0;
+                    parFormat.SpaceAfterAuto = False;
+                    parFormat.SpaceAfter = 0;
+                    par.Range.NoProofing = True;
                 }
             }
         }
