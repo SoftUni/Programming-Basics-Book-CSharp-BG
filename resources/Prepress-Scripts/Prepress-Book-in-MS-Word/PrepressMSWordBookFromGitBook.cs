@@ -241,6 +241,8 @@ class PrepressMSWordBookFromGitBook
 
         pageSetup.HeaderDistance = CentimetersToPoints(1.25);
         pageSetup.FooterDistance = CentimetersToPoints(1.25);
+
+        wordApp.ActiveDocument.DefaultTabStop = CentimetersToPoints(0.8);
     }
 
     static void Execute(Action action, string description)
