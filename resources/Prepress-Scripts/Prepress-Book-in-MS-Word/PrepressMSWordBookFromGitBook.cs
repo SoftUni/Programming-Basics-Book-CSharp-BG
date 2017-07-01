@@ -66,20 +66,33 @@ class PrepressMSWordBookFromGitBook
 
     static void FixHeadings()
     {
-        foreach (Paragraph p in wordApp.ActiveDocument.Paragraphs)
+        foreach (Paragraph par in wordApp.ActiveDocument.Paragraphs)
         {
-            int outlineLevel = (int)p.OutlineLevel;
+            int outlineLevel = (int)par.OutlineLevel;
             if (outlineLevel >= 1 && outlineLevel <= 6)
             {
                 // Process headings
-                p.set_Style("Heading " + outlineLevel);
+                par.set_Style("Heading " + outlineLevel);
             }
-
-            if (outlineLevel == (int)WdOutlineLevel.wdOutlineLevelBodyText)
+            else
             {
-                // Process headings
-                p.Range.ParagraphFormat.SpaceBefore = 5;
-                p.Range.ParagraphFormat.SpaceBefore = 5;
+                // Process paragraphs
+                var parFormat = par.Range.ParagraphFormat;
+                parFormat.SpaceBeforeAuto = False;
+                parFormat.SpaceBefore = 5;
+                parFormat.SpaceAfterAuto = False;
+                parFormat.SpaceAfter = 5;
+
+                // Process lists
+                if (par.Range.ListFormat.ListType != WdListType.wdListNoNumbering)
+                {
+                    // We have a list (bullets / numbered list / nested bullets)
+                    parFormat.FirstLineIndent = CentimetersToPoints(-0.4);
+                    var leftIndent = 0.8 * par.Range.ListFormat.ListLevelNumber + 0.1;
+                    parFormat.LeftIndent = CentimetersToPoints(leftIndent);
+                    parFormat.Alignment = WdParagraphAlignment.wdAlignParagraphLeft;
+                    parFormat.TabStops.ClearAll();
+                }
             }
         }
     }
