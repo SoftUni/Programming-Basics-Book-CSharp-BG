@@ -8,7 +8,7 @@ using System.Threading;
 class PrepressMSWordBookFromGitBook
 {
     const string inputFileName =
-        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress-Scripts\book.docx";
+        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress-Scripts\short-sample.docx";
     static Application wordApp;
     const int True = -1;
     const int False = 0;
@@ -52,8 +52,9 @@ class PrepressMSWordBookFromGitBook
                 // The word holds non-Cyrillic letters --> set English language
                 word.LanguageID = WdLanguageID.wdEnglishUS;
                 bool isCodeIdentifier = IsCodeIdentifier(wordText);
-                bool isBracket = wordText == "(" || wordText == ")"; 
-                if (isCodeIdentifier || isBracket)
+                bool isBracket = wordText == "(" || wordText == ")";
+                bool isMonospacedFont = (word.Font.Name == "Consolas");
+                if (isCodeIdentifier || isBracket || isMonospacedFont)
                     // Disable the spell checker for code identifiers
                     word.NoProofing = True;
             }
@@ -116,24 +117,43 @@ class PrepressMSWordBookFromGitBook
 
                 // Process lists (bullets / numbered list / nested bullets)
                 if (par.Range.ListFormat.ListType != WdListType.wdListNoNumbering)
-                {
-                    parFormat.FirstLineIndent = CentimetersToPoints(-0.4);
-                    var leftIndent = 0.8 * par.Range.ListFormat.ListLevelNumber + 0.1;
-                    parFormat.LeftIndent = CentimetersToPoints(leftIndent);
-                    parFormat.Alignment = WdParagraphAlignment.wdAlignParagraphLeft;
-                    parFormat.TabStops.ClearAll();
-                }
+                    FormatListParagraph(par, parFormat);
 
                 // Process source code blocks
                 if (par.Range.Font.Name == "Consolas")
-                {            
-                    parFormat.SpaceBeforeAuto = False;
-                    parFormat.SpaceBefore = 0;
-                    parFormat.SpaceAfterAuto = False;
-                    parFormat.SpaceAfter = 0;
-                    par.Range.NoProofing = True;
-                }
+                    FormatSourceCodeParagraph(par, parFormat);
             }
+        }
+
+        void FormatListParagraph(Paragraph par, ParagraphFormat parFormat)
+        {
+            parFormat.FirstLineIndent = CentimetersToPoints(-0.4);
+            var leftIndent = 0.8 * par.Range.ListFormat.ListLevelNumber + 0.1;
+            parFormat.LeftIndent = CentimetersToPoints(leftIndent);
+            parFormat.Alignment = WdParagraphAlignment.wdAlignParagraphLeft;
+            parFormat.TabStops.ClearAll();
+        }
+
+        void FormatSourceCodeParagraph(Paragraph par, ParagraphFormat parFormat)
+        {
+            parFormat.SpaceBeforeAuto = False;
+            parFormat.SpaceBefore = 0;
+            parFormat.SpaceAfterAuto = False;
+            parFormat.SpaceAfter = 0;
+
+            par.Borders.DistanceFromTop = 0;
+            par.Borders.DistanceFromRight = 0;
+            par.Borders.DistanceFromBottom = 0;
+            par.Borders.DistanceFromLeft = 0;
+
+            par.Borders.OutsideLineStyle = WdLineStyle.wdLineStyleSingle;
+            par.Borders.OutsideLineWidth = WdLineWidth.wdLineWidth600pt;
+            par.Borders.OutsideColor = CreateWdColor(247, 247, 247);
+
+            parFormat.LeftIndent = CentimetersToPoints(0.4);
+            parFormat.RightIndent = CentimetersToPoints(0.4);
+
+            par.Range.NoProofing = True;
         }
     }
 
@@ -310,5 +330,11 @@ class PrepressMSWordBookFromGitBook
     static float CentimetersToPoints(dynamic cm)
     {
         return wordApp.CentimetersToPoints(cm);
+    }
+
+    static WdColor CreateWdColor(int red, int green, int blue)
+    {
+        var color = (WdColor)(red + 0x100 * green + 0x10000 * blue);
+        return color;
     }
 }
