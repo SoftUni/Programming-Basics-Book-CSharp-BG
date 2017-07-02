@@ -49,7 +49,7 @@
 
 Докато програмираме, постоянно се налага да пишем цикли, десетки пъти всеки ден. Затова в повечето среди за разработка (IDE) има **шаблони за код** (**code snippets**) за писане на цикли. Един такъв шаблон е **шаблонът за `for` цикъл във Visual Studio**. Напишете **`for`** в редактора за C# код във Visual Studio и **натиснете два пъти** [**Tab**]. Visual Studio ще разгъне за вас шаблон и ще напише цялостен **`for` цикъл**:
 
-![](assets/chapter-5-images/00.For-loop-code-snippet.png)
+![](assets/chapter-5-images/00.For-loop-code-snippet-01.png)
 
 **Опитайте сами**, за да усвоите умението да ползвате шаблона за код за **`for` цикъл** във Visual Studio.
 
@@ -248,7 +248,7 @@
 
 Създаваме празно решение **(Blank Solution)** във Visual Studio, за да организираме по-добре задачите за упражнение. Целта на този **blank solution** e да съдържа **по един проект за всяка задача** от упражненията.
   
-![](assets/chapter-5-images/00.Blank-visual-studio.png)
+![](assets/chapter-5-images/00.Blank-visual-studio-01.png)
 
 Задаваме **да се стартира по подразбиране текущият проект** (не първият в решението). Кликваме с десен бутон на мишката върху **Solution 'Loops'** -> [**Set StartUp Projects…**] -> [**Current selection**].
 
