@@ -77,7 +77,7 @@ if (condition1)
 
 |Вход|Изход|Вход|Изход|
 |-------|-------|-------|-------|
-|coffee<br>Varna<br>2|0.9|peanuts<br>Plovidv<br>1|1.5|
+|coffee<br>Varna<br>2|0.9|peanuts<br>Plovdiv<br>1|1.5|
 
 |Вход|Изход|Вход|Изход|
 |-------|-------|-------|-------|
@@ -314,7 +314,7 @@ bool result = a || b || c || d;
 
 |Вход|Изход|Вход|Изход|Вход|Изход|
 |-----|-----|-----|-----|-----|-----|
-|Sofia<br>1500|120.00|Plovidv<br>499.99|27.50|Kaspichan<br>-50|error|
+|Sofia<br>1500|120.00|Plovdiv<br>499.99|27.50|Kaspichan<br>-50|error|
 
 #### Решение
 
