@@ -2,12 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading;
 
 class PrepressMSWordBookFromGitBook
 {
     const string inputFileName =
-        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress-Scripts\short-sample.docx";
+        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress-Scripts\book.docx";
     static Application wordApp;
     const int True = -1;
     const int False = 0;
@@ -25,14 +26,44 @@ class PrepressMSWordBookFromGitBook
         Execute(FixNonBreakingSpaces, "Fixing non-breaking-spaces");
         Execute(AdjustDocumentStyles, "Fixing document styles");
         Execute(FixFonts, "Fixing fonts");
-        Execute(FixHeadings, "Fixing text headings (applying styles)");
+        Execute(FixTextHeadingsParagraphs, "Fixing text (headings / paragraphs / source code)");
         Execute(FixTables, "Fixing tables");
         Execute(FixImageSizes, "Fixing image sizes");
-        //Execute(FixDocumentLanguage, "Fixing document language");
+        Execute(FixWordsLanguage, "Fixing language for individual words");
 
         stopwatch.Stop();
         wordApp.Visible = true;
         Console.WriteLine("Total time: {0}", stopwatch.Elapsed);
+    }
+
+    static void FixWordsLanguage()
+    {
+        foreach (Range word in wordApp.ActiveDocument.Words)
+        {
+            string wordText = word.Text.Trim();
+            var cyrillicLettersCount = CountCyrillicLetters(wordText);
+            if (cyrillicLettersCount == wordText.Length)
+            {
+                // The word holds Cyrillic letters only --> set Bulgarian language
+                word.LanguageID = WdLanguageID.wdBulgarian;
+            }
+            else
+            {
+                // The word holds non-Cyrillic letters --> set English language
+                word.LanguageID = WdLanguageID.wdEnglishUS;
+                bool isCodeIdentifier = IsCodeIdentifier(wordText);
+                bool isBracket = wordText == "(" || wordText == ")"; 
+                if (isCodeIdentifier || isBracket)
+                    // Disable the spell checker for code identifiers
+                    word.NoProofing = True;
+            }
+        }
+
+        int CountCyrillicLetters(string word) =>
+            word.ToLower().Count(l => l >= 'а' && l <= 'я');
+
+        bool IsCodeIdentifier(string word) =>
+            word.Skip(1).Count(l => l >= 'A' && l <= 'Z') > 0;
     }
 
     static void FixFonts()
@@ -64,7 +95,7 @@ class PrepressMSWordBookFromGitBook
         finder.Execute(Replace: WdReplace.wdReplaceAll);
     }
 
-    static void FixHeadings()
+    static void FixTextHeadingsParagraphs()
     {
         foreach (Paragraph par in wordApp.ActiveDocument.Paragraphs)
         {
@@ -227,14 +258,14 @@ class PrepressMSWordBookFromGitBook
         }
     }
 
-    static void FixDocumentLanguage()
-    {
-        wordApp.Selection.WholeStory();
-        wordApp.Selection.LanguageID = WdLanguageID.wdBulgarian;
-        wordApp.Selection.NoProofing = False;
-        wordApp.Selection.Start = 0;
-        wordApp.Selection.End = 0;
-    }
+    //static void FixDocumentLanguage()
+    //{
+    //    wordApp.Selection.WholeStory();
+    //    wordApp.Selection.LanguageID = WdLanguageID.wdBulgarian;
+    //    wordApp.Selection.NoProofing = False;
+    //    wordApp.Selection.Start = 0;
+    //    wordApp.Selection.End = 0;
+    //}
 
     static void FixPageSizeAndMargins()
     {
