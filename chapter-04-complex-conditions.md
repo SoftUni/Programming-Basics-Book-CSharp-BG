@@ -674,16 +674,17 @@ private void numericUpDownX1_ValueChanged(object sender, EventArgs e)
     Draw();
 }
 
- /*TODO: implement the same way event handlers numericUpDownY1_ValueChanged, 
-            numericUpDownX2_ValueChanged, numericUpDownY2_ValueChanged, 
-            numericUpDownX_ValueChanged and 
-            numericUpDownY_ValueChanged*/
+ /* TODO: implement the same way event handlers
+    numericUpDownY1_ValueChanged, 
+    numericUpDownX2_ValueChanged, 
+    numericUpDownY2_ValueChanged, 
+    numericUpDownX_ValueChanged and 
+    numericUpDownY_ValueChanged */
 
 private void Draw()
 {
     // TODO: implement this a bit later …
 }
-
 ```
 
 Нека започнем от по-лесната част: **печат на информация къде е точката спрямо правоъгълника** (Inside, Outside или Border). Кодът трябва да изглежда така:
