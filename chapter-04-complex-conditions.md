@@ -53,11 +53,11 @@ if (condition1)
 
 Можем да забележим, че **изходът** на програмата **зависи от няколко неща**. **Първо** трябва да проверим какъв **пол** е въведен и **после** да проверим **възрастта**. Съответно ще използваме **няколко** **`if-else`** блока. Тези блокове ще бъдат **вложени**, т.е. от **резултата** на първия ще **определим** кои от **другите** да изпълним.
 
-![](/assets/chapter-4-images/Personal%20Titles-01.jpg)
+![](/assets/chapter-4-images/01.Personal-titles-01.jpg)
 
 След прочитане на входните данни от конзолата ще трябва да се изпълни следната примерна програмна логика:
 
-![](/assets/chapter-4-images/01.Personal%20Titles-02.png)
+![](/assets/chapter-4-images/01.Personal-titles-02.png)
 
 #### Тестване на решението: 
 
@@ -144,7 +144,7 @@ bool result = a && b && c && d;
 * Точката е надолу от горната страна на правоъгълника.
 * Точката е нагоре от долната страна на правоъгълника.
 
-![](/assets/chapter-4-images/03.Point-in-rectangle-02-fix.PNG)
+![](/assets/chapter-4-images/03.Point-in-rectangle-03.PNG)
 
 #### Тестване на решението
 
@@ -179,7 +179,7 @@ bool result = a || b || c || d;
 
 Програмата **проверява `а`**, отчита, че има стойност **`false`** и продължава. Стигайки до **`b`**, отчита, че има стойност **`true`** и целият **израз** получава стойност **`true`**, **без** да се проверява **`c`** и **`d`**, защото техните стойности **не биха променили** резултата на израза.
 
-![](/assets/chapter-4-images/00.Logical-or-02.png)
+![](/assets/chapter-4-images/00.Logical-or-01.png)
 
 ### Пример: плод или зеленчук
 
@@ -674,16 +674,17 @@ private void numericUpDownX1_ValueChanged(object sender, EventArgs e)
     Draw();
 }
 
- /*TODO: implement the same way event handlers numericUpDownY1_ValueChanged, 
-            numericUpDownX2_ValueChanged, numericUpDownY2_ValueChanged, 
-            numericUpDownX_ValueChanged and 
-            numericUpDownY_ValueChanged*/
+ /* TODO: implement the same way event handlers
+    numericUpDownY1_ValueChanged, 
+    numericUpDownX2_ValueChanged, 
+    numericUpDownY2_ValueChanged, 
+    numericUpDownX_ValueChanged and 
+    numericUpDownY_ValueChanged */
 
 private void Draw()
 {
     // TODO: implement this a bit later …
 }
-
 ```
 
 Нека започнем от по-лесната част: **печат на информация къде е точката спрямо правоъгълника** (Inside, Outside или Border). Кодът трябва да изглежда така:
