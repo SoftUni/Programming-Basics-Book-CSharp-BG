@@ -26,7 +26,7 @@ class PrepressMSWordBookFromGitBook
         Execute(FixNonBreakingSpaces, "Fixing non-breaking-spaces");
         Execute(AdjustDocumentStyles, "Fixing document styles");
         Execute(FixFonts, "Fixing fonts");
-        Execute(FixTextHeadingsParagraphs, "Fixing text (headings / paragraphs / source code)");
+        Execute(FixTextHeadingsParagraphs, "Fixing paragraphs (headings / lists / source code blocks)");
         Execute(FixTables, "Fixing tables");
         Execute(FixImageSizes, "Fixing image sizes");
         Execute(FixWordsLanguage, "Fixing language for individual words");
@@ -136,6 +136,10 @@ class PrepressMSWordBookFromGitBook
 
         void FormatSourceCodeParagraph(Paragraph par, ParagraphFormat parFormat)
         {
+            parFormat.Alignment = WdParagraphAlignment.wdAlignParagraphLeft;
+
+            par.Range.NoProofing = True;
+
             parFormat.SpaceBeforeAuto = False;
             parFormat.SpaceBefore = 0;
             parFormat.SpaceAfterAuto = False;
@@ -146,14 +150,18 @@ class PrepressMSWordBookFromGitBook
             par.Borders.DistanceFromBottom = 0;
             par.Borders.DistanceFromLeft = 0;
 
-            par.Borders.OutsideLineStyle = WdLineStyle.wdLineStyleSingle;
-            par.Borders.OutsideLineWidth = WdLineWidth.wdLineWidth600pt;
-            par.Borders.OutsideColor = CreateWdColor(247, 247, 247);
+            if (par.Range.Tables.Count == 0)
+            {
+                // The paragraph is not inside a table cell
+                par.Borders.OutsideLineStyle = WdLineStyle.wdLineStyleSingle;
+                par.Borders.OutsideLineWidth = WdLineWidth.wdLineWidth600pt;
+                par.Borders.OutsideColor = CreateWdColor(247, 247, 247);
 
-            parFormat.LeftIndent = CentimetersToPoints(0.4);
-            parFormat.RightIndent = CentimetersToPoints(0.4);
+                par.Shading.BackgroundPatternColor = CreateWdColor(247, 247, 247);
 
-            par.Range.NoProofing = True;
+                parFormat.LeftIndent = CentimetersToPoints(0.4);
+                parFormat.RightIndent = CentimetersToPoints(0.4);
+            }
         }
     }
 
@@ -219,32 +227,6 @@ class PrepressMSWordBookFromGitBook
         normalStyle.ParagraphFormat.Alignment = WdParagraphAlignment.wdAlignParagraphJustify;
         normalStyle.ParagraphFormat.SpaceBefore = 5;
         normalStyle.ParagraphFormat.SpaceAfter = 5;
-
-        //wordApp.ActiveDocument.Styles.Add("Table Body", WdStyleType.wdStyleTypeParagraph);
-        //var tableBodyStyle = wordApp.ActiveDocument.Styles["Table Body"];
-        //tableBodyStyle.set_BaseStyle("Normal");
-        ////tableBodyStyle.Font = new Font();
-        //tableBodyStyle.ParagraphFormat.SpaceBefore = 0;
-        //tableBodyStyle.ParagraphFormat.SpaceAfter = 0;
-        //tableBodyStyle.ParagraphFormat.OutlineLevel = WdOutlineLevel.wdOutlineLevelBodyText;
-
-
-        //var finder = wordApp.Selection.Find;
-        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel1, "Heading 1");
-        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel2, "Heading 2");
-        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel3, "Heading 3");
-        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel4, "Heading 4");
-        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel5, "Heading 5");
-        //FixHeadingParagraphs(WdOutlineLevel.wdOutlineLevel6, "Heading 6");
-
-        //void FixHeadingParagraphs(WdOutlineLevel outlineLevel, string headingName)
-        //{
-        //    finder.ClearFormatting();
-        //    finder.ParagraphFormat.OutlineLevel = outlineLevel;
-        //    finder.Replacement.ClearFormatting();
-        //    finder.Replacement.set_Style(headingName);
-        //    finder.Execute(Replace: WdReplace.wdReplaceAll);
-        //}
     }
 
     static void FixImageSizes()
@@ -277,16 +259,7 @@ class PrepressMSWordBookFromGitBook
             }
         }
     }
-
-    //static void FixDocumentLanguage()
-    //{
-    //    wordApp.Selection.WholeStory();
-    //    wordApp.Selection.LanguageID = WdLanguageID.wdBulgarian;
-    //    wordApp.Selection.NoProofing = False;
-    //    wordApp.Selection.Start = 0;
-    //    wordApp.Selection.End = 0;
-    //}
-
+    
     static void FixPageSizeAndMargins()
     {
         var pageSetup = wordApp.ActiveDocument.PageSetup;
