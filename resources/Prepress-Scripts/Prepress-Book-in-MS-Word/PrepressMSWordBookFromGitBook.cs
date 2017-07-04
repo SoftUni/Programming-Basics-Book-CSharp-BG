@@ -8,7 +8,7 @@ using System.Threading;
 class PrepressMSWordBookFromGitBook
 {
     const string inputFileName =
-        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress-Scripts\book.docx";
+        @"C:\Software-University\Programming-Basics-Book-CSharp-BG\resources\Prepress-Scripts\short-sample.docx";
     static Application wordApp;
     const int True = -1;
     const int False = 0;
@@ -26,7 +26,7 @@ class PrepressMSWordBookFromGitBook
         Execute(FixNonBreakingSpaces, "Fixing non-breaking-spaces");
         Execute(AdjustDocumentStyles, "Fixing document styles");
         Execute(FixFonts, "Fixing fonts");
-        Execute(FixTextHeadingsParagraphs, "Fixing paragraphs (headings / lists / source code blocks)");
+        Execute(FixParagraphs, "Fixing paragraphs (headings / lists / source code blocks)");
         Execute(FixTables, "Fixing tables");
         Execute(FixImageSizes, "Fixing image sizes");
         Execute(FixWordsLanguage, "Fixing language for individual words");
@@ -80,6 +80,13 @@ class PrepressMSWordBookFromGitBook
 
         finder.ClearFormatting();
         finder.Replacement.ClearFormatting();
+        finder.Font.Name = "Helvetica";
+        finder.Replacement.Font.Name = "Lato Light";
+        finder.Replacement.Font.Size = 11;
+        finder.Execute(Replace: WdReplace.wdReplaceAll);
+
+        finder.ClearFormatting();
+        finder.Replacement.ClearFormatting();
         finder.Font.Name = "Consolas";
         finder.Replacement.Font.Name = "Consolas";
         finder.Replacement.Font.Size = 11;
@@ -96,37 +103,39 @@ class PrepressMSWordBookFromGitBook
         finder.Execute(Replace: WdReplace.wdReplaceAll);
     }
 
-    static void FixTextHeadingsParagraphs()
+    static void FixParagraphs()
     {
         foreach (Paragraph par in wordApp.ActiveDocument.Paragraphs)
         {
             int outlineLevel = (int)par.OutlineLevel;
             if (outlineLevel >= 1 && outlineLevel <= 6)
             {
-                // Process headings
+                // Process headings: Heading 1, Heading 2, ..., Heading 6
                 par.set_Style("Heading " + outlineLevel);
             }
             else
             {
                 // Process paragraphs
                 var parFormat = par.Range.ParagraphFormat;
-                parFormat.SpaceBeforeAuto = False;
-                parFormat.SpaceBefore = 5;
-                parFormat.SpaceAfterAuto = False;
-                parFormat.SpaceAfter = 5;
 
-                // Process lists (bullets / numbered list / nested bullets)
                 if (par.Range.ListFormat.ListType != WdListType.wdListNoNumbering)
+                    // Process lists (bullets / numbered list / nested bullets)
                     FormatListParagraph(par, parFormat);
-
-                // Process source code blocks
-                if (par.Range.Font.Name == "Consolas")
+                else if (par.Range.Font.Name == "Consolas")
+                    // Process source code blocks
                     FormatSourceCodeParagraph(par, parFormat);
+                else
+                    // Format normal text paragraphs
+                    FormatNormalTextParagraph(parFormat);
             }
         }
 
         void FormatListParagraph(Paragraph par, ParagraphFormat parFormat)
         {
+            parFormat.SpaceBeforeAuto = False;
+            parFormat.SpaceBefore = 5;
+            parFormat.SpaceAfterAuto = False;
+            parFormat.SpaceAfter = 5;
             parFormat.FirstLineIndent = CentimetersToPoints(-0.4);
             var leftIndent = 0.8 * par.Range.ListFormat.ListLevelNumber + 0.1;
             parFormat.LeftIndent = CentimetersToPoints(leftIndent);
@@ -163,6 +172,15 @@ class PrepressMSWordBookFromGitBook
                 parFormat.RightIndent = CentimetersToPoints(0.4);
             }
         }
+    }
+
+    static void FormatNormalTextParagraph(ParagraphFormat parFormat)
+    {
+        parFormat.Alignment = WdParagraphAlignment.wdAlignParagraphJustify;
+        parFormat.SpaceBeforeAuto = False;
+        parFormat.SpaceBefore = 5;
+        parFormat.SpaceAfterAuto = False;
+        parFormat.SpaceAfter = 5;
     }
 
     static void FixTables()
@@ -272,8 +290,8 @@ class PrepressMSWordBookFromGitBook
         pageSetup.TopMargin = CentimetersToPoints(1);
         pageSetup.BottomMargin = CentimetersToPoints(1);
 
-        pageSetup.HeaderDistance = CentimetersToPoints(1.25);
-        pageSetup.FooterDistance = CentimetersToPoints(1.25);
+        pageSetup.HeaderDistance = CentimetersToPoints(1);
+        pageSetup.FooterDistance = CentimetersToPoints(1);
 
         wordApp.ActiveDocument.DefaultTabStop = CentimetersToPoints(0.8);
     }
