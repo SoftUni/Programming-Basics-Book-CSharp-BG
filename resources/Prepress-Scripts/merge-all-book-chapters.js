@@ -6,7 +6,7 @@
    3) Paste and execute this JS code.
  It will loadd all book chapters into a single HTML page. This HTML can later
  be converted to other formats (MS Word DOCX, MS Word RTF, ePub, Mobi, PDF)
- using Calibre: https://calibre-ebook.com
+ using Calibre (https://calibre-ebook.com) or custom propress tool.
 ****************************************************************************/
 
 // Extract the chapters URLs from the book summary panel
