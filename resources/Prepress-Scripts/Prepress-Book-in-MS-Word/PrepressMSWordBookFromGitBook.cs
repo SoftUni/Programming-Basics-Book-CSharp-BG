@@ -281,7 +281,7 @@ class PrepressMSWordBookFromGitBook
     static void FixPageSizeAndMargins()
     {
         var pageSetup = wordApp.ActiveDocument.PageSetup;
-        pageSetup.PageWidth = CentimetersToPoints(18);
+        pageSetup.PageWidth = CentimetersToPoints(17);
         pageSetup.PageHeight = CentimetersToPoints(24);
 
         pageSetup.MirrorMargins = True;
