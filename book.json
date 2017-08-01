@@ -1,8 +1,12 @@
 {
-    "plugins": ["ga"],
+    "plugins": ["ga", "meta"],
     "pluginsConfig": {
         "ga": {
             "token": "UA-11309924-16"
+        },
+        "meta": {
+            "name": "google-site-verification",
+            "content": "AWhQilrxdrfKBZwgDA4W3HgenyIiC8kw9ImVuYNSTAg"
         }
     },
     "pdf": {
