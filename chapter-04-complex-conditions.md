@@ -401,7 +401,7 @@ switch (селектор)
     case стойност5:
         конструкция;
         break;
-    ....
+    ...
     default:
         конструкция;
         break;
@@ -416,7 +416,23 @@ switch (селектор)
 * crocodile, tortoise, snake -> **reptile**
 * others -> **unknown**
 
+#### Примерен вход и изход
+
+|Вход|Изход|
+|-----|-----|
+|tortoise|reptile|
+
+|Вход|Изход|
+|-----|-----|
+|dog|mammal|
+
+|Вход|Изход|
+|-----|-----|
+|elephant|unknown|
+
 #### Решение
+
+Можем да решим задачата чрез **`switch`**-**`case`** проверки с множество етикети по следния начин:
 
 ![](assets/chapter-4-images/10.Animal-type-01.png)
 
