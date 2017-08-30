@@ -627,7 +627,7 @@ switch (селектор)
 
 Задаваме следните препоръчителни настройки на контролите:
 
-* За **главната форма (Form)**, която съдържа всички контроли:
+* За **главната форма (`Form`)**, която съдържа всички контроли:
   *	(name) = **`FormPointAndRectangle`**
   *	**`Text`** = **`Point and Rectangle`**
   *	**`Font.Size`** = **`12`**
@@ -643,7 +643,7 @@ switch (селектор)
 * За **бутона (`Button`)** за **визуализация** на правоъгълника и точката:
   *	(name) = **`buttonDraw`**
   *	**Text** = **`Draw`**
-* За **текстовия блок за резултата (Label)**:
+* За **текстовия блок за резултата (`Label`)**:
   *	(name) = **`labelLocation`**
   *	**`AutoSize`** = **`false`**
   *	**`BackColor`** = **`PaleGreen`**
@@ -682,7 +682,7 @@ private void numericUpDownX1_ValueChanged(object sender, EventArgs e)
     Draw();
 }
 
- /* TODO: implement the same way event handlers
+ /* TODO: implement in the same way event handlers
     numericUpDownY1_ValueChanged, 
     numericUpDownX2_ValueChanged, 
     numericUpDownY2_ValueChanged, 
