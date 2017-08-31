@@ -664,4 +664,4 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#11](Jud11)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#11]
