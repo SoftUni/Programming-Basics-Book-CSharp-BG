@@ -140,7 +140,7 @@ for (int i = 0; i < 5; i++)
   
 ## Шаблони с код (code snippets)
 
-Във Visual Studio съществуват т.нар. **шаблони с код** (code snippets), при изписването на които се генерира шаблон с код. Примерно при изписването на [**`cw` + Tab + Tab**]" се генерира кодът **`Console.WriteLine();`**:
+Във Visual Studio съществуват т.нар. **шаблони с код** (code snippets), при изписването на които се генерира шаблон с код. Примерно при изписването на [**`cw` + Tab + Tab**] се генерира кодът **`Console.WriteLine();`**:
 
 ![](/assets/chapter-11-images/01.Code-snippet-01.jpg)
 
