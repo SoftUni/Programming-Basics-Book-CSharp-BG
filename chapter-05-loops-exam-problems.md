@@ -155,9 +155,10 @@
 
 ![](assets/chapter-5-2-images/01.Histogram-06.png)
 
-
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#0](https://judge.softuni.bg/Contests/Practice/Index/511#0)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#0](https://judge.softuni.bg/Contests/Practice/Index/511#0).
+
 
 ### Задача: умната Лили
 
@@ -240,7 +241,9 @@
 
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#1](https://judge.softuni.bg/Contests/Practice/Index/511#1)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#1](https://judge.softuni.bg/Contests/Practice/Index/511#1).
+
 
 ### Задача: завръщане в миналото
 
@@ -318,7 +321,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#2](https://judge.softuni.bg/Contests/Practice/Index/511#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#2](https://judge.softuni.bg/Contests/Practice/Index/511#2).
+
 
 ### Задача: болница
 
@@ -410,7 +414,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#3](https://judge.softuni.bg/Contests/Practice/Index/511#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#3](https://judge.softuni.bg/Contests/Practice/Index/511#3).
+
 
 ### Задача: деление без остатък
 
@@ -496,7 +501,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#4](https://judge.softuni.bg/Contests/Practice/Index/511#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/511#4](https://judge.softuni.bg/Contests/Practice/Index/511#4).
+
 
 ### Задача: логистика
 

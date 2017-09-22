@@ -155,7 +155,8 @@ switch (селектор)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/509#0](https://judge.softuni.bg/Contests/Practice/Index/509#0) 
+Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/509#0](https://judge.softuni.bg/Contests/Practice/Index/509#0).
+
 
 ### Задача: пътешествие
 
@@ -258,7 +259,8 @@ switch (селектор)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#1](https://judge.softuni.bg/Contests/Practice/Index/509#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#1](https://judge.softuni.bg/Contests/Practice/Index/509#1).
+
 
 ### Задача: операции между числа
 
@@ -350,7 +352,8 @@ switch (селектор)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#2](https://judge.softuni.bg/Contests/Practice/Index/509#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#2](https://judge.softuni.bg/Contests/Practice/Index/509#2).
+
 
 ### Задача: билети за мач
 
@@ -440,7 +443,8 @@ switch (селектор)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#3](https://judge.softuni.bg/Contests/Practice/Index/509#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#3](https://judge.softuni.bg/Contests/Practice/Index/509#3).
+
 
 ### Задача: хотелска стая
 
@@ -530,4 +534,4 @@ switch (селектор)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#4](https://judge.softuni.bg/Contests/Practice/Index/509#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/509#4](https://judge.softuni.bg/Contests/Practice/Index/509#4).

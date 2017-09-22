@@ -41,9 +41,10 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#0](https://judge.softuni.bg/Contests/Practice/Index/510#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#0](https://judge.softuni.bg/Contests/Practice/Index/510#0).
 
 Трябва да получите **100 точки** (напълно коректно решение).
+
 
 ## Code Snippet за for цикъл във Visual Studio
 
@@ -65,7 +66,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#1](https://judge.softuni.bg/Contests/Practice/Index/510#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#1](https://judge.softuni.bg/Contests/Practice/Index/510#1).
+
 
 ### Пример: всички латински букви
 
@@ -79,7 +81,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#2](https://judge.softuni.bg/Contests/Practice/Index/510#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#2](https://judge.softuni.bg/Contests/Practice/Index/510#2).
+
 
 ### Пример: сумиране на числа
 
@@ -113,7 +116,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#3](https://judge.softuni.bg/Contests/Practice/Index/510#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#3](https://judge.softuni.bg/Contests/Practice/Index/510#3).
+
 
 ### Пример: най-голямо число
 
@@ -137,7 +141,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#4](https://judge.softuni.bg/Contests/Practice/Index/510#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#4](https://judge.softuni.bg/Contests/Practice/Index/510#4).
+
 
 ### Пример: най-малко число
 
@@ -159,7 +164,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#5](https://judge.softuni.bg/Contests/Practice/Index/510#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#5](https://judge.softuni.bg/Contests/Practice/Index/510#5).
 
 
 ### Пример: лява и дясна сума
@@ -180,7 +185,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#6](https://judge.softuni.bg/Contests/Practice/Index/510#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#6](https://judge.softuni.bg/Contests/Practice/Index/510#6).
 
 
 ### Пример: четна / нечетна сума
@@ -203,7 +208,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#7](https://judge.softuni.bg/Contests/Practice/Index/510#7)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#7](https://judge.softuni.bg/Contests/Practice/Index/510#7).
+
 
 ### Пример: сумиране на гласните букви
 
@@ -228,7 +234,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#8](https://judge.softuni.bg/Contests/Practice/Index/510#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#8](https://judge.softuni.bg/Contests/Practice/Index/510#8).
+
 
 ## Какво научихме от тази глава?
 
@@ -272,7 +279,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#9](https://judge.softuni.bg/Contests/Practice/Index/510#9)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#9](https://judge.softuni.bg/Contests/Practice/Index/510#9).
+
 
 ### Задача: четни / нечетни позиции
 
@@ -295,7 +303,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#10](https://judge.softuni.bg/Contests/Practice/Index/510#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#10](https://judge.softuni.bg/Contests/Practice/Index/510#10).
 
 
 ### Задача: еднакви двойки
@@ -323,7 +331,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#11](https://judge.softuni.bg/Contests/Practice/Index/510#11)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#11](https://judge.softuni.bg/Contests/Practice/Index/510#11).
 
 
 ## Упражнения: графични и уеб приложения

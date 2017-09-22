@@ -95,7 +95,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#0](https://judge.softuni.bg/Contests/Practice/Index/517#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#0](https://judge.softuni.bg/Contests/Practice/Index/517#0).
+
 
 ### Задача: смяна на плочки
 
@@ -155,7 +156,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1](https://judge.softuni.bg/Contests/Practice/Index/517#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1](https://judge.softuni.bg/Contests/Practice/Index/517#1).
+
 
 ### Задача: магазин за цветя
 
@@ -224,7 +226,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2](https://judge.softuni.bg/Contests/Practice/Index/517#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2](https://judge.softuni.bg/Contests/Practice/Index/517#2).
+
 
 ### Задача: оценки
 
@@ -284,7 +287,8 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3](https://judge.softuni.bg/Contests/Practice/Index/517#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3](https://judge.softuni.bg/Contests/Practice/Index/517#3).
+
 
 ### Задача: коледна шапка
 
@@ -327,19 +331,20 @@ _Типът данни за реални числа с десетична точ
 Остава да изпълним тялото на цикъла, като **след всяко** начертаване **намалим** броя на точки с **1**, а **тиретата увеличим** с **1**. Нека не забравяме да начертаем и по една **звездичка** между тях.
 Последователността на чертане в тялото на цикъла е следната:
 
-*	Символен низ от точки
-*	Звезда
-*	Символен низ от тирета
-*	Звезда
-*	Символен низ от тирета
-*	Звезда
-*	Символен низ от точки
+* Символен низ от точки
+* Звезда
+* Символен низ от тирета
+* Звезда
+* Символен низ от тирета
+* Звезда
+* Символен низ от точки
 
 В случай че сме работили правилно получаваме фигурки, идентични на тези от примерите.
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4](https://judge.softuni.bg/Contests/Practice/Index/517#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4](https://judge.softuni.bg/Contests/Practice/Index/517#4).
+
 
 ### Задача: комбинации от букви
 
@@ -392,4 +397,4 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5).
