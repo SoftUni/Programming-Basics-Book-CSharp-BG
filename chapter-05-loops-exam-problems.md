@@ -555,26 +555,14 @@
 <tr>
 <th align="left"><strong>Вход</strong></th>
 <th align="left"><strong>Изход</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top">5<br>2<br>10<br>20<br>1<br>7</td>
-<td valign="top">149.38<br>7.50%<br>42.50%<br>50.00%</td>
-</tr>
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
 <th align="left"><strong>Вход</strong></th>
 <th align="left"><strong>Изход</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
+<td valign="top">5<br>2<br>10<br>20<br>1<br>7</td>
+<td valign="top">149.38<br>7.50%<br>42.50%<br>50.00%</td>
 <td valign="top">4<br>53<br>7<br>56<br>999</td>
 <td valign="top">120.35<br>0.00%<br>0.63%<br>99.37%</td>
 </tr>
