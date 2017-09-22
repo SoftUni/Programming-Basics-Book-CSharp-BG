@@ -10,7 +10,7 @@
 * [5.1. Повторения \(цикли\)](chapter-05-loops.md)
 * [5.2. Цикли – изпитни задачи](chapter-05-loops-exam-problems.md)
 * [6.1. Вложени цикли](chapter-06-nested-loops.md)
-* [6.2. Вложени цикли – изпитни задачи](chapter-06-nested-loops-problems.md)
+* [6.2. Вложени цикли – изпитни задачи](chapter-06-nested-loops-exam-problems.md)
 * [7.1. По-сложни цикли](chapter-07-complex-loops.md)
 * [7.2. По-сложни цикли – изпитни задачи](chapter-07-complex-loops-exam-problems.md)
 * [8.1. Подготовка за практически изпит – част I](chapter-08-exam-preparation.md)
