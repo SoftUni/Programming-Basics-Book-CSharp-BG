@@ -318,7 +318,7 @@ string printMe = new string('*', 5);
 
 ![](assets/chapter-6-2-images/05.Axe-05.png)
 
-За **последният ред** от фигурата, можем отново да използваме трите, вече декларирани и инициализирани променливи **`leftDashes`**, **`middleDashes`**, **`rightDashes`**.
+За **последния ред** от фигурата, можем отново да използваме трите, вече декларирани и инициализирани променливи **`leftDashes`**, **`middleDashes`**, **`rightDashes`**.
 
 ![](assets/chapter-6-2-images/05.Axe-06.png)
 
