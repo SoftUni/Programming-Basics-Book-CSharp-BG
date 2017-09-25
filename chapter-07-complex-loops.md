@@ -389,6 +389,10 @@ print а;
 
 По този начин, когато **`i + j = 2`**, програмата ще направи променливата **`hasToEnd = true`** и ще излезе от вътрешния цикъл. При следващото завъртане на външния цикъл, чрез **`if`** проверката, програмата няма да може да стигне до вътрешния цикъл и ще прекъсне изпълнението си.
 
+#### Тестване в Judge системата
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#11](https://judge.softuni.bg/Contests/Practice/Index/514#11).
+
 ## Справяне с грешни данни: try-catch
 
 Последното, с което ще се запознаем в тази глава, е как да "улавяме" **грешни данни** чрез конструкцията **`try-catch`**.
@@ -423,7 +427,7 @@ print а;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#11](https://judge.softuni.bg/Contests/Practice/Index/514#11).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#12](https://judge.softuni.bg/Contests/Practice/Index/514#12).
 
 Сега вече решението трябва да минава без грешки.
 
@@ -473,7 +477,7 @@ Fn = Fn-1 + Fn-2
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#12](https://judge.softuni.bg/Contests/Practice/Index/514#12).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#13](https://judge.softuni.bg/Contests/Practice/Index/514#13).
 
 
 ### Задача: пирамида от числа
@@ -505,7 +509,7 @@ Fn = Fn-1 + Fn-2
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#13](https://judge.softuni.bg/Contests/Practice/Index/514#13).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#14](https://judge.softuni.bg/Contests/Practice/Index/514#14).
 
 
 ### Задача: таблица с числа
@@ -535,7 +539,7 @@ Fn = Fn-1 + Fn-2
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#14](https://judge.softuni.bg/Contests/Practice/Index/514#14).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#15](https://judge.softuni.bg/Contests/Practice/Index/514#15).
 
 
 ## Какво научихме от тази глава?
