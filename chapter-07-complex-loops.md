@@ -426,7 +426,7 @@ print а;
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#10](https://judge.softuni.bg/Contests/Practice/Index/514#10).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#11](https://judge.softuni.bg/Contests/Practice/Index/514#11).
 
 Сега вече решението трябва да минава без грешки.
 
@@ -476,7 +476,7 @@ Fn = Fn-1 + Fn-2
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#11](https://judge.softuni.bg/Contests/Practice/Index/514#11).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#12](https://judge.softuni.bg/Contests/Practice/Index/514#12).
 
 
 ### Задача: пирамида от числа
@@ -508,7 +508,7 @@ Fn = Fn-1 + Fn-2
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#12](https://judge.softuni.bg/Contests/Practice/Index/514#12).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#13](https://judge.softuni.bg/Contests/Practice/Index/514#13).
 
 
 ### Задача: таблица с числа
@@ -538,7 +538,7 @@ Fn = Fn-1 + Fn-2
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#13](https://judge.softuni.bg/Contests/Practice/Index/514#13).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/514#14](https://judge.softuni.bg/Contests/Practice/Index/514#14).
 
 
 ## Какво научихме от тази глава?
