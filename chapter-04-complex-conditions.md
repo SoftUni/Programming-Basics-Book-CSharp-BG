@@ -59,9 +59,10 @@ if (condition1)
 
 ![](/assets/chapter-4-images/01.Personal-titles-02.png)
 
-#### Тестване на решението: 
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#0](https://judge.softuni.bg/Contests/Practice/Index/508#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#0](https://judge.softuni.bg/Contests/Practice/Index/508#0).
+
 
 ### Пример: квартално магазинче
 
@@ -89,8 +90,10 @@ if (condition1)
 
 ![](/assets/chapter-4-images/02.Small-shop-01.png)
 
-#### Тестване на решението: 
-Тествайте решението си тук: https://judge.softuni.bg/Contests/Practice/Index/508#1
+#### Тестване в Judge системата
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#1](https://judge.softuni.bg/Contests/Practice/Index/508#1).
+
 
 ## По-сложни проверки
 
@@ -146,9 +149,9 @@ bool result = a && b && c && d;
 
 ![](/assets/chapter-4-images/03.Point-in-rectangle-03.PNG)
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#2](https://judge.softuni.bg/Contests/Practice/Index/508#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#2](https://judge.softuni.bg/Contests/Practice/Index/508#2).
 
 
 ## Логическо "ИЛИ"
@@ -195,9 +198,9 @@ bool result = a || b || c || d;
 
 ![](assets/chapter-4-images/04.Fruit-or-vegetable-01.png)
 
-#### Тестване на решението:
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#3](https://judge.softuni.bg/Contests/Practice/Index/508#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#3](https://judge.softuni.bg/Contests/Practice/Index/508#3).
 
 
 ## Логическо отрицание
@@ -226,9 +229,9 @@ bool result = a || b || c || d;
 
 ![](assets/chapter-4-images/05.Invalid-number-01.png)
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#4](https://judge.softuni.bg/Contests/Practice/Index/508#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#4](https://judge.softuni.bg/Contests/Practice/Index/508#4).
 
 
 ## Операторът скоби `()`
@@ -268,9 +271,10 @@ bool result = a || b || c || d;
 
 Остава да допишете кода, за да отпечатва “**Inside / Outside**”, ако точката не е върху някоя от страните на правоъгълника.
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-След като допишете решението, може да го тествате тук: [https://judge.softuni.bg/Contests/Practice/Index/508#5](https://judge.softuni.bg/Contests/Practice/Index/508#5)
+След като допишете решението, може да го тествате тук: [https://judge.softuni.bg/Contests/Practice/Index/508#5](https://judge.softuni.bg/Contests/Practice/Index/508#5).
+
 
 ### Пример: магазин за плодове
 
@@ -302,9 +306,10 @@ bool result = a || b || c || d;
 
 ![](assets/chapter-4-images/07.Fruit-shop-01.png)
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#6](https://judge.softuni.bg/Contests/Practice/Index/508#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#6](https://judge.softuni.bg/Contests/Practice/Index/508#6).
+
 
 ### Пример: търговски комисионни
 
@@ -329,13 +334,15 @@ bool result = a || b || c || d;
 
 ![](assets/chapter-4-images/08.Trade-comissions-01.png)
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#7](https://judge.softuni.bg/Contests/Practice/Index/508#7)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#7](https://judge.softuni.bg/Contests/Practice/Index/508#7).
+
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Добра практика</b> е да използваме <b>блокове</b>, които <b>заграждаме</b> с къдрави скоби <b><code>{ }</code></b> след <b><code>if</code></b> и <b><code>else</code></b>. Също така, препоръчително e при писане да <b>отместваме</b> кода <b>след <code>if</code> и <code>else</code></b> с една табулация <b>навътре</b>, за да направим кода по-лесно четим.</td>
 </tr></table>
+
 
 ## Условна конструкция switch-case
 
@@ -380,9 +387,9 @@ switch (селектор)
 <td><b>Добра практика</b> е на <b>първо</b> място да поставяме онези <b><code>case</code> случаи</b>, които обработват <b>най-често случилите се ситуации</b>, а <b><code>case</code> конструкциите</b>, обработващи <b>по-рядко възникващи ситуации</b>, да оставим в <b>края преди <code>default</code> конструкцията</b>. Друга <b>добра практика</b> е да <b>подреждаме <code>case</code> етикетите</b> в <b>нарастващ ред</b>, без значение дали са целочислени или символни.</td>
 </tr></table>
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#8](https://judge.softuni.bg/Contests/Practice/Index/508#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#8](https://judge.softuni.bg/Contests/Practice/Index/508#8).
 
 
 ### Множество етикети в switch-case
@@ -428,9 +435,10 @@ switch (селектор)
 
 ![](assets/chapter-4-images/10.Animal-type-01.png)
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#9](https://judge.softuni.bg/Contests/Practice/Index/508#9)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#9](https://judge.softuni.bg/Contests/Practice/Index/508#9).
+
 
 ## Какво научихме от тази глава?
 
@@ -501,10 +509,9 @@ switch (селектор)
 
 ![](assets/chapter-4-images/11.Cinema-01.png)
 
+#### Тестване в Judge системата
 
-#### Тестване на решението
-
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#10](https://judge.softuni.bg/Contests/Practice/Index/508#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#10](https://judge.softuni.bg/Contests/Practice/Index/508#10).
 
 
 ### Задача: волейбол
@@ -536,9 +543,10 @@ switch (селектор)
 
 ![](assets/chapter-4-images/11.Volleyball-01.png)
 
-#### Тестване на решението
+#### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#11](https://judge.softuni.bg/Contests/Practice/Index/508#11)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#11](https://judge.softuni.bg/Contests/Practice/Index/508#11).
+
 
 ### Задача: * точка във фигурата
 
@@ -586,9 +594,10 @@ switch (селектор)
 
 ![](assets/chapter-4-images/13.Point-in-the-figure-02.png)
 
+#### Тестване в Judge системата
 
-#### Тестване на решението
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#12](https://judge.softuni.bg/Contests/Practice/Index/508#12)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#12](https://judge.softuni.bg/Contests/Practice/Index/508#12).
+
 
 ## Упражнения: графично приложения с по-сложни проверки
 

@@ -66,6 +66,7 @@ Console.WriteLine(area);
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#0](https://judge.softuni.bg/Contests/Practice/Index/504#0).
 
+
 ## Пресмятания в програмирането
 
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**. Променливите са именувани области от паметта, които пазят данни от определен тип, например число или текст. Всяка една **променлива** в C# има **име**, **тип** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията ѝ, ѝ присвояваме и стойност:
@@ -110,7 +111,8 @@ Console.WriteLine(centimeters);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#1](https://judge.softuni.bg/Contests/Practice/Index/504#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#1](https://judge.softuni.bg/Contests/Practice/Index/504#1).
+
 
 ## Четене и печатане на текст
 
@@ -136,7 +138,8 @@ Console.WriteLine("Hello, {0}!", name);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2).
+
 
 ## Съединяване на текст и числа
 
@@ -169,7 +172,8 @@ Console.WriteLine("{1} + {1} = {0}", 1+1, 1);
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3).
+
 
 ## Аритметични операции
 
@@ -318,7 +322,8 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4).
+
 
 ### Пример: периметър и лице на кръг 
 
@@ -342,7 +347,8 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#5](https://judge.softuni.bg/Contests/Practice/Index/504#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#5](https://judge.softuni.bg/Contests/Practice/Index/504#5).
+
 
 ### Пример: лице на правоъгълник в равнината
 
@@ -374,7 +380,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#6](https://judge.softuni.bg/Contests/Practice/Index/504#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#6](https://judge.softuni.bg/Contests/Practice/Index/504#6).
+
 
 ## Какво научихме от тази глава?
 
@@ -438,6 +445,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 ![](assets/chapter-2-images/01.Square-area-05.png)
 
 ![](assets/chapter-2-images/01.Square-area-06.png)
+
 
 ### Задача:	от инчове към сантиметри
 
@@ -518,6 +526,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 ![](assets/chapter-2-images/02.Inches-to-centimeters-16.png)
 
+
 ### Задача: поздрав по име
 
 Да се напише програма, която **чете от конзолата име на човек** и отпечатва **`Hello, <name>!`**, където **`<name>`** е въведеното преди това име.
@@ -538,7 +547,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2)
+Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2).
+
 
 ### Задача:	съединяване на текст и числа
 
@@ -560,7 +570,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3).
+
 
 ### Задача:	лице на трапец
 
@@ -582,7 +593,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4).
+
 
 ### Задача:	периметър и лице на кръг
 
@@ -603,7 +615,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#5](https://judge.softuni.bg/Contests/Practice/Index/504#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#5](https://judge.softuni.bg/Contests/Practice/Index/504#5).
+
 
 ### Задача: лице на правоъгълник в равнината
 
@@ -621,7 +634,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#6]( https://judge.softuni.bg/Contests/Practice/Index/504#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#6](https://judge.softuni.bg/Contests/Practice/Index/504#6).
+
 
 ### Задача:	лице на триъгълник
 
@@ -638,7 +652,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#7](https://judge.softuni.bg/Contests/Practice/Index/504#7)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#7](https://judge.softuni.bg/Contests/Practice/Index/504#7).
+
 
 ### Задача:	конзолен конвертор - от градуси °C към градуси °F
 
@@ -655,7 +670,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#8](https://judge.softuni.bg/Contests/Practice/Index/504#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#8](https://judge.softuni.bg/Contests/Practice/Index/504#8).
+
 
 ### Задача:	конзолен конвертор - от радиани в градуси
 
@@ -672,7 +688,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#9](https://judge.softuni.bg/Contests/Practice/Index/504#9)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#9](https://judge.softuni.bg/Contests/Practice/Index/504#9).
+
 
 ### Задача: конзолен конвертор - USD към BGN
 
@@ -688,7 +705,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#10](https://judge.softuni.bg/Contests/Practice/Index/504#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#10](https://judge.softuni.bg/Contests/Practice/Index/504#10).
+
 
 ### Задача:	\* конзолен междувалутен конвертор
 
@@ -711,7 +729,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
  
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#11](https://judge.softuni.bg/Contests/Practice/Index/504#11)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#11](https://judge.softuni.bg/Contests/Practice/Index/504#11).
+
 
 ### Задача:	** пресмятане с дати - 1000 дни на Земята
 
@@ -733,7 +752,8 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#12](https://judge.softuni.bg/Contests/Practice/Index/504#12)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#12](https://judge.softuni.bg/Contests/Practice/Index/504#12).
+
 
 ## Графични приложения с числови изрази
 
