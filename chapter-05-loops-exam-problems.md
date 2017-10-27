@@ -88,7 +88,7 @@
 <tbody>
 <tr>
 <td valign="top"><strong>14</strong><br>53<br>7<br>56<br>180<br>450<br>920<br>12<br>7<br>150<br>250<br>680<br>2<br>600<br>200</td>
-<td valign="top">57.14%<br>7.14%<br>7.14%<br>14.29%<br>14.29%</td>
+<td valign="top">57.14%<br>14.29%<br>7.14%<br>14.29%<br>7.14%</td>
 </tr>
 </tbody>
 </table>
