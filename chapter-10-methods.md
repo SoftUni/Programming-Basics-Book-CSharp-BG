@@ -567,6 +567,10 @@ var division = Divide(1, 3);
 |---|---|
 |Peter|Hello, Peter!|
 
+#### Насоки и подсказки
+
+Дефинирайте метод **`PrintName(string name)`** и го имплементирайте, след което го извикайте от главната програма.
+
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#7](https://judge.softuni.bg/Contests/Practice/Index/594#7).
