@@ -678,42 +678,19 @@ static string IntegerToBase(int number, int toBase) {
 
 ### Задача: известия
 
-Да се напишат два метода. Първият метод
+Да се напише програма, която прочита цяло число **`n`** и на следващите редове ще бъдат въведени **`n`** **съобщения** (като за всяко съобщение се прочитат по няколко реда). Всяко съобщение започва с **`messageType`**: **`success`**, **`warning`** или **`error`**:
+   - Когато **`messageType`** е **`success`** да се четат **`operation`** + **`message`** (всяко на отделен ред).
+   - Когато **`messageType`** е **`warning`** да се чете само **`message`**.
+   - Когато **`messageType`** е **`error`** да се четат **`operation`** + **`message`** + **`errorCode`** (всяко на отделен ред).
+На конзолата да се отпечата **всяко прочетено съобщение**, форматирано в зависимост от неговия **`messageType`**. Като след заглавния ред за всяка съобщение да се отпечатат толкова на брой силвола **`=`**, **колкото е дълъг** съответният **заглавен ред** и да се сложи по един **празен ред** след всяко съобщение (за по-детайлно разбиране погледнете примерите). Задачата да се реши с четири метода: **`ShowSuccessMessage`**, **`ShowWarningMessage`**, **`ShowErrorMessage`** и **`ReadAndProcessMessage`**, като само последния метод да се извиква от главния **`Main()`** метод:
 
 ![](assets/chapter-10-images/23.Notifications-01.png)
-
-трябва да печата съобщение в следния формат:
-
-> Successfully executed {operation}.<br>
-> \=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br>
-> Message: {message}.
-
-Вторият метод
-
-![](assets/chapter-10-images/23.Notifications-02.png)
-
-трябва да печата съобщение в следния формат:
-
-> Error: Failed to execute {operation}.<br>
-> =\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=<br>
-> Error Code: {code}.<br>
-> Reason: {reason}.<br>
-
-Стойността на променливата **`reason`** се определя от стойността на променливата **`code`**:
-* Ако стойността на **`code`** е положителна, стойността на **`reason`** е "Invalid Client Data".
-* Ако стойността на **`code`** е отрицателна, стойността на **`reason`** е "Internal System Failure".
-
-След това да се напише програма, която прочита цяло число N. На следващите N на брой реда, потребителят ще получава стойност за **`result`** - "success" или "error". Ако настоящата операция има статус "success", то потребителят трябва да въведе стойности за **`operation`** и **`message`**. Ако статусът е "error", то потребителят трябва да въведе стойности за **`operation`** и **`code`**. Ако статусът не е нито "success", нито "error", то на конзолата не трябва да се печата нищо и програмата трябва да продължи.
 
 #### Примерен вход и изход
 
 |Вход|Изход|
 |---|---|
-|2<br>success<br>User registration<br>User registered successfully<br>error<br>connecting to server<br>-403|Successfully executed User registration.<br>==============================<br>Message: User registered successfully.<br>Error: Failed to execute connecting to server.<br>==============================<br>Error Code: -403.<br>Reason: Internal System Failure.|
-
-|Вход|Изход|
-|---|---|
-|3<br>success<br>Database query<br>Updated 2 rows<br>warning<br>error<br>credit card purchase<br>2|Successfully executed Database query.<br>==============================<br>Message: Updated 2 rows.<br>Error: Failed to execute credit card purchase.<br>==============================<br>Error Code: 2.<br>Reason: Invalid Client Data.|
+|4<br>error<br>credit card purchase<br>Invalid customer address<br>500<br>warning<br>Email not confirmed<br>success<br>user registration<br>User registered successfully<br>warning<br>Customer has not email assigned|Error: Failed to execute credit card purchase.<br>==============================================<br>Reason: Invalid customer address.<br>Error code: 500.<br><br>Warning: Email not confirmed.<br>=============================<br><br>Successfully executed user registration.<br>========================================<br>User registered successfully.<br><br>Warning: Customer has not email assigned.<br>=========================================|
 
 #### Тестване в Judge системата
 
