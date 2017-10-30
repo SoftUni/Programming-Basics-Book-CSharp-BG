@@ -662,7 +662,7 @@ var min = GetMin(GetMin(num1, num2), num3);
 Допишете липсващата логика в метода по-долу:
 
 ```csharp
-public static string IntegerToBase(int number, int toBase) {
+static string IntegerToBase(int number, int toBase) {
     string result = "";
     while (number != 0) {
         // Implement the missing conversion logic
