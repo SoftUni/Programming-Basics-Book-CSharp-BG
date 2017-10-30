@@ -666,9 +666,9 @@ var min = GetMin(GetMin(num1, num2), num3);
 ```csharp
 public static string IntegerToBase(double number, double toBase) {
     string result = "";
-	while (number != 0) {
-	    // Implement the missing conversion logic
-	}
+    while (number != 0) {
+        // Implement the missing conversion logic
+    }
     return result;
 }
 ```
