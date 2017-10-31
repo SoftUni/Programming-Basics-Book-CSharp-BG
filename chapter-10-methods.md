@@ -691,22 +691,29 @@ static string IntegerToBase(int number, int toBase) {
 
 |Вход|Изход|
 |---|---|
-|4<br>error<br>credit card purchase<br>Invalid customer address<br>500<br>warning<br>Email not confirmed<br>success<br>user registration<br>User registered successfully<br>warning<br>Customer has not email assigned|<code>
-Error: Failed to execute credit card purchase.
-==============================================
-Reason: Invalid customer address.
-Error code: 500.
-    
-Warning: Email not confirmed.
-=============================
-
-Successfully executed user registration.
-========================================
-User registered successfully.
-
-Warning: Customer has not email assigned.
-=========================================
-</code>|
+|4<br>
+error<br>
+credit card purchase<br>
+Invalid customer address<br>
+500<br>
+warning<br>
+Email not confirmed<br>
+success<br>
+user registration<br>
+User registered successfully<br>
+warning<br>
+Customer has not email assigned
+|<code>Error: Failed to execute credit card purchase.</code><br>
+<code>==============================================</code><br>
+<code>Reason: Invalid customer address.</code><br>
+<code>Error code: 500.</code><br><br>
+<code>Warning: Email not confirmed.</code><br>
+<code>=============================</code><br><br>
+<code>Successfully executed user registration.</code><br>
+<code>========================================</code><br>
+<code>User registered successfully.</code><br><br>
+<code>Warning: Customer has not email assigned.</code><br>
+<code>=========================================</code>|
 
 #### Тестване в Judge системата
 
