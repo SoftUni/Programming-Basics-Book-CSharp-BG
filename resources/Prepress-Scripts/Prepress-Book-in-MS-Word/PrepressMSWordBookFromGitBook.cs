@@ -8,7 +8,7 @@ using System.Threading;
 class PrepressMSWordBookFromGitBook
 {
     const string inputFileName =
-        @"C:\Users\Venci\Desktop\book-template.docx";
+        @"..\..\short-sample.docx";
     static Application wordApp;
     const int True = -1;
     const int False = 0;
@@ -81,6 +81,13 @@ class PrepressMSWordBookFromGitBook
         finder.ClearFormatting();
         finder.Replacement.ClearFormatting();
         finder.Font.Name = "Helvetica";
+        finder.Replacement.Font.Name = "Lato Light";
+        finder.Replacement.Font.Size = 11;
+        finder.Execute(Replace: WdReplace.wdReplaceAll);
+
+        finder.ClearFormatting();
+        finder.Replacement.ClearFormatting();
+        finder.Font.Name = "Segoe UI";
         finder.Replacement.Font.Name = "Lato Light";
         finder.Replacement.Font.Size = 11;
         finder.Execute(Replace: WdReplace.wdReplaceAll);
