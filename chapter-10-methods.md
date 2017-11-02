@@ -727,7 +727,7 @@ static string IntegerToBase(int number, int toBase) {
 
 |Вход|Изход|Вход|Изход|
 |---|---|---|---|
-|4<br>311<br>418<br>519<br>-9945|three-hundred and eleven<br>four-hundred and eighteen<br>five-hundred and nineteen<br>too small|2<br>500<br>123|five-hundred<br>one-hundred and twenty three|
+|4<br>311<br>418<br>509<br>-9945|three-hundred and eleven<br>four-hundred and eighteen<br>five-hundred and nine<br>too small|2<br>500<br>123|five-hundred<br>one-hundred and twenty three|
 
 #### Насоки и подсказки
 
