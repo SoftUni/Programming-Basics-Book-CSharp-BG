@@ -23,7 +23,7 @@
 ```csharp
 if (true)
 {
-    Console.WriteLine("влязох в if-a");
+    Console.WriteLine("Inside the if statement");
 }
 ```
 
@@ -34,7 +34,7 @@ if (true)
 {
    if (true)
    {
-       Console.WriteLine("влязох в if-a");
+       Console.WriteLine("Inside the if statement");
    }
 }
 ```
@@ -43,7 +43,7 @@ if (true)
    
 ```csharp
 if(true){
-Console.WriteLine("влязох в if-a");}
+Console.WriteLine("Inside the if statement");}
 ```
 
 Първото, което се забелязва са **къдравите скоби `{}`**. Първата (отваряща) скоба трябва да е **точно под `if` условието**, a втората (затваряща) скоба - **под командата `Console.WriteLine(…)`, на отделен празен ред**. В допълнение, командата вътре в **`if`** конструкцията трябва да бъде **4 празни полета навътре (един таб)**. Същото правило важи и за **`for` цикли и всякакви други конструкции с къдрави скоби `{}`**. Ето още няколко примера:
