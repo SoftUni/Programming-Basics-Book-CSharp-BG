@@ -21,7 +21,7 @@
 За форматиране на кода от Microsoft се препоръчва **къдравите скоби `{}`** да са на отделен ред и точно под конструкцията, към която се отнасят, както е в примера по-долу.
 
 ```csharp
-if (true)
+if (someCondition)
 {
     Console.WriteLine("Inside the if statement");
 }
@@ -30,9 +30,9 @@ if (true)
 Вижда се, че командата **`Console.WriteLine(…)`** в примера е **4 празни полета навътре (един таб)**, което също се препоръчва от **Microsoft**. Също така, ако дадена конструкция с къдрави скоби е един таб навътре, то **къдравите скоби `{}`** трябва да са в **началото на конструкцията**, както е в примера по-долу:
 
 ```csharp
-if (true)
+if (someCondition)
 {
-   if (true)
+   if (anotherCondition)
    {
        Console.WriteLine("Inside the if statement");
    }
@@ -42,7 +42,7 @@ if (true)
 Ето това е пример за **лошо форматиран код** спрямо общоприетите конвенции за писане на код на езика C#:
    
 ```csharp
-if(true){
+if(someCondition){
 Console.WriteLine("Inside the if statement");}
 ```
 
