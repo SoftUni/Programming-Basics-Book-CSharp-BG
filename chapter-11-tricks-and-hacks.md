@@ -225,7 +225,7 @@ static void Main(string[] args)
 ### Вкарване на променливи в стринг (string)
 
 ```csharp
-var text = "some text"
+var text = "some text";
 Console.WriteLine("{0}", text);
 // Tова ще отпечата на конзолата "some text"
 ```
