@@ -1,5 +1,11 @@
 {
-    "plugins": ["ga", "meta"],
+    "plugins": [        
+        "ga",
+        "meta",
+        "anchors",
+        "expandable-chapters-small",
+        "katex"
+    ],
     "pluginsConfig": {
         "ga": {
             "token": "UA-11309924-16"
