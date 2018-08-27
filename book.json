@@ -1,5 +1,5 @@
 {
-    "plugins": [        
+    "plugins": [
         "ga",
         "meta",
         "anchors",
