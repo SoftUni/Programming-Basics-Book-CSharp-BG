@@ -2,7 +2,7 @@
 * [Предговор](Content/Preface/overview.md)
   * [За кого е тази книга?](Content/Preface/for-whom-this-book-is/for-whom-this-book-is.md)
   * [Защо избрахме езика C#?](Content/Preface/why-csharp/why-csharp.md)
-  * [Книгата на други програмни езици: Java, JavaScript, C++, Python, PHP, Ruby](Content/Preface/the-book-in-other-programming-languagesp/the-book-in-other-programming-languages.md)
+  * [Книгата на други програмни езици](Content/Preface/the-book-in-other-programming-languages/the-book-in-other-programming-languages.md)
   * [Програмиране се учи с много писане, не с четене!](Content/Preface/programming-is-learned-with-writing-not-reading/programming-is-learned-with-writing-not-reading.md)
   * [За Софтуерния университет (СофтУни)](Content/Preface/about-softuni/about-softuni.md)
   * [Как се става програмист?](Content/Preface/how-to-become-a-programmer/how-to-become-a-programmer.md)
