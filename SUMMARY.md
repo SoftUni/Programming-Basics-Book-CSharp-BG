@@ -12,7 +12,7 @@
 * [1. Първи стъпки в програмирането](Content/Chapter-1-first-steps-in-programming/overview.md)
   * [Какво означава "да програмираме"?](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/what-it-is-to-program.md)
     * [Компютърни програми](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/computer-programs/computer-programs.md)
-    * [Алгоритми](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/algorithms)
+    * [Алгоритми](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/algorithms/algorithms.md)
     * [Езици за програмиране, компилатори, интерпретатори и среди за разработка](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/programming-languages-compilers/programming-languages-compilers.md)
     * [Езици от ниско и високо ниво, среди за изпълнение (Runtime Environments)](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/low-level-and-high-level-languages-runtime-env/low-and-high-level-languages-runtime-env.md)
     * [Компютърни програми - компилация и изпълнение](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/computer-programs-compilation-execution/computer-programs-compilation-execution.md)
