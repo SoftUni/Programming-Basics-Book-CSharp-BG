@@ -12,7 +12,7 @@ Console.WriteLine(centimeters);
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](assets/chapter-2-images/00.Inches-to-centimeters-01.jpg)
+![](/assets/chapter-2-images/00.Inches-to-centimeters-01.jpg)
 
 #### Тестване в Judge системата
 
