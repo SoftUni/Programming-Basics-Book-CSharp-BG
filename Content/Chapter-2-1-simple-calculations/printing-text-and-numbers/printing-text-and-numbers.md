@@ -13,7 +13,7 @@ Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
 
 Ето резултатът, който ще получим, след изпълнение на този пример:
 
-![](assets/chapter-2-images/00.Placeholders-01.jpg)
+![](/assets/chapter-2-images/00.Placeholders-01.jpg)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид**.
 
@@ -22,6 +22,7 @@ Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
 ```csharp
 Console.WriteLine("{1} + {1} = {0}", 1+1, 1);
 ```
+
 Резултатът е:
 ```
 1 + 1 = 2
