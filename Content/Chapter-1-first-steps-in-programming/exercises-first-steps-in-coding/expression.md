@@ -10,14 +10,14 @@
 
 Правим **нов C# конзолен проект** с име "**Expression**".	Намираме метода **``static void Main(string[] args)``** и **влизаме в неговото тяло** между **`{`** и **`}`**. След това трябва да **напишем кода**, който да изчисли горния числен израз и да отпечата на конзолата стойността му. Подаваме горния числен израз в скобите на командата **``Console.WriteLine(…)``**:
 
-![](assets/chapter-1-images/02.Expression-01.png)
+![](/assets/chapter-1-images/02.Expression-01.png)
 
 Стартираме програмата с [**Ctrl+F5**] и проверяваме дали резултатът е същия като на картинката:
 
-![](assets/chapter-1-images/02.Expression-02.png)
+![](/assets/chapter-1-images/02.Expression-02.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/503#1](https://judge.softuni.bg/Contests/Practice/Index/503#1).
 
-![](assets/chapter-1-images/02.Expression-03.png)
+![](/assets/chapter-1-images/02.Expression-03.png)
