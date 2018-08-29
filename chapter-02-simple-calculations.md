@@ -114,13 +114,14 @@ Console.WriteLine(centimeters);
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#1](https://judge.softuni.bg/Contests/Practice/Index/504#1).
 
 
-## Четене и печатане на текст
+## Четене на текст
 
 За да прочетем текст (стринг) от конзолата, отново **декларираме нова променлива** и използваме стандартната **команда за четене на информация от системната конзола**:
 
 ```csharp
 var str = Console.ReadLine();
 ```
+
 Нека обърнем внимание на факта, че при **четене на текст не се декларира** по никакъв начин тип "**`string`**" (текст). Това е така, защото по подразбиране методът **`Console.ReadLine(…)`** връща като **резултат текст**. Допълнително, вие можете да зададете текста да бъде прехвърлен в цяло число чрез **`int.Parse(…)`** или дробно число чрез **`double.Parse(…)`**. Ако това не се направи, за програмата **всяко едно число** ще бъде просто **текст**, с който **не бихме могли да извършваме** аритметични операции.
 
 ### Пример: поздрав по име
@@ -141,7 +142,7 @@ Console.WriteLine("Hello, {0}!", name);
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2).
 
 
-## Съединяване на текст и числа
+## Печатане на текст и числа
 
 При печат в конзолата на текст, числа и други данни, **можем да ги съединим**, като използваме шаблони **`{0}`**, **`{1}`**, **`{2}`** и т.н. В програмирането тези шаблони се наричат **placeholders**.
 
@@ -156,7 +157,7 @@ Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
 
 Ето резултатът, който ще получим, след изпълнение на този пример:
 
-![](assets/chapter-2-images/00.Placeholders-01.jpg)
+![](/assets/chapter-2-images/00.Placeholders-01.jpg)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид**.
 
@@ -202,7 +203,7 @@ Console.WriteLine(result);
 
 Ето резултатът от изпълнението на програмата (при числа 10 и 3):
 
-![](assets/chapter-2-images/00.Subtracting-01.jpg)
+![](/assets/chapter-2-images/00.Subtracting-01.jpg)
 
 ### Умножение на числа (оператор **`*`**)
 
@@ -241,6 +242,7 @@ var a = 25;
 Console.WriteLine(a / 4);  // Целочислен резултат: 6
 Console.WriteLine(a / 0);  // Грешка: деление на 0
 ```
+
 Да разгледаме няколко примера за **деление на дробни числа**. При дробно делене резултатът винаги е **дробно число** и деленето никога не дава грешка и работи коректно със специалните стойности **+&#8734;** и **-&#8734;**:
 
 ```csharp
@@ -404,15 +406,15 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 *	Стартираме Visual Studio.
 * Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
 
-![](assets/chapter-2-images/00.Blank-solution-01.png)
+![](/assets/chapter-2-images/00.Blank-solution-01.png)
 
 Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Calculations”:
 
-![](assets/chapter-2-images/00.Blank-solution-02.png)
+![](/assets/chapter-2-images/00.Blank-solution-02.png)
 
 Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
 
-![](assets/chapter-2-images/00.Blank-solution-03.png)
+![](/assets/chapter-2-images/00.Blank-solution-03.png)
 
 Целта на този blank solution e да добавяме в него **по един проект за всяка задача** от упражненията.
 
@@ -424,27 +426,27 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project…**]:
 
-![](assets/chapter-2-images/01.Square-area-01.png)
+![](/assets/chapter-2-images/01.Square-area-01.png)
 
 Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C# конзолно приложение** с име “Square-Area”:
 
-![](assets/chapter-2-images/01.Square-area-02.png)
+![](/assets/chapter-2-images/01.Square-area-02.png)
 
 Вече имаме solution с едно конзолно приложение в него. Остава да напишем **кода за решаване на задачата**. За целта отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
-![](assets/chapter-2-images/01.Square-area-03.png)
+![](/assets/chapter-2-images/01.Square-area-03.png)
 
 Кодът въвежда цяло число чрез **`a = int.Parse(Console.ReadLine())`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
 
-![](assets/chapter-2-images/01.Square-area-04.png)
+![](/assets/chapter-2-images/01.Square-area-04.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#0](https://judge.softuni.bg/Contests/Practice/Index/504#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](assets/chapter-2-images/01.Square-area-05.png)
+![](/assets/chapter-2-images/01.Square-area-05.png)
 
-![](assets/chapter-2-images/01.Square-area-06.png)
+![](/assets/chapter-2-images/01.Square-area-06.png)
 
 
 ### Задача:	от инчове към сантиметри
@@ -455,54 +457,54 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Първо създаваме **нов C# конзолен проект** в решението “Simple-Calculations”. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-01.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-01.png)
 
 Избираме [**Visual C#**] -> [**Windows**] -> [**Console Application**] и задайте име “Inches-to-Centimeters”:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-02.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-02.png)
 
 Следва да напишем **кода на програмата**:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-03.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-03.png)
 
 **Стартираме програмата** с [**Ctrl+F5**]:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-04.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-04.png)
 
 Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
 Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-05.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-05.png)
 
 За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-06.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-06.png)
 
 Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current Selection**]:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-07.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-07.png)
 
 Сега отново **стартираме програмата**, както обикновено с [**Ctrl+F5**]. Този път ще се стартира **текущата отворена програма**, която преобразува инчове в сантиметри. Изглежда работи коректно:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-08.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-08.png)
 
 Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Program.cs``** от предходния проект **“Square-Area”** в панела [**Solution Explorer**] на Visual Studio:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-12.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-12.png)
 
 Натискаме пак [**Ctrl+F5**]. Този път трябва да се стартира другият проект:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-11.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-11.png)
 
 Превключваме обратно към проекта **“Inches-to-Centimeters”** и го стартираме с [**Ctrl+F5**]:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-09.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-09.png)
 
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-10.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-10.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -510,13 +512,13 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая), ще се получи следната грешка:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-13.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-13.png)
 
 Препоръчително е **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-14.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-14.png)
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-15.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-15.png)
 
 #### Тестване в Judge системата
 
@@ -524,7 +526,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](assets/chapter-2-images/02.Inches-to-centimeters-16.png)
+![](/assets/chapter-2-images/02.Inches-to-centimeters-16.png)
 
 
 ### Задача: поздрав по име
@@ -535,15 +537,15 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Първо създаваме **нов C# конзолен проект** с име “Greeting” в решението “Simple-Calculations”:
 
-![](assets/chapter-2-images/03.Greeting-by-name-01.png)
+![](/assets/chapter-2-images/03.Greeting-by-name-01.png)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](assets/chapter-2-images/03.Greeting-by-name-02.png)
+![](/assets/chapter-2-images/03.Greeting-by-name-02.png)
 
 **Стартираме** програмата с [**Ctrl+F5**] и я тестваме дали работи:
 
-![](assets/chapter-2-images/03.Greeting-by-name-03.png)
+![](/assets/chapter-2-images/03.Greeting-by-name-03.png)
 
 #### Тестване в Judge системата
 
@@ -558,11 +560,11 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Добавяме към текущото Visual Studio решение още един конзолен C# проект с име “Concatenate-Data”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](assets/chapter-2-images/04.Concatenate-data-01.png)
+![](/assets/chapter-2-images/04.Concatenate-data-01.png)
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
 
-![](assets/chapter-2-images/04.Concatenate-data-02.png)
+![](/assets/chapter-2-images/04.Concatenate-data-02.png)
 
 На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
 
@@ -579,13 +581,13 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 На фигурата по-долу е показан трапец със страни 8 и 13 и височина 7. Той има лице **(8 + 13) * 7 / 2 = 73.5**.
 
-![](assets/chapter-2-images/05.Trapezoid-area-01.png)
+![](/assets/chapter-2-images/05.Trapezoid-area-01.png)
 
 #### Насоки и подсказки
 
 Отново трябва да добавим към текущото Visual Studio решение още един **конзолен C# проект** с име ""Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](assets/chapter-2-images/05.Trapezoid-area-02.png)
+![](/assets/chapter-2-images/05.Trapezoid-area-02.png)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
@@ -763,13 +765,13 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 От нас се изисква да създадем **графично приложение** (GUI application), което пресмята стойността в **евро** (EUR) на парична сума, зададена в **лева** (BGN). При промяна на стойността в лева, равностойността в евро трябва да се преизчислява автоматично (използваме курс лева / евро: **1.95583**).
 
-![](assets/chapter-2-images/13.Currency-converter-01.png)
+![](/assets/chapter-2-images/13.Currency-converter-01.png)
 
 Тази задача излиза извън изучавания в книгата материал и има за цел не да ви научи как да програмирате GUI приложения, а да ви запали интереса към разработката на софтуер. Да се залавяме за работа.
 
 Добавяме към текущото Visual Studio решение (solution) още един проект. Този път създаваме **Windows Forms** приложение със C# с име "BGN-to-EUR-Converter":
 
-![](assets/chapter-2-images/13.Currency-converter-02.png)
+![](/assets/chapter-2-images/13.Currency-converter-02.png)
 
 Подреждаме следните UI контроли във формата:
 * **`NumericUpDown`** с име **`numericUpDownAmount`** – ще въвежда сумата за конвертиране
@@ -777,7 +779,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 *	Още два **`Label`** компонента, служещи единствено за статично изобразяване на текст
 Графичният редактор за потребителски интерфейс може да изглежда по подобен начин:
 
-![](assets/chapter-2-images/13.Currency-converter-03.png)
+![](/assets/chapter-2-images/13.Currency-converter-03.png)
 
 Задаваме следните настройки на формата и на отделните контроли:
 
@@ -789,7 +791,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 Дефинираме следните **обработчици на събития** по контролите:
 
-![](assets/chapter-2-images/13.Currency-converter-07.png)
+![](/assets/chapter-2-images/13.Currency-converter-07.png)
 
 След това хващаме следните събития:
 - **``FormConverter.Load``** (като кликнем върху формата 2 пъти с мишката)
@@ -800,7 +802,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 За **хващане на събитие** ползваме иконката със събитията (Events) в **Properties**  прозореца във Visual Studio:
 
-![](assets/chapter-2-images/13.Currency-converter-01.png)
+![](/assets/chapter-2-images/13.Currency-converter-01.png)
 
 Ще използваме следния **C# код** за обработка на събитията:
 
@@ -844,7 +846,7 @@ private void ConvertCurrency()
 
 Създайте забавно графично приложение **„хвани бутона“**: една форма съдържа един бутон. При преместване на курсора на мишката върху бутона той се премества на случайна позиция. Така се създава усещане, че **„бутонът бяга от мишката и е трудно да се хване“**. При „хващане“ на бутона се извежда съобщение-поздрав.
 
-![](assets/chapter-2-images/14.Catch-the-button-01.png)
+![](/assets/chapter-2-images/14.Catch-the-button-01.png)
 
 
 **Подсказка**: напишете обработчик за събитието **``Button.MouseEnter``** и премествайте бутона на случайна позиция. Използвайте генератор за случайни числа **``Random``**. Позицията на бутона се задава от свойството **``Location``**. За да бъде новата позиция на бутона в рамките на формата, можете да направите изчисления спрямо размера на формата, който е достъпен от свойството **``ClientSize``**. Можете да ползвате следния примерен код:
