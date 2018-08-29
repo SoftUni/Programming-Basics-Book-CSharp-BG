@@ -29,7 +29,7 @@
       * [Писане на програмен код](Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/example-hello-csharp/write-the-code.md)    
       * [Стартиране на програмата](Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/example-hello-csharp/start-the-program.md)
       * [Тестване на програмата в Judge системата](Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/example-hello-csharp/test-in-judge.md)      
-   * [Тествайте програмите за свирене на ноти](Content/Chapter-1-first-steps-in-programming/test-programs-that-plays-notes-in-judge)
+   * [Тествайте програмите за свирене на ноти](Content/Chapter-1-first-steps-in-programming/test-programs-that-plays-notes-in-judge/test-programs-that-plays-notes-in-judge.md)
    * [Типични грешки в C# програмите](Content/Chapter-1-first-steps-in-programming/typical-mistakes-in-csharp/typical-mistakes-in-csharp.md)
    * [Какво научихме от тази глава?](Content/Chapter-1-first-steps-in-programming/what-we-learned/what-we-learned.md)
    * [Упражнения: първи стъпки в коденето](Content/Chapter-1-first-steps-in-programming/exercises-first-steps-in-coding/exercises-first-steps-in-coding.md)
