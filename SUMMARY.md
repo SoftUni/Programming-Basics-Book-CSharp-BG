@@ -52,7 +52,33 @@
        * [Създаване на уеб форма](Content/Chapter-1-first-steps-in-programming/exercises-graphical-and-web-apps/sumator-web/creating-web-form.md)
        * [Писане на програмния код](Content/Chapter-1-first-steps-in-programming/exercises-graphical-and-web-apps/sumator-web/writing-the-code.md)
        * [Тестване на приложението](Content/Chapter-1-first-steps-in-programming/exercises-graphical-and-web-apps/sumator-web/testing-the-app.md)
-* [2.1. Прости пресмятания](chapter-02-simple-calculations.md)
+* [2.1. Прости пресмятания](Content/Chapter-2-1-simple-calculations/overview.md)
+  * [Системна конзола](Content/Chapter-2-1-simple-calculations/system-console/system-console.md)
+  * [Четене на цели числа от конзолата](Content/Chapter-2-1-simple-calculations/reading-integers-from-console/reading-integers-from-console.md)
+    * [Пример: пресмятане на лице на квадрат със страна а](Content/Chapter-2-1-simple-calculations/reading-integers-from-console/example-square-area/example-square-area.md)
+      * [Как работи примерът?](Content/Chapter-2-1-simple-calculations/reading-integers-from-console/example-square-area/how-example-works.md)
+  * [Пресмятания в програмирането](Content/Chapter-2-1-simple-calculations/calculations-in-programming/calculations-in-programming.md)
+  * [Типове данни и променливи](Content/Chapter-2-1-simple-calculations/data-types-and-variables/data-types-and-variables.md)
+  * [Четене на дробни числа от конзолата](Content/Chapter-2-1-simple-calculations/reading-floats-from-console/reading-floats-from-console.md)
+    * [Пример: прехвърляне от инчове в сантиметри](Content/Chapter-2-1-simple-calculations/reading-floats-from-console/example-inches-to-cent/example-inches-to-cent.md)
+  * [Четене на текст](Content/Chapter-2-1-simple-calculations/reading-text/reading-text.md)
+    * [Пример: поздрав по име](Content/Chapter-2-1-simple-calculations/reading-text/example-greeting-by-name.md)
+  * [Печатане на текст и числа](Content/Chapter-2-1-simple-calculations/printing-text-and-numbers/printing-text-and-numbers.md)
+  * [Аритметични операции](Content/Chapter-2-1-simple-calculations/arithmetical-operations/arithmetical-operations.md)
+    * [Събиране на числа (оператор +)](Content/Chapter-2-1-simple-calculations/arithmetical-operations/addition.md)
+    * [Изваждане на числа (оператор -)](Content/Chapter-2-1-simple-calculations/arithmetical-operations/subtraction.md)
+    * [Умножение на числа (оператор *)](Content/Chapter-2-1-simple-calculations/arithmetical-operations/multiplication.md)
+    * [Деление на числа (оператор -)](Content/Chapter-2-1-simple-calculations/arithmetical-operations/division/division.md)
+      * [Целочислено деление](Content/Chapter-2-1-simple-calculations/arithmetical-operations/division/integer-division.md)
+      * [Дробно деление](Content/Chapter-2-1-simple-calculations/arithmetical-operations/division/floating-division.md)
+  * [Съединяване на текст и число](TODO)
+      
+    
+    
+  
+  
+  
+
 * [2.2. Прости пресмятания – изпитни задачи](chapter-02-simple-calculations-exam-problems.md#simple-calculations)
 * [3.1. Прости проверки](chapter-03-simple-conditions.md)
 * [3.2. Прости проверки – изпитни задачи](chapter-03-simple-conditions-exam-problems.md)
