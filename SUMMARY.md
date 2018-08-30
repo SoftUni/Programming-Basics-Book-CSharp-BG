@@ -20,7 +20,7 @@
       * [Пример: програма, която свири музикалната нота "ла"](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/examples-computer-programs/program-that-plays-note-la.md)
       * [Пример: програма, която свири поредица от музикални ноти](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/examples-computer-programs/program-that-plays-sequence-of-notes.md)
       * [Пример: програма, която конвертира от левове в евро](Content/Chapter-1-first-steps-in-programming/what-it-is-to-program/examples-computer-programs/program-that-converts-leva-to-eur.md)
-  * [Как да напишем конзолна програма?](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/how-to-write-console-app.md)
+  * [Как да напишем конзолна програма?](Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/how-to-write-console-app.md)
     * [Среда за разработка (IDE)](Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/ides/ides.md)    
     * [Инсталация на Visual Studio Community](Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/visual-studio-installation/visual-studio-installation.md)    
     * [Онлайн среди за разработка](Content/Chapter-1-first-steps-in-programming/how-to-write-console-app/online-ides/online-ides.md)    
