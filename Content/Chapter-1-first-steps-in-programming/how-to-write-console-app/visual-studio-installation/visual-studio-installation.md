@@ -6,35 +6,35 @@
 
 В следващите редове подробно са описани подробно **стъпките за инсталация на Visual Studio** (версия Community 2017). След като свалим инсталационния файл и го стартираме, се появява следният екран:
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-1.png)
+![](/assets/chapter-1-images/00.visual-studio-1.png)
 
 Натискаме бутона [**Continue**], след което ще видим прозореца долу:
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-2.png)
+![](/assets/chapter-1-images/00.visual-studio-2.png)
 
 Зарежда се прозорец с инсталационния панел на Visual Studio.
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-3.png)
+![](/assets/chapter-1-images/00.visual-studio-3.png)
 
 Слагаме отметка на [**Universal Windows Platform development**], [**.NET desktop development**] и [**ASP.NET and web development**], след което натискаме бутона [**Install**]. Общо взето това е всичко.
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-4.png)
+![](/assets/chapter-1-images/00.visual-studio-4.png)
 
 Започва инсталацията на Visual Studio и ще се появи екран като този по-долу:
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-5.png)
+![](/assets/chapter-1-images/00.visual-studio-5.png)
 
 След като Visual Studio се инсталира, ще се появи информативен екран и трябва да натиснем бутона [**Launch**], за да го стартираме.
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-6.png)
+![](/assets/chapter-1-images/00.visual-studio-6.png)
 
 След **старта на VS** излиза екран като този по-долу. От него можем да изберем дали да влезем с Microsoft профила си във Visual Studio. За момента избираме да работим без да сме се логнали с Microsoft акаунта си, затова избираме опцията [**Not now, maybe later.**]. На по-късен етап, ако имате такъв акаунт, можете да се логнете, а ако нямате и срещате затруднения със създаването му, винаги можете да пишете във форума на SoftUni: [https://softuni.bg/forum](https://softuni.bg/forum).
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-7.png)
+![](/assets/chapter-1-images/00.visual-studio-7.png)
 
 Следващата стъпка е да изберем **цветовата тема**, с която да се визуализира Visual Studio. Тук изборът е изцяло според предпочитанията на потребителя, като няма значение коя опция ще бъде избрана. 
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-8.png)
+![](/assets/chapter-1-images/00.visual-studio-8.png)
 
 Натискаме бутона [**Start Visual Studio**] и се зарежда в началния изглед на Visual Studio Community:
 
