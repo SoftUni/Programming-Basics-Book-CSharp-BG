@@ -412,7 +412,7 @@
     * [Какво представлява while цикълът?](Content/Chapter-7-1-complex-loops/while-loop/while-explained.md)
     * [Пример: редица числа 2k+1](Content/Chapter-7-1-complex-loops/while-loop/example-sequence-2k+1.md)
     * [Пример: число в диапазона 1 … 100](Content/Chapter-7-1-complex-loops/while-loop/example-numbers-1-to-100.md)
-  * [Най-голям общ делител (НОД)](Content/Chapter-7-1-complex-loops/greatest-common-divisor/)
+  * [Най-голям общ делител (НОД)](Content/Chapter-7-1-complex-loops/greatest-common-divisor/greatest-common-divisor.md)
     * [Алгоритъм на Евклид](Content/Chapter-7-1-complex-loops/greatest-common-divisor/euclidean-algorithm.md)
     * [Пример: най-голям общ делител (НОД)](Content/Chapter-7-1-complex-loops/greatest-common-divisor/example-gcd.md)
   * [Do-while цикъл](Content/Chapter-7-1-complex-loops/do-while-loop/do-while-loop.md)
