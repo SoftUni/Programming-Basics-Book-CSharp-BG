@@ -14,7 +14,7 @@
 
 ![](/assets/chapter-7-images/09.Sum-digits-01.png)
 
-<table><tr><td><img src="assets/alert-icon.png" style="max-width:50px;" /></td>
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px;" /></td>
 <td><code><strong>n % 10</strong></code>: <b>връща</b> последната цифра на числото <code><strong>n</strong></code>.<br>
 <code><strong>n / 10</strong></code>: <b>изтрива</b> последната цифра на <code><strong>n</strong></code>.</td>
 </tr></table>
