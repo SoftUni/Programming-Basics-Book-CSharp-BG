@@ -465,6 +465,7 @@
     * [Насоки и подсказки](Content/Chapter-7-2-complex-loops-exam-problems/stupid-password-generator/guidelines.md)
     * [Прочитане и обработка на входните данни](Content/Chapter-7-2-complex-loops-exam-problems/stupid-password-generator/read-input-data.md)
     * [Обработване и извеждане на резултат](Content/Chapter-7-2-complex-loops-exam-problems/stupid-password-generator/process-and-print-output.md)
+    * [Знаете ли, че…?](Content/Chapter-7-2-complex-loops-exam-problems/stupid-password-generator/do-you-know.md)
   * [Задача: магически числа](Content/Chapter-7-2-complex-loops-exam-problems/magic-combination/magic-combination.md)
     * [Решение с for цикъл](Content/Chapter-7-2-complex-loops-exam-problems/magic-combination/for-loop-solution.md)
     * [Решение с while цикъл](Content/Chapter-7-2-complex-loops-exam-problems/magic-combination/while-loop-solution/while-loop-solution.md)
