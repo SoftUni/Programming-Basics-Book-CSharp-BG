@@ -19,6 +19,6 @@
 * Ако се раздели на някое от числата, значи е **композитно**.
 * Ако не се раздели на никое от числата, значи е **просто**.
 
-<table><tr><td><img src="assets/alert-icon.png" style="max-width:50px" /></td>
+<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Можем да оптимизираме алгоритъма, като вместо проверката да е до <code><strong>n-1</strong></code>, да се проверяват делителите до <code><strong>√n</strong></code>. Помислете защо.</td>
 </tr></table>
