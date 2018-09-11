@@ -6,4 +6,4 @@
 
 Ето как би изглеждало използване на два такива цикъла:
 
-![](assets/chapter-9-2-images/01.Passion-days-03.png)
+![](/assets/chapter-9-2-images/01.Passion-days-03.png)
