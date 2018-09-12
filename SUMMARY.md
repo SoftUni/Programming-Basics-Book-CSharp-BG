@@ -617,6 +617,7 @@
   * [Връщане на резултат от метод](Content/Chapter-10-methods/return-result-from-method/return-result-from-method.md)
     * [Типове на връщаната от метода стойност](Content/Chapter-10-methods/return-result-from-method/return-value-types.md)
     * [Оператор return](Content/Chapter-10-methods/return-result-from-method/operator-return/operator-return.md)
+      * [Оператор return - пример](Content/Chapter-10-methods/return-result-from-method/operator-return/operator-return-example.md)
       * [Кодът след return е недостъпен](Content/Chapter-10-methods/return-result-from-method/operator-return/the-code-after-return-is-inaccessible.md)
     * [Употреба на връщаната от метода стойност](Content/Chapter-10-methods/return-result-from-method/usage-of-returned-value.md)
     * [Пример: пресмятане на лицето на триъгълник](Content/Chapter-10-methods/return-result-from-method/example-calc-triangle-area.md)
