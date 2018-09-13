@@ -379,7 +379,7 @@
       * [Добавяне на DrawRatings метода](Content/Chapter-6-1-nested-loops/exercise-drawing-figures-in-web-app/ratings/drawratings-method.md)
       * [Добавяне на картинките със звездичките](Content/Chapter-6-1-nested-loops/exercise-drawing-figures-in-web-app/ratings/add-star-images.md)
       * [Стартиране на проекта](Content/Chapter-6-1-nested-loops/exercise-drawing-figures-in-web-app/ratings/start-project.md)
-* [6.2. Вложени цикли – изпитни задачи](Content/Chapter-6-1-nested-loops/overview.md)
+* [6.2. Вложени цикли – изпитни задачи](Content/Chapter-6-2-nested-loops-exam-problems/overview.md)
   * [Изпитни задачи](Content/Chapter-6-2-nested-loops-exam-problems/exam-problems/exam-problems.md)
   * [Задача: чертане на крепост](Content/Chapter-6-2-nested-loops-exam-problems/exam-problems/draw-fort/draw-fort.md)
     * [Прочитане на входните данни](Content/Chapter-6-2-nested-loops-exam-problems/exam-problems/draw-fort/read-input-data.md)
