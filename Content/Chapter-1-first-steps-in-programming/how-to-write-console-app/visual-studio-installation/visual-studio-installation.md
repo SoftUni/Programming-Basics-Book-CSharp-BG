@@ -38,7 +38,7 @@
 
 Натискаме бутона [**Start Visual Studio**] и се зарежда в началния изглед на Visual Studio Community:
 
-![](https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/assets/chapter-1-images/00.visual-studio-9.png)
+![](/assets/chapter-1-images/00.visual-studio-9.png)
 
 Това е всичко. Готови сме за работа с Visual Studio.
 
