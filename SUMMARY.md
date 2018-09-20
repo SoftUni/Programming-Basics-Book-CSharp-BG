@@ -120,7 +120,7 @@
   * [Конкатенация](Content/Chapter-2-2-simple-calculations-exam-problems/concatenation/concatenation.md)
   * [Изпитни задачи](Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/exam-problems.md)
     * [Задача: учебна зала](Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/training-lab/training-lab.md)
-      * [Примерен вход/издох и пояснения към примерите](Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/training-lab/sample-input-output-and-explanations.md)
+      * [Примерен вход/изход и пояснения към примерите](Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/training-lab/sample-input-output-and-explanations.md)
       * [Насоки и подсказки](Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/training-lab/guidelines-and-a-sample-idea-for-solution.md)
       * [Избор на типове данни](Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/training-lab/choosing-data-types.md)
       * [Решение - част I](Content/Chapter-2-2-simple-calculations-exam-problems/exam-problems/training-lab/sample-solution-part-1.md)
