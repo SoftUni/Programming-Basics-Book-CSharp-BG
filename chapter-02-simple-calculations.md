@@ -861,3 +861,5 @@ private void buttonCatchMe_MouseEnter(object sender, EventArgs e)
         rand.Next(maxWidth), rand.Next(maxHeight));
 }
 ```
+
+Ако имате трудности, можете да потърсите помощ във **форума на СофтУни**: https://softuni.bg/forum.
