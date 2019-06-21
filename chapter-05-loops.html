@@ -1,0 +1,1033 @@
+
+<!DOCTYPE HTML>
+<html lang="bg" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>5.1. Повторения (цикли) · Основи на програмирането със C#</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        <meta name="identifier" content="978-619-00-0635-0" scheme="ISBN">
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-page-toc-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    <meta name="google-site-verification" content="AWhQilrxdrfKBZwgDA4W3HgenyIiC8kw9ImVuYNSTAg">
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="chapter-05-loops-exam-problems.html" />
+    
+    
+    <link rel="prev" href="chapter-04-complex-conditions-exam-problems.html" />
+    
+
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Книга "Основи на програмирането със C#"
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="chapter-00-preface.html">
+            
+                <a href="chapter-00-preface.html">
+            
+                    
+                    Предговор
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="chapter-01-first-steps-in-programming.html">
+            
+                <a href="chapter-01-first-steps-in-programming.html">
+            
+                    
+                    1. Първи стъпки в програмирането
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="chapter-02-simple-calculations.html">
+            
+                <a href="chapter-02-simple-calculations.html">
+            
+                    
+                    2.1. Прости пресмятания
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="chapter-02-simple-calculations-exam-problems.html">
+            
+                <a href="chapter-02-simple-calculations-exam-problems.html">
+            
+                    
+                    2.2. Прости пресмятания – изпитни задачи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="chapter-03-simple-conditions.html">
+            
+                <a href="chapter-03-simple-conditions.html">
+            
+                    
+                    3.1. Прости проверки
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="chapter-03-simple-conditions-exam-problems.html">
+            
+                <a href="chapter-03-simple-conditions-exam-problems.html">
+            
+                    
+                    3.2. Прости проверки – изпитни задачи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="chapter-04-complex-conditions.html">
+            
+                <a href="chapter-04-complex-conditions.html">
+            
+                    
+                    4.1. По-сложни проверки
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="chapter-04-complex-conditions-exam-problems.html">
+            
+                <a href="chapter-04-complex-conditions-exam-problems.html">
+            
+                    
+                    4.2. По-сложни проверки – изпитни задачи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.10" data-path="chapter-05-loops.html">
+            
+                <a href="chapter-05-loops.html">
+            
+                    
+                    5.1. Повторения (цикли)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="chapter-05-loops-exam-problems.html">
+            
+                <a href="chapter-05-loops-exam-problems.html">
+            
+                    
+                    5.2. Цикли – изпитни задачи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="chapter-06-nested-loops.html">
+            
+                <a href="chapter-06-nested-loops.html">
+            
+                    
+                    6.1. Вложени цикли
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="chapter-06-nested-loops-exam-problems.html">
+            
+                <a href="chapter-06-nested-loops-exam-problems.html">
+            
+                    
+                    6.2. Вложени цикли – изпитни задачи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="chapter-07-complex-loops.html">
+            
+                <a href="chapter-07-complex-loops.html">
+            
+                    
+                    7.1. По-сложни цикли
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="chapter-07-complex-loops-exam-problems.html">
+            
+                <a href="chapter-07-complex-loops-exam-problems.html">
+            
+                    
+                    7.2. По-сложни цикли – изпитни задачи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="chapter-08-exam-preparation.html">
+            
+                <a href="chapter-08-exam-preparation.html">
+            
+                    
+                    8.1. Подготовка за практически изпит – част I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="chapter-08-exam-preparation-part-2.html">
+            
+                <a href="chapter-08-exam-preparation-part-2.html">
+            
+                    
+                    8.2. Подготовка за практически изпит – част II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="chapter-09-problems-for-champions.html">
+            
+                <a href="chapter-09-problems-for-champions.html">
+            
+                    
+                    9.1. Задачи за шампиони – част I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="chapter-09-problems-for-champions-part-2.html">
+            
+                <a href="chapter-09-problems-for-champions-part-2.html">
+            
+                    
+                    9.2. Задачи за шампиони – част II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="chapter-10-methods.html">
+            
+                <a href="chapter-10-methods.html">
+            
+                    
+                    10. Методи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="chapter-11-tricks-and-hacks.html">
+            
+                <a href="chapter-11-tricks-and-hacks.html">
+            
+                    
+                    11. Хитрости и хакове
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="chapter-12-conclusion.html">
+            
+                <a href="chapter-12-conclusion.html">
+            
+                    
+                    Заключение
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >5.1. Повторения (цикли)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x433;&#x43B;&#x430;&#x432;&#x430;-51-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x446;&#x438;&#x43A;&#x43B;&#x438;"><a name="&#x433;&#x43B;&#x430;&#x432;&#x430;-51-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x446;&#x438;&#x43A;&#x43B;&#x438;" class="plugin-anchor" href="#&#x433;&#x43B;&#x430;&#x432;&#x430;-51-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x446;&#x438;&#x43A;&#x43B;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x413;&#x43B;&#x430;&#x432;&#x430; 5.1. &#x41F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F; (&#x446;&#x438;&#x43A;&#x43B;&#x438;)</h1>
+<p>&#x412; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x430;&#x442;&#x430; &#x433;&#x43B;&#x430;&#x432;&#x430; &#x449;&#x435; &#x441;&#x435; &#x437;&#x430;&#x43F;&#x43E;&#x437;&#x43D;&#x430;&#x435;&#x43C; &#x441; &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x446;&#x438;&#x438;&#x442;&#x435; &#x437;&#x430; <strong>&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x430; &#x433;&#x440;&#x443;&#x43F;&#x430; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;</strong>, &#x438;&#x437;&#x432;&#x435;&#x441;&#x442;&#x43D;&#x438; &#x432; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;&#x442;&#x43E; &#x441; &#x43F;&#x43E;&#x43D;&#x44F;&#x442;&#x438;&#x435;&#x442;&#x43E; &quot;<strong>&#x446;&#x438;&#x43A;&#x43B;&#x438;</strong>&quot;. &#x429;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435;&#x43C; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x446;&#x438;&#x43A;&#x44A;&#x43B;&#x430; &#x441; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x430; <strong><code>for</code></strong> &#x432; &#x43D;&#x430;&#x439;-&#x43F;&#x440;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x430; &#x43C;&#x443; &#x444;&#x43E;&#x440;&#x43C;&#x430;. &#x41D;&#x430;&#x43A;&#x440;&#x430;&#x44F; &#x449;&#x435; &#x440;&#x435;&#x448;&#x438;&#x43C; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x43F;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x437;&#x430;&#x434;&#x430;&#x447;&#x438;, &#x438;&#x437;&#x438;&#x441;&#x43A;&#x432;&#x430;&#x449;&#x438; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x430; &#x43F;&#x43E;&#x440;&#x435;&#x434;&#x438;&#x446;&#x430; &#x43E;&#x442; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F;, &#x43A;&#x430;&#x442;&#x43E; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x43C;&#x435; &#x446;&#x438;&#x43A;&#x43B;&#x438;.</p>
+<h2 id="&#x432;&#x438;&#x434;&#x435;&#x43E;"><a name="&#x432;&#x438;&#x434;&#x435;&#x43E;" class="plugin-anchor" href="#&#x432;&#x438;&#x434;&#x435;&#x43E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x412;&#x438;&#x434;&#x435;&#x43E;</h2>
+<div class="video-player">
+  &#x413;&#x43B;&#x435;&#x434;&#x430;&#x439;&#x442;&#x435; &#x432;&#x438;&#x434;&#x435;&#x43E;-&#x443;&#x440;&#x43E;&#x43A; &#x43F;&#x43E; &#x442;&#x430;&#x437;&#x438; &#x433;&#x43B;&#x430;&#x432;&#x430; &#x442;&#x443;&#x43A;: <a target="_blank" href="https://www.youtube.com/watch?v=Xjwjk9yS4uw">
+  https://www.youtube.com/watch?v=Xjwjk9yS4uw</a>.
+</div>
+
+<h2 id="&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x43D;&#x430;-&#x431;&#x43B;&#x43E;&#x43A;&#x43E;&#x432;&#x435;-&#x43A;&#x43E;&#x434;-for-&#x446;&#x438;&#x43A;&#x44A;&#x43B;"><a name="&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x43D;&#x430;-&#x431;&#x43B;&#x43E;&#x43A;&#x43E;&#x432;&#x435;-&#x43A;&#x43E;&#x434;-for-&#x446;&#x438;&#x43A;&#x44A;&#x43B;" class="plugin-anchor" href="#&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x43D;&#x430;-&#x431;&#x43B;&#x43E;&#x43A;&#x43E;&#x432;&#x435;-&#x43A;&#x43E;&#x434;-for-&#x446;&#x438;&#x43A;&#x44A;&#x43B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F; &#x43D;&#x430; &#x431;&#x43B;&#x43E;&#x43A;&#x43E;&#x432;&#x435; &#x43A;&#x43E;&#x434; (for &#x446;&#x438;&#x43A;&#x44A;&#x43B;)</h2>
+<p>&#x412; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;&#x442;&#x43E; &#x447;&#x435;&#x441;&#x442;&#x43E; &#x43F;&#x44A;&#x442;&#x438; &#x441;&#x435; &#x43D;&#x430;&#x43B;&#x430;&#x433;&#x430; <strong>&#x434;&#x430; &#x438;&#x437;&#x43F;&#x44A;&#x43B;&#x43D;&#x438;&#x43C; &#x431;&#x43B;&#x43E;&#x43A; &#x441; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x43F;&#x44A;&#x442;&#x438;</strong>. &#x417;&#x430; &#x446;&#x435;&#x43B;&#x442;&#x430; &#x441;&#x435; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x442; &#x442;.&#x43D;&#x430;&#x440;. <strong>&#x446;&#x438;&#x43A;&#x43B;&#x438;</strong>. &#x41D;&#x435;&#x43A;&#x430; &#x440;&#x430;&#x437;&#x433;&#x43B;&#x435;&#x434;&#x430;&#x43C;&#x435; &#x435;&#x434;&#x438;&#x43D; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x437;&#x430; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong>, &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x43F;&#x440;&#x435;&#x43C;&#x438;&#x43D;&#x430;&#x432;&#x430; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x43D;&#x43E; &#x43F;&#x440;&#x435;&#x437; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43E;&#x442; 1 &#x434;&#x43E; 10 &#x438; &#x433;&#x438; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430;:</p>
+<p><img src="assets/chapter-5-images/00.For-loop-01.png" alt=""></p>
+<p>&#x426;&#x438;&#x43A;&#x44A;&#x43B;&#x44A;&#x442; &#x437;&#x430;&#x43F;&#x43E;&#x447;&#x432;&#x430; &#x441; <strong>&#x43E;&#x43F;&#x435;&#x440;&#x430;&#x442;&#x43E;&#x440;&#x430; <code>for</code></strong> &#x438; &#x43F;&#x440;&#x435;&#x43C;&#x438;&#x43D;&#x430;&#x432;&#x430; &#x43F;&#x440;&#x435;&#x437; &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x437;&#x430; &#x434;&#x430;&#x434;&#x435;&#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x43B;&#x438;&#x432;&#x430; &#x432; &#x434;&#x430;&#x434;&#x435;&#x43D; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x432;&#x430;&#x43B;, &#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430; &#x43E;&#x442; 1 &#x434;&#x43E; 10 &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x438;&#x442;&#x435;&#x43B;&#x43D;&#x43E;, &#x438; &#x437;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442; &#x438;&#x437;&#x43F;&#x44A;&#x43B;&#x43D;&#x44F;&#x432;&#x430; &#x43F;&#x43E;&#x440;&#x435;&#x434;&#x438;&#x446;&#x430; &#x43E;&#x442; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;.</p>
+<p>&#x412; &#x434;&#x435;&#x43A;&#x43B;&#x430;&#x440;&#x430;&#x446;&#x438;&#x44F;&#x442;&#x430; &#x43D;&#x430; &#x446;&#x438;&#x43A;&#x44A;&#x43B;&#x430; &#x43C;&#x43E;&#x436;&#x435; &#x434;&#x430; &#x441;&#x435; &#x437;&#x430;&#x434;&#x430;&#x434;&#x435; <strong>&#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;</strong> &#x438; <strong>&#x43A;&#x440;&#x430;&#x439;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;</strong>. <strong>&#x422;&#x44F;&#x43B;&#x43E;&#x442;&#x43E; &#x43D;&#x430; &#x446;&#x438;&#x43A;&#x44A;&#x43B;&#x430;</strong> &#x43E;&#x431;&#x438;&#x43A;&#x43D;&#x43E;&#x432;&#x435;&#x43D;&#x43E; &#x441;&#x435; &#x43E;&#x433;&#x440;&#x430;&#x436;&#x434;&#x430; &#x441; &#x43A;&#x44A;&#x434;&#x440;&#x430;&#x432;&#x438; &#x441;&#x43A;&#x43E;&#x431;&#x438; <strong><code>{ }</code></strong> &#x438; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x432;&#x430; &#x431;&#x43B;&#x43E;&#x43A; &#x441; &#x435;&#x434;&#x43D;&#x430; &#x438;&#x43B;&#x438; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x438;. &#x41D;&#x430; &#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x442;&#x430; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443; &#x435; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x430; &#x441;&#x442;&#x440;&#x443;&#x43A;&#x442;&#x443;&#x440;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x435;&#x434;&#x438;&#x43D; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong>:</p>
+<p><img src="assets/chapter-5-images/00.For-loop-02.png" alt=""></p>
+<p>&#x412; &#x43F;&#x43E;&#x432;&#x435;&#x447;&#x435;&#x442;&#x43E; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x438; &#x435;&#x434;&#x438;&#x43D; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong> &#x441;&#x435; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x430; &#x43E;&#x442; <strong><code>1</code></strong> &#x434;&#x43E; <strong><code>n</code></strong> (&#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; &#x43E;&#x442; 1 &#x434;&#x43E; 10). &#x426;&#x435;&#x43B;&#x442;&#x430; &#x43D;&#x430; &#x446;&#x438;&#x43A;&#x44A;&#x43B;&#x430; &#x435; &#x434;&#x430; &#x441;&#x435; &#x43F;&#x440;&#x435;&#x43C;&#x438;&#x43D;&#x435; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x43D;&#x43E; &#x43F;&#x440;&#x435;&#x437; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; 1, 2, 3, &#x2026;, n &#x438; &#x437;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x43E; &#x43E;&#x442; &#x442;&#x44F;&#x445; &#x434;&#x430; &#x441;&#x435; &#x438;&#x437;&#x43F;&#x44A;&#x43B;&#x43D;&#x438; &#x43D;&#x44F;&#x43A;&#x430;&#x43A;&#x432;&#x43E; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x435;. &#x412; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x430; &#x43F;&#x43E;-&#x433;&#x43E;&#x440;&#x435; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x43B;&#x438;&#x432;&#x430;&#x442;&#x430; <strong><code>i</code></strong> &#x43F;&#x440;&#x438;&#x435;&#x43C;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x43E;&#x442; 1 &#x434;&#x43E; 10 &#x438; &#x432; &#x442;&#x44F;&#x43B;&#x43E;&#x442;&#x43E; &#x43D;&#x430; &#x446;&#x438;&#x43A;&#x44A;&#x43B;&#x430; &#x441;&#x435; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x430;&#x442;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;. &#x426;&#x438;&#x43A;&#x44A;&#x43B;&#x44A;&#x442; &#x441;&#x435; &#x43F;&#x43E;&#x432;&#x442;&#x430;&#x440;&#x44F; 10 &#x43F;&#x44A;&#x442;&#x438; &#x438; &#x432;&#x441;&#x44F;&#x43A;&#x43E; &#x43E;&#x442; &#x442;&#x435;&#x437;&#x438; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x435; &#x43D;&#x430;&#x440;&#x438;&#x447;&#x430; &quot;<strong>&#x438;&#x442;&#x435;&#x440;&#x430;&#x446;&#x438;&#x44F;</strong>&quot;.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x438;&#x441;&#x43B;&#x430;-&#x43E;&#x442;-1-&#x434;&#x43E;-100"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x438;&#x441;&#x43B;&#x430;-&#x43E;&#x442;-1-&#x434;&#x43E;-100" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x438;&#x441;&#x43B;&#x430;-&#x43E;&#x442;-1-&#x434;&#x43E;-100"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x447;&#x438;&#x441;&#x43B;&#x430; &#x43E;&#x442; 1 &#x434;&#x43E; 100</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; <strong>&#x43F;&#x435;&#x447;&#x430;&#x442;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43E;&#x442; 1 &#x434;&#x43E; 100</strong>. &#x41F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x435; &#x43F;&#x440;&#x438;&#x435;&#x43C;&#x430; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43E;&#x442; 1 &#x434;&#x43E; 100 &#x435;&#x434;&#x43D;&#x43E; &#x441;&#x43B;&#x435;&#x434; &#x434;&#x440;&#x443;&#x433;&#x43E;, &#x43F;&#x43E; &#x435;&#x434;&#x43D;&#x43E; &#x43D;&#x430; &#x440;&#x435;&#x434;.</p>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x41C;&#x43E;&#x436;&#x435;&#x43C; &#x434;&#x430; &#x440;&#x435;&#x448;&#x438;&#x43C; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430;&#x442;&#x430; &#x441; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong> , &#x441; &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x43F;&#x440;&#x435;&#x43C;&#x438;&#x43D;&#x430;&#x432;&#x430;&#x43C;&#x435; &#x441; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x43B;&#x438;&#x432;&#x430;&#x442;&#x430; <strong><code>i</code></strong> &#x43F;&#x440;&#x435;&#x437; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43E;&#x442; 1 &#x434;&#x43E; 100 &#x438; &#x433;&#x438; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430;&#x43C;&#x435; &#x432; &#x442;&#x44F;&#x43B;&#x43E;&#x442;&#x43E; &#x43D;&#x430; &#x446;&#x438;&#x43A;&#x44A;&#x43B;&#x430;:</p>
+<p><img src="assets/chapter-5-images/01.Numbers-1-to-100-01.png" alt=""></p>
+<p><strong>&#x421;&#x442;&#x430;&#x440;&#x442;&#x438;&#x440;&#x430;&#x43C;&#x435;</strong> &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x430; &#x441; [<strong>Ctrl+F5</strong>] &#x438; &#x44F; <strong>&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43C;&#x435;</strong>:</p>
+<p><img src="assets/chapter-5-images/01.Numbers-1-to-100-02.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#0" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#0</a>.</p>
+<p>&#x422;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x442;&#x435; <strong>100 &#x442;&#x43E;&#x447;&#x43A;&#x438;</strong> (&#x43D;&#x430;&#x43F;&#x44A;&#x43B;&#x43D;&#x43E; &#x43A;&#x43E;&#x440;&#x435;&#x43A;&#x442;&#x43D;&#x43E; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;).</p>
+<h2 id="code-snippet-&#x437;&#x430;-for-&#x446;&#x438;&#x43A;&#x44A;&#x43B;-&#x432;&#x44A;&#x432;-visual-studio"><a name="code-snippet-&#x437;&#x430;-for-&#x446;&#x438;&#x43A;&#x44A;&#x43B;-&#x432;&#x44A;&#x432;-visual-studio" class="plugin-anchor" href="#code-snippet-&#x437;&#x430;-for-&#x446;&#x438;&#x43A;&#x44A;&#x43B;-&#x432;&#x44A;&#x432;-visual-studio"><i class="fa fa-link" aria-hidden="true"></i></a>Code Snippet &#x437;&#x430; for &#x446;&#x438;&#x43A;&#x44A;&#x43B; &#x432;&#x44A;&#x432; Visual Studio</h2>
+<p>&#x414;&#x43E;&#x43A;&#x430;&#x442;&#x43E; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43C;&#x435;, &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E; &#x441;&#x435; &#x43D;&#x430;&#x43B;&#x430;&#x433;&#x430; &#x434;&#x430; &#x43F;&#x438;&#x448;&#x435;&#x43C; &#x446;&#x438;&#x43A;&#x43B;&#x438;, &#x434;&#x435;&#x441;&#x435;&#x442;&#x43A;&#x438; &#x43F;&#x44A;&#x442;&#x438; &#x432;&#x441;&#x435;&#x43A;&#x438; &#x434;&#x435;&#x43D;. &#x417;&#x430;&#x442;&#x43E;&#x432;&#x430; &#x432; &#x43F;&#x43E;&#x432;&#x435;&#x447;&#x435;&#x442;&#x43E; &#x441;&#x440;&#x435;&#x434;&#x438; &#x437;&#x430; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430; (IDE) &#x438;&#x43C;&#x430; <strong>&#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x438; &#x437;&#x430; &#x43A;&#x43E;&#x434;</strong> (<strong>code snippets</strong>) &#x437;&#x430; &#x43F;&#x438;&#x441;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x446;&#x438;&#x43A;&#x43B;&#x438;. &#x415;&#x434;&#x438;&#x43D; &#x442;&#x430;&#x43A;&#x44A;&#x432; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D; &#x435; <strong>&#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x44A;&#x442; &#x437;&#x430; <code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B; &#x432;&#x44A;&#x432; Visual Studio</strong>. &#x41D;&#x430;&#x43F;&#x438;&#x448;&#x435;&#x442;&#x435; <strong><code>for</code></strong> &#x432; &#x440;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x43E;&#x440;&#x430; &#x437;&#x430; C# &#x43A;&#x43E;&#x434; &#x432;&#x44A;&#x432; Visual Studio &#x438; <strong>&#x43D;&#x430;&#x442;&#x438;&#x441;&#x43D;&#x435;&#x442;&#x435; &#x434;&#x432;&#x430; &#x43F;&#x44A;&#x442;&#x438;</strong> [<strong>Tab</strong>]. Visual Studio &#x449;&#x435; &#x440;&#x430;&#x437;&#x433;&#x44A;&#x43D;&#x435; &#x437;&#x430; &#x432;&#x430;&#x441; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D; &#x438; &#x449;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x446;&#x44F;&#x43B;&#x43E;&#x441;&#x442;&#x435;&#x43D; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong>:</p>
+<p><img src="assets/chapter-5-images/00.For-loop-code-snippet-01.png" alt=""></p>
+<p><strong>&#x41E;&#x43F;&#x438;&#x442;&#x430;&#x439;&#x442;&#x435; &#x441;&#x430;&#x43C;&#x438;</strong>, &#x437;&#x430; &#x434;&#x430; &#x443;&#x441;&#x432;&#x43E;&#x438;&#x442;&#x435; &#x443;&#x43C;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x434;&#x430; &#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x442;&#x435; &#x448;&#x430;&#x431;&#x43B;&#x43E;&#x43D;&#x430; &#x437;&#x430; &#x43A;&#x43E;&#x434; &#x437;&#x430; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong> &#x432;&#x44A;&#x432; Visual Studio.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x438;&#x441;&#x43B;&#x430;-&#x434;&#x43E;-1000-&#x437;&#x430;&#x432;&#x44A;&#x440;&#x448;&#x432;&#x430;&#x449;&#x438;-&#x43D;&#x430;-7"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x438;&#x441;&#x43B;&#x430;-&#x434;&#x43E;-1000-&#x437;&#x430;&#x432;&#x44A;&#x440;&#x448;&#x432;&#x430;&#x449;&#x438;-&#x43D;&#x430;-7" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x438;&#x441;&#x43B;&#x430;-&#x434;&#x43E;-1000-&#x437;&#x430;&#x432;&#x44A;&#x440;&#x448;&#x432;&#x430;&#x449;&#x438;-&#x43D;&#x430;-7"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x447;&#x438;&#x441;&#x43B;&#x430; &#x434;&#x43E; 1000, &#x437;&#x430;&#x432;&#x44A;&#x440;&#x448;&#x432;&#x430;&#x449;&#x438; &#x43D;&#x430; 7</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x43D;&#x430;&#x43C;&#x438;&#x440;&#x430; &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430; &#x432; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x432;&#x430;&#x43B;&#x430; [<strong>1 &#x2026; 1000</strong>], &#x43A;&#x43E;&#x438;&#x442;&#x43E; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x448;&#x432;&#x430;&#x442; &#x43D;&#x430; 7. </p>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;&#x442;&#x430; &#x43C;&#x43E;&#x436;&#x435;&#x43C; &#x434;&#x430; &#x440;&#x435;&#x448;&#x438;&#x43C; &#x43A;&#x430;&#x442;&#x43E; &#x43A;&#x43E;&#x43C;&#x431;&#x438;&#x43D;&#x438;&#x440;&#x430;&#x43C;&#x435; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong> &#x437;&#x430; &#x43F;&#x440;&#x435;&#x43C;&#x438;&#x43D;&#x430;&#x432;&#x430;&#x43C;&#x435; &#x43F;&#x440;&#x435;&#x437; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43E;&#x442; 1 &#x434;&#x43E; 1000 &#x438; <strong>&#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x43A;&#x430;</strong> &#x437;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E; &#x434;&#x430;&#x43B;&#x438; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x448;&#x432;&#x430; &#x43D;&#x430; 7. &#x418;&#x43C;&#x430; &#x438; &#x434;&#x440;&#x443;&#x433;&#x438; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x44F;, &#x440;&#x430;&#x437;&#x431;&#x438;&#x440;&#x430; &#x441;&#x435;, &#x43D;&#x43E; &#x43D;&#x435;&#x43A;&#x430; &#x440;&#x435;&#x448;&#x438;&#x43C; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430;&#x442;&#x430; &#x447;&#x440;&#x435;&#x437; <strong>&#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x446;&#x438;&#x43A;&#x44A;&#x43B; + &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x43A;&#x430;</strong>:</p>
+<p><img src="assets/chapter-5-images/02.Numbers-ending-in-7-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#1" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#1</a>.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x432;&#x441;&#x438;&#x447;&#x43A;&#x438;-&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x441;&#x43A;&#x438;-&#x431;&#x443;&#x43A;&#x432;&#x438;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x432;&#x441;&#x438;&#x447;&#x43A;&#x438;-&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x441;&#x43A;&#x438;-&#x431;&#x443;&#x43A;&#x432;&#x438;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x432;&#x441;&#x438;&#x447;&#x43A;&#x438;-&#x43B;&#x430;&#x442;&#x438;&#x43D;&#x441;&#x43A;&#x438;-&#x431;&#x443;&#x43A;&#x432;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x43B;&#x430;&#x442;&#x438;&#x43D;&#x441;&#x43A;&#x438; &#x431;&#x443;&#x43A;&#x432;&#x438;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430; &#x431;&#x443;&#x43A;&#x432;&#x438;&#x442;&#x435; &#x43E;&#x442; &#x43B;&#x430;&#x442;&#x438;&#x43D;&#x441;&#x43A;&#x430;&#x442;&#x430; &#x430;&#x437;&#x431;&#x443;&#x43A;&#x430;: <strong>a, b, c, &#x2026;, z</strong>.</p>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x41F;&#x43E;&#x43B;&#x435;&#x437;&#x43D;&#x43E; &#x435; &#x434;&#x430; &#x441;&#x435; &#x437;&#x43D;&#x430;&#x435;, &#x447;&#x435; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x43B;&#x438;&#x442;&#x435;</strong> &#x43D;&#x435; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44F;&#x442; &#x441;&#x430;&#x43C;&#x43E; &#x441; &#x447;&#x438;&#x441;&#x43B;&#x430;. &#x41C;&#x43E;&#x436;&#x435; &#x434;&#x430; &#x440;&#x435;&#x448;&#x438;&#x43C; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430;&#x442;&#x430; &#x43A;&#x430;&#x442;&#x43E; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x438;&#x43C; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong>, &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x43F;&#x440;&#x435;&#x43C;&#x438;&#x43D;&#x430;&#x432;&#x430; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x43D;&#x43E; &#x43F;&#x440;&#x435;&#x437; &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x431;&#x443;&#x43A;&#x432;&#x438; &#x43E;&#x442; &#x43B;&#x430;&#x442;&#x438;&#x43D;&#x441;&#x43A;&#x430;&#x442;&#x430; &#x430;&#x437;&#x431;&#x443;&#x43A;&#x430;:</p>
+<p><img src="assets/chapter-5-images/03.Latin-letters-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#2" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#2</a>.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x447;&#x438;&#x441;&#x43B;&#x430;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x447;&#x438;&#x441;&#x43B;&#x430;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x447;&#x438;&#x441;&#x43B;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; <strong>&#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; <code>n</code> &#x446;&#x435;&#x43B;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430; &#x438; &#x433;&#x438; &#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;</strong>.</p>
+<ul>
+<li>&#x41E;&#x442; &#x43F;&#x44A;&#x440;&#x432;&#x438;&#x44F; &#x440;&#x435;&#x434; &#x43D;&#x430; &#x432;&#x445;&#x43E;&#x434;&#x430; &#x441;&#x435; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; &#x431;&#x440;&#x43E;&#x44F;&#x442; &#x447;&#x438;&#x441;&#x43B;&#x430; <strong><code>n</code></strong>.</li>
+<li>&#x41E;&#x442; &#x441;&#x43B;&#x435;&#x434;&#x432;&#x430;&#x449;&#x438;&#x442;&#x435; <strong><code>n</code></strong> &#x440;&#x435;&#x434;&#x430; &#x441;&#x435; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; &#x43F;&#x43E; &#x435;&#x434;&#x43D;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E;.</li>
+<li>&#x427;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x441;&#x435; &#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x442; &#x438; &#x43D;&#x430;&#x43A;&#x440;&#x430;&#x44F; &#x441;&#x435; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x442;&#x430;&#x442;&#x44A;&#x442;.</li>
+</ul>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>10<br>20</td>
+<td>30</td>
+</tr>
+<tr>
+<td>3<br>-10<br>-20<br>-30</td>
+<td>-60</td>
+</tr>
+<tr>
+<td>4<br>45<br>-20<br>7<br>11<br></td>
+<td>43</td>
+</tr>
+<tr>
+<td>1<br>999</td>
+<td>999</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x41C;&#x43E;&#x436;&#x435;&#x43C; &#x434;&#x430; &#x440;&#x435;&#x448;&#x438;&#x43C; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430;&#x442;&#x430; &#x437;&#x430; &#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430; &#x43F;&#x43E; &#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x44F; &#x43D;&#x430;&#x447;&#x438;&#x43D;:</p>
+<ul>
+<li>&#x427;&#x435;&#x442;&#x435;&#x43C; &#x432;&#x445;&#x43E;&#x434;&#x43D;&#x43E;&#x442;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E; <strong><code>n</code></strong>.</li>
+<li>&#x417;&#x430;&#x43F;&#x43E;&#x447;&#x432;&#x430;&#x43C;&#x435; &#x43F;&#x44A;&#x440;&#x432;&#x43E;&#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43D;&#x43E; &#x441;&#x44A;&#x441; &#x441;&#x443;&#x43C;&#x430; <strong><code>sum = 0</code></strong>.</li>
+<li>&#x412;&#x44A;&#x440;&#x442;&#x438;&#x43C; &#x446;&#x438;&#x43A;&#x44A;&#x43B; &#x43E;&#x442; 1 &#x434;&#x43E; <strong><code>n</code></strong>. &#x41D;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x441;&#x442;&#x44A;&#x43F;&#x43A;&#x430; &#x43E;&#x442; &#x446;&#x438;&#x43A;&#x44A;&#x43B;&#x430; &#x447;&#x435;&#x442;&#x435;&#x43C; &#x447;&#x438;&#x441;&#x43B;&#x43E; <strong><code>num</code></strong> &#x438; &#x433;&#x43E; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x44F;&#x43C;&#x435; &#x43A;&#x44A;&#x43C; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; <strong><code>sum</code></strong>.</li>
+<li>&#x41D;&#x430;&#x43A;&#x440;&#x430;&#x44F; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430;&#x43C;&#x435; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x430;&#x442;&#x430; &#x441;&#x443;&#x43C;&#x430; <strong><code>sum</code></strong>.</li>
+</ul>
+<p>&#x415;&#x442;&#x43E; &#x438; &#x441;&#x43E;&#x440;&#x441; &#x43A;&#x43E;&#x434;&#x430; &#x43D;&#x430; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E;:</p>
+<p><img src="assets/chapter-5-images/04.Sum-numbers-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#3" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#3</a>.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x43E;-&#x447;&#x438;&#x441;&#x43B;&#x43E;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x43E;-&#x447;&#x438;&#x441;&#x43B;&#x43E;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x43E;-&#x447;&#x438;&#x441;&#x43B;&#x43E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; <strong>n &#x446;&#x435;&#x43B;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> (<strong>n</strong> &gt; 0) &#x438; &#x43D;&#x430;&#x43C;&#x438;&#x440;&#x430; <strong>&#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x43E;&#x442;&#x43E;</strong> &#x438;&#x437;&#x43C;&#x435;&#x436;&#x434;&#x443; &#x442;&#x44F;&#x445;. &#x41D;&#x430; &#x43F;&#x44A;&#x440;&#x432;&#x438;&#x44F; &#x440;&#x435;&#x434; &#x43D;&#x430; &#x432;&#x445;&#x43E;&#x434;&#x430; &#x441;&#x435; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; &#x431;&#x440;&#x43E;&#x44F;&#x442; &#x447;&#x438;&#x441;&#x43B;&#x430; <strong>n</strong>. &#x421;&#x43B;&#x435;&#x434; &#x442;&#x43E;&#x432;&#x430; &#x441;&#x435; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430;&#x442; &#x441;&#x430;&#x43C;&#x438;&#x442;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x430;, &#x43F;&#x43E; &#x435;&#x434;&#x43D;&#x43E; &#x43D;&#x430; &#x440;&#x435;&#x434;. &#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x438;:</p>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>100<br>99</td>
+<td>100</td>
+</tr>
+<tr>
+<td>3<br>-10<br>20<br>-30</td>
+<td>20</td>
+</tr>
+<tr>
+<td>4<br>45<br>-20<br>7<br>99<br></td>
+<td>99</td>
+</tr>
+<tr>
+<td>1<br>999</td>
+<td>999</td>
+</tr>
+<tr>
+<td>2<br>-1<br>-2</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x41F;&#x44A;&#x440;&#x432;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430;&#x43C;&#x435; &#x435;&#x434;&#x43D;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E; <strong><code>n</code></strong> (&#x431;&#x440;&#x43E;&#x44F;&#x442; &#x447;&#x438;&#x441;&#x43B;&#x430;, &#x43A;&#x43E;&#x438;&#x442;&#x43E; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x43E;&#x438; &#x434;&#x430; &#x431;&#x44A;&#x434;&#x430;&#x442; &#x432;&#x44A;&#x432;&#x435;&#x434;&#x435;&#x43D;&#x438;). &#x417;&#x430;&#x434;&#x430;&#x432;&#x430;&#x43C;&#x435; &#x43D;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x44F; &#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C; <strong><code>max</code></strong> &#x43F;&#x44A;&#x440;&#x432;&#x43E;&#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43D;&#x430; &#x43D;&#x435;&#x443;&#x442;&#x440;&#x430;&#x43B;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;, &#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; <strong>-10000000000000</strong> (&#x438;&#x43B;&#x438; <strong><code>int.MinValue</code></strong>). &#x421; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x442;&#x430; &#x43D;&#x430; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong>, &#x447;&#x440;&#x435;&#x437; &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x438;&#x442;&#x435;&#x440;&#x438;&#x440;&#x430;&#x43C;&#x435; <strong>n-1 &#x43F;&#x44A;&#x442;&#x438;</strong>, &#x43F;&#x440;&#x43E;&#x447;&#x438;&#x442;&#x430;&#x43C;&#x435; &#x43F;&#x43E; &#x435;&#x434;&#x43D;&#x43E; &#x446;&#x44F;&#x43B;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E; <strong><code>num</code></strong>. &#x410;&#x43A;&#x43E; &#x43F;&#x440;&#x43E;&#x447;&#x435;&#x442;&#x435;&#x43D;&#x43E;&#x442;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E; <strong><code>num</code></strong> &#x435; &#x43F;&#x43E;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x43E; &#x43E;&#x442; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x44F; &#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C; <strong><code>max</code></strong>, &#x43F;&#x440;&#x438;&#x441;&#x432;&#x43E;&#x44F;&#x432;&#x430;&#x43C;&#x435; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x442;&#x430; &#x43D;&#x430; <strong><code>num</code></strong> &#x432; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x43B;&#x438;&#x432;&#x430;&#x442;&#x430; <strong><code>max</code></strong>. &#x41D;&#x430;&#x43A;&#x440;&#x430;&#x44F;, &#x432; <strong><code>max</code></strong> &#x442;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x441;&#x435; &#x435; &#x437;&#x430;&#x43F;&#x430;&#x437;&#x438;&#x43B;&#x43E; &#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x43E;&#x442;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E;. &#x41E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430;&#x43C;&#x435; &#x433;&#x43E; &#x43D;&#x430; &#x43A;&#x43E;&#x43D;&#x437;&#x43E;&#x43B;&#x430;&#x442;&#x430;.</p>
+<p><img src="assets/chapter-5-images/05.Max-number-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#4" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#4</a>.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43D;&#x430;&#x439;-&#x43C;&#x430;&#x43B;&#x43A;&#x43E;-&#x447;&#x438;&#x441;&#x43B;&#x43E;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43D;&#x430;&#x439;-&#x43C;&#x430;&#x43B;&#x43A;&#x43E;-&#x447;&#x438;&#x441;&#x43B;&#x43E;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43D;&#x430;&#x439;-&#x43C;&#x430;&#x43B;&#x43A;&#x43E;-&#x447;&#x438;&#x441;&#x43B;&#x43E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x43D;&#x430;&#x439;-&#x43C;&#x430;&#x43B;&#x43A;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; <strong>n &#x446;&#x435;&#x43B;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> (<strong>n</strong> &gt; 0) &#x438; &#x43D;&#x430;&#x43C;&#x438;&#x440;&#x430; <strong>&#x43D;&#x430;&#x439;-&#x43C;&#x430;&#x43B;&#x43A;&#x43E;&#x442;&#x43E;</strong> &#x438;&#x437;&#x43C;&#x435;&#x436;&#x434;&#x443; &#x442;&#x44F;&#x445;. &#x41F;&#x44A;&#x440;&#x432;&#x43E; &#x441;&#x435; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; &#x431;&#x440;&#x43E;&#x44F; &#x447;&#x438;&#x441;&#x43B;&#x430; <strong>n</strong>, &#x441;&#x43B;&#x435;&#x434; &#x442;&#x44F;&#x445; &#x43E;&#x449;&#x435; <strong>n</strong> &#x447;&#x438;&#x441;&#x43B;&#x430; &#x43F;&#x43E; &#x435;&#x434;&#x43D;&#x43E; &#x43D;&#x430; &#x440;&#x435;&#x434;. </p>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>100<br>99</td>
+<td>99</td>
+</tr>
+<tr>
+<td>3<br>-10<br>20<br>-30</td>
+<td>-30</td>
+</tr>
+<tr>
+<td>4<br>45<br>-20<br>7<br>99<br></td>
+<td>-20</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;&#x442;&#x430; &#x435; &#x430;&#x431;&#x441;&#x43E;&#x43B;&#x44E;&#x442;&#x43D;&#x43E; &#x430;&#x43D;&#x430;&#x43B;&#x43E;&#x433;&#x438;&#x447;&#x43D;&#x430; &#x441; &#x43F;&#x440;&#x435;&#x434;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x442;&#x430;, &#x441;&#x430;&#x43C;&#x43E; &#x447;&#x435; &#x437;&#x430;&#x43F;&#x43E;&#x447;&#x432;&#x430;&#x43D;&#x435; &#x441; &#x434;&#x440;&#x443;&#x433;&#x430; &#x43D;&#x435;&#x443;&#x442;&#x440;&#x430;&#x43B;&#x43D;&#x430; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;.</p>
+<p><img src="assets/chapter-5-images/06.Min-number-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#5" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#5</a>.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43B;&#x44F;&#x432;&#x430;-&#x438;-&#x434;&#x44F;&#x441;&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43B;&#x44F;&#x432;&#x430;-&#x438;-&#x434;&#x44F;&#x441;&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x43B;&#x44F;&#x432;&#x430;-&#x438;-&#x434;&#x44F;&#x441;&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x43B;&#x44F;&#x432;&#x430; &#x438; &#x434;&#x44F;&#x441;&#x43D;&#x430; &#x441;&#x443;&#x43C;&#x430;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; <strong>2 * n &#x446;&#x435;&#x43B;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> &#x438; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x432;&#x430; &#x434;&#x430;&#x43B;&#x438; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x43F;&#x44A;&#x440;&#x432;&#x438;&#x442;&#x435; n &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> (&#x43B;&#x44F;&#x432;&#x430; &#x441;&#x443;&#x43C;&#x430;) &#x435; &#x440;&#x430;&#x432;&#x43D;&#x430; &#x43D;&#x430; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x432;&#x442;&#x43E;&#x440;&#x438;&#x442;&#x435; n &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> (&#x434;&#x44F;&#x441;&#x43D;&#x430; &#x441;&#x443;&#x43C;&#x430;). &#x41F;&#x440;&#x438; &#x440;&#x430;&#x432;&#x435;&#x43D;&#x441;&#x442;&#x432;&#x43E; &#x441;&#x435; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430; <strong>&quot;Yes&quot; + &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;</strong>, &#x438;&#x43D;&#x430;&#x447;&#x435; &#x441;&#x435; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430; <strong>&quot;No&quot; + &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430;</strong>. &#x420;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430; &#x441;&#x435; &#x438;&#x437;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x432;&#x430; &#x43A;&#x430;&#x442;&#x43E; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x438;&#x442;&#x435;&#x43B;&#x43D;&#x43E; &#x447;&#x438;&#x441;&#x43B;&#x43E; (&#x43F;&#x43E; &#x430;&#x431;&#x441;&#x43E;&#x43B;&#x44E;&#x442;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;). &#x424;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x44A;&#x442; &#x43D;&#x430; &#x438;&#x437;&#x445;&#x43E;&#x434;&#x430; &#x442;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x435; &#x43A;&#x430;&#x442;&#x43E; &#x432; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x438;&#x442;&#x435; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;.</p>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2<br>10<br>90<br>60<br>40</td>
+<td>Yes, sum = 100</td>
+<td>2<br>90<br>9<br>50<br>50</td>
+<td>No, diff = 1</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x41F;&#x44A;&#x440;&#x432;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430;&#x43C;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x43E;&#x442;&#x43E; <strong>n</strong>, &#x441;&#x43B;&#x435;&#x434; &#x442;&#x43E;&#x432;&#x430; &#x43F;&#x44A;&#x440;&#x432;&#x438;&#x442;&#x435; <strong>n</strong> &#x447;&#x438;&#x441;&#x43B;&#x430; (<strong>&#x43B;&#x44F;&#x432;&#x430;&#x442;&#x430;</strong> &#x43F;&#x43E;&#x43B;&#x43E;&#x432;&#x438;&#x43D;&#x430;) &#x438; &#x433;&#x438; &#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43C;&#x435;. &#x41F;&#x440;&#x43E;&#x434;&#x44A;&#x43B;&#x436;&#x430;&#x432;&#x430;&#x43C;&#x435; &#x441; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430;&#x43D;&#x435;&#x442;&#x43E; &#x43D;&#x430; &#x43E;&#x449;&#x435; <strong>n</strong> &#x447;&#x438;&#x441;&#x43B;&#x430; (<strong>&#x434;&#x44F;&#x441;&#x43D;&#x430;&#x442;&#x430;</strong> &#x43F;&#x43E;&#x43B;&#x43E;&#x432;&#x438;&#x43D;&#x430;) &#x438; &#x43D;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43C;&#x435; &#x438; &#x442;&#x44F;&#x445;&#x43D;&#x430;&#x442;&#x430; &#x441;&#x443;&#x43C;&#x430;. &#x418;&#x437;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x432;&#x430;&#x43C;&#x435; <strong>&#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430;</strong> &#x43C;&#x435;&#x436;&#x434;&#x443; &#x43D;&#x430;&#x43C;&#x435;&#x440;&#x435;&#x43D;&#x438;&#x442;&#x435; &#x441;&#x443;&#x43C;&#x438; &#x43F;&#x43E; &#x430;&#x431;&#x441;&#x43E;&#x43B;&#x44E;&#x442;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;: <strong><code>Math.Abs(leftSum - rightSum)</code></strong>. &#x410;&#x43A;&#x43E; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430; &#x435; <strong>0</strong>, &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430;&#x43C;&#x435; <strong>&quot;Yes&quot; + &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;</strong>, &#x432; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x435;&#x43D; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439; - &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430;&#x43C;&#x435; <strong>&quot;No&quot; + &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430;</strong>.</p>
+<p><img src="assets/chapter-5-images/07.Left-and-right-sum-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#6" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#6</a>.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x435;&#x442;&#x43D;&#x430;--&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x435;&#x442;&#x43D;&#x430;--&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x447;&#x435;&#x442;&#x43D;&#x430;--&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x447;&#x435;&#x442;&#x43D;&#x430; / &#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x430; &#x441;&#x443;&#x43C;&#x430;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; <strong>n &#x446;&#x435;&#x43B;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> &#x438; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x432;&#x430; &#x434;&#x430;&#x43B;&#x438; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x447;&#x435;&#x442;&#x43D;&#x438; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;</strong> &#x435; &#x440;&#x430;&#x432;&#x43D;&#x430; &#x43D;&#x430; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;</strong>. &#x41F;&#x440;&#x438; &#x440;&#x430;&#x432;&#x435;&#x43D;&#x441;&#x442;&#x432;&#x43E; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430; <strong>&quot;Yes&quot; + &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;</strong>, &#x438;&#x43D;&#x430;&#x447;&#x435; &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430; <strong>&quot;No&quot; + &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430;</strong>. &#x420;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430; &#x441;&#x435; &#x438;&#x437;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x432;&#x430; &#x43F;&#x43E; &#x430;&#x431;&#x441;&#x43E;&#x43B;&#x44E;&#x442;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;. &#x424;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x44A;&#x442; &#x43D;&#x430; &#x438;&#x437;&#x445;&#x43E;&#x434;&#x430; &#x442;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x435; &#x43A;&#x430;&#x442;&#x43E; &#x432; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x438;&#x442;&#x435; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;.</p>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4<br>10<br>50<br>60<br>20</td>
+<td>Yes<br>Sum = 70</td>
+</tr>
+<tr>
+<td>4<br>3<br>5<br>1<br>-2</td>
+<td>No<br>Diff = 1</td>
+</tr>
+<tr>
+<td>3<br>5<br>8<br>1</td>
+<td>No<br>Diff = 2</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x412;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430;&#x43C;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x435;&#x434;&#x43D;&#x43E; &#x43F;&#x43E; &#x435;&#x434;&#x43D;&#x43E; &#x438; &#x438;&#x437;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x432;&#x430;&#x43C;&#x435; &#x434;&#x432;&#x435;&#x442;&#x435; <strong>&#x441;&#x443;&#x43C;&#x438;</strong> (&#x43D;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43D;&#x430; <strong>&#x447;&#x435;&#x442;&#x43D;&#x438;</strong> &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; &#x438; &#x43D;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43D;&#x430; <strong>&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438;</strong> &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;). &#x41A;&#x430;&#x43A;&#x442;&#x43E; &#x432; &#x43F;&#x440;&#x435;&#x434;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x442;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430;, &#x438;&#x437;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x432;&#x430;&#x43C;&#x435; &#x430;&#x431;&#x441;&#x43E;&#x43B;&#x44E;&#x442;&#x43D;&#x430;&#x442;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442; &#x43D;&#x430; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430; &#x438; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430;&#x43C;&#x435; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x442;&#x430;&#x442;&#x430; (<strong>&quot;Yes&quot; + &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;</strong> &#x43F;&#x440;&#x438; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430; 0 &#x438;&#x43B;&#x438; <strong>&quot;No&quot; + &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430;</strong> &#x432; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x435;&#x43D; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439;).</p>
+<p><img src="assets/chapter-5-images/08.Odd-even-sum-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#7" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#7</a>.</p>
+<h3 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x433;&#x43B;&#x430;&#x441;&#x43D;&#x438;&#x442;&#x435;-&#x431;&#x443;&#x43A;&#x432;&#x438;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x433;&#x43B;&#x430;&#x441;&#x43D;&#x438;&#x442;&#x435;-&#x431;&#x443;&#x43A;&#x432;&#x438;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;-&#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x433;&#x43B;&#x430;&#x441;&#x43D;&#x438;&#x442;&#x435;-&#x431;&#x443;&#x43A;&#x432;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;: &#x441;&#x443;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x433;&#x43B;&#x430;&#x441;&#x43D;&#x438;&#x442;&#x435; &#x431;&#x443;&#x43A;&#x432;&#x438;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; <strong>&#x442;&#x435;&#x43A;&#x441;&#x442;</strong> (&#x441;&#x442;&#x440;&#x438;&#x43D;&#x433;), &#x438;&#x437;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x432;&#x430; &#x438; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43E;&#x442; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438;&#x442;&#x435; &#x43D;&#x430; &#x433;&#x43B;&#x430;&#x441;&#x43D;&#x438;&#x442;&#x435; &#x431;&#x443;&#x43A;&#x432;&#x438;</strong> &#x441;&#x43F;&#x43E;&#x440;&#x435;&#x434; &#x442;&#x430;&#x431;&#x43B;&#x438;&#x446;&#x430;&#x442;&#x430; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">a</th>
+<th style="text-align:center">e</th>
+<th style="text-align:center">i</th>
+<th style="text-align:center">o</th>
+<th style="text-align:center">u</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">5</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hello</td>
+<td>6<br>(e+o = 2+4 = 6)</td>
+<td>bamboo</td>
+<td>9<br>(a+o+o = 1+4+4 = 9)</td>
+</tr>
+<tr>
+<td>hi</td>
+<td>3<br>(i = 3)</td>
+<td>beer</td>
+<td>4<br>(e+e = 2+2 = 4)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x41F;&#x440;&#x43E;&#x447;&#x438;&#x442;&#x430;&#x43C;&#x435; &#x432;&#x445;&#x43E;&#x434;&#x43D;&#x438;&#x44F; &#x442;&#x435;&#x43A;&#x441;&#x442; <strong><code>s</code></strong>, &#x437;&#x430;&#x43D;&#x443;&#x43B;&#x44F;&#x432;&#x430;&#x43C;&#x435; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x438; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x430;&#x43C;&#x435; &#x446;&#x438;&#x43A;&#x44A;&#x43B; &#x43E;&#x442; <strong>0</strong> &#x434;&#x43E; <strong><code>s.Length-1</code></strong> (&#x434;&#x44A;&#x43B;&#x436;&#x438;&#x43D;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x442;&#x435;&#x43A;&#x441;&#x442;&#x430; -1). &#x41F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x432;&#x430;&#x43C;&#x435; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x431;&#x443;&#x43A;&#x432;&#x430; <strong><code>s[i]</code></strong> &#x434;&#x430;&#x43B;&#x438; &#x435; &#x433;&#x43B;&#x430;&#x441;&#x43D;&#x430; &#x438; &#x441;&#x44A;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x43D;&#x43E; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x44F;&#x43C;&#x435; &#x43A;&#x44A;&#x43C; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x442;&#x430; &#x45D;.</p>
+<p><img src="assets/chapter-5-images/09.Vowels-sum-01.png" alt=""></p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#8" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#8</a>.</p>
+<h2 id="&#x43A;&#x430;&#x43A;&#x432;&#x43E;-&#x43D;&#x430;&#x443;&#x447;&#x438;&#x445;&#x43C;&#x435;-&#x43E;&#x442;-&#x442;&#x430;&#x437;&#x438;-&#x433;&#x43B;&#x430;&#x432;&#x430;"><a name="&#x43A;&#x430;&#x43A;&#x432;&#x43E;-&#x43D;&#x430;&#x443;&#x447;&#x438;&#x445;&#x43C;&#x435;-&#x43E;&#x442;-&#x442;&#x430;&#x437;&#x438;-&#x433;&#x43B;&#x430;&#x432;&#x430;" class="plugin-anchor" href="#&#x43A;&#x430;&#x43A;&#x432;&#x43E;-&#x43D;&#x430;&#x443;&#x447;&#x438;&#x445;&#x43C;&#x435;-&#x43E;&#x442;-&#x442;&#x430;&#x437;&#x438;-&#x433;&#x43B;&#x430;&#x432;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41A;&#x430;&#x43A;&#x432;&#x43E; &#x43D;&#x430;&#x443;&#x447;&#x438;&#x445;&#x43C;&#x435; &#x43E;&#x442; &#x442;&#x430;&#x437;&#x438; &#x433;&#x43B;&#x430;&#x432;&#x430;?</h2>
+<p>&#x41C;&#x43E;&#x436;&#x435;&#x43C; &#x434;&#x430; &#x43F;&#x43E;&#x432;&#x442;&#x430;&#x440;&#x44F;&#x43C;&#x435; &#x431;&#x43B;&#x43E;&#x43A; &#x43A;&#x43E;&#x434; &#x441; <strong><code>for</code> &#x446;&#x438;&#x43A;&#x44A;&#x43B;</strong>:</p>
+<p><img src="assets/chapter-5-images/00.For-loop-01.png" alt=""></p>
+<p>&#x41C;&#x43E;&#x436;&#x435;&#x43C; &#x434;&#x430; &#x447;&#x435;&#x442;&#x435;&#x43C; &#x43F;&#x43E;&#x440;&#x435;&#x434;&#x438;&#x446;&#x430; &#x43E;&#x442; <strong><code>n</code></strong> &#x447;&#x438;&#x441;&#x43B;&#x430; &#x43E;&#x442; &#x43A;&#x43E;&#x43D;&#x437;&#x43E;&#x43B;&#x430;&#x442;&#x430;:</p>
+<p><img src="assets/chapter-5-images/00.For-loop-03.png" alt=""></p>
+<h2 id="&#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x446;&#x438;&#x43A;&#x43B;&#x438;"><a name="&#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x446;&#x438;&#x43A;&#x43B;&#x438;" class="plugin-anchor" href="#&#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;-&#x446;&#x438;&#x43A;&#x43B;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x423;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;: &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F; (&#x446;&#x438;&#x43A;&#x43B;&#x438;)</h2>
+<p>&#x421;&#x43B;&#x435;&#x434; &#x43A;&#x430;&#x442;&#x43E; &#x441;&#x435; &#x437;&#x430;&#x43F;&#x43E;&#x437;&#x43D;&#x430;&#x445;&#x43C;&#x435; &#x441; &#x446;&#x438;&#x43A;&#x43B;&#x438;&#x442;&#x435;, &#x438;&#x434;&#x432;&#x430; &#x432;&#x440;&#x435;&#x43C;&#x435; <strong>&#x434;&#x430; &#x437;&#x430;&#x442;&#x432;&#x44A;&#x440;&#x434;&#x438;&#x43C; &#x437;&#x43D;&#x430;&#x43D;&#x438;&#x44F;&#x442;&#x430; &#x441;&#x438; &#x43D;&#x430; &#x43F;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x43A;&#x430;</strong>, &#x430; &#x43A;&#x430;&#x43A;&#x442;&#x43E; &#x437;&#x43D;&#x430;&#x435;&#x442;&#x435;, &#x442;&#x43E;&#x432;&#x430; &#x441;&#x442;&#x430;&#x432;&#x430; &#x441; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x438;&#x441;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x43A;&#x43E;&#x434;. &#x414;&#x430; &#x440;&#x435;&#x448;&#x438;&#x43C; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x437;&#x430;&#x434;&#x430;&#x447;&#x438; &#x437;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x435;.</p>
+<h3 id="&#x43F;&#x440;&#x430;&#x437;&#x43D;&#x43E;-visual-studio-&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;-blank-solution"><a name="&#x43F;&#x440;&#x430;&#x437;&#x43D;&#x43E;-visual-studio-&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;-blank-solution" class="plugin-anchor" href="#&#x43F;&#x440;&#x430;&#x437;&#x43D;&#x43E;-visual-studio-&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;-blank-solution"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x430;&#x437;&#x43D;&#x43E; Visual Studio &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435; (Blank Solution)</h3>
+<p>&#x421;&#x44A;&#x437;&#x434;&#x430;&#x432;&#x430;&#x43C;&#x435; &#x43F;&#x440;&#x430;&#x437;&#x43D;&#x43E; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435; <strong>(Blank Solution)</strong> &#x432;&#x44A;&#x432; Visual Studio, &#x437;&#x430; &#x434;&#x430; &#x43E;&#x440;&#x433;&#x430;&#x43D;&#x438;&#x437;&#x438;&#x440;&#x430;&#x43C;&#x435; &#x43F;&#x43E;-&#x434;&#x43E;&#x431;&#x440;&#x435; &#x437;&#x430;&#x434;&#x430;&#x447;&#x438;&#x442;&#x435; &#x437;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x435;. &#x426;&#x435;&#x43B;&#x442;&#x430; &#x43D;&#x430; &#x442;&#x43E;&#x437;&#x438; <strong>blank solution</strong> e &#x434;&#x430; &#x441;&#x44A;&#x434;&#x44A;&#x440;&#x436;&#x430; <strong>&#x43F;&#x43E; &#x435;&#x434;&#x438;&#x43D; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442; &#x437;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430;</strong> &#x43E;&#x442; &#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;&#x442;&#x430;.</p>
+<p><img src="assets/chapter-5-images/00.Blank-visual-studio-01.png" alt=""></p>
+<p>&#x417;&#x430;&#x434;&#x430;&#x432;&#x430;&#x43C;&#x435; <strong>&#x434;&#x430; &#x441;&#x435; &#x441;&#x442;&#x430;&#x440;&#x442;&#x438;&#x440;&#x430; &#x43F;&#x43E; &#x43F;&#x43E;&#x434;&#x440;&#x430;&#x437;&#x431;&#x438;&#x440;&#x430;&#x43D;&#x435; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x44F;&#x442; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;</strong> (&#x43D;&#x435; &#x43F;&#x44A;&#x440;&#x432;&#x438;&#x44F;&#x442; &#x432; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E;). &#x41A;&#x43B;&#x438;&#x43A;&#x432;&#x430;&#x43C;&#x435; &#x441; &#x434;&#x435;&#x441;&#x435;&#x43D; &#x431;&#x443;&#x442;&#x43E;&#x43D; &#x43D;&#x430; &#x43C;&#x438;&#x448;&#x43A;&#x430;&#x442;&#x430; &#x432;&#x44A;&#x440;&#x445;&#x443; <strong>Solution &apos;Loops&apos;</strong> -&gt; [<strong>Set StartUp Projects&#x2026;</strong>] -&gt; [<strong>Current selection</strong>].</p>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;-&#x440;&#x430;&#x432;&#x435;&#x43D;-&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;-&#x43D;&#x430;-&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x43B;&#x438;&#x442;&#x435;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;-&#x440;&#x430;&#x432;&#x435;&#x43D;-&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;-&#x43D;&#x430;-&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x43B;&#x438;&#x442;&#x435;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;-&#x440;&#x430;&#x432;&#x435;&#x43D;-&#x43D;&#x430;-&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;-&#x43D;&#x430;-&#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x43B;&#x438;&#x442;&#x435;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;, &#x440;&#x430;&#x432;&#x435;&#x43D; &#x43D;&#x430; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x43B;&#x438;&#x442;&#x435;</h3>
+<p>&#x414;&#x430; &#x441;&#x435; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x432;&#x44A;&#x432;&#x435;&#x436;&#x434;&#x430; <strong>n &#x446;&#x435;&#x43B;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> &#x438; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x432;&#x430; &#x434;&#x430;&#x43B;&#x438; &#x441;&#x440;&#x435;&#x434; &#x442;&#x44F;&#x445; &#x441;&#x44A;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x432;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x43E;, &#x43A;&#x43E;&#x435;&#x442;&#x43E; &#x435; &#x440;&#x430;&#x432;&#x43D;&#x43E; &#x43D;&#x430; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x43B;&#x438;. &#x410;&#x43A;&#x43E; &#x438;&#x43C;&#x430; &#x442;&#x430;&#x43A;&#x44A;&#x432; &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;, &#x441;&#x435; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x432;&#x430; <strong>&quot;Yes&quot; + &#x43D;&#x435;&#x433;&#x43E;&#x432;&#x430;&#x442;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;</strong>, &#x432; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x435;&#x43D; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439; - <strong>&quot;No&quot; + &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430; &#x43C;&#x435;&#x436;&#x434;&#x443; &#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x435;&#x43C;&#x438;&#x44F; &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442; &#x438; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x43B;&#x438;&#x442;&#x435;</strong> (&#x43F;&#x43E; &#x430;&#x431;&#x441;&#x43E;&#x43B;&#x44E;&#x442;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;). </p>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+<th style="text-align:center">&#x41A;&#x43E;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x440;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7<br>3<br>4<br>1<br>1<br>2<br>12<br>1</td>
+<td>Yes<br>Sum = 12</td>
+<td style="text-align:center">3 + 4 + 1 + 2 + 1 + 1 = 12</td>
+</tr>
+<tr>
+<td>4<br>6<br>1<br>2<br>3</td>
+<td>Yes<br>Sum = 6</td>
+<td style="text-align:center">1 + 2 + 3 = 6</td>
+</tr>
+<tr>
+<td>3<br>1<br>1<br>10</td>
+<td>No<br>Diff = 8</td>
+<td style="text-align:center">|10 - (1 + 1)| = 8</td>
+</tr>
+<tr>
+<td>3<br>5<br>5<br>1</td>
+<td>No<br>Diff = 1</td>
+<td style="text-align:center">|5 - (5 + 1)| = 1</td>
+</tr>
+<tr>
+<td>3<br>1<br>1<br>1</td>
+<td>No<br>Diff = 1</td>
+<td style="text-align:center">-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x422;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x438;&#x437;&#x447;&#x438;&#x441;&#x43B;&#x438;&#x43C; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;</strong> &#x43D;&#x430; &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;&#x438;, &#x434;&#x430; &#x43D;&#x430;&#x43C;&#x435;&#x440;&#x438;&#x43C; <strong>&#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x435;&#x43C;&#x438;&#x44F;</strong> &#x43E;&#x442; &#x442;&#x44F;&#x445; &#x438; &#x434;&#x430; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x438;&#x43C; &#x442;&#x44A;&#x440;&#x441;&#x435;&#x43D;&#x43E;&#x442;&#x43E; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x435;.</p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#9" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#9</a>.</p>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x447;&#x435;&#x442;&#x43D;&#x438;--&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438;-&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x447;&#x435;&#x442;&#x43D;&#x438;--&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438;-&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x447;&#x435;&#x442;&#x43D;&#x438;--&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438;-&#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: &#x447;&#x435;&#x442;&#x43D;&#x438; / &#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;</h3>
+<p>&#x41D;&#x430;&#x43F;&#x438;&#x448;&#x435;&#x442;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x447;&#x435;&#x442;&#x435; <strong>n &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> &#x438; &#x43F;&#x440;&#x435;&#x441;&#x43C;&#x44F;&#x442;&#x430; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;</strong>, <strong>&#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x443;&#x43C;&#x430;</strong> &#x438; <strong>&#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C;&#x430;</strong> &#x43D;&#x430; &#x447;&#x438;&#x441;&#x43B;&#x430;&#x442;&#x430; &#x43D;&#x430; <strong>&#x447;&#x435;&#x442;&#x43D;&#x438;</strong> &#x438; <strong>&#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438;</strong> &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; (&#x431;&#x440;&#x43E;&#x438;&#x43C; &#x43E;&#x442; 1). &#x41A;&#x43E;&#x433;&#x430;&#x442;&#x43E; &#x43D;&#x44F;&#x43C;&#x430; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x43B;&#x435;&#x43D; / &#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x430;&#x43B;&#x435;&#x43D; &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;, &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x430;&#x439;&#x442;&#x435; <strong>&quot;No&quot;</strong>. </p>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6<br>2<br>3<br>5<br>4<br>2<br>1</td>
+<td>OddSum=9,<br>OddMin=2,<br>OddMax=5,<br>EvenSum=8,<br>EvenMin=1,<br>EvenMax=4</td>
+<td>2<br>1.5<br>-2.5</td>
+<td>OddSum=1.5,<br>OddMin=1.5,<br>OddMax=1.5,<br>EvenSum=-2.5,<br>EvenMin=-2.5,<br>EvenMax=-2.5</td>
+</tr>
+<tr>
+<td>1<br>1</td>
+<td>OddSum=1,<br>OddMin=1,<br>OddMax=1,<br>EvenSum=0,<br>EvenMin=No,<br>EvenMax=No</td>
+<td>0</td>
+<td>OddSum=0,<br>OddMin=No,<br>OddMax=No,<br>EvenSum=0,<br>EvenMin=No,<br>EvenMax=No</td>
+</tr>
+<tr>
+<td>5<br>3<br>-2<br>8<br>11<br>-3</td>
+<td>OddSum=8,<br>OddMin=-3,<br>OddMax=8,<br>EvenSum=9,<br>EvenMin=-2,<br>EvenMax=11</td>
+<td>4<br>1.5<br>1.75<br>1.5<br>1.75</td>
+<td>OddSum=3,<br>OddMin=1.5,<br>OddMax=1.5,<br>EvenSum=3.5,<br>EvenMin=1.75,<br>EvenMax=1.75</td>
+</tr>
+<tr>
+<td>1<br>-5</td>
+<td>OddSum=-5,<br>OddMin=-5,<br>OddMax=-5,<br>EvenSum=0,<br>EvenMin=No,<br>EvenMax=No</td>
+<td>3<br>-1<br>-2<br>-3</td>
+<td>OddSum=-4,<br>OddMin=-3,<br>OddMax=-1,<br>EvenSum=-2,<br>EvenMin=-2,<br>EvenMax=-2</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;&#x442;&#x430; &#x43E;&#x431;&#x435;&#x434;&#x438;&#x43D;&#x44F;&#x432;&#x430; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x43F;&#x440;&#x435;&#x434;&#x445;&#x43E;&#x434;&#x43D;&#x438; &#x437;&#x430;&#x434;&#x430;&#x447;&#x438;: &#x43D;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435; &#x43D;&#x430; <strong>&#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x443;&#x43C;</strong>, <strong>&#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C;</strong> &#x438; <strong>&#x441;&#x443;&#x43C;&#x430;</strong>, &#x43A;&#x430;&#x43A;&#x442;&#x43E; &#x438; &#x43E;&#x431;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430; &#x43D;&#x430; &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;&#x438;&#x442;&#x435; &#x43E;&#x442; <strong>&#x447;&#x435;&#x442;&#x43D;&#x438; &#x438; &#x43D;&#x435;&#x447;&#x435;&#x442;&#x43D;&#x438; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;</strong>. &#x41F;&#x440;&#x438;&#x43F;&#x43E;&#x43C;&#x43D;&#x435;&#x442;&#x435; &#x441;&#x438; &#x433;&#x438;.</p>
+<p>&#x412; &#x442;&#x430;&#x437;&#x438; &#x437;&#x430;&#x434;&#x430;&#x447;&#x430; &#x435; &#x43F;&#x43E;-&#x434;&#x43E;&#x431;&#x440;&#x435; &#x434;&#x430; &#x441;&#x435; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x438; &#x441; <strong>&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;</strong> (&#x43D;&#x435; &#x446;&#x435;&#x43B;&#x438;). &#x421;&#x443;&#x43C;&#x430;&#x442;&#x430;, &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x443;&#x43C;&#x44A;&#x442; &#x438; &#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C;&#x44A;&#x442; &#x441;&#x44A;&#x449;&#x43E; &#x441;&#x430; &#x434;&#x440;&#x43E;&#x431;&#x43D;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;. &#x422;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x43C;&#x435; <strong>&#x43D;&#x435;&#x443;&#x442;&#x440;&#x430;&#x43B;&#x43D;&#x430; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;</strong> &#x43F;&#x440;&#x438; &#x43D;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x443;&#x43C; / &#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x443;&#x43C;, &#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440; <strong>1000000000.0</strong> &#x438; <strong>-1000000000.0</strong>. &#x410;&#x43A;&#x43E; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43C; &#x43D;&#x430;&#x43A;&#x440;&#x430;&#x44F; &#x43D;&#x435;&#x443;&#x442;&#x440;&#x430;&#x43B;&#x43D;&#x430;&#x442;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;, &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430;&#x43C;&#x435; <strong>&#x201C;No&#x201D;</strong>.</p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#10" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#10</a>.</p>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x438;-&#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x438;-&#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x438;-&#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: &#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x438; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438;</h3>
+<p>&#x414;&#x430;&#x434;&#x435;&#x43D;&#x438; &#x441;&#x430; <strong>2 * n &#x447;&#x438;&#x441;&#x43B;&#x430;</strong>. &#x41F;&#x44A;&#x440;&#x432;&#x43E;&#x442;&#x43E; &#x438; &#x432;&#x442;&#x43E;&#x440;&#x43E;&#x442;&#x43E; &#x444;&#x43E;&#x440;&#x43C;&#x438;&#x440;&#x430;&#x442; <strong>&#x434;&#x432;&#x43E;&#x439;&#x43A;&#x430;</strong>, &#x442;&#x440;&#x435;&#x442;&#x43E;&#x442;&#x43E; &#x438; &#x447;&#x435;&#x442;&#x432;&#x44A;&#x440;&#x442;&#x43E;&#x442;&#x43E; &#x441;&#x44A;&#x449;&#x43E; &#x438; &#x442;.&#x43D;. &#x412;&#x441;&#x44F;&#x43A;&#x430; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x430; &#x438;&#x43C;&#x430; <strong>&#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;</strong> &#x2013; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43E;&#x442; &#x441;&#x44A;&#x441;&#x442;&#x430;&#x432;&#x44F;&#x449;&#x438;&#x442;&#x435; &#x44F; &#x447;&#x438;&#x441;&#x43B;&#x430;. &#x41D;&#x430;&#x43F;&#x438;&#x448;&#x435;&#x442;&#x435; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x44F;&#x432;&#x430; <strong>&#x434;&#x430;&#x43B;&#x438; &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438; &#x438;&#x43C;&#x430;&#x442; &#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;</strong>.</p>
+<p>&#x412; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439;, &#x447;&#x435; &#x435; &#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x430; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x430;&#x439;&#x442;&#x435; <strong>&quot;Yes, value=&#x2026;&quot; + &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x442;&#x430;</strong>, &#x432; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x435;&#x43D; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439; &#x43E;&#x442;&#x43F;&#x435;&#x447;&#x430;&#x442;&#x430;&#x439;&#x442;&#x435; <strong>&#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x430;&#x43B;&#x43D;&#x430;&#x442;&#x430; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;</strong> &#x43C;&#x435;&#x436;&#x434;&#x443; &#x434;&#x432;&#x435; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x43D;&#x438; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438; &#x432; &#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x44F; &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442; - <strong>&quot;No, maxdiff=&#x2026;&quot; + &#x43C;&#x430;&#x43A;&#x441;&#x438;&#x43C;&#x430;&#x43B;&#x43D;&#x430;&#x442;&#x430; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;</strong>. </p>
+<p>&#x412;&#x445;&#x43E;&#x434;&#x44A;&#x442; &#x441;&#x435; &#x441;&#x44A;&#x441;&#x442;&#x43E;&#x438; &#x43E;&#x442; &#x447;&#x438;&#x441;&#x43B;&#x43E; <strong>n</strong>, &#x441;&#x43B;&#x435;&#x434;&#x432;&#x430;&#x43D;&#x43E; &#x43E;&#x442; <strong>2*n &#x446;&#x435;&#x43B;&#x438; &#x447;&#x438;&#x441;&#x43B;&#x430;</strong>, &#x432;&#x441;&#x438;&#x447;&#x43A;&#x438; &#x43F;&#x43E; &#x435;&#x434;&#x43D;&#x43E; &#x43D;&#x430; &#x440;&#x435;&#x434;.</p>
+<h4 id="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><a name="&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;" class="plugin-anchor" href="#&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D;-&#x432;&#x445;&#x43E;&#x434;-&#x438;-&#x438;&#x437;&#x445;&#x43E;&#x434;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435;&#x43D; &#x432;&#x445;&#x43E;&#x434; &#x438; &#x438;&#x437;&#x445;&#x43E;&#x434;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x412;&#x445;&#x43E;&#x434;</th>
+<th>&#x418;&#x437;&#x445;&#x43E;&#x434;</th>
+<th style="text-align:center">&#x41A;&#x43E;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x440;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>3<br>1<br>2<br>0<br>3<br>4<br>-1</td>
+<td>Yes, value=3</td>
+<td style="text-align:center">&#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; = {3, 3, 3}<br>&#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x438; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438;</td>
+</tr>
+<tr>
+<td>2<br>1<br>2<br>2<br>2</td>
+<td>No, maxdiff=1</td>
+<td style="text-align:center">&#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; = {3, 4}<br>&#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x438; = {1}<br>&#x43C;&#x430;&#x43A;&#x441;. &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430; = 1</td>
+</tr>
+<tr>
+<td>4<br>1<br>1<br>3<br>1<br>2<br>2<br>0<br>0</td>
+<td>No, maxdiff=4</td>
+<td style="text-align:center">&#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; = {2, 4, 4, 0}<br>&#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x438; = {2, 0, 4}<br>&#x43C;&#x430;&#x43A;&#x441;. &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430; = 4</td>
+</tr>
+<tr>
+<td>1<br>5<br>5</td>
+<td>Yes, value=10</td>
+<td style="text-align:center">&#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; = {10}<br>&#x435;&#x434;&#x43D;&#x430; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;<br>&#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x438; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438;</td>
+</tr>
+<tr>
+<td>2<br>-1<br>0<br>0<br>-1</td>
+<td>Yes, value=-1</td>
+<td style="text-align:center">&#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; = {-1, -1}<br>&#x435;&#x434;&#x43D;&#x430;&#x43A;&#x432;&#x438; &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438;</td>
+</tr>
+<tr>
+<td>2<br>-1<br>2<br>0<br>-1</td>
+<td>No, maxdiff=2</td>
+<td style="text-align:center">&#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x438; = {1, -1}<br>&#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x438; = {2}<br>&#x43C;&#x430;&#x43A;&#x441;. &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430; = 2</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><a name="&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;" class="plugin-anchor" href="#&#x43D;&#x430;&#x441;&#x43E;&#x43A;&#x438;-&#x438;-&#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41D;&#x430;&#x441;&#x43E;&#x43A;&#x438; &#x438; &#x43F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x438;</h4>
+<p>&#x41F;&#x440;&#x43E;&#x447;&#x438;&#x442;&#x430;&#x43C;&#x435; &#x432;&#x445;&#x43E;&#x434;&#x43D;&#x438;&#x442;&#x435; &#x447;&#x438;&#x441;&#x43B;&#x430; <strong>&#x43F;&#x43E; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438;</strong>. &#x417;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x430; &#x43F;&#x440;&#x435;&#x441;&#x43C;&#x44F;&#x442;&#x430;&#x43C;&#x435; <strong>&#x441;&#x443;&#x43C;&#x430;&#x442;&#x430;</strong> &#x45D;. &#x414;&#x43E;&#x43A;&#x430;&#x442;&#x43E; &#x447;&#x435;&#x442;&#x435;&#x43C; &#x432;&#x445;&#x43E;&#x434;&#x43D;&#x438;&#x442;&#x435; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438;, &#x437;&#x430; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x430;, &#x431;&#x435;&#x437; &#x43F;&#x44A;&#x440;&#x432;&#x430;&#x442;&#x430;, &#x442;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x43F;&#x440;&#x435;&#x441;&#x43C;&#x435;&#x442;&#x43D;&#x435;&#x43C; <strong>&#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430; &#x441; &#x43F;&#x440;&#x435;&#x434;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x442;&#x430;</strong>. &#x417;&#x430; &#x446;&#x435;&#x43B;&#x442;&#x430; &#x435; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E; &#x434;&#x430; &#x43F;&#x430;&#x437;&#x438;&#x43C; &#x432; &#x43E;&#x442;&#x434;&#x435;&#x43B;&#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x43B;&#x438;&#x432;&#x430; &#x441;&#x443;&#x43C;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x445;&#x43E;&#x434;&#x43D;&#x430;&#x442;&#x430; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x430;. &#x41D;&#x430;&#x43A;&#x440;&#x430;&#x44F; &#x43D;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43C;&#x435; <strong>&#x43D;&#x430;&#x439;-&#x433;&#x43E;&#x43B;&#x44F;&#x43C;&#x430;&#x442;&#x430; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;</strong> &#x43C;&#x435;&#x436;&#x434;&#x443; &#x434;&#x432;&#x435; &#x434;&#x432;&#x43E;&#x439;&#x43A;&#x438;. &#x410;&#x43A;&#x43E; &#x435; <strong>0</strong>, &#x43F;&#x435;&#x447;&#x430;&#x442;&#x430;&#x43C;&#x435; <strong>&#x201C;Yes&#x201D;</strong> + &#x441;&#x442;&#x43E;&#x439;&#x43D;&#x43E;&#x441;&#x442;&#x442;&#x430;, &#x432; &#x43F;&#x440;&#x43E;&#x442;&#x438;&#x432;&#x435;&#x43D; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439; - <strong>&#x201C;No&#x201D;</strong> + &#x440;&#x430;&#x437;&#x43B;&#x438;&#x43A;&#x430;&#x442;&#x430;.</p>
+<h4 id="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><a name="&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435;-&#x432;-judge-&#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43D;&#x435; &#x432; Judge &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x430;</h4>
+<p>&#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x439;&#x442;&#x435; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441;&#x438; &#x442;&#x443;&#x43A;: <a href="https://judge.softuni.bg/Contests/Practice/Index/510#11" target="_blank">https://judge.softuni.bg/Contests/Practice/Index/510#11</a>.</p>
+<h2 id="&#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x438;-&#x438;-&#x443;&#x435;&#x431;-&#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;"><a name="&#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x438;-&#x438;-&#x443;&#x435;&#x431;-&#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;" class="plugin-anchor" href="#&#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;-&#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x438;-&#x438;-&#x443;&#x435;&#x431;-&#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x423;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x44F;: &#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x438; &#x438; &#x443;&#x435;&#x431; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;</h2>
+<p>&#x412; &#x43D;&#x430;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x430;&#x442;&#x430; &#x433;&#x43B;&#x430;&#x432;&#x430; &#x441;&#x435; &#x437;&#x430;&#x43F;&#x43E;&#x437;&#x43D;&#x430;&#x445;&#x43C;&#x435; &#x441; <strong>&#x446;&#x438;&#x43A;&#x43B;&#x438;&#x442;&#x435;</strong> &#x43A;&#x430;&#x442;&#x43E; &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x446;&#x438;&#x44F; &#x432; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x435;&#x442;&#x43E;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x43D;&#x438; &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x432;&#x430; &#x434;&#x430; &#x43F;&#x43E;&#x432;&#x442;&#x430;&#x440;&#x44F;&#x43C;&#x435; &#x43C;&#x43D;&#x43E;&#x433;&#x43E;&#x43A;&#x440;&#x430;&#x442;&#x43D;&#x43E; &#x434;&#x430;&#x434;&#x435;&#x43D;&#x43E; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x435; &#x438;&#x43B;&#x438; &#x433;&#x440;&#x443;&#x43F;&#x430; &#x43E;&#x442; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F;. &#x421;&#x435;&#x433;&#x430; &#x43D;&#x435;&#x43A;&#x430; &#x441;&#x438; &#x43F;&#x43E;&#x438;&#x433;&#x440;&#x430;&#x435;&#x43C; &#x441; &#x442;&#x44F;&#x445;. &#x417;&#x430; &#x446;&#x435;&#x43B;&#x442;&#x430; &#x449;&#x435; &#x43D;&#x430;&#x447;&#x435;&#x440;&#x442;&#x430;&#x435;&#x43C; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x444;&#x438;&#x433;&#x443;&#x440;&#x43A;&#x438;, &#x43A;&#x43E;&#x438;&#x442;&#x43E; &#x441;&#x435; &#x441;&#x44A;&#x441;&#x442;&#x43E;&#x44F;&#x442; &#x43E;&#x442; &#x433;&#x43E;&#x43B;&#x44F;&#x43C; &#x431;&#x440;&#x43E;&#x439; &#x43F;&#x43E;&#x432;&#x442;&#x430;&#x440;&#x44F;&#x449;&#x438; &#x441;&#x435; &#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x438; &#x435;&#x43B;&#x435;&#x43C;&#x435;&#x43D;&#x442;&#x438;, &#x43D;&#x43E; &#x442;&#x43E;&#x437;&#x438; &#x43F;&#x44A;&#x442; &#x43D;&#x435; &#x43D;&#x430; &#x43A;&#x43E;&#x43D;&#x437;&#x43E;&#x43B;&#x430;&#x442;&#x430;, &#x430; &#x432; &#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x430; &#x441;&#x440;&#x435;&#x434;&#x430;, &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x439;&#x43A;&#x438; &quot;<strong>&#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;</strong>&quot;. &#x429;&#x435; &#x435; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x435;&#x441;&#x43D;&#x43E;. &#x418; &#x43D;&#x438;&#x43A;&#x430;&#x43A; &#x43D;&#x435; &#x435; &#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x43E;. &#x41E;&#x43F;&#x438;&#x442;&#x430;&#x439;&#x442;&#x435;!</p>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;-&#x2013;-&#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x43E;-gui-&#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;-&#x2013;-&#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x43E;-gui-&#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;-&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;-&#x2013;-&#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x43E;-gui-&#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: &#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430; &#x2013; &#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x43E; GUI &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;</h3>
+<p>&#x426;&#x435;&#x43B;&#x442;&#x430; &#x43D;&#x430; &#x441;&#x43B;&#x435;&#x434;&#x432;&#x430;&#x449;&#x43E;&#x442;&#x43E; &#x443;&#x43F;&#x440;&#x430;&#x436;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x435; &#x434;&#x430; &#x441;&#x438; &#x43F;&#x43E;&#x438;&#x433;&#x440;&#x430;&#x435;&#x43C; &#x441; &#x435;&#x434;&#x43D;&#x430; <strong>&#x431;&#x438;&#x431;&#x43B;&#x438;&#x43E;&#x442;&#x435;&#x43A;&#x430; &#x437;&#x430; &#x440;&#x438;&#x441;&#x443;&#x432;&#x430;&#x43D;&#x435;</strong>, &#x438;&#x437;&#x432;&#x435;&#x441;&#x442;&#x43D;&#x430; &#x43A;&#x430;&#x442;&#x43E; <strong>&#x201C;&#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x201D; (turtle graphics)</strong>. &#x429;&#x435; &#x438;&#x437;&#x433;&#x440;&#x430;&#x434;&#x438;&#x43C; &#x433;&#x440;&#x430;&#x444;&#x438;&#x447;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;, &#x432; &#x43A;&#x43E;&#x435;&#x442;&#x43E; &#x449;&#x435; <strong>&#x440;&#x438;&#x441;&#x443;&#x432;&#x430;&#x43C;&#x435; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x438; &#x444;&#x438;&#x433;&#x443;&#x440;&#x438;</strong>, &#x43F;&#x440;&#x438;&#x434;&#x432;&#x438;&#x436;&#x432;&#x430;&#x439;&#x43A;&#x438; &#x43D;&#x430;&#x448;&#x430;&#x442;&#x430; <strong>&#x201C;&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x201D;</strong> &#x43F;&#x43E; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x430; &#x447;&#x440;&#x435;&#x437; &#x43E;&#x43F;&#x435;&#x440;&#x430;&#x446;&#x438;&#x438; &#x43E;&#x442; &#x442;&#x438;&#x43F;&#x430; &#x201C;&#x43E;&#x442;&#x438;&#x434;&#x438; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; 100 &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;&#x201D;, &#x201C;&#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x438; &#x441;&#x435; &#x43D;&#x430;&#x434;&#x44F;&#x441;&#x43D;&#x43E; &#x43D;&#x430; 30 &#x433;&#x440;&#x430;&#x434;&#x443;&#x441;&#x430;&#x201D;, &#x201C;&#x43E;&#x442;&#x438;&#x434;&#x438; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; &#x43E;&#x449;&#x435; 50 &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;&#x201D;. &#x41F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x449;&#x435; &#x438;&#x437;&#x433;&#x43B;&#x435;&#x436;&#x434;&#x430; &#x43F;&#x440;&#x438;&#x431;&#x43B;&#x438;&#x437;&#x438;&#x442;&#x435;&#x43B;&#x43D;&#x43E; &#x442;&#x430;&#x43A;&#x430;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-01.png" alt=""></p>
+<p>&#x41D;&#x435;&#x43A;&#x430; &#x43F;&#x44A;&#x440;&#x432;&#x43E; &#x441;&#x435; &#x437;&#x430;&#x43F;&#x43E;&#x437;&#x43D;&#x430;&#x435;&#x43C; &#x441; <strong>&#x43A;&#x43E;&#x43D;&#x446;&#x435;&#x43F;&#x446;&#x438;&#x44F;&#x442;&#x430; &#x437;&#x430; &#x440;&#x438;&#x441;&#x443;&#x432;&#x430;&#x43D;&#x435; &#x201C;Turtle Graphics&#x201D;</strong>. &#x41C;&#x43E;&#x436;&#x435; &#x434;&#x430; &#x440;&#x430;&#x437;&#x433;&#x43B;&#x435;&#x434;&#x430;&#x43C;&#x435; &#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x442;&#x435; &#x438;&#x437;&#x442;&#x43E;&#x447;&#x43D;&#x438;&#x446;&#x438;:</p>
+<ul>
+<li>&#x414;&#x435;&#x444;&#x438;&#x43D;&#x438;&#x446;&#x438;&#x44F; &#x43D;&#x430; &#x43F;&#x43E;&#x43D;&#x44F;&#x442;&#x438;&#x435;&#x442;&#x43E; &#x201C;turtle graphics&#x201D;: <a href="http://c2.com/cgi/wiki?TurtleGraphics" target="_blank">http://c2.com/cgi/wiki?TurtleGraphics</a></li>
+<li>&#x421;&#x442;&#x430;&#x442;&#x438;&#x44F; &#x437;&#x430; &#x201C;turtle graphics&#x201D; &#x432; Wikipedia &#x2013; <a href="https://en.wikipedia.org/wiki/Turtle_graphics" target="_blank">https://en.wikipedia.org/wiki/Turtle_graphics</a></li>
+<li>&#x418;&#x43D;&#x442;&#x435;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x432;&#x435;&#x43D; &#x43E;&#x43D;&#x43B;&#x430;&#x439;&#x43D; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442; &#x437;&#x430; &#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430; &#x2013; <a href="https://blockly-games.appspot.com/turtle" target="_blank">https://blockly-games.appspot.com/turtle</a></li>
+</ul>
+<p>&#x417;&#x430;&#x43F;&#x43E;&#x447;&#x432;&#x430;&#x43C;&#x435;, &#x43A;&#x430;&#x442;&#x43E; &#x441;&#x44A;&#x437;&#x434;&#x430;&#x432;&#x430;&#x43C;&#x435; &#x43D;&#x43E;&#x432; <strong>C# Windows Forms &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;</strong>:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-02.png" alt=""></p>
+<p>&#x418;&#x43D;&#x441;&#x442;&#x430;&#x43B;&#x438;&#x440;&#x430;&#x43C;&#x435; <strong>NuGet</strong> &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430; <strong>&quot;Nakov.TurtleGraphics&quot;</strong> &#x43A;&#x44A;&#x43C; &#x43D;&#x430;&#x448;&#x438;&#x44F; &#x43D;&#x43E;&#x432; Windows Forms &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;. &#x41E;&#x442; Visual Studio &#x43C;&#x43E;&#x436;&#x435; &#x434;&#x430; &#x441;&#x435; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x44F;&#x442; <strong>&#x432;&#x44A;&#x43D;&#x448;&#x43D;&#x438; &#x431;&#x438;&#x431;&#x43B;&#x438;&#x43E;&#x442;&#x435;&#x43A;&#x438;</strong> (&#x43F;&#x430;&#x43A;&#x435;&#x442;&#x438;) &#x43A;&#x44A;&#x43C; &#x441;&#x44A;&#x449;&#x435;&#x441;&#x442;&#x432;&#x443;&#x432;&#x430;&#x449; C# &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;. &#x422;&#x435; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x44F;&#x442; &#x434;&#x43E;&#x43F;&#x44A;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x43D;&#x430; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x43D;&#x43E;&#x441;&#x442; &#x43A;&#x44A;&#x43C; &#x43D;&#x430;&#x448;&#x438;&#x442;&#x435; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;. &#x41E;&#x444;&#x438;&#x446;&#x438;&#x430;&#x43B;&#x43D;&#x43E;&#x442;&#x43E; &#x445;&#x440;&#x430;&#x43D;&#x438;&#x43B;&#x438;&#x449;&#x435; (repository) &#x437;&#x430; C# &#x431;&#x438;&#x431;&#x43B;&#x438;&#x43E;&#x442;&#x435;&#x43A;&#x438; &#x441;&#x435; &#x43F;&#x43E;&#x434;&#x434;&#x44A;&#x440;&#x436;&#x430; &#x43E;&#x442; Microsoft &#x438; &#x441;&#x435; &#x43D;&#x430;&#x440;&#x438;&#x447;&#x430; <strong>NuGet</strong> (<a href="http://www.nuget.org" target="_blank">http://www.nuget.org/</a>).</p>
+<p>&#x41A;&#x43B;&#x438;&#x43A;&#x430;&#x43C;&#x435; &#x441; &#x434;&#x435;&#x441;&#x435;&#x43D; &#x431;&#x443;&#x442;&#x43E;&#x43D; &#x43D;&#x430; &#x43C;&#x438;&#x448;&#x43A;&#x430;&#x442;&#x430; &#x432;&#x44A;&#x440;&#x445;&#x443; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430; &#x432; <strong>Solution Explorer</strong> &#x438; &#x438;&#x437;&#x431;&#x438;&#x440;&#x430;&#x43C;&#x435; [<strong>Manage NuGet Packages&#x2026;</strong>]:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-03.png" alt=""></p>
+<p>&#x429;&#x435; &#x441;&#x435; &#x43E;&#x442;&#x432;&#x43E;&#x440;&#x438; &#x43F;&#x440;&#x43E;&#x437;&#x43E;&#x440;&#x435;&#x446; &#x437;&#x430; &#x442;&#x44A;&#x440;&#x441;&#x435;&#x43D;&#x435; &#x438; &#x438;&#x43D;&#x441;&#x442;&#x430;&#x43B;&#x438;&#x440;&#x430;&#x43D;&#x435; &#x43D;&#x430; <strong>NuGet</strong> &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x438;. &#x41D;&#x435;&#x43A;&#x430; &#x43F;&#x43E;&#x442;&#x44A;&#x440;&#x441;&#x438;&#x43C; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x438; &#x43F;&#x43E; &#x43A;&#x43B;&#x44E;&#x447;&#x43E;&#x432;&#x430; &#x434;&#x443;&#x43C;&#x430; <strong><code>nakov</code></strong>. &#x429;&#x435; &#x438;&#x437;&#x43B;&#x44F;&#x437;&#x430;&#x442; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430;. &#x41E;&#x442; &#x442;&#x44F;&#x445; &#x438;&#x437;&#x431;&#x438;&#x440;&#x430;&#x43C;&#x435; &#x43F;&#x430;&#x43A;&#x435;&#x442; <strong><code>Nakov.TurtleGraphics</code></strong>. &#x41D;&#x430;&#x442;&#x438;&#x441;&#x43A;&#x430;&#x43C;&#x435; [<strong>Install</strong>], &#x437;&#x430; &#x434;&#x430; &#x433;&#x43E; &#x438;&#x43D;&#x441;&#x442;&#x430;&#x43B;&#x438;&#x440;&#x430;&#x43C;&#x435; &#x43A;&#x44A;&#x43C; &#x43D;&#x430;&#x448;&#x438;&#x44F; C# &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-04.png" alt=""></p>
+<p>&#x41A;&#x44A;&#x43C; &#x43D;&#x430;&#x448;&#x438;&#x44F; C# &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442; &#x432;&#x435;&#x447;&#x435; &#x435; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x430; &#x432;&#x44A;&#x43D;&#x448;&#x43D;&#x430;&#x442;&#x430; &#x431;&#x438;&#x431;&#x43B;&#x438;&#x43E;&#x442;&#x435;&#x43A;&#x430; <strong><code>Nakov.TurtleGraphics</code></strong>. &#x422;&#x44F; &#x434;&#x435;&#x444;&#x438;&#x43D;&#x438;&#x440;&#x430; &#x43A;&#x43B;&#x430;&#x441; <strong><code>Turtle</code></strong>, &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x432;&#x430; <strong>&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430; &#x437;&#x430; &#x440;&#x438;&#x441;&#x443;&#x432;&#x430;&#x43D;&#x435;</strong>. &#x417;&#x430; &#x434;&#x430; &#x433;&#x43E; &#x438;&#x437;&#x43F;&#x43E;&#x43B;&#x437;&#x432;&#x430;&#x43C;&#x435;, &#x442;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x43C; &#x432; C# &#x43A;&#x43E;&#x434;&#x430; &#x437;&#x430; &#x43D;&#x430;&#x448;&#x430;&#x442;&#x430; &#x444;&#x43E;&#x440;&#x43C;&#x430; (<strong><code>Form1.cs</code></strong>). &#x414;&#x43E;&#x431;&#x430;&#x432;&#x44F;&#x43C;&#x435; &#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x44F; &#x43A;&#x43E;&#x434;, &#x43D;&#x430;&#x439;-&#x43E;&#x442;&#x433;&#x43E;&#x440;&#x435; &#x432; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43E;&#x442;&#x43E; &#x43D;&#x430; &#x444;&#x430;&#x439;&#x43B;&#x430;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-05.png" alt=""></p>
+<p>&#x421;&#x435;&#x433;&#x430; &#x442;&#x440;&#x44F;&#x431;&#x432;&#x430; &#x434;&#x430; &#x441;&#x43B;&#x43E;&#x436;&#x438;&#x43C; <strong>&#x442;&#x440;&#x438; &#x431;&#x443;&#x442;&#x43E;&#x43D;&#x430;</strong> &#x432;&#x44A;&#x432; &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x430; &#x438; &#x434;&#x430; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x438;&#x43C; <strong>&#x438;&#x43C;&#x435;&#x43D;&#x430;&#x442;&#x430;</strong> &#x438; <strong>&#x441;&#x432;&#x43E;&#x439;&#x441;&#x442;&#x432;&#x430;&#x442;&#x430;</strong> &#x438;&#x43C;, &#x43A;&#x430;&#x43A;&#x442;&#x43E; &#x435; &#x43F;&#x43E;&#x441;&#x43E;&#x447;&#x435;&#x43D;&#x43E; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-06.png" alt=""></p>
+<p>&#x41A;&#x43B;&#x438;&#x43A;&#x432;&#x430;&#x43C;&#x435; &#x434;&#x432;&#x430; &#x43F;&#x44A;&#x442;&#x438; &#x432;&#x44A;&#x440;&#x445;&#x443; &#x431;&#x443;&#x442;&#x43E;&#x43D;&#x430; [<strong>Draw</strong>], &#x437;&#x430; &#x434;&#x430; &#x432;&#x44A;&#x432;&#x435;&#x434;&#x435;&#x43C; &#x43A;&#x43E;&#x434;&#x430;, &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x434;&#x430; &#x441;&#x435; &#x438;&#x437;&#x43F;&#x44A;&#x43B;&#x43D;&#x438; &#x43F;&#x440;&#x438; &#x43D;&#x430;&#x442;&#x438;&#x441;&#x43A;&#x430;&#x43D;&#x435;&#x442;&#x43E; &#x43C;&#x443;. &#x41F;&#x438;&#x448;&#x435;&#x43C; &#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x44F; &#x43A;&#x43E;&#x434;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-07.png" alt=""></p>
+<p>&#x422;&#x43E;&#x437;&#x438; &#x43A;&#x43E;&#x434; &#x43C;&#x435;&#x441;&#x442;&#x438; &#x438; &#x432;&#x44A;&#x440;&#x442;&#x438; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;, &#x43A;&#x43E;&#x44F;&#x442;&#x43E; &#x432; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43E;&#x442;&#x43E; &#x435; &#x432; &#x446;&#x435;&#x43D;&#x442;&#x44A;&#x440;&#x430; &#x43D;&#x430; &#x435;&#x43A;&#x440;&#x430;&#x43D;&#x430; (&#x432; &#x441;&#x440;&#x435;&#x434;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x442;&#x430;), &#x438; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x440;&#x430;&#x432;&#x43D;&#x43E;&#x441;&#x442;&#x440;&#x430;&#x43D;&#x435;&#x43D; &#x442;&#x440;&#x438;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;. &#x41C;&#x43E;&#x436;&#x435; &#x434;&#x430; &#x433;&#x43E; &#x440;&#x435;&#x434;&#x430;&#x43A;&#x442;&#x438;&#x440;&#x430;&#x442;&#x435; &#x438; &#x434;&#x430; &#x441;&#x438; &#x43F;&#x43E;&#x438;&#x433;&#x440;&#x430;&#x435;&#x442;&#x435; &#x441; &#x43D;&#x435;&#x433;&#x43E;.</p>
+<p><strong>&#x421;&#x442;&#x430;&#x440;&#x442;&#x438;&#x440;&#x430;&#x43C;&#x435;</strong> &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441; [<strong>Ctrl+F5</strong>]. &#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43C;&#x435; &#x433;&#x43E; &#x434;&#x430;&#x43B;&#x438; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x438; (&#x43D;&#x430;&#x442;&#x438;&#x441;&#x43A;&#x430;&#x43C;&#x435; [<strong>Draw</strong>] &#x431;&#x443;&#x442;&#x43E;&#x43D;&#x430; &#x43D;&#x44F;&#x43A;&#x43E;&#x43B;&#x43A;&#x43E; &#x43F;&#x44A;&#x442;&#x438;):</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-08.png" alt=""></p>
+<p>&#x421;&#x435;&#x433;&#x430; &#x43C;&#x43E;&#x436;&#x435; &#x434;&#x430; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x438;&#x43C; &#x438; &#x443;&#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x438;&#x43C; &#x43A;&#x43E;&#x434;&#x430; &#x43D;&#x430; <strong>&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;</strong>: </p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-09.png" alt=""></p>
+<p>&#x41E;&#x442;&#x43D;&#x43E;&#x432;&#x43E; <strong>&#x441;&#x442;&#x430;&#x440;&#x442;&#x438;&#x440;&#x430;&#x43C;&#x435;</strong> &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441; [<strong>Ctrl+F5</strong>]. &#x422;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43C;&#x435; &#x434;&#x430;&#x43B;&#x438; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x438; &#x43D;&#x43E;&#x432;&#x430;&#x442;&#x430; &#x43F;&#x440;&#x43E;&#x433;&#x440;&#x430;&#x43C;&#x430; &#x437;&#x430; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-10.png" alt=""></p>
+<p>&#x412;&#x435;&#x447;&#x435; &#x43D;&#x430;&#x448;&#x430;&#x442;&#x430; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x43F;&#x43E;-&#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x438; &#x444;&#x438;&#x433;&#x443;&#x440;&#x438; &#x447;&#x440;&#x435;&#x437; &#x43F;&#x440;&#x438;&#x44F;&#x442;&#x43D;&#x43E; &#x430;&#x43D;&#x438;&#x43C;&#x438;&#x440;&#x430;&#x43D;&#x43E; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435;.</p>
+<p>&#x41D;&#x435;&#x43A;&#x430; &#x43D;&#x430;&#x43F;&#x438;&#x448;&#x435;&#x43C; &#x43A;&#x43E;&#x434;&#x430; &#x438; &#x437;&#x430; &#x43E;&#x441;&#x442;&#x430;&#x43D;&#x430;&#x43B;&#x438;&#x442;&#x435; &#x434;&#x432;&#x430; &#x431;&#x443;&#x442;&#x43E;&#x43D;&#x430;. &#x426;&#x435;&#x43B;&#x442;&#x430; &#x43D;&#x430; &#x431;&#x443;&#x442;&#x43E;&#x43D;&#x430; [<strong>Reset</strong>] &#x435; &#x434;&#x430; &#x438;&#x437;&#x442;&#x440;&#x438;&#x435; &#x433;&#x440;&#x430;&#x444;&#x438;&#x43A;&#x430;&#x442;&#x430; &#x438; &#x434;&#x430; &#x437;&#x430;&#x43F;&#x43E;&#x447;&#x43D;&#x435; &#x434;&#x430; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x43D;&#x430; &#x447;&#x438;&#x441;&#x442;&#x43E;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-11.png" alt=""></p>
+<p>&#x426;&#x435;&#x43B;&#x442;&#x430; &#x43D;&#x430; &#x431;&#x443;&#x442;&#x43E;&#x43D;&#x430; [<strong>Show / Hide Turtle</strong>] &#x435; &#x434;&#x430; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x432;&#x430; &#x438;&#x43B;&#x438; &#x441;&#x43A;&#x440;&#x438;&#x432;&#x430; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;: </p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-12.png" alt=""></p>
+<p>&#x41E;&#x442;&#x43D;&#x43E;&#x432;&#x43E; <strong>&#x441;&#x442;&#x430;&#x440;&#x442;&#x438;&#x440;&#x430;&#x43C;&#x435;</strong> &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x441; [<strong>Ctrl+F5</strong>] &#x438; &#x433;&#x43E; &#x442;&#x435;&#x441;&#x442;&#x432;&#x430;&#x43C;&#x435;, &#x434;&#x430;&#x43B;&#x438; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x438; &#x43A;&#x43E;&#x440;&#x435;&#x43A;&#x442;&#x43D;&#x43E;.</p>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x448;&#x435;&#x441;&#x442;&#x43E;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x448;&#x435;&#x441;&#x442;&#x43E;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x448;&#x435;&#x441;&#x442;&#x43E;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: * &#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x448;&#x435;&#x441;&#x442;&#x43E;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;</h3>
+<p>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x435;&#x442;&#x435; &#x431;&#x443;&#x442;&#x43E;&#x43D; [<strong>Hexagon</strong>], &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x43F;&#x440;&#x430;&#x432;&#x438;&#x43B;&#x435;&#x43D; &#x448;&#x435;&#x441;&#x442;&#x43E;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-13.png" alt=""></p>
+<p><strong>&#x41F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x430;:</strong></p>
+<p>&#x412; &#x446;&#x438;&#x43A;&#x44A;&#x43B; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x442;&#x435; 6 &#x43F;&#x44A;&#x442;&#x438; &#x441;&#x43B;&#x435;&#x434;&#x43D;&#x43E;&#x442;&#x43E;:</p>
+<ul>
+<li>&#x420;&#x43E;&#x442;&#x430;&#x446;&#x438;&#x44F; &#x43D;&#x430; 60 &#x433;&#x440;&#x430;&#x434;&#x443;&#x441;&#x430;.</li>
+<li>&#x414;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; 100.</li>
+</ul>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x437;&#x432;&#x435;&#x437;&#x434;&#x430;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x437;&#x432;&#x435;&#x437;&#x434;&#x430;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x437;&#x432;&#x435;&#x437;&#x434;&#x430;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: * &#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x437;&#x432;&#x435;&#x437;&#x434;&#x430; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;</h3>
+<p>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x435;&#x442;&#x435; &#x431;&#x443;&#x442;&#x43E;&#x43D; [<strong>Star</strong>], &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x437;&#x432;&#x435;&#x437;&#x434;&#x430; &#x441; 5 &#x432;&#x44A;&#x440;&#x445;&#x430; (<strong>&#x43F;&#x435;&#x442;&#x43E;&#x43B;&#x44A;&#x447;&#x43A;&#x430;</strong>), &#x43A;&#x430;&#x442;&#x43E; &#x43D;&#x430; &#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x442;&#x430; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-14.png" alt=""></p>
+<p><strong>&#x41F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x430;:</strong></p>
+<p>&#x421;&#x43C;&#x435;&#x43D;&#x435;&#x442;&#x435; &#x446;&#x432;&#x435;&#x442;&#x430;: <strong><code>Turtle.PenColor</code> = <code>Color.Green</code></strong>. </p>
+<p>&#x412; &#x446;&#x438;&#x43A;&#x44A;&#x43B; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x442;&#x435; 5 &#x43F;&#x44A;&#x442;&#x438; &#x441;&#x43B;&#x435;&#x434;&#x43D;&#x43E;&#x442;&#x43E;:</p>
+<ul>
+<li>&#x414;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; 200.</li>
+<li>&#x420;&#x43E;&#x442;&#x430;&#x446;&#x438;&#x44F; &#x43D;&#x430; 144 &#x433;&#x440;&#x430;&#x434;&#x443;&#x441;&#x430;.</li>
+</ul>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x430;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x430;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x430;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430; * &#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x430; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;</h3>
+<p>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x435;&#x442;&#x435; &#x431;&#x443;&#x442;&#x43E;&#x43D; [<strong>Spiral</strong>], &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x430; &#x441; 20 &#x432;&#x44A;&#x440;&#x445;&#x430; &#x43A;&#x430;&#x442;&#x43E; &#x43D;&#x430; &#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x442;&#x430; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-15.png" alt=""></p>
+<p><strong>&#x41F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x430;:</strong></p>
+<p>&#x427;&#x435;&#x440;&#x442;&#x430;&#x439;&#x442;&#x435; &#x432; &#x446;&#x438;&#x43A;&#x44A;&#x43B;, &#x43A;&#x430;&#x442;&#x43E; &#x434;&#x432;&#x438;&#x436;&#x438;&#x442;&#x435; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; &#x438; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x430;&#x442;&#x435;. &#x421; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x441;&#x442;&#x44A;&#x43F;&#x43A;&#x430; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x430;&#x432;&#x430;&#x439;&#x442;&#x435; &#x43F;&#x43E;&#x441;&#x442;&#x435;&#x43F;&#x435;&#x43D;&#x43D;&#x43E; &#x434;&#x44A;&#x43B;&#x436;&#x438;&#x43D;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; &#x438; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x430;&#x439;&#x442;&#x435; &#x43D;&#x430; 60 &#x433;&#x440;&#x430;&#x434;&#x443;&#x441;&#x430;.</p>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43B;&#x44A;&#x43D;&#x446;&#x435;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43B;&#x44A;&#x43D;&#x446;&#x435;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43B;&#x44A;&#x43D;&#x446;&#x435;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: * &#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x441;&#x43B;&#x44A;&#x43D;&#x446;&#x435; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;</h3>
+<p>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x435;&#x442;&#x435; &#x431;&#x443;&#x442;&#x43E;&#x43D; [<strong>Sun</strong>], &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x441;&#x43B;&#x44A;&#x43D;&#x446;&#x435; &#x441; 36 &#x432;&#x44A;&#x440;&#x445;&#x430; &#x43A;&#x430;&#x442;&#x43E; &#x43D;&#x430; &#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x442;&#x430; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-16.png" alt=""></p>
+<h3 id="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x435;&#x43D;-&#x442;&#x440;&#x438;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><a name="&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x435;&#x43D;-&#x442;&#x440;&#x438;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;" class="plugin-anchor" href="#&#x437;&#x430;&#x434;&#x430;&#x447;&#x430;--&#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435;-&#x43D;&#x430;-&#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x435;&#x43D;-&#x442;&#x440;&#x438;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;-&#x441;-&#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x417;&#x430;&#x434;&#x430;&#x447;&#x430;: * &#x447;&#x435;&#x440;&#x442;&#x430;&#x43D;&#x435; &#x43D;&#x430; &#x441;&#x43F;&#x438;&#x440;&#x430;&#x43B;&#x435;&#x43D; &#x442;&#x440;&#x438;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A; &#x441; &#x43A;&#x43E;&#x441;&#x442;&#x435;&#x43D;&#x443;&#x440;&#x43A;&#x430;&#x442;&#x430;</h3>
+<p>&#x414;&#x43E;&#x431;&#x430;&#x432;&#x435;&#x442;&#x435; &#x431;&#x443;&#x442;&#x43E;&#x43D; [<strong>Triangle</strong>], &#x43A;&#x43E;&#x439;&#x442;&#x43E; &#x447;&#x435;&#x440;&#x442;&#x430;&#x435; &#x442;&#x440;&#x438; &#x442;&#x440;&#x438;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;&#x430; &#x441; &#x43F;&#x43E; 22 &#x432;&#x44A;&#x440;&#x445;&#x430; &#x43A;&#x430;&#x442;&#x43E; &#x43D;&#x430; &#x444;&#x438;&#x433;&#x443;&#x440;&#x430;&#x442;&#x430; &#x43F;&#x43E;-&#x434;&#x43E;&#x43B;&#x443;:</p>
+<p><img src="assets/chapter-5-images/13.Turtle-graphics-17.png" alt=""></p>
+<p><strong>&#x41F;&#x43E;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x43A;&#x430;:</strong></p>
+<p>&#x427;&#x435;&#x440;&#x442;&#x430;&#x439;&#x442;&#x435; &#x432; &#x446;&#x438;&#x43A;&#x44A;&#x43B; &#x43A;&#x430;&#x442;&#x43E; &#x434;&#x432;&#x438;&#x436;&#x438;&#x442;&#x435; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; &#x438; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x430;&#x442;&#x435;. &#x421; &#x432;&#x441;&#x44F;&#x43A;&#x430; &#x441;&#x442;&#x44A;&#x43F;&#x43A;&#x430; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x430;&#x432;&#x430;&#x439;&#x442;&#x435; &#x441; 10 &#x434;&#x44A;&#x43B;&#x436;&#x438;&#x43D;&#x430;&#x442;&#x430; &#x43D;&#x430; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x43D;&#x430;&#x43F;&#x440;&#x435;&#x434; &#x438; &#x437;&#x430;&#x432;&#x44A;&#x440;&#x442;&#x430;&#x439;&#x442;&#x435; &#x43D;&#x430; 120 &#x433;&#x440;&#x430;&#x434;&#x443;&#x441;&#x430;. &#x41F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x442;&#x435; 3 &#x43F;&#x44A;&#x442;&#x438; &#x437;&#x430; &#x442;&#x440;&#x438;&#x442;&#x435; &#x442;&#x440;&#x438;&#x44A;&#x433;&#x44A;&#x43B;&#x43D;&#x438;&#x43A;&#x430;.</p>
+<p>&#x410;&#x43A;&#x43E; &#x438;&#x43C;&#x430;&#x442;&#x435; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x438; &#x441; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x43D;&#x438;&#x44F; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442; &#x43F;&#x43E;-&#x433;&#x43E;&#x440;&#x435;, <strong>&#x433;&#x43B;&#x435;&#x434;&#x430;&#x439;&#x442;&#x435; &#x432;&#x438;&#x434;&#x435;&#x43E;&#x442;&#x43E;</strong> &#x432; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x43E;&#x442;&#x43E; &#x43D;&#x430; &#x442;&#x430;&#x437;&#x438; &#x433;&#x43B;&#x430;&#x432;&#x430;. &#x422;&#x430;&#x43C; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;&#x442;&#x43E; &#x435; &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x435;&#x43D;&#x43E; &#x43D;&#x430; &#x436;&#x438;&#x432;&#x43E; &#x441;&#x442;&#x44A;&#x43F;&#x43A;&#x430; &#x43F;&#x43E; &#x441;&#x442;&#x44A;&#x43F;&#x43A;&#x430; &#x441; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x43E;&#x431;&#x44F;&#x441;&#x43D;&#x435;&#x43D;&#x438;&#x44F;. &#x418;&#x43B;&#x438; &#x43F;&#x438;&#x442;&#x430;&#x439;&#x442;&#x435; &#x432;&#x44A;&#x432; <strong>&#x444;&#x43E;&#x440;&#x443;&#x43C;&#x430; &#x43D;&#x430; &#x421;&#x43E;&#x444;&#x442;&#x423;&#x43D;&#x438;</strong>: <a href="https://softuni.bg/forum" target="_blank">https://softuni.bg/forum</a>.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="chapter-04-complex-conditions-exam-problems.html" class="navigation navigation-prev " aria-label="Previous page: 4.2. По-сложни проверки – изпитни задачи">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="chapter-05-loops-exam-problems.html" class="navigation navigation-next " aria-label="Next page: 5.2. Цикли – изпитни задачи">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"5.1. Повторения (цикли)","level":"1.10","depth":1,"next":{"title":"5.2. Цикли – изпитни задачи","level":"1.11","depth":1,"path":"chapter-05-loops-exam-problems.md","ref":"chapter-05-loops-exam-problems.md","articles":[]},"previous":{"title":"4.2. По-сложни проверки – изпитни задачи","level":"1.9","depth":1,"path":"chapter-04-complex-conditions-exam-problems.md","ref":"chapter-04-complex-conditions-exam-problems.md","articles":[]},"dir":"ltr"},"config":{"plugins":["ga","meta","anchors","expandable-chapters-small","katex","sitemap","scripts","page-toc-button"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"meta":{"content":"AWhQilrxdrfKBZwgDA4W3HgenyIiC8kw9ImVuYNSTAg","data":[],"name":"google-site-verification"},"scripts":{"files":["./assets/js/repl.it-code-runner.js","./assets/js/video.js"]},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sitemap":{"hostname":"https://csharp-book.softuni.bg/"},"page-toc-button":{},"expandable-chapters-small":{},"ga":{"configuration":"auto","token":"UA-11309924-16"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":36,"left":36,"top":48,"bottom":48}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"978-619-00-0635-0","variables":{},"title":"Основи на програмирането със C#","language":"bg","gitbook":"*","description":"Безплатна книга \"Основи на програмирането със C#\" за напълно начинаещи. Обхваща езика C# и .NET платформата, C# комилатор, среда за разработка Visual Studio, променливи, данни, пресмятания, проверки, условни конструкции, конструкции за цикли, вложени цикли, методи и много практически задачи."},"file":{"path":"chapter-05-loops.md","mtime":"2019-01-20T15:12:30.478Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-06-21T21:48:06.448Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-scripts/86d07fb6af992a2b5ea77605eec0f6ac-repl.it-code-runner.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-scripts/9f5261960880e0839b89ab0c60ad5ad1-video.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-page-toc-button/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
