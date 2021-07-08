@@ -27,8 +27,12 @@
 * [11. Хитрости и хакове](chapter-11-tricks-and-hacks.md)
 * [Заключение](chapter-12-conclusion.md)
 
+## Изтеглете книгата
+
 Изтеглете книгата "Основи на програмирането със C#" в PDF формат:
 * <a href="https://github.com/SoftUni/Programming-Basics-Book-CSharp-BG/blob/master/resources/Programming-Basics-CSharp-v2017.pdf">Programming-Basics-CSharp-v2017.pdf</a>
+
+## Варианти на книгата
 
 Настоящата книга е достъпна в няколко варианта с различни езици за програмиране:
 * [Основи на програмирането със C#](https://csharp-book.softuni.bg)
@@ -37,6 +41,8 @@
 * [Основи на програмирането с JavaScript](https://js-book.softuni.bg)
 * [Основи на програмирането с Python](https://python-book.softuni.bg)
 * [Основи на програмирането със C++](https://cpp-book.softuni.bg)
+
+## Информация за книгата
 
 Кратка информация за изданието:
 * Заглавие: **Основи на програмирането със C#**
