@@ -16,4 +16,4 @@
 
 #### Тестване в Judge системата
 
-След като допишете решението, може да го тествате тук: [https://judge.softuni.bg/Contests/Practice/Index/508#5](https://judge.softuni.bg/Contests/Practice/Index/508#5).
+След като допишете решението, може да го тествате тук: [https://judge.softuni.org/Contests/Practice/Index/508#5](https://judge.softuni.org/Contests/Practice/Index/508#5).

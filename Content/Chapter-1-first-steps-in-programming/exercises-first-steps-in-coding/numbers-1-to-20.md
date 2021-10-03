@@ -22,6 +22,6 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/503#2](https://judge.softuni.bg/Contests/Practice/Index/503#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/503#2](https://judge.softuni.org/Contests/Practice/Index/503#2).
 
 Сега помислете дали може да напишем програмата по **по-умен начин**, така че да не повтаряме 20 пъти една и съща команда. Потърсете в Интернет информация за "**[for loop C#](https://www.google.bg/search?q=for+loop+C%23&oq=for+loop+C%23)**".

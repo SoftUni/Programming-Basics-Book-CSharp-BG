@@ -18,6 +18,6 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/503#1](https://judge.softuni.bg/Contests/Practice/Index/503#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/503#1](https://judge.softuni.org/Contests/Practice/Index/503#1).
 
 ![](/assets/chapter-1-images/02.Expression-03.png)

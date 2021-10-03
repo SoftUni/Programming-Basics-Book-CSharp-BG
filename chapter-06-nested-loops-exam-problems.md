@@ -89,7 +89,7 @@ string printMe = new string('*', 5);
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/513#0](https://judge.softuni.bg/Contests/Practice/Index/513#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/513#0](https://judge.softuni.org/Contests/Practice/Index/513#0).
 
 
 ## Задача: пеперуда
@@ -142,7 +142,7 @@ string printMe = new string('*', 5);
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/513#1](https://judge.softuni.bg/Contests/Practice/Index/513#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/513#1](https://judge.softuni.org/Contests/Practice/Index/513#1).
 
 
 ## Задача: знак "Стоп"
@@ -207,7 +207,7 @@ string printMe = new string('*', 5);
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/513#2](https://judge.softuni.bg/Contests/Practice/Index/513#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/513#2](https://judge.softuni.org/Contests/Practice/Index/513#2).
 
 
 ## Задача: стрелка
@@ -269,7 +269,7 @@ string printMe = new string('*', 5);
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/513#3](https://judge.softuni.bg/Contests/Practice/Index/513#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/513#3](https://judge.softuni.org/Contests/Practice/Index/513#3).
 
 
 ## Задача: брадва
@@ -323,4 +323,4 @@ string printMe = new string('*', 5);
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/513#4](https://judge.softuni.bg/Contests/Practice/Index/513#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/513#4](https://judge.softuni.org/Contests/Practice/Index/513#4).

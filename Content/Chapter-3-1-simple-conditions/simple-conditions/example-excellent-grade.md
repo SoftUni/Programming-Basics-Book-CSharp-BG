@@ -9,4 +9,4 @@
 #### Тестване в Judge системата
 
 Тествайте програмата от примера в judge системата на СофтУни:
-[https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0).
+[https://judge.softuni.org/Contests/Practice/Index/506#0](https://judge.softuni.org/Contests/Practice/Index/506#0).

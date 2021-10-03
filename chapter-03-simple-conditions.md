@@ -81,7 +81,7 @@ if (булев израз)
 #### Тестване в Judge системата
 
 Тествайте програмата от примера в judge системата на СофтУни:
-[https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0).
+[https://judge.softuni.org/Contests/Practice/Index/506#0](https://judge.softuni.org/Contests/Practice/Index/506#0).
 
 
 ## Проверки с if-else конструкция
@@ -108,7 +108,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#1](https://judge.softuni.org/Contests/Practice/Index/506#1).
 
 
 ## За къдравите скоби { } след if / else
@@ -145,7 +145,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#2](https://judge.softuni.org/Contests/Practice/Index/506#2).
 
 
 ### Пример: по-голямото число
@@ -158,7 +158,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#3](https://judge.softuni.org/Contests/Practice/Index/506#3).
 
 
 ## Живот на променлива
@@ -226,7 +226,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#4](https://judge.softuni.org/Contests/Practice/Index/506#4).
 
 
 ## Упражнения: прости проверки
@@ -267,7 +267,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#5](https://judge.softuni.bg/Contests/Practice/Index/506#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#5](https://judge.softuni.org/Contests/Practice/Index/506#5).
 
 
 ### Задача: сумиране на секунди
@@ -295,7 +295,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#6](https://judge.softuni.bg/Contests/Practice/Index/506#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#6](https://judge.softuni.org/Contests/Practice/Index/506#6).
 
 
 ### Задача: конвертор за мерни единици
@@ -334,7 +334,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#7](https://judge.softuni.bg/Contests/Practice/Index/506#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#7](https://judge.softuni.org/Contests/Practice/Index/506#7).
 
 
 ## Дебъгване - прости операции с дебъгер
@@ -412,7 +412,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#0](https://judge.softuni.bg/Contests/Practice/Index/506#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#0](https://judge.softuni.org/Contests/Practice/Index/506#0).
 
  ![](/assets/chapter-3-images/09.Excellent-result-06.png) 
 
@@ -459,7 +459,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#1](https://judge.softuni.org/Contests/Practice/Index/506#1).
 
  ![](/assets/chapter-3-images/02.Excellent-or-not-06.png)
 
@@ -487,7 +487,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#2](https://judge.softuni.bg/Contests/Practice/Index/506#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#2](https://judge.softuni.org/Contests/Practice/Index/506#2).
 
 
 ### Задача: намиране на по-голямото число
@@ -515,7 +515,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#3](https://judge.softuni.bg/Contests/Practice/Index/506#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#3](https://judge.softuni.org/Contests/Practice/Index/506#3).
 
 
 ### Задача: изписване на число до 9 с думи
@@ -537,7 +537,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#4](https://judge.softuni.bg/Contests/Practice/Index/506#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#4](https://judge.softuni.org/Contests/Practice/Index/506#4).
 
 
 ### Задача: познай паролата
@@ -558,7 +558,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#8](https://judge.softuni.bg/Contests/Practice/Index/506#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#8](https://judge.softuni.org/Contests/Practice/Index/506#8).
 
 
 ### Задача: число от 100 до 200
@@ -575,7 +575,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#9](https://judge.softuni.bg/Contests/Practice/Index/506#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#9](https://judge.softuni.org/Contests/Practice/Index/506#9).
 
 
 ### Задача: еднакви думи
@@ -598,7 +598,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#10](https://judge.softuni.bg/Contests/Practice/Index/506#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#10](https://judge.softuni.org/Contests/Practice/Index/506#10).
 
 
 ### Задача: информация за скоростта
@@ -617,7 +617,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#11](https://judge.softuni.bg/Contests/Practice/Index/506#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#11](https://judge.softuni.org/Contests/Practice/Index/506#11).
 
 
 ### Задача: лица на фигури
@@ -643,7 +643,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#12](https://judge.softuni.bg/Contests/Practice/Index/506#12).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#12](https://judge.softuni.org/Contests/Practice/Index/506#12).
 
 
 ### Задача: време + 15 минути
@@ -666,7 +666,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#13](https://judge.softuni.bg/Contests/Practice/Index/506#13).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#13](https://judge.softuni.org/Contests/Practice/Index/506#13).
 
 
 ### Задача: еднакви 3 числа
@@ -683,7 +683,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#14](https://judge.softuni.bg/Contests/Practice/Index/506#14).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#14](https://judge.softuni.org/Contests/Practice/Index/506#14).
 
 
 ### Задача: \* изписване на число от 0 до 100 с думи
@@ -704,7 +704,7 @@ else
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#15](https://judge.softuni.bg/Contests/Practice/Index/506#15).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#15](https://judge.softuni.org/Contests/Practice/Index/506#15).
 
 
 ## Графично (desktop) приложение

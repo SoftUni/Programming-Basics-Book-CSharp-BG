@@ -99,7 +99,7 @@ else
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/507#0](https://judge.softuni.bg/Contests/Practice/Index/507#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/507#0](https://judge.softuni.org/Contests/Practice/Index/507#0).
 
 
 ## Задача: тръби в басейн
@@ -158,7 +158,7 @@ else
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/507#1](https://judge.softuni.bg/Contests/Practice/Index/507#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/507#1](https://judge.softuni.org/Contests/Practice/Index/507#1).
 
 
 ## Задача: поспаливата котка Том
@@ -231,7 +231,7 @@ else
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/507#2](https://judge.softuni.bg/Contests/Practice/Index/507#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/507#2](https://judge.softuni.org/Contests/Practice/Index/507#2).
 
 
 ## Задача: реколта
@@ -298,7 +298,7 @@ else
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/507#3](https://judge.softuni.bg/Contests/Practice/Index/507#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/507#3](https://judge.softuni.org/Contests/Practice/Index/507#3).
 
 
 ## Задача: фирма
@@ -358,5 +358,5 @@ else
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/507#4](https://judge.softuni.bg/Contests/Practice/Index/507#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/507#4](https://judge.softuni.org/Contests/Practice/Index/507#4).
 

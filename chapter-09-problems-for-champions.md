@@ -102,7 +102,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/518#0](https://judge.softuni.bg/Contests/Practice/Index/518#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/518#0](https://judge.softuni.org/Contests/Practice/Index/518#0).
 
 
 ## Задача: магически дати
@@ -204,7 +204,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/518#1](https://judge.softuni.bg/Contests/Practice/Index/518#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/518#1](https://judge.softuni.org/Contests/Practice/Index/518#1).
 
 
 ## Задача: пет специални букви
@@ -339,4 +339,4 @@ weight(c1c2…cn) = 1 * weight(c1) + 2 * weight(c2) + … + n * weight(cn)
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/518#2](https://judge.softuni.bg/Contests/Practice/Index/518#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/518#2](https://judge.softuni.org/Contests/Practice/Index/518#2).

@@ -85,7 +85,7 @@
 
 **Повече** за различните **типове** данни в езика C# може да прочетете тук:
 
-[http://www.introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/\#\_Toc298863935](http://www.introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/#_Toc298863935)
+[https://introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/\#\_Toc298863935](https://introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/#_Toc298863935)
 
 По този начин успяхме да се справим успешно с **първата подзадача**. **Следващата** стъпка е да **преобразуваме входните данни** в подходящи **типове**, за да можем да извършим необходимите пресмятания. Избираме да използваме тип **`Int32`** или **`int`**, тъй като в условието на задачата e упоменато, че входните данни ще бъдат в **определен интервал**, за който този тип данни е напълно достатъчен. **Преобразуването** извършваме по следния начин:
 
@@ -120,7 +120,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#0](https://judge.softuni.bg/Contests/Practice/Index/517#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/517#0](https://judge.softuni.org/Contests/Practice/Index/517#0).
 
 
 ## Задача: смяна на плочки
@@ -181,7 +181,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1](https://judge.softuni.bg/Contests/Practice/Index/517#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/517#1](https://judge.softuni.org/Contests/Practice/Index/517#1).
 
 
 ## Задача: магазин за цветя
@@ -250,7 +250,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2](https://judge.softuni.bg/Contests/Practice/Index/517#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/517#2](https://judge.softuni.org/Contests/Practice/Index/517#2).
 
 
 ## Задача: оценки
@@ -312,7 +312,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3](https://judge.softuni.bg/Contests/Practice/Index/517#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/517#3](https://judge.softuni.org/Contests/Practice/Index/517#3).
 
 
 ## Задача: коледна шапка
@@ -368,7 +368,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4](https://judge.softuni.bg/Contests/Practice/Index/517#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/517#4](https://judge.softuni.org/Contests/Practice/Index/517#4).
 
 
 ## Задача: комбинации от букви
@@ -402,7 +402,7 @@
 
 ### Насоки и подсказки
 
-За последната задача имаме по условие входни данни на **3 реда**, които са представени от по един символ от **ASCII таблицата** ([http://www.asciitable.com/](http://www.asciitable.com/)). Бихме могли да използваме вече **дефинирана функция** в езика C#, като преобразуваме входните данни в тип данни **`char`** по следния начин:
+За последната задача имаме по условие входни данни на **3 реда**, които са представени от по един символ от **ASCII таблицата** ([https://www.asciitable.com/](https://www.asciitable.com/)). Бихме могли да използваме вече **дефинирана функция** в езика C#, като преобразуваме входните данни в тип данни **`char`** по следния начин:
 
 ![](/assets/chapter-8-2-images/06.Letters-01.png)
 
@@ -422,4 +422,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/517#5](https://judge.softuni.org/Contests/Practice/Index/517#5).

@@ -12,4 +12,4 @@
 
 **Повече** за различните **типове** данни в езика C# може да прочетете тук:
 
-[http://www.introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/\#\_Toc298863935](http://www.introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/#_Toc298863935)
+[https://introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/\#\_Toc298863935](https://introprogramming.info/intro-csharp-book/read-online/glava2-primitivni-tipove-i-promenlivi/#_Toc298863935)

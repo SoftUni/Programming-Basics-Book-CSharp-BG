@@ -13,4 +13,4 @@ Console.WriteLine("Hello, {0}!", name);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/504#2](https://judge.softuni.org/Contests/Practice/Index/504#2).

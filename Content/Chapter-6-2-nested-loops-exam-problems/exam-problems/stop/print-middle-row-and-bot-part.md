@@ -14,4 +14,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/513#2](https://judge.softuni.bg/Contests/Practice/Index/513#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/513#2](https://judge.softuni.org/Contests/Practice/Index/513#2).

@@ -20,4 +20,4 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/504#4](https://judge.softuni.org/Contests/Practice/Index/504#4).

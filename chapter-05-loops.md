@@ -40,7 +40,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#0](https://judge.softuni.bg/Contests/Practice/Index/510#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#0](https://judge.softuni.org/Contests/Practice/Index/510#0).
 
 Трябва да получите **100 точки** (напълно коректно решение).
 
@@ -65,7 +65,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#1](https://judge.softuni.bg/Contests/Practice/Index/510#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#1](https://judge.softuni.org/Contests/Practice/Index/510#1).
 
 
 ### Пример: всички латински букви
@@ -80,7 +80,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#2](https://judge.softuni.bg/Contests/Practice/Index/510#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#2](https://judge.softuni.org/Contests/Practice/Index/510#2).
 
 
 ### Пример: сумиране на числа
@@ -115,7 +115,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#3](https://judge.softuni.bg/Contests/Practice/Index/510#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#3](https://judge.softuni.org/Contests/Practice/Index/510#3).
 
 
 ### Пример: най-голямо число
@@ -140,7 +140,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#4](https://judge.softuni.bg/Contests/Practice/Index/510#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#4](https://judge.softuni.org/Contests/Practice/Index/510#4).
 
 
 ### Пример: най-малко число
@@ -163,7 +163,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#5](https://judge.softuni.bg/Contests/Practice/Index/510#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#5](https://judge.softuni.org/Contests/Practice/Index/510#5).
 
 
 ### Пример: лява и дясна сума
@@ -184,7 +184,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#6](https://judge.softuni.bg/Contests/Practice/Index/510#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#6](https://judge.softuni.org/Contests/Practice/Index/510#6).
 
 
 ### Пример: четна / нечетна сума
@@ -207,7 +207,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#7](https://judge.softuni.bg/Contests/Practice/Index/510#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#7](https://judge.softuni.org/Contests/Practice/Index/510#7).
 
 
 ### Пример: сумиране на гласните букви
@@ -233,7 +233,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#8](https://judge.softuni.bg/Contests/Practice/Index/510#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#8](https://judge.softuni.org/Contests/Practice/Index/510#8).
 
 
 ## Какво научихме от тази глава?
@@ -278,7 +278,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#9](https://judge.softuni.bg/Contests/Practice/Index/510#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#9](https://judge.softuni.org/Contests/Practice/Index/510#9).
 
 
 ### Задача: четни / нечетни позиции
@@ -302,7 +302,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#10](https://judge.softuni.bg/Contests/Practice/Index/510#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#10](https://judge.softuni.org/Contests/Practice/Index/510#10).
 
 
 ### Задача: еднакви двойки
@@ -330,7 +330,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/510#11](https://judge.softuni.bg/Contests/Practice/Index/510#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/510#11](https://judge.softuni.org/Contests/Practice/Index/510#11).
 
 
 ## Упражнения: графични и уеб приложения
@@ -345,7 +345,7 @@
 
 Нека първо се запознаем с **концепцията за рисуване “Turtle Graphics”**. Може да разгледаме следните източници:
 
-* Дефиниция на понятието “turtle graphics”: [http://c2.com/cgi/wiki?TurtleGraphics](http://c2.com/cgi/wiki?TurtleGraphics)
+* Дефиниция на понятието “turtle graphics”: [https://wiki.c2.com/?TurtleGraphics](https://wiki.c2.com/?TurtleGraphics)
 * Статия за “turtle graphics” в Wikipedia – [https://en.wikipedia.org/wiki/Turtle_graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
 * Интерактивен онлайн инструмент за чертане с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
 
@@ -353,7 +353,7 @@
 
 ![](/assets/chapter-5-images/13.Turtle-graphics-02.png)
 
-Инсталираме **NuGet** пакета **"Nakov.TurtleGraphics"** към нашия нов Windows Forms проект. От Visual Studio може да се добавят **външни библиотеки** (пакети) към съществуващ C# проект. Те добавят допълнителна функционалност към нашите приложения. Официалното хранилище (repository) за C# библиотеки се поддържа от Microsoft и се нарича **NuGet** ([http://www.nuget.org/](http://www.nuget.org)).
+Инсталираме **NuGet** пакета **"Nakov.TurtleGraphics"** към нашия нов Windows Forms проект. От Visual Studio може да се добавят **външни библиотеки** (пакети) към съществуващ C# проект. Те добавят допълнителна функционалност към нашите приложения. Официалното хранилище (repository) за C# библиотеки се поддържа от Microsoft и се нарича **NuGet** ([https://www.nuget.org/](https://www.nuget.org)).
 
 Кликаме с десен бутон на мишката върху проекта в **Solution Explorer** и избираме [**Manage NuGet Packages…**]:
  

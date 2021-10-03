@@ -1,6 +1,6 @@
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#1](https://judge.softuni.bg/Contests/Practice/Index/504#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/504#1](https://judge.softuni.org/Contests/Practice/Index/504#1).
 
 Решението би трябвало да бъде прието като напълно коректно:
 

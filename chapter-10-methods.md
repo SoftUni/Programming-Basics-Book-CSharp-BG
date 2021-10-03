@@ -103,7 +103,7 @@
 
 #### Тестване в Judge системата
 
-Програмата с общо пет метода, които се извикват един от друг, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.bg/Contests/Practice/Index/594#0](https://judge.softuni.bg/Contests/Practice/Index/594#0).
+Програмата с общо пет метода, които се извикват един от друг, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.org/Contests/Practice/Index/594#0](https://judge.softuni.org/Contests/Practice/Index/594#0).
 
 ## Методи с параметри
 
@@ -153,7 +153,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#1](https://judge.softuni.bg/Contests/Practice/Index/594#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#1](https://judge.softuni.org/Contests/Practice/Index/594#1).
 
 
 ### Незадължителни параметри
@@ -200,7 +200,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#2](https://judge.softuni.bg/Contests/Practice/Index/594#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#2](https://judge.softuni.org/Contests/Practice/Index/594#2).
 
 
 ### Пример: рисуване на запълнен квадрат
@@ -229,7 +229,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#3](https://judge.softuni.bg/Contests/Practice/Index/594#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#3](https://judge.softuni.org/Contests/Practice/Index/594#3).
 
 
 ## Връщане на резултат от метод
@@ -316,7 +316,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#4](https://judge.softuni.bg/Contests/Practice/Index/594#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#4](https://judge.softuni.org/Contests/Practice/Index/594#4).
 
 
 ### Пример: степен на число
@@ -339,7 +339,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#5](https://judge.softuni.bg/Contests/Practice/Index/594#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#5](https://judge.softuni.org/Contests/Practice/Index/594#5).
 
 
 ### Методи, връщащи няколко стойности
@@ -444,7 +444,7 @@ var division = Divide(1, 3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#6](https://judge.softuni.bg/Contests/Practice/Index/594#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#6](https://judge.softuni.org/Contests/Practice/Index/594#6).
 
 
 ## Вложени методи (локални функции)
@@ -579,7 +579,7 @@ var division = Divide(1, 3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#7](https://judge.softuni.bg/Contests/Practice/Index/594#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#7](https://judge.softuni.org/Contests/Practice/Index/594#7).
 
 
 ### Задача: по-малко число
@@ -602,7 +602,7 @@ var min = GetMin(GetMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#8](https://judge.softuni.bg/Contests/Practice/Index/594#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#8](https://judge.softuni.org/Contests/Practice/Index/594#8).
 
 
 ### Задача: повтаряне на низ
@@ -625,7 +625,7 @@ var min = GetMin(GetMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#9](https://judge.softuni.bg/Contests/Practice/Index/594#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#9](https://judge.softuni.org/Contests/Practice/Index/594#9).
 
 
 ### Задача: n-та цифра
@@ -644,7 +644,7 @@ var min = GetMin(GetMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#10](https://judge.softuni.bg/Contests/Practice/Index/594#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#10](https://judge.softuni.org/Contests/Practice/Index/594#10).
 
 
 ### Задача: число към бройна система
@@ -679,7 +679,7 @@ static string IntegerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата 
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#11](https://judge.softuni.bg/Contests/Practice/Index/594#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#11](https://judge.softuni.org/Contests/Practice/Index/594#11).
 
 
 ### Задача: известия
@@ -709,7 +709,7 @@ static string IntegerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#12](https://judge.softuni.bg/Contests/Practice/Index/594#12).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#12](https://judge.softuni.org/Contests/Practice/Index/594#12).
 
 
 ### Задача: числа към думи
@@ -743,7 +743,7 @@ static string IntegerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#13](https://judge.softuni.bg/Contests/Practice/Index/594#13).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#13](https://judge.softuni.org/Contests/Practice/Index/594#13).
 
 
 ### Задача: криптиране на низ
@@ -789,4 +789,4 @@ static string IntegerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#14](https://judge.softuni.bg/Contests/Practice/Index/594#14).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#14](https://judge.softuni.org/Contests/Practice/Index/594#14).

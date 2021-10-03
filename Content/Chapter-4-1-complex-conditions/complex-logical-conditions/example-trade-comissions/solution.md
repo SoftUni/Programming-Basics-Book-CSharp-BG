@@ -7,7 +7,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/508#7](https://judge.softuni.bg/Contests/Practice/Index/508#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/508#7](https://judge.softuni.org/Contests/Practice/Index/508#7).
 
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
