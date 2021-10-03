@@ -30,4 +30,4 @@ static string IntegerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата 
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#11](https://judge.softuni.bg/Contests/Practice/Index/594#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/594#11](https://judge.softuni.org/Contests/Practice/Index/594#11).

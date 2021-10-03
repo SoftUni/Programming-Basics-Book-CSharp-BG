@@ -16,4 +16,4 @@
 
 #### Тестване в Judge системата
 
-Програмата с общо пет метода, които се извикват един от друг, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.bg/Contests/Practice/Index/594#0](https://judge.softuni.bg/Contests/Practice/Index/594#0).
+Програмата с общо пет метода, които се извикват един от друг, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.org/Contests/Practice/Index/594#0](https://judge.softuni.org/Contests/Practice/Index/594#0).

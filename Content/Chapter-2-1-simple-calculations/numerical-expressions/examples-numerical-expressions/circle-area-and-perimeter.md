@@ -21,4 +21,4 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#5](https://judge.softuni.bg/Contests/Practice/Index/504#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/504#5](https://judge.softuni.org/Contests/Practice/Index/504#5).

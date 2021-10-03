@@ -7,6 +7,6 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/506#1](https://judge.softuni.bg/Contests/Practice/Index/506#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/506#1](https://judge.softuni.org/Contests/Practice/Index/506#1).
 
  ![](/assets/chapter-3-images/02.Excellent-or-not-06.png)

@@ -12,4 +12,4 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/512#9](https://judge.softuni.bg/Contests/Practice/Index/512#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/512#9](https://judge.softuni.org/Contests/Practice/Index/512#9).

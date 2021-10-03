@@ -30,4 +30,4 @@ Console.WriteLine("{1} + {1} = {0}", 1+1, 1);
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/504#3](https://judge.softuni.org/Contests/Practice/Index/504#3).
