@@ -84,3 +84,43 @@ span.run-code-loading {
     width: 100%;
     height: 100%;
 }
+
+/* Navigation Modal */
+
+.logo {
+    padding-top: 0.5em;
+    width: 120px;
+}
+
+.topnav {
+    background-color: #f1f1f1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.topnav a {
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+    padding-left: 1.5em;
+}
+
+@media screen and (max-width: 1000px) {
+    .topnav {
+        display: grid;
+    }
+    .topnav a {
+        padding-left: 0em;
+        padding-bottom: 0.3em;
+    }
+    .logobox {
+        padding-top: 0.3em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .topnav {
+        display: none;
+    }
+}
