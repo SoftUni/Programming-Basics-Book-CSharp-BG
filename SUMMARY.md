@@ -20,3 +20,11 @@
 * [10. Методи](chapter-10-methods.md)
 * [11. Хитрости и хакове](chapter-11-tricks-and-hacks.md)
 * [Заключение](chapter-12-conclusion.md)
+
+<hr />
+
+* [🎓 Софтуерен университет](https://softuni.bg)
+* [👨🏼‍💻 Стани програмист @ СофтУни](https://softuni.bg/apply)
+* [▶️ СофтУни @ Youtube](https://www.youtube.com/c/SoftuniBg)
+* [▶️ Code with Nakov @ Youtube](https://www.youtube.com/c/CodeWithNakov)
+* [📚 Книгите на Наков](https://introprogramming.info)
