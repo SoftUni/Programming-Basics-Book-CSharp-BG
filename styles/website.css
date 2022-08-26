@@ -98,7 +98,7 @@ span.run-code-loading {
 }
 
 .topnav a {
-    font-size: 0.95em;
+    font-size: 1.1em;
     text-align: center;
     display: inline-block;
     color: #333333;
@@ -109,6 +109,12 @@ span.run-code-loading {
     padding-top: 0.4em;
     width: 150px;
     min-width: 100px;
+}
+
+@media screen and (max-width: 1024px) {
+    .topnav a {
+        font-size: 0.95em;
+    }
 }
 
 @media screen and (max-width: 880px) {
