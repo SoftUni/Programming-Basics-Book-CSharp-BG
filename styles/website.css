@@ -98,7 +98,7 @@ span.run-code-loading {
 }
 
 .topnav a {
-    font-size: 1.1em;
+    font-size: 1.05em;
     text-align: center;
     display: inline-block;
     color: #333333;
@@ -107,7 +107,7 @@ span.run-code-loading {
 
 .topnav .logo {
     padding-top: 0.4em;
-    width: 150px;
+    width: 130px;
     min-width: 100px;
 }
 
@@ -140,3 +140,4 @@ span.run-code-loading {
         font-size: 80%;
     }
 }
+
