@@ -85,14 +85,12 @@ span.run-code-loading {
     height: 100%;
 }
 
-/* Navigation Modal */
 
-.logo {
-    padding-top: 0.5em;
-    width: 120px;
-}
+/* Top navigation menu */
 
 .topnav {
+    padding: 10px 5px 5px 15px;
+    border-radius: 3px;
     background-color: #f1f1f1;
     overflow: hidden;
     display: flex;
@@ -103,31 +101,35 @@ span.run-code-loading {
     text-align: center;
     display: inline-block;
     color: #333333;
-    padding-left: 1.5em;
+    padding-right: 2.5em;
 }
 
-@media screen and (max-width: 300px) {
-    .topnav {
-        display: none;
-    }
+.topnav .logo {
+    padding-top: 0.4em;
+    width: 120px;
+    min-width: 90px;
 }
 
-@media screen and (max-width: 750px) {
-    .logo {
+@media screen and (max-width: 800px) {
+    .topnav .logo {
         content: url("/assets/software-university-vertical-logo.svg");
-        padding-top: 0.5em;
-        padding-left: 1.5em;
-        width: 80px;
+        padding: 5px 0;
+        width: 50px;
+        min-width: 40px;
     }
     .topnav {
         white-space: normal;
-        display: flex;
         flex-direction: row;
     }
-     .topnav a {
-        padding-left: 0em;
-        padding-right: 1.5em;
-        padding-bottom: 0.3em;
-        font-size: 75%
+    .topnav a {
+        font-size: 90%;
+        padding-right: 7%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .topnav a {
+        padding-right: 1.2em;
+        font-size: 80%;
     }
 }
