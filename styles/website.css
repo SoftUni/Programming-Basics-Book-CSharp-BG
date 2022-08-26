@@ -98,6 +98,7 @@ span.run-code-loading {
 }
 
 .topnav a {
+    font-size: 0.95em;
     text-align: center;
     display: inline-block;
     color: #333333;
